@@ -15,815 +15,7 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-    <style>
-        :root {
-            --bg-base: #050505;
-            --text-main: #ffffff;
-            --text-muted: rgba(255, 255, 255, 0.6);
-            --accent: #fff;
-            --glass-bg: rgba(25, 25, 35, 0.4);
-            --glass-border: rgba(255, 255, 255, 0.08);
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--bg-base);
-            color: var(--text-main);
-            overflow-x: hidden;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* Blurred background image for main page */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: -40px;
-            background-image: url('https://static.wikia.nocookie.net/projectsekai/images/b/b5/Straightforward_Lyrics_T.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            filter: blur(30px) brightness(0.3);
-            z-index: -1;
-            pointer-events: none;
-        }
-
-
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--bg-base);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 255, 255, 0.4);
-        }
-
-        /* HEADER */
-        header {
-            padding: 40px 60px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-            z-index: 10;
-        }
-
-        .logo {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .logo i {
-            color: var(--accent);
-        }
-
-        .header-actions a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
-
-        .header-actions a:hover {
-            color: #fff;
-        }
-
-        /* MAIN COLLECTION GRID */
-        main {
-            padding: 0 60px 100px;
-            max-width: 1600px;
-            margin: 0 auto;
-        }
-
-        .chapter-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 48px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            background: linear-gradient(135deg, #fff, #888);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .chapter-subtitle {
-            font-size: 14px;
-            color: var(--text-muted);
-            margin-bottom: 40px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        .track-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 32px;
-            margin-bottom: 80px;
-        }
-
-        .track-card {
-            position: relative;
-            border-radius: 16px;
-            overflow: hidden;
-            cursor: pointer;
-            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-        }
-
-        .track-card:hover {
-            transform: translateY(-8px);
-            border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-        }
-
-        .track-cover-wrapper {
-            position: relative;
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            overflow: hidden;
-        }
-
-        .track-cover {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .track-card:hover .track-cover {
-            transform: scale(1.05);
-        }
-
-        .play-overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .track-card:hover .play-overlay {
-            opacity: 1;
-        }
-
-        .play-overlay i {
-            font-size: 48px;
-            color: rgba(255, 255, 255, 0.9);
-            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-            transform: scale(0.8);
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .track-card:hover .play-overlay i {
-            transform: scale(1);
-        }
-
-        .track-info {
-            padding: 20px;
-        }
-
-        .track-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 6px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .track-artist {
-            font-size: 14px;
-            color: var(--text-muted);
-            margin-bottom: 12px;
-        }
-
-        .track-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 12px;
-            color: var(--text-muted);
-            border-top: 1px solid var(--glass-border);
-            padding-top: 12px;
-        }
-
-        .badge {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-
-        /* LOCKED STATE */
-        .locked-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 32px;
-            margin-bottom: 80px;
-            opacity: 0.5;
-        }
-
-        .locked-card {
-            background: transparent;
-            border: 2px dashed var(--glass-border);
-            border-radius: 16px;
-            aspect-ratio: 16 / 9;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-muted);
-        }
-
-        .locked-card i {
-            font-size: 32px;
-            margin-bottom: 12px;
-        }
-
-
-        /* ========================================= */
-        /* NOW PLAYING OVERLAY */
-        /* ========================================= */
-        .now-playing-overlay {
-            position: fixed;
-            inset: 0;
-            z-index: 9999;
-            background: #000;
-            display: flex;
-            flex-direction: column;
-            transform: translateY(100%);
-            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-            overflow: hidden;
-        }
-
-        .now-playing-overlay.active {
-            transform: translateY(0);
-        }
-
-        .np-background {
-            position: absolute;
-            inset: -50px;
-            background-size: cover;
-            background-position: center;
-            filter: blur(60px) brightness(0.4);
-            z-index: 0;
-            transition: background-image 1s ease;
-        }
-
-        .np-header {
-            position: relative;
-            z-index: 10;
-            padding: 30px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .btn-close {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: #fff;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            font-size: 20px;
-            backdrop-filter: blur(10px);
-            transition: all 0.2s;
-        }
-
-        .btn-close:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: scale(1.05);
-        }
-
-        .np-content {
-            position: relative;
-            z-index: 10;
-            flex: 1;
-            display: flex;
-            padding: 0 60px 40px;
-            gap: 60px;
-            align-items: stretch;
-            max-width: 1800px;
-            margin: 0 auto;
-            width: 100%;
-            min-height: 0;
-            /* Enable shrinking */
-        }
-
-        /* Left Side: Video & Info */
-        .np-left {
-            flex: 1.2;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            min-height: 0;
-            /* Enable shrinking */
-        }
-
-        .video-container {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
-            background: #000;
-            position: relative;
-        }
-
-        .video-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        .np-track-details {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-
-        .np-title {
-            font-size: 36px;
-            font-weight: 800;
-            margin-bottom: 8px;
-        }
-
-        .np-artist {
-            font-size: 20px;
-            color: var(--text-muted);
-        }
-
-        .np-options-wrapper {
-            position: relative;
-        }
-
-        .btn-options {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: #fff;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            font-size: 20px;
-            backdrop-filter: blur(10px);
-            transition: all 0.2s;
-        }
-
-        .btn-options:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: scale(1.05);
-        }
-
-        .np-options-menu {
-            position: absolute;
-            bottom: 60px;
-            right: 0;
-            width: 280px;
-            background: rgba(25, 25, 35, 0.95);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 12px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            opacity: 0;
-            pointer-events: none;
-            transform: translateY(10px);
-            transition: all 0.2s;
-            z-index: 100;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        .np-options-menu.active {
-            opacity: 1;
-            pointer-events: auto;
-            transform: translateY(0);
-        }
-
-        .menu-track-title {
-            font-size: 16px;
-            font-weight: 700;
-        }
-
-        .menu-track-artist {
-            font-size: 13px;
-            color: var(--accent);
-            margin-bottom: 8px;
-        }
-
-        .menu-info-item {
-            font-size: 12px;
-            color: var(--text-muted);
-            line-height: 1.5;
-        }
-
-        .menu-ig-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            color: #fff;
-            text-decoration: none;
-            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-            padding: 10px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 13px;
-            margin-top: 10px;
-            transition: opacity 0.2s;
-        }
-
-        .menu-ig-link:hover {
-            opacity: 0.9;
-        }
-
-        /* Right Side: Lyrics */
-        .np-right {
-            flex: 0.8;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 24px;
-            overflow: hidden;
-            min-height: 0;
-            /* Enable shrinking */
-        }
-
-        .np-right::before,
-        .np-right::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            height: 100px;
-            z-index: 2;
-            pointer-events: none;
-        }
-
-        .np-right::before {
-            top: 0;
-            background: linear-gradient(to bottom, var(--bg-base) 0%, transparent 100%);
-            /* We will dynamically update the mask color in JS based on background, but for now just use transparency */
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
-        }
-
-        .np-right::after {
-            bottom: 0;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
-        }
-
-        .lyrics-container {
-            flex: 1;
-            position: relative;
-            overflow-y: auto;
-            padding: 40px 30px;
-            scroll-behavior: smooth;
-        }
-
-        .lyrics-container::-webkit-scrollbar {
-            display: none;
-        }
-
-        .lyric-line {
-            font-size: 20px;
-            font-weight: 700;
-            color: rgba(255, 255, 255, 0.3);
-            margin-bottom: 20px;
-            transition: color 0.3s, transform 0.3s;
-            cursor: pointer;
-            word-break: break-word;
-            white-space: pre-wrap;
-            line-height: 1.5;
-        }
-
-        .lyric-line:hover {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .lyric-line.active {
-            color: #fff;
-            transform: scale(1.05);
-            transform-origin: left center;
-        }
-
-        /* Bottom: Controls & Visualizer */
-        .np-bottom {
-            position: relative;
-            z-index: 10;
-            padding: 0 60px 40px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .progress-container {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            font-variant-numeric: tabular-nums;
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-
-        .progress-bar-bg {
-            flex: 1;
-            height: 6px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 3px;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .progress-bar-fill {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 0%;
-            background: #fff;
-            border-radius: 3px;
-            pointer-events: none;
-        }
-
-        .controls-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .visualizer {
-            display: flex;
-            align-items: flex-end;
-            gap: 4px;
-            height: 40px;
-            width: 100px;
-        }
-
-        .bar {
-            flex: 1;
-            background: var(--accent);
-            border-radius: 2px 2px 0 0;
-            height: 10%;
-            transition: height 0.5s ease-out;
-        }
-
-        .visualizer.playing .bar {
-            animation: bounce 0.5s infinite alternate ease-in;
-        }
-
-        .visualizer.playing .bar:nth-child(1) {
-            animation-delay: 0.1s;
-            animation-duration: 0.4s;
-        }
-
-        .visualizer.playing .bar:nth-child(2) {
-            animation-delay: 0.3s;
-            animation-duration: 0.6s;
-        }
-
-        .visualizer.playing .bar:nth-child(3) {
-            animation-delay: 0.0s;
-            animation-duration: 0.5s;
-        }
-
-        .visualizer.playing .bar:nth-child(4) {
-            animation-delay: 0.2s;
-            animation-duration: 0.7s;
-        }
-
-        .visualizer.playing .bar:nth-child(5) {
-            animation-delay: 0.4s;
-            animation-duration: 0.4s;
-        }
-
-        .visualizer.playing .bar:nth-child(6) {
-            animation-delay: 0.1s;
-            animation-duration: 0.4s;
-        }
-
-        .visualizer.playing .bar:nth-child(7) {
-            animation-delay: 0.3s;
-            animation-duration: 0.6s;
-        }
-
-        .visualizer.playing .bar:nth-child(8) {
-            animation-delay: 0.0s;
-            animation-duration: 0.5s;
-        }
-
-        .visualizer.playing .bar:nth-child(9) {
-            animation-delay: 0.3s;
-            animation-duration: 0.6s;
-        }
-
-        .visualizer.playing .bar:nth-child(10) {
-            animation-delay: 0.0s;
-            animation-duration: 0.5s;
-        }
-
-        @keyframes bounce {
-            0% {
-                height: 10%;
-            }
-
-            100% {
-                height: 100%;
-            }
-        }
-
-        .player-controls {
-            display: flex;
-            align-items: center;
-            gap: 32px;
-        }
-
-        .ctrl-btn {
-            background: transparent;
-            border: none;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 24px;
-            cursor: pointer;
-            transition: color 0.2s, transform 0.2s;
-        }
-
-        .ctrl-btn:hover {
-            color: #fff;
-            transform: scale(1.1);
-        }
-
-        .btn-play-pause {
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            background: #fff;
-            color: #000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            padding-left: 4px;
-            /* center play icon visually */
-        }
-
-        .btn-play-pause.is-playing {
-            padding-left: 0;
-        }
-
-        .btn-play-pause:hover {
-            transform: scale(1.05);
-            background: #f0f0f0;
-        }
-
-        /* NOW PLAYING TOAST */
-        .np-toast {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: rgba(25, 25, 35, 0.8);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            z-index: 9000;
-            cursor: pointer;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            transform: translateY(150%);
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .np-toast.active {
-            transform: translateY(0);
-        }
-
-        .np-toast:hover {
-            background: rgba(40, 40, 55, 0.9);
-        }
-
-        .np-toast-cover {
-            width: 48px;
-            height: 48px;
-            border-radius: 6px;
-            object-fit: cover;
-        }
-
-        .np-toast-info {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-
-        .np-toast-title {
-            font-size: 14px;
-            font-weight: 700;
-        }
-
-        .np-toast-artist {
-            font-size: 12px;
-            color: var(--text-muted);
-        }
-
-        .np-toast-icon {
-            font-size: 24px;
-            color: var(--accent);
-            margin-left: 10px;
-        }
-
-        .np-toast-controls {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-left: auto;
-            padding-left: 16px;
-        }
-
-        .toast-btn {
-            background: transparent;
-            border: none;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 18px;
-            cursor: pointer;
-            transition: color 0.2s, transform 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-        }
-
-        .toast-btn:hover {
-            color: #fff;
-            background: rgba(255, 255, 255, 0.1);
-            transform: scale(1.1);
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .np-content {
-                flex-direction: column;
-                padding: 0 30px;
-                gap: 30px;
-            }
-
-            .np-right {
-                width: 100%;
-                height: 30vh;
-            }
-
-            .np-bottom {
-                padding: 0 30px 40px;
-            }
-
-            header,
-            main {
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -993,10 +185,59 @@
             //Chapter -1
             {
                 chapter: -1,
-                title: '凉凉', artist: '杨宗纬&张碧晨',
-                context: '三生三世十里桃花ost',
-                date: '2017', ytId: 'f2J1gH4j318', start: 0,
-                lyrics: ``
+                title: '三生三世', artist: '张杰',
+                context: '《三生三世十里桃花》片头曲', desc: '',
+                date: '2017', ytId: 'wdtEWS2D9xo', start: 0,
+                lyrics: `[00:29.83]握不紧那段过往
+[00:33.24]冥灭了结魄光芒
+[00:36.69]那一滴离别的泪
+[00:40.24]灼烧着我的胸膛
+[00:43.75]爱在天地中流转
+[00:47.27]一颗心为谁奔忙
+[00:50.78]四海八荒身在何方
+[00:54.38]岁月该如何安放
+[00:57.98]听风声在沙沙作响
+[01:01.28]敲打着谁的愁肠
+[01:04.84]思念在一瞬间生长
+[01:08.44]才忘了夜多漫长
+[01:11.95]掌心的泪握到滚烫
+[01:15.15]只愿为你三生痴狂
+[01:19.11]落花满天又闻琴香
+[01:22.61]与你天地间徜徉
+[01:26.11]如果爱太荒凉我陪你梦一场
+[01:29.66]赎回你所有泪光
+[01:33.21]这一路有多远这三世有多长
+[01:36.66]执手到地老天荒
+[01:40.22]风凄凄雾茫茫雨滚滚雪漫漫
+[01:43.72]一步步都陪你同往
+[01:47.36]牵着手别惊慌管明天会怎样
+[01:50.76]哪怕注定流浪哪怕海角天涯
+[02:26.20]听风声在沙沙作响
+[02:29.63]敲打着谁的愁肠
+[02:33.09]思念在一瞬间生长
+[02:36.59]才忘了夜多漫长
+[02:40.20]掌心的泪握到滚烫
+[02:43.43]只愿为你三生痴狂
+[02:47.30]落花满天又闻琴香
+[02:50.85]与你天地间徜徉
+[02:54.33]如果爱太荒凉我陪你梦一场
+[02:58.14]赎回你所有泪光
+[03:01.39]这一路有多远这三世有多长
+[03:04.85]执手到地老天荒
+[03:08.41]风凄凄雾茫茫雨滚滚雪漫漫
+[03:11.97]一步步都陪你同往
+[03:15.47]牵着手别惊慌管明天会怎样
+[03:18.97]哪怕注定流浪
+[03:22.59]手牢牢不放爱念念不忘
+[03:26.23]人生何须多辉煌
+[03:29.60]浮华的终成空执着的都随风
+[03:33.21]情路何须多跌宕
+[03:36.58]要遇多少风浪心不再摇晃
+[03:40.32]一起细数这过往
+[03:43.02]陪你等风停了雾散了
+[03:45.50]雨住了雪化了
+[03:47.19]再遇见绝美月光
+[03:50.55]还有我在你身旁`
             },
             //Chapter 0
             {
@@ -1301,6 +542,48 @@
                 context: 'Game - Minecraft', desc: '',
                 date: '', ytId: 'laZusNy8QiY', start: 0,
             },
+            {
+                chapter: 0,
+                title: '一路生花', artist: '温奕心',
+                context: '中秋晚会', desc: '',
+                date: 'SEP 2022', ytId: '-RDocB1x-70', start: 0,
+                lyrics: `
+                [00:16.46]海上的晚霞像年少的画
+[00:21.11]铺在天空等海鸥衔走它
+[00:27.12]遥远的帆任风浪拍打
+[00:31.72]为梦再痛也不会害怕
+[00:37.82]远走的风沙去谁的天涯
+[00:42.40]春天可曾在哪里见过他
+[00:48.39]时间的手抚过了脸颊
+[00:53.10]他们谁都沉默不说话
+[01:01.16]我希望许过的愿望一路生花
+[01:06.44]护送那时的梦抵挡过风沙
+[01:11.89]指尖的樱花如诗写谁的韶华
+[01:17.11]疯狂的热爱夹带着文雅
+[01:22.39]我希望许过的愿望一路生花
+[01:27.70]将那雨中的人藏在屋檐下
+[01:33.09]岁月在冲刷逆流沧桑的喧哗
+[01:38.42]安静的夜晚你在想谁吗
+[02:08.54]远走的风沙去谁的天涯
+[02:12.99]春天可曾在哪里见过他
+[02:19.10]时间的手抚过了脸颊
+[02:23.75]他们谁都沉默不说话
+[02:31.76]我希望许过的愿望一路生花
+[02:37.00]将那雨中的人藏在屋檐下
+[02:42.41]岁月在冲刷逆流沧桑的喧哗
+[02:47.70]安静的夜晚你在想谁吗
+[02:53.76]一路生花 一路生花
+[02:59.08]挡过风沙 挡过风沙
+[03:41.20]我希望许过的愿望一路生花
+[03:46.45]护送那时的梦抵挡过风沙
+[03:51.80]指尖的樱花如诗写谁的韶华
+[03:57.14]疯狂的热爱夹带着文雅
+[04:02.50]我希望许过的愿望
+[04:08.42]一路生花 一路生花
+[04:18.52]安静的夜晚你在想谁吗
+[04:29.05]安静的夜晚你在想谁吗
+                `
+            },
             // Chapter 1
             {
                 chapter: 1,
@@ -1526,6 +809,50 @@
                     [04:29.12]Rudini(ndugu) rudini(mashujaa)
                     [04:33.21]Mara ya tena mwangani
                     [04:43.01]Maisha marefu ni sasa
+`
+            },
+            {
+                chapter: 2,
+                title: 'Golden Sign', artist: 'HOYO-MiX',
+                context: 'Game - Zenless Zone Zero', desc: '',
+                date: 'DEC 2024', ytId: 'Hj1CBJxkyeA', start: 0,
+                lyrics: `
+[00:28.06]Yeah, the shining golden sign (ha-ha, yeah)
+[00:30.36] 
+[00:31.01]Let your inner spark ignite (ring, ring)
+[00:34.21] 
+[00:34.65]Find your treasure (treasure), glowing bright
+[00:37.53] 
+[00:37.73]Reaching for it and take a flight (woah)
+[00:40.80] 
+[00:41.05]Lucky or not, at least you tried
+[00:44.06] 
+[00:44.19]Chin up, in yourself, confide (yeah)
+[00:47.45] 
+[00:47.58]No doubt fate's on your side
+[00:50.72] 
+[00:50.72]You're chosen (skrrt, skrrt), so enjoy the ride (uh)
+[00:54.17] 
+[00:54.66]There are things you can't control
+[00:57.60] 
+[00:58.05]Fortune's fickle (ring, ring), that's this world
+[01:00.80] 
+[01:00.80]Embrace the result (result), stop keeping score (yeah)
+[01:04.06] 
+[01:04.35]That's the essence
+[01:06.04] 
+[01:06.04]Life's true goal (woah)
+[01:07.64] 
+[01:07.89]Not just trials (uh) and battles tough (yeah)
+[01:10.71] 
+[01:10.90]Go taking joy in simple stuff
+[01:14.16] 
+[01:14.80]Even when it's getting rough
+[01:17.24] 
+[01:17.24]Take it easy, having fun is just enough
+[01:20.56] 
+
+
 `
             },
             // Chapter 3
