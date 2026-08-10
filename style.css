@@ -1,8 +1,8 @@
 :root {
     --bg-base: #050505;
-    --text-main: white;
+    --text-main: #ffffff;
     --text-muted: rgba(255, 255, 255, 0.6);
-    --accent: white;
+    --accent: #fff;
     --glass-bg: rgba(25, 25, 35, 0.4);
     --glass-border: rgba(255, 255, 255, 0.08);
 }
@@ -21,6 +21,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Blurred background image for main page */
 body::before {
     content: '';
     position: fixed;
@@ -34,6 +35,8 @@ body::before {
     pointer-events: none;
 }
 
+
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -51,6 +54,7 @@ body::before {
     background: rgba(255, 255, 255, 0.4);
 }
 
+/* HEADER */
 header {
     padding: 40px 60px;
     display: flex;
@@ -69,7 +73,7 @@ header {
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 .logo i {
@@ -85,9 +89,10 @@ header {
 }
 
 .header-actions a:hover {
-    color: white;
+    color: #fff;
 }
 
+/* MAIN COLLECTION GRID */
 main {
     padding: 0 60px 100px;
     max-width: 1600px;
@@ -99,7 +104,7 @@ main {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 12px;
-    background: linear-gradient(135deg, white, #888);
+    background: linear-gradient(135deg, #fff, #888);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -216,6 +221,7 @@ main {
     font-weight: 600;
 }
 
+/* LOCKED STATE */
 .locked-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -241,6 +247,10 @@ main {
     margin-bottom: 12px;
 }
 
+
+/* ========================================= */
+/* NOW PLAYING OVERLAY */
+/* ========================================= */
 .now-playing-overlay {
     position: fixed;
     inset: 0;
@@ -279,7 +289,7 @@ main {
 .btn-close {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: white;
+    color: #fff;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -309,14 +319,17 @@ main {
     margin: 0 auto;
     width: 100%;
     min-height: 0;
+    /* Enable shrinking */
 }
 
+/* Left Side: Video & Info */
 .np-left {
     flex: 1.2;
     display: flex;
     flex-direction: column;
     gap: 30px;
     min-height: 0;
+    /* Enable shrinking */
 }
 
 .video-container {
@@ -325,7 +338,7 @@ main {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
-    background: black;
+    background: #000;
     position: relative;
 }
 
@@ -359,7 +372,7 @@ main {
 .btn-options {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: white;
+    color: #fff;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -427,9 +440,9 @@ main {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    color: white;
+    color: #fff;
     text-decoration: none;
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, red 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     padding: 10px;
     border-radius: 8px;
     font-weight: 600;
@@ -442,6 +455,7 @@ main {
     opacity: 0.9;
 }
 
+/* Right Side: Lyrics */
 .np-right {
     flex: 0.8;
     display: flex;
@@ -452,6 +466,7 @@ main {
     border-radius: 24px;
     overflow: hidden;
     min-height: 0;
+    /* Enable shrinking */
 }
 
 .np-right::before,
@@ -468,6 +483,7 @@ main {
 .np-right::before {
     top: 0;
     background: linear-gradient(to bottom, var(--bg-base) 0%, transparent 100%);
+    /* We will dynamically update the mask color in JS based on background, but for now just use transparency */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
 }
 
@@ -505,11 +521,12 @@ main {
 }
 
 .lyric-line.active {
-    color: white;
+    color: #fff;
     transform: scale(1.05);
     transform-origin: left center;
 }
 
+/* Bottom: Controls & Visualizer */
 .np-bottom {
     position: relative;
     z-index: 10;
@@ -544,7 +561,7 @@ main {
     left: 0;
     height: 100%;
     width: 0%;
-    background: white;
+    background: #fff;
     border-radius: 3px;
     pointer-events: none;
 }
@@ -651,7 +668,7 @@ main {
 }
 
 .ctrl-btn:hover {
-    color: white;
+    color: #fff;
     transform: scale(1.1);
 }
 
@@ -659,13 +676,14 @@ main {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     padding-left: 4px;
+    /* center play icon visually */
 }
 
 .btn-play-pause.is-playing {
@@ -677,6 +695,7 @@ main {
     background: #f0f0f0;
 }
 
+/* NOW PLAYING TOAST */
 .np-toast {
     position: fixed;
     bottom: 30px;
@@ -758,11 +777,12 @@ main {
 }
 
 .toast-btn:hover {
-    color: white;
+    color: #fff;
     background: rgba(255, 255, 255, 0.1);
     transform: scale(1.1);
 }
 
+/* Responsive */
 @media (max-width: 1024px) {
     .np-content {
         flex-direction: column;
@@ -784,8 +804,4 @@ main {
         padding-left: 30px;
         padding-right: 30px;
     }
-}
-
-.controls-spacer {
-    width: 100px;
 }
