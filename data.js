@@ -6,115 +6,116 @@ const tracks = [
         context: '《三生三世十里桃花》片头曲', desc: '',
         date: '', ytId: 'wdtEWS2D9xo', start: 0,
         lyrics: `
-                    [00:29.83]握不紧那段过往
-                    [00:33.24]冥灭了结魄光芒
-                    [00:36.69]那一滴离别的泪
-                    [00:40.24]灼烧着我的胸膛
-                    [00:43.75]爱在天地中流转
-                    [00:47.27]一颗心为谁奔忙
-                    [00:50.78]四海八荒身在何方
-                    [00:54.38]岁月该如何安放
-                    [00:57.98]听风声在沙沙作响
-                    [01:01.28]敲打着谁的愁肠
-                    [01:04.84]思念在一瞬间生长
-                    [01:08.44]才忘了夜多漫长
-                    [01:11.95]掌心的泪握到滚烫
-                    [01:15.15]只愿为你三生痴狂
-                    [01:19.11]落花满天又闻琴香
-                    [01:22.61]与你天地间徜徉
-                    [01:26.11]如果爱太荒凉我陪你梦一场
-                    [01:29.66]赎回你所有泪光
-                    [01:33.21]这一路有多远这三世有多长
-                    [01:36.66]执手到地老天荒
-                    [01:40.22]风凄凄雾茫茫雨滚滚雪漫漫
-                    [01:43.72]一步步都陪你同往
-                    [01:47.36]牵着手别惊慌管明天会怎样
-                    [01:50.76]哪怕注定流浪哪怕海角天涯
-                    [02:26.20]听风声在沙沙作响
-                    [02:29.63]敲打着谁的愁肠
-                    [02:33.09]思念在一瞬间生长
-                    [02:36.59]才忘了夜多漫长
-                    [02:40.20]掌心的泪握到滚烫
-                    [02:43.43]只愿为你三生痴狂
-                    [02:47.30]落花满天又闻琴香
-                    [02:50.85]与你天地间徜徉
-                    [02:54.33]如果爱太荒凉我陪你梦一场
-                    [02:58.14]赎回你所有泪光
-                    [03:01.39]这一路有多远这三世有多长
-                    [03:04.85]执手到地老天荒
-                    [03:08.41]风凄凄雾茫茫雨滚滚雪漫漫
-                    [03:11.97]一步步都陪你同往
-                    [03:15.47]牵着手别惊慌管明天会怎样
-                    [03:18.97]哪怕注定流浪
-                    [03:22.59]手牢牢不放爱念念不忘
-                    [03:26.23]人生何须多辉煌
-                    [03:29.60]浮华的终成空执着的都随风
-                    [03:33.21]情路何须多跌宕
-                    [03:36.58]要遇多少风浪心不再摇晃
-                    [03:40.32]一起细数这过往
-                    [03:43.02]陪你等风停了雾散了
-                    [03:45.50]雨住了雪化了
-                    [03:47.19]再遇见绝美月光
-                    [03:50.55]还有我在你身旁`
+            [00:29.83]握不紧那段过往
+            [00:33.24]冥灭了结魄光芒
+            [00:36.69]那一滴离别的泪
+            [00:40.24]灼烧着我的胸膛
+            [00:43.75]爱在天地中流转
+            [00:47.27]一颗心为谁奔忙
+            [00:50.78]四海八荒身在何方
+            [00:54.38]岁月该如何安放
+            [00:57.98]听风声在沙沙作响
+            [01:01.28]敲打着谁的愁肠
+            [01:04.84]思念在一瞬间生长
+            [01:08.44]才忘了夜多漫长
+            [01:11.95]掌心的泪握到滚烫
+            [01:15.15]只愿为你三生痴狂
+            [01:19.11]落花满天又闻琴香
+            [01:22.61]与你天地间徜徉
+            [01:26.11]如果爱太荒凉我陪你梦一场
+            [01:29.66]赎回你所有泪光
+            [01:33.21]这一路有多远这三世有多长
+            [01:36.66]执手到地老天荒
+            [01:40.22]风凄凄雾茫茫雨滚滚雪漫漫
+            [01:43.72]一步步都陪你同往
+            [01:47.36]牵着手别惊慌管明天会怎样
+            [01:50.76]哪怕注定流浪哪怕海角天涯
+            [02:26.20]听风声在沙沙作响
+            [02:29.63]敲打着谁的愁肠
+            [02:33.09]思念在一瞬间生长
+            [02:36.59]才忘了夜多漫长
+            [02:40.20]掌心的泪握到滚烫
+            [02:43.43]只愿为你三生痴狂
+            [02:47.30]落花满天又闻琴香
+            [02:50.85]与你天地间徜徉
+            [02:54.33]如果爱太荒凉我陪你梦一场
+            [02:58.14]赎回你所有泪光
+            [03:01.39]这一路有多远这三世有多长
+            [03:04.85]执手到地老天荒
+            [03:08.41]风凄凄雾茫茫雨滚滚雪漫漫
+            [03:11.97]一步步都陪你同往
+            [03:15.47]牵着手别惊慌管明天会怎样
+            [03:18.97]哪怕注定流浪
+            [03:22.59]手牢牢不放爱念念不忘
+            [03:26.23]人生何须多辉煌
+            [03:29.60]浮华的终成空执着的都随风
+            [03:33.21]情路何须多跌宕
+            [03:36.58]要遇多少风浪心不再摇晃
+            [03:40.32]一起细数这过往
+            [03:43.02]陪你等风停了雾散了
+            [03:45.50]雨住了雪化了
+            [03:47.19]再遇见绝美月光
+            [03:50.55]还有我在你身旁`
     },
     {
         chapter: -1,
         title: 'Monster', artist: 'Katie Sky',
         context: '', desc: '',
         date: '', ytId: '_Rh3dTb1KYE', start: 0,
-        lyrics: `[00:00.06]I see your monsters, I see your pain
-[00:05.67]Tell me your problems, I'll chase them away
-[00:11.19]I'll be your lighthouse, I'll make it okay
-[00:16.36]When I see your monsters, I'll stand there so brave
-[00:21.07]And chase them all away
-[00:24.51]
-[00:27.54]In the dark we, we
-[00:29.92]We stand apart we, we
-[00:32.99]Never see that the things that we need are staring right at us
-[00:38.41]You just want to hide, hide, hide
-[00:41.23]Never show your smile, smile
-[00:43.83]Stand alone when you need someone, it's the hardest thing of all
-[00:48.42]That you see are the bad, bad, bad
-[00:52.40]Memories, take your time and you'll find me
-[00:57.56]
-[00:57.57]I see your monsters, I see your pain
-[01:02.92]Tell me your problems, I'll chase them away
-[01:08.36]I'll be your lighthouse, I'll make it okay
-[01:13.57]When I see your monsters, I'll stand there so brave
-[01:18.32]And chase them all away
-[01:21.73]
-[01:22.11]I could see the sky, sky, sky
-[01:24.81]Beautiful tonight, night
-[01:27.43]When you breathe, why can't you see that the clouds are in your head?
-[01:33.01]I will stay there, there, there
-[01:35.70]No need to fear, fear
-[01:38.30]And when you need to talk it out with someone you can trust
-[01:42.90]What you see are the bad, bad, bad
-[01:46.92]Memories, take your time and you'll find me
-[01:52.05]
-[01:52.06]I see your monsters, I see your pain
-[01:57.48]Tell me your problems, I'll chase them away
-[02:02.90]I'll be your lighthouse, I'll make it okay
-[02:08.07]When I see your monsters, I'll stand there so brave
-[02:12.86]And chase them all away
-[02:18.30]I'll chase them all away
-[02:24.18]
-[02:27.47]You've got the chance to see the light
-[02:32.91]Even in the darkest night
-[02:38.30]And I will be here like you were for me
-[02:44.51]So just let me in
-[02:47.44]
-[02:48.96]'Cause I see your monsters, I see your pain
-[02:54.83]Tell me your problems, I'll chase them away
-[03:00.24]I'll be your lighthouse, I'll make it okay
-[03:05.33]When I see your monsters, I'll stand there so brave
-[03:10.47]
-[03:11.17]I see your monsters, I see your pain
-[03:16.60]Tell me your problems, I'll chase them away
-[03:22.01]I'll be your lighthouse, I'll make it okay (I'll make it okay)
-[03:27.23]When I see your monsters, I'll stand there so brave
-[03:31.95]And chase them all away
-[03:35.07]`
+        lyrics: `
+            [00:00.06]I see your monsters, I see your pain
+            [00:05.67]Tell me your problems, I'll chase them away
+            [00:11.19]I'll be your lighthouse, I'll make it okay
+            [00:16.36]When I see your monsters, I'll stand there so brave
+            [00:21.07]And chase them all away
+            [00:24.51]
+            [00:27.54]In the dark we, we
+            [00:29.92]We stand apart we, we
+            [00:32.99]Never see that the things that we need are staring right at us
+            [00:38.41]You just want to hide, hide, hide
+            [00:41.23]Never show your smile, smile
+            [00:43.83]Stand alone when you need someone, it's the hardest thing of all
+            [00:48.42]That you see are the bad, bad, bad
+            [00:52.40]Memories, take your time and you'll find me
+            [00:57.56]
+            [00:57.57]I see your monsters, I see your pain
+            [01:02.92]Tell me your problems, I'll chase them away
+            [01:08.36]I'll be your lighthouse, I'll make it okay
+            [01:13.57]When I see your monsters, I'll stand there so brave
+            [01:18.32]And chase them all away
+            [01:21.73]
+            [01:22.11]I could see the sky, sky, sky
+            [01:24.81]Beautiful tonight, night
+            [01:27.43]When you breathe, why can't you see that the clouds are in your head?
+            [01:33.01]I will stay there, there, there
+            [01:35.70]No need to fear, fear
+            [01:38.30]And when you need to talk it out with someone you can trust
+            [01:42.90]What you see are the bad, bad, bad
+            [01:46.92]Memories, take your time and you'll find me
+            [01:52.05]
+            [01:52.06]I see your monsters, I see your pain
+            [01:57.48]Tell me your problems, I'll chase them away
+            [02:02.90]I'll be your lighthouse, I'll make it okay
+            [02:08.07]When I see your monsters, I'll stand there so brave
+            [02:12.86]And chase them all away
+            [02:18.30]I'll chase them all away
+            [02:24.18]
+            [02:27.47]You've got the chance to see the light
+            [02:32.91]Even in the darkest night
+            [02:38.30]And I will be here like you were for me
+            [02:44.51]So just let me in
+            [02:47.44]
+            [02:48.96]'Cause I see your monsters, I see your pain
+            [02:54.83]Tell me your problems, I'll chase them away
+            [03:00.24]I'll be your lighthouse, I'll make it okay
+            [03:05.33]When I see your monsters, I'll stand there so brave
+            [03:10.47]
+            [03:11.17]I see your monsters, I see your pain
+            [03:16.60]Tell me your problems, I'll chase them away
+            [03:22.01]I'll be your lighthouse, I'll make it okay (I'll make it okay)
+            [03:27.23]When I see your monsters, I'll stand there so brave
+            [03:31.95]And chase them all away
+            [03:35.07]`
     },
     //Chapter 0
     {
@@ -123,102 +124,102 @@ const tracks = [
         context: '', desc: '',
         date: '', ytId: 'hT_nvWreIhg', start: 0,
         lyrics: `
-                    [00:00.29]Lately I've been I've been losing sleep
-                    [00:04.99]Dreaming about the things that we could be
-                    [00:08.89]But baby I've been I've been praying hard
-                    [00:13.86]Said no more counting dollars
-                    [00:15.86]We'll be counting stars
-                    [00:18.78]Yeah we'll be counting stars
-                    [00:37.55]I see this life like a swinging vine
-                    [00:40.17]Swing my heart across the line
-                    [00:42.08]In my face is flashing signs
-                    [00:44.07]Seek it out and ye' shall find
-                    [00:45.97]Old but I'm not that old
-                    [00:48.01]Young but I'm not that bold
-                    [00:49.93]And I don't think the world is sold
-                    [00:52.00]I'm just doing what we're told
-                    [00:54.53]I I I I feel something so right
-                    [00:58.73]Doing the wrong thing
-                    [01:02.18]I I I I feel something so wrong
-                    [01:06.53]Doing the right thing
-                    [01:09.95]I couldn't lie couldn't lie couldn't lie
-                    [01:13.70]Everything that kills me makes me feel alive
-                    [01:17.66]Lately I've been I've been losing sleep
-                    [01:21.43]Dreaming about the things we could be
-                    [01:25.25]But baby I've been I've been praying hard
-                    [01:29.26]Said no more counting dollars
-                    [01:31.21]We'll be counting stars
-                    [01:33.34]Lately I've been I've been losing sleep
-                    [01:37.22]Dreaming about the things we could be
-                    [01:41.14]But baby I've been I've been praying hard
-                    [01:45.06]Said no more counting dollars
-                    [01:47.02]We'll be we'll be counting stars
-                    [01:56.25]I feel the love and I feel it burn
-                    [01:58.95]Down this river every turn
-                    [02:00.83]Hope is our four-letter word
-                    [02:02.72]Make that money watch it burn
-                    [02:04.64]Old but I'm not that old
-                    [02:06.84]Young but I'm not that bold
-                    [02:08.63]And I don't think the world is sold
-                    [02:10.53]I'm just doing what we're told
-                    [02:12.94]I I I I feel something so wrong
-                    [02:17.34]Doing the right thing
-                    [02:20.78]I could lie could lie could lie
-                    [02:24.57]Everything that drowns me makes me wanna fly
-                    [02:28.40]Lately I've been I've been losing sleep
-                    [02:32.31]Dreaming about the things we could be
-                    [02:36.10]But baby I've been I've been praying hard
-                    [02:40.09]Said no more counting dollars
-                    [02:42.11]We'll be counting stars
-                    [02:44.22]Lately I've been I've been losing sleep
-                    [02:48.21]Dreaming about the things we could be
-                    [02:51.90]But baby I've been I've been praying hard
-                    [02:55.83]Said no more counting dollars
-                    [02:57.65]We'll be we'll be counting stars
-                    [03:03.92]Take that money
-                    [03:04.52]Watch it burn
-                    [03:05.35]Sink in the river
-                    [03:06.38]The lessons I've learned
-                    [03:07.55]Take that money
-                    [03:08.23]Watch it burn
-                    [03:09.42]Sink in the river
-                    [03:10.39]The lessons I've learned
-                    [03:11.51]Take that money
-                    [03:12.33]Watch it burn
-                    [03:13.36]Sink in the river
-                    [03:14.35]The lessons I've learned
-                    [03:15.52]Take that money
-                    [03:16.41]Watch it burn
-                    [03:17.34]Sink in the river
-                    [03:18.33]The lessons I've learned
-                    [03:19.48]Everything that kills me
-                    [03:25.36]Makes me feel alive
-                    [03:26.56]Lately I've been I've been losing sleep
-                    [03:30.26]Dreaming about the things we could be
-                    [03:34.12]But baby I've been I've been praying hard
-                    [03:38.13]Said no more counting dollars
-                    [03:40.04]We'll be counting stars
-                    [03:41.98]Lately I've been I've been losing sleep
-                    [03:46.16]Dreaming about the things we could be
-                    [03:50.01]But baby I've been I've been praying hard
-                    [03:54.02]Said no more counting dollars
-                    [03:55.96]We'll be we'll be counting stars
-                    [03:58.57]Take that money
-                    [03:59.12]Watch it burn
-                    [03:59.61]Sink in the river
-                    [04:00.31]The lessons I've learned
-                    [04:01.73]Take that money
-                    [04:02.53]Watch it burn
-                    [04:03.47]Sink in the river
-                    [04:04.50]The lessons I've learned
-                    [04:05.68]Take that money
-                    [04:06.38]Watch it burn
-                    [04:07.18]Sink in the river
-                    [04:08.49]The lessons I've learned
-                    [04:09.33]Take that money
-                    [04:10.38]Watch it burn
-                    [04:11.16]Sink in the river
-                    [04:12.10]The lessons I've learned
+            [00:00.29]Lately I've been I've been losing sleep
+            [00:04.99]Dreaming about the things that we could be
+            [00:08.89]But baby I've been I've been praying hard
+            [00:13.86]Said no more counting dollars
+            [00:15.86]We'll be counting stars
+            [00:18.78]Yeah we'll be counting stars
+            [00:37.55]I see this life like a swinging vine
+            [00:40.17]Swing my heart across the line
+            [00:42.08]In my face is flashing signs
+            [00:44.07]Seek it out and ye' shall find
+            [00:45.97]Old but I'm not that old
+            [00:48.01]Young but I'm not that bold
+            [00:49.93]And I don't think the world is sold
+            [00:52.00]I'm just doing what we're told
+            [00:54.53]I I I I feel something so right
+            [00:58.73]Doing the wrong thing
+            [01:02.18]I I I I feel something so wrong
+            [01:06.53]Doing the right thing
+            [01:09.95]I couldn't lie couldn't lie couldn't lie
+            [01:13.70]Everything that kills me makes me feel alive
+            [01:17.66]Lately I've been I've been losing sleep
+            [01:21.43]Dreaming about the things we could be
+            [01:25.25]But baby I've been I've been praying hard
+            [01:29.26]Said no more counting dollars
+            [01:31.21]We'll be counting stars
+            [01:33.34]Lately I've been I've been losing sleep
+            [01:37.22]Dreaming about the things we could be
+            [01:41.14]But baby I've been I've been praying hard
+            [01:45.06]Said no more counting dollars
+            [01:47.02]We'll be we'll be counting stars
+            [01:56.25]I feel the love and I feel it burn
+            [01:58.95]Down this river every turn
+            [02:00.83]Hope is our four-letter word
+            [02:02.72]Make that money watch it burn
+            [02:04.64]Old but I'm not that old
+            [02:06.84]Young but I'm not that bold
+            [02:08.63]And I don't think the world is sold
+            [02:10.53]I'm just doing what we're told
+            [02:12.94]I I I I feel something so wrong
+            [02:17.34]Doing the right thing
+            [02:20.78]I could lie could lie could lie
+            [02:24.57]Everything that drowns me makes me wanna fly
+            [02:28.40]Lately I've been I've been losing sleep
+            [02:32.31]Dreaming about the things we could be
+            [02:36.10]But baby I've been I've been praying hard
+            [02:40.09]Said no more counting dollars
+            [02:42.11]We'll be counting stars
+            [02:44.22]Lately I've been I've been losing sleep
+            [02:48.21]Dreaming about the things we could be
+            [02:51.90]But baby I've been I've been praying hard
+            [02:55.83]Said no more counting dollars
+            [02:57.65]We'll be we'll be counting stars
+            [03:03.92]Take that money
+            [03:04.52]Watch it burn
+            [03:05.35]Sink in the river
+            [03:06.38]The lessons I've learned
+            [03:07.55]Take that money
+            [03:08.23]Watch it burn
+            [03:09.42]Sink in the river
+            [03:10.39]The lessons I've learned
+            [03:11.51]Take that money
+            [03:12.33]Watch it burn
+            [03:13.36]Sink in the river
+            [03:14.35]The lessons I've learned
+            [03:15.52]Take that money
+            [03:16.41]Watch it burn
+            [03:17.34]Sink in the river
+            [03:18.33]The lessons I've learned
+            [03:19.48]Everything that kills me
+            [03:25.36]Makes me feel alive
+            [03:26.56]Lately I've been I've been losing sleep
+            [03:30.26]Dreaming about the things we could be
+            [03:34.12]But baby I've been I've been praying hard
+            [03:38.13]Said no more counting dollars
+            [03:40.04]We'll be counting stars
+            [03:41.98]Lately I've been I've been losing sleep
+            [03:46.16]Dreaming about the things we could be
+            [03:50.01]But baby I've been I've been praying hard
+            [03:54.02]Said no more counting dollars
+            [03:55.96]We'll be we'll be counting stars
+            [03:58.57]Take that money
+            [03:59.12]Watch it burn
+            [03:59.61]Sink in the river
+            [04:00.31]The lessons I've learned
+            [04:01.73]Take that money
+            [04:02.53]Watch it burn
+            [04:03.47]Sink in the river
+            [04:04.50]The lessons I've learned
+            [04:05.68]Take that money
+            [04:06.38]Watch it burn
+            [04:07.18]Sink in the river
+            [04:08.49]The lessons I've learned
+            [04:09.33]Take that money
+            [04:10.38]Watch it burn
+            [04:11.16]Sink in the river
+            [04:12.10]The lessons I've learned
 `
 
     },
@@ -228,86 +229,86 @@ const tracks = [
         context: '', desc: '',
         date: '', ytId: 'BYgh1-JgTnY', start: 0,
         lyrics: `
-                    [00:26.11]我要穿越这片沙漠
-                    [00:28.00]找寻真的自我
-                    [00:30.24]身边只有一匹骆驼陪我
-                    [00:34.66]这片风儿吹过
-                    [00:36.77]那片云儿飘过
-                    [00:38.91]突然之间出现爱的小河
-                    [00:43.22]我跨上沙漠之舟
-                    [00:45.45]背上烟斗和沙漏
-                    [00:47.64]手里还握著一壶烈酒
-                    [00:51.97]漫长古道悠悠
-                    [00:54.20]说不尽喜怒哀愁
-                    [00:56.37]只有那骆驼奔忙依旧
-                    [01:00.68]什么鬼魅传说
-                    [01:02.79]什么魑魅魍魉妖魔
-                    [01:04.99]只有那鹭鹰在幽幽的高歌
-                    [01:09.51]漫天黄沙掠过
-                    [01:11.66]走遍每个角落
-                    [01:13.83]行走在无尽的苍茫星河
-                    [01:18.11]白天黑夜交错
-                    [01:20.30]如此妖娆婀娜
-                    [01:22.57]蹉跎著岁月又蹉跎了自我
-                    [01:27.07]前方迷途太多
-                    [01:29.05]坚持才能洒脱
-                    [01:31.16]走出黑暗就能逍遥又快活
-                    [01:37.66]
-                    [01:48.57]我寻找沙漠绿洲
-                    [01:50.60]出现海市蜃楼
-                    [01:52.74]我仿佛看到她在那里等候
-                    [01:57.12]想起了她的温柔
-                    [01:59.32]滚烫着我的胸口
-                    [02:01.53]迷失在昨夜的那壶老酒
-                    [02:06.08]我穿上大头皮鞋
-                    [02:08.06]跨过凛冽荒野
-                    [02:10.20]我仿佛穿越到另一个世界
-                    [02:14.67]阿拉丁神灯要倾斜
-                    [02:16.80]天堂地狱已然重叠
-                    [02:18.93]突然之间飞来一只蝴蝶
-                    [02:23.10]什么鬼魅传说
-                    [02:25.40]什么魑魅魍魉妖魔
-                    [02:27.58]只有那鹭鹰在幽幽的高歌
-                    [02:32.06]漫天黄沙掠过
-                    [02:34.23]走遍每个角落
-                    [02:36.32]行走在无尽的苍茫星河
-                    [02:40.72]白天黑夜交错
-                    [02:42.83]如此妖娆婀娜
-                    [02:45.05]蹉跎著岁月又蹉跎了自我
-                    [02:49.39]前方迷途太多
-                    [02:51.61]坚持才能洒脱
-                    [02:53.67]走出黑暗就能逍遥又快活
-                    [03:00.60]
-                    [03:46.57]我已坠入在这神奇的国度
-                    [03:50.69]驼铃相伴走向圣堂之路
-                    [03:54.85]原谅我曾经恍惚陷入迷途
-                    [03:58.84]遮住了眼眸
-                    [04:00.99]湮没了意图
-                    [04:03.38]怎能被这样征服
-                    [04:12.53]什么鬼魅传说
-                    [04:14.49]什么魑魅魍魉妖魔
-                    [04:16.70]只有那鹭鹰在幽幽的高歌
-                    [04:21.01]漫天黄沙掠过
-                    [04:23.20]走遍每个角落
-                    [04:25.46]行走在无尽的苍茫星河
-                    [04:29.67]白天黑夜交错
-                    [04:31.90]如此妖娆婀娜
-                    [04:34.19]蹉跎著岁月又蹉跎了自我
-                    [04:38.62]前方迷途太多
-                    [04:40.60]坚持才能洒脱
-                    [04:42.83]走出黑暗就能逍遥又快活
-                    [04:47.60]梦里回到最初
-                    [04:49.41]浪潮起起伏伏
-                    [04:51.50]徬徨著未来又徬徨著孤独
-                    [04:56.05]漫长人生旅途
-                    [04:58.10]花开花落无数
-                    [05:00.41]沸腾的时光怎能被荒芜
-                    [05:04.97]清晨又到日暮
-                    [05:06.89]天边飞鸟群逐
-                    [05:09.40]摇曳著苍穹又描摹著黄土
-                    [05:13.88]东方鱼肚白出
-                    [05:15.94]烈日绽放吐露
-                    [05:18.01]放下尘浮我已踏上归途
+            [00:26.11]我要穿越这片沙漠
+            [00:28.00]找寻真的自我
+            [00:30.24]身边只有一匹骆驼陪我
+            [00:34.66]这片风儿吹过
+            [00:36.77]那片云儿飘过
+            [00:38.91]突然之间出现爱的小河
+            [00:43.22]我跨上沙漠之舟
+            [00:45.45]背上烟斗和沙漏
+            [00:47.64]手里还握著一壶烈酒
+            [00:51.97]漫长古道悠悠
+            [00:54.20]说不尽喜怒哀愁
+            [00:56.37]只有那骆驼奔忙依旧
+            [01:00.68]什么鬼魅传说
+            [01:02.79]什么魑魅魍魉妖魔
+            [01:04.99]只有那鹭鹰在幽幽的高歌
+            [01:09.51]漫天黄沙掠过
+            [01:11.66]走遍每个角落
+            [01:13.83]行走在无尽的苍茫星河
+            [01:18.11]白天黑夜交错
+            [01:20.30]如此妖娆婀娜
+            [01:22.57]蹉跎著岁月又蹉跎了自我
+            [01:27.07]前方迷途太多
+            [01:29.05]坚持才能洒脱
+            [01:31.16]走出黑暗就能逍遥又快活
+            [01:37.66]
+            [01:48.57]我寻找沙漠绿洲
+            [01:50.60]出现海市蜃楼
+            [01:52.74]我仿佛看到她在那里等候
+            [01:57.12]想起了她的温柔
+            [01:59.32]滚烫着我的胸口
+            [02:01.53]迷失在昨夜的那壶老酒
+            [02:06.08]我穿上大头皮鞋
+            [02:08.06]跨过凛冽荒野
+            [02:10.20]我仿佛穿越到另一个世界
+            [02:14.67]阿拉丁神灯要倾斜
+            [02:16.80]天堂地狱已然重叠
+            [02:18.93]突然之间飞来一只蝴蝶
+            [02:23.10]什么鬼魅传说
+            [02:25.40]什么魑魅魍魉妖魔
+            [02:27.58]只有那鹭鹰在幽幽的高歌
+            [02:32.06]漫天黄沙掠过
+            [02:34.23]走遍每个角落
+            [02:36.32]行走在无尽的苍茫星河
+            [02:40.72]白天黑夜交错
+            [02:42.83]如此妖娆婀娜
+            [02:45.05]蹉跎著岁月又蹉跎了自我
+            [02:49.39]前方迷途太多
+            [02:51.61]坚持才能洒脱
+            [02:53.67]走出黑暗就能逍遥又快活
+            [03:00.60]
+            [03:46.57]我已坠入在这神奇的国度
+            [03:50.69]驼铃相伴走向圣堂之路
+            [03:54.85]原谅我曾经恍惚陷入迷途
+            [03:58.84]遮住了眼眸
+            [04:00.99]湮没了意图
+            [04:03.38]怎能被这样征服
+            [04:12.53]什么鬼魅传说
+            [04:14.49]什么魑魅魍魉妖魔
+            [04:16.70]只有那鹭鹰在幽幽的高歌
+            [04:21.01]漫天黄沙掠过
+            [04:23.20]走遍每个角落
+            [04:25.46]行走在无尽的苍茫星河
+            [04:29.67]白天黑夜交错
+            [04:31.90]如此妖娆婀娜
+            [04:34.19]蹉跎著岁月又蹉跎了自我
+            [04:38.62]前方迷途太多
+            [04:40.60]坚持才能洒脱
+            [04:42.83]走出黑暗就能逍遥又快活
+            [04:47.60]梦里回到最初
+            [04:49.41]浪潮起起伏伏
+            [04:51.50]徬徨著未来又徬徨著孤独
+            [04:56.05]漫长人生旅途
+            [04:58.10]花开花落无数
+            [05:00.41]沸腾的时光怎能被荒芜
+            [05:04.97]清晨又到日暮
+            [05:06.89]天边飞鸟群逐
+            [05:09.40]摇曳著苍穹又描摹著黄土
+            [05:13.88]东方鱼肚白出
+            [05:15.94]烈日绽放吐露
+            [05:18.01]放下尘浮我已踏上归途
 `
     },
     {
@@ -316,60 +317,60 @@ const tracks = [
         context: '', desc: '',
         date: '', ytId: 'Tziswp8xQ_4', start: 0,
         lyrics: `
-                    [00:25.29]也许世界就这样
-                    [00:28.59]我也还在路上
-                    [00:31.13]没有人能诉说
-                    [00:36.05]也许我只能沉默
-                    [00:39.24]眼泪湿润眼眶
-                    [00:41.90]可又不甘懦弱
-                    [00:45.55]低着头 期待白昼
-                    [00:50.71]接受所有的嘲讽
-                    [00:56.57]向着风 拥抱彩虹
-                    [01:01.75]勇敢的向前走
-                    [01:06.29]黎明的那道光
-                    [01:08.55]会越过黑暗
-                    [01:11.37]打破一切恐惧我能
-                    [01:14.29]找到答案
-                    [01:17.37]哪怕要逆着光
-                    [01:19.62]就驱散黑暗
-                    [01:22.28]丢弃所有的负担
-                    [01:25.30]不再孤单
-                    [01:28.29]不再孤单
-                    [01:31.97]
-                    [01:38.92]也许世界就这样
-                    [01:41.99]我也还在路上
-                    [01:44.99]没有人能诉说
-                    [01:49.49]也许我只能沉默
-                    [01:52.22]眼泪湿润眼眶
-                    [01:55.01]可又不甘懦弱
-                    [01:58.95]低着头 期待白昼
-                    [02:04.60]接受所有的嘲讽
-                    [02:10.25]向着风 拥抱彩虹
-                    [02:15.83]勇敢的向前走
-                    [02:20.47]黎明的那道光
-                    [02:22.14]会越过黑暗
-                    [02:25.01]打破一切恐惧我能
-                    [02:28.08]找到答案
-                    [02:31.05]哪怕要逆着光
-                    [02:33.08]就驱散黑暗
-                    [02:36.01]丢弃所有的负担
-                    [02:38.86]不再孤单
-                    [02:41.88]不再孤单
-                    [02:50.38]黎明的那道光
-                    [02:51.97]会越过黑暗
-                    [02:54.71]打破一切恐惧我能
-                    [02:57.81]找到答案
-                    [03:00.75]哪怕要逆着光
-                    [03:02.95]就驱散黑暗
-                    [03:05.66]有一万种的力量
-                    [03:08.64]淹没孤单
-                    [03:11.57]不再孤单
-                    [03:14.41]也许世界就这样
-                    [03:17.75]我也还在路上
-                    [03:20.60]没有人能诉说
-                    [03:25.55]也许我只能沉默
-                    [03:28.82]眼泪湿润眼眶
-                    [03:31.49]可又不甘懦弱
+            [00:25.29]也许世界就这样
+            [00:28.59]我也还在路上
+            [00:31.13]没有人能诉说
+            [00:36.05]也许我只能沉默
+            [00:39.24]眼泪湿润眼眶
+            [00:41.90]可又不甘懦弱
+            [00:45.55]低着头 期待白昼
+            [00:50.71]接受所有的嘲讽
+            [00:56.57]向着风 拥抱彩虹
+            [01:01.75]勇敢的向前走
+            [01:06.29]黎明的那道光
+            [01:08.55]会越过黑暗
+            [01:11.37]打破一切恐惧我能
+            [01:14.29]找到答案
+            [01:17.37]哪怕要逆着光
+            [01:19.62]就驱散黑暗
+            [01:22.28]丢弃所有的负担
+            [01:25.30]不再孤单
+            [01:28.29]不再孤单
+            [01:31.97]
+            [01:38.92]也许世界就这样
+            [01:41.99]我也还在路上
+            [01:44.99]没有人能诉说
+            [01:49.49]也许我只能沉默
+            [01:52.22]眼泪湿润眼眶
+            [01:55.01]可又不甘懦弱
+            [01:58.95]低着头 期待白昼
+            [02:04.60]接受所有的嘲讽
+            [02:10.25]向着风 拥抱彩虹
+            [02:15.83]勇敢的向前走
+            [02:20.47]黎明的那道光
+            [02:22.14]会越过黑暗
+            [02:25.01]打破一切恐惧我能
+            [02:28.08]找到答案
+            [02:31.05]哪怕要逆着光
+            [02:33.08]就驱散黑暗
+            [02:36.01]丢弃所有的负担
+            [02:38.86]不再孤单
+            [02:41.88]不再孤单
+            [02:50.38]黎明的那道光
+            [02:51.97]会越过黑暗
+            [02:54.71]打破一切恐惧我能
+            [02:57.81]找到答案
+            [03:00.75]哪怕要逆着光
+            [03:02.95]就驱散黑暗
+            [03:05.66]有一万种的力量
+            [03:08.64]淹没孤单
+            [03:11.57]不再孤单
+            [03:14.41]也许世界就这样
+            [03:17.75]我也还在路上
+            [03:20.60]没有人能诉说
+            [03:25.55]也许我只能沉默
+            [03:28.82]眼泪湿润眼眶
+            [03:31.49]可又不甘懦弱
 `
     },
     {
@@ -378,39 +379,39 @@ const tracks = [
         context: '', desc: '',
         date: '2022', ytId: '1-xGerv5FOk', start: 0,
         lyrics: `
-                    [00:04.07]Lost in your mind
-                    [00:10.94]I wanna know
-                    [00:13.33]Am I losing my mind?
-                    [00:20.79]Never let me go
-                    [00:22.92]If this night is not forever
-                    [00:26.38]At least we are together
-                    [00:28.84]I know I'm not alone
-                    [00:31.14]I know I'm not alone
-                    [00:34.11]Anywhere, whenever
-                    [00:36.24]Apart, but still together
-                    [00:38.78]I know I'm not alone
-                    [00:41.06]I know I'm not alone
-                    [00:51.10]I know I'm not alone
-                    [01:00.77]I know I'm not alone
-                    [01:06.32]Unconscious mind
-                    [01:12.85]I'm wide awake
-                    [01:15.77]Wanna feel one last time
-                    [01:22.85]Take my pain away
-                    [01:24.93]
-                    [01:34.99]If this night is not forever
-                    [01:38.50]At least we are together
-                    [01:41.06]I know I'm not alone
-                    [01:43.45]I know I'm not alone
-                    [01:46.10]Anywhere, whenever
-                    [01:48.60]Apart, but still together
-                    [01:51.01]I know I'm not alone
-                    [01:53.39]I know I'm not alone
-                    [02:03.06]I know I'm not alone
-                    [02:12.69]I know I'm not alone
-                    [02:17.24]I'm not alone, I'm not alone, I'm not alone
-                    [02:23.48]I know I'm not alone
-                    [02:28.02]I'm not alone, I'm not alone, I'm not alone
-                    [02:32.97]I know I'm not alone
+            [00:04.07]Lost in your mind
+            [00:10.94]I wanna know
+            [00:13.33]Am I losing my mind?
+            [00:20.79]Never let me go
+            [00:22.92]If this night is not forever
+            [00:26.38]At least we are together
+            [00:28.84]I know I'm not alone
+            [00:31.14]I know I'm not alone
+            [00:34.11]Anywhere, whenever
+            [00:36.24]Apart, but still together
+            [00:38.78]I know I'm not alone
+            [00:41.06]I know I'm not alone
+            [00:51.10]I know I'm not alone
+            [01:00.77]I know I'm not alone
+            [01:06.32]Unconscious mind
+            [01:12.85]I'm wide awake
+            [01:15.77]Wanna feel one last time
+            [01:22.85]Take my pain away
+            [01:24.93]
+            [01:34.99]If this night is not forever
+            [01:38.50]At least we are together
+            [01:41.06]I know I'm not alone
+            [01:43.45]I know I'm not alone
+            [01:46.10]Anywhere, whenever
+            [01:48.60]Apart, but still together
+            [01:51.01]I know I'm not alone
+            [01:53.39]I know I'm not alone
+            [02:03.06]I know I'm not alone
+            [02:12.69]I know I'm not alone
+            [02:17.24]I'm not alone, I'm not alone, I'm not alone
+            [02:23.48]I know I'm not alone
+            [02:28.02]I'm not alone, I'm not alone, I'm not alone
+            [02:32.97]I know I'm not alone
 `
     },
     {
@@ -425,53 +426,53 @@ const tracks = [
         context: '中秋晚会', desc: '',
         date: 'SEP 2022', ytId: '-RDocB1x-70', start: 0,
         lyrics: `                
-                    [00:22.25]海上的晚霞像年少的画
-                    [00:26.60]铺在天空等海鸥衔走它
-                    [00:30.31]
-                    [00:32.20]遥远的帆任风浪拍打
-                    [00:36.55]为梦再痛也不会害怕
-                    [00:40.65]
-                    [00:42.38]远走的风沙去谁的天涯
-                    [00:46.60]春天可曾在哪里见过他
-                    [00:50.57]
-                    [00:52.30]时间的手抚过了脸颊
-                    [00:56.59]他们谁都沉默不说话
-                    [01:00.68]
-                    [01:03.54]我希望许过的愿望一路生花
-                    [01:08.59]护送那时的梦抵挡过风沙
-                    [01:14.04]
-                    [01:14.28]指尖的樱花如诗写谁的韶华
-                    [01:19.21]疯狂的热爱夹带着文雅
-                    [01:23.88]我希望许过的愿望一路生花
-                    [01:28.68]将那雨中的人藏在屋檐下
-                    [01:33.54]岁月在冲刷逆流沧桑的喧哗
-                    [01:38.41]安静的夜晚你在想谁吗
-                    [01:44.35]
-                    [02:07.16]远走的风沙去谁的天涯
-                    [02:11.45]春天可曾在哪里见过他
-                    [02:15.61]
-                    [02:17.08]时间的手抚过了脸颊
-                    [02:21.24]他们谁都沉默不说话
-                    [02:25.66]
-                    [02:29.44]我希望许过的愿望一路生花
-                    [02:34.17]护送那时的梦抵挡过风沙
-                    [02:39.04]指尖的樱花如诗写谁的韶华
-                    [02:43.96]疯狂的热爱夹带着文雅
-                    [02:49.10]我希望许过的愿望一路生花
-                    [02:54.05]将那雨中的人藏在屋檐下
-                    [02:58.85]岁月在冲刷逆流沧桑的喧哗
-                    [03:03.58]安静的夜晚你在想谁吗
-                    [03:09.19]我希望许过的愿望一路生花
-                    [03:14.30]护送那时的梦抵挡过风沙
-                    [03:18.97]指尖的樱花如诗写谁的韶华
-                    [03:24.15]疯狂的热爱夹带着文雅
-                    [03:29.02]我希望许过的愿望
-                    [03:33.82]将那雨中的人藏在屋檐下
-                    [03:39.19]岁月在冲刷逆流沧桑的喧哗
-                    [03:44.06]安静的夜晚你在想谁吗
-                    [03:49.11]安静的夜晚你在想谁吗
-                    [03:58.52]
-                `
+            [00:22.25]海上的晚霞像年少的画
+            [00:26.60]铺在天空等海鸥衔走它
+            [00:30.31]
+            [00:32.20]遥远的帆任风浪拍打
+            [00:36.55]为梦再痛也不会害怕
+            [00:40.65]
+            [00:42.38]远走的风沙去谁的天涯
+            [00:46.60]春天可曾在哪里见过他
+            [00:50.57]
+            [00:52.30]时间的手抚过了脸颊
+            [00:56.59]他们谁都沉默不说话
+            [01:00.68]
+            [01:03.54]我希望许过的愿望一路生花
+            [01:08.59]护送那时的梦抵挡过风沙
+            [01:14.04]
+            [01:14.28]指尖的樱花如诗写谁的韶华
+            [01:19.21]疯狂的热爱夹带着文雅
+            [01:23.88]我希望许过的愿望一路生花
+            [01:28.68]将那雨中的人藏在屋檐下
+            [01:33.54]岁月在冲刷逆流沧桑的喧哗
+            [01:38.41]安静的夜晚你在想谁吗
+            [01:44.35]
+            [02:07.16]远走的风沙去谁的天涯
+            [02:11.45]春天可曾在哪里见过他
+            [02:15.61]
+            [02:17.08]时间的手抚过了脸颊
+            [02:21.24]他们谁都沉默不说话
+            [02:25.66]
+            [02:29.44]我希望许过的愿望一路生花
+            [02:34.17]护送那时的梦抵挡过风沙
+            [02:39.04]指尖的樱花如诗写谁的韶华
+            [02:43.96]疯狂的热爱夹带着文雅
+            [02:49.10]我希望许过的愿望一路生花
+            [02:54.05]将那雨中的人藏在屋檐下
+            [02:58.85]岁月在冲刷逆流沧桑的喧哗
+            [03:03.58]安静的夜晚你在想谁吗
+            [03:09.19]我希望许过的愿望一路生花
+            [03:14.30]护送那时的梦抵挡过风沙
+            [03:18.97]指尖的樱花如诗写谁的韶华
+            [03:24.15]疯狂的热爱夹带着文雅
+            [03:29.02]我希望许过的愿望
+            [03:33.82]将那雨中的人藏在屋檐下
+            [03:39.19]岁月在冲刷逆流沧桑的喧哗
+            [03:44.06]安静的夜晚你在想谁吗
+            [03:49.11]安静的夜晚你在想谁吗
+            [03:58.52]
+`
     },
     // Chapter 1
     {
@@ -480,84 +481,84 @@ const tracks = [
         context: '', desc: '',
         date: 'MAR 2023', ytId: 'KRaWnd3LJfs', start: 0,
         lyrics: `
-                    [00:39.52]I'm at a payphone trying to call home
-                    [00:44.01]All of my change I spent on you
-                    [00:48.18]Where have the times gone?
-                    [00:50.52]Baby, it's all wrong
-                    [00:52.71]Where are the plans we made for two?
-                    [00:57.37]Yeah I, I know it's hard to remember
-                    [01:00.69]The people we used to be
-                    [01:02.84]It's even harder to picture
-                    [01:05.06]That you're not here next to me
-                    [01:07.21]You say it's too late to make it
-                    [01:09.37]But is it too late to try?
-                    [01:11.55]And in our time that you wasted
-                    [01:13.46]All of our bridges burned down
-                    [01:16.15]I've wasted my nights
-                    [01:18.24]You turned out the lights
-                    [01:20.43]Now I'm paralyzed
-                    [01:22.58]Still stuck in that time
-                    [01:24.84]When we called it love
-                    [01:26.95]But even the sun sets in paradise
-                    [01:31.94]I'm at a payphone trying to call home
-                    [01:36.31]All of my change I spent on you
-                    [01:40.55]Where have the times gone?
-                    [01:42.88]Baby, it's all wrong
-                    [01:45.04]Where are the plans we made for two?
-                    [01:49.08]If happy ever after did exist
-                    [01:53.67]I would still be holding you like this
-                    [01:58.10]All those fairytales are full of shit
-                    [02:02.42]One more fuckin' love song, I'll be sick
-                    [02:06.59]Oh, you turned your back on tomorrow
-                    [02:10.50]'Cause you forgot yesterday
-                    [02:12.68]I gave you my love to borrow
-                    [02:14.80]But you just gave it away
-                    [02:17.08]You can't expect me to be fine
-                    [02:19.16]I don't expect you to care (Care)
-                    [02:21.41]I know I've said it before but
-                    [02:23.27]All of our bridges burned down
-                    [02:25.99]I've wasted my nights
-                    [02:28.15]You turned out the lights
-                    [02:30.24]Now I'm paralyzed
-                    [02:32.43]Still stuck in that time
-                    [02:34.61]When we called it love
-                    [02:36.84]But even the sun sets in paradise
-                    [02:41.73]I'm at a payphone trying to call home
-                    [02:46.17]All of my change I spent on you
-                    [02:50.43]Where have the times gone?
-                    [02:52.66]Baby, it's all wrong
-                    [02:54.88]Where are the plans we made for two? (Yeah)
-                    [02:58.89]If happy ever after did exist
-                    [03:03.54]I would still be holding you like this
-                    [03:07.60]And all those fairytales are full of shit
-                    [03:12.21]One more fuckin' love song, I'll be sick
-                    [03:16.26]Now I'm at a payphone
-                    [03:18.53]Man, fuck that shit
-                    [03:19.90]I'll be out spendin' all this money while you sittin 'round wonderin'
-                    [03:22.54]Why it wasn't you who came up from nothin'
-                    [03:24.23]Made it from the bottom, now when you see me, I'm stuntin'
-                    [03:26.53]And all of my cars start with a push of a button
-                    [03:28.55]Tellin' me I changed since I blew up or whatever you call it
-                    [03:31.09]Switch the number to my phone, so you never could call it
-                    [03:33.14]Don't need my name on my shirt, you can tell that I'm ballin'
-                    [03:35.38]Swish, what a shame, coulda got picked
-                    [03:37.58]Had a really good game, but you missed your last shot
-                    [03:39.80]So you talk about who you see at the top
-                    [03:41.64]Or what you coulda saw, but sad to say it's over for
-                    [03:44.16]Phantom pulled up, valet open doors
-                    [03:46.40]Wished I'd go away, got what you was lookin' for
-                    [03:48.50]Now it's me who they want, so you can go and take that little piece of shit with you
-                    [03:51.31]Yeah, I'm at a payphone trying to call home
-                    [03:55.98]All of my change I spent on you
-                    [04:00.31]Where have the times gone?
-                    [04:02.51]Baby, it's all wrong
-                    [04:04.70]Where are the plans we made for two?
-                    [04:08.66]If happy ever after did exist
-                    [04:13.36]I would still be holding you like this
-                    [04:17.42]And all these fairytales are full of shit
-                    [04:21.76]Yeah, one more fuckin' love song, I'll be sick
-                    [04:25.76]Yeah, now I'm at a payphone
-                `
+            [00:39.52]I'm at a payphone trying to call home
+            [00:44.01]All of my change I spent on you
+            [00:48.18]Where have the times gone?
+            [00:50.52]Baby, it's all wrong
+            [00:52.71]Where are the plans we made for two?
+            [00:57.37]Yeah I, I know it's hard to remember
+            [01:00.69]The people we used to be
+            [01:02.84]It's even harder to picture
+            [01:05.06]That you're not here next to me
+            [01:07.21]You say it's too late to make it
+            [01:09.37]But is it too late to try?
+            [01:11.55]And in our time that you wasted
+            [01:13.46]All of our bridges burned down
+            [01:16.15]I've wasted my nights
+            [01:18.24]You turned out the lights
+            [01:20.43]Now I'm paralyzed
+            [01:22.58]Still stuck in that time
+            [01:24.84]When we called it love
+            [01:26.95]But even the sun sets in paradise
+            [01:31.94]I'm at a payphone trying to call home
+            [01:36.31]All of my change I spent on you
+            [01:40.55]Where have the times gone?
+            [01:42.88]Baby, it's all wrong
+            [01:45.04]Where are the plans we made for two?
+            [01:49.08]If happy ever after did exist
+            [01:53.67]I would still be holding you like this
+            [01:58.10]All those fairytales are full of shit
+            [02:02.42]One more fuckin' love song, I'll be sick
+            [02:06.59]Oh, you turned your back on tomorrow
+            [02:10.50]'Cause you forgot yesterday
+            [02:12.68]I gave you my love to borrow
+            [02:14.80]But you just gave it away
+            [02:17.08]You can't expect me to be fine
+            [02:19.16]I don't expect you to care (Care)
+            [02:21.41]I know I've said it before but
+            [02:23.27]All of our bridges burned down
+            [02:25.99]I've wasted my nights
+            [02:28.15]You turned out the lights
+            [02:30.24]Now I'm paralyzed
+            [02:32.43]Still stuck in that time
+            [02:34.61]When we called it love
+            [02:36.84]But even the sun sets in paradise
+            [02:41.73]I'm at a payphone trying to call home
+            [02:46.17]All of my change I spent on you
+            [02:50.43]Where have the times gone?
+            [02:52.66]Baby, it's all wrong
+            [02:54.88]Where are the plans we made for two? (Yeah)
+            [02:58.89]If happy ever after did exist
+            [03:03.54]I would still be holding you like this
+            [03:07.60]And all those fairytales are full of shit
+            [03:12.21]One more fuckin' love song, I'll be sick
+            [03:16.26]Now I'm at a payphone
+            [03:18.53]Man, fuck that shit
+            [03:19.90]I'll be out spendin' all this money while you sittin 'round wonderin'
+            [03:22.54]Why it wasn't you who came up from nothin'
+            [03:24.23]Made it from the bottom, now when you see me, I'm stuntin'
+            [03:26.53]And all of my cars start with a push of a button
+            [03:28.55]Tellin' me I changed since I blew up or whatever you call it
+            [03:31.09]Switch the number to my phone, so you never could call it
+            [03:33.14]Don't need my name on my shirt, you can tell that I'm ballin'
+            [03:35.38]Swish, what a shame, coulda got picked
+            [03:37.58]Had a really good game, but you missed your last shot
+            [03:39.80]So you talk about who you see at the top
+            [03:41.64]Or what you coulda saw, but sad to say it's over for
+            [03:44.16]Phantom pulled up, valet open doors
+            [03:46.40]Wished I'd go away, got what you was lookin' for
+            [03:48.50]Now it's me who they want, so you can go and take that little piece of shit with you
+            [03:51.31]Yeah, I'm at a payphone trying to call home
+            [03:55.98]All of my change I spent on you
+            [04:00.31]Where have the times gone?
+            [04:02.51]Baby, it's all wrong
+            [04:04.70]Where are the plans we made for two?
+            [04:08.66]If happy ever after did exist
+            [04:13.36]I would still be holding you like this
+            [04:17.42]And all these fairytales are full of shit
+            [04:21.76]Yeah, one more fuckin' love song, I'll be sick
+            [04:25.76]Yeah, now I'm at a payphone
+`
     },
     {
         chapter: 1,
@@ -565,54 +566,54 @@ const tracks = [
         context: 'Game - Dark Deception', desc: 'Chapter 2 Level 3 Chase Theme',
         date: '2023', ytId: '1k8gE2l8iws', start: 0,
         lyrics: `
-                    [00:09.85]Please don't look back
-                    [00:12.35]Please don't look back
-                    [00:14.83]Please don't look back
-                    [00:17.43]Please don't look back
-                    [00:20.39]Please don't look back
-                    [00:22.95]Please don't look back
-                    [00:25.52]Please don't look back
-                    [00:27.95]Please don't look back
-                    [00:30.52]We caught your sneaker
-                    [00:33.44]We know you're stalking
-                    [00:35.85]Now we are moving
-                    [00:38.32]And we are looming
-                    [00:41.09]We caught your sneaker
-                    [00:43.50]We know you're stalking
-                    [00:45.88]Now we are moving
-                    [00:48.39]And we are looming
-                    [00:51.11]Please don't look back
-                    [00:53.02]Please don't look back
-                    [00:55.60]Please don't look back
-                    [00:58.17]Please don't look back
-                    [01:00.68]Please don't look back
-                    [01:03.22]Please don't look back
-                    [01:05.80]Please don't look back
-                    [01:08.31]Please don't look back
-                    [01:10.93]We caught your sneaker
-                    [01:13.69]We know you're stalking
-                    [01:15.93]Now we are moving
-                    [01:18.59]And we are looming
-                    [01:21.33]We caught your sneaker
-                    [01:23.74]We know you're stalking
-                    [01:26.32]Now we are moving
-                    [01:28.65]And we are looming
-                    [01:50.65]Please don't look back
-                    [01:53.26]Please don't look back
-                    [01:56.04]Please don't look back
-                    [01:58.81]Please don't look back
-                    [02:01.41]Please don't look back
-                    [02:03.95]Please don't look back
-                    [02:06.35]Please don't look back
-                    [02:08.54]Please don't look back
-                    [02:11.14]We caught your sneaker
-                    [02:14.07]We know you're stalking
-                    [02:16.33]Now we are moving
-                    [02:19.05]And we are looming
-                    [02:21.60]We caught your sneaker
-                    [02:24.14]We know you're stalking
-                    [02:26.35]Now we are moving
-                    [02:29.01]And we are looming
+            [00:09.85]Please don't look back
+            [00:12.35]Please don't look back
+            [00:14.83]Please don't look back
+            [00:17.43]Please don't look back
+            [00:20.39]Please don't look back
+            [00:22.95]Please don't look back
+            [00:25.52]Please don't look back
+            [00:27.95]Please don't look back
+            [00:30.52]We caught your sneaker
+            [00:33.44]We know you're stalking
+            [00:35.85]Now we are moving
+            [00:38.32]And we are looming
+            [00:41.09]We caught your sneaker
+            [00:43.50]We know you're stalking
+            [00:45.88]Now we are moving
+            [00:48.39]And we are looming
+            [00:51.11]Please don't look back
+            [00:53.02]Please don't look back
+            [00:55.60]Please don't look back
+            [00:58.17]Please don't look back
+            [01:00.68]Please don't look back
+            [01:03.22]Please don't look back
+            [01:05.80]Please don't look back
+            [01:08.31]Please don't look back
+            [01:10.93]We caught your sneaker
+            [01:13.69]We know you're stalking
+            [01:15.93]Now we are moving
+            [01:18.59]And we are looming
+            [01:21.33]We caught your sneaker
+            [01:23.74]We know you're stalking
+            [01:26.32]Now we are moving
+            [01:28.65]And we are looming
+            [01:50.65]Please don't look back
+            [01:53.26]Please don't look back
+            [01:56.04]Please don't look back
+            [01:58.81]Please don't look back
+            [02:01.41]Please don't look back
+            [02:03.95]Please don't look back
+            [02:06.35]Please don't look back
+            [02:08.54]Please don't look back
+            [02:11.14]We caught your sneaker
+            [02:14.07]We know you're stalking
+            [02:16.33]Now we are moving
+            [02:19.05]And we are looming
+            [02:21.60]We caught your sneaker
+            [02:24.14]We know you're stalking
+            [02:26.35]Now we are moving
+            [02:29.01]And we are looming
 `
     },
     {
@@ -621,66 +622,66 @@ const tracks = [
         context: '', desc: '',
         date: 'SEP 2023', ytId: 'YaEG2aWJnZ8', start: 0,
         lyrics: `
-                    [00:11.26]I'll smile, I know what it takes to fool this town
-                    [00:15.20]I'll do it till the sun goes down and all through the night time
-                    [00:21.02]Oh yeah, oh yeah, I'll tell you what you wanna hear
-                    [00:25.69]Keep my sunglasses on while I shed a tear
-                    [00:28.71]It's never the right time, yeah, yeah
-                    [00:33.61]
-                    [00:33.62]I'll put my armor on, show you how strong I am
-                    [00:39.03]I'll put my armor on, I'll show you that I am
-                    [00:44.71]
-                    [00:44.72]I'm unstoppable
-                    [00:47.51]I'm a Porsche with no brakes
-                    [00:50.35]I'm invincible
-                    [00:52.86]Yeah, I win every single game
-                    [00:55.90]I'm so powerful
-                    [00:58.36]I don't need batteries to play
-                    [01:01.37]I'm so confident
-                    [01:03.78]Yeah, I'm unstoppable today
-                    [01:07.19]Unstoppable today, unstoppable today
-                    [01:12.84]Unstoppable today, I'm unstoppable today
-                    [01:17.49]
-                    [01:17.50]Breakdown, only alone I will cry out now
-                    [01:21.24]You'll never see what's hiding out
-                    [01:24.06]Hiding out deep down, yeah, yeah
-                    [01:28.53]I know I've heard that to let your feelings show
-                    [01:32.09]Is the only way to make friendships grow
-                    [01:34.96]But I'm too afraid now, yeah, yeah
-                    [01:39.74]
-                    [01:39.74]I'll put my armor on, show you how strong I am
-                    [01:45.24]I'll put my armor on, I'll show you that I am
-                    [01:51.05]
-                    [01:51.05]I'm unstoppable
-                    [01:53.64]I'm a Porsche with no brakes
-                    [01:56.57]I'm invincible
-                    [01:59.06]Yeah, I win every single game
-                    [02:02.11]I'm so powerful
-                    [02:04.55]I don't need batteries to play
-                    [02:07.59]I'm so confident
-                    [02:10.03]Yeah, I'm unstoppable today
-                    [02:13.39]Unstoppable today, unstoppable today
-                    [02:19.03]Unstoppable today, I'm unstoppable today
-                    [02:24.34]Unstoppable today, unstoppable today
-                    [02:29.93]Unstoppable today, I'm unstoppable today
-                    [02:34.91]
-                    [02:34.92]I'll put my armor on, show you how strong I am
-                    [02:40.42]I'll put my armor on, I'll show you that I am
-                    [02:47.25]
-                    [02:47.45]I'm unstoppable
-                    [02:50.13]I'm a Porsche with no brakes
-                    [02:53.14]I'm invincible
-                    [02:55.56]Yeah, I win every single game
-                    [02:58.69]I'm so powerful
-                    [03:01.14]I don't need batteries to play
-                    [03:04.10]I'm so confident
-                    [03:06.56]Yeah, I'm unstoppable today
-                    [03:09.72]
-                    [03:09.93]Unstoppable today, unstoppable today
-                    [03:15.52]Unstoppable today, I'm unstoppable today
-                    [03:20.86]Unstoppable today, unstoppable today
-                    [03:26.50]Unstoppable today, I'm unstoppable today
-                    [03:31.84]`
+            [00:11.26]I'll smile, I know what it takes to fool this town
+            [00:15.20]I'll do it till the sun goes down and all through the night time
+            [00:21.02]Oh yeah, oh yeah, I'll tell you what you wanna hear
+            [00:25.69]Keep my sunglasses on while I shed a tear
+            [00:28.71]It's never the right time, yeah, yeah
+            [00:33.61]
+            [00:33.62]I'll put my armor on, show you how strong I am
+            [00:39.03]I'll put my armor on, I'll show you that I am
+            [00:44.71]
+            [00:44.72]I'm unstoppable
+            [00:47.51]I'm a Porsche with no brakes
+            [00:50.35]I'm invincible
+            [00:52.86]Yeah, I win every single game
+            [00:55.90]I'm so powerful
+            [00:58.36]I don't need batteries to play
+            [01:01.37]I'm so confident
+            [01:03.78]Yeah, I'm unstoppable today
+            [01:07.19]Unstoppable today, unstoppable today
+            [01:12.84]Unstoppable today, I'm unstoppable today
+            [01:17.49]
+            [01:17.50]Breakdown, only alone I will cry out now
+            [01:21.24]You'll never see what's hiding out
+            [01:24.06]Hiding out deep down, yeah, yeah
+            [01:28.53]I know I've heard that to let your feelings show
+            [01:32.09]Is the only way to make friendships grow
+            [01:34.96]But I'm too afraid now, yeah, yeah
+            [01:39.74]
+            [01:39.74]I'll put my armor on, show you how strong I am
+            [01:45.24]I'll put my armor on, I'll show you that I am
+            [01:51.05]
+            [01:51.05]I'm unstoppable
+            [01:53.64]I'm a Porsche with no brakes
+            [01:56.57]I'm invincible
+            [01:59.06]Yeah, I win every single game
+            [02:02.11]I'm so powerful
+            [02:04.55]I don't need batteries to play
+            [02:07.59]I'm so confident
+            [02:10.03]Yeah, I'm unstoppable today
+            [02:13.39]Unstoppable today, unstoppable today
+            [02:19.03]Unstoppable today, I'm unstoppable today
+            [02:24.34]Unstoppable today, unstoppable today
+            [02:29.93]Unstoppable today, I'm unstoppable today
+            [02:34.91]
+            [02:34.92]I'll put my armor on, show you how strong I am
+            [02:40.42]I'll put my armor on, I'll show you that I am
+            [02:47.25]
+            [02:47.45]I'm unstoppable
+            [02:50.13]I'm a Porsche with no brakes
+            [02:53.14]I'm invincible
+            [02:55.56]Yeah, I win every single game
+            [02:58.69]I'm so powerful
+            [03:01.14]I don't need batteries to play
+            [03:04.10]I'm so confident
+            [03:06.56]Yeah, I'm unstoppable today
+            [03:09.72]
+            [03:09.93]Unstoppable today, unstoppable today
+            [03:15.52]Unstoppable today, I'm unstoppable today
+            [03:20.86]Unstoppable today, unstoppable today
+            [03:26.50]Unstoppable today, I'm unstoppable today
+            [03:31.84]`
     },
     {
         chapter: 1,
@@ -699,22 +700,23 @@ const tracks = [
         title: 'Wrath of Monoceros Caeli', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '2023', ytId: 'm1JsBvHzWfY', start: 0,
-        lyrics: `[00:30.18]Lux catius gravi iri
-[00:33.64]Mutatis pius mari
-[00:36.76]Tuta pectus malis
-[00:40.50]Muta deus malis
-[01:38.77]Cavis vincam (potis cavis)
-[01:42.38]Cavis vincam (potis cavis)
-[01:45.71]Cavis vincam (potis cavis)
-[01:49.07](Densa pia)
-[01:53.90](Densa pia)
-[01:55.85](Densa pia)
-[01:59.34](Densa pia)
-[02:24.65]Cavus vincit
-[02:27.27]Cavus vincit
-[02:29.67]Cavus vincit
-[02:32.34]Cavus vincito
-[02:35.87]
+        lyrics: `
+            [00:30.18]Lux catius gravi iri
+            [00:33.64]Mutatis pius mari
+            [00:36.76]Tuta pectus malis
+            [00:40.50]Muta deus malis
+            [01:38.77]Cavis vincam (potis cavis)
+            [01:42.38]Cavis vincam (potis cavis)
+            [01:45.71]Cavis vincam (potis cavis)
+            [01:49.07](Densa pia)
+            [01:53.90](Densa pia)
+            [01:55.85](Densa pia)
+            [01:59.34](Densa pia)
+            [02:24.65]Cavus vincit
+            [02:27.27]Cavus vincit
+            [02:29.67]Cavus vincit
+            [02:32.34]Cavus vincito
+            [02:35.87]
 `
     },
     {
@@ -723,23 +725,23 @@ const tracks = [
         context: 'Game - Genshin Impact', desc: '',
         date: '', ytId: '51vYKjbchtU', start: 0,
         lyrics: `
-                    [01:11.51]Cinis est cor muem
-                    [01:18.79]Horrentis frigora
-                    [01:26.06]Quod ego austeris
-                    [01:32.88]Dies irae, finis!
-                    [01:40.67]Lucis, lapsus
-                    [01:47.52]Fatua, caeca
-                    [01:54.62]Saeva, folles
-                    [02:01.87]Commedia dell'arte
-                    [02:08.76]Ah...
-                    [02:30.99]
-                    [02:33.24]Luces glaciei!
-                    [02:36.96]Lucis, lapsus (o tragedia o splendidae)
-                    [02:44.11]Fatua, caeca (o fatalia o infaustae)
-                    [02:51.16]Saeva, folles (o commedia o degli sciocchi)
-                    [02:58.38]Luces glaciei (o comoeda glaciei)
-                    [03:04.86]O Chrysalis Suspiria
-                    [03:12.96]
+            [01:11.51]Cinis est cor muem
+            [01:18.79]Horrentis frigora
+            [01:26.06]Quod ego austeris
+            [01:32.88]Dies irae, finis!
+            [01:40.67]Lucis, lapsus
+            [01:47.52]Fatua, caeca
+            [01:54.62]Saeva, folles
+            [02:01.87]Commedia dell'arte
+            [02:08.76]Ah...
+            [02:30.99]
+            [02:33.24]Luces glaciei!
+            [02:36.96]Lucis, lapsus (o tragedia o splendidae)
+            [02:44.11]Fatua, caeca (o fatalia o infaustae)
+            [02:51.16]Saeva, folles (o commedia o degli sciocchi)
+            [02:58.38]Luces glaciei (o comoeda glaciei)
+            [03:04.86]O Chrysalis Suspiria
+            [03:12.96]
                 `
     },
     {
@@ -748,43 +750,43 @@ const tracks = [
         context: 'Game - Genshin Impact', desc: '',
         date: '', ytId: '9TKbnQb4mOs', start: 0,
         lyrics: `
-                    [00:12.74]Igni, cinis
-                    [00:18.10]Ex ira surget
-                    [00:23.21]Vedis, calor
-                    [00:28.59]In scaena salto
-                    [00:34.01]Venu
-                    [00:35.82]Resurgito
-                    [00:38.50]Alluceto
-                    [00:41.03]In dolore
-                    [00:43.35]Illusio
-                    [00:44.50]In hoc mundo clades indiges
-                    [00:55.02]Votum, dolor (vacuum, fatuus)
-                    [01:00.32]Ex oblivione
-                    [01:04.85]In tristitia
-                    [01:08.29]
-                    [01:16.32]Vae victis fortunarum
-                    [01:21.56]Vae, ignis tinea fio
-                    [01:26.80]Vade retro, ah vanitas
-                    [01:31.99]Et omnia vanitas
-                    [01:36.15]Nihilum flamma (vae victus fortunarum)
-                    [01:42.18]Visio (vanitas omnia)
-                    [01:47.19]Vindicia (vanitatum sentio, sentio dolor, ah dolores)
-                    [01:52.75]Ah senta (dolores sentio, et omnia vanitas in tristitia)
-                    [01:58.64]Vae victis fortunarum
-                    [02:03.94]Vae, ignis tinea fio
-                    [02:09.14]Votum, dolor (resurgito)
-                    [02:12.14]Vacuum, fatuus (alluceto)
-                    [02:14.68]Ignis sentio tragico (dolores sentio tragico)
-                    [02:19.04]Comoeda
-                    [02:20.11](Venu)
-                    [02:22.07](Resurgito)
-                    [02:24.52](Alluceto)
-                    [02:27.02](In dolore)
-                    [02:29.54](Illusio)
-                    [02:30.56]Vedis, calor
-                    [02:35.68]In scaena salto
-                    [02:38.53]
-                `
+            [00:12.74]Igni, cinis
+            [00:18.10]Ex ira surget
+            [00:23.21]Vedis, calor
+            [00:28.59]In scaena salto
+            [00:34.01]Venu
+            [00:35.82]Resurgito
+            [00:38.50]Alluceto
+            [00:41.03]In dolore
+            [00:43.35]Illusio
+            [00:44.50]In hoc mundo clades indiges
+            [00:55.02]Votum, dolor (vacuum, fatuus)
+            [01:00.32]Ex oblivione
+            [01:04.85]In tristitia
+            [01:08.29]
+            [01:16.32]Vae victis fortunarum
+            [01:21.56]Vae, ignis tinea fio
+            [01:26.80]Vade retro, ah vanitas
+            [01:31.99]Et omnia vanitas
+            [01:36.15]Nihilum flamma (vae victus fortunarum)
+            [01:42.18]Visio (vanitas omnia)
+            [01:47.19]Vindicia (vanitatum sentio, sentio dolor, ah dolores)
+            [01:52.75]Ah senta (dolores sentio, et omnia vanitas in tristitia)
+            [01:58.64]Vae victis fortunarum
+            [02:03.94]Vae, ignis tinea fio
+            [02:09.14]Votum, dolor (resurgito)
+            [02:12.14]Vacuum, fatuus (alluceto)
+            [02:14.68]Ignis sentio tragico (dolores sentio tragico)
+            [02:19.04]Comoeda
+            [02:20.11](Venu)
+            [02:22.07](Resurgito)
+            [02:24.52](Alluceto)
+            [02:27.02](In dolore)
+            [02:29.54](Illusio)
+            [02:30.56]Vedis, calor
+            [02:35.68]In scaena salto
+            [02:38.53]
+        `
     },
     {
         chapter: 1,
@@ -835,20 +837,20 @@ const tracks = [
         context: 'Game - Rotaeno', desc: '',
         date: 'JUN 2024', ytId: 'HVSgWcz_FQs', start: 0,
         lyrics: `
-                    [01:17.03]We're still the same you know
-                    [01:20.48]I feel the stillness
-                    [01:23.46]feel the stillness now
-                    [01:26.62]With all the days we learned
-                    [01:29.76]We're always one
-                    [01:32.07]we're always one somehow
-                    [01:36.15]We're still the same you know
-                    [01:38.93]I feel the stillness
-                    [01:41.86]feel the stillness now
-                    [01:45.16]With all the days we learned
-                    [01:48.24]We're always one
-                    [01:50.66]we're always one somehow
-                    [01:59.02]We're always one
-                    [02:00.83]we're always one somehow
+            [01:17.03]We're still the same you know
+            [01:20.48]I feel the stillness
+            [01:23.46]feel the stillness now
+            [01:26.62]With all the days we learned
+            [01:29.76]We're always one
+            [01:32.07]we're always one somehow
+            [01:36.15]We're still the same you know
+            [01:38.93]I feel the stillness
+            [01:41.86]feel the stillness now
+            [01:45.16]With all the days we learned
+            [01:48.24]We're always one
+            [01:50.66]we're always one somehow
+            [01:59.02]We're always one
+            [02:00.83]we're always one somehow
 `
     },
     {
@@ -863,36 +865,36 @@ const tracks = [
         context: 'Game - Genshin Impact', desc: 'Natlan',
         date: 'AUG 2024', ytId: '_n-Tb5B5em4', start: 0,
         lyrics: `
-                    [00:12.09]Shambulia! Beba silaha
-                    [00:19.18]Pigana mpaka mwishowe
-                    [00:25.68]Kwa nchi yetu tutaunguza damu yoyote
-                    [00:32.34]Rudi kwa pambaja ya dunia
-                    [00:38.79]Hadithi yaendelea(kama moto)
-                    [00:45.01]Heshima warithi vizazi(waka daima)
-                    [00:51.50]Ushujaa waangaza mbingu na ardhi
-                    [00:57.89]Mara tena ashinda Natlan
-                    [01:04.23]Milele tuwangoje, na tutawaimbia
-                    [01:10.75](Rudini) ndugu, (rudini) mashujaa
-                    [01:14.88]Mara ya tena mwangani
-                    [01:24.23]
-                    [02:16.81]Ati kweli mwahofuni kifo ? (Hapana)
-                    [02:23.05]Ushujaa wenu ni imara(bila shaka)
-                    [02:35.15](Kumbukeni majina ya mashujaa)
-                    [02:40.84](Andameni uwanjani)
-                    [02:47.89]Kwa jamaa(zuri, safi) nchi(sawa) na taifa
-                    [02:55.92]Kwa(vuma) matumaini(raha) mbeleni(nguvu) malengo
-                    [03:09.13](Rudini tunawangojeni)
-                    [03:20.79]
-                    [03:35.98]Nyimbo kelele sana
-                    [03:43.98]Sikiliza zitakuongoza nyumbani
-                    [03:57.24]Hadithi yaendelea(ahh, ahh)
-                    [04:03.76]Heshima warithi vizazi
-                    [04:10.26]Ushujaa waangaza mbingu na ardhi
-                    [04:16.58]Mara tena ashinda Natlan
-                    [04:23.03]Milele tuwangoje, na tutawaimbia
-                    [04:29.12]Rudini(ndugu) rudini(mashujaa)
-                    [04:33.21]Mara ya tena mwangani
-                    [04:43.01]Maisha marefu ni sasa
+            [00:12.09]Shambulia! Beba silaha
+            [00:19.18]Pigana mpaka mwishowe
+            [00:25.68]Kwa nchi yetu tutaunguza damu yoyote
+            [00:32.34]Rudi kwa pambaja ya dunia
+            [00:38.79]Hadithi yaendelea(kama moto)
+            [00:45.01]Heshima warithi vizazi(waka daima)
+            [00:51.50]Ushujaa waangaza mbingu na ardhi
+            [00:57.89]Mara tena ashinda Natlan
+            [01:04.23]Milele tuwangoje, na tutawaimbia
+            [01:10.75](Rudini) ndugu, (rudini) mashujaa
+            [01:14.88]Mara ya tena mwangani
+            [01:24.23]
+            [02:16.81]Ati kweli mwahofuni kifo ? (Hapana)
+            [02:23.05]Ushujaa wenu ni imara(bila shaka)
+            [02:35.15](Kumbukeni majina ya mashujaa)
+            [02:40.84](Andameni uwanjani)
+            [02:47.89]Kwa jamaa(zuri, safi) nchi(sawa) na taifa
+            [02:55.92]Kwa(vuma) matumaini(raha) mbeleni(nguvu) malengo
+            [03:09.13](Rudini tunawangojeni)
+            [03:20.79]
+            [03:35.98]Nyimbo kelele sana
+            [03:43.98]Sikiliza zitakuongoza nyumbani
+            [03:57.24]Hadithi yaendelea(ahh, ahh)
+            [04:03.76]Heshima warithi vizazi
+            [04:10.26]Ushujaa waangaza mbingu na ardhi
+            [04:16.58]Mara tena ashinda Natlan
+            [04:23.03]Milele tuwangoje, na tutawaimbia
+            [04:29.12]Rudini(ndugu) rudini(mashujaa)
+            [04:33.21]Mara ya tena mwangani
+            [04:43.01]Maisha marefu ni sasa
 `
     },
     {
@@ -902,23 +904,23 @@ const tracks = [
         date: 'OCT 2024', ytId: 'PjeuDWPbt3o', start: 0,
         ig: 'https://www.instagram.com/reel/DBG5MCAvhc0/',
         lyrics: `
-                    [01:00.31]Nyimbo za moto
-                    [01:02.85]Ziwache ziwake angani
-                    [01:06.59]Kama vile moto usiozimika waenea nchini
-                    [01:16.65]Nenda mbele kwa ujabari
-                    [01:20.37]Ijapokua hata
-                    [01:23.73]Majivu ya motoni
-                    [01:26.10]Tena
-                    [02:37.64]Chagua njia ya mwenyewe
-                    [02:40.95]Moto daima utawaka
-                    [02:44.35]Moto daima utawaka
-                    [02:47.76]Na uso wa ulimwengu
-                    [02:51.26]Utajitokeza haponi
-                    [02:54.60]Na moto utakuwakia
-                    [02:58.01]Na moto utakuwakia
-                    [03:01.50]Na moto utakuwakia
-                    [03:42.14]
-                `
+            [01:00.31]Nyimbo za moto
+            [01:02.85]Ziwache ziwake angani
+            [01:06.59]Kama vile moto usiozimika waenea nchini
+            [01:16.65]Nenda mbele kwa ujabari
+            [01:20.37]Ijapokua hata
+            [01:23.73]Majivu ya motoni
+            [01:26.10]Tena
+            [02:37.64]Chagua njia ya mwenyewe
+            [02:40.95]Moto daima utawaka
+            [02:44.35]Moto daima utawaka
+            [02:47.76]Na uso wa ulimwengu
+            [02:51.26]Utajitokeza haponi
+            [02:54.60]Na moto utakuwakia
+            [02:58.01]Na moto utakuwakia
+            [03:01.50]Na moto utakuwakia
+            [03:42.14]
+        `
     },
     {
         chapter: 2,
@@ -931,55 +933,56 @@ const tracks = [
         title: 'Burning Desire', artist: 'HOYO-MiX',
         context: 'Game - Zenless Zone Zero', desc: '',
         date: 'OCT 2024', ytId: '0NQPMTJ9rh0', start: 0,
-        lyrics: `[00:02.95] Good evening and welcome!
-[00:04.87] I'm Burnice and I'll be serving you today
-[00:09.602] What can I get for you?
-[00:11.60] A drink, some snacks - or a little flames?
-[00:16.848] Mocktails, mixers, ice
-[00:18.64] The snacks are real nice
-[00:20.496] Soda, sour-mix, dry
-[00:22.288] I’m lit you can't deny
-[00:24.208] Whatever you want
-[00:25.168] Whatever you need
-[00:26.192] So good you'll never
-[00:27.216] Ever want to leave
-[00:28.176] Anything that you desire
-[00:29.823] Set it on fire!
-[00:32.251] I'll make you spend your Dennies all away
-[00:36.987] That's my desire
-[00:39.227] You know I’m the real deal.
-[00:41.851] What's left to say?
-[00:44.75] 3-2-1, fire!
-[00:50.70] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-[00:53.466] Go go!
-[00:53.516] Go go!
-[00:58.202] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-[01:00.10] Or a little flames?
-[01:05.605] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-[01:08.405] Go go!
-[01:13.17] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-[01:15.154] Gonna watch it burn!
-[01:16.333] I know I look kinda cute and nice 'n' pleasant
-[01:18.51] But I got a short fuse for fools, don’t get arrogant
-[01:20.558] Watch out - let me pour you a drink
-[01:22.35] But think about messing with me, I’ll end you in a blink
-[01:24.398] So drink your drink, don’t you run your mouth
-[01:26.254] You think about stepping to me, and things'll go south
-[01:28.238] Wanna push your luck then o-k-k,
-[01:30.094] I'll burn you to ash, think twice before you play play
-[01:32.074] I'll make you spend your Dennies all away
-[01:37.066] That's my desire
-[01:39.754] You know I’m the real deal
-[01:41.93] What's left to say?
-[01:44.81] 3-2-1, fire!
-[01:50.826] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-[01:53.231] Go go!
-[01:57.903] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-[01:59.646] Or a little flames?
-[02:05.854] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-[02:08.158] Go go!
-[02:13.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-[02:15.035] Gonna watch it burn!
+        lyrics: `
+            [00:02.95] Good evening and welcome!
+            [00:04.87] I'm Burnice and I'll be serving you today
+            [00:09.602] What can I get for you?
+            [00:11.60] A drink, some snacks - or a little flames?
+            [00:16.848] Mocktails, mixers, ice
+            [00:18.64] The snacks are real nice
+            [00:20.496] Soda, sour-mix, dry
+            [00:22.288] I’m lit you can't deny
+            [00:24.208] Whatever you want
+            [00:25.168] Whatever you need
+            [00:26.192] So good you'll never
+            [00:27.216] Ever want to leave
+            [00:28.176] Anything that you desire
+            [00:29.823] Set it on fire!
+            [00:32.251] I'll make you spend your Dennies all away
+            [00:36.987] That's my desire
+            [00:39.227] You know I’m the real deal.
+            [00:41.851] What's left to say?
+            [00:44.75] 3-2-1, fire!
+            [00:50.70] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [00:53.466] Go go!
+            [00:53.516] Go go!
+            [00:58.202] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [01:00.10] Or a little flames?
+            [01:05.605] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [01:08.405] Go go!
+            [01:13.17] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [01:15.154] Gonna watch it burn!
+            [01:16.333] I know I look kinda cute and nice 'n' pleasant
+            [01:18.51] But I got a short fuse for fools, don’t get arrogant
+            [01:20.558] Watch out - let me pour you a drink
+            [01:22.35] But think about messing with me, I’ll end you in a blink
+            [01:24.398] So drink your drink, don’t you run your mouth
+            [01:26.254] You think about stepping to me, and things'll go south
+            [01:28.238] Wanna push your luck then o-k-k,
+            [01:30.094] I'll burn you to ash, think twice before you play play
+            [01:32.074] I'll make you spend your Dennies all away
+            [01:37.066] That's my desire
+            [01:39.754] You know I’m the real deal
+            [01:41.93] What's left to say?
+            [01:44.81] 3-2-1, fire!
+            [01:50.826] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [01:53.231] Go go!
+            [01:57.903] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [01:59.646] Or a little flames?
+            [02:05.854] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [02:08.158] Go go!
+            [02:13.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [02:15.035] Gonna watch it burn!
 `},
     {
         chapter: 2,
@@ -987,35 +990,35 @@ const tracks = [
         context: 'Game - Zenless Zone Zero', desc: '',
         date: 'DEC 2024', ytId: 'Hj1CBJxkyeA', start: 0,
         lyrics: `
-                    [00:28.06]Yeah, the shining golden sign (ha-ha, yeah)
-                    [00:30.36] 
-                    [00:31.01]Let your inner spark ignite (ring, ring)
-                    [00:34.21] 
-                    [00:34.65]Find your treasure (treasure), glowing bright
-                    [00:37.53] 
-                    [00:37.73]Reaching for it and take a flight (woah)
-                    [00:40.80] 
-                    [00:41.05]Lucky or not, at least you tried
-                    [00:44.19]Chin up, in yourself, confide (yeah)
-                    [00:47.45] 
-                    [00:47.58]No doubt fate's on your side
-                    [00:50.72]You're chosen (skrrt, skrrt), so enjoy the ride (uh)
-                    [00:54.17] 
-                    [00:54.66]There are things you can't control
-                    [00:57.60] 
-                    [00:57.95]Fortune's fickle (ring, ring), that's this world
-                    [01:00.80]Embrace the result (result), stop keeping score (yeah)
-                    [01:04.06] 
-                    [01:04.35]That's the essence
-                    [01:06.04]Life's true goal (woah)
-                    [01:07.64] 
-                    [01:07.49]Not just trials (uh) and battles tough (yeah)
-                    [01:10.71] 
-                    [01:10.90]Go taking joy in simple stuff
-                    [01:14.16] 
-                    [01:14.80]Even when it's getting rough
-                    [01:17.24]Take it easy, having fun is just enough
-                    [01:20.56] 
+            [00:28.06]Yeah, the shining golden sign (ha-ha, yeah)
+            [00:30.36] 
+            [00:31.01]Let your inner spark ignite (ring, ring)
+            [00:34.21] 
+            [00:34.65]Find your treasure (treasure), glowing bright
+            [00:37.53] 
+            [00:37.73]Reaching for it and take a flight (woah)
+            [00:40.80] 
+            [00:41.05]Lucky or not, at least you tried
+            [00:44.19]Chin up, in yourself, confide (yeah)
+            [00:47.45] 
+            [00:47.58]No doubt fate's on your side
+            [00:50.72]You're chosen (skrrt, skrrt), so enjoy the ride (uh)
+            [00:54.17] 
+            [00:54.66]There are things you can't control
+            [00:57.60] 
+            [00:57.95]Fortune's fickle (ring, ring), that's this world
+            [01:00.80]Embrace the result (result), stop keeping score (yeah)
+            [01:04.06] 
+            [01:04.35]That's the essence
+            [01:06.04]Life's true goal (woah)
+            [01:07.64] 
+            [01:07.49]Not just trials (uh) and battles tough (yeah)
+            [01:10.71] 
+            [01:10.90]Go taking joy in simple stuff
+            [01:14.16] 
+            [01:14.80]Even when it's getting rough
+            [01:17.24]Take it easy, having fun is just enough
+            [01:20.56] 
 
 `
     },
@@ -1025,26 +1028,26 @@ const tracks = [
         context: 'Game - Hatsune Miku: Colorful Stage!', desc: ' ',
         date: 'DEC 2024', ytId: 'B2fRMQUxnyw', start: 0,
         lyrics: `
-                [00:20.775] 形のない気持ち忘れないように
-[00:27.266] 決まりきったレイアウトを消した
-[00:33.75] ふと口ずさんだフレーズを掴まえて
-[00:39.875] 胸に秘めた言葉乗せ空に解き放つの
-[00:48.031] 君に伝えたいことが
-[00:51.203] 君に届けたいことが
-[00:54.45] たくさんの点は線になって
-[00:57.491] 遠く彼方へと響く
-[01:00.975] 君に伝えたい言葉
-[01:04.05] 君に届けたい音が
-[01:07.25] いくつもの線は円になって
-[01:10.493] 全て繋げてく　どこにだって (ah)
-[01:26.353] 君が伝えたいことは
-[01:29.586] 君が届けたいことは
-[01:32.786] たくさんの点は線になって
-[01:35.474] 遠く彼方へと響く
-[01:39.058] 君が伝えたい言葉
-[01:42.322] 君が届けたい音は
-[01:45.586] いくつもの線は円になって
-[01:48.791] 全て繋げてく　どこにだって (ah…)
+            [00:20.775] 形のない気持ち忘れないように
+            [00:27.266] 決まりきったレイアウトを消した
+            [00:33.75] ふと口ずさんだフレーズを掴まえて
+            [00:39.875] 胸に秘めた言葉乗せ空に解き放つの
+            [00:48.031] 君に伝えたいことが
+            [00:51.203] 君に届けたいことが
+            [00:54.45] たくさんの点は線になって
+            [00:57.491] 遠く彼方へと響く
+            [01:00.975] 君に伝えたい言葉
+            [01:04.05] 君に届けたい音が
+            [01:07.25] いくつもの線は円になって
+            [01:10.493] 全て繋げてく　どこにだって (ah)
+            [01:26.353] 君が伝えたいことは
+            [01:29.586] 君が届けたいことは
+            [01:32.786] たくさんの点は線になって
+            [01:35.474] 遠く彼方へと響く
+            [01:39.058] 君が伝えたい言葉
+            [01:42.322] 君が届けたい音は
+            [01:45.586] いくつもの線は円になって
+            [01:48.791] 全て繋げてく　どこにだって (ah…)
 `
     },
     {
@@ -1054,48 +1057,48 @@ const tracks = [
         date: 'DEC 2024', ytId: 'J9kD9rYR088', start: 0,
         ig: 'https://www.instagram.com/reel/DE7mx9IxgwU/',
         lyrics: `
-                    [00:15.486] 標準偏差以内の人生
-                    [00:17.902] 表情殺して腐った品性
-                    [00:20.189] ほらほら気づけばまた
-                    [00:22.301] ただただ過ぎ行く日々
-                    [00:24.605] 表現欲も非凡な才も
-                    [00:27.198] 漫然と生きてちゃなんもなんないの
-                    [00:29.693] ヤダヤダアタシはヤダ
-                    [00:32.011] 嘆けど変わらぬまま
-                    [00:34.443] 受け入れ難い心情をねじ込むのが愛なんだ
-                    [00:42.618] アタシはジャックポットサッドガール 分かり合えぬまま
-                    [00:49.081] 点と線でエンドロール描く日々の中
-                    [00:53.305] 誰にも言えないまんま抱えた想いこそ価値があるんだ
-                    [00:58.041] 探していた答えだって 未来みたいに手の中に
-                    [01:02.649] 正論ばっかじゃちょーつまんない
-                    [01:05.081] 人生は一種のジョークなんだ
-                    [01:07.385] ハローハロー気の向くまま
-                    [01:09.561] その音鳴らせばほら
-                    [01:12.121] 精神相場はちょー不安定
-                    [01:14.425] 安定な策とかホント退屈さ
-                    [01:16.729] 見て見てアタシの中
-                    [01:18.969] 心の奥底にある
-                    [01:21.401] 黒く澱んだ水槽に映るのは微笑だった
-                    [01:31.065] ジャックポットサッドガール 分かり合えずとも
-                    [01:35.545] 心の臓のビートを強く響かせて
-                    [01:39.961] 胸張り正々堂々正面突破で間違えるんだ
-                    [01:44.761] 隠し持った似合わないナイフ 異端ゆえの最先端
-                    [01:50.318] ひーふーみーよー
-                    [01:54.67] いーむーなーやー
-                    [01:59.086] ねぇ先生ここ無法地帯
-                    [02:01.582] あなた曰く既に廃れ枯れたアネクメーネ
-                    [02:03.822] 草木生えず人類の住めなくなった
-                    [02:06.062] チープでキッチュな小惑星
-                    [02:08.494] ねぇ先生あなたバカじゃないの
-                    [02:10.798] 未だ滾る感情を知らないの
-                    [02:13.166] 凝り固まってんならお勉強
-                    [02:15.278] ここで無垢で無知で無為な賛美を見せつけるわ
-                    [02:22.757] それでも
-                    [02:25.08] ジャックポットサッドガール　分かり合えるかな
-                    [02:29.624] どんな不安も怠惰もみな抱えたまま
-                    [02:33.931] 誰にも言えないまんま 自分のまんまで勝ち上がるんだ
-                    [02:39.063] 探していた答えだって 未来みたいに手の中に
-                    [02:43.574] あった
+            [00:15.486] 標準偏差以内の人生
+            [00:17.902] 表情殺して腐った品性
+            [00:20.189] ほらほら気づけばまた
+            [00:22.301] ただただ過ぎ行く日々
+            [00:24.605] 表現欲も非凡な才も
+            [00:27.198] 漫然と生きてちゃなんもなんないの
+            [00:29.693] ヤダヤダアタシはヤダ
+            [00:32.011] 嘆けど変わらぬまま
+            [00:34.443] 受け入れ難い心情をねじ込むのが愛なんだ
+            [00:42.618] アタシはジャックポットサッドガール 分かり合えぬまま
+            [00:49.081] 点と線でエンドロール描く日々の中
+            [00:53.305] 誰にも言えないまんま抱えた想いこそ価値があるんだ
+            [00:58.041] 探していた答えだって 未来みたいに手の中に
+            [01:02.649] 正論ばっかじゃちょーつまんない
+            [01:05.081] 人生は一種のジョークなんだ
+            [01:07.385] ハローハロー気の向くまま
+            [01:09.561] その音鳴らせばほら
+            [01:12.121] 精神相場はちょー不安定
+            [01:14.425] 安定な策とかホント退屈さ
+            [01:16.729] 見て見てアタシの中
+            [01:18.969] 心の奥底にある
+            [01:21.401] 黒く澱んだ水槽に映るのは微笑だった
+            [01:31.065] ジャックポットサッドガール 分かり合えずとも
+            [01:35.545] 心の臓のビートを強く響かせて
+            [01:39.961] 胸張り正々堂々正面突破で間違えるんだ
+            [01:44.761] 隠し持った似合わないナイフ 異端ゆえの最先端
+            [01:50.318] ひーふーみーよー
+            [01:54.67] いーむーなーやー
+            [01:59.086] ねぇ先生ここ無法地帯
+            [02:01.582] あなた曰く既に廃れ枯れたアネクメーネ
+            [02:03.822] 草木生えず人類の住めなくなった
+            [02:06.062] チープでキッチュな小惑星
+            [02:08.494] ねぇ先生あなたバカじゃないの
+            [02:10.798] 未だ滾る感情を知らないの
+            [02:13.166] 凝り固まってんならお勉強
+            [02:15.278] ここで無垢で無知で無為な賛美を見せつけるわ
+            [02:22.757] それでも
+            [02:25.08] ジャックポットサッドガール　分かり合えるかな
+            [02:29.624] どんな不安も怠惰もみな抱えたまま
+            [02:33.931] 誰にも言えないまんま 自分のまんまで勝ち上がるんだ
+            [02:39.063] 探していた答えだって 未来みたいに手の中に
+            [02:43.574] あった
                 `
     },
     {
@@ -1105,44 +1108,44 @@ const tracks = [
         date: 'DEC 2024', ytId: 'A77p_8E7OFs', start: 0,
         ig: 'https://www.instagram.com/reel/DIUDThwRCnq/',
         lyrics: `
-                    [00:00.615] Let the music resonate in your heart
-                    [00:03.495] Together we can recreate a new start
-                    [00:07.504] On the borderline between what is real and yet unseen
-                    [00:10.471] Hear my song, follow me
-                    [00:24.714] If it feels like you have nowhere left
-                    [00:28.13] As the midnight sets in
-                    [00:31.146] Just look to the horizon
-                    [00:33.45] Find where it all begins
-                    [00:36.074] A new constellation will lead us to boundless odyssey
-                    [00:40.318] Come follow me
-                    [00:41.598] With luck, resolution, and vigor
-                    [00:44.03] We'll capture sights yet unseen
-                    [00:47.934] Now
-                    [00:48.36] Hear this melody resound in the chaos of the crowd
-                    [00:51.368] By noise be found, your voice calls out
-                    [00:53.864] On the borderline between what is real and yet unseen
-                    [00:56.744] Hear my song, follow me
-                    [00:58.792] Let the music resonate in your heart
-                    [01:01.48] Together we can recreate a new start
-                    [01:04.232] Confide into my arms
-                    [01:05.896] Hear this melody resound in the chaos of the crowd
-                    [01:08.584] Defy all doubts by twilight's sound
-                    [01:22.061] Open your eyes to something new
-                    [01:24.877] Gleaming stars come into view
-                    [01:27.501] Know that this love is absolute
-                    [01:30.381] As the sun will rise the day anew
-                    [01:34.54] Now
-                    [01:34.86] Hear this melody resound in the chaos of the crowd
-                    [01:37.863] By noise be found, your voice calls out
-                    [01:40.71] On the borderline between what is real and yet unseen
-                    [01:44.381] Hear my song, follow me
-                    [01:46.821] Let the music resonate in your heart
-                    [01:49.565] Together we can recreate a new start
-                    [01:52.269] Confide into my arms
-                    [01:53.405] Hear this melody resound in the chaos of the crowd
-                    [01:56.989] Defy all doubts by twilight's sound
-                    [02:03.149] I'll never let you down
-                    [02:09.003] Be found by twilight's sound
+            [00:00.615] Let the music resonate in your heart
+            [00:03.495] Together we can recreate a new start
+            [00:07.504] On the borderline between what is real and yet unseen
+            [00:10.471] Hear my song, follow me
+            [00:24.714] If it feels like you have nowhere left
+            [00:28.13] As the midnight sets in
+            [00:31.146] Just look to the horizon
+            [00:33.45] Find where it all begins
+            [00:36.074] A new constellation will lead us to boundless odyssey
+            [00:40.318] Come follow me
+            [00:41.598] With luck, resolution, and vigor
+            [00:44.03] We'll capture sights yet unseen
+            [00:47.934] Now
+            [00:48.36] Hear this melody resound in the chaos of the crowd
+            [00:51.368] By noise be found, your voice calls out
+            [00:53.864] On the borderline between what is real and yet unseen
+            [00:56.744] Hear my song, follow me
+            [00:58.792] Let the music resonate in your heart
+            [01:01.48] Together we can recreate a new start
+            [01:04.232] Confide into my arms
+            [01:05.896] Hear this melody resound in the chaos of the crowd
+            [01:08.584] Defy all doubts by twilight's sound
+            [01:22.061] Open your eyes to something new
+            [01:24.877] Gleaming stars come into view
+            [01:27.501] Know that this love is absolute
+            [01:30.381] As the sun will rise the day anew
+            [01:34.54] Now
+            [01:34.86] Hear this melody resound in the chaos of the crowd
+            [01:37.863] By noise be found, your voice calls out
+            [01:40.71] On the borderline between what is real and yet unseen
+            [01:44.381] Hear my song, follow me
+            [01:46.821] Let the music resonate in your heart
+            [01:49.565] Together we can recreate a new start
+            [01:52.269] Confide into my arms
+            [01:53.405] Hear this melody resound in the chaos of the crowd
+            [01:56.989] Defy all doubts by twilight's sound
+            [02:03.149] I'll never let you down
+            [02:09.003] Be found by twilight's sound
 `
     },
     // Chapter 3
@@ -1152,25 +1155,25 @@ const tracks = [
         context: '2025 Opening', desc: 'Honkai Star Rail',
         date: 'JAN 2025', ytId: 'TqKwoSk6708', start: 0,
         lyrics: `
-                    [00:11.925] Moonlight, a barren void to horizon,
-                    [00:23.70] Days blur into nights of dreadful silence, oh.
-                    [00:34.90] You let me see thy heart,
-                    [00:37.90] Lost beacon in the dark,
-                    [00:40.975] Our lonely souls that spark,
-                    [00:43.90] We break apart.
-                    [00:51.75] We find,
-                    [00:53.266] We strive,
-                    [00:54.766] Our journey of eternity.
-                    [00:57.825] Desire, in mind,
-                    [01:00.725] To set our spirits free,
-                    [01:04.333] Echoes fade to oblivion,
-                    [01:06.975] Freedom to make our own.
-                    [01:10.066] We trod our destinies on
-                    [01:12.95] A path unknown.
-                    [01:14.95] In hope,
-                    [01:17.966] In vain,
-                    [01:20.75] To whom, who waits?
-                `
+            [00:11.925] Moonlight, a barren void to horizon,
+            [00:23.70] Days blur into nights of dreadful silence, oh.
+            [00:34.90] You let me see thy heart,
+            [00:37.90] Lost beacon in the dark,
+            [00:40.975] Our lonely souls that spark,
+            [00:43.90] We break apart.
+            [00:51.75] We find,
+            [00:53.266] We strive,
+            [00:54.766] Our journey of eternity.
+            [00:57.825] Desire, in mind,
+            [01:00.725] To set our spirits free,
+            [01:04.333] Echoes fade to oblivion,
+            [01:06.975] Freedom to make our own.
+            [01:10.066] We trod our destinies on
+            [01:12.95] A path unknown.
+            [01:14.95] In hope,
+            [01:17.966] In vain,
+            [01:20.75] To whom, who waits?
+        `
     },
     {
         chapter: 3,
@@ -1179,26 +1182,26 @@ const tracks = [
         date: 'JAN 2025', ytId: 'pZRSJ00DABs', start: 0,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTY4NjkyNTY5NzkyMzIw?story_media_id=3537309540074394582_63008808258&igsh=MXJ4ZG4wZHA1OW5mMw==',
         lyrics: `
-                    [00:00.19]Vae umbrifero corrupto veteri
-                    [01:32.24]Vides ut veteranum aureum altumque palatium
-                    [01:45.99]Praedico tibi hodie quod pereas et tandem moreris
-                    [01:50.74]Nunc sordida impudica pulvere obtectum
-                    [02:06.59]Numeramur nos et omnes in caelo corruimus
-                    [02:13.52]Numerabit vos et omnes in caelo corruetis
-                    [02:20.29]Neglegis immeritis nocituram postmodo
-                    [02:34.25]ferro odi ignique
-                    [02:35.50]natis committere, umbriferum cadaveris?
-                    [02:47.95]
-                    [03:01.38]Vides ut heres superbiae priscos nobiles progenies
-                    [03:13.61]Fors et debita iura vicesque superbae te ipsum
-                    [03:13.61]Nunc squamae exsiccatae remaneant nisi tantum
-                    [03:32.49]Irrident veteres odiorum
-                    [03:32.49]Irrides veteres odiorum vanitates
-                    [03:40.80]Ossa relicta in tenebrosis vivantium iam ponant odium
-                    [03:45.67]Vanitates et illudis veteris odi
-                    [03:55.14]Nescis cras quis lumen visurus erit?
-                    [03:55.14]Nescis cras quis nocte sepultus erit?
-                `
+            [00:00.19]Vae umbrifero corrupto veteri
+            [01:32.24]Vides ut veteranum aureum altumque palatium
+            [01:45.99]Praedico tibi hodie quod pereas et tandem moreris
+            [01:50.74]Nunc sordida impudica pulvere obtectum
+            [02:06.59]Numeramur nos et omnes in caelo corruimus
+            [02:13.52]Numerabit vos et omnes in caelo corruetis
+            [02:20.29]Neglegis immeritis nocituram postmodo
+            [02:34.25]ferro odi ignique
+            [02:35.50]natis committere, umbriferum cadaveris?
+            [02:47.95]
+            [03:01.38]Vides ut heres superbiae priscos nobiles progenies
+            [03:13.61]Fors et debita iura vicesque superbae te ipsum
+            [03:13.61]Nunc squamae exsiccatae remaneant nisi tantum
+            [03:32.49]Irrident veteres odiorum
+            [03:32.49]Irrides veteres odiorum vanitates
+            [03:40.80]Ossa relicta in tenebrosis vivantium iam ponant odium
+            [03:45.67]Vanitates et illudis veteris odi
+            [03:55.14]Nescis cras quis lumen visurus erit?
+            [03:55.14]Nescis cras quis nocte sepultus erit?
+        `
     },
     {
         chapter: 3,
@@ -1207,32 +1210,31 @@ const tracks = [
         date: 'JAN 2025', ytId: 'B1FUeACyqbI', start: 0,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTY4NjkyNTY5NzkyMzIw?story_media_id=3537176221278097451_63008808258&igsh=MXJ4ZG4wZHA1OW5mMw==',
         lyrics: `
-                    [00:42.74]Shambulia! Beba Silaha
-                    [00:49.02]Pigana mpaka mwishowe
-                    [00:55.74]Kwa nchi yetu tutaunguza damu yoyote
-                    [01:02.20]Rudi kwa pambaja ya dunia
-                    [01:08.18]Zuri, safi, sawa, sikia
-                    [01:14.32]Vuma, raha, nguvu, sikia
-                    [01:24.44]Hadithi yaendelea (kama moto)
-                    [01:30.52]Heshima warithi vizazi (waka daima)
-                    [01:34.29]Ushujaa waangaza mbingu na ardhi
-                    [01:40.25]Mara tena ashinda Natlan
-                    [01:45.02] 
-                    [02:04.58]Nyimbo kelele sana 
-                    [02:17.25]Kwa jamaa, nchi na taifa
-                    [02:17.25](Sikiliza zitakuongoza nyumbani)
-                    [02:17.25](Zuri, safi, sawa)
-                    [02:29.99]Kwa Matumaini, mbeleni, malengo (Vuma, raha, nguvu)
-                    [02:42.66] 
-                    [02:55.59]Mara ya tena mwangani
-                    [03:07.92]Mara ya tena mwangani
-                    [03:07.94]Mara ya tena mwangani
-                    [03:20.34]Maisha marefu ni sasa
-                    [03:26.56]Maisha marefu ni sasa
-                    [03:32.96]Maisha marefu ni sasa
-                    [03:39.30]Maisha marefu ni sasa
-                    [03:44.29] 
-
+            [00:42.74]Shambulia! Beba Silaha
+            [00:49.02]Pigana mpaka mwishowe
+            [00:55.74]Kwa nchi yetu tutaunguza damu yoyote
+            [01:02.20]Rudi kwa pambaja ya dunia
+            [01:08.18]Zuri, safi, sawa, sikia
+            [01:14.32]Vuma, raha, nguvu, sikia
+            [01:24.44]Hadithi yaendelea (kama moto)
+            [01:30.52]Heshima warithi vizazi (waka daima)
+            [01:34.29]Ushujaa waangaza mbingu na ardhi
+            [01:40.25]Mara tena ashinda Natlan
+            [01:45.02] 
+            [02:04.58]Nyimbo kelele sana 
+            [02:17.25]Kwa jamaa, nchi na taifa
+            [02:17.25](Sikiliza zitakuongoza nyumbani)
+            [02:17.25](Zuri, safi, sawa)
+            [02:29.99]Kwa Matumaini, mbeleni, malengo (Vuma, raha, nguvu)
+            [02:42.66] 
+            [02:55.59]Mara ya tena mwangani
+            [03:07.92]Mara ya tena mwangani
+            [03:07.94]Mara ya tena mwangani
+            [03:20.34]Maisha marefu ni sasa
+            [03:26.56]Maisha marefu ni sasa
+            [03:32.96]Maisha marefu ni sasa
+            [03:39.30]Maisha marefu ni sasa
+            [03:44.29]
 `
     },
     {
@@ -1249,54 +1251,54 @@ const tracks = [
         date: 'FEB 2025', ytId: 'G-WN0ab-9ZI', start: 0,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDM4NTkxMTE3MjY5OTcx?story_media_id=3562051245785979709_63008808258&igsh=NWhzZWljMzE3eW54',
         lyrics: `
-                    [00:01.18]不安ばっか知ってんだ 雨が降りそうな日
-                    [00:04.76]風の匂いで分かるから
-                    [00:08.10]誰だって気付いてんだ 僕には無理だと
-                    [00:12.12]それでも足掻いては転んだ
-                    [00:14.96]
-                    [00:15.34]友情×努力＝勝利の方程式
-                    [00:19.37]解けないまま過ごした僕らにも
-                    [00:22.96]いつか分かる日が来るよって
-                    [00:25.83]確証無く笑える自分が嫌いだ
-                    [00:29.43]
-                    [00:30.12]星が降るあの街に
-                    [00:33.34]置き去りにした思い出が
-                    [00:37.01]胸の奥で揺らめいてる
-                    [00:40.74]いつまでも焦がれていた
-                    [00:44.69]
-                    [00:46.03]それは雑踏の海の中で
-                    [00:49.95]踊るように燃えている誰かの声
-                    [00:53.62]ずっと探し続けてる
-                    [00:57.35]たとえそれが僕らのワガママでもいいさ
-                    [01:01.90]
-                    [01:09.49]好きな事選んだんだ
-                    [01:11.38]胸を張ればいいって
-                    [01:13.15]わかってるわかってる繰り返した
-                    [01:15.51]
-                    [01:16.33]結んだ指とかさねた呼吸
-                    [01:19.62]鳴り響く鼓動に耳を澄ました
-                    [01:22.76]
-                    [01:23.28]ホントは言いたくなかった
-                    [01:25.31]うざったいんだよ外野ばっか
-                    [01:27.13]ここで生きるってこと決めたんだから！
-                    [01:30.35]
-                    [01:30.59]きっとボクらの出会いだって
-                    [01:34.40]この空の下にある小さなセカイ
-                    [01:37.98]ずっと求め続けてる
-                    [01:41.70]たとえそれが誰かの気まぐれでもいいさ
-                    [01:49.56]
-                    [02:00.32]それは雑踏の海の中で
-                    [02:03.97]踊るように燃えているあの日の声
-                    [02:07.63]ずっと探し続けてる
-                    [02:11.71]たとえそれが僕らのワガママでも
-                    [02:14.92]
-                    [02:15.48]きっとボクらの出会いだって
-                    [02:19.09]この空の下にある小さなセカイ
-                    [02:22.90]ずっと求め続けてる
-                    [02:26.54]たとえそれが誰かの気まぐれでもいいさ
-                    [02:30.86]
-                    [02:38.31]不安ばっか知っていた あの日のボクらが
-                    [02:41.88]この街で僕らになれますように
+            [00:01.18]不安ばっか知ってんだ 雨が降りそうな日
+            [00:04.76]風の匂いで分かるから
+            [00:08.10]誰だって気付いてんだ 僕には無理だと
+            [00:12.12]それでも足掻いては転んだ
+            [00:14.96]
+            [00:15.34]友情×努力＝勝利の方程式
+            [00:19.37]解けないまま過ごした僕らにも
+            [00:22.96]いつか分かる日が来るよって
+            [00:25.83]確証無く笑える自分が嫌いだ
+            [00:29.43]
+            [00:30.12]星が降るあの街に
+            [00:33.34]置き去りにした思い出が
+            [00:37.01]胸の奥で揺らめいてる
+            [00:40.74]いつまでも焦がれていた
+            [00:44.69]
+            [00:46.03]それは雑踏の海の中で
+            [00:49.95]踊るように燃えている誰かの声
+            [00:53.62]ずっと探し続けてる
+            [00:57.35]たとえそれが僕らのワガママでもいいさ
+            [01:01.90]
+            [01:09.49]好きな事選んだんだ
+            [01:11.38]胸を張ればいいって
+            [01:13.15]わかってるわかってる繰り返した
+            [01:15.51]
+            [01:16.33]結んだ指とかさねた呼吸
+            [01:19.62]鳴り響く鼓動に耳を澄ました
+            [01:22.76]
+            [01:23.28]ホントは言いたくなかった
+            [01:25.31]うざったいんだよ外野ばっか
+            [01:27.13]ここで生きるってこと決めたんだから！
+            [01:30.35]
+            [01:30.59]きっとボクらの出会いだって
+            [01:34.40]この空の下にある小さなセカイ
+            [01:37.98]ずっと求め続けてる
+            [01:41.70]たとえそれが誰かの気まぐれでもいいさ
+            [01:49.56]
+            [02:00.32]それは雑踏の海の中で
+            [02:03.97]踊るように燃えているあの日の声
+            [02:07.63]ずっと探し続けてる
+            [02:11.71]たとえそれが僕らのワガママでも
+            [02:14.92]
+            [02:15.48]きっとボクらの出会いだって
+            [02:19.09]この空の下にある小さなセカイ
+            [02:22.90]ずっと求め続けてる
+            [02:26.54]たとえそれが誰かの気まぐれでもいいさ
+            [02:30.86]
+            [02:38.31]不安ばっか知っていた あの日のボクらが
+            [02:41.88]この街で僕らになれますように
 `
     },
     {
@@ -1306,88 +1308,88 @@ const tracks = [
         date: 'MAR 2025', ytId: 'cchy8Tl5Oa8', start: 0,
         ig: '',
         lyrics: `
-                    [00:11.44]使い古した自分の名前に
-                    [00:13.52]あえてキッチュなルビを振って
-                    [00:15.39]高潔を打ち負かせるくらいに
-                    [00:17.40]恐ろしくなる　骨の髄まで
-                    [00:19.36]今はどんなふうに見えてますか？
-                    [00:21.40]醜いですか？　それはそっか
-                    [00:23.34]どうか林檎を投げつけないで
-                    [00:25.34]胸にLock up　Lock up
-                    [00:26.99]ザムザ
-                    [00:28.65]
-                    [00:35.75]「鏡をご覧」誰かが囁く
-                    [00:37.20]うまくいったら儲けものさ
-                    [00:39.01]甘い言葉も笑顔も通じない
-                    [00:40.95]走り出したらもう獣だ
-                    [00:42.92]月の真下をうろつきながら
-                    [00:44.87]考えてた　夜すがら
-                    [00:47.03]悪夢にどの指立てて
-                    [00:48.99]やるべきかってね
-                    [00:50.70]
-                    [00:51.04]ズキズキズキ　『ズキズキズキ』
-                    [00:53.11]ズキンズキンズキン　『ズキンズキン』
-                    [00:55.23]ズキズキズキ　『ズキズキズキ』
-                    [00:57.05]ズキ　ズキ　ズキン
-                    [00:58.68]変われ…
-                    [00:59.35]ズキズキズキズキズキ
-                    [01:02.08]
-                    [01:02.08]誰だって魂辛辛
-                    [01:05.05]ズキズキズキ
-                    [01:06.29]痛みと怒れる人(ラングラー)を喰らったったらった
-                    [01:10.86]だのに何故だろう今も
-                    [01:13.67]ズキズキズキって
-                    [01:15.16]派手な尻尾を引き摺りゆく ザザザザ　ザムザ
-                    [01:19.39]「現実はもういい」なんて云うなよザムザ
-                    [01:23.33]おーいえー
-                    [01:24.44]『ズキズキズキ』
-                    [01:27.42]ザザザザ　ザムザ
-                    [01:28.95]『ズキズキズキ』
-                    [01:31.49]
-                    [01:32.26]「ごめんね。ちっとも上手に
-                    [01:34.30]生きてあげられなくて」と伝えて
-                    [01:36.23]否定形の笑顔でも欲しくて
-                    [01:38.03]ニンゲン様なりきってる亡霊
-                    [01:41.09]自分の弱音に相槌ばかりだった
-                    [01:44.06]当然あなたとまともにケンカもできなかった
-                    [01:48.16]ズキズキズキ 『ズキズキズキ』
-                    [01:50.31]ズキンズキンズキン 『ズキンズキン』
-                    [01:52.30]ズキズキズキ 『ズキズキズキ』
-                    [01:54.22]ズキ　ズキ　ズキン
-                    [01:55.76]変われそうにないやいや
-                    [01:59.53]冗談じゃない　夢を食べないで
-                    [02:02.32]ズキズキズキ
-                    [02:03.46]小洒落た絶望を歌ったったらった
-                    [02:07.49]どうしようもない成れの果てでも
-                    [02:10.21]ズキズキズキって
-                    [02:11.73]いつか愛しい歌になるさ ザザザザ　ザムザ
-                    [02:16.40]
-                    [02:22.80]ねえ123で飛んで ザザザザ　ザムザ
-                    [02:26.94]一切合切蹴っ飛ばして ザザザザ　ザムザ
-                    [02:30.95]あとがきで触れられもしない日々
-                    [02:34.35]ここで逃げ出したら　本当にそうなりそうだ
-                    [02:39.84]
-                    [02:42.36]誰だって魂辛辛
-                    [02:45.01]ズキズキズキ…
-                    [02:46.20]痛みと怒れる人(ラングラー)を喰らったったらった
-                    [02:50.24]だのに何故だろう今も
-                    [02:52.97]ズキズキズキって (ズキズキ)
-                    [02:54.39]林檎をかじるようにザザ　ザムザ
-                    [02:57.78]どうしようもない成れの果てでもここにいる
-                    [03:01.97]シャガの花に毒されても
-                    [03:05.66]光は１時の方角にある
-                    [03:09.90]今は尻尾を引き摺りゆけ
-                    [03:12.37]ザザザザ　ザムザ
-                    [03:14.33]だから「現実はもういい」なんて云うなよザムザ
-                    [03:18.30]おーけー？
-                    [03:19.49]『ズキズキズキ…』
-                    [03:21.30]ザザザザザムザ
-                    [03:22.76]『ズキズキズキ…』
-                    [03:25.29]
-                    [03:26.26]『ズキズキズキ…』
-                    [03:28.95]ザザザザザムザ
-                    [03:30.77]『ズキズキ…』
-                    [03:33.61]『ズキ』
+            [00:11.44]使い古した自分の名前に
+            [00:13.52]あえてキッチュなルビを振って
+            [00:15.39]高潔を打ち負かせるくらいに
+            [00:17.40]恐ろしくなる　骨の髄まで
+            [00:19.36]今はどんなふうに見えてますか？
+            [00:21.40]醜いですか？　それはそっか
+            [00:23.34]どうか林檎を投げつけないで
+            [00:25.34]胸にLock up　Lock up
+            [00:26.99]ザムザ
+            [00:28.65]
+            [00:35.75]「鏡をご覧」誰かが囁く
+            [00:37.20]うまくいったら儲けものさ
+            [00:39.01]甘い言葉も笑顔も通じない
+            [00:40.95]走り出したらもう獣だ
+            [00:42.92]月の真下をうろつきながら
+            [00:44.87]考えてた　夜すがら
+            [00:47.03]悪夢にどの指立てて
+            [00:48.99]やるべきかってね
+            [00:50.70]
+            [00:51.04]ズキズキズキ　『ズキズキズキ』
+            [00:53.11]ズキンズキンズキン　『ズキンズキン』
+            [00:55.23]ズキズキズキ　『ズキズキズキ』
+            [00:57.05]ズキ　ズキ　ズキン
+            [00:58.68]変われ…
+            [00:59.35]ズキズキズキズキズキ
+            [01:02.08]
+            [01:02.08]誰だって魂辛辛
+            [01:05.05]ズキズキズキ
+            [01:06.29]痛みと怒れる人(ラングラー)を喰らったったらった
+            [01:10.86]だのに何故だろう今も
+            [01:13.67]ズキズキズキって
+            [01:15.16]派手な尻尾を引き摺りゆく ザザザザ　ザムザ
+            [01:19.39]「現実はもういい」なんて云うなよザムザ
+            [01:23.33]おーいえー
+            [01:24.44]『ズキズキズキ』
+            [01:27.42]ザザザザ　ザムザ
+            [01:28.95]『ズキズキズキ』
+            [01:31.49]
+            [01:32.26]「ごめんね。ちっとも上手に
+            [01:34.30]生きてあげられなくて」と伝えて
+            [01:36.23]否定形の笑顔でも欲しくて
+            [01:38.03]ニンゲン様なりきってる亡霊
+            [01:41.09]自分の弱音に相槌ばかりだった
+            [01:44.06]当然あなたとまともにケンカもできなかった
+            [01:48.16]ズキズキズキ 『ズキズキズキ』
+            [01:50.31]ズキンズキンズキン 『ズキンズキン』
+            [01:52.30]ズキズキズキ 『ズキズキズキ』
+            [01:54.22]ズキ　ズキ　ズキン
+            [01:55.76]変われそうにないやいや
+            [01:59.53]冗談じゃない　夢を食べないで
+            [02:02.32]ズキズキズキ
+            [02:03.46]小洒落た絶望を歌ったったらった
+            [02:07.49]どうしようもない成れの果てでも
+            [02:10.21]ズキズキズキって
+            [02:11.73]いつか愛しい歌になるさ ザザザザ　ザムザ
+            [02:16.40]
+            [02:22.80]ねえ123で飛んで ザザザザ　ザムザ
+            [02:26.94]一切合切蹴っ飛ばして ザザザザ　ザムザ
+            [02:30.95]あとがきで触れられもしない日々
+            [02:34.35]ここで逃げ出したら　本当にそうなりそうだ
+            [02:39.84]
+            [02:42.36]誰だって魂辛辛
+            [02:45.01]ズキズキズキ…
+            [02:46.20]痛みと怒れる人(ラングラー)を喰らったったらった
+            [02:50.24]だのに何故だろう今も
+            [02:52.97]ズキズキズキって (ズキズキ)
+            [02:54.39]林檎をかじるようにザザ　ザムザ
+            [02:57.78]どうしようもない成れの果てでもここにいる
+            [03:01.97]シャガの花に毒されても
+            [03:05.66]光は１時の方角にある
+            [03:09.90]今は尻尾を引き摺りゆけ
+            [03:12.37]ザザザザ　ザムザ
+            [03:14.33]だから「現実はもういい」なんて云うなよザムザ
+            [03:18.30]おーけー？
+            [03:19.49]『ズキズキズキ…』
+            [03:21.30]ザザザザザムザ
+            [03:22.76]『ズキズキズキ…』
+            [03:25.29]
+            [03:26.26]『ズキズキズキ…』
+            [03:28.95]ザザザザザムザ
+            [03:30.77]『ズキズキ…』
+            [03:33.61]『ズキ』
 `
     },
     {
@@ -1397,48 +1399,48 @@ const tracks = [
         date: 'APR 2025', ytId: 'PslQESlD4xs', start: 0,
         ig: 'https://www.instagram.com/reel/DIY7A7GvZa3/',
         lyrics: `
-                    [01:21.00]Cause we're going to shout it loud
-                    [01:24.26]Even if our words seem meaningless
-                    [01:27.46]It's like I'm carrying the weight of the world
-                    [01:32.84]
-                    [01:33.92]I wish that someway, somehow
-                    [01:37.32]That I could save every one of us
-                    [01:40.58]But the truth is that I'm only one girl
-                    [01:46.47]Maybe if I keep believing
-                    [01:49.03]My dreams will come to life
-                    [01:55.37]
-                    [01:56.26]Come to life
-                    [02:00.49]
-                    [02:13.51]溢れる緑
-                    [02:16.65]零れる命
-                    [02:19.27]風は今も遠く
-                    [02:25.04]
-                    [02:26.78]Nasico whosh pier wan nei
-                    [02:29.60]Wananba ri na qua lei
-                    [02:32.29]Sila schmer ya pit pa lu
-                    [02:38.30]Tell me God, are you punishing me?
-                    [02:45.41]Is this the price I'm paying for my past mistakes?
-                    [02:51.94]This is my redemption song
-                    [02:58.27]I need you more than ever right now
-                    [03:04.42]Can you hear me now?
-                    [03:08.00]そう僕らは今
-                    [03:11.26]ああ、無価値でも叫ぶ
-                    [03:14.46]この汚れた世界の愛
-                    [03:20.86]そう僕らは今
-                    [03:24.32]ああ、無意味でも願う
-                    [03:27.39]ただキミとの時間を
-                    [03:33.87]La feto bo ras di lei
-                    [03:36.99]Shel va pelo cra na dii sii hei
-                    [03:40.51]Naya chyo ma ter meh lava ma puoru
-                    [03:46.91]Ig nagya di lem myo
-                    [03:50.18]Sequoish pela chyo mei lu
-                    [03:53.31]Wana piesla hola uma schen dan
-                    [03:59.83]Still we're gonna shout it loud
-                    [04:03.22]Even if our words seem meaningless
-                    [04:06.29]It's like I'm carrying the weight of the world
-                    [04:12.76]I'd hope that some way, somehow
-                    [04:16.15]That I can save every one of us
-                    [04:19.35]But the truth is that I'm only one girl`
+            [01:21.00]Cause we're going to shout it loud
+            [01:24.26]Even if our words seem meaningless
+            [01:27.46]It's like I'm carrying the weight of the world
+            [01:32.84]
+            [01:33.92]I wish that someway, somehow
+            [01:37.32]That I could save every one of us
+            [01:40.58]But the truth is that I'm only one girl
+            [01:46.47]Maybe if I keep believing
+            [01:49.03]My dreams will come to life
+            [01:55.37]
+            [01:56.26]Come to life
+            [02:00.49]
+            [02:13.51]溢れる緑
+            [02:16.65]零れる命
+            [02:19.27]風は今も遠く
+            [02:25.04]
+            [02:26.78]Nasico whosh pier wan nei
+            [02:29.60]Wananba ri na qua lei
+            [02:32.29]Sila schmer ya pit pa lu
+            [02:38.30]Tell me God, are you punishing me?
+            [02:45.41]Is this the price I'm paying for my past mistakes?
+            [02:51.94]This is my redemption song
+            [02:58.27]I need you more than ever right now
+            [03:04.42]Can you hear me now?
+            [03:08.00]そう僕らは今
+            [03:11.26]ああ、無価値でも叫ぶ
+            [03:14.46]この汚れた世界の愛
+            [03:20.86]そう僕らは今
+            [03:24.32]ああ、無意味でも願う
+            [03:27.39]ただキミとの時間を
+            [03:33.87]La feto bo ras di lei
+            [03:36.99]Shel va pelo cra na dii sii hei
+            [03:40.51]Naya chyo ma ter meh lava ma puoru
+            [03:46.91]Ig nagya di lem myo
+            [03:50.18]Sequoish pela chyo mei lu
+            [03:53.31]Wana piesla hola uma schen dan
+            [03:59.83]Still we're gonna shout it loud
+            [04:03.22]Even if our words seem meaningless
+            [04:06.29]It's like I'm carrying the weight of the world
+            [04:12.76]I'd hope that some way, somehow
+            [04:16.15]That I can save every one of us
+            [04:19.35]But the truth is that I'm only one girl`
     },
     {
         chapter: 3,
@@ -1447,74 +1449,74 @@ const tracks = [
         date: 'APR 2025 ', ytId: 'mxj3mW4jf7Q', start: 0,
         ig: 'https://www.instagram.com/reel/DIiyxE9Rm4l/',
         lyrics: `
-                    [00:00.128] 光、未来 相のうた追う
-                    [00:03.795] 迂回、出会い ハジメマシテ
-                    [00:06.322] 問うからまたね 舞台の裏
-                    [00:09.465] 添う続いてゆく未知の
-                    [00:25.632] 君が笑う景色の砂が
-                    [00:28.347] 好き、で色づくように ね
-                    [00:31.579] 嬉しい日も悲しい日も
-                    [00:34.491] うたと共にいるよ
-                    [00:36.731] あの坂道も 回り道も
-                    [00:40.233] 君と居れば ほらね、ミュージック
-                    [00:42.923] え そんな日常？ どんな日常？
-                    [00:46.459] 答案に、収まらないね 不思議
-                    [00:50.213] 風に溶けた音符の群れが
-                    [00:52.744] 渇いた心の声とハモって
-                    [00:56.345] 隠してきた本当の嘘が
-                    [00:58.959] ヘッドフォンに響いた
-                    [01:01.223] 内緒話も独り言も
-                    [01:04.90] 君の手にかかれば、ミュージック
-                    [01:07.404] 息継ぎしたら生まれたての
-                    [01:11.087] 季節を吸い込んだ
-                    [01:14.201] 変わりゆく景色の空白を
-                    [01:17.017] 変わらない歌声が彩るよ
-                    [01:20.025] 忘れ物に気づいた通学路
-                    [01:23.161] 躓いた問いを絡まった過去を
-                    [01:26.194] 解いたら、一歩 先
-                    [01:29.394] 走り出す未来のすぐそばで
-                    [01:32.841] 夢にまみれた今を抱く
-                    [01:35.721] 信号踏切いつでも
-                    [01:38.281] 音楽は もう、とまらない
-                    [01:41.591] あの笑顔もナミダも君のうた
-                    [01:45.056] まだ、歌えるよ
-                    [01:47.143] 青空の下でこの夏を再生
-                    [01:51.362] 聴いてよ こんなうたどう？
-                    [01:54.476] 無題 デモワンフレーズの衝動
-                    [01:57.361] じゃあ、またね１秒後に会おう
-                    [02:00.562] 終わらない未知で
-                    [02:16.188] オトで擦る星空の軌跡
-                    [02:18.902] 幸せ探す綺麗を纏う芽
-                    [02:22.332] 君が”君”で居てくれたから
-                    [02:25.084] ここにいる、今日だった
-                    [02:27.708] 1.2.3 で煌めくファンタジーを
-                    [02:31.311] 夜に翳すインターリュードを
-                    [02:34.306] 街を染めてゆくリリックを
-                    [02:37.277] 繋いでゆく、世界(セカイ)
-                    [02:40.359] はじまりの景色の空白を
-                    [02:43.239] 隣り合わせの君が彩るよ
-                    [02:46.20] 互い違い、間違い、すれ違い⋯？
-                    [02:49.444] 足りないくらいの
-                    [02:50.98] 消えないくらいの
-                    [02:52.452] 滲んだ色を はみ出した色を
-                    [02:55.70] 愛したら 一歩 先
-                    [03:01.514] 綺麗な未来になれなくても
-                    [03:04.906] 夢が零れてしまっても
-                    [03:07.914] 誰かの想いが届くまで
-                    [03:10.372] 音楽はそう、止めどなく溢れてく
-                    [03:16.986] 走り出す未来のすぐそばで
-                    [03:20.513] 夢にまみれた今を抱く
-                    [03:23.255] 水溜りクラッシュ弾けて
-                    [03:25.815] 音楽は もう、止まらない
-                    [03:29.468] 後悔も願いも 君のうた
-                    [03:32.77] ほら、聴こえるよ
-                    [03:34.818] 青空に映る
-                    [03:37.072] あの日々の残像
-                    [03:39.083] 「覚えてる？ 僕のうたを」
-                    [03:42.027] 重ね合うオーケストラ模様
-                    [03:44.843] サヨナラのあと 手を繋ごう
-                    [03:47.974] はじまる未知と―
-                    [04:03.726] 終わらない未知で―
+            [00:00.128] 光、未来 相のうた追う
+            [00:03.795] 迂回、出会い ハジメマシテ
+            [00:06.322] 問うからまたね 舞台の裏
+            [00:09.465] 添う続いてゆく未知の
+            [00:25.632] 君が笑う景色の砂が
+            [00:28.347] 好き、で色づくように ね
+            [00:31.579] 嬉しい日も悲しい日も
+            [00:34.491] うたと共にいるよ
+            [00:36.731] あの坂道も 回り道も
+            [00:40.233] 君と居れば ほらね、ミュージック
+            [00:42.923] え そんな日常？ どんな日常？
+            [00:46.459] 答案に、収まらないね 不思議
+            [00:50.213] 風に溶けた音符の群れが
+            [00:52.744] 渇いた心の声とハモって
+            [00:56.345] 隠してきた本当の嘘が
+            [00:58.959] ヘッドフォンに響いた
+            [01:01.223] 内緒話も独り言も
+            [01:04.90] 君の手にかかれば、ミュージック
+            [01:07.404] 息継ぎしたら生まれたての
+            [01:11.087] 季節を吸い込んだ
+            [01:14.201] 変わりゆく景色の空白を
+            [01:17.017] 変わらない歌声が彩るよ
+            [01:20.025] 忘れ物に気づいた通学路
+            [01:23.161] 躓いた問いを絡まった過去を
+            [01:26.194] 解いたら、一歩 先
+            [01:29.394] 走り出す未来のすぐそばで
+            [01:32.841] 夢にまみれた今を抱く
+            [01:35.721] 信号踏切いつでも
+            [01:38.281] 音楽は もう、とまらない
+            [01:41.591] あの笑顔もナミダも君のうた
+            [01:45.056] まだ、歌えるよ
+            [01:47.143] 青空の下でこの夏を再生
+            [01:51.362] 聴いてよ こんなうたどう？
+            [01:54.476] 無題 デモワンフレーズの衝動
+            [01:57.361] じゃあ、またね１秒後に会おう
+            [02:00.562] 終わらない未知で
+            [02:16.188] オトで擦る星空の軌跡
+            [02:18.902] 幸せ探す綺麗を纏う芽
+            [02:22.332] 君が”君”で居てくれたから
+            [02:25.084] ここにいる、今日だった
+            [02:27.708] 1.2.3 で煌めくファンタジーを
+            [02:31.311] 夜に翳すインターリュードを
+            [02:34.306] 街を染めてゆくリリックを
+            [02:37.277] 繋いでゆく、世界(セカイ)
+            [02:40.359] はじまりの景色の空白を
+            [02:43.239] 隣り合わせの君が彩るよ
+            [02:46.20] 互い違い、間違い、すれ違い⋯？
+            [02:49.444] 足りないくらいの
+            [02:50.98] 消えないくらいの
+            [02:52.452] 滲んだ色を はみ出した色を
+            [02:55.70] 愛したら 一歩 先
+            [03:01.514] 綺麗な未来になれなくても
+            [03:04.906] 夢が零れてしまっても
+            [03:07.914] 誰かの想いが届くまで
+            [03:10.372] 音楽はそう、止めどなく溢れてく
+            [03:16.986] 走り出す未来のすぐそばで
+            [03:20.513] 夢にまみれた今を抱く
+            [03:23.255] 水溜りクラッシュ弾けて
+            [03:25.815] 音楽は もう、止まらない
+            [03:29.468] 後悔も願いも 君のうた
+            [03:32.77] ほら、聴こえるよ
+            [03:34.818] 青空に映る
+            [03:37.072] あの日々の残像
+            [03:39.083] 「覚えてる？ 僕のうたを」
+            [03:42.027] 重ね合うオーケストラ模様
+            [03:44.843] サヨナラのあと 手を繋ごう
+            [03:47.974] はじまる未知と―
+            [04:03.726] 終わらない未知で―
 `
     },
     {
@@ -1524,32 +1526,32 @@ const tracks = [
         date: 'APR 2025', ytId: 'shs0rAiwsGQ', start: 0,
         ig: 'https://www.instagram.com/reel/DInnzAexPbz/',
         lyrics: `
-                    [00:32.75] 大胆不敵にハイカラ革命
-                    [00:35.833] 磊々落々 反戦国家
-                    [00:39.016] 日の丸印の二輪車転がし
-                    [00:42.033] 悪霊退散 ICBM
-                    [00:45.283] 環状線を走り抜けて 東奔西走なんのその
-                    [00:51.40] 少年少女戦国無双 浮世の随に
-                    [00:57.116] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
-                    [01:03.45] 此処は宴 鋼の檻 その断頭台で見下ろして
-                    [01:09.633] 三千世界 常世之闇 嘆ク唄モ聞コエナイヨ
-                    [01:15.90] 青藍の空 遥か彼方 その光線銃で打ち抜いて
-                    [01:35.083] 百戦錬磨の見た目は将校
-                    [01:38.15] いったりきたりの花魁道中
-                    [01:41.266] アイツもコイツも皆で集まれ
-                    [01:44.316] 聖者の行進 わんっ つー さん しっ
-                    [01:47.45] 禅定門を潜り抜けて 安楽浄土厄払い
-                    [01:53.583] きっと終幕は大団円 拍手の合間に
-                    [01:59.366] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
-                    [02:05.716] 此処は宴 鋼の檻 その断頭台で見下ろして
-                    [02:11.95] 三千世界 常世之闇 嘆ク唄モ聞コエナイヨ
-                    [02:18.233] 希望の丘 遥か彼方 その閃光弾を打ち上げろ
-                    [02:56.05] 環状線を走り抜けて 東奔西走なんのその
-                    [03:02.20] 少年少女戦国無双 浮世の随に
-                    [03:08.00] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
-                    [03:14.20] 此処は宴 鋼の檻 その断頭台を飛び降りて
-                    [03:20.633] 千本桜 夜ニ紛レ 君が歌い僕は踊る
-                    [03:26.866] 此処は宴 鋼の檻 さあ光線銃を撃ちまくれ
+            [00:32.75] 大胆不敵にハイカラ革命
+            [00:35.833] 磊々落々 反戦国家
+            [00:39.016] 日の丸印の二輪車転がし
+            [00:42.033] 悪霊退散 ICBM
+            [00:45.283] 環状線を走り抜けて 東奔西走なんのその
+            [00:51.40] 少年少女戦国無双 浮世の随に
+            [00:57.116] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
+            [01:03.45] 此処は宴 鋼の檻 その断頭台で見下ろして
+            [01:09.633] 三千世界 常世之闇 嘆ク唄モ聞コエナイヨ
+            [01:15.90] 青藍の空 遥か彼方 その光線銃で打ち抜いて
+            [01:35.083] 百戦錬磨の見た目は将校
+            [01:38.15] いったりきたりの花魁道中
+            [01:41.266] アイツもコイツも皆で集まれ
+            [01:44.316] 聖者の行進 わんっ つー さん しっ
+            [01:47.45] 禅定門を潜り抜けて 安楽浄土厄払い
+            [01:53.583] きっと終幕は大団円 拍手の合間に
+            [01:59.366] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
+            [02:05.716] 此処は宴 鋼の檻 その断頭台で見下ろして
+            [02:11.95] 三千世界 常世之闇 嘆ク唄モ聞コエナイヨ
+            [02:18.233] 希望の丘 遥か彼方 その閃光弾を打ち上げろ
+            [02:56.05] 環状線を走り抜けて 東奔西走なんのその
+            [03:02.20] 少年少女戦国無双 浮世の随に
+            [03:08.00] 千本桜 夜ニ紛レ 君ノ声モ届カナイヨ
+            [03:14.20] 此処は宴 鋼の檻 その断頭台を飛び降りて
+            [03:20.633] 千本桜 夜ニ紛レ 君が歌い僕は踊る
+            [03:26.866] 此処は宴 鋼の檻 さあ光線銃を撃ちまくれ
 `
     },
     {
@@ -1559,42 +1561,42 @@ const tracks = [
         date: 'MAY 2025', ytId: 'GY8DlK9f688', start: 0,
         ig: 'https://www.instagram.com/reel/DJLrZTLxcuv',
         lyrics: `
-                    [00:03.083] 夏の暑さも　皆の思いも
-                    [00:08.183] いつかは夜風に吹かれてもう
-                    [00:15.166] 前にしか進めないと知ったから
-                    [00:19.35] （綺麗な） 枯れないで　おとさないで
-                    [00:23.616] 胸に抱いた　花束を
-                    [00:30.95] もしも思い出の　陰に手を伸ばしたら
-                    [00:36.816] まだ見ぬ景色は　遠ざかるばかりで
-                    [00:43.45] 迷いも戸惑いも証明だって
-                    [00:47.366] 今までの夢が在って
-                    [00:49.85] 振り返れば沢山の笑顔見せて
-                    [00:54.766] 手と手を繋ぎあって
-                    [00:57.516] 育んだ絆だけはたったひとつ
-                    [01:01.666] 叶えたい夢になんて　名前を付けようか
-                    [01:06.966] 痛みを伴うこれは夢と呼べるのかい？
-                    [01:12.05] 答えのない問いに縋って
-                    [01:14.516] 季節が移りゆくようで
-                    [01:16.933] 天地自然の理だと心に言い聞かせ
-                    [01:21.716] "どんな結末がお望みだい？"
-                    [01:26.70] このふたつの思いは共存出来ないものか
-                    [01:35.066] もしも 花束 に 費 を つけて しまったら
-                    [01:40.833] これまで積み上げたものはガラクタで
-                    [01:48.25] 願いも愛情も本当だって
-                    [01:51.80] 今までの夢を抱いて
-                    [01:54.133] 振り返ればたくさんの感謝に満ちて
-                    [01:59.233] 目と目で向かい合って
-                    [02:01.883] 育んだ絆だけはたったひとつ
-                    [02:06.233] 叶えたい夢になんて　名前を付けようか
-                    [02:11.25] 別れが伴うこれを夢と呼べるのかい？
-                    [02:16.533] 早々に行き詰まって 奇跡頼り 弱音吐いて
-                    [02:21.466] 天地自然の理には心も抗えず
-                    [02:26.65] "どんな結末がお望みだい？"
-                    [02:54.15] 叶えたい夢になんて　名前を付けようか
-                    [02:59.25] 痛みを乗り越えた先でなら笑えるかい？
-                    [03:04.266] 答えのない問いに背いて 季節はまた巡るようで
-                    [03:09.316] 天地自然の理すら覆す絆だと
-                    [03:14.383] きっと 結末は 幸せだ
+            [00:03.083] 夏の暑さも　皆の思いも
+            [00:08.183] いつかは夜風に吹かれてもう
+            [00:15.166] 前にしか進めないと知ったから
+            [00:19.35] （綺麗な） 枯れないで　おとさないで
+            [00:23.616] 胸に抱いた　花束を
+            [00:30.95] もしも思い出の　陰に手を伸ばしたら
+            [00:36.816] まだ見ぬ景色は　遠ざかるばかりで
+            [00:43.45] 迷いも戸惑いも証明だって
+            [00:47.366] 今までの夢が在って
+            [00:49.85] 振り返れば沢山の笑顔見せて
+            [00:54.766] 手と手を繋ぎあって
+            [00:57.516] 育んだ絆だけはたったひとつ
+            [01:01.666] 叶えたい夢になんて　名前を付けようか
+            [01:06.966] 痛みを伴うこれは夢と呼べるのかい？
+            [01:12.05] 答えのない問いに縋って
+            [01:14.516] 季節が移りゆくようで
+            [01:16.933] 天地自然の理だと心に言い聞かせ
+            [01:21.716] "どんな結末がお望みだい？"
+            [01:26.70] このふたつの思いは共存出来ないものか
+            [01:35.066] もしも 花束 に 費 を つけて しまったら
+            [01:40.833] これまで積み上げたものはガラクタで
+            [01:48.25] 願いも愛情も本当だって
+            [01:51.80] 今までの夢を抱いて
+            [01:54.133] 振り返ればたくさんの感謝に満ちて
+            [01:59.233] 目と目で向かい合って
+            [02:01.883] 育んだ絆だけはたったひとつ
+            [02:06.233] 叶えたい夢になんて　名前を付けようか
+            [02:11.25] 別れが伴うこれを夢と呼べるのかい？
+            [02:16.533] 早々に行き詰まって 奇跡頼り 弱音吐いて
+            [02:21.466] 天地自然の理には心も抗えず
+            [02:26.65] "どんな結末がお望みだい？"
+            [02:54.15] 叶えたい夢になんて　名前を付けようか
+            [02:59.25] 痛みを乗り越えた先でなら笑えるかい？
+            [03:04.266] 答えのない問いに背いて 季節はまた巡るようで
+            [03:09.316] 天地自然の理すら覆す絆だと
+            [03:14.383] きっと 結末は 幸せだ
 `
     },
     {
@@ -1604,36 +1606,36 @@ const tracks = [
         date: 'JUN 2025', ytId: 't5U0rrj0dio', start: 0,
         ig: 'https://www.instagram.com/reel/DZAkwnehpYn/',
         lyrics: `
-                    [00:01.602] きっと届くはず　きっと見えるはず
-                    [00:10.818] そんな会ってみたい未来を　僕はひとりきりのセカイで
-                    [00:16.568] ずっとそう歌うたっていた
-                    [00:29.213] 今聞こえたよ　ほら少しだけ
-                    [00:35.218] 君を感じたよ　メロディーがリンクする
-                    [00:42.203] 今繋がるよ　今重なるよ
-                    [00:48.034] 伝えたかったこと　山ほどあるんだけどどうしよう
-                    [00:58.956] 見たこともない顔で　君は君をダメと言うけど
-                    [01:04.174] 未来にいる理想の君を　今の君に押し付け過ぎないで
-                    [01:11.771] 見たこともない景色　見せ合ういつかが来るまで
-                    [01:16.923] つらいこと　泣きたくなること　たまには預け合おう
-                    [01:23.104] ハロー、セカイ　僕の声はちゃんと届いてるかい
-                    [01:29.609] 思ったよりも大丈夫　君はひとりなんかじゃない
-                    [01:35.717] ハロー、セカイ　君の声もちゃんと届いてるよ
-                    [01:42.285] 思ったよりも最高だ　僕もひとりなんかじゃない
-                    [01:48.168] 行くよジャンプ　跳ねるダンス
-                    [01:51.398] いらない不安なんて踏んじゃってこう
-                    [01:54.875] ああでもこうでもないも　そんなのどうでもいいよ
-                    [01:58.072] やりたいようにやろう　ハローハロー
-                    [02:00.86] もう一回ジャンプ　回るダンス
-                    [02:03.989] 行きたい未来　きっともうすぐだよ
-                    [02:07.596] ああでもこうでもないも　そんなのどうでもいいよ
-                    [02:10.727] やりたいようにやろう
-                    [02:13.912] 飛び込んでいこう　僕らのセカイが
-                    [02:16.923] 正解か不正解かわからなくても
-                    [02:19.803] 僕にある想いも　君にある願いも
-                    [02:22.656] きっと消えないんだよ　ずっとセカイは終わらないよ
-                    [02:26.714] 今繋がるよ　今重なるよ
-                    [02:32.955] ほら聞こえるよ　ほら伝わるよ僕ら
-                    `
+            [00:01.602] きっと届くはず　きっと見えるはず
+            [00:10.818] そんな会ってみたい未来を　僕はひとりきりのセカイで
+            [00:16.568] ずっとそう歌うたっていた
+            [00:29.213] 今聞こえたよ　ほら少しだけ
+            [00:35.218] 君を感じたよ　メロディーがリンクする
+            [00:42.203] 今繋がるよ　今重なるよ
+            [00:48.034] 伝えたかったこと　山ほどあるんだけどどうしよう
+            [00:58.956] 見たこともない顔で　君は君をダメと言うけど
+            [01:04.174] 未来にいる理想の君を　今の君に押し付け過ぎないで
+            [01:11.771] 見たこともない景色　見せ合ういつかが来るまで
+            [01:16.923] つらいこと　泣きたくなること　たまには預け合おう
+            [01:23.104] ハロー、セカイ　僕の声はちゃんと届いてるかい
+            [01:29.609] 思ったよりも大丈夫　君はひとりなんかじゃない
+            [01:35.717] ハロー、セカイ　君の声もちゃんと届いてるよ
+            [01:42.285] 思ったよりも最高だ　僕もひとりなんかじゃない
+            [01:48.168] 行くよジャンプ　跳ねるダンス
+            [01:51.398] いらない不安なんて踏んじゃってこう
+            [01:54.875] ああでもこうでもないも　そんなのどうでもいいよ
+            [01:58.072] やりたいようにやろう　ハローハロー
+            [02:00.86] もう一回ジャンプ　回るダンス
+            [02:03.989] 行きたい未来　きっともうすぐだよ
+            [02:07.596] ああでもこうでもないも　そんなのどうでもいいよ
+            [02:10.727] やりたいようにやろう
+            [02:13.912] 飛び込んでいこう　僕らのセカイが
+            [02:16.923] 正解か不正解かわからなくても
+            [02:19.803] 僕にある想いも　君にある願いも
+            [02:22.656] きっと消えないんだよ　ずっとセカイは終わらないよ
+            [02:26.714] 今繋がるよ　今重なるよ
+            [02:32.955] ほら聞こえるよ　ほら伝わるよ僕ら
+            `
     },
     {
         chapter: 3,
@@ -1642,38 +1644,38 @@ const tracks = [
         date: 'JUN 2025', ytId: 'RyRfLSOewbU', start: 0,
         ig: 'https://www.instagram.com/reel/DKgaRGWx-Ct',
         lyrics: `
-                    [00:13.91] 小石を高く高く 積み上げては
-                    [00:17.32] 吹きさらす心は 夕暮れ
-                    [00:20.339] いつか見つかると まだ見つかると
-                    [00:23.67] 白く 甘く 淡く
-                    [00:26.71] 影踏み遊びばかりしてきました
-                    [00:30.14] 贖い足がかり 探して
-                    [00:33.119] いつか見つけると まだ見つけると
-                    [00:36.429] 永く 脆く 遠く
-                    [00:40.149] 鏡越し貴方と
-                    [00:43.25] 瞳の奥の私と
-                    [00:47.71] 誰かの 中の 貴方は
-                    [00:50.92] 欠片のままに 夢を見る
-                    [00:54.13] だって D/N/Aじゃ 騙れない
-                    [00:57.24] この心は私の中 紅く
-                    [01:03.71] 紅く
-                    [01:06.29] 眠れない迷子の無いものねだりじゃない
-                    [01:10.109] この細胞は愛憎 刻まれてる
-                    [01:13.31] まだ見つけるの まだ見つけるの
-                    [01:16.51] 言えなかった音は？
-                    [01:19.709] 誰かの 中の 貴方は
-                    [01:22.84] 繋がれたまま 夢を見る
-                    [01:26.129] だって D/N/Aじゃ 語れない
-                    [01:29.319] この痛みも私の中 紅く
-                    [01:35.68] 紅く
-                    [01:39.14] 鏡の 形と
-                    [01:42.219] 逆さまな D/N/A
-                    [01:45.51] 私の 証と
-                    [01:48.719] 暖かな D/N/A
-                    [01:51.939] 鏡の 形と
-                    [01:55.069] 逆さまな D/N/A
-                    [01:58.29] 私の 証と
-                    [02:01.53] 暖かな D/N/A
+            [00:13.91] 小石を高く高く 積み上げては
+            [00:17.32] 吹きさらす心は 夕暮れ
+            [00:20.339] いつか見つかると まだ見つかると
+            [00:23.67] 白く 甘く 淡く
+            [00:26.71] 影踏み遊びばかりしてきました
+            [00:30.14] 贖い足がかり 探して
+            [00:33.119] いつか見つけると まだ見つけると
+            [00:36.429] 永く 脆く 遠く
+            [00:40.149] 鏡越し貴方と
+            [00:43.25] 瞳の奥の私と
+            [00:47.71] 誰かの 中の 貴方は
+            [00:50.92] 欠片のままに 夢を見る
+            [00:54.13] だって D/N/Aじゃ 騙れない
+            [00:57.24] この心は私の中 紅く
+            [01:03.71] 紅く
+            [01:06.29] 眠れない迷子の無いものねだりじゃない
+            [01:10.109] この細胞は愛憎 刻まれてる
+            [01:13.31] まだ見つけるの まだ見つけるの
+            [01:16.51] 言えなかった音は？
+            [01:19.709] 誰かの 中の 貴方は
+            [01:22.84] 繋がれたまま 夢を見る
+            [01:26.129] だって D/N/Aじゃ 語れない
+            [01:29.319] この痛みも私の中 紅く
+            [01:35.68] 紅く
+            [01:39.14] 鏡の 形と
+            [01:42.219] 逆さまな D/N/A
+            [01:45.51] 私の 証と
+            [01:48.719] 暖かな D/N/A
+            [01:51.939] 鏡の 形と
+            [01:55.069] 逆さまな D/N/A
+            [01:58.29] 私の 証と
+            [02:01.53] 暖かな D/N/A
 `
     },
     {
@@ -1682,50 +1684,50 @@ const tracks = [
         context: '', desc: '',
         date: 'JUL 2025', ytId: 'BP59Bm6T3_I', start: 0,
         lyrics: `
-                [00:03.68]考えてたことが言葉に出ない
-[00:08.25]先走った後悔と汗が手に残る
-[00:13.13]ただまっすぐに見ていたいだけなのに
-[00:17.92]今日も見切りをつけた
-[00:20.17]部屋を真っ暗にしてしまった
-[00:23.08]赤や青 点滅している
-[00:28.12]この部屋が宇宙の大船団
-[00:33.02]私から出た SOS だけ届いてないよな
-[00:42.05]涙はずっとしまってる
-[00:44.60]どんな結末があるかを見たくて
-[00:48.63]完成するまで悲しみを拒んでいる
-[00:52.89]不安を感じて痛むのが
-[00:55.43]身体のどこか知らないけど
-[00:57.87]こんな場所でまで気張り続けていく
-[01:01.82]理由を見つけたんだ
-[01:06.14]
-[01:13.44]省みない
-[01:15.41]呼吸も挙動も
-[01:17.95]不安定な形も完璧に見える時も
-[01:22.24]今更後ろは見ない
-[01:24.73]振り向くのは怖い
-[01:28.36]この場所だけは私のことを知っているんだ
-[01:32.85]手を引いて向かう場所を示すのだ
-[01:37.69]そう思えば強く輝けるから
-[01:42.68]届いてほしいのは SOS じゃなくて
-[01:46.93]優しい言葉
-[01:51.90]涙をずっとしまっても
-[01:54.74]笑顔のままでいる姿で駆け抜け
-[01:57.29]君の元まで最短で辿り着くよ
-[02:02.07]孤独を感じて痛むのが
-[02:04.17]身体のどこか知らないけど
-[02:06.65]ほんの少しでも君に近づきたい
-[02:10.67]何かが変わればいい
-[02:16.47]
-[02:22.31]私から出た優しい言葉だけ君に届いてほしい
-[02:32.29]小さな宇宙に生まれただけ
-[02:36.77]遠い場所から君を見つけただけ
-[02:43.86]涙をずっとしまってる
-[02:46.50]どんな結末になるかを知りたくて
-[02:50.56]完成するまでさよならは拒んでいる
-[02:53.90]不安を感じて痛むのが
-[02:56.39]身体のどこか知らないまま
-[02:58.86]こんな場所でまだ気張り続けていく
-[03:02.88]理由は見つけたんだ`
+            [00:03.68]考えてたことが言葉に出ない
+            [00:08.25]先走った後悔と汗が手に残る
+            [00:13.13]ただまっすぐに見ていたいだけなのに
+            [00:17.92]今日も見切りをつけた
+            [00:20.17]部屋を真っ暗にしてしまった
+            [00:23.08]赤や青 点滅している
+            [00:28.12]この部屋が宇宙の大船団
+            [00:33.02]私から出た SOS だけ届いてないよな
+            [00:42.05]涙はずっとしまってる
+            [00:44.60]どんな結末があるかを見たくて
+            [00:48.63]完成するまで悲しみを拒んでいる
+            [00:52.89]不安を感じて痛むのが
+            [00:55.43]身体のどこか知らないけど
+            [00:57.87]こんな場所でまで気張り続けていく
+            [01:01.82]理由を見つけたんだ
+            [01:06.14]
+            [01:13.44]省みない
+            [01:15.41]呼吸も挙動も
+            [01:17.95]不安定な形も完璧に見える時も
+            [01:22.24]今更後ろは見ない
+            [01:24.73]振り向くのは怖い
+            [01:28.36]この場所だけは私のことを知っているんだ
+            [01:32.85]手を引いて向かう場所を示すのだ
+            [01:37.69]そう思えば強く輝けるから
+            [01:42.68]届いてほしいのは SOS じゃなくて
+            [01:46.93]優しい言葉
+            [01:51.90]涙をずっとしまっても
+            [01:54.74]笑顔のままでいる姿で駆け抜け
+            [01:57.29]君の元まで最短で辿り着くよ
+            [02:02.07]孤独を感じて痛むのが
+            [02:04.17]身体のどこか知らないけど
+            [02:06.65]ほんの少しでも君に近づきたい
+            [02:10.67]何かが変わればいい
+            [02:16.47]
+            [02:22.31]私から出た優しい言葉だけ君に届いてほしい
+            [02:32.29]小さな宇宙に生まれただけ
+            [02:36.77]遠い場所から君を見つけただけ
+            [02:43.86]涙をずっとしまってる
+            [02:46.50]どんな結末になるかを知りたくて
+            [02:50.56]完成するまでさよならは拒んでいる
+            [02:53.90]不安を感じて痛むのが
+            [02:56.39]身体のどこか知らないまま
+            [02:58.86]こんな場所でまだ気張り続けていく
+            [03:02.88]理由は見つけたんだ`
     },
     {
         chapter: 3,
@@ -1734,69 +1736,69 @@ const tracks = [
         date: 'AUG 2025', ytId: 'jsQXgDZIIrY', start: 0,
         ig: 'https://www.instagram.com/reel/DOJKuDikbD2/',
         lyrics: `
-                    [00:13.509] C'mon, I feel like there's something about this song
-                    [00:17.728] It's like we knew how it'd go all along
-                    [00:21.35] So put down your worries and raise your cups
-                    [00:24.786] There's nowhere to go but up
-                    [00:27.167] Let's dance!
-                    [00:27.986] With a rhythm from New York to Japan
-                    [00:31.378] Know you'll never be alone
-                    [00:33.672] At first glance we're miles away
-                    [00:36.552] But our hearts are connected
-                    [00:38.28] Through these soundwaves
-                    [00:40.556] Nothing but up, up, up (yeah)
-                    [00:42.824] Cut through the clouds
-                    [00:43.999] Nothing but up, up, up (yeah)
-                    [00:46.013] We're never coming down
-                    [00:48.008] Jump, jump without a doubt
-                    [00:50.836] Nothing but up, up, up (yeah)
-                    [00:53.128] Intergalactic bound
-                    [00:55.048] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
-                    [00:59.912] Intergalactic bound
-                    [01:01.704] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
-                    [01:06.696] Intergalactic bound
-                    [01:10.513] If you're an oldie
-                    [01:11.978] Or fresh on the scene (uh huh)
-                    [01:13.905] Come put your lights up
-                    [01:15.347] We'll make a wave of green (woo!)
-                    [01:17.283] Bridge the beginning
-                    [01:18.622] To us all here and now (uh huh)
-                    [01:21.075] Just take a deep breath
-                    [01:22.208] And let me hear you shout!
-                    [01:25.848] Let's groove with the static in the air
-                    [01:28.676] A breakthrough that can bring us anywhere
-                    [01:31.976] It's your move so take the lead
-                    [01:34.664] From the crowd to the stage
-                    [01:36.372] What sights can we see?
-                    [01:38.663] Nothing but up, up, up (yeah)
-                    [01:41.01] Cut through the clouds
-                    [01:42.36] Nothing but up, up, up (yeah)
-                    [01:44.539] We're never coming down
-                    [01:46.331] Jump, jump without a doubt
-                    [01:48.981] Nothing but up, up, up (yeah)
-                    [01:51.378] Intergalactic bound
-                    [02:21.087] A thousand little voices sing
-                    [02:24.068] It's a fiesta from now on
-                    [02:27.611] With our playthings always by our side
-                    [02:31.045] To help us make this song
-                    [02:33.646] Through the dark of the night
-                    [02:35.764] I know we will be alright
-                    [02:37.422] There's a universe of positivity
-                    [02:39.375] Beyond the sky
-                    [02:40.855] Ten thousand of the stars
-                    [02:42.647] They will keep on burning bright
-                    [02:44.311] With this light held between you and I
-                    [02:47.501] Nothing but up, up, up (yeah)
-                    [02:49.611] Cut through the clouds
-                    [02:50.918] Nothing but up, up, up (yeah)
-                    [02:53.048] We're never coming down
-                    [02:54.995] Jump, jump without a doubt
-                    [02:57.592] Nothing but up, up, up (yeah)
-                    [03:00.00] Intergalactic bound
-                    [03:01.988] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
-                    [03:06.501] Intergalactic bound
-                    [03:08.805] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
-                    [03:13.512] Intergalactic bound
+            [00:13.509] C'mon, I feel like there's something about this song
+            [00:17.728] It's like we knew how it'd go all along
+            [00:21.35] So put down your worries and raise your cups
+            [00:24.786] There's nowhere to go but up
+            [00:27.167] Let's dance!
+            [00:27.986] With a rhythm from New York to Japan
+            [00:31.378] Know you'll never be alone
+            [00:33.672] At first glance we're miles away
+            [00:36.552] But our hearts are connected
+            [00:38.28] Through these soundwaves
+            [00:40.556] Nothing but up, up, up (yeah)
+            [00:42.824] Cut through the clouds
+            [00:43.999] Nothing but up, up, up (yeah)
+            [00:46.013] We're never coming down
+            [00:48.008] Jump, jump without a doubt
+            [00:50.836] Nothing but up, up, up (yeah)
+            [00:53.128] Intergalactic bound
+            [00:55.048] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
+            [00:59.912] Intergalactic bound
+            [01:01.704] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
+            [01:06.696] Intergalactic bound
+            [01:10.513] If you're an oldie
+            [01:11.978] Or fresh on the scene (uh huh)
+            [01:13.905] Come put your lights up
+            [01:15.347] We'll make a wave of green (woo!)
+            [01:17.283] Bridge the beginning
+            [01:18.622] To us all here and now (uh huh)
+            [01:21.075] Just take a deep breath
+            [01:22.208] And let me hear you shout!
+            [01:25.848] Let's groove with the static in the air
+            [01:28.676] A breakthrough that can bring us anywhere
+            [01:31.976] It's your move so take the lead
+            [01:34.664] From the crowd to the stage
+            [01:36.372] What sights can we see?
+            [01:38.663] Nothing but up, up, up (yeah)
+            [01:41.01] Cut through the clouds
+            [01:42.36] Nothing but up, up, up (yeah)
+            [01:44.539] We're never coming down
+            [01:46.331] Jump, jump without a doubt
+            [01:48.981] Nothing but up, up, up (yeah)
+            [01:51.378] Intergalactic bound
+            [02:21.087] A thousand little voices sing
+            [02:24.068] It's a fiesta from now on
+            [02:27.611] With our playthings always by our side
+            [02:31.045] To help us make this song
+            [02:33.646] Through the dark of the night
+            [02:35.764] I know we will be alright
+            [02:37.422] There's a universe of positivity
+            [02:39.375] Beyond the sky
+            [02:40.855] Ten thousand of the stars
+            [02:42.647] They will keep on burning bright
+            [02:44.311] With this light held between you and I
+            [02:47.501] Nothing but up, up, up (yeah)
+            [02:49.611] Cut through the clouds
+            [02:50.918] Nothing but up, up, up (yeah)
+            [02:53.048] We're never coming down
+            [02:54.995] Jump, jump without a doubt
+            [02:57.592] Nothing but up, up, up (yeah)
+            [03:00.00] Intergalactic bound
+            [03:01.988] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
+            [03:06.501] Intergalactic bound
+            [03:08.805] Whoa Oh, Whoa Oh Oh (Hey! Hey!)
+            [03:13.512] Intergalactic bound
 `
     },
     {
@@ -1804,56 +1806,57 @@ const tracks = [
         title: '目撃！テト31世', artist: 'はろける · HALLO CEL',
         context: '', desc: '',
         date: 'OCT 2025', ytId: 'uWMr16O_Aso', start: 0,
-        lyrics: `[00:06.28]君の一番 かわいいところな～んだ? (かかと?)
-[00:12.25]撃ち抜かれたり 飛び出ちゃうものな～んだ? (ハート?)
-[00:18.79]大きくなると 固くなるものな～んだ? (あー)
-[00:25.07]君が一番 ドキドキするの だ～れ～だ!
-[00:30.36]ボクのことでしょ? (違うがー?)
-[00:33.57]Party, party, party, party
-[00:35.35]Today is the 31st
-[00:36.77]Pumpkin, pumpkin, pumpkin, pumpkin
-[00:38.28]Teto is 31
-[00:39.80]Zombie, zombie, zombie, zombie
-[00:41.42]Today is the 31st
-[00:42.60]英語じゃ何言ってっか わかんない!!
-[00:45.55]Party, party, party, party
-[00:47.34]無責任だけど!
-[00:48.71]Pumpkin, pumpkin, pumpkin, pumpkin
-[00:50.36]奪ったげるわ
-[00:51.62]Zombie, zombie, zombie, zombie
-[00:53.23]痛くしないから
-[00:54.65]初めて ボクが奪ったげるわ
-[00:59.53]よいこのみんなへ
-[01:01.05]今からボクは お前らの をいただきに参上します!
-[01:05.34]From テト31世
-[01:08.35]P.S. ちなみに僕は～
-[01:11.35]名画も秘宝も 絶～っ対奪ったりなんてしないんだからね?
-[01:15.28]ほ 本当だよ? あ あと最後に一言
-[01:19.36]ういちゃんにどうしても伝えたいことがあるんだ
-[01:22.81]おかしなこといってもいい?
-[01:24.64]ボクとけっこんしてくれ!
-[01:25.92]おまえと けっこんするワケないんだがー?
-[01:29.08](ぬああ!)
-[01:31.83]Party, party, party, party
-[01:33.70]Today is the 31st
-[01:35.20]Pumpkin, pumpkin, pumpkin, pumpkin
-[01:36.69]Teto is 31
-[01:37.96]Zombie, zombie, zombie, zombie
-[01:39.71]Today is the 31st
-[01:41.13](Candy, candy, cookie, cookie)
-[01:42.71]チョコレート!
-[01:44.22]Party, party, party, party
-[01:45.54]無責任なのは
-[01:46.96]Pumpkin, pumpkin, pumpkin, pumpkin
-[01:48.53]ボクじゃないわ
-[01:50.07]Zombie, zombie, zombie, zombie
-[01:51.50]勘違いしないで
-[01:53.08]キミたち～? ボクが奪ったげるわ
-[01:58.04]
-[02:05.07]捕まえられるものなら
-[02:08.17]られるものなら
-[02:09.65]られるものなら
-[02:11.17]捕まえてみろよ!`
+        lyrics: `
+            [00:06.28]君の一番 かわいいところな～んだ? (かかと?)
+            [00:12.25]撃ち抜かれたり 飛び出ちゃうものな～んだ? (ハート?)
+            [00:18.79]大きくなると 固くなるものな～んだ? (あー)
+            [00:25.07]君が一番 ドキドキするの だ～れ～だ!
+            [00:30.36]ボクのことでしょ? (違うがー?)
+            [00:33.57]Party, party, party, party
+            [00:35.35]Today is the 31st
+            [00:36.77]Pumpkin, pumpkin, pumpkin, pumpkin
+            [00:38.28]Teto is 31
+            [00:39.80]Zombie, zombie, zombie, zombie
+            [00:41.42]Today is the 31st
+            [00:42.60]英語じゃ何言ってっか わかんない!!
+            [00:45.55]Party, party, party, party
+            [00:47.34]無責任だけど!
+            [00:48.71]Pumpkin, pumpkin, pumpkin, pumpkin
+            [00:50.36]奪ったげるわ
+            [00:51.62]Zombie, zombie, zombie, zombie
+            [00:53.23]痛くしないから
+            [00:54.65]初めて ボクが奪ったげるわ
+            [00:59.53]よいこのみんなへ
+            [01:01.05]今からボクは お前らの をいただきに参上します!
+            [01:05.34]From テト31世
+            [01:08.35]P.S. ちなみに僕は～
+            [01:11.35]名画も秘宝も 絶～っ対奪ったりなんてしないんだからね?
+            [01:15.28]ほ 本当だよ? あ あと最後に一言
+            [01:19.36]ういちゃんにどうしても伝えたいことがあるんだ
+            [01:22.81]おかしなこといってもいい?
+            [01:24.64]ボクとけっこんしてくれ!
+            [01:25.92]おまえと けっこんするワケないんだがー?
+            [01:29.08](ぬああ!)
+            [01:31.83]Party, party, party, party
+            [01:33.70]Today is the 31st
+            [01:35.20]Pumpkin, pumpkin, pumpkin, pumpkin
+            [01:36.69]Teto is 31
+            [01:37.96]Zombie, zombie, zombie, zombie
+            [01:39.71]Today is the 31st
+            [01:41.13](Candy, candy, cookie, cookie)
+            [01:42.71]チョコレート!
+            [01:44.22]Party, party, party, party
+            [01:45.54]無責任なのは
+            [01:46.96]Pumpkin, pumpkin, pumpkin, pumpkin
+            [01:48.53]ボクじゃないわ
+            [01:50.07]Zombie, zombie, zombie, zombie
+            [01:51.50]勘違いしないで
+            [01:53.08]キミたち～? ボクが奪ったげるわ
+            [01:58.04]
+            [02:05.07]捕まえられるものなら
+            [02:08.17]られるものなら
+            [02:09.65]られるものなら
+            [02:11.17]捕まえてみろよ!`
     },
     {
         chapter: 3,
@@ -1861,101 +1864,102 @@ const tracks = [
         context: 'Foon Yew Archive', desc: 'UEC 2025',
         date: 'NOV 2025', ytId: 'Sloi-L5FHBY', start: 0,
         lyrics: `
-                    [00:02.01]君が輝ける場所はここだよ
-                    [00:06.19]未来の自分を　忘れないで
-                    [00:09.30]きっと出来るから
-                    [00:13.22]
-                    [00:25.91]泣き虫が泣かなくなった帰り道
-                    [00:30.14]誰から見ても君は強くなってひとりぼっち
-                    [00:35.90]そんなことばかりあったから腑に落ちて
-                    [00:40.69]日に日につまらないことが増えて
-                    [00:43.92]たぶん　慣れちゃった
-                    [00:44.12]
-                    [00:45.89]今の自分を歌にして歌えるほど強くないね
-                    [00:50.84]だけど　それを知っている　声が歌うから
-                    [00:51.04]
-                    [00:56.89]君が輝ける場所はここだよ
-                    [01:00.90]悔しい涙　憶えたてのリズムとメロディー
-                    [01:06.58]一人の世界で生まれた歌は
-                    [01:11.75]ここにあるって　見つけてって　ずっと待っている
-                    [01:17.92]
-                    [01:21.07]暑くなって寒くなった時間の階段に
-                    [01:25.63]これからどうなるんだろうってばかりの頭の中
-                    [01:31.44]笑ってみた鏡の前でまたひとりぼっち
-                    [01:35.75]大切だって想いが溢れていた　くしゃくしゃの顔
-                    [01:35.83]
-                    [01:40.96]広く深く高く自由な音のステージへ
-                    [01:46.02]飛び上がる前に怖くなっちゃったけど
-                    [01:50.97]そんな自分を歌うこと君は出来るさ大丈夫
-                    [01:55.84]でもね　不安になったこと忘れないで　さあ
-                    [01:56.07]
-                    [02:01.92]光り輝いたこの世界から
-                    [02:05.96]誰のために届けるんだリズムとメロディー
-                    [02:11.95]今はまだ震えた指先をぎゅっと
-                    [02:16.49]握ってみようよ　怖いと知った　歌は強いはずさ
-                    [02:22.55]
-                    [02:31.54]君を信じられる　それは君だけだよ
-                    [02:36.30]鏡の前で笑ってた　違うね　泣いてた君だから
-                    [02:41.47]そんなこと分かってた　だめな自分も知っている
-                    [02:46.45]だから歌いたいこと　胸を締め付けていた言葉を
-                    [02:46.59]
-                    [02:54.69]特別な今がここにはあるよ
-                    [02:59.02]目を凝らしていて　隠さないで　君の場所だよ
-                    [03:04.87]今ほら大好きなステージの上
-                    [03:09.18]駆け上がろうよ　みんな一緒　この世界なら
-                    [03:15.70]
-                    [03:18.55]君が輝ける場所はここだよ
-                    [03:23.14]未来の自分はここにいる　君という未来に
-                    [03:28.67]全力　全力で歌を届けよう
-                    [03:33.25]世界中にずっと　自分にずっと　歌を届けよう
-                    [03:41.03]君に届けよう`
+            [00:02.01]君が輝ける場所はここだよ
+            [00:06.19]未来の自分を　忘れないで
+            [00:09.30]きっと出来るから
+            [00:13.22]
+            [00:25.91]泣き虫が泣かなくなった帰り道
+            [00:30.14]誰から見ても君は強くなってひとりぼっち
+            [00:35.90]そんなことばかりあったから腑に落ちて
+            [00:40.69]日に日につまらないことが増えて
+            [00:43.92]たぶん　慣れちゃった
+            [00:44.12]
+            [00:45.89]今の自分を歌にして歌えるほど強くないね
+            [00:50.84]だけど　それを知っている　声が歌うから
+            [00:51.04]
+            [00:56.89]君が輝ける場所はここだよ
+            [01:00.90]悔しい涙　憶えたてのリズムとメロディー
+            [01:06.58]一人の世界で生まれた歌は
+            [01:11.75]ここにあるって　見つけてって　ずっと待っている
+            [01:17.92]
+            [01:21.07]暑くなって寒くなった時間の階段に
+            [01:25.63]これからどうなるんだろうってばかりの頭の中
+            [01:31.44]笑ってみた鏡の前でまたひとりぼっち
+            [01:35.75]大切だって想いが溢れていた　くしゃくしゃの顔
+            [01:35.83]
+            [01:40.96]広く深く高く自由な音のステージへ
+            [01:46.02]飛び上がる前に怖くなっちゃったけど
+            [01:50.97]そんな自分を歌うこと君は出来るさ大丈夫
+            [01:55.84]でもね　不安になったこと忘れないで　さあ
+            [01:56.07]
+            [02:01.92]光り輝いたこの世界から
+            [02:05.96]誰のために届けるんだリズムとメロディー
+            [02:11.95]今はまだ震えた指先をぎゅっと
+            [02:16.49]握ってみようよ　怖いと知った　歌は強いはずさ
+            [02:22.55]
+            [02:31.54]君を信じられる　それは君だけだよ
+            [02:36.30]鏡の前で笑ってた　違うね　泣いてた君だから
+            [02:41.47]そんなこと分かってた　だめな自分も知っている
+            [02:46.45]だから歌いたいこと　胸を締め付けていた言葉を
+            [02:46.59]
+            [02:54.69]特別な今がここにはあるよ
+            [02:59.02]目を凝らしていて　隠さないで　君の場所だよ
+            [03:04.87]今ほら大好きなステージの上
+            [03:09.18]駆け上がろうよ　みんな一緒　この世界なら
+            [03:15.70]
+            [03:18.55]君が輝ける場所はここだよ
+            [03:23.14]未来の自分はここにいる　君という未来に
+            [03:28.67]全力　全力で歌を届けよう
+            [03:33.25]世界中にずっと　自分にずっと　歌を届けよう
+            [03:41.03]君に届けよう`
     },
     {
         chapter: 3,
         title: '抜錨', artist: 'Leo/need',
         context: '', desc: '',
         date: 'NOV 2025', ytId: 'h-MnZzmtW58', start: 0,
-        lyrics: `[00:15.16]忘れられぬものだけが 美しくはないのでしょう
-[00:18.67]忘れることばかりが 美しくはないでしょう
-[00:22.08]悲しいことばかりが 人生ではないのでしょう
-[00:25.52]さりとて喜びとは 比べ往くでしょう
-[00:28.59]
-[00:28.96]船よ　船よ　荒波の中で
-[00:32.75]流されずいられたでしょう
-[00:35.56]水底に根差す　あなたと穿うが った少女時代
-[00:40.92]さよならする頃 強いられるのは抜錨
-[00:46.09]
-[00:46.24]傷の数を数えて 痛みの数　指を折る
-[00:49.62]一つあまり 小指は 愛しさのぶんね
-[00:53.04]辛いこともありましょう あなたの所為もありましょう
-[00:56.48]それでも赤い糸 結(ゆわ)えているのでしょう
-[01:01.64]
-[01:13.58]底知れぬものだけに 怯えるのではないでしょう
-[01:17.03]届かぬものばかりが 妬ましくはないでしょう
-[01:20.44]優しいことばかりが 優しさではないのでしょう
-[01:23.91]さりとて赤裸々では こそばゆいでしょう
-[01:26.99]
-[01:27.40]羽よ　羽よ　人並みを望み
-[01:31.20]人波に拒まれては
-[01:34.02]皆みなそこを目指すまだ葛藤があった少女時代
-[01:39.35]無辜むこでいた頃を 遠ざけるのは 熱病
-[01:44.39]
-[01:44.57]髪の長さ揃えて爪の先を塗り直す
-[01:47.94]あどけない唇も色めき立つのね
-[01:51.36]叶うこともありましょう叶わぬ人もおりましょう
-[01:54.82]それゆえ慰めずにはいられないのでしょう
-[01:59.21]
-[01:59.55]羽よ　花よ 水面に散って
-[02:05.04]
-[02:32.49]傷の数を数えて 痛みの数　指を折る
-[02:35.99]一つあまり 小指は 愛しさのぶんね
-[02:39.27]悔やむこともありましょう わたしの所為もありましょう
-[02:42.78]いつかは赤い糸 断ち切るのでしょう
-[02:46.01]
-[02:46.24]花びらにささやきを 哀れみから口づけを
-[02:49.67]懐かしんではじめて 過ぎ行くのでしょう
-[02:53.16]惑うこともありましょう 誰かの所為じゃないでしょう
-[02:56.48]難しいものですね 愛するということは`
+        lyrics: `
+            [00:15.16]忘れられぬものだけが 美しくはないのでしょう
+            [00:18.67]忘れることばかりが 美しくはないでしょう
+            [00:22.08]悲しいことばかりが 人生ではないのでしょう
+            [00:25.52]さりとて喜びとは 比べ往くでしょう
+            [00:28.59]
+            [00:28.96]船よ　船よ　荒波の中で
+            [00:32.75]流されずいられたでしょう
+            [00:35.56]水底に根差す　あなたと穿うが った少女時代
+            [00:40.92]さよならする頃 強いられるのは抜錨
+            [00:46.09]
+            [00:46.24]傷の数を数えて 痛みの数　指を折る
+            [00:49.62]一つあまり 小指は 愛しさのぶんね
+            [00:53.04]辛いこともありましょう あなたの所為もありましょう
+            [00:56.48]それでも赤い糸 結(ゆわ)えているのでしょう
+            [01:01.64]
+            [01:13.58]底知れぬものだけに 怯えるのではないでしょう
+            [01:17.03]届かぬものばかりが 妬ましくはないでしょう
+            [01:20.44]優しいことばかりが 優しさではないのでしょう
+            [01:23.91]さりとて赤裸々では こそばゆいでしょう
+            [01:26.99]
+            [01:27.40]羽よ　羽よ　人並みを望み
+            [01:31.20]人波に拒まれては
+            [01:34.02]皆みなそこを目指すまだ葛藤があった少女時代
+            [01:39.35]無辜むこでいた頃を 遠ざけるのは 熱病
+            [01:44.39]
+            [01:44.57]髪の長さ揃えて爪の先を塗り直す
+            [01:47.94]あどけない唇も色めき立つのね
+            [01:51.36]叶うこともありましょう叶わぬ人もおりましょう
+            [01:54.82]それゆえ慰めずにはいられないのでしょう
+            [01:59.21]
+            [01:59.55]羽よ　花よ 水面に散って
+            [02:05.04]
+            [02:32.49]傷の数を数えて 痛みの数　指を折る
+            [02:35.99]一つあまり 小指は 愛しさのぶんね
+            [02:39.27]悔やむこともありましょう わたしの所為もありましょう
+            [02:42.78]いつかは赤い糸 断ち切るのでしょう
+            [02:46.01]
+            [02:46.24]花びらにささやきを 哀れみから口づけを
+            [02:49.67]懐かしんではじめて 過ぎ行くのでしょう
+            [02:53.16]惑うこともありましょう 誰かの所為じゃないでしょう
+            [02:56.48]難しいものですね 愛するということは`
     },
     {
         chapter: 3,
@@ -1963,58 +1967,58 @@ const tracks = [
         context: 'The End of Foon Yew Archive', desc: 'Graduation',
         date: 'DEC 2025', ytId: 'gdmLEu5fVz4', start: 0,
         lyrics: `
-                    [00:14.56]ゆっくり落ちる砂時計
-                    [00:17.88]揺らいだ夜の星たちも
-                    [00:21.24]気付けなくなっていたのは
-                    [00:25.82]
-                    [00:27.07]きっと　涙が止まない夕暮れも
-                    [00:30.87]動けそうにない朝明けも
-                    [00:34.27]隣に誰もいないから
-                    [00:38.38]
-                    [00:38.78]負けたくない今日の日を　精一杯走った
-                    [00:45.15]正しく生きることの　意味を知らないまま
-                    [00:52.53]でも　確かにそこに光はあったんだ
-                    [00:59.54]
-                    [00:59.67]ねぇ空の色は何色だっただろう
-                    [01:03.65]星はどんな音色だっただろう
-                    [01:07.55]WOW
-                    [01:10.38]君を知らない世界たちが
-                    [01:13.37]この歌を笑っていたんだろう
-                    [01:16.52]灰色の言葉もあっただろう
-                    [01:20.41]そんな日々を僕は　強さと呼びたい
-                    [01:29.31]君の星河よ
-                    [01:31.70]輝いて
-                    [01:45.71]
-                    [01:45.94]踏み出す足がすくんでも
-                    [01:49.44]未来の空が暗くても
-                    [01:52.95]隣に「音」があったから
-                    [01:57.05]
-                    [01:57.98]見えるもの全てが　真実じゃなくて
-                    [02:04.14]渦巻く人の声を　疑う僕でありたい
-                    [02:11.57]まだ　映らない　星座を探して
-                    [02:23.00]
-                    [02:46.48]今まで数えた星だって
-                    [02:49.55]きっと輝いていたのに
-                    [02:52.78]いつから忘れていたの
-                    [02:56.11]いつから消してしまったの
-                    [02:58.99]
-                    [02:59.14]この世界が美しく見えた
-                    [03:02.56]最後の日はいつだっけ
-                    [03:05.86]下を向いていた夜に
-                    [03:09.03]見落としたんだ　今なら
-                    [03:13.53]
-                    [03:19.15]光るから
-                    [03:20.23]僕の色は何色だっただろう
-                    [03:23.43]君はどんな音色だっただろう
-                    [03:27.46]WOW
-                    [03:30.05]少しだけ顔を上げて
-                    [03:32.92]広がる空が見えたなら
-                    [03:36.09]あの日の答えもあったなら
-                    [03:40.14]そんな明日を僕は　嫌わないでいたい
-                    [03:48.70]君の星河よ
-                    [03:51.67]輝いて
-                    [04:06.04]
-                    [04:19.13]あぁ空はこんな色だった`
+            [00:14.56]ゆっくり落ちる砂時計
+            [00:17.88]揺らいだ夜の星たちも
+            [00:21.24]気付けなくなっていたのは
+            [00:25.82]
+            [00:27.07]きっと　涙が止まない夕暮れも
+            [00:30.87]動けそうにない朝明けも
+            [00:34.27]隣に誰もいないから
+            [00:38.38]
+            [00:38.78]負けたくない今日の日を　精一杯走った
+            [00:45.15]正しく生きることの　意味を知らないまま
+            [00:52.53]でも　確かにそこに光はあったんだ
+            [00:59.54]
+            [00:59.67]ねぇ空の色は何色だっただろう
+            [01:03.65]星はどんな音色だっただろう
+            [01:07.55]WOW
+            [01:10.38]君を知らない世界たちが
+            [01:13.37]この歌を笑っていたんだろう
+            [01:16.52]灰色の言葉もあっただろう
+            [01:20.41]そんな日々を僕は　強さと呼びたい
+            [01:29.31]君の星河よ
+            [01:31.70]輝いて
+            [01:45.71]
+            [01:45.94]踏み出す足がすくんでも
+            [01:49.44]未来の空が暗くても
+            [01:52.95]隣に「音」があったから
+            [01:57.05]
+            [01:57.98]見えるもの全てが　真実じゃなくて
+            [02:04.14]渦巻く人の声を　疑う僕でありたい
+            [02:11.57]まだ　映らない　星座を探して
+            [02:23.00]
+            [02:46.48]今まで数えた星だって
+            [02:49.55]きっと輝いていたのに
+            [02:52.78]いつから忘れていたの
+            [02:56.11]いつから消してしまったの
+            [02:58.99]
+            [02:59.14]この世界が美しく見えた
+            [03:02.56]最後の日はいつだっけ
+            [03:05.86]下を向いていた夜に
+            [03:09.03]見落としたんだ　今なら
+            [03:13.53]
+            [03:19.15]光るから
+            [03:20.23]僕の色は何色だっただろう
+            [03:23.43]君はどんな音色だっただろう
+            [03:27.46]WOW
+            [03:30.05]少しだけ顔を上げて
+            [03:32.92]広がる空が見えたなら
+            [03:36.09]あの日の答えもあったなら
+            [03:40.14]そんな明日を僕は　嫌わないでいたい
+            [03:48.70]君の星河よ
+            [03:51.67]輝いて
+            [04:06.04]
+            [04:19.13]あぁ空はこんな色だった`
     },
     {
         chapter: 3,
@@ -2022,51 +2026,51 @@ const tracks = [
         context: 'The End of Foon Yew Archive', desc: 'Graduation',
         date: 'DEC 2025', ytId: 'Mj38FoEYVGA', start: 0,
         lyrics: `
-                    [00:02.50]息が吸いたくて、産声を上げて
-                    [00:07.58]生き辛くなってまた泣いて喚いて
-                    [00:12.87]生きたくって？逝きたくって？
-                    [00:15.45]わけ分かんないなぁ、僕は
-                    [00:18.08]死にたくっても、詩に託して
-                    [00:20.58]歌詞/仮死になって歌う今日だ
-                    [00:23.54](ああ ああ ああ ああ...)
-                    [00:44.56]震わせた声を歌に吹き込んだ時
-                    [00:48.78]僕の息が初めて目に映って
-                    [00:51.87]気付いたんだよ
-                    [00:55.22]音楽の価値なんて所詮主観だと
-                    [00:59.21]なら、歌いたいように
-                    [01:02.53]伝えたい言葉を伝う
-                    [01:05.57]
-                    [01:07.44]間違いに怯えて
-                    [01:10.02]鬱ぐんじゃなくて
-                    [01:12.60]正しく在ろうって
-                    [01:15.15]足掻いていたいんだよ
-                    [01:17.88]「僕のせい」も、僕の生だ
-                    [01:20.51]馬鹿にされたって僕は
-                    [01:23.21]傷ついては傷つけて
-                    [01:25.67]瑕疵/貸しを作って生きる
-                    [01:27.82]
-                    [01:28.30]目に見えた今が全てだから
-                    [01:34.11]過去や未来に縋りたくないから
-                    [01:39.55]心の臓よ、動け、動け！
-                    [01:45.15]不確かだとしても僕の鼓動
-                    [01:50.14](ああ ああ ああ ああ...)
-                    [02:10.33]
-                    [02:31.76]いつか憎んだ、あの光も
-                    [02:36.94]僕の目を確かに照らしている
-                    [02:42.25]可視化していくんだ、この心を
-                    [02:47.53]でたらめな本音を抱えながら
-                    [02:52.41]
-                    [02:55.98]息が吸いたくて、産声を上げて
-                    [03:00.93]生き辛くなってまた泣いて喚いて
-                    [03:06.25]生きたくって？逝きたくって？
-                    [03:08.94]わけ分かんないなぁ、 僕は
-                    [03:11.58]死にたくっても、詩に託して
-                    [03:14.13]歌詞/仮死になって歌う
-                    [03:16.64]消えたくて生きた今日があるなら
-                    [03:22.44]どちらも嘘にはしなくていいから
-                    [03:27.85]心の臓を、歌え、歌え！
-                    [03:32.98]希望も希死も僕の鼓動
-                    [03:38.30](ああ ああ ああ ああ...)`
+            [00:02.50]息が吸いたくて、産声を上げて
+            [00:07.58]生き辛くなってまた泣いて喚いて
+            [00:12.87]生きたくって？逝きたくって？
+            [00:15.45]わけ分かんないなぁ、僕は
+            [00:18.08]死にたくっても、詩に託して
+            [00:20.58]歌詞/仮死になって歌う今日だ
+            [00:23.54](ああ ああ ああ ああ...)
+            [00:44.56]震わせた声を歌に吹き込んだ時
+            [00:48.78]僕の息が初めて目に映って
+            [00:51.87]気付いたんだよ
+            [00:55.22]音楽の価値なんて所詮主観だと
+            [00:59.21]なら、歌いたいように
+            [01:02.53]伝えたい言葉を伝う
+            [01:05.57]
+            [01:07.44]間違いに怯えて
+            [01:10.02]鬱ぐんじゃなくて
+            [01:12.60]正しく在ろうって
+            [01:15.15]足掻いていたいんだよ
+            [01:17.88]「僕のせい」も、僕の生だ
+            [01:20.51]馬鹿にされたって僕は
+            [01:23.21]傷ついては傷つけて
+            [01:25.67]瑕疵/貸しを作って生きる
+            [01:27.82]
+            [01:28.30]目に見えた今が全てだから
+            [01:34.11]過去や未来に縋りたくないから
+            [01:39.55]心の臓よ、動け、動け！
+            [01:45.15]不確かだとしても僕の鼓動
+            [01:50.14](ああ ああ ああ ああ...)
+            [02:10.33]
+            [02:31.76]いつか憎んだ、あの光も
+            [02:36.94]僕の目を確かに照らしている
+            [02:42.25]可視化していくんだ、この心を
+            [02:47.53]でたらめな本音を抱えながら
+            [02:52.41]
+            [02:55.98]息が吸いたくて、産声を上げて
+            [03:00.93]生き辛くなってまた泣いて喚いて
+            [03:06.25]生きたくって？逝きたくって？
+            [03:08.94]わけ分かんないなぁ、 僕は
+            [03:11.58]死にたくっても、詩に託して
+            [03:14.13]歌詞/仮死になって歌う
+            [03:16.64]消えたくて生きた今日があるなら
+            [03:22.44]どちらも嘘にはしなくていいから
+            [03:27.85]心の臓を、歌え、歌え！
+            [03:32.98]希望も希死も僕の鼓動
+            [03:38.30](ああ ああ ああ ああ...)`
     },
     {
         chapter: 3,
@@ -2075,51 +2079,51 @@ const tracks = [
         date: 'DEC 2025', ytId: 'lMEt3RdqB9Y', start: 0,
         ig: 'https://www.instagram.com/reel/DSuHC_qEQOc/',
         lyrics: `
-                    [00:03.92]堕
-                    [00:10.42]ながらの優等生　今宵も自分と密会です
-                    [00:12.96]しんどいわ　しんどいわ　あーつらつら合掌
-                    [00:16.47]ほんとは劣等生　あたしはあたしに説教です
-                    [00:19.12]しんどいわ　しんどいわ　もーいやいや絶交
-                    [00:22.70]心配無用　心配無用　これは笑えるジョークソング
-                    [00:25.76]新米も　老害も　みんな歌えるポップソング
-                    [00:28.86]まあまあ　それ噂っすよ　ただの紙切れっすよ
-                    [00:31.90]いいから　はやく　ハンコ押せや
-                    [00:35.19]デビルじゃない　デビルじゃないもん　悪魔ほどそう言うもん
-                    [00:38.01]あー死んじゃった　死んじゃった　愛してほしいじゃん（でも…）
-                    [00:41.49]それでもハマっちゃうなら　それでも恋しちゃうなら
-                    [00:44.25]あー死んじゃった　死んじゃった　天使エンジェル（HEY!!）天使エンジェル（HEY!!）
-                    [00:47.59]わー！【悲報】【悲報】【悲報】【悲報】（うっそー）
-                    [00:50.54]わー！　汚いね　わー！　飛べないね
-                    [00:53.85]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
-                    [00:56.93]本当の天使　スルーして　ご臨終
-                    [01:00.08]あくまで天使じゃん？　最強じゃん
-                    [01:04.76]堕
-                    [01:11.04]「君のため」って名言の悪意
-                    [01:14.82]「夢は叶う」で奪ったサラリー
-                    [01:17.56]はあ　中毒性の高いもんにゃ　罠があるんだな
-                    [01:20.42]魂抜かれちゃって　やあねえ　やあねえ
-                    [01:23.88]光り輝く輪っかでこの首が締まっていく
-                    [01:26.59]嘘をつけば緩んでいく　言えないSOS
-                    [01:30.01]白いペンキかぶりましょ　なりきって仕舞いましょ
-                    [01:32.76]嘘をつけば楽になる　ほらやっちゃって
-                    [01:36.33]デビルじゃない　デビルじゃないもん
-                    [01:39.31]あー死んじゃった　死んじゃった　あああ
-                    [01:42.67]それでもウガっちゃうけど　それでも嫌っちゃうけど
-                    [01:45.53]なりきって笑顔で　天使エンジェル天使エンジェル
-                    [01:48.85]デビルじゃない　デビルじゃないもん　悪魔ほどそう言うもん
-                    [01:51.64]あー死んじゃった　死んじゃった　愛してほしいじゃん（でも…）
-                    [01:55.08]それでもハマっちゃうなら　それでも恋しちゃうなら
-                    [01:57.92]あー死んじゃった　死んじゃった　天使エンジェル（HEY!!）天使エンジェル（HEY!!）
-                    [02:01.19]わー！【悲報】【悲報】【悲報】【悲報】（うっそー）
-                    [02:04.25]わー！　汚いね　わー！　飛べないね
-                    [02:07.51]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
-                    [02:10.52]本当の天使　スルーして　ご臨終
-                    [02:13.74]わー！【悲報】【悲報】【悲報】【悲報】（あっそー）
-                    [02:16.75]わー！　醜いね　わー！　映えないね
-                    [02:20.00]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
-                    [02:23.00]本当の悪魔になっても　ブレス・ユー
-                    [02:26.18]あくまで天使じゃん？　最強じゃん
-                    [02:29.93]堕〜`
+            [00:03.92]堕
+            [00:10.42]ながらの優等生　今宵も自分と密会です
+            [00:12.96]しんどいわ　しんどいわ　あーつらつら合掌
+            [00:16.47]ほんとは劣等生　あたしはあたしに説教です
+            [00:19.12]しんどいわ　しんどいわ　もーいやいや絶交
+            [00:22.70]心配無用　心配無用　これは笑えるジョークソング
+            [00:25.76]新米も　老害も　みんな歌えるポップソング
+            [00:28.86]まあまあ　それ噂っすよ　ただの紙切れっすよ
+            [00:31.90]いいから　はやく　ハンコ押せや
+            [00:35.19]デビルじゃない　デビルじゃないもん　悪魔ほどそう言うもん
+            [00:38.01]あー死んじゃった　死んじゃった　愛してほしいじゃん（でも…）
+            [00:41.49]それでもハマっちゃうなら　それでも恋しちゃうなら
+            [00:44.25]あー死んじゃった　死んじゃった　天使エンジェル（HEY!!）天使エンジェル（HEY!!）
+            [00:47.59]わー！【悲報】【悲報】【悲報】【悲報】（うっそー）
+            [00:50.54]わー！　汚いね　わー！　飛べないね
+            [00:53.85]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
+            [00:56.93]本当の天使　スルーして　ご臨終
+            [01:00.08]あくまで天使じゃん？　最強じゃん
+            [01:04.76]堕
+            [01:11.04]「君のため」って名言の悪意
+            [01:14.82]「夢は叶う」で奪ったサラリー
+            [01:17.56]はあ　中毒性の高いもんにゃ　罠があるんだな
+            [01:20.42]魂抜かれちゃって　やあねえ　やあねえ
+            [01:23.88]光り輝く輪っかでこの首が締まっていく
+            [01:26.59]嘘をつけば緩んでいく　言えないSOS
+            [01:30.01]白いペンキかぶりましょ　なりきって仕舞いましょ
+            [01:32.76]嘘をつけば楽になる　ほらやっちゃって
+            [01:36.33]デビルじゃない　デビルじゃないもん
+            [01:39.31]あー死んじゃった　死んじゃった　あああ
+            [01:42.67]それでもウガっちゃうけど　それでも嫌っちゃうけど
+            [01:45.53]なりきって笑顔で　天使エンジェル天使エンジェル
+            [01:48.85]デビルじゃない　デビルじゃないもん　悪魔ほどそう言うもん
+            [01:51.64]あー死んじゃった　死んじゃった　愛してほしいじゃん（でも…）
+            [01:55.08]それでもハマっちゃうなら　それでも恋しちゃうなら
+            [01:57.92]あー死んじゃった　死んじゃった　天使エンジェル（HEY!!）天使エンジェル（HEY!!）
+            [02:01.19]わー！【悲報】【悲報】【悲報】【悲報】（うっそー）
+            [02:04.25]わー！　汚いね　わー！　飛べないね
+            [02:07.51]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
+            [02:10.52]本当の天使　スルーして　ご臨終
+            [02:13.74]わー！【悲報】【悲報】【悲報】【悲報】（あっそー）
+            [02:16.75]わー！　醜いね　わー！　映えないね
+            [02:20.00]デビルじゃない　デビルじゃないもん　あー死んじゃった　死んじゃった
+            [02:23.00]本当の悪魔になっても　ブレス・ユー
+            [02:26.18]あくまで天使じゃん？　最強じゃん
+            [02:29.93]堕〜`
     },
     {
         chapter: 3,
@@ -2128,47 +2132,47 @@ const tracks = [
         date: 'DEC 2025', ytId: 'B0uSLgW9o7E', start: 0,
         ig: 'https://www.instagram.com/reel/DS7AsnWEdgg/',
         lyrics: `
-                    [00:14.59]I want to be right where you are
-                    [00:21.69]I want to be right where you are
-                    [00:29.19]There's no beauty without ends
-                    [00:36.32]No creation with no mends
-                    [00:43.83]A new silent wish, will cast aside our pain
-                    [00:48.58]Distancing side by side in vain
-                    [00:56.95]Reflecting no more anguish by your side
-                    [01:00.44]A contradiction worthy to abide
-                    [01:04.10]Remnants of us ebb and flow
-                    [01:07.09]A glimpse of love just waiting
-                    [01:11.03]Oh, a never-ending hope to mend it all
-                    [01:18.18]Flow, let our time remain and wait for voids to fall
-                    [01:25.05]Ascending through the motions
-                    [01:28.12]It would seem as though they'd last
-                    [01:31.91]Admitting to our questions
-                    [01:35.72]And doubts thrown at the past
-                    [01:40.69]There's no rightness in pretend
-                    [01:47.57]Finding comfort once again
-                    [01:54.85]Wish the days would pass, just yearning for our fate
-                    [01:59.94]Yet there is solace to be found within dismay
-                    [02:08.01]Disowning feelings of grief through these tides
-                    [02:11.65]A complicated love I'd dare not hide
-                    [02:15.30]Turbulences come and go
-                    [02:18.18]But won't reject me whole
-                    [02:22.17]Oh, a bittersweet vision through me that befalls
-                    [02:28.98]Know that despite our voids I swear to hold it all
-                    [02:36.04]While sinking through this ocean
-                    [02:39.28]I would wonder why you'd ask
-                    [02:43.12]Accepting our affection
-                    [02:46.35]I just knew that it would last
-                    [02:51.16]I want to be right where you are
-                    [02:58.21]I want to be right where you are
-                    [03:05.35]I want to be right where you are
-                    [03:12.55]I want to be right where you are
-                    [03:18.93]I want to be right where you are (touch)
-                    [03:21.68](The heavens and the skies alight)
-                    [03:26.34]I want to be right where you are (breathe)
-                    [03:28.69](The entire universe shines bright)
-                    [03:33.52]I want to be right where you are
-                    [03:40.74]I want to be right where you are
-                    [03:47.58]`
+            [00:14.59]I want to be right where you are
+            [00:21.69]I want to be right where you are
+            [00:29.19]There's no beauty without ends
+            [00:36.32]No creation with no mends
+            [00:43.83]A new silent wish, will cast aside our pain
+            [00:48.58]Distancing side by side in vain
+            [00:56.95]Reflecting no more anguish by your side
+            [01:00.44]A contradiction worthy to abide
+            [01:04.10]Remnants of us ebb and flow
+            [01:07.09]A glimpse of love just waiting
+            [01:11.03]Oh, a never-ending hope to mend it all
+            [01:18.18]Flow, let our time remain and wait for voids to fall
+            [01:25.05]Ascending through the motions
+            [01:28.12]It would seem as though they'd last
+            [01:31.91]Admitting to our questions
+            [01:35.72]And doubts thrown at the past
+            [01:40.69]There's no rightness in pretend
+            [01:47.57]Finding comfort once again
+            [01:54.85]Wish the days would pass, just yearning for our fate
+            [01:59.94]Yet there is solace to be found within dismay
+            [02:08.01]Disowning feelings of grief through these tides
+            [02:11.65]A complicated love I'd dare not hide
+            [02:15.30]Turbulences come and go
+            [02:18.18]But won't reject me whole
+            [02:22.17]Oh, a bittersweet vision through me that befalls
+            [02:28.98]Know that despite our voids I swear to hold it all
+            [02:36.04]While sinking through this ocean
+            [02:39.28]I would wonder why you'd ask
+            [02:43.12]Accepting our affection
+            [02:46.35]I just knew that it would last
+            [02:51.16]I want to be right where you are
+            [02:58.21]I want to be right where you are
+            [03:05.35]I want to be right where you are
+            [03:12.55]I want to be right where you are
+            [03:18.93]I want to be right where you are (touch)
+            [03:21.68](The heavens and the skies alight)
+            [03:26.34]I want to be right where you are (breathe)
+            [03:28.69](The entire universe shines bright)
+            [03:33.52]I want to be right where you are
+            [03:40.74]I want to be right where you are
+            [03:47.58]`
     },
     // Chapter 4
     {
@@ -2178,58 +2182,57 @@ const tracks = [
         date: 'JUN 2026', ytId: 'M-IayQIR0XA', start: 0,
         ig: '',
         lyrics: `
-                [00:00.63]ただ歌を歌う Loneliness
-[00:02.59]この電子音が繋いでく魔法
-[00:07.03]
-[00:23.95]あのね、僕は地球の
-[00:27.74]反対側に居るから
-[00:31.80]君と
-[00:33.39]同じものが感じられなくて
-[00:37.32]春も夏も秋も冬も
-[00:41.08]空の色さえ
-[00:47.45]地球を鳴らすミュージック
-[00:49.22]君の声がこの曲のスパイス
-[00:51.51]届いていてほしいな
-[00:53.22]僕のらったったも君の元に
-[00:55.59]誰もはみ出さずに
-[00:57.17]包んでくれるそれは
-[00:58.55]ダンスミュージック
-[00:59.44]ヘッドホンの先には
-[01:01.01]いつもの様に君がいるから
-[01:18.65]あのね、キーボードに
-[01:22.40]打ち込んでいく文字は
-[01:26.48]思うように感情が乗ってくれなくて
-[01:32.16]何も伝わらなくて
-[01:34.58]目に見えるものだけに
-[01:36.74]圧倒されてしまう
-[01:38.98]心も何もかも乗っ取られていく
-[01:42.22]見えない電波を拾って
-[01:44.75]この心臓が
-[01:46.76]脈を打つ限り
-[01:48.01]音を打ち続けるから
-[01:51.25]君は君のままでいて
-[01:57.75]言葉が通じなくても
-[01:59.53]この音が刻むメッセージと音色で
-[02:04.48]君と
-[02:05.54]この瞬間同じ四季を
-[02:07.39]また感じられる気がしていたんだ
-[02:11.22]空の色も教えてくれた
-[02:18.94]二人の意識が繋がっていく
-[02:28.98]地球を鳴らすミュージック
-[02:30.85]君の脈がこの曲のスパイス
-[02:33.03]届いていてほしいな
-[02:34.73]君のチクタクチクも僕の元に
-[02:37.08]誰もはみ出さずに
-[02:38.65]包んでくれるそれは
-[02:39.95]ダンスミュージック
-[02:40.87]ヘッドホンの先には
-[02:42.42]いつも通りの君がいるから
-[03:00.11]あのね、僕は地球の
-[03:03.81]反対側に居るけど
-[03:08.04]君と
-[03:09.46]同じものが感じられるように
-[03:13.52]この歌を歌うんだ
-[03:16.22]`
+            [00:00.63]ただ歌を歌う Loneliness
+            [00:02.59]この電子音が繋いでく魔法
+            [00:23.95]あのね、僕は地球の
+            [00:27.74]反対側に居るから
+            [00:31.80]君と
+            [00:33.39]同じものが感じられなくて
+            [00:37.32]春も夏も秋も冬も
+            [00:41.08]空の色さえ
+            [00:47.45]地球を鳴らすミュージック
+            [00:49.22]君の声がこの曲のスパイス
+            [00:51.51]届いていてほしいな
+            [00:53.22]僕のらったったも君の元に
+            [00:55.59]誰もはみ出さずに
+            [00:57.17]包んでくれるそれは
+            [00:58.55]ダンスミュージック
+            [00:59.44]ヘッドホンの先には
+            [01:01.01]いつもの様に君がいるから
+            [01:18.65]あのね、キーボードに
+            [01:22.40]打ち込んでいく文字は
+            [01:26.48]思うように感情が乗ってくれなくて
+            [01:32.16]何も伝わらなくて
+            [01:34.58]目に見えるものだけに
+            [01:36.74]圧倒されてしまう
+            [01:38.98]心も何もかも乗っ取られていく
+            [01:42.22]見えない電波を拾って
+            [01:44.75]この心臓が
+            [01:46.76]脈を打つ限り
+            [01:48.01]音を打ち続けるから
+            [01:51.25]君は君のままでいて
+            [01:57.75]言葉が通じなくても
+            [01:59.53]この音が刻むメッセージと音色で
+            [02:04.48]君と
+            [02:05.54]この瞬間同じ四季を
+            [02:07.39]また感じられる気がしていたんだ
+            [02:11.22]空の色も教えてくれた
+            [02:18.94]二人の意識が繋がっていく
+            [02:28.98]地球を鳴らすミュージック
+            [02:30.85]君の脈がこの曲のスパイス
+            [02:33.03]届いていてほしいな
+            [02:34.73]君のチクタクチクも僕の元に
+            [02:37.08]誰もはみ出さずに
+            [02:38.65]包んでくれるそれは
+            [02:39.95]ダンスミュージック
+            [02:40.87]ヘッドホンの先には
+            [02:42.42]いつも通りの君がいるから
+            [03:00.11]あのね、僕は地球の
+            [03:03.81]反対側に居るけど
+            [03:08.04]君と
+            [03:09.46]同じものが感じられるように
+            [03:13.52]この歌を歌うんだ
+            [03:16.22]`
     },
     {
         chapter: 4,
@@ -2238,50 +2241,50 @@ const tracks = [
         date: 'MAR 2026', ytId: 'uuFNVow4ciw', start: 0,
         ig: 'https://www.instagram.com/reel/DT5YBLHkWky',
         lyrics: `
-                [00:14.18]迷い間違い 進めない日々
-[00:20.20]分かっていたつもりだった
-[00:23.36]まだ足りない 対峙 またMISTAKE
-[00:26.98]
-[00:26.98]感じたままでいい 歩き出して
-[00:32.90]少しずつ形にして
-[00:36.09]さあいくよ 調子はどうだい？
-[00:39.79]
-[00:39.99]CLAP!反響して 響く超低音
-[00:43.19]揺るがぬ想い 重ね合わせて
-[00:46.35]襲うプレッシャーと壁押し退け
-[00:49.24]光追いかけた
-[00:52.22]
-[00:52.22]届かないような 未来だって
-[00:55.52]何度でも手を伸ばそう
-[00:58.84]憧ればかりじゃ終われないから
-[01:04.84]
-[01:05.05]悔しい気持ち 忘れないで
-[01:08.29]前を向いたら
-[01:10.76]奇跡を塗り替える
-[01:12.73]鮮やかなセカイを 描いていくんだ
-[01:18.33]
-[01:19.84]ああ 積み重ねは本当の意志
-[01:25.74]繰り返した試行錯誤
-[01:28.99]「まだいける」と上を目指して
-[01:32.46]
-[01:32.56]熱い眼差し 本気の路(みち)
-[01:38.50]シンクロした感覚の位相
-[01:41.66]さあいこう 幕は上がった
-[01:45.45]
-[01:45.55]FLASH!反射して 響く超高音
-[01:48.78]弾ける鼓動 重ね合わせて
-[01:51.99]止まぬ歓声とステージが照らす
-[01:54.74]期待追いかけた
-[01:57.82]
-[01:57.82]苦しい時もあるけれど
-[02:01.16]君を待つ人がいる
-[02:04.32]だからそう声が枯れる時まで
-[02:10.50]
-[02:10.70]悔しい気持ち 忘れないで
-[02:13.96]前を向いたら
-[02:16.35]奇跡を塗り替える
-[02:18.35]鮮やかなセカイを 描いていくんだ
-[02:26.01]`
+            [00:14.18]迷い間違い 進めない日々
+            [00:20.20]分かっていたつもりだった
+            [00:23.36]まだ足りない 対峙 またMISTAKE
+            [00:26.98]
+            [00:26.98]感じたままでいい 歩き出して
+            [00:32.90]少しずつ形にして
+            [00:36.09]さあいくよ 調子はどうだい？
+            [00:39.79]
+            [00:39.99]CLAP!反響して 響く超低音
+            [00:43.19]揺るがぬ想い 重ね合わせて
+            [00:46.35]襲うプレッシャーと壁押し退け
+            [00:49.24]光追いかけた
+            [00:52.22]
+            [00:52.22]届かないような 未来だって
+            [00:55.52]何度でも手を伸ばそう
+            [00:58.84]憧ればかりじゃ終われないから
+            [01:04.84]
+            [01:05.05]悔しい気持ち 忘れないで
+            [01:08.29]前を向いたら
+            [01:10.76]奇跡を塗り替える
+            [01:12.73]鮮やかなセカイを 描いていくんだ
+            [01:18.33]
+            [01:19.84]ああ 積み重ねは本当の意志
+            [01:25.74]繰り返した試行錯誤
+            [01:28.99]「まだいける」と上を目指して
+            [01:32.46]
+            [01:32.56]熱い眼差し 本気の路(みち)
+            [01:38.50]シンクロした感覚の位相
+            [01:41.66]さあいこう 幕は上がった
+            [01:45.45]
+            [01:45.55]FLASH!反射して 響く超高音
+            [01:48.78]弾ける鼓動 重ね合わせて
+            [01:51.99]止まぬ歓声とステージが照らす
+            [01:54.74]期待追いかけた
+            [01:57.82]
+            [01:57.82]苦しい時もあるけれど
+            [02:01.16]君を待つ人がいる
+            [02:04.32]だからそう声が枯れる時まで
+            [02:10.50]
+            [02:10.70]悔しい気持ち 忘れないで
+            [02:13.96]前を向いたら
+            [02:16.35]奇跡を塗り替える
+            [02:18.35]鮮やかなセカイを 描いていくんだ
+            [02:26.01]`
     },
     {
         chapter: 4,
@@ -2290,107 +2293,107 @@ const tracks = [
         date: 'MAR 2026', ytId: '5kIeUb5AE4s',
         ig: 'https://www.instagram.com/reel/DWI1GGwkROR',
         lyrics: `
-                [00:18.25]さぁさぁやって参りました
-[00:19.92]悪い仔 粛清のお時間
-[00:22.03]代替 宛の無い機械
-[00:23.64]彩れませんでした
-[00:25.39]
-[00:25.43]クラクラ果実 散弾銃
-[00:27.39]微二倍 苦い終末
-[00:29.44]大体正の関連性
-[00:31.07]次の方はどうぞ
-[00:32.95]
-[00:32.96]錆びた刃
-[00:36.82]褐色のエーアイ
-[00:40.48]逃走 感情
-[00:44.21]コメントアウト
-[00:47.89]
-[00:47.90]ざんざん ぎゃりぎゃり
-[00:48.89]ばるばるーらる
-[00:49.66]だんだん ばばば
-[00:50.64]わいわいだ ぱーりー
-[00:51.61]いたい いたい
-[00:52.06]あははは
-[00:52.46]あつい あついだろ
-[00:53.49]かいたい かいたい
-[00:54.35]ゆめのせかいへ！
-[00:55.29]ざんざん ぎゃりぎゃり
-[00:56.20]ばるばるーらる
-[00:57.16]ばんばん ががが
-[00:57.94]いえいいえいだ ぱーりー
-[00:58.96]いたい いたい
-[00:59.43]あわれだ
-[00:59.93]にがい にがいから
-[01:00.81]げきたい げきたい
-[01:01.74]あこがれのちへ！
-[01:02.60]
-[01:02.61]三乗 勘定 疲労度 凍結
-[01:04.56]段々幅が迫りくんだ
-[01:06.37]限界 刻々 土台 不整脈
-[01:08.20]段々逃げる道も無いんだ
-[01:10.07]三秒 完答 死闘の口角
-[01:11.92]段々幅は迫りくんだ
-[01:13.75]幻煙 黙々 古代の勢力
-[01:15.62]段々逃げる道も無いんだ
-[01:17.38]
-[01:19.16]さぁさぁやって参りました
-[01:20.81]生存思考の再戦
-[01:22.90]電源なんて在りません
-[01:24.53]只唱う已です
-[01:26.29]
-[01:26.33]フラフラ果実 三連勝
-[01:28.31]微四倍 苦い終末
-[01:30.31]ゲージは残り僅かです
-[01:31.96]次の方はどうぞ
-[01:33.92]
-[01:33.97]怪物達は祈りました
-[01:35.68]哀れな惨状の聖杯
-[01:37.70]真っ赤に成った黒歴史
-[01:39.31]焼き憑いたが最後の再葬
-[01:41.35]
-[01:41.37]来襲 愛終 無限 無気力
-[01:43.35]楽観 達観 偽善 センシズム
-[01:45.22]案外 感慨深い
-[01:46.38]そんなコロシアム
-[01:48.34]
-[01:48.87]ざんざん ぎゃりぎゃり
-[01:49.77]ばるばるーらる
-[01:50.69]だんだん ばばば
-[01:51.45]わいわいだ ぱーりー
-[01:52.49]いたい いたい
-[01:52.99]あははは
-[01:53.39]あつい あついだろ
-[01:54.40]かいたい かいたい
-[01:55.29]ゆめのせかいへ！
-[01:56.21]ざんざん ぎゃりぎゃり
-[01:57.13]ばるばるーらる
-[01:58.07]ばんばん ががが
-[01:58.91]いえいいえいだ ぱーりー
-[01:59.86]いたい いたい
-[02:00.36]あわれだ
-[02:00.84]にがい にがいから
-[02:01.75]さいしゅーへーきで
-[02:02.67]あこがれのちへ！
-[02:03.62]
-[02:03.63]ざんざん ぎゃりぎゃり
-[02:04.50]ばるばるーらる
-[02:05.45]だんだん ばばば
-[02:06.30]わいわいだ ぱーりー
-[02:07.29]いたい いたい
-[02:07.82]あははは
-[02:08.26]あつい あついだろ
-[02:09.21]かいたい かいたい
-[02:10.07]ゆめのせかいへ！
-[02:10.97]さんざん ぎゃくさん
-[02:11.88]こたえ さがせよ
-[02:12.84]かんたん ぼくが
-[02:13.68]うぃんうぃんだ ぱーりー
-[02:14.65]きたい きたい
-[02:15.13]はるかな
-[02:15.60]みらい みらいから
-[02:16.49]さいかい さいかい
-[02:17.43]あのかたのちへ！
-[02:18.54]`
+            [00:18.25]さぁさぁやって参りました
+            [00:19.92]悪い仔 粛清のお時間
+            [00:22.03]代替 宛の無い機械
+            [00:23.64]彩れませんでした
+            [00:25.39]
+            [00:25.43]クラクラ果実 散弾銃
+            [00:27.39]微二倍 苦い終末
+            [00:29.44]大体正の関連性
+            [00:31.07]次の方はどうぞ
+            [00:32.95]
+            [00:32.96]錆びた刃
+            [00:36.82]褐色のエーアイ
+            [00:40.48]逃走 感情
+            [00:44.21]コメントアウト
+            [00:47.89]
+            [00:47.90]ざんざん ぎゃりぎゃり
+            [00:48.89]ばるばるーらる
+            [00:49.66]だんだん ばばば
+            [00:50.64]わいわいだ ぱーりー
+            [00:51.61]いたい いたい
+            [00:52.06]あははは
+            [00:52.46]あつい あついだろ
+            [00:53.49]かいたい かいたい
+            [00:54.35]ゆめのせかいへ！
+            [00:55.29]ざんざん ぎゃりぎゃり
+            [00:56.20]ばるばるーらる
+            [00:57.16]ばんばん ががが
+            [00:57.94]いえいいえいだ ぱーりー
+            [00:58.96]いたい いたい
+            [00:59.43]あわれだ
+            [00:59.93]にがい にがいから
+            [01:00.81]げきたい げきたい
+            [01:01.74]あこがれのちへ！
+            [01:02.60]
+            [01:02.61]三乗 勘定 疲労度 凍結
+            [01:04.56]段々幅が迫りくんだ
+            [01:06.37]限界 刻々 土台 不整脈
+            [01:08.20]段々逃げる道も無いんだ
+            [01:10.07]三秒 完答 死闘の口角
+            [01:11.92]段々幅は迫りくんだ
+            [01:13.75]幻煙 黙々 古代の勢力
+            [01:15.62]段々逃げる道も無いんだ
+            [01:17.38]
+            [01:19.16]さぁさぁやって参りました
+            [01:20.81]生存思考の再戦
+            [01:22.90]電源なんて在りません
+            [01:24.53]只唱う已です
+            [01:26.29]
+            [01:26.33]フラフラ果実 三連勝
+            [01:28.31]微四倍 苦い終末
+            [01:30.31]ゲージは残り僅かです
+            [01:31.96]次の方はどうぞ
+            [01:33.92]
+            [01:33.97]怪物達は祈りました
+            [01:35.68]哀れな惨状の聖杯
+            [01:37.70]真っ赤に成った黒歴史
+            [01:39.31]焼き憑いたが最後の再葬
+            [01:41.35]
+            [01:41.37]来襲 愛終 無限 無気力
+            [01:43.35]楽観 達観 偽善 センシズム
+            [01:45.22]案外 感慨深い
+            [01:46.38]そんなコロシアム
+            [01:48.34]
+            [01:48.87]ざんざん ぎゃりぎゃり
+            [01:49.77]ばるばるーらる
+            [01:50.69]だんだん ばばば
+            [01:51.45]わいわいだ ぱーりー
+            [01:52.49]いたい いたい
+            [01:52.99]あははは
+            [01:53.39]あつい あついだろ
+            [01:54.40]かいたい かいたい
+            [01:55.29]ゆめのせかいへ！
+            [01:56.21]ざんざん ぎゃりぎゃり
+            [01:57.13]ばるばるーらる
+            [01:58.07]ばんばん ががが
+            [01:58.91]いえいいえいだ ぱーりー
+            [01:59.86]いたい いたい
+            [02:00.36]あわれだ
+            [02:00.84]にがい にがいから
+            [02:01.75]さいしゅーへーきで
+            [02:02.67]あこがれのちへ！
+            [02:03.62]
+            [02:03.63]ざんざん ぎゃりぎゃり
+            [02:04.50]ばるばるーらる
+            [02:05.45]だんだん ばばば
+            [02:06.30]わいわいだ ぱーりー
+            [02:07.29]いたい いたい
+            [02:07.82]あははは
+            [02:08.26]あつい あついだろ
+            [02:09.21]かいたい かいたい
+            [02:10.07]ゆめのせかいへ！
+            [02:10.97]さんざん ぎゃくさん
+            [02:11.88]こたえ さがせよ
+            [02:12.84]かんたん ぼくが
+            [02:13.68]うぃんうぃんだ ぱーりー
+            [02:14.65]きたい きたい
+            [02:15.13]はるかな
+            [02:15.60]みらい みらいから
+            [02:16.49]さいかい さいかい
+            [02:17.43]あのかたのちへ！
+            [02:18.54]`
     },
     {
         chapter: 4,
@@ -2398,31 +2401,32 @@ const tracks = [
         context: '', desc: '',
         date: 'APR 2026', ytId: '4sKjn3ryB14', start: 0,
         ig: '',
-        lyrics: `[00:16.63]君の詩を書いていた 気づく訳もないのさ
-[00:20.45]「歌詞を聞かない」人でしょ？
-[00:24.64]追いかけることすら 諦めようと黄昏
-[00:28.60]いつの間にか青患いの僕さ
-[00:32.16]さよならの先に歪な雨ひとつ
-[00:39.67]花散らしていく 僕の桜雨
-[00:44.11]放課後の君は確信犯だ
-[00:48.48]枯れていく心を焦がして
-[00:51.95]踏み込めない明日は 全部春のせいかな
-[01:00.01]
-[01:12.61]古いメロディを歌った 覚えてる訳もないんだ
-[01:16.53]「消費するだけ」の人でしょ？
-[01:20.61]4月は大嫌いだ この香り 僕の心を
-[01:24.67]急かし騙し君想起させる
-[01:28.19]青春環状線に乗って 追いつけないままぐるぐると
-[01:33.39]あれ、今何周回ってる？
-[01:35.79]らら楽な人生を羨んでる
-[01:40.12]今日も僕はただの観測者さ
-[01:44.33]来世でさ楽しめばいいや
-[01:47.98]人生単位の事しか 考えるの辞めた
-[01:54.25]この世の正しさ毎
-[01:57.64]誤魔化して、ららら歌って
-[02:00.40]苦な人生は何かのせいにして
-[02:03.99]僕のこんな歌も 全部春のせいかな
-[02:10.62]`
+        lyrics: `
+            [00:16.63]君の詩を書いていた 気づく訳もないのさ
+            [00:20.45]「歌詞を聞かない」人でしょ？
+            [00:24.64]追いかけることすら 諦めようと黄昏
+            [00:28.60]いつの間にか青患いの僕さ
+            [00:32.16]さよならの先に歪な雨ひとつ
+            [00:39.67]花散らしていく 僕の桜雨
+            [00:44.11]放課後の君は確信犯だ
+            [00:48.48]枯れていく心を焦がして
+            [00:51.95]踏み込めない明日は 全部春のせいかな
+            [01:00.01]
+            [01:12.61]古いメロディを歌った 覚えてる訳もないんだ
+            [01:16.53]「消費するだけ」の人でしょ？
+            [01:20.61]4月は大嫌いだ この香り 僕の心を
+            [01:24.67]急かし騙し君想起させる
+            [01:28.19]青春環状線に乗って 追いつけないままぐるぐると
+            [01:33.39]あれ、今何周回ってる？
+            [01:35.79]らら楽な人生を羨んでる
+            [01:40.12]今日も僕はただの観測者さ
+            [01:44.33]来世でさ楽しめばいいや
+            [01:47.98]人生単位の事しか 考えるの辞めた
+            [01:54.25]この世の正しさ毎
+            [01:57.64]誤魔化して、ららら歌って
+            [02:00.40]苦な人生は何かのせいにして
+            [02:03.99]僕のこんな歌も 全部春のせいかな
+            [02:10.62]`
     },
     {
         chapter: 4,
@@ -2431,54 +2435,54 @@ const tracks = [
         date: 'APR 2026', ytId: 'XAg1jDDG49Y', start: 0,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTYwNjA5MTY4NDI5OTEz?story_media_id=3872077968886066424_63008808258&igsh=MXJxOWgwODFmbmhpbA==',
         lyrics: `
-                    [00:09.56]ローリスクじゃ物足りなくなっちゃったし
-                    [00:14.67]有り余って笑っちゃうくらい
-                    [00:18.17]なんも無いなんて言ったってしょうがないし
-                    [00:22.96]お手上げでHi-Five
-                    [00:25.66]
-                    [00:25.67]前ならえで後に続いたってつまんねえ
-                    [00:30.76]夢を語れ、追え！が　この街のStandard
-                    [00:35.10]ただ見てたいだけ　なんてのは嘘です
-                    [00:39.17]そろそろマイク頂戴
-                    [00:42.85]
-                    [00:42.86]どうせならもう後戻りもできないくらい　どうにかさせて
-                    [00:51.60]まだまだハマっていきたい
-                    [00:53.57]なんか、まるで恋してるみたい
-                    [00:55.95]好きになっちゃったぁ　つってさ
-                    [00:58.88]
-                    [00:58.89]ならこのまま キミを連れて
-                    [01:03.59]望むなら　どこまでも
-                    [01:08.11]＆ I Wanna　欲しがってばかりで結構 結構
-                    [01:15.27]もし叶うならこの先の世界を知りたい　行きたい
-                    [01:24.40]Ready Steady
-                    [01:25.45]
-                    [01:41.20]ちょっとだけなら無茶だってしちゃいたいし
-                    [01:46.00]この世の全て奪っちゃうくらい
-                    [01:49.52]とはいえ語ってばっかじゃどうしようもないし
-                    [01:54.40]語尾跳ねてHi-Fi
-                    [01:56.82]
-                    [01:56.83]ねえ少しはこっち向いたらどう
-                    [01:59.61]気まぐれにハマらせたいだけ？
-                    [02:02.13]でも奪いたい震わせたい　目、耳、キミの燃えるheart
-                    [02:06.14]誰もが羨む驚異のTrackとLyricで
-                    [02:10.12]魅せていくからRetakeはしないで
-                    [02:13.99]
-                    [02:14.00]だからこのまま キミを連れて
-                    [02:18.93]望むなら　どこへでも
-                    [02:22.91]＆ I Wanna　無いものねだるなら決行 決行
-                    [02:30.82]
-                    [02:30.83]早く夜よ明けて 朝焼けに誓え
-                    [02:36.83]重い想い、 熱量を叫べ
-                    [02:40.30]この声を聴け　音・音・音に、踊り狂え
-                    [02:47.50]
-                    [02:47.51]I want more.
-                    [02:51.98]“Are you Ready？”
-                    [02:56.13]
-                    [02:56.14]ならこのまま キミを連れて
-                    [03:00.81]望むなら　どこまでも
-                    [03:05.89]＆ I Wanna　欲しがってばかりで結構 結構
-                    [03:12.83]もし叶うならこの先の世界を知りたい　行きたい
-                    [03:21.99]Ready Steady`
+            [00:09.56]ローリスクじゃ物足りなくなっちゃったし
+            [00:14.67]有り余って笑っちゃうくらい
+            [00:18.17]なんも無いなんて言ったってしょうがないし
+            [00:22.96]お手上げでHi-Five
+            [00:25.66]
+            [00:25.67]前ならえで後に続いたってつまんねえ
+            [00:30.76]夢を語れ、追え！が　この街のStandard
+            [00:35.10]ただ見てたいだけ　なんてのは嘘です
+            [00:39.17]そろそろマイク頂戴
+            [00:42.85]
+            [00:42.86]どうせならもう後戻りもできないくらい　どうにかさせて
+            [00:51.60]まだまだハマっていきたい
+            [00:53.57]なんか、まるで恋してるみたい
+            [00:55.95]好きになっちゃったぁ　つってさ
+            [00:58.88]
+            [00:58.89]ならこのまま キミを連れて
+            [01:03.59]望むなら　どこまでも
+            [01:08.11]＆ I Wanna　欲しがってばかりで結構 結構
+            [01:15.27]もし叶うならこの先の世界を知りたい　行きたい
+            [01:24.40]Ready Steady
+            [01:25.45]
+            [01:41.20]ちょっとだけなら無茶だってしちゃいたいし
+            [01:46.00]この世の全て奪っちゃうくらい
+            [01:49.52]とはいえ語ってばっかじゃどうしようもないし
+            [01:54.40]語尾跳ねてHi-Fi
+            [01:56.82]
+            [01:56.83]ねえ少しはこっち向いたらどう
+            [01:59.61]気まぐれにハマらせたいだけ？
+            [02:02.13]でも奪いたい震わせたい　目、耳、キミの燃えるheart
+            [02:06.14]誰もが羨む驚異のTrackとLyricで
+            [02:10.12]魅せていくからRetakeはしないで
+            [02:13.99]
+            [02:14.00]だからこのまま キミを連れて
+            [02:18.93]望むなら　どこへでも
+            [02:22.91]＆ I Wanna　無いものねだるなら決行 決行
+            [02:30.82]
+            [02:30.83]早く夜よ明けて 朝焼けに誓え
+            [02:36.83]重い想い、 熱量を叫べ
+            [02:40.30]この声を聴け　音・音・音に、踊り狂え
+            [02:47.50]
+            [02:47.51]I want more.
+            [02:51.98]“Are you Ready？”
+            [02:56.13]
+            [02:56.14]ならこのまま キミを連れて
+            [03:00.81]望むなら　どこへでも
+            [03:05.89]＆ I Wanna　欲しがってばかりで結構 結構
+            [03:12.83]もし叶うならこの先の世界を知りたい　行きたい
+            [03:21.99]Ready Steady`
     },
     {
         chapter: 4,
@@ -2487,57 +2491,57 @@ const tracks = [
         date: 'APR 2026', ytId: 'SJcgOWsDwi4', start: 0,
         ig: '',
         lyrics: `
-                    [00:01.65]息つまるばかりで 温ぬるい退屈な夜道で
-                    [00:07.83](mellow mellow mellow)
-                    [00:09.31]ルールは無視で行きたいね
-                    [00:14.80]So burn my burn my heart
-                    [00:16.98]
-                    [00:17.18](uh...) 悟られそう (uh...) 可か不可 Get down now
-                    [00:24.71](uh...) あーあ もうきっと優等ぶった
-                    [00:30.16]'I'じゃ居られないくらい どうしようもない
-                    [00:32.54]
-                    [00:32.72]yuh 無理目のクエスチョン ha 実存？ フィクション？
-                    [00:36.53]You make me サゲなの何で？ I know the way
-                    [00:39.88]願ってるばっかじゃ叶わない めちゃくちゃにされたって変わらない
-                    [00:43.59]まあね 喰らえ 覚醒 Find the way
-                    [00:46.89]
-                    [00:47.71]待ってライトあびる感覚 甘い罠
-                    [00:51.14]見当違い disも聞き飽きたわ
-                    [00:55.07]そりゃねいけるところまで Take me higher
-                    [00:58.84]どう？ Turning back 無理ってとっくに分かってんでしょ
-                    [01:02.83]
-                    [01:02.86](uh...) 悟られそう (uh...) 可か不可 Get down now
-                    [01:10.63](uh...) あーあ もうずっとしゃんと居られないや
-                    [01:16.27]それは誰のせい？
-                    [01:18.27]
-                    [01:18.41]終わらない夢を描こう描いて
-                    [01:21.87]願ったまま欲しがったその先へ
-                    [01:26.10]終わらない夜を超えていこう 超えていこう
-                    [01:29.41]このまま 焦がれた向こう側へ
-                    [01:33.88]
-                    [01:35.62]はあぶっちゃけ解せないや 勝算なくても行っちゃえ！ とか
-                    [01:39.55]運命感じる感受性は否めない ウチら負けない
-                    [01:43.28]跳べ 吠え 目で追って いつでもNO.1
-                    [01:46.77]そこどけ 速攻揺らせ 攻め 甘美な時 Ride on now
-                    [01:51.65]
-                    [01:54.44]Shake it up まだまだ Go beyond the way yuh
-                    [01:58.67]
-                    [01:59.33]行き詰まるばかりで ずるい言葉を探して
-                    [02:05.25](mellow mellow mellow)
-                    [02:06.58]I am me 研ぎ澄まし 本能に従って 行け
-                    [02:12.18]Holla "We are the winners!"
-                    [02:13.92]So burn my burn my heart
-                    [02:14.92]
-                    [02:23.62]終わらない夢を描こう描いて
-                    [02:27.81]願ったまま欲しがったその先へ
-                    [02:32.13]終わらない夜を超えていこう 超えていこう
-                    [02:35.40]このまま 焦がれた向こう側へ
-                    [02:39.30]
-                    [02:39.90](uh...) 張り裂けそう 追いかけて合わせた 背が熱くて
-                    [02:48.47](uh...) 張り裂けそう もう一生鳴り止まない
-                    [02:52.60]限界の向こう側へ
-                    [02:54.71]
-                    [02:55.27]Ready Steady? Get out the way.
+            [00:01.65]息つまるばかりで 温ぬるい退屈な夜道で
+            [00:07.83](mellow mellow mellow)
+            [00:09.31]ルールは無視で行きたいね
+            [00:14.80]So burn my burn my heart
+            [00:16.98]
+            [00:17.18](uh...) 悟られそう (uh...) 可か不可 Get down now
+            [00:24.71](uh...) あーあ もうきっと優等ぶった
+            [00:30.16]'I'じゃ居られないくらい どうしようもない
+            [00:32.54]
+            [00:32.72]yuh 無理目のクエスチョン ha 実存？ フィクション？
+            [00:36.53]You make me サゲなの何で？ I know the way
+            [00:39.88]願ってるばっかじゃ叶わない めちゃくちゃにされたって変わらない
+            [00:43.59]まあね 喰らえ 覚醒 Find the way
+            [00:46.89]
+            [00:47.71]待ってライトあびる感覚 甘い罠
+            [00:51.14]見当違い disも聞き飽きたわ
+            [00:55.07]そりゃねいけるところまで Take me higher
+            [00:58.84]どう？ Turning back 無理ってとっくに分かってんでしょ
+            [01:02.83]
+            [01:02.86](uh...) 悟られそう (uh...) 可か不可 Get down now
+            [01:10.63](uh...) あーあ もうずっとしゃんと居られないや
+            [01:16.27]それは誰のせい？
+            [01:18.27]
+            [01:18.41]終わらない夢を描こう描いて
+            [01:21.87]願ったまま欲しがったその先へ
+            [01:26.10]終わらない夜を超えていこう 超えていこう
+            [01:29.41]このまま 焦がれた向こう側へ
+            [01:33.88]
+            [01:35.62]はあぶっちゃけ解せないや 勝算なくても行っちゃえ！ とか
+            [01:39.55]運命感じる感受性は否めない ウチら負けない
+            [01:43.28]跳べ 吠え 目で追って いつでもNO.1
+            [01:46.77]そこどけ 速攻揺らせ 攻め 甘美な時 Ride on now
+            [01:51.65]
+            [01:54.44]Shake it up まだまだ Go beyond the way yuh
+            [01:58.67]
+            [01:59.33]行き詰まるばかりで ずるい言葉を探して
+            [02:05.25](mellow mellow mellow)
+            [02:06.58]I am me 研ぎ澄まし 本能に従って 行け
+            [02:12.18]Holla "We are the winners!"
+            [02:13.92]So burn my burn my heart
+            [02:14.92]
+            [02:23.62]終わらない夢を描こう描いて
+            [02:27.81]願ったまま欲しがったその先へ
+            [02:32.13]終わらない夜を超えていこう 超えていこう
+            [02:35.40]このまま 焦がれた向こう側へ
+            [02:39.30]
+            [02:39.90](uh...) 張り裂けそう 追いかけて合わせた 背が熱くて
+            [02:48.47](uh...) 張り裂けそう もう一生鳴り止まない
+            [02:52.60]限界の向こう側へ
+            [02:54.71]
+            [02:55.27]Ready Steady? Get out the way.
 `
     },
     {
@@ -2547,60 +2551,60 @@ const tracks = [
         date: 'JUN 2026', ytId: 'P7ueDJG9IO4', start: 0,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTE5NDk0MzU3NzUyODk0?story_media_id=3922679128558534096_63008808258&igsh=MWFhNTVpN2hzZmRjMw==',
         lyrics: `
-                    [00:11.04]眠れない夜
-                    [00:12.03]僕らは初めて繋がり合った気がした
-                    [00:16.08]どうしようもない
-                    [00:17.36]そんな日々を抱える僕らはどこか似ていた
-                    [00:21.16]
-                    [00:21.50]量産される音楽と命が
-                    [00:24.51]重なりあっても
-                    [00:25.75]時既に遅くて
-                    [00:27.13]不確かな音や言葉や数字に苛まれる
-                    [00:30.59]世界は傷だらけ
-                    [00:31.52]
-                    [00:31.67]誰だって
-                    [00:33.11]言葉にできない痛みを抱えてる
-                    [00:37.11]僕だって
-                    [00:38.31]痛い程知ってるよそんなこと
-                    [00:41.86]
-                    [00:42.11]だから
-                    [00:43.48]この歌は僕と君の
-                    [00:47.21]息を繋ぐため歌うアリア
-                    [00:53.45]
-                    [01:14.15]僕らいつの時代も
-                    [01:16.95]サヨナラに怯えて
-                    [01:19.21]命を持て余している
-                    [01:22.25]知る由もないのに
-                    [01:24.62]
-                    [01:25.03]僕らいつの未来も
-                    [01:27.59]普通を恐れて
-                    [01:29.79]天才に成りたがる
-                    [01:32.44]成る意味もないのに
-                    [01:36.32]
-                    [01:46.80]忘れられないんだ
-                    [01:49.52]淘汰された表情
-                    [01:51.94]それは嬉しい方じゃない
-                    [01:55.30]悲しい方の
-                    [01:57.06]
-                    [01:57.44]子どもの頃は
-                    [01:59.81]誰かを救いたいと
-                    [02:01.92]夢を綴ったはずなのに
-                    [02:07.94]
-                    [02:07.94]僕達は、最期を求めて生まれてきたんだ
-                    [02:13.22]今春もこの夏も死にがいを探している
-                    [02:18.45]この世界を作った神様に
-                    [02:23.91]バレない場所でこの歌を
-                    [02:28.79]歌わせて
-                    [02:30.29]
-                    [03:01.94]僕らいつの時代も
-                    [03:04.52]平和を保つため
-                    [03:06.89]兵器を買い安堵している
-                    [03:10.03]必要もないのに
-                    [03:11.88]
-                    [03:12.51]僕らいつの終いも
-                    [03:15.22]失くして気づいて
-                    [03:17.37]初めて大切にされる
-                    [03:20.07]それじゃもう遅いのに
+            [00:11.04]眠れない夜
+            [00:12.03]僕らは初めて繋がり合った気がした
+            [00:16.08]どうしようもない
+            [00:17.36]そんな日々を抱える僕らはどこか似ていた
+            [00:21.16]
+            [00:21.50]量産される音楽と命が
+            [00:24.51]重なりあっても
+            [00:25.75]時既に遅くて
+            [00:27.13]不確かな音や言葉や数字に苛まれる
+            [00:30.59]世界は傷だらけ
+            [00:31.52]
+            [00:31.67]誰だって
+            [00:33.11]言葉にできない痛みを抱えてる
+            [00:37.11]僕だって
+            [00:38.31]痛い程知ってるよそんなこと
+            [00:41.86]
+            [00:42.11]だから
+            [00:43.48]この歌は僕と君の
+            [00:47.21]息を繋ぐため歌うアリア
+            [00:53.45]
+            [01:14.15]僕らいつの時代も
+            [01:16.95]サヨナラに怯えて
+            [01:19.21]命を持て余している
+            [01:22.25]知る由もないのに
+            [01:24.62]
+            [01:25.03]僕らいつの未来も
+            [01:27.59]普通を恐れて
+            [01:29.79]天才に成りたがる
+            [01:32.44]成る意味もないのに
+            [01:36.32]
+            [01:46.80]忘れられないんだ
+            [01:49.52]淘汰された表情
+            [01:51.94]それは嬉しい方じゃない
+            [01:55.30]悲しい方の
+            [01:57.06]
+            [01:57.44]子どもの頃は
+            [01:59.81]誰かを救いたいと
+            [02:01.92]夢を綴ったはずなのに
+            [02:07.94]
+            [02:07.94]僕達は、最期を求めて生まれてきたんだ
+            [02:13.22]今春もこの夏も死にがいを探している
+            [02:18.45]この世界を作った神様に
+            [02:23.91]バレない場所でこの歌を
+            [02:28.79]歌わせて
+            [02:30.29]
+            [03:01.94]僕らいつの時代も
+            [03:04.52]平和を保つため
+            [03:06.89]兵器を買い安堵している
+            [03:10.03]必要もないのに
+            [03:11.88]
+            [03:12.51]僕らいつの終いも
+            [03:15.22]失くして気づいて
+            [03:17.37]初めて大切にされる
+            [03:20.07]それじゃもう遅いのに
 `
     },
     {
