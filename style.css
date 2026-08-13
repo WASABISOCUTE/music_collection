@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'HYQiHei';
+    src: url('HYQiHei.ttf') format('truetype');
+}
+
 :root {
-    --bg-base: #050505;
+    --bg-base: black;
     --text-main: white;
     --text-muted: rgba(255, 255, 255, 0.6);
     --accent: white;
@@ -14,7 +19,7 @@
 }
 
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'HYQiHei', sans-serif;
     background-color: var(--bg-base);
     color: var(--text-main);
     overflow-x: hidden;
@@ -61,7 +66,7 @@ header {
 }
 
 .logo {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'HYQiHei', sans-serif;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -95,7 +100,7 @@ main {
 }
 
 .chapter-title {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'HYQiHei', sans-serif;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 12px;
