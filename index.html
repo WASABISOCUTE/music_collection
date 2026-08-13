@@ -236,13 +236,21 @@
         // Controls （overlay)
         function updateMarquee(element) {
             if (!element) return;
+
+            const text = element.textContent.trim();
             element.classList.remove('marquee');
             element.style.removeProperty('--marquee-distance');
+            element.innerHTML = '';
 
-            // Wait for the text to render, then enable the marquee only if it overflows.
+            const textSpan = document.createElement('span');
+            textSpan.className = 'marquee-text';
+            textSpan.textContent = text;
+            element.appendChild(textSpan);
+
+            // Wait for layout, then enable the marquee only when the text overflows.
             requestAnimationFrame(() => {
-                if (element.scrollWidth > element.clientWidth + 1) {
-                    const distance = element.clientWidth - element.scrollWidth;
+                if (textSpan.scrollWidth > element.clientWidth + 1) {
+                    const distance = element.clientWidth - textSpan.scrollWidth;
                     element.style.setProperty('--marquee-distance', `${distance}px`);
                     element.classList.add('marquee');
                 }
@@ -480,6 +488,10 @@
                 player.seekTo(seekTo, true);
             }
         }
+
+        window.addEventListener('resize', () => {
+            updateNowPlayingMarquees();
+        });
     </script>
 </body>
 
