@@ -234,6 +234,26 @@
         }
 
         // Controls （overlay)
+        function updateMarquee(element) {
+            if (!element) return;
+            element.classList.remove('marquee');
+            element.style.removeProperty('--marquee-distance');
+
+            // Wait for the text to render, then enable the marquee only if it overflows.
+            requestAnimationFrame(() => {
+                if (element.scrollWidth > element.clientWidth + 1) {
+                    const distance = element.clientWidth - element.scrollWidth;
+                    element.style.setProperty('--marquee-distance', `${distance}px`);
+                    element.classList.add('marquee');
+                }
+            });
+        }
+
+        function updateNowPlayingMarquees() {
+            updateMarquee(document.getElementById('np-title'));
+            updateMarquee(document.getElementById('np-artist'));
+        }
+
         function openPlayer(trackId, keepHidden = false) {
             clearTimeout(playerTimeout);
             const toast = document.getElementById('np-toast');
@@ -259,6 +279,7 @@
 
             document.getElementById('np-title').innerText = track.title;
             document.getElementById('np-artist').innerText = track.artist;
+            updateNowPlayingMarquees();
             document.getElementById('menu-title').innerText = track.title;
             document.getElementById('menu-artist').innerText = track.artist;
             const infoText = [track.context, track.desc].filter(Boolean).join(' • ');

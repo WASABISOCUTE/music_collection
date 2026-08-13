@@ -350,11 +350,29 @@ main {
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 8px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .np-artist {
     font-size: 20px;
     color: var(--text-muted);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.np-title.marquee,
+.np-artist.marquee {
+    display: block;
+    text-overflow: clip;
+    animation: np-marquee-left 8s linear infinite;
+}
+
+@keyframes np-marquee-left {
+    0%, 15% { transform: translateX(0); }
+    85%, 100% { transform: translateX(var(--marquee-distance)); }
 }
 
 .np-options-wrapper {
