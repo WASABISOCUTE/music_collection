@@ -214,11 +214,31 @@ main {
     padding-top: 12px;
 }
 
+.track-meta-left {
+    flex: 1;
+    min-width: 0;
+    margin-right: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.track-date {
+    flex-shrink: 0;
+}
+
 .badge {
     background: rgba(255, 255, 255, 0.1);
     padding: 4px 8px;
     border-radius: 4px;
     font-weight: 600;
+    display: inline-flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+.badge-text {
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .locked-grid {
@@ -322,6 +342,7 @@ main {
     flex-direction: column;
     gap: 30px;
     min-height: 0;
+    min-width: 0;
 }
 
 .video-container {
@@ -344,6 +365,12 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 20px;
+}
+
+.np-track-details>div:first-child {
+    flex: 1;
+    min-width: 0;
 }
 
 .np-title {
@@ -363,16 +390,35 @@ main {
     overflow: hidden;
 }
 
-.np-title.marquee,
-.np-artist.marquee {
-    display: block;
-    text-overflow: clip;
-    animation: np-marquee-left 8s linear infinite;
+.marquee-text {
+    display: inline-block;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.marquee .marquee-content {
+    animation: np-marquee-left var(--marquee-duration, 8s) linear infinite;
+}
+
+.marquee {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    text-overflow: clip !important;
 }
 
 @keyframes np-marquee-left {
-    0%, 15% { transform: translateX(0); }
-    85%, 100% { transform: translateX(var(--marquee-distance)); }
+
+    0%,
+    15% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(var(--marquee-distance));
+    }
 }
 
 .np-options-wrapper {
@@ -712,10 +758,11 @@ main {
     padding: 12px 20px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 7px;
     z-index: 9000;
     cursor: pointer;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 375px;
     transform: translateY(150%);
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -739,16 +786,22 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    flex: 1;
+    min-width: 0;
 }
 
 .np-toast-title {
     font-size: 14px;
     font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .np-toast-artist {
     font-size: 12px;
     color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .np-toast-icon {
@@ -762,7 +815,6 @@ main {
     align-items: center;
     gap: 12px;
     margin-left: auto;
-    padding-left: 16px;
 }
 
 .toast-btn {

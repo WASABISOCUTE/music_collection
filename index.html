@@ -54,8 +54,8 @@
     <div class="np-toast" id="np-toast" onclick="openPlayer(currentTrackId)">
         <img src="" class="np-toast-cover" id="toast-cover" alt="Cover">
         <div class="np-toast-info">
-            <div class="np-toast-title" id="toast-title">Title</div>
-            <div class="np-toast-artist" id="toast-artist">Artist</div>
+            <div class="np-toast-title marquee-target" id="toast-title">Title</div>
+            <div class="np-toast-artist marquee-target" id="toast-artist">Artist</div>
         </div>
         <div class="np-toast-controls" onclick="event.stopPropagation()">
             <button class="toast-btn" onclick="playPrevious(true)"><i class="fa-solid fa-backward-step"></i></button>
@@ -137,7 +137,7 @@
                 if (!targetGrid) return;
 
                 const coverUrl = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
-                const badgeHTML = track.context ? `<span class="badge">${track.context}</span>` : '';
+                const badgeHTML = track.context ? `<span class="badge"><span class="badge-text marquee-target">${track.context}</span></span>` : '';
                 const dateHTML = track.date ? `<span>${track.date}</span>` : '';
 
                 const cardHTML = `
@@ -147,11 +147,15 @@
                             <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
                         </div>
                         <div class="track-info">
-                            <div class="track-title">${track.title}</div>
-                            <div class="track-artist">${track.artist}</div>
+                            <div class="track-title marquee-target">${track.title}</div>
+                            <div class="track-artist marquee-target">${track.artist}</div>
                             <div class="track-meta">
-                                ${badgeHTML}
-                                ${dateHTML}
+                                <div class="track-meta-left">
+                                    ${badgeHTML}
+                                </div>
+                                <div class="track-date">
+                                    ${dateHTML}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -160,6 +164,12 @@
             });
         }
         renderGrid();
+        
+        function updateAllGridMarquees() {
+            document.querySelectorAll('.marquee-target').forEach(updateMarquee);
+        }
+        // Initialize marquees for the grid after a short delay to ensure layout is complete
+        setTimeout(updateAllGridMarquees, 100);
         //MV Player
         let player;
         let isPlayerReady = false;
@@ -237,21 +247,49 @@
         function updateMarquee(element) {
             if (!element) return;
 
-            const text = element.textContent.trim();
+            if (!element.hasAttribute('data-original-html')) {
+                element.setAttribute('data-original-html', element.innerHTML.trim());
+            }
+            const contentHtml = element.getAttribute('data-original-html');
+            
             element.classList.remove('marquee');
             element.style.removeProperty('--marquee-distance');
+            element.style.removeProperty('--marquee-duration');
             element.innerHTML = '';
 
+            const content = document.createElement('div');
+            content.className = 'marquee-content';
+            
             const textSpan = document.createElement('span');
             textSpan.className = 'marquee-text';
-            textSpan.textContent = text;
-            element.appendChild(textSpan);
+            textSpan.innerHTML = contentHtml;
+            content.appendChild(textSpan);
+            
+            element.appendChild(content);
 
             // Wait for layout, then enable the marquee only when the text overflows.
             requestAnimationFrame(() => {
                 if (textSpan.scrollWidth > element.clientWidth + 1) {
-                    const distance = element.clientWidth - textSpan.scrollWidth;
-                    element.style.setProperty('--marquee-distance', `${distance}px`);
+                    const spacer = document.createElement('span');
+                    spacer.className = 'marquee-spacer';
+                    spacer.style.display = 'inline-block';
+                    spacer.style.width = '40px';
+                    content.appendChild(spacer);
+                    
+                    const textSpan2 = document.createElement('span');
+                    textSpan2.className = 'marquee-text';
+                    textSpan2.innerHTML = contentHtml;
+                    content.appendChild(textSpan2);
+                    
+                    // The distance is exactly the width of one text item plus the gap
+                    const distance = textSpan.offsetWidth + spacer.offsetWidth;
+                    
+                    // Calculate duration based on a slow speed (e.g., 40px per second)
+                    const speed = 40; 
+                    const duration = distance / speed + 2; // Add 2 seconds to account for the pause at start
+                    
+                    element.style.setProperty('--marquee-distance', `-${distance}px`);
+                    element.style.setProperty('--marquee-duration', `${duration}s`);
                     element.classList.add('marquee');
                 }
             });
@@ -276,8 +314,17 @@
                 document.body.style.overflow = 'hidden';
             } else {
                 if (toast) {
-                    document.getElementById('toast-title').innerText = track.title;
-                    document.getElementById('toast-artist').innerText = track.artist;
+                    const toastTitle = document.getElementById('toast-title');
+                    toastTitle.setAttribute('data-original-text', track.title);
+                    toastTitle.innerText = track.title;
+                    
+                    const toastArtist = document.getElementById('toast-artist');
+                    toastArtist.setAttribute('data-original-text', track.artist);
+                    toastArtist.innerText = track.artist;
+                    
+                    updateMarquee(toastTitle);
+                    updateMarquee(toastArtist);
+                    
                     document.getElementById('toast-cover').src = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
                 }
             }
@@ -285,8 +332,14 @@
             const coverUrl = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
             document.getElementById('np-bg').style.backgroundImage = `url(${coverUrl})`;
 
-            document.getElementById('np-title').innerText = track.title;
-            document.getElementById('np-artist').innerText = track.artist;
+            const npTitle = document.getElementById('np-title');
+            npTitle.setAttribute('data-original-text', track.title);
+            npTitle.innerText = track.title;
+            
+            const npArtist = document.getElementById('np-artist');
+            npArtist.setAttribute('data-original-text', track.artist);
+            npArtist.innerText = track.artist;
+            
             updateNowPlayingMarquees();
             document.getElementById('menu-title').innerText = track.title;
             document.getElementById('menu-artist').innerText = track.artist;
@@ -371,8 +424,17 @@
 
             if (currentTrackId !== undefined && isPlayerReady) {
                 const track = tracks[currentTrackId];
-                document.getElementById('toast-title').innerText = track.title;
-                document.getElementById('toast-artist').innerText = track.artist;
+                const toastTitle = document.getElementById('toast-title');
+                toastTitle.setAttribute('data-original-text', track.title);
+                toastTitle.innerText = track.title;
+                
+                const toastArtist = document.getElementById('toast-artist');
+                toastArtist.setAttribute('data-original-text', track.artist);
+                toastArtist.innerText = track.artist;
+                
+                updateMarquee(toastTitle);
+                updateMarquee(toastArtist);
+                
                 document.getElementById('toast-cover').src = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
 
                 document.getElementById('np-toast').classList.add('active');
@@ -491,6 +553,7 @@
 
         window.addEventListener('resize', () => {
             updateNowPlayingMarquees();
+            updateAllGridMarquees();
         });
     </script>
 </body>
