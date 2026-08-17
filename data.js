@@ -1603,7 +1603,7 @@ const tracks = [
         chapter: 3,
         title: 'ハローセカイ', artist: 'DECO*27',
         context: 'WASABISOCUTE Theme', desc: '',
-        date: 'JUN 2025', ytId: 't5U0rrj0dio', start: 0,
+        date: 'JUN 2025', ytId: 'lBTwitkjMd4', start: 0,
         ig: 'https://www.instagram.com/reel/DZAkwnehpYn/',
         lyrics: `
             [00:01.602] きっと届くはず　きっと見えるはず
@@ -1641,7 +1641,7 @@ const tracks = [
         chapter: 3,
         title: 'D/N/A', artist: '25時、ナイトコードで。',
         context: '', desc: '',
-        date: 'JUN 2025', ytId: 'RyRfLSOewbU', start: 0,
+        date: 'JUN 2025', ytId: 'qYCs_I8VQdM', start: 0,
         ig: 'https://www.instagram.com/reel/DKgaRGWx-Ct',
         lyrics: `
             [00:13.91] 小石を高く高く 積み上げては
