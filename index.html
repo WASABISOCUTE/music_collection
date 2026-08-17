@@ -93,7 +93,7 @@
                             <div class="menu-info-item" id="menu-info">Info</div>
                             <div class="menu-info-item" id="menu-date">Date</div>
                             <a href="#" target="_blank" class="menu-ig-link" id="menu-ig">
-                                <i class="fa-brands fa-instagram"></i> IG Story
+                                <i class="fa-brands fa-instagram"></i> Source
                             </a>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                 const cardHTML = `
                     <div class="track-card" onclick="openPlayer(${index})">
                         <div class="track-cover-wrapper">
-                            <img src="${coverUrl}" class="track-cover" alt="Cover">
+                            <img src="${coverUrl}" class="track-cover">
                             <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
                         </div>
                         <div class="track-info">
@@ -215,9 +215,6 @@
                 const toastBtn = document.getElementById('toast-play-pause-btn');
                 if (toastBtn) toastBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
                 playBtn.classList.add('is-playing');
-                visualizer.querySelectorAll('.bar').forEach(bar => {
-                    bar.style.height = '';
-                });
                 visualizer.classList.add('playing');
                 startProgressTracker();
             } else {
@@ -474,7 +471,6 @@
             if (isPlayerReady) player.pauseVideo();
         }
 
-        // Progress Bar
         function formatTime(seconds) {
             if (!seconds || isNaN(seconds)) return "0:00";
             const m = Math.floor(seconds / 60);
@@ -496,7 +492,6 @@
                         document.getElementById('progress-fill').style.width = pct + '%';
                     }
 
-                    // Lyrics
                     const lyrics = document.querySelectorAll('.lyric-line[data-time]');
                     if (lyrics.length > 0) {
                         let activeIndex = -1;
