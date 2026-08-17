@@ -796,6 +796,12 @@ const tracks = [
     },
     {
         chapter: 1,
+        title: 'Duel in the mist', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: 'Inazuma Battle Theme',
+        date: '2023', ytId: 'D48UG9WiTNk', start: 0,
+    },
+    {
+        chapter: 1,
         title: 'Le spectacle doit continuer', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: 'Opera Epiclese',
         date: 'NOV 2023', ytId: 'w1d7_SE0PzY', start: 0,
@@ -806,30 +812,24 @@ const tracks = [
         context: 'Game - Minecraft', desc: 'Music Disc - otherside',
         date: '', ytId: 'kK81m-A3qpU', start: 0,
     },
-    // Chapter 2
     {
-        chapter: 2,
-        title: 'Duel in the mist', artist: 'HOYO-MiX',
-        context: 'Game - Genshin Impact', desc: 'Inazuma Battle Theme',
-        date: '2024', ytId: 'D48UG9WiTNk', start: 0,
+        chapter: 1,
+        title: 'Inevitable Conflict', artist: 'HOYO-MiX',
+        context: '', desc: '',
+        date: '2023', ytId: 'ZuV38DZQgvM', start: 0,
     },
+    {
+        chapter: 1,
+        title: 'For Riddles, for Wonders', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: '2023', ytId: 'p2QSNcAJLTI', start: 0,
+    },
+    // Chapter 2
     {
         chapter: 2,
         title: 'Combat Beneath the Waves', artist: 'HOYO-MiX',
         context: '', desc: '',
         date: '', ytId: 'UEVEmUWsfD0', start: 0,
-    },
-    {
-        chapter: 2,
-        title: 'Inevitable Conflict', artist: 'HOYO-MiX',
-        context: '', desc: '',
-        date: '2024', ytId: 'ZuV38DZQgvM', start: 0,
-    },
-    {
-        chapter: 2,
-        title: 'For Riddles, for Wonders', artist: 'HOYO-MiX',
-        context: 'Game - Genshin Impact', desc: '',
-        date: '2024', ytId: 'p2QSNcAJLTI', start: 0,
     },
     {
         chapter: 2,
