@@ -1803,6 +1803,55 @@ const tracks = [
     },
     {
         chapter: 3,
+        title: 'Nod-Krai', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: 'Nod-Krai Theme',
+        date: 'AUG 2025', ytId: 'RuXa_yxZMGI', start: 0,
+        lyrics: `
+            [00:01.000]A luna, cara cantica
+            [00:06.950]Ne me in atra dedas
+            [00:13.240]Aves, ex urbe aurea
+            [00:19.580]Ferte indicia mea
+            [00:27.570]Aves, ferte cantam cara
+            [00:33.640]Ut lugeam et fata mala
+[00:40.160]Num in immundorum terra
+[00:46.370]Clavus ille adhuc claudit pia
+[00:54.000]
+[00:58.050]Quando tandem carebimus tanta miseria?
+[01:02.830]Quom patria vastata nunc iacet sub urticis?
+[01:06.950]Ubi es, benigna domina
+[01:09.300]Cur non mittis lucem almam tuam?
+[01:11.580]Ecce, terra infelix atra
+[01:13.850]Veritas contra falsa nequit
+[01:16.270]Luna domina, quo adduces?
+[01:18.560]Pergemus quocumque adduces
+[01:20.890]Potius nox tegat lumina
+[01:23.170]Quam in falsa luce esse
+[01:26.000]
+[02:21.670]Carmen triste nos non canimus
+[02:23.870]Etsi flentes pro nostrorum malo
+[02:26.090]Sed non lacrima tollit dura
+[02:28.440]Patria somno non potest reddi
+[02:30.790]Illa vincta fuit pressa
+[02:33.110]Tecta aurea voravit flamma
+[02:35.390]Sed renascetur rursum
+[02:37.790]Redibit nos larem ducet 
+[02:41.000]
+[02:52.550](Cur) aerumnosae?
+[02:56.820](Cui) aerumnosae?
+[03:01.060]Cur lacrimosae?
+[03:04.490]Cui lacrimosae?
+[03:07.940]Luna, claras terras lustra (Assurge, o luna, etsi tantum manent dura)
+[03:12.320]Sicut aves per umbras vola (Corda nostra premunt obscura, pudorque manet)
+[03:16.930]Et unda vasta foeda purga (Sed luna ascendet, nec corda peribunt una)
+[03:21.410]Pro turba fida, spem crastinam serva (Audies fremitus undae, postea venient gaudia)
+[03:28.690]A luna nova, surgat luna pura casta
+[03:37.820]Fugio aerumnam, tecum nulla fleta
+[03:50.000]
+[04:06.150]Sub luna rursus fiet clara terra
+[04:11.000]`,
+    },
+    {
+        chapter: 3,
         title: '目撃！テト31世', artist: 'はろける · HALLO CEL',
         context: '', desc: '',
         date: 'OCT 2025', ytId: 'uWMr16O_Aso', start: 0,
@@ -2127,6 +2176,48 @@ const tracks = [
     },
     {
         chapter: 3,
+        title: 'Polar Star', artist: 'MORE MORE JUMP！',
+        context: '', desc: '',
+        date: 'DEC 2025', ytId: 'eMb63NYcAL8', start: 0,
+        lyrics: `[00:01.19](Polar Star)
+
+[00:06.81]いつの間にか失くしたコンパス 滲んだ夜空に
+[00:12.43]あてもないまま続いたコウカイ 流されるままで
+[00:17.37]いつだって　間違って 泣いたって　消えなくて
+[00:22.60]口ずさんでた救難信号 懐かしい歌
+
+[00:28.43]Polar Star それでもずっとずっとずっと消えない星(スター)
+[00:33.74]Polar Star 見上げればいつもいつもいつも側で瞬く
+[00:38.48]不安も呪詛も　飲み込んで ただ真っすぐにきらめいた
+[00:45.49]あの星のように今
+
+[00:49.84]夜を裂いて輝いて 響け響け　遥か彼方の君へ
+[00:55.46](MORE MORE MORE MORE JUMP) この声が届くように
+[01:00.56]空はあいにく流星群 光れ光れ　眩い雨の中で
+[01:05.94](MORE MORE MORE MORE JUMP) どこにいたってわかるように
+
+[01:11.30]Polar Star 私を見つけて 私を見ていて もう迷わないように
+[01:24.69]
+[01:37.98]凪いだ水面にこぼれ落ちた 涙のように
+[01:43.12]探したって見つかりもしない 想いの欠片が
+[01:48.14]いつだって　大切で 捨てたって　消えなくて
+[01:53.15]星の海をまた進むんだ 顔を上げて
+
+[01:59.62]Polar Star そうだよずっとずっとずっと消えない星(スター)
+[02:04.77]Polar Star 見上げればいつもいつもいつも側で瞬く
+[02:09.83]願いを未来を歌うんだ ただ真っすぐに煌いた
+[02:16.47]君を連れてゆくよ いつか夢見た舞台(ステージ)へ
+
+[02:23.28]夜を裂いて輝いて 響け響け　遥か彼方の君へ
+[02:28.46](MORE MORE MORE MORE JUMP) この声が届くように
+[02:33.56]空はあいにく流星群 光れ光れ　眩い雨の中で
+[02:39.18](MORE MORE MORE MORE JUMP) どこにいたってわかるように
+
+[02:44.30]Polar Star 私を見つけて 私を見ていて もう迷わないように
+[02:56.02]輝き続けて`,
+    },
+    {
+        chapter: 3,
         title: 'VOIDS', artist: 'Pretty Patterns ft.vally.exe',
         context: 'The End of 2025', Desc: '',
         date: 'DEC 2025', ytId: 'B0uSLgW9o7E', start: 0,
@@ -2236,10 +2327,224 @@ const tracks = [
     },
     {
         chapter: 4,
+        title: 'モザイクロール (Reloaded)', artist: 'Leo/need',
+        context: '', desc: '',
+        date: 'JAN 2026', ytId: 'w0RQgG-Uiyc', start: 0,
+        lyrics: `[00:19.43]とある言葉がきみに突き刺さり
+[00:25.46]傷口から漏れ出す液を"愛"と形容してみた
+[00:35.88]
+[00:38.52]思いやりの欠如と形だけの交尾は
+[00:45.09]腐れ縁のきみとあたしによく似ている
+
+[00:51.80]それでも「好き」とか
+
+[00:55.42]愛したっていいじゃないか
+[00:58.31]縛り　誰も触れないよう
+[01:02.07]これも運命じゃないか
+[01:04.72]消える消える　とある愛世
+[01:09.51]
+[01:14.40]終わる頃にはきみに飽いてるよ
+[01:20.84]愛か欲か分からず放つことは何としようか
+[01:27.27]きみがくれた涙はあたしが飲み干すから
+[01:33.84]「弱虫でもいい」と甘い嘘をくれたら
+
+[01:40.23]逃げ出せたのかな
+[01:44.11]
+[01:57.60]「愛した」って言うのですか？
+[01:59.85]しがみついて藻掻くことを
+[02:03.81]殺したっていいじゃないか
+[02:06.46]きみが嫌うあたしなんて
+
+[02:10.20]愛したっていいじゃないか
+[02:12.87]縛り　誰も触れないよう
+[02:16.65]これも運命じゃないか
+[02:19.36]消える消える　とある愛世`,
+    },
+    {
+        chapter: 4,
+        title: '星空のメロディー', artist: 'ワンダーランズ×ショウタイム',
+        context: '', desc: '',
+        date: 'JAN 2026', ytId: '4GJhcEVGfd8', start: 0,
+        lyrics: `[00:04.26]NeverEnd NeverEnd Wow Wow
+[00:05.94]いつかの約束
+[00:08.06]NeverEnd NeverEnd Wow Wow
+[00:10.10]叶えられるから
+[00:14.21]
+[00:28.72]大切なものがあるんだ
+[00:30.82]自分の居場所はココなんだって
+[00:33.03]独りじゃ護れなかった景色も
+[00:35.41]重なる絆 希望に変えた
+
+[00:37.61]誰にも理解されなかった
+[00:39.70]それでもいいと思っていた
+[00:41.75]情熱に触れて溶けてゆく孤独
+[00:43.93]どこまでも続く煌めきを胸に
+
+[00:46.09]ねぇ 想うほどにセカイは色を讃えて
+[00:54.01]誰かを笑顔にできるんだってことを
+[00:56.76]気づかせてくれたんだ
+
+[01:02.15]星に願いをかけて
+[01:06.62]魔法のような明日を
+[01:10.30]憧れも涙にも
+[01:14.57]光がほら宿ってる
+
+[01:18.95]星を見つけるほどに
+[01:23.52]暗闇を照らした
+[01:27.32]解けない繋がりをメロディーにして
+[01:33.54]夢を満たしてゆこう
+[01:39.22]
+[01:45.50]大切なものがあるんだ
+[01:47.42]こんなにも希望に満ちてるって
+[01:49.72]輝くように紡いだ軌跡は
+[01:52.15]いつしか夢に変わってゆく
+
+[01:54.34]誰にも伝えられなかった
+[01:56.43]できなかったことを数えた
+[01:58.57]情熱が照らす未来の足跡
+[02:00.71]もう一度歌声を届けたい
+
+[02:02.82]ねぇ 想うほどにセカイは色を讃えて
+[02:10.76]胸の奥 諦めてしまったものに
+[02:13.93]もう一度 息吹を与えてくれたんだ
+
+[02:19.03]星が瞬くほどに
+[02:23.60]手を伸ばしてしまう
+[02:27.30]追いかけて 遠のいて
+[02:31.43]それでもまた魅せられる
+
+[02:35.99]星が見えない夜は
+[02:40.59]暗闇に寄り添う
+[02:44.21]もう一人の寂しがりやな自分も
+[02:50.62]抱きしめてあげよう
+
+[02:55.80]小さなかがり火でも
+[03:02.24]見つめる瞳に映るものは…
+
+[03:10.00]星に願いをかけて
+[03:14.60]魔法のような明日を
+[03:18.23]憧れも涙にも
+[03:22.45]光がほら宿ってる
+
+[03:27.15]星を見つけるほどに
+[03:31.41]暗闇を照らした
+[03:35.24]解けない繋がりをメロディーにして
+[03:41.50]夢を満たしてゆこう
+
+[03:45.29]NeverEnd NeverEnd Wow Wow
+[03:47.24]いつかの約束
+[03:49.23]NeverEnd NeverEnd Wow Wow
+[03:51.40]叶えられるから`,
+    },
+    {
+        chapter: 4,
         title: 'スーパーヒーロー', artist: 'MORE MORE JUMP！',
         context: '', desc: '',
         date: 'JAN 2026', ytId: 'I9ruCukmnO4', start: 0,
+        lyrics: `[00:17.18]王様になってみたい　光り輝く指輪をつけたい
+[00:20.31]兵隊になってみたい　何かを本気で守ってみたい
+[00:23.55]スーパーヒーローになってみたい　命を懸けても悪に挑みたい
+[00:27.23]そんなことを妄想してる　僕だけには断じてなりたくない
+[00:30.89]
+[00:31.31]神様になってみたい　すべての人の視線を向けたい
+[00:34.72]天才になってみたい　みんなの記憶に残ってみたい
+[00:38.04]スーパーヒーローになってみたい　命を懸けても悪に挑みたい
+[00:41.77]そんなことを妄想してる　君だけには断じてなりたくない
+[00:45.37]
+[00:45.57]君だけには断じてなりたくないのさ
+[00:47.81]
+[00:48.07]あぁ　なんて君が言うんだ
+[00:50.55]私が本当に愛していたいのは神様なんかじゃない、きっと
+[00:54.90]あぁ　そっと君が言うんだ
+[00:57.83]あなたは何を言われてもあなただ
+[01:00.07]だからこのままでいて そう笑っていた
+[01:02.38]
+[01:05.00]Hey！
+[01:08.48]Hey！
+[01:12.09]Hey！
+[01:13.06]
+[01:16.31]放浪者になってみたい　あてもない道を歩いてみたい
+[01:19.99]暗殺者になってみたい　嫌な奴みんな消してやりたい
+[01:23.28]スーパーヴィランになってみたい　命を懸けても正に挑みたい
+[01:26.90]そんなことを妄想してる　僕だけには断じてなりたくない
+[01:30.66]
+[01:31.10]神様になってみたい　すべての人の視線を向けたい
+[01:34.51]天才になってみたい　みんなの記憶に残ってみたい
+[01:37.68]スーパーヒーローになってみたい　命を懸けても悪に挑みたい
+[01:41.39]そんなことを妄想してる　君だけには断じてなりたくない
+[01:45.04]
+[01:45.22]君だけには断じてなりたくないのさ
+[01:47.37]
+[01:47.52]あぁ　なんて君が言うんだ
+[01:50.27]私が本当に愛していたいのは神様なんかじゃない、 きっと
+[01:54.50]あぁ　そっと君が言うんだ
+[01:57.58]あなたは何を言われてもあなただ
+[01:59.53]だからこのままでいて そう笑っていた
+[02:02.09]
+[02:04.62]Hey！
+[02:08.37]Hey！
+[02:11.97]Hey！`,
+    },
+    {
+        chapter: 4,
+        title: '幸福刑', artist: '25時、ナイトコードで。',
+        context: '', desc: '',
+        date: 'JAN 2026', ytId: 'pWc8oCbtGKc', start: 0,
         lyrics: ``,
+    },
+    {
+        chapter: 4,
+        title: 'Look Through the Sky', artist: '임정은',
+        context: '판사 이한영 OST', desc: '',
+        date: 'FEB 2026', ytId: 'Gdo3cYK4YKg', start: 0,
+        lyrics: `[00:02.58]Ooh, woah-oh
+[00:07.62]Ooh, woah-oh
+[00:12.63]Ooh, woah-oh
+[00:18.49]Ooh, woah-oh
+[00:21.44]
+[00:24.96]In the twilight of deceit with a broken heart
+[00:30.50]She dances with the fire
+[00:35.85]To rise from the ashes
+[00:40.54]With every step a memory departed
+[00:44.76]Oh, I've got to stop this sympathy of revenge
+[00:50.22]Can't move with my wounded heart
+
+[00:56.27]In the echoes of silence
+[00:58.60]And a tempest of fury
+[01:01.02]Don't you remember?
+[01:03.75]The silence of secrets
+
+[01:07.12]Even when the light is nowhere to be found
+[01:11.98]거짓의 파도 속에서도 난 버텨내
+[01:17.38]무너진 자리에서 다시 시작해
+[01:23.06]도망친 진실을 끝까지 찾아
+[01:28.01]Look through the sky
+
+[01:30.28]Ooh, woah-oh
+[01:34.68]Ooh, woah-oh
+
+[01:40.43]In the rhythm of revenge I confide
+[01:45.33]Like the ones lost in my dream
+[01:50.21]The scars all over me have made it this far, I survived
+[01:55.63]As wounds unhealed, become weapons revealed
+
+[02:00.57]In the echoes of silence
+[02:03.19]And a tempest of fury
+[02:05.68]Don't you remember?
+[02:08.55]The silence of secrets
+
+[02:11.64]Even when the light is nowhere to be found
+[02:16.64]거짓의 파도 속에서도 난 버텨내
+[02:22.08]무너진 자리에서 다시 시작해무너진 자리에서 다시 시작해
+[02:27.70]도망친 진실을 끝까지 찾아도망친 진실을 끝까지 찾아
+[02:32.44]Look through the sky
+
+[02:35.06]Ooh, woah-oh
+[02:38.93]Ooh, woah-oh
+[02:43.71]Look through the sky
+[02:46.04]Ooh, woah-oh
+[02:49.63]Ooh, woah-oh
+[02:54.77]Look through the sky`,
     },
     {
         chapter: 4,
@@ -2440,7 +2745,74 @@ const tracks = [
         title: '林檎売りの泡沫少女', artist: 'Leo/need',
         context: '', desc: '',
         date: 'MAR 2026', ytId: 'Ixhe_D7mIIg', start: 0,
-        lyrics: ``,
+        lyrics: `[00:19.00]遠い遠い時の果て
+[00:22.20]そこに住まう人は皆
+[00:25.44]永遠の命をもつ
+[00:28.63]世界での話
+[00:31.82]
+[00:32.64]赤い実の成る木の下
+[00:35.79]La La Lu La 生まれながらに
+[00:38.91]死の呪いがかけられた
+[00:42.11]少女の話
+[00:45.67]
+[00:53.91]色付いた街外れ　蒼く光る湖畔　赤い実のお菓子屋
+[01:02.78]ちょっぴり寒くなった今日は妙に誇らしげ　自信作を売りにゆく
+[01:10.44]待ってて　今度こそ　美味しいんだから
+[01:16.51]
+[01:19.62]時計塔の見える市　驚いた
+[01:22.15]珍しく賑やかね　La La Lu La Lucky!!
+[01:28.05]物憂げな街の隅　ひとり
+[01:30.52]赤い実のパイどうですか　自信作なの
+
+[01:35.45]そんなのひとつも売れないさ　少女を見て蔑む人達
+[01:42.66]みんなと何も変わらないのに　美味しくできたのに
+
+[01:50.14]今日も声は届かないのね
+[01:54.35]まるで透明になったみたいだわ
+[01:58.61]そうして誰もが知らぬ振りをした
+[02:02.75]何故なら少女は呪われているから
+
+[02:07.16]死んだ世界で唯ひとり生きていた少女の話
+[02:14.82]
+[02:23.04]夜なべでアレンジパイと　にっこりスマイル引っ提げ
+[02:26.77]少女はまだ諦めない
+[02:31.04]時計塔の針も空を指して　お腹も鳴るそんな時
+[02:37.04]ふと後ろから人が
+
+[02:40.46]少女を押す　甘い籠は落ちる
+[02:46.33]お菓子を踏み行く人達　平気な顔してさ
+
+[02:52.69]惨めに拾い集める
+[02:56.20]ふともうひとりの手が
+[02:59.36]どろどろのパイを徐に口に入れて　「おいしいね」
+
+[03:07.37]その声で心は溢れた
+[03:11.53]まるで輪郭を描いたみたいだわ
+[03:15.87]そうして彼は手を差し出した
+[03:20.05]何故なら少女に呪われているから
+
+[03:24.37]死んだ世界で唯ふたり生きていた遠い物語
+[03:34.24]
+[03:45.00]街の人達は哀れむ
+[03:47.87]赤い実を食べて呪われた者を
+[03:50.92]永遠に生きられずに死ぬのさ嗚呼
+[03:55.76]なんて可哀想な話
+
+[04:02.05]ふたりは笑う　それでも笑う
+[04:08.17]La La La　とっても素敵な呪いね
+[04:14.51]例え明日死んでも　『今』が確かで大切になるから
+[04:26.65]
+[04:28.43]もう声は届かないのね
+[04:32.82]まるで透明になったみたいだわ
+[04:37.15]そうして誰もが知らぬ振りをした
+[04:41.27]何故なら世界が呪われているから
+[04:45.38]
+[04:47.16]『永遠』の呪いは解かれていた
+[04:51.40]まるでふたりの方が狂ったみたいだろう
+[04:55.74]そうしていつか笑うように眠る
+[04:59.94]何故ならふたりは放たれているから
+
+[05:04.34]死んだ世界で唯ふたりだけが幸せだった`,
     },
     {
         chapter: 4,
@@ -2689,7 +3061,35 @@ const tracks = [
         title: 'Late never denied', artist: '呂喬恩',
         context: '', desc: '',
         date: 'MAY 2026', ytId: 'Z3VSXD5TVeo', start: 0,
-        lyrics: ``
+        lyrics: `[00:07.20]Late, but never denied
+[00:13.92]The proof that I didn't see
+[00:15.94]Or that I didn't hear
+[00:17.70]But they've become finally clear
+[00:21.57]The truth will never die
+[00:24.00]It will sooner or later become alive
+[00:36.19]Late, but never denied
+[00:42.83]The wind was blowing left, and it was blowing right
+[00:46.25]I turned around the truth was in the air
+[00:56.86]It's in the air
+[01:04.65]How can I decide
+[01:11.92]Eyes have got to be blind
+[01:19.07]There're still some clues someone left behind
+[01:25.43]Some black some white I can't define
+[01:33.30]I heard voices from angels
+[01:40.02]Are they lies from devils
+[01:47.14]My mind was clouded
+[01:50.28]They all made me doubtful
+[01:54.51]How to solve this puzzle
+[02:02.06]Late, but never denied
+[02:08.50]The proof that I didn't see
+[02:10.38]Or that I didn't hear
+[02:12.23]But they've become finally clear
+[02:16.13]The truth will never die
+[02:18.53]It will sooner or later become alive
+[02:30.61]Late, but never denied
+[02:37.35]The wind was blowing left, and it was blowing right
+[02:40.78]I turned around the truth was in the air
+[02:51.10]It's in the air`
     },
     {
         chapter: 4,
