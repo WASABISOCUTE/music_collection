@@ -721,6 +721,20 @@ const tracks = [
     },
     {
         chapter: 1,
+        title: '错位时空(翻唱填词)', artist: '阿泉君LIN / 鹿梔一',
+        context: '', desc: '',
+        date: 'OCT 2023', ytId: 'OKzT1lzgw5s', start: 0,
+        lyrics: ``,
+    },
+    {
+        chapter: 1,
+        title: '怪物(翻唱填词)', artist: '柑宝',
+        context: '', desc: '',
+        date: 'OCT 2023', ytId: 'j8rnWkr_dpA', start: 0,
+        lyrics: ``,
+    },
+    {
+        chapter: 1,
         title: 'Chrysalis Suspirii', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '', ytId: '51vYKjbchtU', start: 0,
