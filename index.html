@@ -342,11 +342,11 @@
             toastArtist.setAttribute('data-original-text', track.artist);
             document.getElementById('toast-cover').src = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
             if (!keepHidden) {
-                if (toast) toast.classList.add('active');
+                if (toast) toast.classList.remove('active');
                 document.getElementById('np-overlay').classList.add('active');
                 document.body.style.overflow = 'hidden';
             } else {
-                if (toast) toast.classList.remove('active');
+                if (toast) toast.classList.add('active');
             }
             const coverUrl = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
             document.getElementById('np-bg').style.backgroundImage = `url(${coverUrl})`;
