@@ -124,7 +124,11 @@
                     </button>
                     <button class="ctrl-btn" onclick="playNext()"><i class="fa-solid fa-forward-step"></i></button>
                 </div>
-                <div class="controls-spacer"></div>
+                <div class="controls-spacer">
+                    <button class="ctrl-btn" id="loop-mode-btn" onclick="toggleLoopMode()" title="Stop After Current">
+                        <i class="fa-solid fa-ban"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -172,14 +176,13 @@
         function updateAllGridMarquees() {
             document.querySelectorAll('.marquee-target').forEach(updateMarquee);
         }
-        // Initialize marquees for the grid after a short delay to ensure layout is complete
         setTimeout(updateAllGridMarquees, 100);
-        //MV Player
         let player;
         let isPlayerReady = false;
         let progressInterval;
         let currentTrackId = 0;
         let playerTimeout;
+        let loopMode = 0; // 0: Stop After Current, 1: Sequence, 2: Loop One, 3: Loop All
 
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('youtube-player', {
@@ -238,6 +241,28 @@
                 });
                 stopProgressTracker();
             }
+
+            if (event.data == YT.PlayerState.ENDED) {
+                if (loopMode === 2) {
+                    player.seekTo(tracks[currentTrackId].start || 0, true);
+                    player.playVideo();
+                } else if (loopMode === 3) {
+                    if (currentTrackId < tracks.length - 1) {
+                        playNext();
+                    } else {
+                        openPlayer(0);
+                    }
+                } else if (loopMode === 1) {
+                    // loopMode === 1 (Sequence)
+                    if (currentTrackId < tracks.length - 1) {
+                        playNext();
+                    }
+                } else if (loopMode === 0) {
+                    // loopMode === 0 (Stop After Current)
+                    // Do nothing, just let it stop
+                }
+            }
+
             try {
                 player.unloadModule("captions");
                 player.unloadModule("cc");
@@ -467,6 +492,28 @@
         function playNext(keepHidden = false) {
             if (currentTrackId < tracks.length - 1) {
                 openPlayer(currentTrackId + 1, keepHidden);
+            } else if (loopMode === 3) {
+                // If it's the last track and loop all is enabled, go to first track
+                openPlayer(0, keepHidden);
+            }
+        }
+
+        function toggleLoopMode() {
+            loopMode = (loopMode + 1) % 4;
+            const btn = document.getElementById('loop-mode-btn');
+            if (loopMode === 0) {
+                btn.innerHTML = '<i class="fa-solid fa-ban"></i>';
+                btn.title = "Stop After Current";
+            } else if (loopMode === 1) {
+                btn.innerHTML = '<i class="fa-solid fa-arrow-right"></i>';
+                btn.title = "Sequence Play";
+            } else if (loopMode === 2) {
+                // Create a loop one icon
+                btn.innerHTML = '<span style="position:relative;"><i class="fa-solid fa-repeat"></i><span style="position:absolute;font-size:0.5em;top:50%;left:50%;transform:translate(-50%,-50%);font-family:sans-serif;font-weight:bold;">1</span></span>';
+                btn.title = "Loop One";
+            } else if (loopMode === 3) {
+                btn.innerHTML = '<i class="fa-solid fa-repeat"></i>';
+                btn.title = "Loop All";
             }
         }
 
