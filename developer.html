@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Developer | WASABISOCUTE</title>
+    <link rel="icon" type="image/x-icon" href="/picture/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #08090d;
+            --panel: rgba(18, 20, 28, .82);
+            --panel-2: rgba(24, 27, 37, .92);
+            --border: rgba(255,255,255,.09);
+            --text: #f5f7fb;
+            --muted: #8f96a8;
+            --accent: #ff3b4f;
+            --accent-soft: rgba(255,59,79,.14);
+            --success: #57d69a;
+            --danger: #ff6877;
+            --shadow: 0 24px 70px rgba(0,0,0,.35);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            color: var(--text);
+            background:
+                radial-gradient(circle at 10% 0%, rgba(255,59,79,.09), transparent 28%),
+                radial-gradient(circle at 90% 20%, rgba(94,91,255,.08), transparent 25%),
+                var(--bg);
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+
+        header {
+            height: 76px;
+            padding: 0 5vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+            background: rgba(8,9,13,.72);
+            backdrop-filter: blur(18px);
+            position: sticky;
+            top: 0;
+            z-index: 20;
+        }
+
+        .logo {
+            color: white;
+            text-decoration: none;
+            font-family: "Space Grotesk", sans-serif;
+            font-weight: 700;
+            letter-spacing: .02em;
+        }
+
+        .logo i { color: var(--accent); margin-right: 9px; }
+
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        main {
+            width: min(1500px, 92vw);
+            margin: 38px auto 70px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+            align-items: flex-end;
+            margin-bottom: 28px;
+        }
+
+        .eyebrow {
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: "Space Grotesk", sans-serif;
+            font-size: clamp(32px, 5vw, 56px);
+            line-height: 1;
+        }
+
+        .hero p {
+            margin: 12px 0 0;
+            color: var(--muted);
+            max-width: 700px;
+        }
+
+        .panel {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+        }
+
+        .toolbar {
+            padding: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        button, .file-label {
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,.055);
+            color: var(--text);
+            padding: 11px 15px;
+            border-radius: 12px;
+            cursor: pointer;
+            font: inherit;
+            font-size: 13px;
+            font-weight: 700;
+            transition: .18s ease;
+        }
+
+        button:hover, .file-label:hover {
+            transform: translateY(-1px);
+            border-color: rgba(255,255,255,.18);
+            background: rgba(255,255,255,.09);
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+            box-shadow: 0 0 24px rgba(255,59,79,.18);
+        }
+
+        .btn-primary:hover { background: #ff5061; }
+
+        .btn-danger {
+            color: #ff8792;
+        }
+
+        input[type="file"] { display: none; }
+
+        .workspace {
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+            gap: 18px;
+        }
+
+        .editor-panel { padding: 24px; }
+
+        .panel-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .panel-title h2 {
+            margin: 0;
+            font-size: 17px;
+        }
+
+        .counter {
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        .fields {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: 14px;
+        }
+
+        .field.full { grid-column: 1 / -1; }
+
+        label {
+            display: block;
+            color: #c7cbd6;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 7px;
+        }
+
+        input, textarea {
+            width: 100%;
+            border: 1px solid var(--border);
+            outline: none;
+            color: var(--text);
+            background: rgba(0,0,0,.22);
+            border-radius: 12px;
+            padding: 12px 13px;
+            font: inherit;
+            font-size: 13px;
+            transition: .18s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: rgba(255,59,79,.62);
+            box-shadow: 0 0 0 3px rgba(255,59,79,.09);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 330px;
+            line-height: 1.65;
+            font-family: Consolas, "SFMono-Regular", monospace;
+            tab-size: 4;
+        }
+
+        .lyrics-help {
+            margin-top: 7px;
+            color: var(--muted);
+            font-size: 11px;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 9px;
+            margin-top: 16px;
+        }
+
+        .preview {
+            margin: 0;
+            min-height: 580px;
+            max-height: 700px;
+            overflow: auto;
+            padding: 20px;
+            border-radius: 16px;
+            background: #05060a;
+            border: 1px solid var(--border);
+            color: #dce1eb;
+            font: 12px/1.7 Consolas, "SFMono-Regular", monospace;
+            white-space: pre;
+        }
+
+        .queue {
+            margin-top: 18px;
+            padding: 20px;
+        }
+
+        .queue-list {
+            display: grid;
+            gap: 8px;
+        }
+
+        .queue-item {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 14px;
+            border: 1px solid var(--border);
+            border-radius: 13px;
+            background: rgba(255,255,255,.025);
+        }
+
+        .queue-title {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .queue-meta {
+            color: var(--muted);
+            font-size: 11px;
+            margin-top: 3px;
+        }
+
+        .queue-actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        .queue-actions button {
+            padding: 7px 9px;
+            font-size: 11px;
+        }
+
+        .status {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            padding: 12px 15px;
+            border-radius: 12px;
+            background: var(--panel-2);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            color: var(--success);
+            font-size: 12px;
+            opacity: 0;
+            transform: translateY(8px);
+            pointer-events: none;
+            transition: .2s ease;
+            z-index: 50;
+        }
+
+        .status.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .empty {
+            color: var(--muted);
+            font-size: 12px;
+            padding: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #6f7482;
+            border-top: 1px solid var(--border);
+            padding: 30px 0 40px;
+            font-size: 12px;
+        }
+
+        .footer-credits { color: var(--accent); }
+
+        @media (max-width: 900px) {
+            .workspace { grid-template-columns: 1fr; }
+            .hero { align-items: flex-start; flex-direction: column; }
+        }
+
+        @media (max-width: 600px) {
+            .fields { grid-template-columns: 1fr; }
+            .field.full { grid-column: auto; }
+            main { width: 94vw; }
+            .editor-panel { padding: 17px; }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-compact-disc"></i> WASABISOCUTE
+        </a>
+        <div class="header-actions">
+            <a class="file-label" href="index.html">
+                <i class="fa-solid fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <div class="eyebrow">Developer Tool</div>
+                <h1>Data Editor</h1>
+                <p>用可视化表单新增歌曲资料，并自动生成与你目前 data.js 格式一致、带缩进的 JavaScript。</p>
+            </div>
+        </section>
+
+        <div class="toolbar panel">
+            <label class="file-label" for="importFile">
+                <i class="fa-solid fa-file-arrow-up"></i> 导入 data.js
+            </label>
+            <input id="importFile" type="file" accept=".js,text/javascript">
+            <button onclick="copyOutput()">
+                <i class="fa-regular fa-copy"></i> 复制代码
+            </button>
+            <button class="btn-primary" onclick="downloadDataJs()">
+                <i class="fa-solid fa-download"></i> 导出 data.js
+            </button>
+            <button class="btn-danger" onclick="clearQueue()">
+                <i class="fa-solid fa-trash"></i> 清空新增项目
+            </button>
+        </div>
+
+        <section class="workspace">
+            <div class="panel editor-panel">
+                <div class="panel-title">
+                    <h2><i class="fa-solid fa-pen-to-square"></i> 歌曲资料</h2>
+                    <span class="counter" id="editMode">New Track</span>
+                </div>
+
+                <div class="fields">
+                    <div class="field">
+                        <label for="chapter">Chapter</label>
+                        <input id="chapter" type="number" value="4" step="1">
+                    </div>
+
+                    <div class="field">
+                        <label for="start">Start (seconds)</label>
+                        <input id="start" type="number" value="0" min="0" step="0.01">
+                    </div>
+
+                    <div class="field">
+                        <label for="title">Title *</label>
+                        <input id="title" placeholder="例如：Counting Stars">
+                    </div>
+
+                    <div class="field">
+                        <label for="artist">Artist *</label>
+                        <input id="artist" placeholder="例如：OneRepublic">
+                    </div>
+
+                    <div class="field">
+                        <label for="context">Context</label>
+                        <input id="context" placeholder="例如：Game - Minecraft">
+                    </div>
+
+                    <div class="field">
+                        <label for="date">Date</label>
+                        <input id="date" placeholder="例如：AUG 2026">
+                    </div>
+
+                    <div class="field full">
+                        <label for="desc">Description</label>
+                        <input id="desc" placeholder="歌曲补充说明，可留空">
+                    </div>
+
+                    <div class="field full">
+                        <label for="ytId">YouTube Video ID *</label>
+                        <input id="ytId" placeholder="例如：hT_nvWreIhg">
+                    </div>
+
+                    <div class="field full">
+                        <label for="ig">Instagram / Source URL（可选）</label>
+                        <input id="ig" placeholder="https://...">
+                    </div>
+
+                    <div class="field full">
+                        <label for="lyrics">Lyrics</label>
+                        <textarea id="lyrics" spellcheck="false" placeholder="[00:00.00]第一句歌词
+[00:04.25]第二句歌词
+[00:08.50]第三句歌词
+
+空白时间轴也可以直接保留，例如：
+[00:12.00]"></textarea>
+                        <div class="lyrics-help">
+                            直接粘贴 LRC / 时间轴歌词即可。系统会原样保存换行，并在导出的 data.js 中自动缩进。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button class="btn-primary" onclick="addTrack()">
+                        <i class="fa-solid fa-plus"></i> 加入新增列表
+                    </button>
+                    <button onclick="resetForm()">
+                        <i class="fa-solid fa-rotate-left"></i> 重置
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel editor-panel">
+                <div class="panel-title">
+                    <h2><i class="fa-solid fa-code"></i> data.js 预览</h2>
+                    <span class="counter">4 spaces indentation</span>
+                </div>
+                <pre class="preview" id="preview"></pre>
+            </div>
+        </section>
+
+        <section class="panel queue">
+            <div class="panel-title">
+                <h2><i class="fa-solid fa-list"></i> 本次新增</h2>
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <select id="sortMode" onchange="sortTracks()" style="border:1px solid var(--border);background:rgba(255,255,255,.055);color:var(--text);border-radius:10px;padding:8px 10px;font:inherit;font-size:12px;">
+                        <option value="chapter">Chapter ↑</option>
+                        <option value="chapter-desc">Chapter ↓</option>
+                        <option value="title">Title A → Z</option>
+                        <option value="title-desc">Title Z → A</option>
+                        <option value="artist">Artist A → Z</option>
+                        <option value="artist-desc">Artist Z → A</option>
+                        <option value="date">Date A → Z</option>
+                        <option value="date-desc">Date Z → A</option>
+                    </select>
+                    <span class="counter" id="queueCount">0 tracks</span>
+                </div>
+            </div>
+            <div class="queue-list" id="queueList">
+                <div class="empty">还没有新增项目。填写左侧资料后点击「加入新增列表」。</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Copyright © 2026 WASABISOCUTE |
+        <span class="footer-credits">Developer Data Editor</span>
+    </footer>
+
+    <div class="status" id="status"></div>
+
+    <script>
+        const tracks = [];
+        let editingIndex = -1;
+
+        const fields = {
+            chapter: document.getElementById("chapter"),
+            title: document.getElementById("title"),
+            artist: document.getElementById("artist"),
+            context: document.getElementById("context"),
+            desc: document.getElementById("desc"),
+            date: document.getElementById("date"),
+            ytId: document.getElementById("ytId"),
+            start: document.getElementById("start"),
+            ig: document.getElementById("ig"),
+            lyrics: document.getElementById("lyrics")
+        };
+
+        function getFormData() {
+            return {
+                chapter: Number(fields.chapter.value || 0),
+                title: fields.title.value.trim(),
+                artist: fields.artist.value.trim(),
+                context: fields.context.value.trim(),
+                desc: fields.desc.value.trim(),
+                date: fields.date.value.trim(),
+                ytId: fields.ytId.value.trim(),
+                start: Number(fields.start.value || 0),
+                ig: fields.ig.value.trim(),
+                lyrics: fields.lyrics.value
+            };
+        }
+
+        function validateTrack(track) {
+            if (!track.title || !track.artist || !track.ytId) {
+                alert("请至少填写 Title、Artist 和 YouTube Video ID。");
+                return false;
+            }
+            return true;
+        }
+
+        function addTrack() {
+            const track = getFormData();
+            if (!validateTrack(track)) return;
+
+            if (editingIndex >= 0) {
+                tracks[editingIndex] = track;
+                editingIndex = -1;
+                document.getElementById("editMode").textContent = "New Track";
+                showStatus("已更新项目");
+            } else {
+                tracks.push(track);
+                showStatus("已加入新增列表");
+            }
+
+            resetForm();
+            renderQueue();
+            renderPreview();
+        }
+
+        function editTrack(index) {
+            const track = tracks[index];
+
+            Object.keys(fields).forEach(key => {
+                if (fields[key]) fields[key].value = track[key] ?? "";
+            });
+
+            editingIndex = index;
+            document.getElementById("editMode").textContent = "Editing #" + (index + 1);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        function deleteTrack(index) {
+            tracks.splice(index, 1);
+            if (editingIndex === index) {
+                editingIndex = -1;
+                resetForm();
+            }
+            renderQueue();
+            renderPreview();
+            showStatus("已删除项目");
+        }
+
+        function resetForm() {
+            fields.chapter.value = 4;
+            fields.title.value = "";
+            fields.artist.value = "";
+            fields.context.value = "";
+            fields.desc.value = "";
+            fields.date.value = "";
+            fields.ytId.value = "";
+            fields.start.value = 0;
+            fields.ig.value = "";
+            fields.lyrics.value = "";
+            editingIndex = -1;
+            document.getElementById("editMode").textContent = "New Track";
+        }
+
+        function clearQueue() {
+            if (!tracks.length) return;
+            if (!confirm("确定要清空本次新增的所有项目吗？")) return;
+            tracks.length = 0;
+            resetForm();
+            renderQueue();
+            renderPreview();
+            showStatus("已清空");
+        }
+
+        function escapeSingleQuote(value) {
+            return String(value ?? "")
+                .replace(/\\/g, "\\\\")
+                .replace(/'/g, "\\'");
+        }
+
+        function escapeTemplate(value) {
+            return String(value ?? "")
+                .replace(/\\/g, "\\\\")
+                .replace(/`/g, "\\`")
+                .replace(/\$\{/g, "\\${");
+        }
+
+        function formatTrack(track, baseIndent = "    ") {
+            const lines = [];
+            const fields = [];
+
+            // Only add fields that actually contain a value.
+            if (track.chapter !== "" && track.chapter !== null && track.chapter !== undefined) {
+                fields.push(baseIndent + "    chapter: " + Number(track.chapter));
+            }
+
+            if (track.title) {
+                fields.push(baseIndent + "    title: '" + escapeSingleQuote(track.title) + "'");
+            }
+
+            if (track.artist) {
+                fields.push(baseIndent + "    artist: '" + escapeSingleQuote(track.artist) + "'");
+            }
+
+            if (track.context) {
+                fields.push(baseIndent + "    context: '" + escapeSingleQuote(track.context) + "'");
+            }
+
+            if (track.desc) {
+                fields.push(baseIndent + "    desc: '" + escapeSingleQuote(track.desc) + "'");
+            }
+
+            if (track.date) {
+                fields.push(baseIndent + "    date: '" + escapeSingleQuote(track.date) + "'");
+            }
+
+            if (track.ytId) {
+                fields.push(baseIndent + "    ytId: '" + escapeSingleQuote(track.ytId) + "'");
+            }
+
+            if (track.start !== "" && track.start !== null && track.start !== undefined && Number(track.start) !== 0) {
+                fields.push(baseIndent + "    start: " + Number(track.start));
+            }
+
+            if (track.ig) {
+                fields.push(baseIndent + "    ig: '" + escapeSingleQuote(track.ig) + "'");
+            }
+
+            if (track.lyrics && track.lyrics.trim()) {
+                const lyricLines = track.lyrics.replace(/\r\n/g, "\n").split("\n");
+
+                fields.push(baseIndent + "    lyrics: `");
+                lyricLines.forEach(line => {
+                    fields.push(baseIndent + "        " + escapeTemplate(line));
+                });
+                fields.push(baseIndent + "    `");
+            }
+
+            lines.push(baseIndent + "{");
+            lines.push(fields.map((line, index) => {
+                // Add commas between normal properties, but not after the final lyrics line.
+                return line + (index < fields.length - 1 ? "," : "");
+            }).join("\n"));
+            lines.push(baseIndent + "}");
+
+            return lines.join("\n");
+        }
+
+        function buildDataJs() {
+            if (!tracks.length) {
+                return "const tracks = [\n];\n";
+            }
+
+            return "const tracks = [\n" +
+                tracks.map(track => formatTrack(track)).join(",\n") +
+                "\n];\n";
+        }
+
+        function renderPreview() {
+            document.getElementById("preview").textContent = buildDataJs();
+        }
+
+        function sortTracks() {
+            const mode = document.getElementById("sortMode").value;
+
+            const direction = mode.endsWith("-desc") ? -1 : 1;
+            const key = mode.replace("-desc", "");
+
+            tracks.sort((a, b) => {
+                if (key === "chapter") {
+                    return (Number(a.chapter || 0) - Number(b.chapter || 0)) * direction;
+                }
+
+                const av = String(a[key] ?? "").toLowerCase();
+                const bv = String(b[key] ?? "").toLowerCase();
+
+                return av.localeCompare(bv, undefined, {
+                    numeric: true,
+                    sensitivity: "base"
+                }) * direction;
+            });
+
+            renderQueue();
+            renderPreview();
+            showStatus("已重新排序");
+        }
+
+        function renderQueue() {
+            const list = document.getElementById("queueList");
+            document.getElementById("queueCount").textContent = tracks.length + " track" + (tracks.length === 1 ? "" : "s");
+
+            if (!tracks.length) {
+                list.innerHTML = '<div class="empty">还没有新增项目。填写左侧资料后点击「加入新增列表」。</div>';
+                return;
+            }
+
+            list.innerHTML = tracks.map((track, index) => `
+                <div class="queue-item">
+                    <div>
+                        <div class="queue-title">${escapeHtml(track.title)} — ${escapeHtml(track.artist)}</div>
+                        <div class="queue-meta">Chapter ${track.chapter} · ${escapeHtml(track.ytId)} · ${track.lyrics.split("\\n").filter(Boolean).length} lyric lines</div>
+                    </div>
+                    <div class="queue-actions">
+                        <button onclick="editTrack(${index})"><i class="fa-solid fa-pen"></i></button>
+                        <button class="btn-danger" onclick="deleteTrack(${index})"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        function escapeHtml(value) {
+            return String(value ?? "").replace(/[&<>"']/g, char => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#039;"
+            }[char]));
+        }
+
+        async function copyOutput() {
+            try {
+                await navigator.clipboard.writeText(buildDataJs());
+                showStatus("data.js 代码已复制");
+            } catch {
+                const area = document.createElement("textarea");
+                area.value = buildDataJs();
+                document.body.appendChild(area);
+                area.select();
+                document.execCommand("copy");
+                area.remove();
+                showStatus("data.js 代码已复制");
+            }
+        }
+
+        function downloadDataJs() {
+            const blob = new Blob([buildDataJs()], { type: "text/javascript;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "data.js";
+            a.click();
+            URL.revokeObjectURL(url);
+            showStatus("data.js 已生成");
+        }
+
+        /*
+         * 安全地从当前 data.js 格式中读取简单字段。
+         * 不执行导入文件中的 JavaScript，只读取符合本项目格式的文字。
+         */
+        function parseDataJs(source) {
+            const match = source.match(/const\s+tracks\s*=\s*\[([\s\S]*)\]\s*;\s*$/);
+            if (!match) throw new Error("找不到 const tracks = [...] 结构。");
+
+            const body = match[1];
+            const objects = [];
+            let start = -1;
+            let depth = 0;
+            let quote = null;
+            let template = false;
+            let escaped = false;
+
+            for (let i = 0; i < body.length; i++) {
+                const ch = body[i];
+
+                if (escaped) {
+                    escaped = false;
+                    continue;
+                }
+
+                if ((quote || template) && ch === "\\") {
+                    escaped = true;
+                    continue;
+                }
+
+                if (!template && (ch === "'" || ch === '"')) {
+                    if (!quote) quote = ch;
+                    else if (quote === ch) quote = null;
+                    continue;
+                }
+
+                if (!quote && ch === "`") {
+                    template = !template;
+                    continue;
+                }
+
+                if (quote || template) continue;
+
+                if (ch === "{") {
+                    if (depth === 0) start = i;
+                    depth++;
+                } else if (ch === "}") {
+                    depth--;
+                    if (depth === 0 && start >= 0) {
+                        objects.push(body.slice(start, i + 1));
+                        start = -1;
+                    }
+                }
+            }
+
+            return objects.map(parseTrackObject).filter(Boolean);
+        }
+
+        function readQuoted(source, key) {
+            const re = new RegExp("\\b" + key + "\\s*:\\s*'((?:\\\\.|[^'\\\\])*)'");
+            const m = source.match(re);
+            if (!m) return "";
+            return m[1].replace(/\\'/g, "'").replace(/\\\\/g, "\\");
+        }
+
+        function readNumber(source, key, fallback = 0) {
+            const m = source.match(new RegExp("\\b" + key + "\\s*:\\s*(-?\\d+(?:\\.\\d+)?)"));
+            return m ? Number(m[1]) : fallback;
+        }
+
+        function readTemplate(source, key) {
+            const re = new RegExp("\\b" + key + "\\s*:\\s*`([\\s\\S]*?)`");
+            const m = source.match(re);
+            if (!m) return "";
+            return m[1]
+                .replace(/\\`/g, "`")
+                .replace(/\\\$\{/g, "${")
+                .replace(/\\\\/g, "\\")
+                .replace(/^\n/, "")
+                .split("\n")
+                .map(line => line.replace(/^ {12}/, "").replace(/^ {8}/, ""))
+                .join("\n");
+        }
+
+        function parseTrackObject(source) {
+            return {
+                chapter: readNumber(source, "chapter", 0),
+                title: readQuoted(source, "title"),
+                artist: readQuoted(source, "artist"),
+                context: readQuoted(source, "context"),
+                desc: readQuoted(source, "desc"),
+                date: readQuoted(source, "date"),
+                ytId: readQuoted(source, "ytId"),
+                start: readNumber(source, "start", 0),
+                ig: readQuoted(source, "ig"),
+                lyrics: readTemplate(source, "lyrics")
+            };
+        }
+
+        document.getElementById("importFile").addEventListener("change", async event => {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            try {
+                const source = await file.text();
+                const imported = parseDataJs(source);
+
+                if (!imported.length) {
+                    throw new Error("没有读取到歌曲对象。");
+                }
+
+                tracks.length = 0;
+                imported.forEach(track => tracks.push(track));
+
+                renderQueue();
+                renderPreview();
+                showStatus("已导入 " + imported.length + " 首歌曲");
+            } catch (error) {
+                alert("导入失败：\n" + error.message);
+            }
+
+            event.target.value = "";
+        });
+
+        document.querySelectorAll("input, textarea").forEach(input => {
+            input.addEventListener("input", () => {
+                if (editingIndex < 0) renderPreview();
+            });
+        });
+
+        renderQueue();
+        renderPreview();
+
+        function showStatus(message) {
+            const status = document.getElementById("status");
+            status.textContent = message;
+            status.classList.add("show");
+            clearTimeout(window.__statusTimer);
+            window.__statusTimer = setTimeout(() => status.classList.remove("show"), 1800);
+        }
+    </script>
+</body>
+</html>
