@@ -106,8 +106,13 @@ footer {
     border-top: 1px solid var(--glass-border);
     color: var(--text-muted);
     font-size: 0.9rem;
-    color: red;
     opacity: 50%;
+}
+footer-credits{
+    color: red;
+    text-shadow: 0 0 10px #00d2ff, 
+               0 0 20px #00d2ff, 
+               0 0 30px #00d2ff;
 }
 
 .chapter-title {
