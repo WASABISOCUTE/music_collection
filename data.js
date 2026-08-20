@@ -2,6 +2,55 @@ const tracks = [
     //Chapter -1
     {
         chapter: -1,
+        title: '青春修炼手册', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'C8o_SLoyy44', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '大梦想家', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'B03RJGMch-c', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '宠爱', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'td3em3qn1BU', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '魔法城堡', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'oH0ydhFHsWg', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '幸运符号', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'a-yvFsicYrQ', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '加油! AMIGO', artist: 'TFBOYS',
+        context: '', desc: '',
+        date: '', ytId: 'u8M_udtlDxU', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
+        title: '来自天堂的魔鬼', artist: 'GEM邓紫棋',
+        context: '', desc: '',
+        date: '', ytId: 'FWtbGkpdoP4', start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: -1,
         title: '三生三世', artist: '张杰',
         context: '《三生三世十里桃花》片头曲', desc: '',
         date: '', ytId: 'wdtEWS2D9xo', start: 0,
@@ -1842,6 +1891,13 @@ const tracks = [
     },
     {
         chapter: 3,
+        title: 'Leave All Behind', artist: 'rider',
+        context: 'Game - Phigros', desc: '',
+        date: 'AUG 2025', ytId: 'FifusnsTrv4', start: 0,
+        lyrics: ``,
+    },
+    {
+        chapter: 3,
         title: 'Intergalactic Bound', artist: 'CircusP & Yunosuke',
         context: 'FYSA School Anniversary', desc: '',
         date: 'AUG 2025', ytId: 'jsQXgDZIIrY', start: 0,
@@ -2120,6 +2176,13 @@ const tracks = [
             [02:49.67]懐かしんではじめて 過ぎ行くのでしょう
             [02:53.16]惑うこともありましょう 誰かの所為じゃないでしょう
             [02:56.48]難しいものですね 愛するということは`
+    },
+    {
+        chapter: 3,
+        title: 'PPPP', artist: 'TAK',
+        context: '', desc: '',
+        date: 'DEC 2025', ytId: '8Cm-7oCq9HA', start: 0,
+        lyrics: ``,
     },
     {
         chapter: 3,
@@ -2576,6 +2639,13 @@ const tracks = [
             [02:04.62]Hey！
             [02:08.37]Hey！
             [02:11.97]Hey！`,
+    },
+    {
+        chapter: 4,
+        title: 'タイムマシン', artist: 'Leo/need',
+        context: '', desc: '',
+        date: 'JAN 2026', ytId: 's1yW2jPJiVE', start: 0,
+        lyrics: ``,
     },
     {
         chapter: 4,
@@ -3583,7 +3653,7 @@ const tracks = [
         chapter: 4,
         title: '再生', artist: 'ナナツカゼ',
         context: '', desc: '',
-        date: 'AUG 2026', ytId: 'wPOEcVWN5Ko', start: 0,
+        date: 'JUL 2026', ytId: 'wPOEcVWN5Ko', start: 0,
         lyrics: `
             [00:00.58]「おはよ」
             [00:01.20]朝だって
@@ -3649,5 +3719,12 @@ const tracks = [
             [02:09.07]生きていく
             [02:11.37]この歌が終わるまで
             [02:41.37]`,
+    },
+    {
+        chapter: 4,
+        title: 'Snezhnaya', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: 'Snezhnaya Theme',
+        date: 'JUL 2026', ytId: '_Uf8_TC_tow', start: 0,
+        lyrics: ``
     }
 ];
