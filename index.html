@@ -25,15 +25,24 @@
             <div class="tooltip-container" id="help-btn" onclick="toggleHelp(event)">
                 <i class="fa-solid fa-circle-question"></i> Help
                 <div class="tooltip-popup" id="help-popup" onclick="event.stopPropagation()">
-                    <h4>问题排查 <button class="close-btn" onclick="toggleHelp(event)"><i
+                    <h4>问题排查 & 快捷键 <button class="close-btn" onclick="toggleHelp(event)"><i
                                 class="fa-solid fa-xmark"></i></button></h4>
-                    <div style="font-size: 13px; margin-top: 8px;">1. 若视频未正常显示（黑屏），请尝试关闭标签页后重开（Ctrl + W 后按 Ctrl +
+                    <div style="font-size: 13px; margin-top: 8px;">1. 若视频未正常显示（黑屏），请尝试关闭标签页后重开<br>（Ctrl + W 后按 Ctrl +
                         Shift + T）</div>
-                    <div style="font-size: 13px; margin-top: 8px;">2. 若播放器报错或无法播放，请切换到其他歌曲后重试，若问题仍然存在，请尝试1.的解决方法</div>
+                    <div style="font-size: 13px; margin-top: 8px;">2. 若播放器报错或无法播放，请切换到其他歌曲后重试，<br>若问题仍然存在，请尝试1.的解决方法
+                    </div>
                     <div style="font-size: 13px; margin-top: 8px;">3. 若问题仍然存在，请联系：<a
                             href="mailto:wasabi9487@gmail.com">wasabi9487@gmail.com</a>
                         或
                         <a href="mailto:sa234508@foonyewsa.edu.my">sa234508@foonyewsa.edu.my</a>
+                    </div>
+                    <div
+                        style="font-size: 13px; margin-top: 8px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 8px;">
+                        <b>快捷键 / Shortcuts：</b><br>
+                        • <kbd>Space</kbd> 播放 / 暂停 (Play/Pause)<br>
+                        • <kbd>←</kbd> 上一首 (Previous)<br>
+                        • <kbd>→</kbd> 下一首 (Next)<br>
+                        • <kbd>ESC</kbd> 收起播放器 (Close Player)
                     </div>
                 </div>
                 <!--</div>
@@ -656,6 +665,28 @@
         window.addEventListener('resize', () => {
             updateNowPlayingMarquees();
             updateAllGridMarquees();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+            switch (e.key) {
+                case ' ':
+                    e.preventDefault();
+                    togglePlay();
+                    break;
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    playPrevious();
+                    break;
+                case 'ArrowRight':
+                    e.preventDefault();
+                    playNext();
+                    break;
+                case 'Escape':
+                    closePlayer();
+                    break;
+            }
         });
     </script>
 </body>
