@@ -11,7 +11,6 @@ const config = {
         title: '', artist: '',
         context: '', desc: '',
         date: '', ytId: '', start: 0, end: 0,
-        lyrics: ``
 }
 */
 const tracks = [
@@ -21,49 +20,42 @@ const tracks = [
         title: '青春修炼手册', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'C8o_SLoyy44', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '大梦想家', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'B03RJGMch-c', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '宠爱', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'td3em3qn1BU', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '魔法城堡', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'oH0ydhFHsWg', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '幸运符号', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'a-yvFsicYrQ', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '加油! AMIGO', artist: 'TFBOYS',
         context: '', desc: '',
         date: '', ytId: 'u8M_udtlDxU', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
         title: '来自天堂的魔鬼', artist: 'GEM邓紫棋',
         context: '', desc: '',
         date: '', ytId: 'FWtbGkpdoP4', start: 0,
-        lyrics: ``
     },
     {
         chapter: -1,
@@ -484,6 +476,7 @@ const tracks = [
         title: 'Haggstrom', artist: 'C418',
         context: 'Game - Minecraft', desc: '',
         date: '', ytId: 'laZusNy8QiY', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 0,
@@ -686,6 +679,7 @@ const tracks = [
         title: 'Feel the Joy', artist: 'Glowstick Entertainment',
         context: 'Game - Dark Deception', desc: 'Chapter 4 Level 7 Zone 1&2 Chase Theme',
         date: '2023', ytId: '133eDAMkLlA', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
@@ -798,12 +792,14 @@ const tracks = [
         title: 'Caelestinum Finale Termini', artist: 'HOYO-MiX',
         context: '', desc: '',
         date: 'SEP 2023', ytId: 'VqtScyk2C5A', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'Never-Ending Performance', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '2023', ytId: '-OAA_kus8ME', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
@@ -1014,36 +1010,42 @@ const tracks = [
         title: 'Bane of Ambitions', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '', ytId: '75PlZCOel48', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'Duel in the mist', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: 'Inazuma Battle Theme',
         date: '2023', ytId: 'D48UG9WiTNk', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'Le spectacle doit continuer', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: 'Opera Epiclese',
         date: 'NOV 2023', ytId: 'w1d7_SE0PzY', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'otherside', artist: 'Lena Raine',
         context: 'Game - Minecraft', desc: 'Music Disc - otherside',
         date: '', ytId: 'kK81m-A3qpU', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'Inevitable Conflict', artist: 'HOYO-MiX',
         context: '', desc: '',
         date: '2023', ytId: 'ZuV38DZQgvM', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 1,
         title: 'For Riddles, for Wonders', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '2023', ytId: 'p2QSNcAJLTI', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     // Chapter 2
     {
@@ -1051,6 +1053,7 @@ const tracks = [
         title: 'Combat Beneath the Waves', artist: 'HOYO-MiX',
         context: '', desc: '',
         date: '', ytId: 'UEVEmUWsfD0', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 2,
@@ -1079,6 +1082,7 @@ const tracks = [
         title: '60%的日常·悠闲', artist: 'HOYO-MiX',
         context: 'Game - Zenless Zone Zero', desc: '',
         date: 'JUL 2024', ytId: '8VA8VDp6yyk', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 2,
@@ -1148,6 +1152,7 @@ const tracks = [
         title: 'Gion2', artist: 'HOYO-MiX',
         context: 'Game - Honkai Impact 3rd', desc: ' ',
         date: 'SEP 2024', ytId: 'agvdUJdCFsE', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 2,
@@ -1463,7 +1468,8 @@ const tracks = [
         title: 'Anthem of Era', artist: 'HOYO-MiX',
         context: 'Out-zone exploration - Tokto, Japan', desc: 'Changi Airport Theme',
         date: 'FEB 2025', ytId: 'f_53L9xa9GE', start: 0,
-        ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDM4NTkxMTE3MjY5OTcx?story_media_id=3562051245785979709_63008808258&igsh=NWhzZWljMzE3eW54'
+        ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDM4NTkxMTE3MjY5OTcx?story_media_id=3562051245785979709_63008808258&igsh=NWhzZWljMzE3eW54',
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 3,
@@ -2861,7 +2867,6 @@ const tracks = [
         title: '幸福刑', artist: '25時、ナイトコードで。',
         context: '', desc: '',
         date: 'JAN 2026', ytId: 'pWc8oCbtGKc', start: 0,
-        lyrics: ``,
     },
     {
         chapter: 4,
@@ -3484,6 +3489,7 @@ const tracks = [
         title: 'Protocol Flow', artist: 'Metal Scar Radio',
         context: 'Game - Arknights: Endfield', desc: '',
         date: 'APR 2026', ytId: 'OG-kdPECvi4', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 4,
@@ -3905,12 +3911,14 @@ const tracks = [
         title: 'Grievous Lady', artist: 'Team Grimoire',
         context: '', desc: '',
         date: 'JUL 2026', ytId: 'Eax2zhVA0Zo', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 4,
         title: 'sys_title', artist: 'HyperGryph',
         context: 'Game - Arknights', desc: 'Title',
         date: 'JUL 2026', ytId: 'Y47VajTRKeA', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 4,
@@ -4033,17 +4041,13 @@ const tracks = [
         context: 'Game - Genshin Impact', desc: 'Snezhnaya Theme',
         date: 'AUG 2026', ytId: '_Uf8_TC_tow', start: 0, end: 300,
         lyrics: `[01:29.33]Proditi sumus a mundo
-[01:34.20] 
 [01:34.20]Novum mundum omnibus aequum condemus
 [01:40.67] 
 [02:17.35]Sidus album vos suscipite
-[02:28.61] 
 [02:28.61]Terram motam vos quatite
 [02:40.01] 
 [04:01.84]Novum mundum incohemus, vos qui mecum tenebras initis
-[04:23.28] 
 [04:23.28]Ex ruinis ordo novus condemus
-[04:29.94] 
 [04:29.94]In fine ab Anastasia servati sumus, aurora orietur 
 [04:53.49] `
     },
@@ -4052,10 +4056,11 @@ const tracks = [
         title: 'Life Is Inexhaustible', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact / FYSA School Anniversary', desc: '',
         date: 'AUG 2026', ytId: '4uHGpV9OGms', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
     },
     {
         chapter: 4,
-        title: '空耳', artist: 'ナナツカゼ',
+        title: '空耳（22/08 14:21播出）', artist: 'ナナツカゼ',
         context: '', desc: '',
         date: 'AUG 2026', ytId: 'vJDxS_ovbpc', start: 0,
     }
