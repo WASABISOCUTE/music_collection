@@ -21,7 +21,22 @@
         <a href="index.html" class="logo">
             <i class="fa-solid fa-compact-disc"></i> WASABISOCUTE Music Collection | FYSA Demo Version
         </a>
-        <!--<div class="header-actions">
+        <div class="header-actions">
+            <div class="tooltip-container" id="help-btn" onclick="toggleHelp(event)">
+                <i class="fa-solid fa-circle-question"></i> Help
+                <div class="tooltip-popup" id="help-popup" onclick="event.stopPropagation()">
+                    <h4>问题排查 <button class="close-btn" onclick="toggleHelp(event)"><i
+                                class="fa-solid fa-xmark"></i></button></h4>
+                    <div style="font-size: 13px; margin-top: 8px;">1. 若视频未正常显示（黑屏），请尝试关闭标签页后重开（Ctrl + W 后按 Ctrl +
+                        Shift + T）</div>
+                    <div style="font-size: 13px; margin-top: 8px;">2. 若播放器报错或无法播放，请切换到其他歌曲后重试，若问题仍然存在，请尝试1.的解决方法</div>
+                    <div style="font-size: 13px; margin-top: 8px;">3. 若问题仍然存在，请联系：<a
+                            href="mailto:wasabi9487@gmail.com">wasabi9487@gmail.com</a>
+                        或
+                        <a href="mailto:sa234508@foonyewsa.edu.my">sa234508@foonyewsa.edu.my</a>
+                    </div>
+                </div>
+                <!--</div>
             <a href="wasabisocute.github.io"><i class="fa-solid fa-house"></i> Home</a>
         </div>-->
     </header>
@@ -403,7 +418,7 @@
                     renderLyrics = track.lyrics;
                 } else {
                     renderLyrics = [
-                        "Lyrics not available",
+                        "Lyrics currently not available",
                     ];
                 }
 
@@ -496,7 +511,20 @@
                     menu.classList.remove('active');
                 }
             }
+
+            const helpPopup = document.getElementById('help-popup');
+            const helpBtn = document.getElementById('help-btn');
+            if (helpPopup && helpPopup.classList.contains('active')) {
+                if (!helpPopup.contains(event.target) && !helpBtn.contains(event.target)) {
+                    helpPopup.classList.remove('active');
+                }
+            }
         });
+
+        function toggleHelp(event) {
+            event.stopPropagation();
+            document.getElementById('help-popup').classList.toggle('active');
+        }
 
         function togglePlay() {
             if (!isPlayerReady) return;
