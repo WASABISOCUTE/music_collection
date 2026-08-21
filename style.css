@@ -93,6 +93,67 @@ header {
     color: white;
 }
 
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-right: 20px;
+}
+
+.tooltip-container:hover {
+    color: white;
+}
+
+.tooltip-popup {
+    display: none;
+    position: absolute;
+    top: 150%;
+    right: 0;
+    width: 280px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 12px;
+    padding: 16px;
+    color: white;
+    z-index: 100;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.5;
+    cursor: default;
+}
+
+.tooltip-popup.active {
+    display: block;
+}
+
+.tooltip-popup h4 {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: var(--accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tooltip-popup .close-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tooltip-popup .close-btn:hover {
+    color: white;
+}
+
 main {
     padding: 0 60px 100px;
     max-width: 1600px;
