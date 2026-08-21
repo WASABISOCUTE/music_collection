@@ -1,3 +1,19 @@
+const config = {
+    showDate: true,
+    showContext: false,
+    showDesc: false,
+    showIg: false,
+    showChapterTitle: true
+};
+/*
+{
+        chapter: ,
+        title: '', artist: '',
+        context: '', desc: '',
+        date: '', ytId: '', start: 0, end: 0,
+        lyrics: ``
+}
+*/
 const tracks = [
     //Chapter -1
     {
@@ -612,7 +628,7 @@ const tracks = [
     {
         chapter: 1,
         title: 'Mind Your Manors', artist: 'Glowstick Entertainment',
-        context: 'Game - Dark Deception', desc: 'Chapter 2 Level 3 Chase Theme',
+        context: 'Game - Dark Deception', desc: 'Chapter 2 Level 3 Zone 2 Chase Theme',
         date: '2023', ytId: '1k8gE2l8iws', start: 0,
         lyrics: `
             [00:09.85]Please don't look back
@@ -664,6 +680,51 @@ const tracks = [
             [02:26.35]Now we are moving
             [02:29.01]And we are looming
 `
+    },
+    {
+        chapter: 1,
+        title: 'Feel the Joy', artist: 'Glowstick Entertainment',
+        context: 'Game - Dark Deception', desc: 'Chapter 4 Level 7 Zone 1&2 Chase Theme',
+        date: '2023', ytId: '133eDAMkLlA', start: 0,
+    },
+    {
+        chapter: 1,
+        title: 'Uninvited Guest', artist: 'Glowstick Entertainment',
+        context: 'Game - Dark Deception', desc: 'Chapter 4 Level 8 Zone 1 Chase Theme',
+        date: '2023', ytId: 'UZV0NN0LH-E', start: 0,
+        lyrics: `[00:23.02]We mum
+[00:24.24]Bear mum
+[00:25.54]We mum
+[00:26.83]Bear mum
+[00:28.13]We mum
+[00:29.34]Bear mum
+[00:30.57]We mum
+[00:31.85]Bear mum
+[00:33.08]Keep it moving
+[00:34.43]Keep it moving
+[00:35.74]Keep it moving
+[00:36.95]Keep it moving
+[00:38.28]Keep it moving
+[00:39.46]Keep it moving
+[00:40.77]Keep it moving
+[00:41.99]Keep it moving
+[00:43.67]
+[01:05.93]We mum
+[01:07.09]Bear mum
+[01:08.39]We mum
+[01:09.69]Bear mum
+[01:10.96]We mum
+[01:12.23]Bear mum
+[01:13.43]We mum
+[01:14.68]Bear mum
+[01:15.96]Keep it moving
+[01:17.32]Keep it moving
+[01:18.58]Keep it moving
+[01:19.86]Keep it moving
+[01:21.10]Keep it moving
+[01:22.35]Keep it moving
+[01:23.63]Keep it moving
+[01:24.83]Keep it moving`
     },
     {
         chapter: 1,
@@ -1023,7 +1084,7 @@ const tracks = [
         chapter: 2,
         title: 'Natlan', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: 'Natlan',
-        date: 'AUG 2024', ytId: '_n-Tb5B5em4', start: 0,
+        date: 'AUG 2024', ytId: '_n-Tb5B5em4', start: 0, end: 292,
         lyrics: `
             [00:12.09]Shambulia! Beba silaha
             [00:19.18]Pigana mpaka mwishowe
@@ -1092,57 +1153,57 @@ const tracks = [
         chapter: 2,
         title: 'Burning Desire', artist: 'HOYO-MiX',
         context: 'Game - Zenless Zone Zero', desc: '',
-        date: 'OCT 2024', ytId: '0NQPMTJ9rh0', start: 0,
+        date: 'OCT 2024', ytId: '8DsNRWy3Q0Q', start: 0, end: 138,
         lyrics: `
-            [00:02.95] Good evening and welcome!
-            [00:04.87] I'm Burnice and I'll be serving you today
-            [00:09.602] What can I get for you?
-            [00:11.60] A drink, some snacks - or a little flames?
-            [00:16.848] Mocktails, mixers, ice
-            [00:18.64] The snacks are real nice
-            [00:20.496] Soda, sour-mix, dry
-            [00:22.288] I’m lit you can't deny
-            [00:24.208] Whatever you want
-            [00:25.168] Whatever you need
-            [00:26.192] So good you'll never
-            [00:27.216] Ever want to leave
-            [00:28.176] Anything that you desire
-            [00:29.823] Set it on fire!
-            [00:32.251] I'll make you spend your Dennies all away
-            [00:36.987] That's my desire
-            [00:39.227] You know I’m the real deal.
-            [00:41.851] What's left to say?
-            [00:44.75] 3-2-1, fire!
-            [00:50.70] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-            [00:53.466] Go go!
-            [00:53.516] Go go!
-            [00:58.202] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-            [01:00.10] Or a little flames?
-            [01:05.605] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-            [01:08.405] Go go!
-            [01:13.17] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-            [01:15.154] Gonna watch it burn!
-            [01:16.333] I know I look kinda cute and nice 'n' pleasant
-            [01:18.51] But I got a short fuse for fools, don’t get arrogant
-            [01:20.558] Watch out - let me pour you a drink
-            [01:22.35] But think about messing with me, I’ll end you in a blink
-            [01:24.398] So drink your drink, don’t you run your mouth
-            [01:26.254] You think about stepping to me, and things'll go south
-            [01:28.238] Wanna push your luck then o-k-k,
-            [01:30.094] I'll burn you to ash, think twice before you play play
-            [01:32.074] I'll make you spend your Dennies all away
-            [01:37.066] That's my desire
-            [01:39.754] You know I’m the real deal
-            [01:41.93] What's left to say?
-            [01:44.81] 3-2-1, fire!
-            [01:50.826] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-            [01:53.231] Go go!
-            [01:57.903] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-            [01:59.646] Or a little flames?
-            [02:05.854] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
-            [02:08.158] Go go!
-            [02:13.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
-            [02:15.035] Gonna watch it burn!
+            [00:03.95] Good evening and welcome!
+            [00:05.87] I'm Burnice and I'll be serving you today
+            [00:10.602] What can I get for you?
+            [00:12.60] A drink, some snacks - or a little flames?
+            [00:17.848] Mocktails, mixers, ice
+            [00:19.64] The snacks are real nice
+            [00:21.496] Soda, sour-mix, dry
+            [00:23.288] I’m lit you can't deny
+            [00:25.208] Whatever you want
+            [00:26.168] Whatever you need
+            [00:27.192] So good you'll never
+            [00:28.216] Ever want to leave
+            [00:29.176] Anything that you desire
+            [00:30.823] Set it on fire!
+            [00:31.251] I'll make you spend your Dennies all away
+            [00:37.987] That's my desire
+            [00:40.227] You know I’m the real deal.
+            [00:42.851] What's left to say?
+            [00:45.75] 3-2-1, fire!
+            [00:51.70] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [00:54.466] Go go!
+            [00:54.516] Go go!
+            [00:59.202] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [01:01.10] Or a little flames?
+            [01:06.605] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [01:09.405] Go go!
+            [01:14.17] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [01:16.154] Gonna watch it burn!
+            [01:17.333] I know I look kinda cute and nice 'n' pleasant
+            [01:19.51] But I got a short fuse for fools, don’t get arrogant
+            [01:21.558] Watch out - let me pour you a drink
+            [01:23.35] But think about messing with me, I’ll end you in a blink
+            [01:25.398] So drink your drink, don’t you run your mouth
+            [01:27.254] You think about stepping to me, and things'll go south
+            [01:29.238] Wanna push your luck then o-k-k,
+            [01:31.094] I'll burn you to ash, think twice before you play play
+            [01:33.074] I'll make you spend your Dennies all away
+            [01:38.066] That's my desire
+            [01:40.754] You know I’m the real deal
+            [01:42.93] What's left to say?
+            [01:45.81] 3-2-1, fire!
+            [01:51.826] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [01:54.231] Go go!
+            [01:58.903] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [02:00.646] Or a little flames?
+            [02:06.854] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
+            [02:09.158] Go go!
+            [02:14.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
+            [02:16.035] Gonna watch it burn!
 `},
     {
         chapter: 2,
@@ -1894,7 +1955,41 @@ const tracks = [
         title: 'Leave All Behind', artist: 'rider',
         context: 'Game - Phigros', desc: '',
         date: 'AUG 2025', ytId: 'FifusnsTrv4', start: 0,
-        lyrics: ``,
+        lyrics: `[00:02.19]I can feel the rain upon my skin
+[00:05.18]
+[00:07.10]It covers everything
+[00:12.80]
+[00:13.46]But it’s too late now
+[00:16.66]I remember you and me
+[00:21.21]
+[00:59.77]I can feel the rain upon my skin
+[01:03.03]
+[01:04.63]It covers everything
+[01:10.20]
+[01:11.22]But it’s too late now
+[01:14.29]I remember every scene
+[01:18.77]
+[01:21.27]And how careless we could be
+[01:24.73]
+[01:50.13]But it’s too late now
+[01:52.70]I remember you and me
+[01:56.96]
+[02:35.83]I can feel the rain upon my skin
+[02:38.84]
+[02:40.70]It covers everything
+[02:45.75]
+[02:47.16]But it’s too late now
+[02:50.43]I remember every scene
+[02:54.65]
+[02:56.99]And how careless we could be
+[03:00.73]
+[03:26.23]But it’s too late now
+[03:28.73]I remember you and me
+[03:33.08]
+[04:04.38]But it’s too late now
+[04:07.14]I remember you and me
+[04:11.49]
+`,
     },
     {
         chapter: 3,
@@ -2182,7 +2277,80 @@ const tracks = [
         title: 'PPPP', artist: 'TAK',
         context: '', desc: '',
         date: 'DEC 2025', ytId: '8Cm-7oCq9HA', start: 0,
-        lyrics: ``,
+        lyrics: `[00:05.72]ほら
+[00:06.07]見て見て見てこのオーラ
+[00:09.24]きっとヒットだよ
+[00:12.10]みっちゃみっちゃダメみっちゃダメ
+[00:13.70]まぶしいよ
+[00:15.15]きっとヒットだよ
+
+[00:17.93]예뻐예뻐 언니 (Hey) [ye-po-ye-po-on-ni]
+[00:19.99]진짜진짜 귀여워 [jin-cha-jin-cha-gi-yeo-wo]
+[00:21.68]뭐해뭐해 언니 (Hey) [mo-hae-mo-hae-on-ni]
+[00:23.26]めっちゃくっちゃ 배고파 [bae-go-pa]
+[00:24.86]ステージ果てまでなぜだコイツ信じらんねw
+[00:28.02]ヒメムーブ展開 (チュ)
+
+[00:31.09]ボクノボクノオーラビーム
+[00:34.32](ぴょんぴょんぴょんぴょん)
+[00:35.85]やられた？
+[00:37.53]アイタイアイタイアイシテ
+[00:40.40]ガチで
+[00:41.00]ラブリースーパキューティーベイビー
+[00:42.67]エグいよ
+
+[00:44.18]うちのうちのオーラビーム
+[00:47.28](ぴょんぴょんぴょんぴょん)
+[00:48.80]びびった？
+[00:50.38]限界突破リミッター解除無敵の
+[00:53.58]ラブリースーパキューティーベイビー
+[00:55.21]エモいよ
+[00:56.84]ラブリースーパキューティーベイビー
+[00:57.95]だ！よ！ね！チュ！
+[00:59.50]
+[01:05.88]余計なオマジナイ
+[01:09.24]きっとヒットだよ
+[01:12.13]確かな慰めは
+[01:15.71]きっとヒットだよ
+
+[01:18.35]예뻐예뻐 언니 (Hey) [ye-po-ye-po-on-ni]
+[01:20.72]진짜진짜 귀여워 [jin-cha-jin-cha-gi-yeo-wo]
+[01:21.58]뭐해뭐해 언니 (Hey) [mo-hae-mo-hae-on-ni]
+[01:23.38]めっちゃくっちゃ 배고파 [bae-go-pa]
+[01:24.78]ステージ果てまでなぜだコイツ信じらんねw
+[01:28.02]トントントントントントントントン
+[01:31.10]サボる
+
+[01:31.73]ナー
+[01:36.31](ぴょんぴょんぴょんぴょん)
+[01:38.14]ナー
+[01:41.10]ヒメムーブ展開 (チュ)
+
+[01:44.52]届け届け飛びたい
+[01:50.64]アタシアタシ溶けた
+[01:53.49]ガチで
+[01:53.91]ラブリースーパキューティーベイビー
+[01:55.51]エグいよ
+
+[01:58.09](オーラビーム)
+[01:58.71]ボクノボクノオーラビーム
+[02:01.87](ぴょんぴょんぴょんぴょん)
+[02:03.44]最低だ
+[02:04.90]限界突破リミッター解除無敵の
+[02:08.18]ラブリースーパキューティーベイビー
+[02:09.29]エグいよ
+
+[02:10.99]ラララララ (ぴょん)
+[02:12.66]ラララララ (ぴょん)
+[02:14.10]最低なんて言わないで大好きす
+[02:17.12]限界突破リミッター解除無敵の
+[02:20.40]ラブリースーパキューティーベイビー
+[02:22.03]エモいよ
+[02:23.53]ラブリースーパキューティーベイビー
+[02:25.18]だ！よ！ね！チュ！
+
+[02:29.90]ラー
+[02:31.46]終わった`,
     },
     {
         chapter: 3,
@@ -2645,7 +2813,48 @@ const tracks = [
         title: 'タイムマシン', artist: 'Leo/need',
         context: '', desc: '',
         date: 'JAN 2026', ytId: 's1yW2jPJiVE', start: 0,
-        lyrics: ``,
+        lyrics: `[00:30.35]得意げに呟いた
+[00:33.53]心配ないからと
+[00:37.12]人の少ないホームで
+[00:41.51]ヘタクソに強がった
+[00:44.80]
+[00:45.20]唐突に鳴り響く
+[00:48.67]僕を呼ぶ別れの音
+[00:52.49]見慣れたその泣き顔も
+[00:56.67]しばらくは見れないね
+[01:00.43]
+[01:01.10]Ah 声が遮られていく
+[01:05.75]身振り手振りで伝える
+[01:09.60]「いってらっしゃい」のサイン
+[01:14.40]
+[01:15.72]少しずつ小さくなってく
+[01:20.63]全部置いたまま
+[01:24.33]悲しくなんかないさと
+[01:28.88]イヤホンで閉じ込めたよ
+[01:33.04]
+[01:46.40]見えたんだぼんやりと
+[01:49.91]暖かい昨日のビジョン
+[01:53.63]右と左に広がって
+[01:57.88]僕を連れて行くのさ
+[02:01.32]
+[02:02.56]Ah 僕の横をすり抜けて
+[02:07.00]遠ざかっていく景色
+[02:10.70]あの日の僕を置いてく
+[02:15.76]
+[02:17.07]こぼれた涙一滴の
+[02:21.44]意味も分からずに
+[02:25.16]タイムマシンにゆられて
+[02:29.84]明日も元気でいるよ
+[02:34.29]
+[03:02.93]こぼれた涙一滴の
+[03:07.24]意味も分からずに
+[03:11.00]タイムマシンにゆられて
+[03:15.71]明日も元気で
+[03:18.04]
+[03:18.29]溢れる涙抑え切れず
+[03:22.49]意味も分からずに
+[03:26.18]タイムマシンにゆられて
+[03:30.81]また戻ってくるよ`,
     },
     {
         chapter: 4,
@@ -3363,7 +3572,61 @@ const tracks = [
         title: '五月猫', artist: 'ナナツカゼ',
         context: '', desc: '',
         date: 'MAY 2026', ytId: 'xYXIh06fV_w', start: 0,
-        lyrics: ``,
+        lyrics: `[00:01.10] もし地球が爆発したら
+[00:04.167] 皆ごと
+[00:06.20] 終わってしまえばって
+[00:07.767] 何度思っただろう
+[00:11.60] もし世界中の人が夢を諦めたら
+[00:16.333] 誰の心にも穴が空かず済むだろう
+[00:21.333] 再生
+[00:22.167] 地球最後の日のミュージック
+[00:25.767] lala…
+[00:26.433] 来世へのパスポートをください
+[00:31.467] 神様、何でこんな僕だけが
+[00:34.80] と思ってしまうのでしょう
+[00:37.067] って何度も問い質した
+[00:39.833] 正しさが分からなくて
+[00:42.10] 全人類が幸せだと
+[00:44.90] 思える日なんて生涯
+[00:47.067] 来るはずなどないって
+[00:49.367] 患った五月猫
+[01:02.10] もし君もいなくなるのなら
+[01:04.967] この春の
+[01:06.80] 出会いは別れを知るためにあるのだろう
+[01:12.167] もし精神年齢に寿命があったら
+[01:16.967] 僕の青春はとっくに死んでいるだろう
+[01:22.033] 拝啓
+[01:22.90] 十年後の僕は
+[01:25.467] 夢を叶え
+[01:27.00] こんな素晴らしい世界だと言って…
+[01:31.90] る訳もない
+[01:32.80] 何なんだよ現実は
+[01:35.40] 生きて生きて息をしてる
+[01:37.967] ばっかじゃ駄目だなんて
+[01:40.50] 最初から教えてよ
+[01:42.533] 半永久的で刹那的
+[01:45.533] 時限爆弾抱えて
+[01:47.767] こんな思いするのも
+[01:49.867] 僕だけでいいのに
+[02:13.033] いっそのこと夢の中で
+[02:17.533] 永遠に笑って生きられたらなんて
+[02:22.80] 君が星になる日のことすらも
+[02:28.533] 知らない。
+[02:30.70] 知らない 知らないままでいい
+[02:42.833] 神様、何で六月なのに
+[02:46.133] 病は治らないんでしょう
+[02:48.40] って名称を探していた
+[02:51.267] 時間に馴染めないから
+[02:53.333] ドラマの最終回が
+[02:56.267] ないようなこの人生は
+[02:58.333] いつ終わったとしても同じだから
+[03:03.033] もういいよ
+[03:11.133] 僕の病には名前がないから
+[03:13.533] 365日
+[03:16.467] ずっと考えてしまう
+[03:18.50] いつか地球が終わる未来
+[03:21.367] その日のこと
+`,
     },
     {
         chapter: 4,
@@ -3722,9 +3985,78 @@ const tracks = [
     },
     {
         chapter: 4,
+        title: 'メシア', artist: 'ナナツカゼ',
+        context: '', desc: '',
+        date: 'JUL 2026', ytId: 'sX-7C9Xlw0Y', start: 0,
+        lyrics: `[00:00.80] 信じちゃなんかいないんだ
+[00:03.44] 自分以外のこと
+[00:06.20] 信じちゃなんかいないんだ
+[00:08.80] 大人の言うこと
+[00:11.56] 僕は僕のままでいい
+[00:13.68] って言ってくれる人はいなかった
+[00:16.40] だから慰めるのが上手いんだ
+[00:19.36] 自分自身のこと
+[00:32.80] 助けてって言えなくて
+[00:35.04] 今日も屋上で1人きり
+[00:38.12] 通り魔が攫ってくれるのをひたすら待ってる
+[00:43.48] 打ち明けてしまったら
+[00:45.72] そして変わらない世界を見て
+[00:48.80] これ以上の悲しみは抱えきれないからね
+[01:04.88] 神様なんていないんだ
+[01:07.44] どうせ他人事
+[01:10.24] 夢なんて叶わないんだ
+[01:12.80] くだらない戯言
+[01:15.56] ずっと子どものままでいい？
+[01:17.80] って言っていい場面などなかった
+[01:20.44] だから諦めるのが早いんだ
+[01:23.40] 子どもの頃の夢
+[01:26.16] 強くなんてなりたくなかった
+[01:28.76] だから心に鎧を着せたんだ
+[01:31.44] これ以上傷つかないように
+[01:34.12] 安全な場所で眠るみたいに
+[01:39.48] 安全な場所で眠るみたいに
+[01:47.48] 誰も信じられなくて
+[01:49.76] 今日も屋上で1人きり
+[01:52.80] 自分の相談事すらも僕自身で聞いてる
+[01:58.12] 打ち明けなくていいよ
+[02:00.40] 僕のことは全部知ってるから
+[02:03.48] 君が持ってる悲しみを半分背負いたいな
+[02:54.48] 信じちゃなんかいないんだ
+[02:57.44] 自分以外のこと
+[03:00.48] 信じちゃなんかいないんだ
+[03:03.36] 大人の言うこと
+`
+    },
+    {
+        chapter: 4,
         title: 'Snezhnaya', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: 'Snezhnaya Theme',
-        date: 'JUL 2026', ytId: '_Uf8_TC_tow', start: 0,
-        lyrics: ``
+        date: 'AUG 2026', ytId: '_Uf8_TC_tow', start: 0, end: 300,
+        lyrics: `[01:29.33]Proditi sumus a mundo
+[01:34.20] 
+[01:34.20]Novum mundum omnibus aequum condemus
+[01:40.67] 
+[02:17.35]Sidus album vos suscipite
+[02:28.61] 
+[02:28.61]Terram motam vos quatite
+[02:40.01] 
+[04:01.84]Novum mundum incohemus, vos qui mecum tenebras initis
+[04:23.28] 
+[04:23.28]Ex ruinis ordo novus condemus
+[04:29.94] 
+[04:29.94]In fine ab Anastasia servati sumus, aurora orietur 
+[04:53.49] `
+    },
+    {
+        chapter: 4,
+        title: 'Life Is Inexhaustible', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact / FYSA School Anniversary', desc: '',
+        date: 'AUG 2026', ytId: '4uHGpV9OGms', start: 0,
+    },
+    {
+        chapter: 4,
+        title: '空耳', artist: 'ナナツカゼ',
+        context: '', desc: '',
+        date: 'AUG 2026', ytId: 'vJDxS_ovbpc', start: 0,
     }
 ];
