@@ -653,7 +653,7 @@ const tracks = [
         title: '想见你想见你想见你', artist: '八三夭',
         context: '', desc: '',
         date: '2019', ytId: '4iRupuNet3Q', start: 0,
-        lyrics: `[00:09.36] 想见你 想见你 想见你
+        lyrics: `
 [00:18.82] 当爱情遗落成遗迹
 [00:22.98] 用象形刻划成回忆
 [00:26.56] 想念几个世纪 才是刻骨铭心
