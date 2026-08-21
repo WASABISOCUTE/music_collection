@@ -19,11 +19,11 @@
 <body>
     <header>
         <a href="index.html" class="logo">
-            <i class="fa-solid fa-compact-disc"></i> WASABISOCUTE
+            <i class="fa-solid fa-compact-disc"></i> WASABISOCUTE Music Collection | FYSA Demo Version
         </a>
-        <div class="header-actions">
+        <!--<div class="header-actions">
             <a href="wasabisocute.github.io"><i class="fa-solid fa-house"></i> Home</a>
-        </div>
+        </div>-->
     </header>
     <main>
         <h2 class="chapter-title">Chapter -01</h2>
@@ -43,7 +43,7 @@
         <div class="track-grid" id="grid-ch2">
         </div>
         <h2 class="chapter-title">Chapter 03</h2>
-        <div class="chapter-subtitle">2025 • Title</div>
+        <div class="chapter-subtitle">2025</div>
         <div class="track-grid" id="grid-ch3">
         </div>
         <h2 class="chapter-title">Chapter 04</h2>
@@ -133,7 +133,8 @@
         </div>
     </div>
     <footer id="footer" style="color: white;">
-        <span id="aboutLink">Copyright © 2026 WASABISOCUTE | Assisted by <span class="footer-credits">Google Antigravity</span></span>
+        <span id="aboutLink">Copyright © 2026 WASABISOCUTE | Assisted by <span class="footer-credits">Google
+                Antigravity</span></span>
     </footer>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="data.js"></script>
@@ -144,8 +145,8 @@
                 if (!targetGrid) return;
 
                 const coverUrl = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
-                const badgeHTML = track.context ? `<span class="badge"><span class="badge-text marquee-target">${track.context}</span></span>` : '';
-                const dateHTML = track.date ? `<span>${track.date}</span>` : '';
+                const badgeHTML = (config.showContext && track.context) ? `<span class="badge"><span class="badge-text marquee-target">${track.context}</span></span>` : '';
+                const dateHTML = (config.showDate && track.date) ? `<span>${track.date}</span>` : '';
 
                 const cardHTML = `
                     <div class="track-card" onclick="openPlayer(${index})">
@@ -171,6 +172,10 @@
             });
         }
         renderGrid();
+
+        if (typeof config !== 'undefined' && !config.showChapterTitle) {
+            document.querySelectorAll('.chapter-title, .chapter-subtitle').forEach(el => el.style.display = 'none');
+        }
 
         function updateAllGridMarquees() {
             document.querySelectorAll('.marquee-target').forEach(updateMarquee);
@@ -359,11 +364,28 @@
             updateNowPlayingMarquees();
             document.getElementById('menu-title').innerText = track.title;
             document.getElementById('menu-artist').innerText = track.artist;
-            const infoText = [track.context, track.desc].filter(Boolean).join(' • ');
-            document.getElementById('menu-info').innerText = infoText || 'Memory Track';
-            document.getElementById('menu-date').innerText = track.date ? ("Memory Date: " + track.date) : "Memory Date: N/A";
+            let infoParts = [];
+            if (config.showContext && track.context) infoParts.push(track.context);
+            if (config.showDesc && track.desc) infoParts.push(track.desc);
+            const infoText = infoParts.join(' • ');
+            const menuInfoElem = document.getElementById('menu-info');
+            if (infoParts.length > 0) {
+                menuInfoElem.style.display = 'block';
+                menuInfoElem.innerText = infoText;
+            } else {
+                menuInfoElem.style.display = 'none';
+            }
+
+            const menuDateElem = document.getElementById('menu-date');
+            if (config.showDate) {
+                menuDateElem.style.display = 'block';
+                menuDateElem.innerText = track.date ? ("Memory Date: " + track.date) : "Memory Date: N/A";
+            } else {
+                menuDateElem.style.display = 'none';
+            }
+
             const igLinkElem = document.getElementById('menu-ig');
-            if (track.ig) {
+            if (config.showIg && track.ig) {
                 igLinkElem.href = track.ig;
                 igLinkElem.style.display = 'flex';
             } else {
@@ -422,10 +444,14 @@
             //Video Load
             if (isPlayerReady) {
                 if (!isReopening) {
-                    player.loadVideoById({
+                    const loadOptions = {
                         videoId: track.ytId,
-                        startSeconds: track.start
-                    });
+                        startSeconds: track.start || 0
+                    };
+                    if (track.end) {
+                        loadOptions.endSeconds = track.end;
+                    }
+                    player.loadVideoById(loadOptions);
                 }
             } else {
                 playerTimeout = setTimeout(() => openPlayer(trackId, keepHidden), 500);
@@ -533,13 +559,20 @@
                 if (player && player.getCurrentTime) {
                     const current = player.getCurrentTime();
                     const total = player.getDuration();
+                    const track = tracks[currentTrackId];
+                    const start = track.start || 0;
+                    const effectiveEnd = track.end || total;
+                    const duration = effectiveEnd - start;
 
-                    document.getElementById('time-current').innerText = formatTime(current);
-                    document.getElementById('time-total').innerText = formatTime(total);
+                    let currentAdjusted = current - start;
+                    if (currentAdjusted < 0) currentAdjusted = 0;
 
-                    if (total > 0) {
-                        const pct = (current / total) * 100;
-                        document.getElementById('progress-fill').style.width = pct + '%';
+                    document.getElementById('time-current').innerText = formatTime(currentAdjusted);
+                    document.getElementById('time-total').innerText = formatTime(duration);
+
+                    if (duration > 0) {
+                        const pct = (currentAdjusted / duration) * 100;
+                        document.getElementById('progress-fill').style.width = Math.max(0, Math.min(100, pct)) + '%';
                     }
 
                     const lyrics = document.querySelectorAll('.lyric-line[data-time]');
@@ -580,9 +613,14 @@
             const width = rect.width;
             const pct = clickX / width;
 
+            const track = tracks[currentTrackId];
+            const start = track.start || 0;
             const total = player.getDuration();
-            if (total > 0) {
-                const seekTo = total * pct;
+            const effectiveEnd = track.end || total;
+            const duration = effectiveEnd - start;
+
+            if (duration > 0) {
+                const seekTo = start + (duration * pct);
                 player.seekTo(seekTo, true);
             }
         }
