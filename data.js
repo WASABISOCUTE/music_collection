@@ -1082,6 +1082,7 @@ const tracks = [
             [01:50.66]we're always one somehow
             [01:59.02]We're always one
             [02:00.83]we're always one somehow
+            [02:05.00]
 `
     },
     {
@@ -1217,6 +1218,45 @@ const tracks = [
             [02:14.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
             [02:16.035] Gonna watch it burn!
 `},
+    {
+        chapter: 2,
+        title: 'Apocalypse', artist: 'アリスシャッハと魔法の楽団',
+        context: 'Game - Lanota', desc: '',
+        date: 'DEC 2025', ytId: 'Fzd0yUtUhDE', start: 0,
+        lyrics: `
+        [00:14.97]Selate In ou Lane Lar Alger ou Iila
+[00:19.54]lootaria ou Caren Ewol Acary
+[00:23.76]Mirya Heil Dro end Di end Tri
+[00:28.28]Selate In ou Lane Lar Crai Jam Wery
+[00:33.68]Lootaria ou Wiina Ewol Acary
+[00:36.80]Mirya Hell Dro end Di end Tri
+[00:41.03]Circus ou Nouche Olis Loog Nouche
+[00:45.35]Synapse ah Astola
+[00:47.74]end Ranya Advelses Stei ou Monodrama
+[00:52.49]Finz Ranya
+[00:57.32]Crai Ran Alan
+[00:58.94]end Karna Mii Dist end Dist Mii
+[01:02.29]a Falke Luan!
+[01:03.82]a Gout Mii Disrait oh Chail ou Eist
+[01:09.18]a Circus ou Drone
+[01:12.06]Ley end Mii Bis Dist end Dist Mii
+[01:15.38]a Falke Luan!
+[01:16.86]Brait Allss ou Xia Piero
+[01:21.91]Haou Crai La Crai
+[01:38.52]es hai di es towai di es crai ni es grei ni lau
+[01:41.78]es towai di es crai ni es grei ni lau
+[01:44.78]es towai di es crai ni es grei ni lau
+[01:48.02]es crai ni es grei ni lau
+[01:52.79]Ranya Crai Ran Alan
+[01:56.28]end Karna Mii Dist end Dist Mii
+[01:59.46]a Flake Luan
+[02:01.17]a Gout Mii Disrait oh Chail ou Eist
+[02:07.62]a Circus ou Drone
+[02:09.51]Ley end Mii Bis Dist end Dist Mii
+[02:12.61]a Falke Luan!
+[02:14.04]Brait Allss ou Xia Piero
+[02:19.16]Haou Crai La Crai`
+    },
     {
         chapter: 2,
         title: 'Golden Sign', artist: 'HOYO-MiX',
