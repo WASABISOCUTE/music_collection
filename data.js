@@ -1413,6 +1413,13 @@ const tracks = [
     },
     {
         chapter: 2,
+        title: 'Saving Light', artist: 'Wuthering Waves',
+        context: 'Game - Wuthering Waves', desc: '',
+        date: 'JUL 2024', ytId: 'ZJIORfPwF40', start: 0,
+        lyrics: `(Instrumental — No Lyrics)`,
+    },
+    {
+        chapter: 2,
         title: '60%的日常·悠闲', artist: 'HOYO-MiX',
         context: 'Game - Zenless Zone Zero', desc: '',
         date: 'JUL 2024', ytId: '8VA8VDp6yyk', start: 0,
