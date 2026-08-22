@@ -2264,7 +2264,7 @@ const tracks = [
         chapter: 3,
         title: '神っぽいな', artist: '25時、ナイトコードで。',
         context: '', desc: '',
-        date: 'APR 2025', ytId: '3uB6p3w4r7E', start: 0,
+        date: 'APR 2025', ytId: 'vIHCFGj_G2E', start: 0,
         lyrics: `[00:07.629] Oh my god
 [00:08.49] 愛のネタバレ 「別れ」っぽいな
 [00:11.589] 人生のネタバレ 「死ぬ」っぽいな
