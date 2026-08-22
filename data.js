@@ -3594,7 +3594,7 @@ const tracks = [
     },
     {
         chapter: 3,
-        title: 'お返事まだカナ💦❓おじさん構文😁❗️', artist: '',
+        title: 'お返事まだカナ💦❓おじさん構文😁❗️', artist: '吉本おじさん',
         context: '', desc: '',
         date: 'SEP 2025', ytId: '8E8aWeY-pAc', start: 0,
     },
