@@ -1,8 +1,8 @@
 const config = {
     showDate: true,
-    showContext: false,
-    showDesc: false,
-    showIg: false,
+    showContext: true,
+    showDesc: true,
+    showIg: true,
     showChapterTitle: true
 };
 /*
