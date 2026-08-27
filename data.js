@@ -4862,9 +4862,9 @@ const tracks = [
             [01:01.02]Don't you remember?
             [01:03.75]The silence of secrets
             [01:07.12]Even when the light is nowhere to be found
-            [01:11.98]거짓의 파도 속에서도 난 버텨내
-            [01:17.38]무너진 자리에서 다시 시작해
-            [01:23.06]도망친 진실을 끝까지 찾아
+            [01:11.98]거짓의 파도 속에서도 난 버텨내 | geojis-ui pado sog-eseodo nan beotyeonae
+            [01:17.38]무너진 자리에서 다시 시작해 | muneojin jalieseo dasi sijaghae
+            [01:23.06]도망친 진실을 끝까지 찾아 | domangchin jinsil-eul kkeutkkaji chaj-a
             [01:28.01]Look through the sky
             [01:30.28]Ooh, woah-oh
             [01:34.68]Ooh, woah-oh
@@ -4877,9 +4877,9 @@ const tracks = [
             [02:05.68]Don't you remember?
             [02:08.55]The silence of secrets
             [02:11.64]Even when the light is nowhere to be found
-            [02:16.64]거짓의 파도 속에서도 난 버텨내
-            [02:22.08]무너진 자리에서 다시 시작해무너진 자리에서 다시 시작해
-            [02:27.70]도망친 진실을 끝까지 찾아도망친 진실을 끝까지 찾아
+            [02:16.64]거짓의 파도 속에서도 난 버텨내 | geojis-ui pado sog-eseodo nan beotyeonae
+            [02:22.08]무너진 자리에서 다시 시작해 | muneojin jalieseo dasi sijaghae
+            [02:27.70]도망친 진실을 끝까지 찾아 | domangchin jinsil-eul kkeutkkaji chaj-a
             [02:32.44]Look through the sky
             [02:35.06]Ooh, woah-oh
             [02:38.93]Ooh, woah-oh
@@ -5691,7 +5691,8 @@ const tracks = [
             [02:31.08]そんなんどこにも宛てがあるわけないだろ
             [02:38.25]まだ待つよ
             [02:42.76]
-            [02:44.41]もういいかい`,
+            [02:44.41]もういいかい
+            [02:47.50]`,
         lyrics_rom: `
 boku ga zutto mae kara omotteru koto wo hanasou ka
 tomodachi ni modoretara kore ijou wa mou nozomanai sa
@@ -5732,6 +5733,7 @@ sonnan doko ni mo ate ga aru wake nai daro
 mada matsu yo
 [02:42.76]
 mou ii kai
+[02:47.50]
 `
     },
     {
@@ -5856,7 +5858,62 @@ mou ii kai
             [03:15.22]失くして気づいて
             [03:17.37]初めて大切にされる
             [03:20.07]それじゃもう遅いのに
-`
+`,
+        lyrics_rom: `
+[00:11.04]nemurenai yoru
+[00:12.03]bokura wa hajimete tsunagariatta ki ga shita
+[00:16.08]doushiyou mo nai
+[00:17.36]sonna hibi o kakaeru bokura wa dokoka niteita
+[00:21.16]
+[00:21.50]ryousan sareru ongaku to inochi ga
+[00:24.51]kasanariatte mo
+[00:25.75]toki sude ni okurete
+[00:27.13]futashika na oto ya kotoba ya suuji ni sainamareru
+[00:30.59]sekai wa kizudarake
+[00:31.52]
+[00:31.67]dare datte
+[00:33.11]kotoba ni dekinai itami o kakaeteru
+[00:37.11]boku datte
+[00:38.31]itai hodo shitteru yo sonna koto
+[00:41.86]
+[00:42.11]dakara
+[00:43.48]kono uta wa boku to kimi no
+[00:47.21]iki o tsunagu tame utau aria
+[00:53.45]
+[01:14.15]bokura itsu no jidai mo
+[01:16.95]sayonara ni obiete
+[01:19.21]inochi o moteamashite iru
+[01:22.25]shiru yoshi mo nai noni
+[01:24.62]
+[01:25.03]bokura itsu no mirai mo
+[01:27.59]futsuu o osorete
+[01:29.79]tensai ni naritagaru
+[01:32.44]narou imi mo nai noni
+[01:36.32]
+[01:46.80]wasurerarenain da
+[01:49.52]touta sareta hyoujou
+[01:51.94]sore wa ureshii hou janai
+[01:55.30]kanashii hou no
+[01:57.06]
+[01:57.44]kodomo no koro wa
+[01:59.81]dareka o sukuitai to
+[02:01.92]yume o tsuzutta hazu na no ni
+[02:07.94]
+[02:07.94]bokutachi wa, saigo o motomete umarete kita nda
+[02:13.22]kon haru mo kono natsu mo shinigai o sagashite iru
+[02:18.45]kono sekai o tsukutta kamisama ni
+[02:23.91]barenai basho de kono uta o
+[02:28.79]utawasete
+[02:30.29]
+[03:01.94]bokura itsu no jidai mo
+[03:04.52]heiwa o tamotsu tame
+[03:06.89]heiki o kai ando shite iru
+[03:10.03]hitsuyou mo nai noni
+[03:11.88]
+[03:12.51]bokura itsu no shimai mo
+[03:15.22]nakushite kizuite
+[03:17.37]hajimete taisetsu ni sareru
+[03:20.07]sore ja mou osoi noni`
     },
     {
         chapter: 4,
@@ -6327,6 +6384,55 @@ mou ii kai
 [02:15.20] 繋げ僕らの
 [02:16.76] 世界で二人だけのリズムで
 [02:24.76] 二人だけのリズムで
-`
+`,
+        lyrics_rom: `lrc
+[00:07.12] "mata ashita ne" wa iitakunai
+[00:10.72] daremo inai kaerimichi
+[00:14.20] nande namida ga derun darou na
+[00:18.52] entenka o naide
+[00:20.76] chaimu ga nattara
+[00:22.20] hikari no hayasa de kaerou
+[00:23.96] asa to onaji kyoku kikinagara kaerou
+[00:27.28] saisei
+[00:28.12] itsumo wa kikoenai oto ga shita
+[00:31.68] ki no sei ka
+[00:34.04] "nakanaide, ikou" tte
+[00:35.80] kimi ga iu kara
+[00:37.32] shoujiki hontou ni komatta
+[00:38.92] yuuyake ni futari somatta
+[00:40.56] "ame no sei da yo" tte uso o tsuita
+[00:43.92] sekai de futari dake mitai da ne
+[01:00.68] boku wa machigatte itan da
+[01:01.88] shukanteki ni kanjiru senritsu de
+[01:03.88] sekai no subete o shitta you na kao o shite
+[01:07.12] kimi no suki na kyoku ya kashi o shireta dake de
+[01:10.28] kimi no subete o shitta you na ki ga shite
+[01:13.76] chigau nda yo baka bakka
+[01:15.16] baka wa docchi da tte iun datte
+[01:17.28] karakara na kokoro wa
+[01:18.60] rakka mou kyapa oubaa
+[01:20.48] yuiitsu muni no bouonzai
+[01:21.88] kokoro no sakebi ga kikoenai you ni
+[01:24.16] kyou mo heddohon no onryou ageta
+[01:40.12] yuudachi ga kitara
+[01:41.76] nurenagara kaerou
+[01:43.28] ame to issho ni nakinagara kaerou
+[01:46.84] saisei botan wa
+[01:48.24] kizutsuita kotoba ni tsukaccha dame da
+[01:53.56] "ikanaide yo, nee" tte
+[01:55.32] kimi ga iu kara
+[01:56.76] chuujo suru ashi wa tomatta
+[01:58.52] sono toki no boku wa kou omotta
+[01:59.96] togiresou na kodou o
+[02:01.88] ashita e to tsunagu
+[02:03.56] kimi wa boku no ongaku mitai da ne
+[02:06.40] "nakanaide yo, nee" tte
+[02:08.56] boku ga iu no wa
+[02:10.12] nandaka chotto okashii ka
+[02:11.64] ureshi namida tte waratta
+[02:13.36] togiresou na kodou o
+[02:15.20] tsunage bokura no
+[02:16.76] sekai de futari dake no rizumu de
+[02:24.76] futari dake no rizumu de`
     }
 ];
