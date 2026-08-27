@@ -1037,7 +1037,7 @@ footer {
 }
 
 input:checked+.slider {
-    background-color: var(--accent);
+    background-color: #7c6aef;
 }
 
 input:checked+.slider:before {
