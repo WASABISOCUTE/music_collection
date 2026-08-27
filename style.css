@@ -61,8 +61,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: padding 0.4s cubic-bezier(0.22, 1, 0.36, 1), background 0.4s ease, border-bottom 0.4s ease;
+    border-bottom: 1px solid transparent;
+}
+
+header.scrolled {
+    padding: 20px 60px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+header.scrolled::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 10, 15, 0.05);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    z-index: -1;
+    pointer-events: none;
 }
 
 .logo {
@@ -657,6 +676,29 @@ footer {
     transform-origin: left center;
 }
 
+.lyric-romaji {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.35);
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+}
+
+.lyric-line.active .lyric-romaji {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.lyric-line:hover .lyric-romaji {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.lyric-text {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
 .np-bottom {
     position: relative;
     z-index: 10;
@@ -956,4 +998,56 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+/* Settings Switch Toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--accent);
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 24px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }

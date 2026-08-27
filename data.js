@@ -5692,6 +5692,47 @@ const tracks = [
             [02:38.25]まだ待つよ
             [02:42.76]
             [02:44.41]もういいかい`,
+        lyrics_rom: `
+boku ga zutto mae kara omotteru koto wo hanasou ka
+tomodachi ni modoretara kore ijou wa mou nozomanai sa
+kimi ga sore de ii nara boku dattee sore de kamawanai sa
+usotsuki no boku ga haita hantai kotoba no ai no uta
+[00:21.57]
+kyou wa kocchi no chihou wa doshaburi no seiten deshita
+kinou mo zutto hima de ichinichi mankitsu shite mashita
+betsu ni kimi no koto nante kangaete nanka inai sa
+iya demo chotto hontou wa kangaeteta ka mo nante
+[00:57.76]
+meriigoorando mitai ni mawaru
+boku no atamannaka wa mou guruguru sa
+[01:05.31]
+kono ryoute kara koboresou na hodo
+kimi ni moratta ai wa doko ni suteyou?
+kagiri no aru shoumouhin nante boku wa
+iranai yo
+[01:24.85]
+boku ga zutto mae kara omotteru koto wo hanasou ka
+sugata wa mienai no ni kotoba dake miechatterun da
+boku ga shiranai koto ga aru dake de ki ga kuruisou da
+burasagatta kanjou ga kirei na no ka kitanai no ka
+[01:43.81]
+boku ni wa mada wakarazu suteru ate mo nain da
+kotoba no ura no ura ga
+mieru made matsu kara sa
+matsu kurai nara ii janai ka
+[02:01.43]
+susumu kimi to tomatta boku no
+chijimaranai suki wo nani de umeyou?
+mada sunao ni kotoba ni dekinai boku wa
+tensei no yowamushi sa
+[02:21.85]
+kono ryoute kara koboresou na hodo
+kimi ni watasu ai wo dare ni yuzurou?
+sonnan doko ni mo ate ga aru wake nai daro
+mada matsu yo
+[02:42.76]
+mou ii kai
+`
     },
     {
         chapter: 4,
