@@ -94,10 +94,22 @@ header.scrolled::before {
     gap: 12px;
     text-decoration: none;
     color: white;
+    min-width: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .logo i {
     color: var(--accent);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
 }
 
 .header-actions a {
@@ -981,6 +993,129 @@ footer {
     }
 }
 
+/* Tablet / small desktop header adjustments */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 20px;
+        gap: 12px;
+    }
+
+    header.scrolled {
+        padding: 14px 20px;
+    }
+
+    .logo {
+        font-size: 16px;
+        gap: 8px;
+        letter-spacing: 1px;
+        min-width: 0;
+        flex-shrink: 1;
+    }
+
+    .header-actions {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 4px;
+    }
+
+    .header-actions a,
+    .tooltip-container {
+        font-size: 0;  /* hide text labels */
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    .header-actions a i,
+    .tooltip-container > i {
+        font-size: 18px;
+    }
+
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tooltip-popup {
+        width: 320px;
+        right: -10px;
+    }
+
+    .chapter-title {
+        font-size: 36px;
+    }
+}
+
+/* Mobile header: icon-only buttons, compact layout */
+@media (max-width: 480px) {
+    header {
+        padding: 16px 16px;
+        gap: 8px;
+    }
+
+    header.scrolled {
+        padding: 12px 16px;
+    }
+
+    .logo {
+        font-size: 14px;
+        gap: 6px;
+        letter-spacing: 0.5px;
+    }
+
+    .logo i {
+        font-size: 18px;
+    }
+
+    .header-actions a,
+    .tooltip-container {
+        padding: 6px;
+    }
+
+    .header-actions a i,
+    .tooltip-container > i {
+        font-size: 16px;
+    }
+
+    main {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .tooltip-popup {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+
+    .track-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .chapter-title {
+        font-size: 28px;
+    }
+
+    .chapter-subtitle {
+        margin-bottom: 24px;
+    }
+
+    .np-toast {
+        left: 12px;
+        right: 12px;
+        bottom: 16px;
+        max-width: none;
+        padding: 10px 14px;
+    }
+}
+
 /* Mobile only: move the lyrics panel upward away from the progress bar. */
 @media (max-width: 600px) {
     .np-content {
@@ -1000,7 +1135,6 @@ footer {
     align-items: center;
 }
 
-/* Settings Switch Toggle */
 .switch {
     position: relative;
     display: inline-block;
@@ -1032,7 +1166,7 @@ footer {
     width: 18px;
     left: 3px;
     bottom: 3px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     transition: .4s;
 }
 
