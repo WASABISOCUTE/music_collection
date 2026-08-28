@@ -5602,7 +5602,56 @@ const tracks = [
             [02:55.30]「それでも」って
             [02:59.93]あれからまだ終わらない夢の途中
             [03:06.39]
-            [03:07.94]未来の日の過去を今変えてみせて`
+            [03:07.94]未来の日の過去を今変えてみせて`,
+        lyrics_rom: `[00:03.21] aruki hajimeta toki kara kyou no hi made
+[00:07.20] mienai nanika o oikakete
+[00:10.83] doko made yuku no nani no tame ikiru no
+[00:14.92] ienai mama ni ashi o tometa
+[00:18.11] aa
+[00:18.56]
+[00:34.36] kanseikei wa nobouzu de kanjou no kuichigattari
+[00:38.33] dare mo risou o nozomu yaku mo sanso mo toriau
+[00:42.10] ano hi kara yakitsuite kienai
+[00:45.86] monitaa no saki no nanika
+[00:48.06]
+[00:48.49] tatoeba kako ni modoreba dou shiyou ka
+[00:52.18] dokoka de wasureta yume o erande mitara
+[00:55.86] angai umaku itte
+[00:57.93] demo betsu no sekai no kimi wa ima no kimi ni naritai kamo
+[01:03.90]
+[01:04.62] dare mo ga shirenai sekai no arukikata
+[01:08.61] mienai kotae o oikakete
+[01:12.12] doko made yukutemo nani no tame ikitemo
+[01:16.24] ienai kizu wa fueru keredo
+[01:19.91] ikou
+[01:20.76]
+[01:35.51] daisetsu ni nigirishime hizand eita kibou
+[01:39.49] takaku tobou to sureba fukaku ochite shimau
+[01:43.28] doromizu o susurottemo hana ni narenai
+[01:47.16] omoidoori janai
+[01:48.79]
+[01:49.05] yume no mata yume no naka nani o susuru
+[01:54.26] doko ni todoku
+[01:56.30] yume wa mada yume no mama susumu
+[02:00.13] tomaranai mono wa korobu
+[02:04.11] keredo keshiki wa kawaru
+[02:08.25]
+[02:21.10] imasara wakatta umarete kita imi ga
+[02:24.26] shinenai riyuu ga
+[02:26.13] shitagaki sura mo nai nanika ga mitain da
+[02:29.97] omou mama kakidasou
+[02:32.08] atogaki de arekore katareba ii
+[02:36.23]
+[02:36.77] bokura wa shitteiru sekai no arukikata
+[02:40.72] dakara kyou koko made kitoro
+[02:44.40] hajimari no hi no yuku ate mo negai mo
+[02:48.41] dore mo yotei to chigau keredo
+[02:52.07]
+[02:52.33] hora koe ga suru no
+[02:55.30] soredemo tte
+[02:59.93] are kara mada owaranai yume no tochuu
+[03:06.39]
+[03:07.94] mirai no hi no kako o ima kaete misete`
     },
     {
         chapter: 4,
@@ -5796,6 +5845,60 @@ mou ii kai
 [03:18.50] いつか地球が終わる未来
 [03:21.367] その日のこと
 `,
+        lyrics_rom: `[00:01.10] moshi chikyuu ga bakuhatsu shitara
+[00:04.167] minagoto
+[00:06.20] owatte shimaeba tte
+[00:07.767] nando omotta darou
+[00:11.60] moshi sekaijuu no hito ga yume o akirametara
+[00:16.333] dare no kokoro ni mo ana ga akazu sumu darou
+[00:21.333] saisei
+[00:22.167] chikyuu saigou no hi no myuujikku
+[00:25.767] lala…
+[00:26.433] raise e no pasupooto o kudasai
+[00:31.467] kamisama, nande konna boku dake ga
+[00:34.80] to omotte shimau no deshou
+[00:37.067] tte nando mo toitadashita
+[00:39.833] tadashisa ga wakaranakute
+[00:42.10] zenrinrui ga shiawase dato
+[00:44.90] omoeru hi nante shougrai
+[00:47.067] kuru hazu nado nai tte
+[00:49.367] wazuratta gogatsuneko
+[01:02.10] moshi kimi mo inaku naru no nara
+[01:04.967] kono haru no
+[01:06.80] deai wa wakare o shiru tame ni aru no darou
+[01:12.167] moshi seishinnenrei ni jumyou ga attara
+[01:16.967] boku no seishun wa tokkuni shinde iru darou
+[01:22.033] haikei
+[01:22.90] juunen go no boku wa
+[01:25.467] yume o kanae
+[01:27.00] konna subarashii sekai da to itte…
+[01:31.90] ru wake mo nai
+[01:32.80] nani nandayo genjitsu wa
+[01:35.40] ikite ikite iki o shiteru
+[01:37.967] bakka ja dame da nante
+[01:40.50] saisho kara oshiete yo
+[01:42.533] haneikyuuteikide setsunateki
+[01:45.533] jigenbakudan kakaete
+[01:47.767] konna omoi suru no mo
+[01:49.867] boku dake de ii noni
+[02:13.033] isso no koto yume no naka de
+[02:17.533] eien ni waratte ikiraretara nante
+[02:22.80] kimi ga hoshi ni naru hi no koto sura mo
+[02:28.533] shiranai.
+[02:30.70] shiranai shiranai mama de ii
+[02:42.833] kamisama, nande rokugatsu noni
+[02:46.133] yamai wa naorannai n deshou
+[02:48.40] tte meishou o sagashite ita
+[02:51.267] jikan ni najimenai kara
+[02:53.333] dorama no saishuukai ga
+[02:56.267] nai you na kono jinsei wa
+[02:58.333] itsu owatta to shitemo onaji dakara
+[03:03.033] mou ii yo
+[03:11.133] boku no yamai ni wa namae ga nai kara
+[03:13.533] 365nichi
+[03:16.467] zutto kangaete shimau
+[03:18.50] itsuka chikyuu ga owaru mirai
+[03:21.367] sono hi no koto`
     },
     {
         chapter: 4,
@@ -5981,7 +6084,67 @@ mou ii kai
             [03:02.40]말해줘 너의 이름을
             [03:05.03]우리 둘이라면 이겨낼거야
             [03:07.90]빛이 닿는 곳으로 가자
-            `
+            `,
+        lyrics_rom: `[00:16.32] jeonseol sogui yongsaga jigeum natanasseo
+[00:19.16] mawangeul mujjiroel moheomi sijakdaesseo
+[00:21.57] hana dul ssahyeoganeun biteuneun, ppabamppabam
+[00:24.60] daeum leveleul hanghae rank
+[00:27.41] wiheomhangeolyo
+[00:28.74] aljyo aljyo aljyo aljyo
+[00:30.15] murijanaeyo
+[00:31.49] HP MP chungbunhamnida
+[00:32.90] jeongmal babojyo
+[00:34.24] aljyo aljyo geureochiman nega isseum Never Game Over
+[00:38.41] ajik gieokhago isseumnida pyeongsaeng jikyeojugetdan geu mal
+[00:46.49] geojit hana eobseun jinsimingeolyo
+[00:52.20] garomakneun modeun jeok dolpa!
+[00:55.03] gireul yeoreojulge
+[00:56.95] naman da mitgo ttarawa super nova
+[01:00.15] neoege-man julge power up buff
+[01:02.87] doego-sipeun modeun geoseul sangsanghae
+[01:05.53] ne miraereul jeungmyeonghae Q.E.D!
+[01:08.36] kkeutkkaji gaboja jeo neomeoro
+[01:11.36] himdeul ttaen naega sonjabayulge
+[01:14.03] uri duriramyon igyeonaelgeoya
+[01:16.53] bichi danneun goseuro gaja
+[01:19.41] kkwak chabeorin dummy dataneun
+[01:22.24] gwagamhage jeonbu sakjehae
+[01:24.78] sseusroreul goerobineun bugeuneun
+[01:27.70] jeon rounde teoreoborija
+[01:30.53] chimyeongsangieyo
+[01:31.90] aljyo aljyo aljyo aljyo
+[01:33.29] tto sseureojyeodo dasi hanbeon responhae
+[01:36.00] jujeohage doeyo
+[01:37.38] aljyo aljyo geureonikka uriga hamkkein geomnida
+[01:41.50] deo maneun seesangeul aragago sipeunde
+[01:46.90] pogihaji anko sipeunde
+[01:52.07] buseojigo kkaejeo nae mom gatjido anketjiman
+[01:58.00] hamkke heullin geu nunmulmankeum ollagal geol byeonmyeong. tier up!
+[02:02.61] naman da mitgo ttarawa super nova
+[02:05.95] neoege-man julge power up buff
+[02:08.70] doego-sipeun modeun geoseul sangsanghae
+[02:11.37] ne miraereul jeungmyeonghae Q.E.D!
+[02:14.20] uriui seungrineun injisangjeong
+[02:17.07] cheatgeup chegeube ingimanjeong
+[02:19.87] hanbatang hue dariga pullindam
+[02:22.37] naega ireukyeo julge
+[02:25.37] oenjjok oenjjok oreunjjok oreunjjok oreunjjok
+[02:26.70] oenjjok oenjjok oreunjjok oreunjjok oreunjjok!
+[02:28.00] oenjjok oenjjok oreunjjok oreunjjok oreunjjok
+[02:29.50] oenjjok oenjjok oreunjjok oreunjjok oreunjjok!
+[02:30.78] nappeun logeuneun
+[02:33.41] uriga cheori haesseuni geokjeong malragu
+[02:35.58] gahi choegoui duo-ra hal su itjyo
+[02:38.95] naeilui byeoldeuldo kkeudeokhane-yo
+[02:41.66] kkeuteobsi nalaga jeo einhaleul deotgeurimyeo (bichiyeo~)
+[02:47.30] naman da mitgo ttarawa super nova
+[02:51.15] neoege-man julge power up buff
+[02:53.85] doego-sipeun modeun geoseul sangsanghae
+[02:56.53] ne miraereul jeungmyeonghae Q.E.D!
+[02:59.37] keuge deo keuge keuge deo keuge
+[03:02.40] malhaejuo neoui ireumeul
+[03:05.03] uri duriramyon igyeonaelgeoya
+[03:07.90] bichi danneun goseuro gaja`
     },
     {
         chapter: 4,
@@ -6028,7 +6191,47 @@ mou ii kai
             [02:49.39]
             [02:49.78]この目で確かめようか
             [02:55.65]見た事のない世界へ
-            `
+            `,
+        lyrics_rom: `
+            [00:14.99] sugugu soko ni te o nobaseba tsukamesou na
+[00:20.03] maboroshi o tada nagamete wa
+[00:24.85] chigau iro de korogaru futakakera no
+[00:29.60] kotae o mada shiranai kara
+[00:34.43]
+[00:34.82] michishirube ga soko ni nakutemo
+[00:39.45] toomawari datta to shitemo
+[00:44.22]
+[00:44.43] nakanai you ni warattatte
+[00:47.42] korobanai you ni aruitatte
+[00:50.42] kakushita kotoba wa tsutawaranai kara
+[00:56.43] bokura ga egaku mirai wa tada hitotsu shikanai kara
+[01:02.90]
+[01:03.21] kono me de tashikameyou ka
+[01:10.12]
+[01:20.33] tatoeba soko ni kotae ga aru to shite
+[01:25.10] sore o ima to kurabeta to shite
+[01:29.85] sono toki ni watashi ga miru keshiki wa
+[01:34.74] hitori dato imi ga nai kara
+[01:39.35]
+[01:39.64] mou modorenai kakugo mo
+[01:45.64] koko ni iru to iu shoumei mo
+[01:51.18] dare mo furenai tooi basho de saite iru kara
+[02:03.81]
+[02:04.67] sore ga garakuta no yama datte
+[02:07.74] sore ga buriki no umi datte
+[02:10.82] sore o dareka ni warawaretato shitemo
+[02:17.12]
+[02:17.46] kono sekai no mukougawa e
+[02:20.61] ima todokete mitai kara
+[02:23.78] mada oto wa nariyamani
+[02:28.20]
+[02:30.32] nakanai you ni warattatte
+[02:33.63] korobanai you ni aruitatte
+[02:36.79] kakushita kotoba wa tsutawaranai kara
+[02:43.16] bokura ga egaku mirai wa tada hitotsu shikanai kara
+[02:49.39]
+[02:49.78] kono me de tashikameyou ka
+[02:55.65] mita koto no nai sekai e`
     },
     {
         chapter: 4,
