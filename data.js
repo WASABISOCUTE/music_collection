@@ -6123,7 +6123,95 @@ mou ii kai
             [04:18.49]
             [04:18.75](woah woah woah...)
             [04:39.35]聞こえてる？ この声が`,
+        lyrics_rom: `[00:01.16] ano hi to onaji hoshi o bokura
+[00:04.91] mejirushi ni shite koe o kasaneta
+[00:16.01]
+[00:30.15] ukabiagatta doukei
+[00:31.57] koku nijimendeita koukai mo
+[00:34.67] jibun rashiku hanaseta no nara
+[00:38.22] donna ni raku darou
+[00:40.32]
+[00:40.77] nee donna oto de
+[00:42.06] yume o narashitara ii?
+[00:44.43] wakatteitanda
+[00:46.42] tachidomatteita no wa boku no hou darou
+[00:49.82]
+[00:49.88] koboreochita nanigenai kotobatachi
+[00:56.44] daisetsu ni shite agerarenakatta
+[01:00.27] mite minu furi shitatte
+[01:02.63] koko ni irunda yo tte mada
+[01:05.20] sakaenderu nee
+[01:08.94]
+[01:09.27] nande waratteru ndarou nani hitotsu
+[01:12.44] iitai omoi mo kakidase nai kuse ni
+[01:15.46] (kawaritai susumitai)
+[01:18.15] kizuketanda
+[01:20.06]
+[01:19.93] oto ni nosete
+[01:21.61] nagareteku hitosuji no hikari ni
+[01:24.72] bokura mo nareru kara
+[01:26.16] (kamawanai susumou)
+[01:27.67] tsutaerunda ima
+[01:30.25]
+[01:30.43] 
+[01:41.52] kikoeteiru? kono koe ga
+[01:45.61]
+[01:56.02] tsumori tsumotta touei
+[01:58.01] tsutana ku tsudanda bouei mo
+[02:00.65] jibun rashiku toketa no nara
+[02:04.44] donna ni raku darou
+[02:06.60]
+[02:06.66] nee donna uta de
+[02:08.20] boku o sarashitara ii?
+[02:10.47] hitoribocchi
+[02:12.09] namida koraeteita no wa kako no boku da
+[02:14.64]
+[02:14.75] kuzureochita shoumonai puraidotachi
+[02:21.73] nigedashitakute tamaranakatta
+[02:25.87] tada sobani iru yo tte
+[02:27.56] shinjiterunda yo tte hora
+[02:30.40] kikoeteiru nee
+[02:33.90]
+[02:34.23] nande mayotteru ndarou nani hitotsu
+[02:37.95] suterareru youna omoi nado nai no deshou?
+[02:41.62] (kanaetai todoketai)
+[02:43.06] kakaete ikunda
+[02:44.47]
+[02:45.16] uta ni nosete
+[02:46.92] sekaijuu kakemeguru oto ni
+[02:49.43] bokura mo nareru kana
+[02:51.02] (daiboubu susumou)
+[02:53.40] nobotteikunda
+[02:55.30]
+[03:14.93] bokura
+[03:15.94] hi ga sizumu made waraiatta
+[03:18.62] hoshi o mi ni yoru o hashitta
+[03:21.06] saki nante dou demo yokatta
+[03:23.47] ano kimochi o wasurenai de
+[03:27.67]
+[03:27.94] wasurenai yo zutto
+[03:34.00]
+[03:34.82] kawatteiku mono sugiru mono
+[03:37.80] dare mo tomeru koto nante dekiyashinai kara
+[03:42.51] dekiyashinai kedo
+[03:44.93]
+[03:44.96] kono shunkan ni ikiteiru
+[03:47.60] nogasenai "ima" o mitsukedashitai kara
+[03:51.53] koko ni irunda
+[03:53.67]
+[03:54.87] hibikasetai yo kono uta o
+[03:56.70] matteiru dareka ga soko ni iru no nara
+[04:01.33] (kanadeyou tsutaeyou)
+[04:03.25] umareta sekai de
+[04:05.38]
+[04:05.81] koe ni nosete kurai yoru no
+[04:07.97] sora de bokura mada yowakutemo
+[04:11.43] hikaru kara tsutaerunda ima
+[04:18.49]
+[04:18.75] 
+[04:39.35] kikoeteru? kono koe ga`
     },
+
     {
         chapter: 4,
         title: 'Grievous Lady', artist: 'Team Grimoire',
@@ -6208,6 +6296,70 @@ mou ii kai
             [02:09.07]生きていく
             [02:11.37]この歌が終わるまで
             [02:41.37]`,
+        lyrics_rom: `[00:00.58] "ohayo"
+[00:01.20] asa datte
+[00:02.18] yobu koe wa risoukyou de
+[00:04.39] dare ni mo yabarete nai noni
+[00:06.44] okichatte
+[00:07.79] maniaisou ni nai
+[00:09.27] densha ni mukete
+[00:10.95] imi mo naku hashirunda
+[00:13.29]
+[00:13.70] hazero
+[00:14.54] kaze to HP wa zero
+[00:16.97] kaerou kaerou tte
+[00:18.68] mada ie noni
+[00:19.99] kakuu no akashingo ni
+[00:22.43] torameraru hibi
+[00:25.15] wa mou yameta
+[00:26.50]
+[00:26.71] kono mama
+[00:27.31] rattatta
+[00:28.51] oto ni notte
+[00:29.87] ima kitto sekai de boku dake da
+[00:33.25] ushiromuki na uta o kiite
+[00:36.46] sukoshi dake
+[00:38.60] maemuki ni ikiteiku
+[00:42.17]
+[00:53.48] hitori ga ii kedo
+[00:55.08] konna hitori wa iya datte
+[00:57.48] naimono nedari dake
+[00:59.31] umaku natte
+[01:00.76] maniaisou ni nai
+[01:02.20] kokoro wa itsumo
+[01:03.85] kimi oikaketerunda
+[01:06.33]
+[01:06.65] getsu ka sui mokku kin do nichi
+[01:07.97] kizukeba nichiyou no gogo kujide
+[01:10.43] nani o inorttemo
+[01:11.69] matatakuma ni ashita wa kite
+[01:13.86] tomarou tomo
+[01:14.97] tomaru koto no nai kono hibi
+[01:16.11] sonna bokura ni wa
+[01:18.06] kowai mono nante nai
+[01:26.86]
+[01:33.05] kinou nante mou
+[01:34.82] wasurechaou yo
+[01:36.35] kizamou hibi o
+[01:37.80] mienai hayasade
+[01:39.47] kono gitaa narashite
+[01:41.48] yuuutsu mo kensou mo
+[01:44.62] kakikesu kara
+[01:45.96]
+[01:46.16] kono mama
+[01:46.75] rattatta
+[01:47.93] oto ni notte
+[01:49.31] ima kitto sekai de boku dake da
+[01:52.70] ushiromuki na uta o kiite
+[01:55.93] sukoshi dake
+[01:58.11] maemuki ni ikiteiku
+[01:59.93] rattatta
+[02:01.20] oto ni natte
+[02:02.56] utau yo, sekai ga owaru made
+[02:05.92] mikansei na mama de ii tte
+[02:09.07] ikiteiku
+[02:11.37] kono uta ga owaru made
+[02:41.37]`
     },
     {
         chapter: 4,
@@ -6260,9 +6412,54 @@ mou ii kai
 [02:47.251]自分を大切にできないんだ
 [02:50.420]痛いくらいなら少し我慢するんだ
 [02:54.057]あーあ今日もキャラメルペインです
-
-            
         `,
+        lyrics_rom: `
+        [00:00.784] nee atashi itsumo yuuki ga tarinaikara
+[00:04.755] jibun wo taisetsu ni dekinai nda
+[00:07.992] itai me wo minaito ki zukeyashinai nda
+[00:11.628] aa-a, kyou mo kyarameru pein desu
+[00:16.000]
+[00:23.374] ii ko ne nanka irarenaiyo datte
+[00:26.143] sekai wa konnanimo gokusaishoku de
+[00:30.614] amattarukute nigaishi a, matte atama itaishi
+[00:34.451] hetoheto de tadayou dake no 24/7
+[00:37.721] girigiri kanjou osaeru nante mou muri
+[00:39.823] kono mama de wa irarenai no hibi
+[00:41.392] chotto kowaikedo
+[00:45.529] oiteyukuyo
+[00:48.298] ima made te ni shita ideorogii mo sutairu mo
+[00:52.736] kowarechatte mo ima ga iiyo
+[00:55.672] datte atashi wa atashi no mama de zutto itai nda mon
+[01:00.310] ruuto? muudo? dou demo i yo
+[01:02.146] tuuzanekusuto
+[01:03.080] motto abunai koto shitara kachinandesho
+[01:07.518] nani wo gisei ni shita tte shouganaindayo
+[01:10.454] from my bed, kono mune no itami dake daite
+[01:17.828] aa-a kyou mo kyarameru pein desu
+[01:22.466] mirufiiyu mitai ni hagurakashita tte
+[01:26.136] itsuka barechauyo kusacchauyo
+[01:29.640] itai toka sunao ni kimi ni ietereba
+[01:32.910] itai toka sunao ni kimi ni ietereba imagoro nani ka kawatteta no kamone
+[01:33.377] imagoro nani ka kawatteta no kamone
+[01:37.214] sukina anime mo nakunacchaushi
+[01:40.918] sukina hito datte inaku nacchau nda
+[01:43.987] sabishiku nacchauna
+[01:50.394] taisetsuna koto wa tada hitotsu dakesa
+[01:58.435] mou koukai shinai you ni
+[02:00.737] mae wo muite ikiru toiu koto
+[02:06.743] oiteyukuyo
+[02:09.513] ima made te ni shita ideorogii mo sutairu mo
+[02:13.951] yogorechatte mo ki ni shinaiyo
+[02:16.920] datte atashi wa atashi ni koishitetainda mon
+[02:21.525] aishiteruyo
+[02:24.294] sayonara nante namida ga dechaukedo
+[02:28.732] nani wo gisei ni shita tte shouganaindayo
+[02:31.668] from my bed, kono mune no itami dake daite
+[02:39.076] aa-a kyou mo kyarameru pein desu
+[02:43.213] nee atashi itsumo yuuki ga tarinaikara
+[02:47.251] jibun wo taisetsu ni dekinai nda
+[02:50.420] itai kurainara sukoshi gaman suru nda
+[02:54.057] aa-a, kyou mo kyarameru pein desu`,
     },
     {
         chapter: 4,
@@ -6306,7 +6503,44 @@ mou ii kai
 [02:57.44] 自分以外のこと
 [03:00.48] 信じちゃなんかいないんだ
 [03:03.36] 大人の言うこと
-`
+`,
+        lyrics_rom: `[00:00.80] shinjicha nanka inain da
+[00:03.44] jibun igai no koto
+[00:06.20] shinjicha nanka inain da
+[00:08.80] otona no iu koto
+[00:11.56] boku wa boku no mama de ii
+[00:13.68] tte itte kureru hito wa inakatta
+[00:16.40] dakara nagasameru no ga umain da
+[00:19.36] jibun jishin no koto
+[00:32.80] tasukete tte ienakute
+[00:35.04] kyou mo okujou de hitorikiri
+[00:38.12] toorima ga saratte kureru no o hitasura matteru
+[00:43.48] uchiakete shimattara
+[00:45.72] soshite kawaranai sekai o mite
+[00:48.80] kore ijou no kanashimi wa kakaekirenai kara ne
+[01:04.88] kamisama nante inain da
+[01:07.44] douse hitogoto
+[01:10.24] yume nante kanawanain da
+[01:12.80] kudaranai tawagoto
+[01:15.56] zutto kodomo no mama de ii?
+[01:17.80] tte itte ii bamen nado nakatta
+[01:20.44] dakara akirameru no ga hayain da
+[01:23.40] kodomo no koro no yume
+[01:26.16] tsuyoku nante naritakunagatta
+[01:28.76] dakara kokoro ni yoroi o kisesan da
+[01:31.44] kore ijou kizutsukanai you ni
+[01:34.12] anzen na basho de nemuru mitai ni
+[01:39.48] anzen na basho de nemuru mitai ni
+[01:47.48] dare mo shinjirarenakute
+[01:49.76] kyou mo okujou de hitorikiri
+[01:52.80] jibun no soudangoto sura mo boku jishin de kiiteru
+[01:58.12] uchiakenakute ii yo
+[02:00.40] boku no koto wa zenbu shitteru kara
+[02:03.48] kimi ga motteru kanashimi o hanbun seoitai na
+[02:54.48] shinjicha nanka inain da
+[02:57.44] jibun igai no koto
+[03:00.48] shinjicha nanka inain da
+[03:03.36] otona no iu koto`
     },
     {
         chapter: 4,
