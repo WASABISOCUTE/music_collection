@@ -6021,7 +6021,7 @@ mou ii kai
     {
         chapter: 4,
         title: '프로토콜 슈퍼노바', artist: '아리스 & 케이',
-        context: 'Game - Blue Archiive', desc: '',
+        context: 'Game - Blue Archive', desc: '',
         date: 'JUN 2026', ytId: 'Pm4KSlf19pI', start: 0,
         lyrics: `
             [00:16.32]전설 속의 용사가 지금 나타났어
@@ -6239,180 +6239,183 @@ mou ii kai
         context: '', desc: '',
         date: 'JUN 2026', ytId: 'hZgbqUQI64E', start: 0,
         lyrics: `
-            [00:01.16]あの日と同じ 星を僕ら
-            [00:04.91]目印にして 声を重ねた
-            [00:16.01]
-            [00:30.15]浮かび上がった憧憬
-            [00:31.57]濃く滲んでいた後悔も
-            [00:34.67]自分らしく話せたのなら
-            [00:38.22]どんなに楽だろう
-            [00:40.32]
-            [00:40.77]ねぇどんな音で
-            [00:42.06]夢を鳴らしたらいい？
-            [00:44.43]分かっていたんだ
-            [00:46.42]立ち止まっていたのは僕の方だろう
-            [00:49.82]
-            [00:49.88]零れ落ちた何気ない言葉たち
-            [00:56.44]大事にしてあげられなかった
-            [01:00.27]見て見ぬフリしたって
-            [01:02.63]ここにいるんだよってまだ
-            [01:05.20]叫んでる ねえ
-            [01:08.94]
-            [01:09.27]なんで笑ってるんだろう 何一つ
-            [01:12.44]言いたい想いも 書き出せないくせに
-            [01:15.46]（変わりたい 進みたい）
-            [01:18.15]気付けたんだ
-            [01:20.06]
-            [01:19.93]音にのせて
-            [01:21.61]流れてく一筋の光に
-            [01:24.72]僕らもなれるから
-            [01:26.16]（かまわない 進もう）
-            [01:27.67]伝えるんだ 今
-            [01:30.25]
-            [01:30.43](woah woah woah...)
-            [01:41.52]聞こえている？ この声が
-            [01:45.61]
-            [01:56.02]積もり積もった投影
-            [01:58.01]拙く歪んだ防衛も
-            [02:00.65]自分らしく解けたのなら
-            [02:04.44]どんなに楽だろう
-            [02:06.60]
-            [02:06.66]ねぇどんな詩で
-            [02:08.20]僕を晒したらいい？
-            [02:10.47]独りぼっち
-            [02:12.09]涙堪えていたのは過去の僕だ
-            [02:14.64]
-            [02:14.75]崩れ落ちたしょうもないプライドたち
-            [02:21.73]逃げ出したくてたまらなかった
-            [02:25.87]ただ傍にいるよって
-            [02:27.56]信じてるんだよってほら
-            [02:30.40]聞こえている ねえ
-            [02:33.90]
-            [02:34.23]なんで迷ってるんだろう 何一つ
-            [02:37.95]捨てられるような想いなどないのでしょう？
-            [02:41.62]（叶えたい 届けたい）
-            [02:43.06]抱えて行くんだ
-            [02:44.47]
-            [02:45.16]歌にのせて
-            [02:46.92]世界中駆け巡る音に
-            [02:49.43]僕らもなれるかな
-            [02:51.02]（大丈夫　進もう）
-            [02:53.40]登っていくんだ
-            [02:55.30]
-            [03:14.93]僕ら
-            [03:15.94]日が沈むまで笑い合った
-            [03:18.62]星を見に夜を走った
-            [03:21.06]先なんてどうでも良かった
-            [03:23.47]あの気持ちを 忘れないで
-            [03:27.67]
-            [03:27.94]忘れないよ ずっと
-            [03:34.00]
-            [03:34.82]変わっていくもの 過ぎるもの
-            [03:37.80]誰も止めることなんて出来やしないから
-            [03:42.51]出来やしないけど
-            [03:44.93]
-            [03:44.96]この瞬間に 生きている
-            [03:47.60]逃せない「今」を　見つけ出したいから
-            [03:51.53]ここにいるんだ
-            [03:53.67]
-            [03:54.87]響かせたいよ この歌を
-            [03:56.70]待っている誰かがそこにいるのなら
-            [04:01.33]（奏でよう 伝えよう）
-            [04:03.25]生まれたセカイで
-            [04:05.38]
-            [04:05.81]声にのせて 暗い夜の
-            [04:07.97]空で僕らまだ弱くても
-            [04:11.43]光るから 伝えるんだ　今
-            [04:18.49]
-            [04:18.75](woah woah woah...)
-            [04:39.35]聞こえてる？ この声が`,
-        lyrics_rom: `[00:01.16] ano hi to onaji hoshi o bokura
-[00:04.91] mejirushi ni shite koe o kasaneta
-[00:16.01]
-[00:30.15] ukabiagatta doukei
-[00:31.57] koku nijimendeita koukai mo
-[00:34.67] jibun rashiku hanaseta no nara
-[00:38.22] donna ni raku darou
-[00:40.32]
-[00:40.77] nee donna oto de
-[00:42.06] yume o narashitara ii?
-[00:44.43] wakatteitanda
-[00:46.42] tachidomatteita no wa boku no hou darou
-[00:49.82]
-[00:49.88] koboreochita nanigenai kotobatachi
-[00:56.44] daisetsu ni shite agerarenakatta
-[01:00.27] mite minu furi shitatte
-[01:02.63] koko ni irunda yo tte mada
-[01:05.20] sakaenderu nee
-[01:08.94]
-[01:09.27] nande waratteru ndarou nani hitotsu
-[01:12.44] iitai omoi mo kakidase nai kuse ni
-[01:15.46] (kawaritai susumitai)
-[01:18.15] kizuketanda
-[01:20.06]
-[01:19.93] oto ni nosete
-[01:21.61] nagareteku hitosuji no hikari ni
-[01:24.72] bokura mo nareru kara
-[01:26.16] (kamawanai susumou)
-[01:27.67] tsutaerunda ima
-[01:30.25]
-[01:30.43] 
-[01:41.52] kikoeteiru? kono koe ga
-[01:45.61]
-[01:56.02] tsumori tsumotta touei
-[01:58.01] tsutana ku tsudanda bouei mo
-[02:00.65] jibun rashiku toketa no nara
-[02:04.44] donna ni raku darou
-[02:06.60]
-[02:06.66] nee donna uta de
-[02:08.20] boku o sarashitara ii?
-[02:10.47] hitoribocchi
-[02:12.09] namida koraeteita no wa kako no boku da
-[02:14.64]
-[02:14.75] kuzureochita shoumonai puraidotachi
-[02:21.73] nigedashitakute tamaranakatta
-[02:25.87] tada sobani iru yo tte
-[02:27.56] shinjiterunda yo tte hora
-[02:30.40] kikoeteiru nee
-[02:33.90]
-[02:34.23] nande mayotteru ndarou nani hitotsu
-[02:37.95] suterareru youna omoi nado nai no deshou?
-[02:41.62] (kanaetai todoketai)
-[02:43.06] kakaete ikunda
-[02:44.47]
-[02:45.16] uta ni nosete
-[02:46.92] sekaijuu kakemeguru oto ni
-[02:49.43] bokura mo nareru kana
-[02:51.02] (daiboubu susumou)
-[02:53.40] nobotteikunda
-[02:55.30]
-[03:14.93] bokura
-[03:15.94] hi ga sizumu made waraiatta
-[03:18.62] hoshi o mi ni yoru o hashitta
-[03:21.06] saki nante dou demo yokatta
-[03:23.47] ano kimochi o wasurenai de
-[03:27.67]
-[03:27.94] wasurenai yo zutto
-[03:34.00]
-[03:34.82] kawatteiku mono sugiru mono
-[03:37.80] dare mo tomeru koto nante dekiyashinai kara
-[03:42.51] dekiyashinai kedo
-[03:44.93]
-[03:44.96] kono shunkan ni ikiteiru
-[03:47.60] nogasenai "ima" o mitsukedashitai kara
-[03:51.53] koko ni irunda
-[03:53.67]
-[03:54.87] hibikasetai yo kono uta o
-[03:56.70] matteiru dareka ga soko ni iru no nara
-[04:01.33] (kanadeyou tsutaeyou)
-[04:03.25] umareta sekai de
-[04:05.38]
-[04:05.81] koe ni nosete kurai yoru no
-[04:07.97] sora de bokura mada yowakutemo
-[04:11.43] hikaru kara tsutaerunda ima
-[04:18.49]
-[04:18.75] 
-[04:39.35] kikoeteru? kono koe ga`
+[00:02.91]あの日と同じ 星を僕ら
+[00:06.66]目印にして 声を重ねた
+[00:17.76]
+[00:31.90]浮かび上がった憧憬
+[00:33.32]濃く滲んでいた後悔も
+[00:36.42]自分らしく話せたのなら
+[00:39.97]どんなに楽だろう
+[00:42.07]
+[00:42.52]ねぇどんな音で
+[00:43.81]夢を鳴らしたらいい？
+[00:46.18]分かっていたんだ
+[00:48.17]立ち止まっていたのは僕の方だろう
+[00:51.57]
+[00:51.63]零れ落ちた何気ない言葉たち
+[00:58.19]大事にしてあげられなかった
+[01:02.02]見て見ぬフリしたって
+[01:04.38]ここにいるんだよってまだ
+[01:06.95]叫んでる ねえ
+[01:10.69]
+[01:11.02]なんで笑ってるんだろう 何一つ
+[01:14.19]言いたい想いも 書き出せないくせに
+[01:17.21]（変わりたい 進みたい）
+[01:19.90]気付けたんだ
+[01:21.81]
+[01:21.68]音にのせて
+[01:23.36]流れてく一筋の光に
+[01:26.47]僕らもなれるから
+[01:27.91]（かまわない 進もう）
+[01:29.42]伝えるんだ 今
+[01:32.00]
+[01:32.18](woah woah woah...)
+[01:43.27]聞こえている？ この声が
+[01:47.36]
+[01:57.77]積もり積もった投影
+[01:59.76]拙く歪んだ防衛も
+[02:02.40]自分らしく解けたのなら
+[02:06.19]どんなに楽だろう
+[02:08.35]
+[02:08.41]ねぇどんな詩で
+[02:09.95]僕を晒したらいい？
+[02:12.22]独りぼっち
+[02:13.84]涙堪えていたのは過去の僕だ
+[02:16.39]
+[02:16.50]崩れ落ちたしょうもないプライドたち
+[02:23.48]逃げ出したくてたまらなかった
+[02:27.62]ただ傍にいるよって
+[02:29.31]信じてるんだよってほら
+[02:32.15]聞こえている ねえ
+[02:35.65]
+[02:35.98]なんで迷ってるんだろう 何一つ
+[02:39.70]捨てられるような想いなどないのでしょう？
+[02:43.37]（叶えたい 届けたい）
+[02:44.81]抱えて行くんだ
+[02:46.22]
+[02:46.91]歌にのせて
+[02:48.67]世界中駆け巡る音に
+[02:51.18]僕らもなれるかな
+[02:52.77]（大丈夫　進もう）
+[02:55.15]登っていくんだ
+[02:57.05]
+[03:16.68]僕ら
+[03:17.69]日が沈むまで笑い合った
+[03:20.37]星を見に夜を走った
+[03:22.81]先なんてどうでも良かった
+[03:25.22]あの気持ちを 忘れないで
+[03:29.42]
+[03:29.69]忘れないよ ずっと
+[03:35.75]
+[03:36.57]変わっていくもの 過ぎるもの
+[03:39.55]誰も止めることなんて出来やしないから
+[03:44.26]出来やしないけど
+[03:46.68]
+[03:46.71]この瞬間に 生きている
+[03:49.35]逃せない「今」を　見つけ出したいから
+[03:53.28]ここにいるんだ
+[03:55.42]
+[03:56.62]響かせたいよ この歌を
+[03:58.45]待っている誰かがそこにいるのなら
+[04:03.08]（奏でよう 伝えよう）
+[04:05.00]生まれたセカイで
+[04:07.13]
+[04:07.56]声にのせて 暗い夜の
+[04:09.72]空で僕らまだ弱くても
+[04:13.18]光るから 伝えるんだ　今
+[04:20.24]
+[04:20.50](woah woah woah...)
+[04:41.10]聞こえてる？ この声が
+`,
+        lyrics_rom: `
+[00:02.91] ano hi to onaji hoshi o bokura
+[00:06.66] mejirushi ni shite koe o kasaneta
+[00:17.76]
+[00:31.90] ukabiagatta shoukei
+[00:33.32] koku nijindeita koukai mo
+[00:36.42] jibun rashiku hanaseta no nara
+[00:39.97] donna ni raku darou
+[00:42.07]
+[00:42.52] nee donna oto de
+[00:43.81] yume wo narashitara ii
+[00:46.18] wakatteitanda
+[00:48.17] tachidomatteita no wa boku no hou darou
+[00:51.57]
+[00:51.63] koboreochita nanigenai kotobatachi
+[00:58.19] daiji ni shite agerarenakatta
+[01:02.02] mite minu furi shitatte
+[01:04.38] koko ni irunda yo tte mada
+[01:06.95] sakaenderu nee
+[01:10.69]
+[01:11.02] nande waratteru ndarou nani hitotsu
+[01:14.19] iitai omoi mo kakidase nai kuse ni
+[01:17.21] kawaritai susumitai
+[01:19.90] kizuketanda
+[01:21.81]
+[01:21.68] oto ni nosete
+[01:23.36] nagareteku hitosuji no hikari ni
+[01:26.47] bokura mo nareru kara
+[01:27.91] kamawanai susumou
+[01:29.42] tsutaerunda ima
+[01:32.00]
+[01:32.18]
+[01:43.27] kikoeteiru kono koe ga
+[01:47.36]
+[01:57.77] tsumori tsumotta touei
+[01:59.76] tsutana ku yuganda bouei mo
+[02:02.40] jibun rashiku hodoketa no nara
+[02:06.19] donna ni raku darou
+[02:08.35]
+[02:08.41] nee donna uta de
+[02:09.95] boku wo sarashitara ii
+[02:12.22] hitoribocchi
+[02:13.84] namida koraeteita no wa kako no boku da
+[02:16.39]
+[02:16.50] kuzureochita shoumonai puraidotachi
+[02:23.48] nigedashitakute tamaranakatta
+[02:27.62] tada soba ni iru yo tte
+[02:29.31] shinjiterunda yo tte hora
+[02:32.15] kikoeteiru nee
+[02:35.65]
+[02:35.98] nande mayotteru ndarou nani hitotsu
+[02:39.70] suterareru youna omoi nado nai no deshou
+[02:43.37] kanaetai todoketai
+[02:44.81] kakaete ikunda
+[02:46.22]
+[02:46.91] uta ni nosete
+[02:48.67] sekaijuu kakemeguru oto ni
+[02:51.18] bokura mo nareru kana
+[02:52.77] daijoubu susumou
+[02:55.15] nobotte ikunda
+[02:57.05]
+[03:16.68] bokura
+[03:17.69] hi ga shizumu made waraiatta
+[03:20.37] hoshi wo mi ni yoru wo hashitta
+[03:22.81] saki nante dou demo yokatta
+[03:25.22] ano kimochi wo wasurenai de
+[03:29.42]
+[03:29.69] wasurenai yo zutto
+[03:35.75]
+[03:36.57] kawatteiku mono sugiru mono
+[03:39.55] dare mo tomeru koto nante dekiyashinai kara
+[03:44.26] dekiyashinai kedo
+[03:46.68]
+[03:46.71] kono shunkan ni ikite iru
+[03:49.35] nogasenai ima wo mitsukedashitai kara
+[03:53.28] koko ni irunda
+[03:55.42]
+[03:56.62] hibikasetai yo kono uta wo
+[03:58.45] matteiru dareka ga soko ni iru no nara
+[04:03.08] kanadeyou tsutaeyou
+[04:05.00] umareta sekai de
+[04:07.13]
+[04:07.56] koe ni nosete kurai yoru no
+[04:09.72] sora de bokura mada yowakute mo
+[04:13.18] hikaru kara tsutaerunda ima
+[04:20.24]
+[04:20.50]
+[04:41.10] kikoeteru kono koe ga
+`
     },
 
     {
@@ -6499,7 +6502,7 @@ mou ii kai
             [02:09.07]生きていく
             [02:11.37]この歌が終わるまで
             [02:41.37]`,
-        lyrics_rom: `[00:00.58] "ohayo"
+        lyrics_rom: `[00:00.58] ohayo
 [00:01.20] asa datte
 [00:02.18] yobu koe wa risoukyou de
 [00:04.39] dare ni mo yabarete nai noni
@@ -6582,6 +6585,8 @@ mou ii kai
 [00:39.823]このままではいられないの日々
 [00:41.392]ちょっとこわいけど
 [00:45.529]置いてくよ
+[00:46.209]置いてくよ
+[00:47.073]置いてくよ
 [00:48.298]今まで手にしたイデオロギーもスタイルも
 [00:52.736]壊れちゃっても今がいいよ
 [00:55.672]だってあたしはあたしのままでずっといたいんだもん
@@ -6620,24 +6625,26 @@ mou ii kai
         [00:00.784] nee atashi itsumo yuuki ga tarinaikara
 [00:04.755] jibun wo taisetsu ni dekinai nda
 [00:07.992] itai me wo minaito ki zukeyashinai nda
-[00:11.628] aa-a, kyou mo kyarameru pein desu
+[00:11.628] aa-a kyou mo kyarameru pein desu
 [00:16.000]
 [00:23.374] ii ko ne nanka irarenaiyo datte
 [00:26.143] sekai wa konnanimo gokusaishoku de
-[00:30.614] amattarukute nigaishi a, matte atama itaishi
-[00:34.451] hetoheto de tadayou dake no 24/7
+[00:30.614] amattarukute nigaishi a matte atama itaishi
+[00:34.451] hetoheto de tadayou dake no twenty four seven
 [00:37.721] girigiri kanjou osaeru nante mou muri
 [00:39.823] kono mama de wa irarenai no hibi
 [00:41.392] chotto kowaikedo
 [00:45.529] oiteyukuyo
+[00:46.209] oiteyukuyo
+[00:47.073] oiteyukuyo
 [00:48.298] ima made te ni shita ideorogii mo sutairu mo
 [00:52.736] kowarechatte mo ima ga iiyo
 [00:55.672] datte atashi wa atashi no mama de zutto itai nda mon
-[01:00.310] ruuto? muudo? dou demo i yo
+[01:00.310] ruuto muudo dou demo i yo
 [01:02.146] tuuzanekusuto
 [01:03.080] motto abunai koto shitara kachinandesho
 [01:07.518] nani wo gisei ni shita tte shouganaindayo
-[01:10.454] from my bed, kono mune no itami dake daite
+[01:10.454] from my bed kono mune no itami dake daite
 [01:17.828] aa-a kyou mo kyarameru pein desu
 [01:22.466] mirufiiyu mitai ni hagurakashita tte
 [01:26.136] itsuka barechauyo kusacchauyo
@@ -6657,12 +6664,12 @@ mou ii kai
 [02:21.525] aishiteruyo
 [02:24.294] sayonara nante namida ga dechaukedo
 [02:28.732] nani wo gisei ni shita tte shouganaindayo
-[02:31.668] from my bed, kono mune no itami dake daite
+[02:31.668] from my bed kono mune no itami dake daite
 [02:39.076] aa-a kyou mo kyarameru pein desu
 [02:43.213] nee atashi itsumo yuuki ga tarinaikara
 [02:47.251] jibun wo taisetsu ni dekinai nda
 [02:50.420] itai kurainara sukoshi gaman suru nda
-[02:54.057] aa-a, kyou mo kyarameru pein desu`,
+[02:54.057] aa-a kyou mo kyarameru pein desu`,
     },
     {
         chapter: 4,
@@ -6722,7 +6729,7 @@ mou ii kai
 [00:45.72] soshite kawaranai sekai o mite
 [00:48.80] kore ijou no kanashimi wa kakaekirenai kara ne
 [01:04.88] kamisama nante inain da
-[01:07.44] douse hitogoto
+[01:07.44] douse taningoto
 [01:10.24] yume nante kanawanain da
 [01:12.80] kudaranai tawagoto
 [01:15.56] zutto kodomo no mama de ii?
@@ -6767,6 +6774,37 @@ mou ii kai
         context: 'Game - Genshin Impact / FYSA School Anniversary', desc: '',
         date: 'AUG 2026', ytId: '4uHGpV9OGms', start: 0,
         lyrics: `(Instrumental — No Lyrics)`,
+    },
+    {
+        chapter: 4,
+        title: 'Columbina\'s Poem', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: 'AUG 2026', ytId: 'SNWp5TCdzRY', start: 0,
+        lyrics: `[00:01.50] Domina, o luna nostra, mitte lucem tuam
+[00:17.35] Caedes immanes, sopores necesse
+[00:20.20] (Quid tristes querimoniae, si non supplicio culpa reciditur?)
+[00:27.50] (Sonitumne ferrorum audis? Clamor gentium est ille, haud lamentum ergastuli.) 
+[00:31.383] Non possent lucem et nostram spem 
+[00:45.00]
+[01:25.95] Vola, columbula nostra, vola
+[01:32.233] Quom luce lunae
+[01:37.00]
+[01:49.233] Vola, cara columbula, sine fine vola
+[02:02.75] Vola, cara columbula, ad sublunaria
+[02:15.866] Audite fati campana sonat
+[02:21.516] Aestus attulit spemque liberam
+[02:28.70] Annorum mille mala, atra mala
+[02:35.333] A patria sub luna ablutum
+[02:39.80] Ad mare caeruleum rapietur
+[02:47.00]
+[02:58.483] Assurge, o luna, tenebras illumina
+[03:12.00]
+[03:34.75] Dum nulla supersit o sedes aerumnae
+[03:48.55] Ut impii lunas usurpantes nullas sedes habeant hoc modo
+[04:02.633] In atra tenebris perpetuo mergantur
+[04:16.00]
+
+        `,
     },
     {
         chapter: 4,
@@ -6840,34 +6878,34 @@ mou ii kai
 [00:40.56] "ame no sei da yo" tte uso o tsuita
 [00:43.92] sekai de futari dake mitai da ne
 [01:00.68] boku wa machigatte itan da
-[01:01.88] shukanteki ni kanjiru senritsu de
-[01:03.88] sekai no subete o shitta you na kao o shite
-[01:07.12] kimi no suki na kyoku ya kashi o shireta dake de
-[01:10.28] kimi no subete o shitta you na ki ga shite
-[01:13.76] chigau nda yo baka bakka
-[01:15.16] baka wa docchi da tte iun datte
+[01:01.88] shukanteki ni kanjiru merodii de
+[01:03.88] sekai no subete wo shitta you na kao wo shite
+[01:07.12] kimi no suki na kyoku ya kashi wo shireta dake de
+[01:10.28] kimi no subete wo shitta you na ki ga shite
+[01:13.76] chigaun da yo baka bakka
+[01:15.16] baka wa docchi datteiun datte
 [01:17.28] karakara na kokoro wa
-[01:18.60] rakka mou kyapa oubaa
+[01:18.60] rakka mou kyapa oobaa
 [01:20.48] yuiitsu muni no bouonzai
 [01:21.88] kokoro no sakebi ga kikoenai you ni
 [01:24.16] kyou mo heddohon no onryou ageta
 [01:40.12] yuudachi ga kitara
-[01:41.76] nurenagara kaerou
+[01:41.76] nure nagara kaerou
 [01:43.28] ame to issho ni nakinagara kaerou
 [01:46.84] saisei botan wa
 [01:48.24] kizutsuita kotoba ni tsukaccha dame da
-[01:53.56] "ikanaide yo, nee" tte
+[01:53.56] "ika naide yo, nee" tte
 [01:55.32] kimi ga iu kara
-[01:56.76] chuujo suru ashi wa tomatta
+[01:56.76] chuutosuru ashi wa tomatta
 [01:58.52] sono toki no boku wa kou omotta
-[01:59.96] togiresou na kodou o
+[01:59.96] kiresou na kodou wo
 [02:01.88] ashita e to tsunagu
 [02:03.56] kimi wa boku no ongaku mitai da ne
 [02:06.40] "nakanaide yo, nee" tte
 [02:08.56] boku ga iu no wa
 [02:10.12] nandaka chotto okashii ka
 [02:11.64] ureshi namida tte waratta
-[02:13.36] togiresou na kodou o
+[02:13.36] kiresou na kodou o
 [02:15.20] tsunage bokura no
 [02:16.76] sekai de futari dake no rizumu de
 [02:24.76] futari dake no rizumu de`
