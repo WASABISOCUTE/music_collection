@@ -6861,7 +6861,7 @@ mou ii kai
 [02:24.76] 二人だけのリズムで
 `,
         lyrics_rom: `lrc
-[00:07.12] "mata ashita ne" wa iitakunai
+[00:07.12] mata ashita ne wa iitakunai
 [00:10.72] daremo inai kaerimichi
 [00:14.20] nande namida ga derun darou na
 [00:18.52] entenka o naide
@@ -6871,11 +6871,11 @@ mou ii kai
 [00:27.28] saisei
 [00:28.12] itsumo wa kikoenai oto ga shita
 [00:31.68] ki no sei ka
-[00:34.04] "nakanaide, ikou" tte
+[00:34.04] nakanaide ikou tte
 [00:35.80] kimi ga iu kara
 [00:37.32] shoujiki hontou ni komatta
 [00:38.92] yuuyake ni futari somatta
-[00:40.56] "ame no sei da yo" tte uso o tsuita
+[00:40.56] ame no sei da yo tte uso o tsuita
 [00:43.92] sekai de futari dake mitai da ne
 [01:00.68] boku wa machigatte itan da
 [01:01.88] shukanteki ni kanjiru merodii de
@@ -6894,14 +6894,14 @@ mou ii kai
 [01:43.28] ame to issho ni nakinagara kaerou
 [01:46.84] saisei botan wa
 [01:48.24] kizutsuita kotoba ni tsukaccha dame da
-[01:53.56] "ika naide yo, nee" tte
+[01:53.56] ika naide yo nee tte
 [01:55.32] kimi ga iu kara
 [01:56.76] chuutosuru ashi wa tomatta
 [01:58.52] sono toki no boku wa kou omotta
 [01:59.96] kiresou na kodou wo
 [02:01.88] ashita e to tsunagu
 [02:03.56] kimi wa boku no ongaku mitai da ne
-[02:06.40] "nakanaide yo, nee" tte
+[02:06.40] nakanaide yo nee tte
 [02:08.56] boku ga iu no wa
 [02:10.12] nandaka chotto okashii ka
 [02:11.64] ureshi namida tte waratta
