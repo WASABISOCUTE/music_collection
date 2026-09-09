@@ -699,9 +699,15 @@
             const showPronunciation = document.getElementById('setting-pronunciation') ? document.getElementById('setting-pronunciation').checked : false;
             const isTranslationEnabled = document.getElementById('setting-translation') ? document.getElementById('setting-translation').checked : true;
 
+            // Hide/show translation button according to the setting
+            const transBtn = document.getElementById('btn-trans');
+            if (transBtn) {
+                transBtn.style.display = isTranslationEnabled ? 'inline-block' : 'none';
+            }
+
             let effectiveTransMode = translationMode;
-            if (translationMode === 'zh' && !hasZh) effectiveTransMode = 'none';
-            if (translationMode === 'en' && !hasEn) effectiveTransMode = 'none';
+            if (effectiveTransMode === 'zh' && !hasZh) effectiveTransMode = 'none';
+            if (effectiveTransMode === 'en' && !hasEn) effectiveTransMode = 'none';
 
             const transByTime = {};
             const plainTransList = [];
