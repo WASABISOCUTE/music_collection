@@ -11,6 +11,12 @@ const config = {
         title: '', artist: '',
         context: '', desc: '',
         date: '', ytId: '', start: 0, end: 0,
+        lyrics:``,
+        lyrics_rom``,
+        lyrics_zh:``,
+        trans_source_zh:``,
+        lyrics_en:``,
+        trans_source_en:``,
 }
 */
 const tracks = [
@@ -6502,70 +6508,197 @@ mou ii kai
             [02:09.07]生きていく
             [02:11.37]この歌が終わるまで
             [02:41.37]`,
-        lyrics_rom: `[00:00.58] ohayo
-[00:01.20] asa datte
-[00:02.18] yobu koe wa risoukyou de
-[00:04.39] dare ni mo yabarete nai noni
-[00:06.44] okichatte
-[00:07.79] maniaisou ni nai
-[00:09.27] densha ni mukete
-[00:10.95] imi mo naku hashirunda
-[00:13.29]
-[00:13.70] hazero
-[00:14.54] kaze to HP wa zero
-[00:16.97] kaerou kaerou tte
-[00:18.68] mada ie noni
-[00:19.99] kakuu no akashingo ni
-[00:22.43] torameraru hibi
-[00:25.15] wa mou yameta
-[00:26.50]
-[00:26.71] kono mama
-[00:27.31] rattatta
-[00:28.51] oto ni notte
-[00:29.87] ima kitto sekai de boku dake da
-[00:33.25] ushiromuki na uta o kiite
-[00:36.46] sukoshi dake
-[00:38.60] maemuki ni ikiteiku
-[00:42.17]
-[00:53.48] hitori ga ii kedo
-[00:55.08] konna hitori wa iya datte
-[00:57.48] naimono nedari dake
-[00:59.31] umaku natte
-[01:00.76] maniaisou ni nai
-[01:02.20] kokoro wa itsumo
-[01:03.85] kimi oikaketerunda
-[01:06.33]
-[01:06.65] getsu ka sui mokku kin do nichi
-[01:07.97] kizukeba nichiyou no gogo kujide
-[01:10.43] nani o inorttemo
-[01:11.69] matatakuma ni ashita wa kite
-[01:13.86] tomarou tomo
-[01:14.97] tomaru koto no nai kono hibi
-[01:16.11] sonna bokura ni wa
-[01:18.06] kowai mono nante nai
-[01:26.86]
-[01:33.05] kinou nante mou
-[01:34.82] wasurechaou yo
-[01:36.35] kizamou hibi o
-[01:37.80] mienai hayasade
-[01:39.47] kono gitaa narashite
-[01:41.48] yuuutsu mo kensou mo
-[01:44.62] kakikesu kara
-[01:45.96]
-[01:46.16] kono mama
-[01:46.75] rattatta
-[01:47.93] oto ni notte
-[01:49.31] ima kitto sekai de boku dake da
-[01:52.70] ushiromuki na uta o kiite
-[01:55.93] sukoshi dake
-[01:58.11] maemuki ni ikiteiku
-[01:59.93] rattatta
-[02:01.20] oto ni natte
-[02:02.56] utau yo, sekai ga owaru made
-[02:05.92] mikansei na mama de ii tte
-[02:09.07] ikiteiku
-[02:11.37] kono uta ga owaru made
-[02:41.37]`
+        lyrics_rom: `ohayo
+asa datte
+yobu koe wa risoukyou de
+dare ni mo yabarete nai noni
+okichatte
+maniaisou ni nai
+densha ni mukete
+imi mo naku hashirunda
+
+hazero
+kaze to HP wa zero
+kaerou kaerou tte
+mada ie noni
+kakuu no akashingo ni
+torameraru hibi
+wa mou yameta
+
+kono mama
+rattatta
+oto ni notte
+ima kitto sekai de boku dake da
+ushiromuki na uta o kiite
+sukoshi dake
+maemuki ni ikiteiku
+
+hitori ga ii kedo
+konna hitori wa iya datte
+naimono nedari dake
+umaku natte
+maniaisou ni nai
+kokoro wa itsumo
+kimi oikaketerunda
+
+getsu ka sui mokku kin do nichi
+kizukeba nichiyou no gogo kujide
+nani o inorttemo
+matatakuma ni ashita wa kite
+tomarou tomo
+tomaru koto no nai kono hibi
+sonna bokura ni wa
+kowai mono nante nai
+
+kinou nante mou
+wasurechaou yo
+kizamou hibi o
+mie'nai hayasade
+kono gitaa narashite
+yuuutsu mo kensou mo
+kakikesu kara
+
+kono mama
+rattatta
+oto ni notte
+ima kitto sekai de boku dake da
+ushiromuki na uta o kiite
+sukoshi dake
+maemuki ni ikiteiku
+rattatta
+oto ni natte
+utau yo, sekai ga owaru made
+mikansei na mama de ii tte
+ikiteiku
+kono uta ga owaru made`,
+        lyrics_en: `"Good morning"
+That's how the voice calls to me
+It's the story of a utopia
+I woke up 
+when no one called me
+I'm running for a train
+that's not going to make it
+I run for no reason
+
+Blast it
+Wind and zero HP
+Let's go home, let's go home
+I'm still home
+Every day
+I'm stopped at imaginary red lights
+I'm done with this
+
+I'm just gonna keep going
+Riding on the sound of
+"ra-ta-ta-ta-ta"
+I'm sure I'm the only one in the world right now
+Listening to backward-looking songs
+I'm going to live
+a little more positively
+
+I'd rather be alone
+I don't want to be alone like this
+I'm getting better at begging for
+things I don't have
+My heart can't seem to
+catch up to you
+I'm chasing you
+
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Before I know it, it's nine o'clock on a Sunday afternoon
+No matter what I pray for
+tomorrow will come in the blink of an eye
+These days that never stop
+even if we try to stop
+For us
+there's nothing to be afraid of
+
+Let's forget about yesterday
+Let's forget about it
+Let's tick away the days
+At a speed you can't see
+I'll strum this guitar
+I'll drown out the gloom and the bustle
+I'll drown it out
+
+I'm just gonna keep going
+Riding on the sound of
+"ra-ta-ta-ta-ta"
+I'm sure I'm the only one in the world right now
+Listening to backward-looking songs
+I'm going to live
+a little more positively
+I would be the sound of
+"ra-ta-ta-ta-ta"
+I'll sing until the world ends
+I'll live my life saying
+it's okay to be incomplete
+Until this song ends`,
+        trans_source_en: `Lyrics Translations @Reletr`,
+        lyrics_zh: `早安
+早上了啊
+呼唤的声音来自理想乡
+明明谁也没叫
+我却醒了过来
+朝着看来
+大概追赶不上的电车
+毫无意义地奔跑起来
+
+炸裂吧
+风和HP都归零了
+回家吧回去吧
+明明还待在家里
+被虚构的红灯
+阻止前进的日子
+再也不会有了
+
+就这样
+啦哒哒
+乘着乐音的节奏
+此刻的世界上想必只有我一个而已
+聆听着那些消极的歌
+试着稍微
+再积极一点地活下去
+
+虽然喜欢一个人独处
+却讨厌这样的孤单
+惟独追寻不可求的事物
+变得越来越熟练
+看来大概
+追赶不上的心
+总是一直追逐在你的背后
+
+一二三四五六日
+回过神来已是周日晚上九点
+无论如何祈求明天
+还是眨眼就到来
+即使想停下来每一天
+还是依然如期而至
+对于这样的我们来说
+已经没什么好害怕的
+
+昨天什么的
+干脆忘了吧
+雕刻下的岁月
+以不可见的速度飞逝
+弹拨响这把吉他
+忧郁也好喧嚣也罢
+都会被掩盖过去
+
+就这样
+啦哒哒
+乘着乐音的节奏
+此刻的世界上想必只有我一个而已
+聆听着那些消极的歌
+试着稍微
+再积极一点地活下去
+啦哒哒
+化为乐音的节奏
+歌唱吧，直至世界末日那天
+保持不完美的状态也没关系
+继续活下去
+直到这首歌结束为止`,
+        trans_source_zh: `巴哈姆特 @Fir`,
     },
     {
         chapter: 4,
@@ -6599,7 +6732,6 @@ mou ii kai
 [01:22.466]ミルフィーユみたいにはぐらかしたって
 [01:26.136]いつかバレちゃうよ 腐っちゃうよ
 [01:29.640]痛いとか素直に君に言えてれば
-[01:32.910]痛いとか素直に君に言えてれば 今頃何か変わってたのかもね
 [01:33.377]今頃何か変わってたのかもね
 [01:37.214]好きなアニメもなくなっちゃうし
 [01:40.918]好きな人だっていなくなっちゃうんだ
@@ -6608,10 +6740,14 @@ mou ii kai
 [01:58.435]もう後悔しないように
 [02:00.737]前を向いて生きるということ!
 [02:06.743]置いてくよ
+[02:07.500]置いてくよ
+[02:08.200]置いてくよ
 [02:09.513]今まで手にしたイデオロギーもスタイルも
 [02:13.951]汚れちゃっても気にしないよ
 [02:16.920]だってあたしはあたしに恋してたいんだもん
 [02:21.525]愛してるよ
+[02:22.400]愛してるよ
+[02:23.00]愛してるよ
 [02:24.294]さよならなんて涙が出ちゃうけど
 [02:28.732]何を犠牲にしたってしょうがないんだよ
 [02:31.668]フロムマイベッド この胸の痛みだけ抱いて
@@ -6622,54 +6758,161 @@ mou ii kai
 [02:54.057]あーあ今日もキャラメルペインです
         `,
         lyrics_rom: `
-        [00:00.784] nee atashi itsumo yuuki ga tarinaikara
-[00:04.755] jibun wo taisetsu ni dekinai nda
-[00:07.992] itai me wo minaito ki zukeyashinai nda
-[00:11.628] aa-a kyou mo kyarameru pein desu
-[00:16.000]
-[00:23.374] ii ko ne nanka irarenaiyo datte
-[00:26.143] sekai wa konnanimo gokusaishoku de
-[00:30.614] amattarukute nigaishi a matte atama itaishi
-[00:34.451] hetoheto de tadayou dake no twenty four seven
-[00:37.721] girigiri kanjou osaeru nante mou muri
-[00:39.823] kono mama de wa irarenai no hibi
-[00:41.392] chotto kowaikedo
-[00:45.529] oiteyukuyo
-[00:46.209] oiteyukuyo
-[00:47.073] oiteyukuyo
-[00:48.298] ima made te ni shita ideorogii mo sutairu mo
-[00:52.736] kowarechatte mo ima ga iiyo
-[00:55.672] datte atashi wa atashi no mama de zutto itai nda mon
-[01:00.310] ruuto muudo dou demo i yo
-[01:02.146] tuuzanekusuto
-[01:03.080] motto abunai koto shitara kachinandesho
-[01:07.518] nani wo gisei ni shita tte shouganaindayo
-[01:10.454] from my bed kono mune no itami dake daite
-[01:17.828] aa-a kyou mo kyarameru pein desu
-[01:22.466] mirufiiyu mitai ni hagurakashita tte
-[01:26.136] itsuka barechauyo kusacchauyo
-[01:29.640] itai toka sunao ni kimi ni ietereba
-[01:32.910] itai toka sunao ni kimi ni ietereba imagoro nani ka kawatteta no kamone
-[01:33.377] imagoro nani ka kawatteta no kamone
-[01:37.214] sukina anime mo nakunacchaushi
-[01:40.918] sukina hito datte inaku nacchau nda
-[01:43.987] sabishiku nacchauna
-[01:50.394] taisetsuna koto wa tada hitotsu dakesa
-[01:58.435] mou koukai shinai you ni
-[02:00.737] mae wo muite ikiru toiu koto
-[02:06.743] oiteyukuyo
-[02:09.513] ima made te ni shita ideorogii mo sutairu mo
-[02:13.951] yogorechatte mo ki ni shinaiyo
-[02:16.920] datte atashi wa atashi ni koishitetainda mon
-[02:21.525] aishiteruyo
-[02:24.294] sayonara nante namida ga dechaukedo
-[02:28.732] nani wo gisei ni shita tte shouganaindayo
-[02:31.668] from my bed kono mune no itami dake daite
-[02:39.076] aa-a kyou mo kyarameru pein desu
-[02:43.213] nee atashi itsumo yuuki ga tarinaikara
-[02:47.251] jibun wo taisetsu ni dekinai nda
-[02:50.420] itai kurainara sukoshi gaman suru nda
-[02:54.057] aa-a kyou mo kyarameru pein desu`,
+        nee atashi itsumo yuuki ga tarinaikara
+        jibun wo taisetsu ni dekinai nda
+        itai me wo minaito ki zukeyashinai nda
+        aa-a kyou mo kyarameru pein desu
+
+        ii ko ne nanka irarenaiyo datte
+        sekai wa konnanimo gokusaishoku de
+        amattarukute nigaishi a matte atama itaishi
+        hetoheto de tadayou dake no twenty four seven
+        girigiri kanjou osaeru nante mou muri
+        kono mama de wa irarenai no hibi
+        chotto kowaikedo
+        oiteyukuyo
+        oiteyukuyo
+        oiteyukuyo
+        ima made te ni shita ideorogii mo sutairu mo
+        kowarechatte mo ima ga iiyo
+        datte atashi wa atashi no mama de zutto itai nda mon
+        ruuto muudo dou demo i yo
+        tuuzanekusuto
+        motto abunai koto shitara kachinandesho
+        nani wo gisei ni shita tte shouganaindayo
+        from my bed kono mune no itami dake daite
+        aa-a kyou mo kyarameru pein desu
+        mirufiiyu mitai ni hagurakashita tte
+        itsuka barechauyo kusacchauyo
+        itai toka sunao ni kimi ni ietereba
+        imagoro nani ka kawatteta no kamone
+        sukina anime mo nakunacchaushi
+        sukina hito datte inaku nacchau nda
+        sabishiku nacchauna
+        taisetsuna koto wa tada hitotsu dakesa
+        mou koukai shinai you ni
+        mae wo muite ikiru toiu koto
+        oiteyukuyo
+        oiteyukuyo
+        oiteyukuyo
+        ima made te ni shita ideorogii mo sutairu mo
+        yogorechatte mo ki ni shinaiyo
+        datte atashi wa atashi ni koishitetainda mon
+        aishiteruyo
+        aishiteruyo
+        aishiteruyo
+        sayonara nante namida ga dechaukedo
+        nani wo gisei ni shita tte shouganaindayo
+        from my bed kono mune no itami dake daite
+        aa-a kyou mo kyarameru pein desu
+        nee atashi itsumo yuuki ga tarinaikara
+        jibun wo taisetsu ni dekinai nda
+        itai kurainara sukoshi gaman suru nda
+        aa-a kyou mo kyarameru pein desu`,
+        lyrics_en: `(Hey) I never seem to have the courage
+To put myself first
+I won't realize unless I've been hurt first
+Ah, so I'm in caramel pain again
+
+Don't expect me to be a goody-two-shoes
+When the world comes in all shapes, sizes, and flavors
+Too sweet, too bitter, my head's about to splinter
+All I do is wade through it in a daze 24/7
+(I've had it, can't hold my emotions down)
+(Can't live my life like this, it'd be a letdown​)
+Scary as it is​ ​​
+​I'll leave it behind​
+I'll leave it behind​
+I'll leave it behind​ ​
+My ideologies, my way or the highway​ ​
+Thеy may break, but I like the way it is​ ​​
+'Cause I wanna be who I am forever​ ​​
+​The route? The mood? Who cares?​
+To the next we go​ ​​
+​'Cause who dares wins, right?​ ​​
+​If sacrifices must be made, they will be​ ​​
+From my bed, I rise​ ​​​​​holding on to my hurt alone
+(Ah, ah, ah) So I'm in caramel pain again
+​Layer it and hide it like a mille-feuille​ ​​
+But it'll fall away (It'll all fall apart​)
+If I'd told you about all my hurt​
+Would things have​ ​​​​​been different, a better start?​ ​​
+The anime I love go away​ ​​
+Even the people I love go away​ ​​
+It's all so, so sad​, ah
+But there's only one thing that matters​ ​​
+Leave no stone unturned, have no regrets​,​ ​​​​as good as it gets​
+Live life with my head held high
+I'll leave it behind
+I'll leave it behind
+I'll leave it behind 
+My ideologies, my way or the highway​ ​
+They may get stained,​​​​​ ​but I'll take it the way it is​
+'Cause I wanna be​ ​​​​ ​in love with myself forever​ ​​
+I love you
+I love you
+I love you
+Saying goodbye brings out the tears​ ​​
+​If sacrifices must be made, they will be​ ​​
+From my bed, I rise​ ​​​​​holding on to my hurt alone
+(Ah, ah, ah) So I'm in caramel pain again
+(Ah-ah, ah, ah, ah) Hey, I never seem to have the courage
+(Ah, ah, ah) To put myself first
+(Ah-ah, ah, ah, ah) ​I can deal with a little hurt​
+Ah, so I'm in caramel pain again`,
+        trans_source_en: 'YouTube @Suisei Channel',
+        lyrics_zh: `呐 我总是缺少了点勇气
+所以没办法好好爱惜自己
+不到遍体鳞伤的地步都清醒不过来
+啊啊今天也细味着如焦糖般的痛
+
+我才不想当个什么乖孩子啊
+因为这个世界是如此地斑斓多彩
+既甜蜜又苦涩的 啊、等等头痛起来了
+每分每刻都漂流在精疲力尽中24/7
+再也没办法压抑住心里濒临爆发的情绪了
+忍受不了一成不变的每一天
+虽然心里有点害怕
+抛下一切吧
+抛下一切吧
+抛下一切吧
+至今为止形成的那些思想也好风格也罢
+此刻就算全都毁掉也无所谓啊
+因为我只想一直作为原来的自己啊
+路线？ 氛围？ 管他的怎样都好啦
+To the next
+毕竟不入虎穴焉得虎子嘛
+为达成目标即使要作出牺牲也在所不惜啊
+From my bed 仅仅拥抱住这胸口的痛楚
+啊啊今天也细味着如焦糖般的痛
+尽管用像千层派一样层层叠叠的伪装来逃避
+总有一天还是会被拆穿喔 会腐烂殆尽喔
+要是当初可以坦率告诉你很痛的话
+说不定现在就能有所不同了吧
+喜欢的动画也变得索然无味
+甚至连喜欢的人都离我而去
+感觉好孤单寂寞啊
+最重要的事 其实就只有一件啊
+不再留下任何的遗憾
+积极向前地活下去而已！
+抛下一切吧
+抛下一切吧
+抛下一切吧
+至今为止形成的那些思想也好风格也罢
+就算变得污秽不堪也毫不在意啊
+因为我想喜爱上这样的自己啦
+我爱你喔
+我爱你喔
+我爱你喔
+虽然告别还是不禁让泪水夺眶而出
+为达成目标即使要作出牺牲也在所不惜啊
+From my bed 仅仅拥抱住这胸口的痛楚
+啊啊今天也细味着如焦糖般的痛
+呐 我总是缺少了点勇气
+所以没办法好好爱惜自己
+如果只是疼痛的话就稍微忍一下吧
+啊啊今天也细味着如焦糖般的痛`,
+        trans_source_zh: '巴哈姆特 @Fir',
     },
     {
         chapter: 4,
@@ -6714,43 +6957,119 @@ mou ii kai
 [03:00.48] 信じちゃなんかいないんだ
 [03:03.36] 大人の言うこと
 `,
-        lyrics_rom: `[00:00.80] shinjicha nanka inain da
-[00:03.44] jibun igai no koto
-[00:06.20] shinjicha nanka inain da
-[00:08.80] otona no iu koto
-[00:11.56] boku wa boku no mama de ii
-[00:13.68] tte itte kureru hito wa inakatta
-[00:16.40] dakara nagasameru no ga umain da
-[00:19.36] jibun jishin no koto
-[00:32.80] tasukete tte ienakute
-[00:35.04] kyou mo okujou de hitorikiri
-[00:38.12] toorima ga saratte kureru no o hitasura matteru
-[00:43.48] uchiakete shimattara
-[00:45.72] soshite kawaranai sekai o mite
-[00:48.80] kore ijou no kanashimi wa kakaekirenai kara ne
-[01:04.88] kamisama nante inain da
-[01:07.44] douse taningoto
-[01:10.24] yume nante kanawanain da
-[01:12.80] kudaranai tawagoto
-[01:15.56] zutto kodomo no mama de ii?
-[01:17.80] tte itte ii bamen nado nakatta
-[01:20.44] dakara akirameru no ga hayain da
-[01:23.40] kodomo no koro no yume
-[01:26.16] tsuyoku nante naritakunagatta
-[01:28.76] dakara kokoro ni yoroi o kisesan da
-[01:31.44] kore ijou kizutsukanai you ni
-[01:34.12] anzen na basho de nemuru mitai ni
-[01:39.48] anzen na basho de nemuru mitai ni
-[01:47.48] dare mo shinjirarenakute
-[01:49.76] kyou mo okujou de hitorikiri
-[01:52.80] jibun no soudangoto sura mo boku jishin de kiiteru
-[01:58.12] uchiakenakute ii yo
-[02:00.40] boku no koto wa zenbu shitteru kara
-[02:03.48] kimi ga motteru kanashimi o hanbun seoitai na
-[02:54.48] shinjicha nanka inain da
-[02:57.44] jibun igai no koto
-[03:00.48] shinjicha nanka inain da
-[03:03.36] otona no iu koto`
+        lyrics_rom: `shinjicha nanka inain da
+jibun igai no koto
+shinjicha nanka inain da
+otona no iu koto
+boku wa boku no mama de ii
+tte itte kureru hito wa inakatta
+dakara nagasameru no ga umain da
+jibun jishin no koto
+tasukete tte ienakute
+kyou mo okujou de hitorikiri
+toorima ga saratte kureru no o hitasura matteru
+uchiakete shimattara
+soshite kawaranai sekai o mite
+kore ijou no kanashimi wa kakaekirenai kara ne
+kamisama nante inain da
+douse taningoto
+yume nante kanawanain da
+kudaranai tawagoto
+zutto kodomo no mama de ii?
+tte itte ii bamen nado nakatta
+dakara akirameru no ga hayain da
+kodomo no koro no yume
+tsuyoku nante naritakunagatta
+dakara kokoro ni yoroi o kisesan da
+kore ijou kizutsukanai you ni
+anzen na basho de nemuru mitai ni
+anzen na basho de nemuru mitai ni
+dare mo shinjirarenakute
+kyou mo okujou de hitorikiri
+jibun no soudangoto sura mo boku jishin de kiiteru
+uchiakenakute ii yo
+boku no koto wa zenbu shitteru kara
+kimi ga motteru kanashimi o hanbun seoitai na
+shinjicha nanka inain da
+jibun igai no koto
+shinjicha nanka inain da
+otona no iu koto`,
+        lyrics_zh: `我其实根本不相信
+除了自己以外的一切
+我其实根本不相信
+大人们口中的那些话
+做我自己就好
+从未有人对我这样说
+所以我才变得如此擅长
+去慰藉自己
+无法喊出那句救救我
+今天也独自一人待在天台
+痴痴期盼着会有超自然的存在将我掠走
+若是将一切和盘托出
+却又目睹这毫无改变的世界
+我便再也无力承受更多的悲伤
+这世上根本没有神明
+反正皆是事不关己
+梦想根本不会实现
+不过是无聊的戏言
+可以永远做个小孩子吗
+从来没有容许我这样问的余地
+所以我才会那么轻易地放弃
+那些孩提时代的梦想
+我根本不想变得坚强
+所以才给内心披上铠甲
+为了不再受任何伤害
+如同在安全的地方安然沉睡
+如同在安全的地方安然沉睡
+无法去相信任何人
+今天也独自一人待在天台
+连自己的心事都交由自己来倾听
+无需向谁吐露心扉
+因为关于我的一切我全都知道
+我想替你分担一半你所背负的悲伤
+我其实根本不相信
+除了自己以外的一切
+我其实根本不相信
+大人们口中的那些话
+`,
+        lyrics_en: `I don’t believe in anything
+Anyone but myself
+I don’t believe
+A word adults say
+There was never anyone
+Who told me “You’re fine just the way you are”
+That’s why I got so good
+At comforting myself
+I can’t say “Help me”
+So today I’m alone on the rooftop again,
+Just sitting here, waiting for some supernatural being to carry me away
+Because if I opened up
+And then saw that the world stayed exactly the same
+I wouldn’t be able to bear any more sadness than this
+There’s no such thing as God
+It’s all someone else’s problem anyway
+Dreams don’t come true
+They’re just worthless nonsense
+“Can I stay a child forever?”
+There was never a moment when I could say that
+That’s why I’m so quick to give up
+On childhood dreams
+I never wanted to become strong
+That’s why I dressed my heart in armor
+So I wouldn’t get hurt anymore
+Like sleeping somewhere safe
+Like sleeping somewhere safe
+I can’t trust anyone
+So today I’m alone on the rooftop again
+Even when I need advice I’m the one listening to myself
+I don’t have to open up
+Because I know everything about me
+I want to carry half of the sadness you’re holding
+I don’t believe in anything
+Anyone but myself
+I don’t believe
+A word adults say`,
+        trans_source: 'YouTube @ナナツカゼ',
     },
     {
         chapter: 4,
@@ -6766,7 +7085,27 @@ mou ii kai
 [04:01.84]Novum mundum incohemus, vos qui mecum tenebras initis
 [04:23.28]Ex ruinis ordo novus condemus
 [04:29.94]In fine ab Anastasia servati sumus, aurora orietur 
-[04:53.49] `
+[04:53.49] `,
+        lyrics_zh: `我们是曾为整个世界所背叛的带伤者
+我们终将建立谁人都不背弃的新世界
+
+抬头仰望白磷色的苍星，那是我等的旗号
+加入我等的行列，让军靴如雷撼动大地吧
+
+愿随我等走向至暗之地者，一同创造新世界吧
+须知一切的尽毁将是全新秩序的肇始
+唯我皇安娜丝塔夏将带来无垢的黎明
+`,
+        lyrics_en: `We are the wounded ones, betrayed by the whole world
+We shall create a new world, one in which no one shall ever be forsaken
+
+Lift up your eyes to the white, glimmering Pale Star, for that is our banner
+Join our ranks, and let our marching boots shake the earth like thunder!
+
+You who will walk with us into the land of darkness, come! Let us create a new world together
+Know that the destruction of all precedes the birth of a new order
+Only our Tsaritsa, Anastasya, shall usher in the perfect dawn`,
+        trans_source: `YouTube @Genshin Impact`,
     },
     {
         chapter: 4,
@@ -6803,8 +7142,55 @@ mou ii kai
 [03:48.55] Ut impii lunas usurpantes nullas sedes habeant hoc modo
 [04:02.633] In atra tenebris perpetuo mergantur
 [04:16.00]
-
         `,
+        lyrics_zh: `
+月啊，我们的月亮，愿你向这世间映下柔和的辉芒
+可怖的灾殃，命定的沦亡
+(哀恸与心伤有何益处，若是惩罚无法将罪恶涤荡？)
+(你可听到刀剑的鸣响？那是人们勇敢的怒吼，而非牢狱哀怨的歌唱。) 
+
+夺不去月光，夺不去希望
+飞吧，我们的小鸽子，飞吧
+
+伴着只属于你的月光
+飞吧，我们的小鸽子，自由自在地飞吧
+飞吧，我们的小鸽子，向着月下的世界
+听吧，命运的铃歌已然奏响
+潮汐已经带来了自由的希望
+千年的煎迫，漆黑的祸殃
+终将不再侵夺月色的故乡
+终将被冲往那蔚蓝的海洋
+
+醒来吧，新月呀，将黑暗的大地照亮
+
+直至苦难与暴行皆如明晨的露水消亡
+要让僭称神明之名的邪祟者无处容身
+要让恶徒在无明的长夜中被永世埋葬
+`,
+        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        lyrics_en: `Oh mistress, oh moon of ours, cast your gentle radiance upon the world!
+Monstrous bloodsheds, ruins inevitable
+(Wherefore do we mourn and weep, if sins were not to fall upon their judgment?)
+(Do you hear the sound of swords clashing? That is the clamor of the people, not the song of laments from the quods.) 
+
+Those can not extinguish our light and hope
+Fly, oh fly! Little dove of ours
+
+Bathed in the moonlight which is only yours
+Fly, oh fly! Dear little dove, fly without end!
+Fly, dear little dove! Into the sublunary!
+Hear, the chimes of fate are ringing
+The tides have brought forth hope and liberation
+Thousands of years of suffering and calamity
+Shall be washed away from our homeland beneath the moon
+And hauled back into the azure ocean
+
+Awaken, awaken, new moon, illuminate this dark land once more
+
+Until all suffering are cast off like the first morning dewdrops
+Let those who dare to usurp the moons be stripped off their footholds
+And let them be buried in darkness eternal`,
+        trans_source_en: `Genshin Impact Fandom Wiki`,
     },
     {
         chapter: 4,
@@ -6860,54 +7246,154 @@ mou ii kai
 [02:16.76] 世界で二人だけのリズムで
 [02:24.76] 二人だけのリズムで
 `,
-        lyrics_rom: `lrc
-[00:07.12] mata ashita ne wa iitakunai
-[00:10.72] daremo inai kaerimichi
-[00:14.20] nande namida ga derun darou na
-[00:18.52] entenka o naide
-[00:20.76] chaimu ga nattara
-[00:22.20] hikari no hayasa de kaerou
-[00:23.96] asa to onaji kyoku kikinagara kaerou
-[00:27.28] saisei
-[00:28.12] itsumo wa kikoenai oto ga shita
-[00:31.68] ki no sei ka
-[00:34.04] nakanaide ikou tte
-[00:35.80] kimi ga iu kara
-[00:37.32] shoujiki hontou ni komatta
-[00:38.92] yuuyake ni futari somatta
-[00:40.56] ame no sei da yo tte uso o tsuita
-[00:43.92] sekai de futari dake mitai da ne
-[01:00.68] boku wa machigatte itan da
-[01:01.88] shukanteki ni kanjiru merodii de
-[01:03.88] sekai no subete wo shitta you na kao wo shite
-[01:07.12] kimi no suki na kyoku ya kashi wo shireta dake de
-[01:10.28] kimi no subete wo shitta you na ki ga shite
-[01:13.76] chigaun da yo baka bakka
-[01:15.16] baka wa docchi datteiun datte
-[01:17.28] karakara na kokoro wa
-[01:18.60] rakka mou kyapa oobaa
-[01:20.48] yuiitsu muni no bouonzai
-[01:21.88] kokoro no sakebi ga kikoenai you ni
-[01:24.16] kyou mo heddohon no onryou ageta
-[01:40.12] yuudachi ga kitara
-[01:41.76] nure nagara kaerou
-[01:43.28] ame to issho ni nakinagara kaerou
-[01:46.84] saisei botan wa
-[01:48.24] kizutsuita kotoba ni tsukaccha dame da
-[01:53.56] ika naide yo nee tte
-[01:55.32] kimi ga iu kara
-[01:56.76] chuutosuru ashi wa tomatta
-[01:58.52] sono toki no boku wa kou omotta
-[01:59.96] kiresou na kodou wo
-[02:01.88] ashita e to tsunagu
-[02:03.56] kimi wa boku no ongaku mitai da ne
-[02:06.40] nakanaide yo nee tte
-[02:08.56] boku ga iu no wa
-[02:10.12] nandaka chotto okashii ka
-[02:11.64] ureshi namida tte waratta
-[02:13.36] kiresou na kodou o
-[02:15.20] tsunage bokura no
-[02:16.76] sekai de futari dake no rizumu de
-[02:24.76] futari dake no rizumu de`
+        lyrics_rom: `
+mata ashita ne wa iitakunai
+daremo inai kaerimichi
+nande namida ga derun darou na
+entenka o naide
+chaimu ga nattara
+hikari no hayasa de kaerou
+asa to onaji kyoku kikinagara kaerou
+saisei
+itsumo wa kikoenai oto ga shita
+ki no sei ka
+nakanaide ikou tte
+kimi ga iu kara
+shoujiki hontou ni komatta
+yuuyake ni futari somatta
+ame no sei da yo tte uso o tsuita
+sekai de futari dake mitai da ne
+boku wa machigatte itan da
+shukanteki ni kanjiru merodii de
+sekai no subete wo shitta you na kao wo shite
+kimi no suki na kyoku ya kashi wo shireta dake de
+kimi no subete wo shitta you na ki ga shite
+chigaun da yo baka bakka
+baka wa docchi datteiun datte
+karakara na kokoro wa
+rakka mou kyapa oobaa
+yuiitsu muni no bouonzai
+kokoro no sakebi ga kikoenai you ni
+kyou mo heddohon no onryou ageta
+yuudachi ga kitara
+nure nagara kaerou
+ame to issho ni nakinagara kaerou
+saisei botan wa
+kizutsuita kotoba ni tsukaccha dame da
+ika naide yo nee tte
+kimi ga iu kara
+chuutosuru ashi wa tomatta
+sono toki no boku wa kou omotta
+kiresou na kodou wo
+ashita e to tsunagu
+kimi wa boku no ongaku mitai da ne
+nakanaide yo nee tte
+boku ga iu no wa
+nandaka chotto okashii ka
+ureshi namida tte waratta
+kiresou na kodou o
+tsunage bokura no
+sekai de futari dake no rizumu de
+futari dake no rizumu de`,
+        lyrics_zh: `
+不想说出那句「明天见」
+走在空无一人的归途
+穿行在沉闷无风的烈日之下
+为何泪流不止
+每当下课铃声响起
+立刻飞奔回家吧
+让我们听着早晨的那首歌踏上归途
+再生
+听到了平时未曾察觉的声响
+是我的错觉吗
+「别哭了 我们走吧」
+只因你这样对我说
+说实话真让我不知所措
+我俩的身影被晚霞染得彤红
+我撒谎说「这都是雨水的错」
+仿佛这世界只剩下你我两人
+我一直都弄错了
+仅凭主观感受到的旋律
+就摆出一副看透世界一切的面孔
+仅仅了解你喜欢的歌曲与歌词
+就自以为懂得了你的全部
+才不是这样 你们都是傻瓜
+到底谁才是真正的傻瓜啊
+干涸枯竭的内心
+直线坠落 早已不堪重负
+这独一无二的隔音屏障
+为了不再听见内心的呐喊
+今天也默默调高了耳机的音量
+如果傍晚下起骤雨
+就任由大雨淋湿 踏上归途吧
+伴着雨水痛哭一场 踏上归途吧
+播放按钮
+绝不能用来回放那些伤人的话语
+「求求你 不要走」
+只因你这样对我说
+我踌躇的脚步顿时停下
+那一刻我的心里这样想着
+将快要停滞的心跳
+一点点维系到明天
+你简直就像是我的音乐呢
+「别哭了 好不好」
+这句话由我来说出口
+总觉得这场面有些滑稽
+你笑着说这是喜悦的泪滴
+连接快要停滞的心跳
+这是属于我们的
+这世上独一无二的节奏
+独一无二的节奏
+`,
+        lyrics_en: `I don’t want to say, “See you tomorrow”
+On the way home with no one around
+I wonder why the tears come
+As the scorching heat falls still
+When the chime rings
+Let's race home at the speed of light
+Let’s go home listening to the same song as this morning
+Replay
+I heard a sound I usually can’t hear
+Was it just my imagination?
+“Don’t cry, let’s go”
+You said
+Honestly I was really at a loss
+The two of us were bathed in the sunset
+“It’s because of the rain” I lied
+It feels like we’re the only two people in the world
+I was wrong
+With melodies I felt so personally
+I acted like I knew everything about the world
+Just because I learned your favorite songs and lyrics
+I felt like I knew everything about you
+That’s not it, you’re all idiots
+Who's the real idiot here?
+My heart had gone completely dry
+It's falling, already over capacity
+My one and only soundproof wall
+So I won’t hear the screams of my heart
+I turned up the volume on my headphones today too
+If an evening shower comes,
+Let's walk home getting soaked
+Let's cry together with the rain on the way home
+You mustn’t use
+The replay button on words that hurt someone
+“Don’t go, please”
+You said
+My hesitant feet came to a stop
+At that moment this is what I thought
+Carry my fading heartbeat
+Into tomorrow
+You’re like music to me
+“Don’t cry, please”
+When I say that
+It somehow feels a little funny
+You smiled and said they were happy tears
+Carry our fading heartbeats
+With a rhythm
+Only the two of us can share
+Only the two of us can share
+`,
+        trans_source: 'YouTube @ナナツカゼ'
     }
 ];
