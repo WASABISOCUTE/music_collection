@@ -133,18 +133,31 @@
                         <div class="np-title" id="np-title">Track Title</div>
                         <div class="np-artist" id="np-artist">Artist Name</div>
                     </div>
-                    <div class="np-options-wrapper">
-                        <button class="btn-options" onclick="toggleOptionsMenu(event)">
-                            <i class="fa-solid fa-ellipsis"></i>
-                        </button>
-                        <div class="np-options-menu" id="np-options-menu">
-                            <div class="menu-track-title" id="menu-title">Title</div>
-                            <div class="menu-track-artist" id="menu-artist">Artist</div>
-                            <div class="menu-info-item" id="menu-info">Info</div>
-                            <div class="menu-info-item" id="menu-date">Date</div>
-                            <a href="#" target="_blank" class="menu-ig-link" id="menu-ig">
-                                <i class="fa-brands fa-instagram"></i> Source
-                            </a>
+                    <div style="display: flex; gap: 12px; align-items: center;">
+                        <div class="np-options-wrapper">
+                            <button class="btn-options" id="btn-trans" onclick="toggleTransMenu(event)">
+                                <i class="fa-solid fa-language"></i>
+                            </button>
+                            <div class="np-options-menu" id="np-trans-menu"
+                                style="width: auto; right: 0; bottom: 60px;">
+                                <div class="menu-trans-item" data-lang="none" onclick="setTransMode('none')">Off</div>
+                                <div class="menu-trans-item" data-lang="zh" onclick="setTransMode('zh')">中文</div>
+                                <div class="menu-trans-item" data-lang="en" onclick="setTransMode('en')">English</div>
+                            </div>
+                        </div>
+                        <div class="np-options-wrapper">
+                            <button class="btn-options" id="btn-options" onclick="toggleOptionsMenu(event)">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </button>
+                            <div class="np-options-menu" id="np-options-menu">
+                                <div class="menu-track-title" id="menu-title">Title</div>
+                                <div class="menu-track-artist" id="menu-artist">Artist</div>
+                                <div class="menu-info-item" id="menu-info">Info</div>
+                                <div class="menu-info-item" id="menu-date">Date</div>
+                                <a href="#" target="_blank" class="menu-ig-link" id="menu-ig">
+                                    <i class="fa-brands fa-instagram"></i> Source
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -467,6 +480,7 @@
             document.getElementById('np-overlay').classList.remove('active');
             document.body.style.overflow = 'auto';
             document.getElementById('np-options-menu').classList.remove('active'); // ensure menu closes
+            document.getElementById('np-trans-menu').classList.remove('active'); // ensure menu closes
 
             if (currentTrackId !== undefined && isPlayerReady) {
                 const track = tracks[currentTrackId];
@@ -491,13 +505,30 @@
             event.stopPropagation();
             const menu = document.getElementById('np-options-menu');
             menu.classList.toggle('active');
+            document.getElementById('np-trans-menu').classList.remove('active');
         }
+
+        function toggleTransMenu(event) {
+            event.stopPropagation();
+            const menu = document.getElementById('np-trans-menu');
+            menu.classList.toggle('active');
+            document.getElementById('np-options-menu').classList.remove('active');
+        }
+
         document.addEventListener('click', (event) => {
             const menu = document.getElementById('np-options-menu');
-            const btn = document.querySelector('.btn-options');
+            const btn = document.getElementById('btn-options');
             if (menu && menu.classList.contains('active')) {
-                if (!menu.contains(event.target) && !btn.contains(event.target)) {
+                if (!menu.contains(event.target) && (!btn || !btn.contains(event.target))) {
                     menu.classList.remove('active');
+                }
+            }
+
+            const transMenu = document.getElementById('np-trans-menu');
+            const transBtn = document.getElementById('btn-trans');
+            if (transMenu && transMenu.classList.contains('active')) {
+                if (!transMenu.contains(event.target) && (!transBtn || !transBtn.contains(event.target))) {
+                    transMenu.classList.remove('active');
                 }
             }
 
@@ -532,7 +563,8 @@
 
         // Initialize Settings from localStorage
         const savedPronunciation = localStorage.getItem('setting-pronunciation') === 'true';
-        const savedTranslation = localStorage.getItem('setting-translation') === 'true';
+        const savedTranslation = localStorage.getItem('setting-translation') !== 'false';
+        let translationMode = localStorage.getItem('setting-trans-lang') || 'none';
 
         const pronunciationInput = document.getElementById('setting-pronunciation');
         const translationInput = document.getElementById('setting-translation');
@@ -558,6 +590,29 @@
             });
         }
 
+        function setTransMode(lang) {
+            translationMode = lang;
+            localStorage.setItem('setting-trans-lang', lang);
+            document.querySelectorAll('.menu-trans-item').forEach(el => {
+                if (el.dataset.lang === lang) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+            if (document.getElementById('np-overlay').classList.contains('active')) {
+                renderLyrics(currentTrackId);
+            }
+        }
+
+        document.querySelectorAll('.menu-trans-item').forEach(el => {
+            if (el.dataset.lang === translationMode) {
+                el.classList.add('active');
+            } else {
+                el.classList.remove('active');
+            }
+        });
+
         function renderLyrics(trackId) {
             const track = tracks[trackId];
             const lyricsContainer = document.getElementById('lyrics-container');
@@ -566,7 +621,7 @@
             let renderLyricsData = [];
 
             if (typeof track.lyrics === 'string') {
-                renderLyricsData = track.lyrics.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                renderLyricsData = track.lyrics.trim().split('\n').map(l => l.trim());
             } else if (track.lyrics && track.lyrics.length > 0) {
                 renderLyricsData = track.lyrics;
             } else {
@@ -581,7 +636,7 @@
             if (track.lyrics_rom) {
                 let rawRomajiLines = [];
                 if (typeof track.lyrics_rom === 'string') {
-                    rawRomajiLines = track.lyrics_rom.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                    rawRomajiLines = track.lyrics_rom.trim().split('\n').map(l => l.trim());
                 } else if (Array.isArray(track.lyrics_rom)) {
                     rawRomajiLines = track.lyrics_rom;
                 }
@@ -613,7 +668,76 @@
                 });
             }
 
+            let hasZh = !!track.lyrics_zh;
+            let hasEn = !!track.lyrics_en;
+            if (Array.isArray(track.lyrics)) {
+                if (!hasZh) hasZh = track.lyrics.some(l => typeof l === 'object' && l.zh);
+                if (!hasEn) hasEn = track.lyrics.some(l => typeof l === 'object' && l.en);
+            }
+
+            const btnZh = document.querySelector('.menu-trans-item[data-lang="zh"]');
+            const btnEn = document.querySelector('.menu-trans-item[data-lang="en"]');
+
+            if (btnZh) {
+                if (hasZh) btnZh.classList.remove('disabled');
+                else btnZh.classList.add('disabled');
+            }
+            if (btnEn) {
+                if (hasEn) btnEn.classList.remove('disabled');
+                else btnEn.classList.add('disabled');
+            }
+
+            const mainTransBtn = document.getElementById('btn-trans');
+            if (mainTransBtn) {
+                if (!hasZh && !hasEn) {
+                    mainTransBtn.classList.add('disabled');
+                } else {
+                    mainTransBtn.classList.remove('disabled');
+                }
+            }
+
             const showPronunciation = document.getElementById('setting-pronunciation') ? document.getElementById('setting-pronunciation').checked : false;
+            const isTranslationEnabled = document.getElementById('setting-translation') ? document.getElementById('setting-translation').checked : true;
+
+            let effectiveTransMode = translationMode;
+            if (translationMode === 'zh' && !hasZh) effectiveTransMode = 'none';
+            if (translationMode === 'en' && !hasEn) effectiveTransMode = 'none';
+
+            const transByTime = {};
+            const plainTransList = [];
+
+            let targetLyricsTrans = null;
+            if (isTranslationEnabled && effectiveTransMode === 'zh') {
+                targetLyricsTrans = track.lyrics_zh;
+            } else if (isTranslationEnabled && effectiveTransMode === 'en') {
+                targetLyricsTrans = track.lyrics_en;
+            }
+
+            if (targetLyricsTrans) {
+                let rawTransLines = [];
+                if (typeof targetLyricsTrans === 'string') {
+                    rawTransLines = targetLyricsTrans.trim().split('\n').map(l => l.trim());
+                } else if (Array.isArray(targetLyricsTrans)) {
+                    rawTransLines = targetLyricsTrans;
+                }
+
+                rawTransLines.forEach((rLine) => {
+                    let rText = '';
+
+                    if (typeof rLine === 'string') {
+                        const lrcMatch = rLine.match(/^\[(?:\d{2,}):(?:\d{2}(?:\.\d{1,3})?)\](.*)/);
+                        if (lrcMatch) {
+                            rText = lrcMatch[1].trim();
+                        } else {
+                            rText = rLine.trim();
+                        }
+                    } else if (typeof rLine === 'object') {
+                        rText = rLine.text || '';
+                    }
+
+                    plainTransList.push(rText);
+                });
+            }
 
             renderLyricsData.forEach((line, index) => {
                 const div = document.createElement('div');
@@ -622,6 +746,7 @@
                 let time = undefined;
                 let text = '';
                 let romaji = '';
+                let trans = '';
 
                 if (typeof line === 'string') {
                     const lrcMatch = line.match(/^\[(\d{2,}):(\d{2}(?:\.\d{1,3})?)\](.*)/);
@@ -643,6 +768,8 @@
                 } else if (typeof line === 'object') {
                     text = line.text || '';
                     romaji = line.romaji || '';
+                    if (effectiveTransMode === 'zh' && line.zh) trans = line.zh;
+                    else if (effectiveTransMode === 'en' && line.en) trans = line.en;
                     if (line.time !== undefined) {
                         time = line.time;
                     }
@@ -662,22 +789,37 @@
                     }
                 }
 
+                // Resolve translation
+                if (!trans && targetLyricsTrans) {
+                    if (index < plainTransList.length) {
+                        trans = plainTransList[index];
+                    }
+                }
+
                 if (time !== undefined) {
                     div.dataset.time = time;
                 }
 
-                // If pronunciation is enabled and romaji is present, render with romaji
-                if (showPronunciation && romaji) {
-                    const romajiDiv = document.createElement('div');
-                    romajiDiv.className = 'lyric-romaji';
-                    romajiDiv.innerText = romaji;
+                // Render logic
+                if ((showPronunciation && romaji) || (isTranslationEnabled && effectiveTransMode !== 'none' && trans)) {
+                    if (showPronunciation && romaji) {
+                        const romajiDiv = document.createElement('div');
+                        romajiDiv.className = 'lyric-romaji';
+                        romajiDiv.innerText = romaji;
+                        div.appendChild(romajiDiv);
+                    }
 
                     const textDiv = document.createElement('div');
                     textDiv.className = 'lyric-text';
                     textDiv.innerText = text;
-
-                    div.appendChild(romajiDiv);
                     div.appendChild(textDiv);
+
+                    if (isTranslationEnabled && effectiveTransMode !== 'none' && trans) {
+                        const transDiv = document.createElement('div');
+                        transDiv.className = 'lyric-trans';
+                        transDiv.innerText = trans;
+                        div.appendChild(transDiv);
+                    }
                 } else {
                     div.innerText = text;
                 }
@@ -693,6 +835,19 @@
                 };
                 lyricsContainer.appendChild(div);
             });
+
+            if (isTranslationEnabled && effectiveTransMode !== 'none') {
+                let sourceText = '';
+                if (effectiveTransMode === 'zh') sourceText = track.trans_source_zh || track.trans_source;
+                if (effectiveTransMode === 'en') sourceText = track.trans_source_en || track.trans_source;
+
+                if (sourceText) {
+                    const sourceDiv = document.createElement('div');
+                    sourceDiv.className = 'lyric-source';
+                    sourceDiv.innerText = `Lyrics Translation: ${sourceText}`;
+                    lyricsContainer.appendChild(sourceDiv);
+                }
+            }
         }
 
         function togglePlay() {

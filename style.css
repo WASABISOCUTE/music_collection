@@ -555,6 +555,11 @@ footer {
     transform: scale(1.05);
 }
 
+.btn-options.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
 .np-options-menu {
     position: absolute;
     bottom: 60px;
@@ -592,6 +597,30 @@ footer {
     font-size: 13px;
     color: var(--accent);
     margin-bottom: 8px;
+}
+
+.menu-trans-item {
+    font-size: 14px;
+    color: white;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s;
+    white-space: nowrap;
+}
+
+.menu-trans-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-trans-item.active {
+    color: var(--accent);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.menu-trans-item.disabled {
+    opacity: 0.4;
+    pointer-events: none;
 }
 
 .menu-info-item {
@@ -703,6 +732,33 @@ footer {
 
 .lyric-line:hover .lyric-romaji {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.lyric-trans {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.35);
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+}
+
+.lyric-line.active .lyric-trans {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.lyric-line:hover .lyric-trans {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.lyric-source {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.36);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    letter-spacing: 0.5px;
 }
 
 .lyric-text {
@@ -1021,13 +1077,14 @@ footer {
 
     .header-actions a,
     .tooltip-container {
-        font-size: 0;  /* hide text labels */
+        font-size: 0;
+        /* hide text labels */
         margin-right: 0;
         padding: 8px;
     }
 
     .header-actions a i,
-    .tooltip-container > i {
+    .tooltip-container>i {
         font-size: 18px;
     }
 
@@ -1073,7 +1130,7 @@ footer {
     }
 
     .header-actions a i,
-    .tooltip-container > i {
+    .tooltip-container>i {
         font-size: 16px;
     }
 
