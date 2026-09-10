@@ -12,7 +12,7 @@ const config = {
         context: '', desc: '',
         date: '', ytId: '', start: 0, end: 0,
         lyrics:``,
-        lyrics_rom``,
+        lyrics_rom:``,
         lyrics_zh:``,
         trans_source_zh:``,
         lyrics_en:``,
@@ -6334,94 +6334,249 @@ mou ii kai
 [04:41.10]聞こえてる？ この声が
 `,
         lyrics_rom: `
-[00:02.91] ano hi to onaji hoshi o bokura
-[00:06.66] mejirushi ni shite koe o kasaneta
-[00:17.76]
-[00:31.90] ukabiagatta shoukei
-[00:33.32] koku nijindeita koukai mo
-[00:36.42] jibun rashiku hanaseta no nara
-[00:39.97] donna ni raku darou
-[00:42.07]
-[00:42.52] nee donna oto de
-[00:43.81] yume wo narashitara ii
-[00:46.18] wakatteitanda
-[00:48.17] tachidomatteita no wa boku no hou darou
-[00:51.57]
-[00:51.63] koboreochita nanigenai kotobatachi
-[00:58.19] daiji ni shite agerarenakatta
-[01:02.02] mite minu furi shitatte
-[01:04.38] koko ni irunda yo tte mada
-[01:06.95] sakaenderu nee
-[01:10.69]
-[01:11.02] nande waratteru ndarou nani hitotsu
-[01:14.19] iitai omoi mo kakidase nai kuse ni
-[01:17.21] kawaritai susumitai
-[01:19.90] kizuketanda
-[01:21.81]
-[01:21.68] oto ni nosete
-[01:23.36] nagareteku hitosuji no hikari ni
-[01:26.47] bokura mo nareru kara
-[01:27.91] kamawanai susumou
-[01:29.42] tsutaerunda ima
-[01:32.00]
-[01:32.18]
-[01:43.27] kikoeteiru kono koe ga
-[01:47.36]
-[01:57.77] tsumori tsumotta touei
-[01:59.76] tsutana ku yuganda bouei mo
-[02:02.40] jibun rashiku hodoketa no nara
-[02:06.19] donna ni raku darou
-[02:08.35]
-[02:08.41] nee donna uta de
-[02:09.95] boku wo sarashitara ii
-[02:12.22] hitoribocchi
-[02:13.84] namida koraeteita no wa kako no boku da
-[02:16.39]
-[02:16.50] kuzureochita shoumonai puraidotachi
-[02:23.48] nigedashitakute tamaranakatta
-[02:27.62] tada soba ni iru yo tte
-[02:29.31] shinjiterunda yo tte hora
-[02:32.15] kikoeteiru nee
-[02:35.65]
-[02:35.98] nande mayotteru ndarou nani hitotsu
-[02:39.70] suterareru youna omoi nado nai no deshou
-[02:43.37] kanaetai todoketai
-[02:44.81] kakaete ikunda
-[02:46.22]
-[02:46.91] uta ni nosete
-[02:48.67] sekaijuu kakemeguru oto ni
-[02:51.18] bokura mo nareru kana
-[02:52.77] daijoubu susumou
-[02:55.15] nobotte ikunda
-[02:57.05]
-[03:16.68] bokura
-[03:17.69] hi ga shizumu made waraiatta
-[03:20.37] hoshi wo mi ni yoru wo hashitta
-[03:22.81] saki nante dou demo yokatta
-[03:25.22] ano kimochi wo wasurenai de
-[03:29.42]
-[03:29.69] wasurenai yo zutto
-[03:35.75]
-[03:36.57] kawatteiku mono sugiru mono
-[03:39.55] dare mo tomeru koto nante dekiyashinai kara
-[03:44.26] dekiyashinai kedo
-[03:46.68]
-[03:46.71] kono shunkan ni ikite iru
-[03:49.35] nogasenai ima wo mitsukedashitai kara
-[03:53.28] koko ni irunda
-[03:55.42]
-[03:56.62] hibikasetai yo kono uta wo
-[03:58.45] matteiru dareka ga soko ni iru no nara
-[04:03.08] kanadeyou tsutaeyou
-[04:05.00] umareta sekai de
-[04:07.13]
-[04:07.56] koe ni nosete kurai yoru no
-[04:09.72] sora de bokura mada yowakute mo
-[04:13.18] hikaru kara tsutaerunda ima
-[04:20.24]
-[04:20.50]
-[04:41.10] kikoeteru kono koe ga
-`
+ano hi to onaji hoshi o bokura
+mejirushi ni shite koe o kasaneta
+
+ukabiagatta shoukei
+koku nijindeita koukai mo
+jibun rashiku hanaseta no nara
+donna ni raku darou
+
+nee donna oto de
+yume wo narashitara ii
+wakatteitanda
+tachidomatteita no wa boku no hou darou
+
+koboreochita nanigenai kotobatachi
+daiji ni shite agerarenakatta
+mite minu furi shitatte
+koko ni irunda yo tte mada
+sakaenderu nee
+
+nande waratteru ndarou nani hitotsu
+iitai omoi mo kakidase nai kuse ni
+kawaritai susumitai
+kizuketanda
+
+oto ni nosete
+nagareteku hitosuji no hikari ni
+bokura mo nareru kara
+kamawanai susumou
+tsutaerunda ima
+
+
+kikoeteiru kono koe ga
+
+
+tsumori tsumotta touei
+tsutana ku yuganda bouei mo
+jibun rashiku hodoketa no nara
+donna ni raku darou
+
+nee donna uta de
+boku wo sarashitara ii
+hitoribocchi
+namida koraeteita no wa kako no boku da
+
+kuzureochita shoumonai puraidotachi
+nigedashitakute tamaranakatta
+tada soba ni iru yo tte
+shinjiterunda yo tte hora
+kikoeteiru nee
+
+nande mayotteru ndarou nani hitotsu
+suterareru youna omoi nado nai no deshou
+kanaetai todoketai
+kakaete ikunda
+
+uta ni nosete
+sekaijuu kakemeguru oto ni
+bokura mo nareru kana
+daijoubu susumou
+nobotte ikunda
+
+bokura
+hi ga shizumu made waraiatta
+hoshi wo mi ni yoru wo hashitta
+saki nante dou demo yokatta
+ano kimochi wo wasurenai de
+
+wasurenai yo zutto
+
+kawatteiku mono sugiru mono
+dare mo tomeru koto nante dekiyashinai kara
+dekiyashinai kedo
+
+kono shunkan ni ikite iru
+nogasenai ima wo mitsukedashitai kara
+koko ni irunda
+
+hibikasetai yo kono uta wo
+matteiru dareka ga soko ni iru no nara
+kanadeyou tsutaeyou
+umareta sekai de
+
+koe ni nosete kurai yoru no
+sora de bokura mada yowakute mo
+hikaru kara tsutaerunda ima
+
+kikoeteru kono koe ga
+`,
+        lyrics_en: `
+
+With the same star from that day as our guide
+We sang together
+
+Admirations and regrets
+If I could talk about these with no lies, how easy it would be.
+
+What kind of sounds should I make for my dreams
+I already knew, I chose to stop moving forward.
+
+All the words I have said, I couldn't cherish them
+
+I pretended to not see them, but they are still shouting
+"I am here”
+
+Why am I okay with this
+I can't even put one thought into words.
+
+(I want to change)(I want to move forward) But I realized
+
+With our sounds, we too can become one of those shooting stars
+
+(Doesn't matter)(Move on)
+We will show you now.
+
+(woah woah woah...)
+Can you hear us? This voice of ours.
+
+I turned away from my reflection, a distorted way of defense
+If I could solve these with no difficulties, how easy it would be
+
+What kind of words should I use for myself.
+Alone, it was me from the past holding back the tears.
+
+All the meaningless prides fading away, I just wanted to run away
+
+“I’m always by your side” “I believe in you”
+“Do you hear me?”
+
+Why am I not able to decide.
+I can’t even give up one thought.
+
+(I want to fulfill my dream)(I want to sing) I’ll carry them all.
+
+With our song, maybe we can become one of those
+
+that fills the world. (It’s alright)(Move on)
+We will rise now.
+
+We hung out all ‘day’ long. We ran to go see the ‘stars’.
+We didn't care about the ‘future’.
+
+Our ‘wish’.
+Let's not forget, I will not forget, never
+
+Things that change, Things that pass by
+No one can stop these
+
+I can't stop these too but
+
+This moment I’m living in.
+I don’t want to miss even one second of it.
+That’s why I’m standing here.
+
+Now let it resonate
+If there’s even one person waiting for our song
+
+(Let’s sing)(Hear us sing)
+In this “World” of ours
+
+With our voice, even if the sky is dark
+even if we are still fragile
+We’ll shine. We’ll sing. Now.
+
+(woah-woah-woah...)
+Can you hear us? This voice of ours.
+
+`,
+        trans_source: `YouTube @*Luna`,
+        lyrics_zh: `我们将与那一天相同的星星
+做成记号　重叠声音
+
+浮出的憧憬浓　如果能像自己地吐露出
+浓浓渗透出的后悔的话　会该有多么轻松呢
+
+呐　该用怎么样的声音奏响梦想才好
+我很清楚啊　止步不前的是我对吧
+
+洒落而出的无意话语们
+我并没能好好珍惜
+即使视而不见
+也仍然大叫着
+「我在这里啊」　呐
+
+为什么在笑着呢
+明明写不出来任何一个想要说出的想法
+（想要改变　想要前进）
+我察觉到了啊
+
+随着音乐
+我们也能成为流动的一缕光芒
+（没关系　前进吧）
+现在　传达给你
+
+听得见吗？　这道声音
+
+累积而成的投影　如果能像自己地解开
+笨拙扭曲的防卫的话
+会该有多么轻松呢
+
+呐　该用怎么样的诗暴露出我才好？
+独自一人　忍住泪水的是过去的我
+
+崩坏的无可奈何的自尊心们
+想逃跑得不得了
+但是听见了
+「我在你身旁」
+「我相信着你」　呐
+
+为什么会迷惘呢
+没有什么可以舍弃的想法吧？
+（想要实现　想要传递）
+抱住往前吧
+
+伴随着歌
+我们是否也能成为周游世界的声音呢
+（没问题　前进吧）
+向上攀登吧
+
+我们
+一同欢笑到日落
+为了仰望星星而在夜晚奔跑
+未来什么的根本无所谓
+请不要忘记
+那份心情　不要忘记了啊　永远
+
+逐渐改变的事物　流逝而过的事物
+无论是谁都无法阻止啊
+虽然做不到
+
+但却活在这个瞬间
+因为想要找到无法逃脱而出的「此刻」
+而存在于此
+
+想要响彻　如果有谁
+正在等待着这首歌的话
+（奏弹奏吧　传达吧）
+在诞生的世界中
+
+随着声音　我们即使弱小
+也会在黑暗的夜空中发光
+现在　传达给你
+
+听得见吗？　这道声音`
     },
 
     {
