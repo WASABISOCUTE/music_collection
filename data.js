@@ -1017,7 +1017,7 @@ const tracks = [
         chapter: 1,
         title: 'Uninvited Guest', artist: 'Glowstick Entertainment',
         context: 'Game - Dark Deception', desc: 'Chapter 4 Level 8 Zone 1 Chase Theme',
-        date: '2023', ytId: 'UZV0NN0LH-E', start: 0,
+        date: '2023', ytId: '-p6ORa874nY', start: 0,
         lyrics: `[00:23.02]We mum
 [00:24.24]Bear mum
 [00:25.54]We mum
@@ -1376,7 +1376,7 @@ const tracks = [
         chapter: 1,
         title: 'For Riddles, for Wonders', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
-        date: '2023', ytId: 'p2QSNcAJLTI', start: 0,
+        date: '2023', ytId: 'zQBrgGjwCPM', start: 6, end: 136,
         lyrics: `(Instrumental — No Lyrics)`,
     },
     // Chapter 2
@@ -1865,7 +1865,7 @@ const tracks = [
         chapter: 3,
         title: 'Anthem of Era', artist: 'HOYO-MiX',
         context: 'Out-zone exploration - Tokto, Japan', desc: 'Changi Airport Theme',
-        date: 'FEB 2025', ytId: 'f_53L9xa9GE', start: 0,
+        date: 'FEB 2025', ytId: 'fao9fjeAGEI', start: 13, end: 129,
         ig: 'https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDM4NTkxMTE3MjY5OTcx?story_media_id=3562051245785979709_63008808258&igsh=NWhzZWljMzE3eW54',
         lyrics: `(Instrumental — No Lyrics)`,
     },
@@ -5588,7 +5588,7 @@ const tracks = [
             [01:47.16]思い通りじゃない
             [01:48.79]
             [01:49.05]夢のまた夢のなかなにを啜る？
-    [01:53.60]「　　　　」
+            [01:53.60]「　　　　」
             [01:54.26]どこに届く？
             [01:56.30]夢はまだ夢のまま進む
             [02:00.13]止まらない者は転ぶ
