@@ -1381,14 +1381,36 @@ const tracks = [
 [01:05.96] 
 [01:19.66]Canonem gnosis inscribit inclinabimini non iam ad caelesti
 [01:35.69]Ecce premeris quoniam iuvenis sanguinum es derelicte
-[01:47.76]A malo pressa voces iterum conquiratis quam manui sis tenere etiamsi|(Nolite me relinquere ir in finem etiamsi)
-[02:00.84]Qui formaret falsum deum|(Vae cui formavit deum)
+[01:47.76]A malo pressa voces iterum conquiratis quam manui sis tenere etiamsi (Nolite me relinquere ir in finem etiamsi)
+[02:00.84]Qui formaret falsum deum (Vae cui formavit deum)
 [02:12.79]Ad nihil utile
 [02:14.63] 
 [02:15.19]Poesis eis letis recto fatus tecum fallis deperdite
 [02:29.66]Estris vae falsatis quod ad propinquavit
 [02:43.53] 
 `,
+        lyrics_zh: `过去已然消失，并铭刻于明天
+
+灵魂的正典不再倾向于天堂
+看啊，你被折磨，因为你是被遗弃的骨血
+啊，我寻求挣扎，会有人帮助我吗（不要抛弃我，即使到最后）
+尽管谁会造出伪神？（尽管他将成为伪神）
+直到一无所有
+
+歌颂你的真实诗篇中尽是迷失与毁灭
+等着吧，你会后悔的`,
+        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        lyrics_en: `The mistress of the past will perish, and the future will be written
+
+As it is imposed by the Gnosis' law, you must seek no longer what is heavenly
+Behold, much will be asked of you for you are young and abandoned by your own blood
+But even beneath the pressure of evil voices, seek those who stayed by your side till the very end (Do not abandon me, not even at the end)
+Who would create a false god? (Woe to those who dare create a god)
+But it's all to no avail
+
+This story is a rhapsody to them, but to you it is a deceit you are lost in
+Woe to the false prophets who got near you`,
+        trans_source_en: `Genshin Impact Fandom Wiki`,
     },
     {
         chapter: 1,
@@ -1400,7 +1422,7 @@ const tracks = [
 [00:24.80] Iam premet letum vastum te
 [00:37.19] Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)
 [00:49.13] 
-[01:00.92] ごやのすゑなぞながされ
+[01:00.92] ごやのすゑなぞながされ | goya no suwe nazo nagasare
 [01:11.62] Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)
 [01:18.78] tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)
 [01:29.58] Iugis solum ipsius nihil debet
@@ -1411,29 +1433,56 @@ const tracks = [
 [02:13.00]Dominatus
 [02:14.54]Dominatus
 [02:16.34] 
-[02:28.30] ごやのすゑなぞながされ
+[02:28.30] ごやのすゑなぞながされ | goya no suwe nazo nagasare
 [02:38.67]Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)
 [02:49.29]necessitas semota corripiet gradum (et necessitudinis corripiet gradum)
 [02:55.56] 
 [02:56.51] Nunquam genitus desiderem
 `,
-        lyrics_rom: `[00:15.583]
-[00:33.367]
-[00:45.751]
-goya no su wenazonagasare
+        lyrics_zh: `你已经被可怖的天国所禁止
 
+        无底的深渊将压制你
+哀哉，那些已发现自己缺陷的贤者（哀哉，那些已发现他人缺陷的贤者）
 
+为何在我初生之时将我抛弃
+再明智的野兽也会奔向被禁止的事物（再明智的人也会被引诱入罪恶）
+慢慢而来的死亡和无法逃避的命运将逼近（慢慢而来的死亡和无法逃避的命运将加快步伐）
+只有自己的“心”是无所负债的，
 
+不要相信没有用的法令（小心审视那些无用的规定）
 
+寂照万物！
+寂照万物！！
+寂照万物！！！
 
+为何在我初生之时将我抛弃
+哀哉，那些智者只会把神像空嵌在王座上（哀哉，那些盲从神明的人只会崇拜空虚的权力）
+慢慢而来的死亡和无法逃避的命运将逼近（不可避免的命运将加快步伐）
 
+我多么希望我自己从未降临这世上`,
+        trans_source_zh: '网易云音乐 @HOYO-MiX',
+        lyrics_en: `May the celestial affairs be denied to you
 
-goya no su wenazonagasare
-`,
-        lyrics_zh: ``,
-        trans_source_zh: '',
-        lyrics_en: ``,
-        trans_source_en: ``,
+Now a disastrous ruin weighs upon you
+Alas, O those who bear a Vision, you are aware of yourselves (You are aware of yourselves, O those who bear a Vision)
+
+Why did you throw me away on the fifth night?
+The arrogant sages overstep a sinful restriction (The sages are seduced by sin)
+The slow and covert necessity of ruin speeds up the pace (The slow death given by the necessity of ruin speeds up the pace)
+Only the one who is eternal is not bound to anything
+
+Do not believe in anything that is a useless decree (Be scared, watch out which decrees are useless)
+
+Defeated
+Defeated
+Defeated
+
+Why did you throw me away on the fifth night?
+Woe to them! The sages forced the idol on an empty, vain throne (Woe to them and the idol that they cover in adulation, admiration and honors)
+The covert necessity speeds up the pace (and speeds up the pace of necessity)
+
+I wish I had never been born at all`,
+        trans_source_en: `Genshin Impact Fandom Wiki`,
     },
     {
         chapter: 1,
@@ -1694,8 +1743,38 @@ goya no su wenazonagasare
             [01:14.80]Even when it's getting rough
             [01:17.24]Take it easy, having fun is just enough
             [01:20.56] 
+`,
+        lyrics_zh: `看哪 这闪亮的金色象征
 
-`
+如火花般点燃你内心的激昂
+
+找寻你心目中金光闪闪的宝藏
+
+得到它后便能远走高飞
+
+不论幸运与否 至少你已尝试过
+昂首挺胸 相信你自己吧
+
+毋庸置疑 幸运女神与你同在
+你就是那幸运儿 所以好好享受吧
+
+世上总有你无法掌控的事
+
+命运无常 便是这世界的法则
+接受结果 放下无谓的胜负心
+
+这才是人生真正的
+本质与目标
+
+困难的试炼与战斗并非一切
+
+为小小的幸运欢呼吧
+
+虽然总有不如意的时候
+得失心别太重 能够享受便足矣`,
+        trans_source_zh: ` 巴哈姆特 @Karas`,
+        lyrics_en: ``,
+        trans_source_en: ``,
     },
     {
         chapter: 2,
