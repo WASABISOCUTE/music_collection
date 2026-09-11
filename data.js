@@ -1373,6 +1373,52 @@ const tracks = [
         lyrics: `(Instrumental — No Lyrics)`,
     },
     {
+        chapter:1,
+        title: 'Rhapsodia Roscida', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: '2023', ytId: 'OCloBNjfv44', start: 0,
+        lyrics: ``,
+    },
+    {
+        chapter:1,
+        title: 'Polumnia Omnia', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: '2023', ytId: 'NLEqRNhv6gs', start: 0,
+        lyrics: `[00:15.583] Vosmet vetat res coelica
+[00:33.367] Iam premet letum vastum te
+[00:45.751] Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)
+[01:09.487] ごやのすゑなぞながされ
+[01:20.185] Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)
+[01:27.341] tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)
+[01:38.142] Iugis solum ipsius nihil debet
+[01:54.86] Credas in nullum qua sunt edicta inutile (Cave vide qua sunt edicta inutile)
+[02:18.699] Dominatus
+[02:21.658] Dominatus
+[02:23.24] Dominatus
+[02:36.828] ごやのすゑなぞながされ
+[02:47.251] Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)
+[02:57.743] necessitas semota corripiet gradum (et necessitudinis corripiet gradum)
+[03:05.07] Nunquam genitus desiderem
+`,
+lyrics_rom:`[00:15.583]
+[00:33.367]
+[00:45.751]
+goya no su wenazonagasare
+
+
+
+
+
+
+
+goya no su wenazonagasare
+`,
+lyrics_zh:``,
+trans_source_zh:'',
+lyrics_en:``,
+trans_source_en:``,
+    },
+    {
         chapter: 1,
         title: 'For Riddles, for Wonders', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
