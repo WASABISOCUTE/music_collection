@@ -1373,34 +1373,51 @@ const tracks = [
         lyrics: `(Instrumental — No Lyrics)`,
     },
     {
-        chapter:1,
+        chapter: 1,
         title: 'Rhapsodia Roscida', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '2023', ytId: 'OCloBNjfv44', start: 0,
-        lyrics: ``,
+        lyrics: `[00:52.43]Domina praeteritae peribitur et sculpitur crastino
+[01:05.96] 
+[01:19.66]Canonem gnosis inscribit inclinabimini non iam ad caelesti
+[01:35.69]Ecce premeris quoniam iuvenis sanguinum es derelicte
+[01:47.76]A malo pressa voces iterum conquiratis quam manui sis tenere etiamsi|(Nolite me relinquere ir in finem etiamsi)
+[02:00.84]Qui formaret falsum deum|(Vae cui formavit deum)
+[02:12.79]Ad nihil utile
+[02:14.63] 
+[02:15.19]Poesis eis letis recto fatus tecum fallis deperdite
+[02:29.66]Estris vae falsatis quod ad propinquavit
+[02:43.53] 
+`,
     },
     {
-        chapter:1,
+        chapter: 1,
         title: 'Polumnia Omnia', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: '2023', ytId: 'NLEqRNhv6gs', start: 0,
-        lyrics: `[00:15.583] Vosmet vetat res coelica
-[00:33.367] Iam premet letum vastum te
-[00:45.751] Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)
-[01:09.487] ごやのすゑなぞながされ
-[01:20.185] Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)
-[01:27.341] tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)
-[01:38.142] Iugis solum ipsius nihil debet
-[01:54.86] Credas in nullum qua sunt edicta inutile (Cave vide qua sunt edicta inutile)
-[02:18.699] Dominatus
-[02:21.658] Dominatus
-[02:23.24] Dominatus
-[02:36.828] ごやのすゑなぞながされ
-[02:47.251] Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)
-[02:57.743] necessitas semota corripiet gradum (et necessitudinis corripiet gradum)
-[03:05.07] Nunquam genitus desiderem
+        lyrics: `[00:07.02] Vosmet vetat res coelica
+[00:19.11] 
+[00:24.80] Iam premet letum vastum te
+[00:37.19] Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)
+[00:49.13] 
+[01:00.92] ごやのすゑなぞながされ
+[01:11.62] Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)
+[01:18.78] tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)
+[01:29.58] Iugis solum ipsius nihil debet
+[01:40.43] 
+[01:46.30] Credas in nullum qua sunt edicta inutile (Cave vide qua sunt edicta inutile)
+[02:04.82] 
+[02:10.25]Dominatus
+[02:13.00]Dominatus
+[02:14.54]Dominatus
+[02:16.34] 
+[02:28.30] ごやのすゑなぞながされ
+[02:38.67]Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)
+[02:49.29]necessitas semota corripiet gradum (et necessitudinis corripiet gradum)
+[02:55.56] 
+[02:56.51] Nunquam genitus desiderem
 `,
-lyrics_rom:`[00:15.583]
+        lyrics_rom: `[00:15.583]
 [00:33.367]
 [00:45.751]
 goya no su wenazonagasare
@@ -1413,10 +1430,10 @@ goya no su wenazonagasare
 
 goya no su wenazonagasare
 `,
-lyrics_zh:``,
-trans_source_zh:'',
-lyrics_en:``,
-trans_source_en:``,
+        lyrics_zh: ``,
+        trans_source_zh: '',
+        lyrics_en: ``,
+        trans_source_en: ``,
     },
     {
         chapter: 1,
