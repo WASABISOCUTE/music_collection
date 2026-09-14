@@ -573,7 +573,7 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     opacity: 0;
     pointer-events: none;
     transform: translateY(10px);
@@ -1186,10 +1186,49 @@ footer {
 }
 
 .controls-spacer {
-    width: 100px;
+    width: auto;
+    min-width: 150px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 16px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.volume-container:hover {
+    opacity: 1;
+}
+
+.volume-container .ctrl-btn {
+    font-size: 16px;
+}
+
+#volume-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
 }
 
 .switch {

@@ -195,6 +195,12 @@
                     <button class="ctrl-btn" onclick="playNext()"><i class="fa-solid fa-forward-step"></i></button>
                 </div>
                 <div class="controls-spacer">
+                    <div class="volume-container">
+                        <button class="ctrl-btn" id="volume-btn" onclick="toggleMute()">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </button>
+                        <input type="range" id="volume-slider" min="0" max="100" value="100" oninput="changeVolume(this.value)">
+                    </div>
                     <button class="ctrl-btn" id="loop-mode-btn" onclick="toggleLoopMode()" title="Stop After Current">
                         <i class="fa-solid fa-ban"></i>
                     </button>
@@ -936,6 +942,39 @@
             } else if (loopMode === 3) {
                 btn.innerHTML = '<i class="fa-solid fa-repeat"></i>';
                 btn.title = "Loop All";
+            }
+        }
+
+        let previousVolume = 100;
+        let isMuted = false;
+
+        function changeVolume(value) {
+            if (player && isPlayerReady) {
+                player.setVolume(value);
+            }
+            const volumeBtnIcon = document.querySelector('#volume-btn i');
+            if (value == 0) {
+                volumeBtnIcon.className = 'fa-solid fa-volume-xmark';
+                isMuted = true;
+            } else if (value < 50) {
+                volumeBtnIcon.className = 'fa-solid fa-volume-low';
+                isMuted = false;
+                previousVolume = value;
+            } else {
+                volumeBtnIcon.className = 'fa-solid fa-volume-high';
+                isMuted = false;
+                previousVolume = value;
+            }
+        }
+
+        function toggleMute() {
+            const slider = document.getElementById('volume-slider');
+            if (isMuted) {
+                changeVolume(previousVolume);
+                slider.value = previousVolume;
+            } else {
+                changeVolume(0);
+                slider.value = 0;
             }
         }
 
