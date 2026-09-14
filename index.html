@@ -52,18 +52,25 @@
                     <h4>设置 / Settings <button class="close-btn" onclick="toggleSettings(event)"><i
                                 class="fa-solid fa-xmark"></i></button></h4>
                     <div style="font-size: 13px; margin-top: 12px; color: var(--text-muted); font-weight: bold;">实验性功能
-                        (Experimental)</div>
+                        / Experimental</div>
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
-                        <span style="font-size: 14px;">歌词翻译 (Lyrics Translation)</span>
+                        <span style="font-size: 14px;">歌词翻译 / Lyrics Translation</span>
                         <label class="switch">
                             <input type="checkbox" id="setting-translation">
                             <span class="slider round"></span>
                         </label>
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
-                        <span style="font-size: 14px;">歌词发音 (Lyrics Pronunciation)</span>
+                        <span style="font-size: 14px;">歌词发音 / Lyrics Pronunciation</span>
                         <label class="switch">
                             <input type="checkbox" id="setting-pronunciation">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
+                        <span style="font-size: 14px;">启用全屏 / Fullscreen</span>
+                        <label class="switch">
+                            <input type="checkbox" id="setting-fullscreen">
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -568,6 +575,7 @@
 
         const pronunciationInput = document.getElementById('setting-pronunciation');
         const translationInput = document.getElementById('setting-translation');
+        const fullscreenInput = document.getElementById('setting-fullscreen');
 
         if (pronunciationInput) pronunciationInput.checked = savedPronunciation;
         if (translationInput) translationInput.checked = savedTranslation;
@@ -589,6 +597,37 @@
                 }
             });
         }
+
+        if (fullscreenInput) {
+            fullscreenInput.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    if (document.documentElement.requestFullscreen) {
+                        document.documentElement.requestFullscreen().catch(err => {
+                            console.error(`Error attempting to enable fullscreen: ${err.message}`);
+                            e.target.checked = false;
+                        });
+                    }
+                } else {
+                    if (document.fullscreenElement) {
+                        if (document.exitFullscreen) {
+                            document.exitFullscreen();
+                        }
+                    }
+                }
+            });
+        }
+
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                if (fullscreenInput) {
+                    fullscreenInput.checked = false;
+                }
+            } else {
+                if (fullscreenInput) {
+                    fullscreenInput.checked = true;
+                }
+            }
+        });
 
         function setTransMode(lang) {
             translationMode = lang;
