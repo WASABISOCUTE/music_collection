@@ -1049,6 +1049,119 @@ footer {
     }
 }
 
+/* Mobile landscape: restore desktop-style side-by-side layout */
+@media (max-height: 500px) and (orientation: landscape) {
+    .now-playing-overlay {
+        overflow: hidden;
+    }
+
+    .np-header {
+        padding: 10px 20px;
+    }
+
+    .np-header .logo {
+        font-size: 14px;
+    }
+
+    .btn-close {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .np-content {
+        flex-direction: row;
+        padding: 0 20px 8px;
+        gap: 20px;
+        align-items: stretch;
+        flex: 1;
+        min-height: 0;
+    }
+
+    .np-left {
+        flex: 1.3;
+        gap: 10px;
+        min-height: 0;
+    }
+
+    .video-container {
+        flex: 1;
+        min-height: 0;
+        aspect-ratio: unset;
+        height: auto;
+    }
+
+    .np-track-details {
+        flex-shrink: 0;
+    }
+
+    .np-title {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .np-artist {
+        font-size: 13px;
+    }
+
+    .btn-options {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .np-right {
+        flex: 0.9;
+        width: auto;
+        height: auto;
+        min-height: 0;
+        transform: none;
+    }
+
+    .np-bottom {
+        padding: 0 20px 10px;
+        gap: 8px;
+        flex-shrink: 0;
+    }
+
+    .progress-container {
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .controls-row {
+        align-items: center;
+    }
+
+    .visualizer {
+        height: 28px;
+        width: 70px;
+    }
+
+    .player-controls {
+        gap: 20px;
+    }
+
+    .btn-play-pause {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .ctrl-btn {
+        font-size: 18px;
+    }
+
+    #volume-slider {
+        width: 60px;
+    }
+
+    .lyric-line {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+}
+
 /* Tablet / small desktop header adjustments */
 @media (max-width: 768px) {
     header {
@@ -1173,8 +1286,8 @@ footer {
     }
 }
 
-/* Mobile only: move the lyrics panel upward away from the progress bar. */
-@media (max-width: 600px) {
+/* Mobile only (portrait): move the lyrics panel upward away from the progress bar. */
+@media (max-width: 600px) and (orientation: portrait) {
     .np-content {
         gap: 16px;
         padding-bottom: 20px;
