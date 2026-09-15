@@ -42,6 +42,8 @@
                         • <kbd>Space</kbd> 播放 / 暂停 (Play/Pause)<br>
                         • <kbd>←</kbd> 上一首 (Previous)<br>
                         • <kbd>→</kbd> 下一首 (Next)<br>
+                        • <kbd>↑</kbd> 调高音量 (Volume Up)<br>
+                        • <kbd>↓</kbd> 调低音量 (Volume Down)<br>
                         • <kbd>ESC</kbd> 收起播放器 (Close Player)
                     </div>
                 </div>
@@ -51,8 +53,8 @@
                 <div class="tooltip-popup" id="settings-popup" onclick="event.stopPropagation()">
                     <h4>设置 / Settings <button class="close-btn" onclick="toggleSettings(event)"><i
                                 class="fa-solid fa-xmark"></i></button></h4>
-                    <div style="font-size: 13px; margin-top: 12px; color: var(--text-muted); font-weight: bold;">实验性功能
-                        / Experimental</div>
+                    <!-- <div style="font-size: 13px; margin-top: 12px; color: var(--text-muted); font-weight: bold;">实验性功能
+                        / Experimental</div> -->
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
                         <span style="font-size: 14px;">歌词翻译 / Lyrics Translation</span>
                         <label class="switch">
@@ -73,9 +75,6 @@
                             <input type="checkbox" id="setting-fullscreen">
                             <span class="slider round"></span>
                         </label>
-                    </div>
-                    <div style="font-size: 12px; margin-top: 12px; color: #ff9800;">
-                        <i class="fa-solid fa-circle-info"></i> 开发中...
                     </div>
                 </div>
             </div>
@@ -177,8 +176,9 @@
         <div class="np-bottom">
             <div class="progress-container">
                 <span id="time-current">0:00</span>
-                <div class="progress-bar-bg" onclick="seekVideo(event)" id="progress-bg">
+                <div class="progress-bar-bg" id="progress-bg">
                     <div class="progress-bar-fill" id="progress-fill"></div>
+                    <div class="progress-bar-thumb" id="progress-thumb"></div>
                 </div>
                 <span id="time-total">0:00</span>
             </div>
@@ -199,7 +199,8 @@
                         <button class="ctrl-btn" id="volume-btn" onclick="toggleMute()">
                             <i class="fa-solid fa-volume-high"></i>
                         </button>
-                        <input type="range" id="volume-slider" min="0" max="100" value="100" oninput="changeVolume(this.value)">
+                        <input type="range" id="volume-slider" min="0" max="100" value="100"
+                            oninput="changeVolume(this.value)">
                     </div>
                     <button class="ctrl-btn" id="loop-mode-btn" onclick="toggleLoopMode()" title="Stop After Current">
                         <i class="fa-solid fa-ban"></i>
@@ -921,7 +922,6 @@
             if (currentTrackId < tracks.length - 1) {
                 openPlayer(currentTrackId + 1, keepHidden);
             } else if (loopMode === 3) {
-                // If it's the last track and loop all is enabled, go to first track
                 openPlayer(0, keepHidden);
             }
         }
@@ -936,7 +936,6 @@
                 btn.innerHTML = '<i class="fa-solid fa-arrow-right"></i>';
                 btn.title = "Sequence Play";
             } else if (loopMode === 2) {
-                // Create a loop one icon
                 btn.innerHTML = '<span style="position:relative;"><i class="fa-solid fa-repeat"></i><span style="position:absolute;font-size:0.5em;top:50%;left:50%;transform:translate(-50%,-50%);font-family:sans-serif;font-weight:bold;">1</span></span>';
                 btn.title = "Loop One";
             } else if (loopMode === 3) {
@@ -1003,12 +1002,17 @@
                     let currentAdjusted = current - start;
                     if (currentAdjusted < 0) currentAdjusted = 0;
 
-                    document.getElementById('time-current').innerText = formatTime(currentAdjusted);
                     document.getElementById('time-total').innerText = formatTime(duration);
+                    if (!isSeeking) {
+                        document.getElementById('time-current').innerText = formatTime(currentAdjusted);
+                    }
 
                     if (duration > 0) {
-                        const pct = (currentAdjusted / duration) * 100;
-                        document.getElementById('progress-fill').style.width = Math.max(0, Math.min(100, pct)) + '%';
+                        const pct = Math.max(0, Math.min(100, (currentAdjusted / duration) * 100));
+                        if (!isSeeking) {
+                            document.getElementById('progress-fill').style.width = pct + '%';
+                            document.getElementById('progress-thumb').style.left = pct + '%';
+                        }
                     }
 
                     const lyrics = document.querySelectorAll('.lyric-line[data-time]');
@@ -1041,25 +1045,82 @@
             clearInterval(progressInterval);
         }
 
-        function seekVideo(e) {
-            if (!isPlayerReady) return;
+        let isSeeking = false;
+
+        function getSeekPct(clientX) {
             const bg = document.getElementById('progress-bg');
             const rect = bg.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
-            const width = rect.width;
-            const pct = clickX / width;
+            return Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+        }
 
-            const track = tracks[currentTrackId];
-            const start = track.start || 0;
-            const total = player.getDuration();
-            const effectiveEnd = track.end || total;
-            const duration = effectiveEnd - start;
+        function applySeekPct(pct, commit) {
+            document.getElementById('progress-fill').style.width = (pct * 100) + '%';
+            document.getElementById('progress-thumb').style.left = (pct * 100) + '%';
 
-            if (duration > 0) {
-                const seekTo = start + (duration * pct);
-                player.seekTo(seekTo, true);
+            if (isPlayerReady) {
+                const track = tracks[currentTrackId];
+                const start = track.start || 0;
+                const total = player.getDuration();
+                const effectiveEnd = track.end || total;
+                const duration = effectiveEnd - start;
+                if (duration > 0) {
+                    document.getElementById('time-current').innerText = formatTime(duration * pct);
+                }
+            }
+
+            if (commit && isPlayerReady) {
+                const track = tracks[currentTrackId];
+                const start = track.start || 0;
+                const total = player.getDuration();
+                const effectiveEnd = track.end || total;
+                const duration = effectiveEnd - start;
+                if (duration > 0) {
+                    const seekTo = start + (duration * pct);
+                    player.seekTo(seekTo, true);
+                }
             }
         }
+
+        document.getElementById('progress-bg').addEventListener('mousedown', (e) => {
+            if (!isPlayerReady) return;
+            isSeeking = true;
+            document.getElementById('progress-bg').classList.add('seeking');
+            applySeekPct(getSeekPct(e.clientX), false);
+            e.preventDefault();
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isSeeking) return;
+            applySeekPct(getSeekPct(e.clientX), false);
+        });
+
+        document.addEventListener('mouseup', (e) => {
+            if (!isSeeking) return;
+            isSeeking = false;
+            document.getElementById('progress-bg').classList.remove('seeking');
+            applySeekPct(getSeekPct(e.clientX), true);
+        });
+
+        document.getElementById('progress-bg').addEventListener('touchstart', (e) => {
+            if (!isPlayerReady) return;
+            isSeeking = true;
+            document.getElementById('progress-bg').classList.add('seeking');
+            applySeekPct(getSeekPct(e.touches[0].clientX), false);
+            e.preventDefault();
+        }, { passive: false });
+
+        document.addEventListener('touchmove', (e) => {
+            if (!isSeeking) return;
+            applySeekPct(getSeekPct(e.touches[0].clientX), false);
+        }, { passive: true });
+
+        document.addEventListener('touchend', (e) => {
+            if (!isSeeking) return;
+            isSeeking = false;
+            document.getElementById('progress-bg').classList.remove('seeking');
+            const touch = e.changedTouches[0];
+            applySeekPct(getSeekPct(touch.clientX), true);
+        });
 
         window.addEventListener('resize', () => {
             updateNowPlayingMarquees();
@@ -1091,6 +1152,22 @@
                     e.preventDefault();
                     playNext();
                     break;
+                case 'ArrowUp': {
+                    e.preventDefault();
+                    const slider = document.getElementById('volume-slider');
+                    const newVol = Math.min(100, parseInt(slider.value) + 5);
+                    slider.value = newVol;
+                    changeVolume(newVol);
+                    break;
+                }
+                case 'ArrowDown': {
+                    e.preventDefault();
+                    const slider = document.getElementById('volume-slider');
+                    const newVol = Math.max(0, parseInt(slider.value) - 5);
+                    slider.value = newVol;
+                    changeVolume(newVol);
+                    break;
+                }
                 case 'Escape':
                     closePlayer();
                     break;
