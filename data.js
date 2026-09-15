@@ -1595,6 +1595,7 @@ I wish I had never been born at all`,
             [01:20.37]Ijapokua hata
             [01:23.73]Majivu ya motoni
             [01:26.10]Tena
+            [01:33.00]
             [02:37.64]Chagua njia ya mwenyewe
             [02:40.95]Moto daima utawaka
             [02:44.35]Moto daima utawaka
@@ -1640,7 +1641,6 @@ I wish I had never been born at all`,
             [00:45.75] 3-2-1, fire!
             [00:51.70] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
             [00:54.466] Go go!
-            [00:54.516] Go go!
             [00:59.202] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
             [01:01.10] Or a little flames?
             [01:06.605] Burnice, Burnice, Burnice, Burnice, Burnice, Burnice
@@ -1668,7 +1668,57 @@ I wish I had never been born at all`,
             [02:09.158] Go go!
             [02:14.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
             [02:16.035] Gonna watch it burn!
-`},
+`,
+        lyrics_zh: `晚上好，欢迎来到我的吧台！
+        我是柏妮思，今天只为你服务。
+        先来点什么？
+        一杯喝的，一点零食？或许…再来一些更让人兴奋的？
+        无酒精鸡尾酒，搅拌器，冰块
+        这些零食味道超好
+        苏打，酸甜汁，再加上辛辣剂
+我已找到感觉这毋庸置疑
+想要什么
+需要什么（我们都有）
+承认吧，这感觉太好
+你已深陷其中
+眼中的、心里的、口腔中的、掌心上的
+都躁动起来吧
+你口袋里的丁尼
+是我的目标
+你知道我超棒的吧？
+还在犹豫什么呢？
+3.2.1，挥霍吧！
+柏妮思 柏妮思 柏妮思 柏妮思 柏妮思 柏妮思
+耶耶
+躁动吧 柏妮思 通宵吧 柏妮思 热情赞美 柏妮思
+要不要更兴奋点？
+柏妮思 柏妮思 柏妮思 柏妮思 柏妮思 柏妮思
+耶耶
+挥霍吧 柏妮思 晃动吧 柏妮思 点燃一切 柏妮思
+看它燃烧吧
+我当然知道自己看起来超可爱，或许还有点端庄
+不过傻瓜总会让我火大，不要嚣张
+客人小心哦，我这就为您倒一杯燃油饮料
+但最好不要惹我生气，否则我就要开启火枪
+喝下给你的燃油饮，就别乱讲
+想要跟我对着干，结果一定不理想
+如果你想碰碰运气
+那柏妮思的火枪就会奉还加倍热情！
+挥霍掉所有丁尼
+是我的目标
+你知道我是世界顶级的
+别再多说
+3.2.1，燃烧吧！
+柏妮思 柏妮思 柏妮思 柏妮思 柏妮思 柏妮思
+耶耶
+躁动吧 柏妮思 通宵吧 柏妮思 热情赞美 柏妮思
+要不要更兴奋点？
+柏妮思 柏妮思 柏妮思 柏妮思 柏妮思 柏妮思
+耶耶
+挥霍吧 柏妮思 晃动吧 柏妮思 点燃一切 柏妮思
+看它燃烧吧`,
+        trans_source_zh: `网易云音乐 @HOYO-MiX`
+    },
     {
         chapter: 2,
         title: 'Apocalypse', artist: 'アリスシャッハと魔法の楽団',
@@ -1706,7 +1756,73 @@ I wish I had never been born at all`,
 [02:09.51]Ley end Mii Bis Dist end Dist Mii
 [02:12.61]a Falke Luan!
 [02:14.04]Brait Allss ou Xia Piero
-[02:19.16]Haou Crai La Crai`
+[02:19.16]Haou Crai La Crai`,
+        lyrics_en: `Run through the evening twilight
+to the girls’ crowd
+One, two and three apples roll
+In the fishy revelation of aeonian silence
+Run through the evening twilight to the agonizing guy
+One, two and three apples roll
+In the fishy revelation of aeonian sleep
+The circus night is really long
+scattered synapse tangle in legs
+And finally peeped end of 
+monodrama in the view after flip
+Once I face you, I forget myself again
+I have to leave right now!
+But can’t find key of door
+Circus without audience holds up
+and forget where here is again
+I have to go right now!
+Prizing out eyelids of the clown
+By my hand
+Trail, Brightness, Redemption, Fate
+Trail, Brightness, Redemption, Fate
+Trail, Brightness, Redemption, Fate
+Trail, Brightness, Redemption, Fate
+Once I face you
+I forget myself again
+I have to leave right now!
+But can’t find key of door
+Circus without audience holds up
+and forget where here is again
+I have to go right now!
+Prizing out eyelids of the clown
+By my hand`,
+        trans_source_en: `Official`,
+        lyrics_zh: `穿过傍晚的暮色
+奔向女孩们的人群
+一、二、三个苹果滚落着
+在永恒寂静那可疑的启示之中
+穿过傍晚的暮色
+奔向苦苦挣扎的那个人
+一、二、三个苹果滚落着
+在永恒沉眠那可疑的启示之中
+马戏团的夜晚实在漫长，散乱的突触缠绕在双腿之间
+翻转之后，终于窥见了独角戏在视野中的结局
+每当我面对你，
+我便再次忘却自己
+我现在必须离开！
+可是却找不到门的钥匙
+没有观众的马戏团仍在支撑着
+而我又一次忘记了这里究竟是哪里
+我现在必须离开！
+用我的双手
+掰开小丑的眼皮
+痕迹、光辉、救赎、命运
+痕迹、光辉、救赎、命运
+痕迹、光辉、救赎、命运
+痕迹、光辉、救赎、命运
+每当我面对你，
+我便再次忘却自己
+我现在必须离开！
+可是却找不到门的钥匙
+没有观众的马戏团仍在支撑着，
+而我又一次忘记了这里究竟是哪里
+我现在必须离开！
+用我的双手
+掰开小丑的眼皮`,
+        trans_source_zh: `WASABISOCUTE`
     },
     {
         chapter: 2,
@@ -1773,8 +1889,6 @@ I wish I had never been born at all`,
 虽然总有不如意的时候
 得失心别太重 能够享受便足矣`,
         trans_source_zh: ` 巴哈姆特 @Karas`,
-        lyrics_en: ``,
-        trans_source_en: ``,
     },
     {
         chapter: 2,
