@@ -1605,7 +1605,8 @@ I wish I had never been born at all`,
             [02:58.01]Na moto utakuwakia
             [03:01.50]Na moto utakuwakia
             [03:42.14]
-        `
+        `,
+        lyrics_zh: ``,
     },
     {
         chapter: 2,
@@ -5490,7 +5491,81 @@ By my hand`,
             [01:57.64]誤魔化して、ららら歌って
             [02:00.40]苦な人生は何かのせいにして
             [02:03.99]僕のこんな歌も 全部春のせいかな
-            [02:10.62]`
+            [02:10.62]`,
+        lyrics_rom: `kimi no uta o kaite ita kizuku wake mo nai no sa
+"kashi o kikanai" hito desho?
+oikakeru koto sura akirameyou to tasogare
+itsu no ma ni ka ao wazurai no boku sa
+sayonara no saki ni ibitsu na ame hitotsu
+hana chirashite iku boku no sakura ame
+houkago no kimi wa kakushinhan da
+karete iku kokoro o kogashite
+fumikomenai ashita wa zenbu haru no sei kana
+
+furui merodi o utatta oboeteru wake mo nai nda
+"shouhi suru dake" no hito desho?
+shigatsu wa daikirai da kono kaori boku no kokoro o
+sekashi damashi kimi o omoidasa seru
+seishun kanjousen ni notte oitsukenai mama guruguru to
+are, ima nanshuu mawatteru?
+rara raku na jinsei o urayanderu
+kyou mo boku wa tada no kansokusha sa
+raisei de sa tanoshimeba ii ya
+jinsei tan'i no koto shika kangaeru no yameta
+kono yo no tadashisa goto
+gomakashite rarara utatte
+kuna jinsei wa nanika no sei ni shite
+boku no konna uta mo zenbu haru no sei kana
+`,
+        lyrics_en: `I'm writing a song about you, but you won't even notice.
+Because you're the type of person who doesn't listen to lyrics, right?
+I've decided to give up chasing you, resigned to my fate, and now I'm watching the sky grow dark.
+Unknowingly, I've caught the anxieties and pains of adolescence.
+Following our farewell, only tears were left behind
+Scattering petals, my cherry blossom rain.
+You after school are a deliberate offender.
+Burning away my withering heart,
+are all the tomorrows I can't step into, a fault of spring?
+
+I sing the melodies of before,but you wouldn't even remember.
+You're just someone who "consumes," right?
+I truly despise April. This fragrance agitates my heart,
+betrays it, and conjures your image in my mind.
+The endless cycle of youth, I chase it in vain, going around and around.
+Oh, how many times have I gone through this already?
+Envy fills me as I watch lives lived with ease.
+Today, I am just an observer.
+I will enjoy life to the fullest in my next life.
+I no longer cling to the things of this world.
+Cover up all the justice in this world with lies.
+La la la, I sing.
+attribute the painful life to some cause.
+This song of mine must also be the fault of spring, right?`,
+        lyrics_zh: `我正在写你的歌，而你一定不会注意到。
+因为你是个“不听歌词”的人，不是吗？
+我决定无奈地放弃追逐你，然后看着天色渐渐昏暗
+不知不觉中，我染上了青春期的烦恼和痛苦
+告别之后，只剩下了眼泪
+花瓣飘落，我的樱花雨
+放课后的你，是深谋熟虑的犯人
+灼烧着逐渐枯萎的心，
+迈不进的明天，一定是春天的错吧？
+
+我唱着以前的旋律，但你根本不会记得
+你不过是“消费”的人, 对吧？
+四月真让人讨厌 这气味让我心急、
+被欺骗、让你的身影浮现在心头
+青春的环线，追逐不去，徒然打转
+哎呀，已经转了多少圈了？
+羡慕着轻松的人生，
+今天我只是一个旁观者
+来世再好好享受吧。
+我不再执着于今世的事情了
+把这个世上的所有正义
+都蒙混过去啦啦啦地歌唱
+痛苦的人生就归咎于某种原因
+我的这首歌，也一定是春天的错吧？`,
+        trans_source: `YouTube @ナナツカゼ`
     },
     {
         chapter: 4,
@@ -5557,6 +5632,185 @@ By my hand`,
             [04:55.74]そうしていつか笑うように眠る
             [04:59.94]何故ならふたりは放たれているから
             [05:04.34]死んだ世界で唯ふたりだけが幸せだった`,
+        lyrics_rom: `tooi tooi toki no hate
+soko ni sumau hito wa minna
+eien no inochi wo motsu
+sekai de no hanashi
+
+akai mi no naru ki no shita
+La La Lu La umarenagara ni
+shi no noroi ga kakerareta
+shoujo no hanashi
+
+irozuita machihazure aoku hikaru kohan akai mi no okashiya
+choppiri samuku natta kyou wa myou ni hokorashige jishinsaku wo uri ni yuku
+mattete kondo koso oishii ndakara
+
+tokeitou no mieru ichi odoroita
+mezurashiku nigiyaka ne La La Lu La Lucky!!
+monouge na machi no sumi hitori
+akai mi no pai dou desu ka jishinsaku nano
+sonna no hitotsu mo urenai sa shoujo wo mite sagesumu hitotachi
+minna to nani mo kawaranai no ni oishiku dekita no ni
+kyou mo koe wa todokanai no ne
+marude toumei ni natta mitai da wa
+soushite daremo ga shiranu furi wo shita
+nazenara shoujo wa norowarete iru kara
+shinda sekai de tada hitori ikite ita shoujo no hanashi
+
+yonabe de arenji pai to nikkori sumairu hissage
+shoujo wa mada akiramenai
+tokeitou no hari mo sora wo sashite onaka wo naru sonna toki
+futo ushiro kara hito ga
+shoujo wo osu amai kago wa ochiru
+okashi wo fumi yuku hitotachi heiki na kao shite sa
+mijime ni hiroiatsumeru
+futo mou hitori no te ga
+dorodoro no pai wo omomuro ni kuchi ni irete "oishii ne"
+sono koe de kokoro wa afureta
+marude rinkaku wo egaita mitai da wa
+soushite kare wa te wo sashidashita
+nazenara shoujo ni norowarete iru kara
+shinda sekai de tada futari ikite ita tooi monogatari
+
+machi no hitotachi wa awaremu
+akai mi wo tabete norowareta mono wo
+eien ni ikirarezu ni shinu no sa aa
+nante kawaisou na hanashi
+futari wa warau soredemo warau
+La La La tottemo suteki na noroi ne
+tatoe ashita shinde mo "ima" ga tashika de taisetsu ni naru kara
+
+mou koe wa todokanai no ne
+marude toumei ni natta mitai da wa
+soushite daremo ga shiranu furi wo shita
+nazenara sekai ga norowarete iru kara
+
+"eien" no noroi wa tokarete ita
+marude futari no hou ga kurutta mitai darou
+soushite itsuka warau you ni nemuru
+nazenara futari wa hanatarete iru kara
+shinda sekai de tada futari dake ga shiawase datta`,
+        lyrics_en: `This is a tale
+At the far ends of time,
+In a place where people
+Have eternal life...
+
+This is a tale of a girl
+La la lu la, born under a tree bearing red fruit,
+Who was thus cursed
+With the fate of death...
+
+On the colored outskirts, by a sparkling blue lake, there was a bakery of red fruit
+Feeling unusually proud on this chilly day, the girl went to sell her confections
+This'll be the day, you'll see - they're very tasty...
+
+She found the city of the clock tower
+To be unusually busy; la la lu la lucky!!
+Alone in the gloomy corners of town;
+How about some red-fruit pie? I made it myself!
+But not a single one would sell; the people scorned the girl
+But I'm no different from you all... And they're so delicious...
+Once again, my voice falls short;
+It's as if I'm simply invisible...
+Such is how everyone feigned ignorance,
+Because the girl was cursed...
+A tale of a dead world, where only one girl lived...
+
+That night, she prepared assorted pies and a big smile;
+The girl would not yet give up
+Even the clock hands pointed skyward, and as her stomach rumbled...
+Suddenly, she was pushed from behind,
+Her sweet basket fell to the ground
+People trampled her confections without even a care...
+Miserably she gathered them,
+When another hand reached out;
+He gently put a muddled pie in his mouth - "It's delicious..."
+His words made my heart overflow,
+As if he'd given me a place for it to fill...
+Such is how he reached out to her,
+Because the girl had cursed him...
+A distant story of a dead world, where only two lived...
+
+The townspeople pitied them;
+Those who were cursed by the red fruit
+Would not live forever, but die instead... Ah,
+What a tragic tale...
+But the two laughed, yes, they laughed still
+La la la - It's such a wonderful curse
+Even if we die tomorrow, we can easily treasure the "now"...
+
+I suppose my voice will always fall short;
+It's as if I'm simply invisible...
+Such is how everyone feigned ignorance,
+Because the world was cursed...,
+
+Having been rid of the curse of "eternity,"
+It must have seemed they were the ones gone mad...
+And so they slept, intending to smile,
+Because the two had been freed...
+In that dead world, two alone were happy...`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by vgperson`,
+        lyrics_zh: `这是在很久很久以后
+        在时间的终点
+所有人都得到永生的
+世界发生的故事
+
+结下红色果实的树木下
+La La Lu La 欢快诞生下
+同时被施加死的诅咒的
+少女的故事
+
+林荫翠绿的郊外，波光粼粼的湖畔，红色果实的甜点屋
+稍微有点冷的今天，少女特别有自信，因为要上街卖杰作甜点
+等著喔，这次真的，很好吃唷
+
+少女为能望见钟塔的市内感到惊讶
+难得这么热闹 La La Lu La Lucky!!
+在阴郁的街角，一个人喊著
+「来个红色果实的派如何呢？是我的杰作喔」
+「那种东西一个都卖不出去啦」人们看著少女轻蔑的说
+『大家真是都不会变呢，明明这么好吃的』少女心想
+今天，声音仍传达不到呢
+彷彿变成透明一样
+所有人都视而不见
+要说为什么，那是因为少女被诅咒了
+这是在死去的世界唯一活著的少女的故事
+
+趁著晚上调整了派，弯起嘴角作出微笑
+少女还没有放弃
+钟塔的指针指向天空，肚子好像也要发出声时
+有人从背后
+推了少女一把，香甜的提篮掉落在地
+踩过甜点的人们，全都不当一回事
+悽惨的少女捡起派
+眼前却出现另一只手
+将黏糊糊的派一口一口送入口中，「很好吃呢」少年说
+那声音满足了少女的心
+彷彿描绘出了轮廓一般
+少年对少女伸出了手
+要说为什么，那是因为少年被少女诅咒了
+这是在死去的世界唯二活著的遥远的故事
+
+镇上的人为少年悲叹
+「吃下红色果实受诅咒的人
+将无法活到永远迎来死亡啊」
+啊啊这究竟是多么可怜的故事
+两人笑著，即使如此仍笑著
+La La La 这该是多美好的诅咒呀
+倘若明天就会迎来死亡，那势必就会更珍惜『现在』
+
+声音已经传达不到了呢
+彷彿变成透明一样
+所有人都视而不见
+要说为什么，那是因为世界被诅咒了
+
+『永远』的诅咒被解开了
+彷彿两人才是不正常的一边一样
+某日将带著笑容陷入沉眠
+要说为什么，那是因为两人被放逐了
+是在死去的世界唯二得到幸福的两人`,
+        trans_source_zh: `巴哈姆特 @星櫻`,
     },
     {
         chapter: 4,
@@ -5628,7 +5882,205 @@ By my hand`,
             [03:15.30]なんだって歌うよ 君が笑うなら
             [03:18.82]すれ違う前のセカイまで
             [03:22.24]
-            [03:31.26]すれ違う前のセカイまで    `,
+            [03:31.26]すれ違う前のセカイまで`,
+        lyrics_rom: `torimodoshitai hiiroo mitai ni
+nigawarai baibai wa mou ii yo
+naku toki wa oshiete yo zettai
+
+joudan mo joozu ni waraenai
+kiratteru mitai datta kizutsuke chatta
+mousou mo mainasu bakari de
+kamawanaide hoshikatta kimi mo soudatta
+
+daijoubu nomikonda yume mo
+daijoubu kakaekonda yume mo
+kitai mo koukai mo zenbu hakidasou
+
+tsunageyou dansen shita sutoorii
+susumeyou wantenpo nichijou ni
+kimi wo sasu sono hari wa watashi ga ubatte ageru kara
+
+torimodoshitai hiiroo mitai ni
+nigawarai baibai wa mou ii yo
+naku toki wa oshiete yo zettai
+
+dou datte ii sonzai janai
+kantan ni ai wa owaranai yo
+hanarebanare mo yureruomoi mo
+kotae wo kikasete
+
+mou ichido kanadete ikou
+nandatte utau yo kimi ga warau nara
+surechigau mae no sekai made
+
+hontou ni motometa kotae wa nai
+hekonde wa shimaikonda kurikaeshite ita
+"dou datte ii" mo honne ja nai
+dareka no "hitsuyou" datte tashikametakatta
+
+daijoubu watashi wa hitori da
+daijoubu minna mo hitori da
+waratte mou ichido yarinaoseru yo ne
+
+tsunageyou dansen shita sutoorii
+susumeyou wantenpo nichijou ni
+kimi wo sasu sono hari wa watashi ga ubatte ageru kara
+
+torimodoshitai hiiroo mitai ni
+nigawarai baibai wa mou ii yo
+naku toki wa oshiete yo zettai
+
+tsunageyou dansen shita sutoorii
+susumeyou wantenpo nichijou ni
+kimi wo sasu sono hari wa watashi ga ubatte ageru kara
+
+torimodoshitai hiiroo mitai ni
+nigawarai baibai wa mou ii yo
+naku toki wa oshiete yo zettai
+
+dou datte ii sonzai janai
+kantan ni ai wa owaranai yo
+hanarebanare mo yureru omoi mo
+kotae wo kikasete
+
+mou ichido kanadete ikou
+nandatte utau yo kimi ga warau nara
+surechigau mae no sekai made
+
+surechigau mae no sekai made`,
+        lyrics_en: `I want to go back to how it was, like a hero
+Please, no more forced smiled bye-byes
+Make sure to let me know when you are about to cry
+
+Can’t even laugh at jokes
+I acted as if I hated you and hurt you
+All my thoughts were negative
+I wanted you to leave me alone, I guess you were the same
+
+It’s ok, even the dreams you gave up
+It’s ok, even the dreams you hid away
+Let out all your hopes and regrets
+
+Let’s reconnect the disconnected stories
+Let’s take a step towards are everyday lives
+I will take out the needLes that stab you
+
+I want to go back to how it was, like a hero
+Please, no more forced smiled bye-byes
+Make sure to let me know when you are about to cry
+
+You do matter
+Love doesn’t end that easily
+Let’s stop drifting apart, please talk to me about your wavering thoughts
+And let me know your answer
+
+Let’s make our sound again
+I’ll sing anything if it makes you laugh
+Let’s go back to the world “SEKAI” before us drifting apart
+
+This is not the today that I was searching for
+Getting hurt and hiding it away was on repeat
+“You don’t matter” isn’t what I was really thinking
+I just wanted to make sure I was needed
+
+It’s ok, I’m alone
+It’s ok, we are all alone
+We can laugh and start over, can’t we?
+
+Let’s reconnect the disconnected stories
+Let’s take a step towards are everyday lives
+I will take out the needLes that stab you
+
+I want to go back to how it was, like a hero
+Please, no more forced smiled bye-byes
+Make sure to let me know when you are about to cry
+
+Let’s reconnect the disconnected stories
+Let’s take a step towards are everyday lives
+I will take out the needLes that stab you
+
+I want to go back to how it was, like a hero
+Please, no more forced smiled bye-byes
+Make sure to let me know when you are about to cry
+
+You do matter
+Love doesn’t end that easily
+Let’s stop drifting apart, please talk to me about your wavering thoughts
+And let me know your answer
+
+Let’s make our sound again
+I’ll sing anything if it makes you laugh
+Let’s go back to the world “SEKAI” before us drifting apart
+
+Let’s go back to the world “SEKAI” before us drifting apart
+`,
+        trans_source_en: ` YouTube @DECO*27`,
+        lyrics_zh: `我想如英雄般　恢复到从前
+不要再苦笑著说再见了
+要哭的时候一定要告诉我哦
+
+玩笑我也不能好好笑出来
+像是讨厌你一般　结果伤害到了你
+妄想也都是负面的
+只希望你不要管我　你应该也是如此
+
+没关系　你嚥下去的梦想
+没关系　你藏起来的梦想
+期待与后悔　全都倾吐出来吧
+
+连接吧　将那中断的故事
+前进吧　在一如往常的日常中
+刺中你的那根针　我会夺走的
+
+我想如英雄般　恢复到从前
+不要再苦笑著说再见了
+要哭的时候一定要告诉我哦
+
+你并非怎样都好的存在
+爱并不会轻易终结的
+纵使四散　纵使思绪动摇
+也请告诉我你的答案
+
+再一次奏响吧
+只要你能露出笑容　无论什麽我都会唱出
+直至我们错过之前的那个世界
+
+真正寻求的答案并不存在
+便失落著藏于心中　如此反复
+「怎样都好」也并非真心话
+只想确认　我是否是某人的”必要”
+
+没关系　我是独自一人
+没关系　大家都是独自一人
+还是可以　笑著　再从头做起的吧
+
+连接吧　将那中断的故事
+前进吧　在一如往常的日常中
+刺中你的那根针　我会夺走的
+
+我想如英雄般　恢复到从前
+不要再苦笑著说再见了
+要哭的时候一定要告诉我哦
+
+连接吧　将那中断的故事
+前进吧　在一如往常的日常中
+刺中你的那根针　我会夺走的
+
+我想如英雄般　恢复到从前
+不要再苦笑著说再见了
+要哭的时候一定要告诉我哦
+
+你并非怎样都好的存在
+爱并不会轻易终结的
+纵使四散　纵使思绪动摇
+也请告诉我你的答案
+
+再一次奏响吧
+只要你能露出笑容　无论什麽我都会唱出
+直至我们错过之前的那个世界
+
+直至我们错过之前的那个世界`,
+        trans_source_zh: `巴哈姆特 @弓野篤禎`
     },
     {
         chapter: 4,
@@ -5692,7 +6144,173 @@ By my hand`,
             [03:04.566] 僕は変わらないままだ
             [03:07.23]
             [03:10.40] このままでいんだ
-`
+`,
+        lyrics_rom: `aa poisute ga ooi
+shakai de boku wa gomi to omoi
+jibun kara gomibako ni hairou to suru
+sore o dare mo tomenai kara
+hontou ni hontou no gomi no you ni
+kusatte iku kusatte iku
+
+ashita ga aru hoshou nante
+doko ni mo nai no ni sa
+tooi mirai no hanashi bakari
+bika shiyou to suru
+sore wa ima o ikirarezu ni
+docchi mo dotchi
+erabenakute
+samayotte iku
+saa mayotte iku
+shinu koto yori ikiteru koto ni
+obietenda
+mou unzari da
+nandattatte boku wa yowakute
+fugainakute dekisokonai
+otona de kidzuitatte osoi
+osonda yo aosa wa yanda
+kyou datte aji no shinai gamu o
+kande gomakasu
+kanjou bakari ga
+tsunotte itotte
+boku o mushibande ikunda
+
+"hai genki desu" nante
+mae narae dake ga umaku natte
+uwabe darake no kenkou kansatsu
+tsukaretanda yo ne sou iu atsu
+minna to chigau koto shicha dame desu
+minna to chigau koto shinakya dame desu
+e
+itteta koto to chigau jan
+"yononaka sonna mon da yo, tabun"
+
+nandattatte boku wa yowakute
+otona de kidzuite shimatte
+demo dou yattatte
+esu-oo-esu sura mo dasenai yononaka dakara
+koko de utatte gomakashita
+nandattatte kono sekai wa
+tsugou yokutte byoudou janai
+kodomo de kidzuitatte shiranai
+shiranai furi aosa o handa
+kyou datte aji no shinai hibi o
+kande nokotta
+nigami bakari o
+kiratte houtte
+boku wa kawaranai mama da
+
+kono mama de inda`,
+        lyrics_en: `Ah, what filth litters this world
+In this wretched society I am but dust
+So I cast myself into the dustbin where I belong
+And none shall stay my hand
+Then in the truest sense I am dust
+I rot and rot
+
+There’s no guarantee
+That tomorrow shall come
+Yet we speak only of
+some distant, polished future
+For we cannot live in the now
+Neither here nor there
+Suspended
+I drift on 
+Oh, I lose my way
+More than dying,
+I fear the living
+and I am so weary of it all
+Whatever the reason
+I was always weak and worthless
+Realizing it only in adulthood
+Too late, my youth is gone
+I gnaw upon tasteless gum
+day upon day to mask
+my disgusting emotions
+that pile and curdle slowly into loathing
+They eat away at me
+
+“I’m fine,” I say
+Grown accustomed to falling in line
+Cursory health checks everywhere
+The pressure wears me down
+You must not stray from the crowd
+You must distinguish yourself from the crowd
+What?
+That’s not what you said before
+“Such is the nature of this world, I suppose”
+
+Whatever the reason
+I am a feeble thing, and I knew it too late
+However can I be
+In a world where even an SOS goes unheard
+Now I sing to shake it loose
+Whatever the reason 
+This world was never fair nor kind
+The truth was in front of me since childhood
+Yet I looked away, chewing on what youth remained
+However may I digest these tasteless days
+chewing and chewing
+till nothing remains but bitterness
+I hate it, I spit it out
+yet I stay the same
+
+It’s okay to stay this way`,
+        lyrics_zh: `啊 这社会满是随意丢弃的杂物
+我自觉不过是粒微尘
+竟想主动藏进纸篓中
+即便如此也无人伸手阻拦
+我就如同真的的尘埃一般
+渐渐腐朽 渐渐腐朽
+
+明明何处都无法寻到
+明天会到来的保证
+却偏要一个劲地美化
+虚无缥缈的遥远未来
+只因无法好好活在当下
+无论是哪边都半斤八两
+迟迟无法抉择
+逐渐陷入彷徨
+逐渐陷入迷惘
+比起死亡
+我更加害怕活着
+我已经受够了
+无论怎样我都还是这般软弱
+碌碌无为一事无成
+直到长大后才幡然醒悟
+但为时已晚 青春已然逝去
+就算是如今也只是嚼着早已无味的口香糖
+从而掩饰自我
+唯有情绪在不断的
+愈演愈烈令人厌烦
+一点点将我侵蚀
+
+嘴上说着“我非常好”
+却只是熟练了随波逐流
+但都是浮于表面的"健康观察"
+这些压力让我身心俱疲
+不能「做」跟别人相同的事
+不能「不做」跟别人相同的事
+哎？
+跟之前说的不一样啊
+"这世道本就如此吧 也许"
+
+无论怎样我都还是这般软弱
+直到长大后才幡然醒悟
+可无论我如何努力
+在这个连SOS都发不出的世道
+只好在这里用唱歌蒙混过关
+不管怎样这个世界
+也都只顾着自己不顾公平
+哪怕孩提时代就已察觉
+也只能装作一无所知任由青春被蚕食
+今天也咀嚼着索然无味的日子
+品尝着残留下来的
+满口苦涩
+满心厌弃又置之不理
+我依旧一成不变
+
+就这样也挺好`,
+        trans_source: `YouTube @ナナツカゼ`,
     },
     {
         chapter: 4,
@@ -5748,7 +6366,154 @@ By my hand`,
             [03:00.81]望むなら どこへでも
             [03:05.89]＆ I Wanna 欲しがってばかりで結構 結構
             [03:12.83]もし叶うならこの先の世界を知りたい 行きたい
-            [03:21.99]Ready Steady`
+            [03:21.99]Ready Steady`,
+        lyrics_rom: `rou risuku ja mono tarina kunacchatta shi
+ariamatte waracchau kurai
+nani mo nai nante ittatte shouganai shi
+oteage de Hi-Five
+
+mae nara e de ato ni tsuzuitate tsumanne
+yume wo katare, oe! ga kono machi no Standard
+tada mitetai dake nante no wa uso desu
+sorosoro maiku choudai
+
+douse nara mou atomodori mo dekinai kurai dounika sasete
+madamada hamatte ikitai
+nani ka, marude koi shiteru mitai
+suki ni nacchatta tsutte sa
+
+nara kono mama kimi wo tsurete
+nozomu nara doko made mo
+& I Wanna hoshigatte bakari de kekkou kekkou
+moshi kanau nara kono saki no sekai wo shiritai ikitai
+
+
+chotto dake nara mucha datte shichaitai shi
+kono yo no subete ubacchau kurai
+to wa ie katatte bakka ja doushiyou mo nai shi
+gobi hanete Hi-Fi
+
+nee sukoshi wa kocchi muitara dou
+kimagure ni hamarasetai dake?
+demo ubaitai furuwasetai me, mimi, kimi no moeru heart
+daremo ga urayamu kyoui no Track to Lyric de
+misete iku kara Retake wa shinaide
+
+dakara kono mama kimi wo tsurete
+nozomu nara doko e demo
+& I Wanna nai mono nedaru nara kekkou kekkou
+
+hayaku yoru yo akete asayake ni chikae
+omoi omoi, netsuryou wo sakebe
+kono koe wo kike oto oto oto ni, odori kurue
+
+
+
+
+nara kono mama kimi wo tsurete
+nozomu nara doko made mo
+& I Wanna hoshigatte bakari de kekkou kekkou
+moshi kanau nara kono saki no sekai wo shiritai ikitai
+`,
+        lyrics_en: `Low risk's just not enough for me anymore
+There's so much left in me that I could laugh
+There's no point in saying I've got nothing
+Throw your hands up and give me a Hi-Five
+
+It's boring to just fall in line and follow behind someone
+Declare your dreams and chase them! That's this town's standard
+I lied when I said I just want to keep watching
+It's about time, give me the mic
+
+Since I'm already here, let me do something I won't even be able to take back
+I want to keep getting deeper into this
+Somehow, I feel like I'm in a romance
+I've fallen in love with this, or so I say
+
+Then let me take you with me just like this
+Wherever you want, if that's what you wish
+& I Wanna—I've had enough with just wanting, I'm done, so done
+If it’s possible, I want to know about and walk into the world beyond this
+Ready Steady
+
+Well, if it's just a little bit, then sure, I wanna be reckless
+Like I'm about to steal everything in this world
+Still, nothing's going to happen if I just keep talking
+So I'll drop the end of the word and go Hi-Fi
+
+Hey, why don't you look this way a little?
+Do you just wanna get me addicted on a whim?
+But I want to steal, I want to move your eyes, ears and your fiery heart
+With this amazing Track and Lyric that will be the envy of the world
+I'll bewitch you, so don't do a Retake
+
+That's why I'll take you with me just like this
+Wherever you want, if that's what you wish
+＆ I Wanna—If we're gonna ask for the impossible, then sure, let's go, let's go
+
+Oh, let the night end quickly, take a pledge at first light
+Shout out your heavy feelings and your energy
+Listen to my voice, and at each sound—sound—sound, dance in ecstasy
+
+I want more.
+"Are you Ready?"
+
+Then let me take you with me just like this
+Wherever you want, if that's what you wish
+& I Wanna—I've had enough with just wanting, I'm done, so done
+If it's possible, I want to know about and walk into the world beyond this
+Ready Steady`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Azayaka`,
+        lyrics_zh: `光是只有低风险的话就变得不足够
+像是过剩而使人发笑
+即使说出「什么都没有」这种话也让人感到了无奈
+将手举起Hi-Five
+
+即使向前看齐并且跟著他人身后行走也十分无趣
+讲述梦想、追逐！是　这个街道的Standard
+「我只是想看看而已」　之类的话不过是种谎言
+差不多该给我麦克风了
+
+反正也已经无法再回头了　所以让我弥补一下吧
+我还想沉迷其中
+总觉得、我好像坠入了爱河一样
+「变得喜欢起来啦」　什么的
+
+那么我将就这么　带走你
+如果你盼望的话　我愿带著你到天涯海角
+＆ I Wanna　总是贪婪无厌已经足够　足够
+如果会实现的话我想了解这个前方的世界　我想就此前往
+Ready Steady
+
+如果只是稍微一下的话我也想乱来
+像是要掠夺这个世界的所有一切
+话说回来光是只会侃侃而谈也无可奈何
+词尾跳跃吧Hi-Fi
+
+呐稍微面向这里的话怎么样
+你只是想要让我著迷并且感到心血来潮而已？
+但是我想夺走　我想让你发抖　眼睛、耳朵、你燃烧著的heart
+我将以无论是谁都会羡慕的惊奇Track和Lyric
+魅惑你　所以请你不要Retake
+
+所以我将就这么　带走你
+如果你盼望的话　我愿带著你到天涯海角
+＆ I Wanna　如果你贪婪著没有的东西的话我便会坚决进行　坚决进行
+
+夜晚啊请快点亮起　向朝霞发誓吧
+沉重的想法、大叫著热量
+倾听我的声音吧　在声音之中・声音之中・声音之中、尽情狂舞
+
+我想要更多。
+“你准备好了吗？”
+
+那么我将就这么　带走你
+如果你盼望的话　我愿带著你到天涯海角
+＆ I Wanna　总是贪婪无厌已经足够　足够
+如果会实现的话我想了解这个前方的世界　我想就此前往
+Ready Steady`,
+        trans_source_zh: `巴哈姆特 @月勳`
+
     },
     {
         chapter: 4,
@@ -5808,7 +6573,157 @@ By my hand`,
             [02:52.60]限界の向こう側へ
             [02:54.71]
             [02:55.27]Ready Steady? Get out the way.
-`
+`,
+        lyrics_rom: `iki tsumaru bakari de nurui taikutsuna yomichi de
+
+ruuru wa mushi de ikitai ne
+
+
+(uh...) satoraresou (uh...) ka ka fuka Get down now
+(uh...) aaa mou kitto yuutou butta
+"I" ja irarenai kurai doushiyou mo nai
+
+yuh muri me no kuesuchon ha jitsuzon? fikushon?
+You make me sage nano nande? I know the way
+negatteru bakka ja kanawanai mechakucha ni saretatte kawaranai
+maa ne kurae kakusei find the way
+
+matte raito abiru kankaku amai wana
+kentou chigai dis mo kiki akita wa
+sorya ne ikeru tokoro made Take me higher
+dou? Turning back muri tte tokku ni wakatte ndesho
+
+(uh...) satoraresou (uh...) ka ka fuka Get down now
+(uh...) aaa mou zutto shanto irarenai ya
+sore wa dare no sei?
+
+owaranai yume wo egakou egaite
+negatta mama hoshigatta sono saki e
+owaranai yoru wo koete ikou koete ikou
+kono mama kogareta mukougawa e
+
+haa bucchake gesenai ya shousan nakute mo icchae! toka
+unmei kanjiru kanjusei wa inamenai uchira makenai
+tobe hoemede otte itsudemo number one 
+soko doke sokkou yurase zeme kanbi na toki Ride on now
+
+Shake it up madamada Go beyond the way yuh
+
+ikizumaru bakari de zurui kotoba wo sagashite
+
+I am me togisumashi honnou ni shitagatte ike
+
+
+
+owaranai yume wo egakou egaite
+negatta mama hoshigatta sono saki e
+owaranai yoru wo koete ikou koete ikou
+kono mama kogareta mukougawa e
+
+(uh...) harisakesou oikakete awaseta se ga atsukute
+(uh...) harisakesou mou isshou nari yamanai
+genkai no mukougawa e`,
+        lyrics_en: `On this lukewarm, dull street at night, I'm just suffocating,
+
+I want to disregard those rules, yeah?
+
+
+(Uh...) Let it be known, (Uh...) Right or wrong, Get down now.
+(Uh...) Ahh, surely, I'm pretending to be superior to you.
+I can't stay as "I", there's no way around that.
+
+Yuh, a seemingly unreasonable question, ha, 'bout my existence? Is it fiction?
+You make me inferior, for what? I know the way.
+It won't come true just by wishing, it doesn't change even when it's all messed up,
+Oh well, eat this awakening, we Find the way!
+
+Wait, this feeling of basking in the light is a sweet trap.
+A misdirected dis, we grew tired of hearing them.
+And so you see, I Take the higher until it looks good.
+So? You understand that Turning back had been impossible for a while now, right?
+
+(Uh...) Let it be known, (Uh...) Right or wrong, Get down now.
+(Uh...) Ahh, I can't keep this up forever,
+Whose fault is that?
+
+Let's draw it, sketch out the never-ending dream,
+We wished for it, while we were desiring what's ahead.
+Overcome it, cross over the never-ending night,
+Just like that, what we yearned for is on the other side.
+
+Hah, honestly, it's incomprehensible, "Go, even with no chance to win!", something like that...
+I feel the undeniable sensation of fate, we can't lose here!
+Jump! Bark, while following it with your gaze, always NO.1,
+Make way, shake 'em up with a barrage of swift strikes! It's the perfect time to attack, Ride on now!
+
+Shake it up, not there yet, Go beyond the way, yuh.
+
+We're just at a stalemate, searching for cunning words to say,
+
+I am me, hone yourself, obey your instincts and go!
+
+
+
+Let's draw it, sketch out the never-ending dream,
+We wished for it, while we were desiring what's ahead.
+Overcome it, cross over the never-ending night,
+Just like that, what we yearned for is on the other side.
+
+(Uh...) Looks like it's about to burst, as we run, our backs together are growing hot,
+(Uh...) Looks like it's about to burst, this ringing will never stop till my life ends.
+To the other side of our limits`,
+        trans_source_en: "Project SEKAI Fandom Wiki | Translate by Thai1210",
+        lyrics_zh: `在总是让人窒息的　冷淡的无趣夜路上
+        
+我真想忽略规则并就这么前进呢
+
+
+uh 我总觉得我快能有所领悟
+uh 可行或不可行 Get down now uh 啊─啊
+肯定已经无法再保持　那种优等的”I”了 真是让人感到无奈
+
+yuh 不讲理的眼神疑问 ha 实际存在？　虚构？
+You make me 屈辱　为什么呢？ I know the way
+要是总是祈愿的话便不会实现 即使我被过分对待　我也不会改变
+哎呀　咬下去吧　觉醒 Find the way
+
+等一下　这沐浴著聚光灯的感觉是道甜蜜的陷阱
+我甚至也已经听腻预测失误的dis了啊
+当然　到更高的地方为止Take me higher
+如何？　你早就已经明白　Turning back是不可行的吧
+
+uh 我总觉得我快能有所领悟 uh 可行或不可行 Get down now
+uh 啊─啊 我已经无法坚定下去了啊
+那是谁的错呢？
+
+让我们来描绘不会结束的梦吧　描绘而出吧
+满足了所愿　并渴望著那之后的未来
+让我们来超越　让我们来超越不会结束的夜晚吧
+让我们就这么　前往令人一心嚮往的另一侧吧
+
+唉　说真的　我也搞不懂啊 即使没有任何胜算也前进吧！之类的
+我无法否定感受命运的感受性 人家们不会输
+跳跃吧　吠叫吧　靠双眼　追赶吧 无论何时都是NO.1
+从那里滚开吧　速攻并摆动吧 进攻吧　甜蜜时刻　Ride on now
+
+Shake it up,还差得远呢 Go beyond the way! yuh
+
+我总是停滞不前　并寻找著狡猾不已的词彙
+
+I am me 变得敏锐吧 顺从本能并　前进吧
+
+
+
+让我们来描绘不会结束的梦吧　描绘而出吧
+满足了所愿　并渴望著那之后的未来
+让我们来超越　让我们来超越不会结束的夜晚吧
+让我们就这么　前往令人一心嚮往的另一侧吧
+
+uh 总觉得我快悲痛满怀 追逐并凑近的背影十分火烫
+uh 总觉得我快悲痛满怀 一辈子就这么前往
+不会停止响彻的极限的另一侧吧
+`,
+        trans_source_zh: `巴哈姆特 @月勳`
     },
     {
         chapter: 4,
