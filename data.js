@@ -5159,7 +5159,6 @@ By my hand`,
         lyrics: `[00:01.30]Lalalalalalala Lalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [00:07.84]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [00:14.46]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
-
 [00:21.59]光り輝いて見えた世界は
 [00:25.15]その何十倍も輝いてた
 [00:28.15]｢私､ここで光れるのかな｣って
@@ -5236,6 +5235,85 @@ By my hand`,
 [04:36.83]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [04:43.61]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [04:50.29]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala`,
+        lyrics_rom:`[00:01.30]
+[00:07.84]
+[00:14.46]
+hikari kagayaite mieta sekai wa
+sono nanjuubai mo kagayaite ita
+"watashi, koko de hikarireru no kana" tte
+takusan no ai de natta oto wo tada tadotte
+
+itsu no mani ka kawaru keshiki ni
+tanoshii tte agattari kurushii tte nayandari
+ippai uketotte hitotsuka ni shite
+sou yatte konna tsuyoku nareta yo
+
+I need you! konna kimochi hajimete ajiwau
+miteita mono ga mirareru mono ni
+hitori nano ni hitori janai
+nami no ue wo arukou kibou motte doko made mo yukou!
+
+tsunagari tsuzukeru kono sekai de
+watashi wa sukuware sukutteita mitai da
+karamatte fusagatte yureta tte nando mo hirogatte
+"tsutawaru koto" tte nante utsukushii ndarou
+
+ima wa mada chotto shika mienakute mo
+watashi wa iki wo sutte aruiteiku, kitto
+naitatte warattatte okottatte saigo wa yorokonde
+korekara no oto wo mata tsumuide ikou
+
+hikari kagayaite mieta sekai ni
+hitotsu de wa nai takusan no iro ga atsumatta
+nani ga nandaka yoku wakaranakutte
+sore ga tanoshisa tte yatto kizuita yo
+
+All you need is Love konna kimochi nando demo sakebu
+aiirenai mono mo aiseru made wa
+hitori kara hitori ni naru
+boku mo kimi mo watashi mo anata mo sou da saa, hajimeyou! 
+
+hirogari tsuzukeru kono omoi de
+watashi wa tsukurare, tsukutteta mitai da
+itsudatte doko datte dare datte nandomo tsunagatte
+"aishite hoshii" tte yatto kuchi ni dekita yo
+
+ima aru subete wo uketoru kara
+watashi no kimochi mo uketomete, zutto
+hakidashite aragatte uretatte saisho wo wasurenai nda
+kore made no oto to watashi wa ikiteiku nda
+
+kono sekai ga watashi wa daisuki na dake nano ni
+yugande yuku nagare wo tadasu sore wa muzukashii koto tte kanjiru, keredo
+watashi wa anata to onaji you ni aishiteiru
+kono bunka kono henka tomarazu ni hazukashige mo naku kotoba ni shiyou
+
+hitori de ikiteita ano sekai de
+watashi wa miteita sore dake datta
+nani yatte idonda tte wakannakute kekkyoku yamechatte
+nani wo suru ni shite mo kowaku natteita
+
+ima no keshiki wo miserareru nara
+kako no watashi ni mo todoku to negatte
+naite mite waratte mite okotte mite kizuita yorokobi tte
+kore de watashi wa ikite ikitai nda yo!
+
+kagayaki tsuzukeru kono sekai de
+watashi wa hikarete hikatteita mitai da
+takanatta uta ga atta ureshikatta watashitachi, tsunagatta
+hitoshiku kagayaku sutaa wo motteita
+
+kurayami de medatsu yori watashi wa
+sekai no mannaka de hoshi ni naritai
+daijoubu wasurenai yo isshou da saa, arukidasou ka
+korekara no oto wo, mata... kore made no oto mo, hora...
+
+subete ga kagayaku "kono hoshi no sutaa"
+
+
+
+
+`,
     },
     {
         chapter: 4,
@@ -5298,6 +5376,180 @@ By my hand`,
 [02:52.63]そもそも大人とは一体全体何ですか
 [02:55.66]どなたに伺えばいいんですか
 [02:58.52]おいどうすんだよ もうどうだっていいや`,
+        lyrics_rom: `hawatari suusenchi no fushinkan ga
+ageku no hate joumyaku wo sashichatte
+byoujaku na ai ga tobidasu mon de
+resupooru sae mo kyouki ni kaete shimaimashita
+
+noo fikushon
+
+suugaku to rika wa suki desu ga
+kokugo ga doumo dame de kirai deshita
+tadashii no ga dore ka nayande irya
+doremo fuseikai to iu ochi deshita
+
+honjitsu no shukudai wa mukosei na boku no koto
+kafusoku nai fujiyuu nai saikin ni ikite ite
+demo doushite bokutachi wa tokidoki ni iya mainichi
+kanashii tte iun da sabishii tte iun da
+
+kokuban no kono kanji ga yomemasu ka
+anoko no shinshou wa yomemasu ka
+sono kokoro wo kuroku someta no wa
+oi dare nanda yo oi dare nanda yo
+
+soroban de kono shiki ga tokemasu ka
+anoko no kubi no wa mo tokemasu ka
+bokutachi kono manma de iin desu ka
+oi dou sunda yo mou dou datte ii ya
+
+itsumade tatta tte bokutachi wa
+zonzai na saimin ni yotte ite
+doushiyou mo nai kurai no kyougou wo
+zutto kakumatte itan da
+
+sakujitsu no shukudai wa aikawarazu tokenai ya
+kafusoku nai fujiyuu nai saikin ni ikite ite
+demo doushite bokutachi no munamoto no katamari wa
+kietai tte iun da shinitai tte iun da
+
+kokuban no kono kanji ga yomemasu ka
+anoko no shinshou wa yomemasu ka
+sono kokoro wo kuroku someta no wa
+oi dare nanda yo oi dare nanda yo
+
+soroban de kono shiki ga tokemasu ka
+anoko no kubi no wa mo tokemasu ka
+bokutachi kono manma de iin desu ka
+oi dou sunda yo oi dou sunda yo
+
+mensekihi no koushiki iemasu ka
+kodomo no toki no yume wa iemasu ka
+sono yume sura dobu ni suteta no wa
+oi dare nanda yo mou shitten daro
+
+itsu ni narya otona ni naremasu ka
+somosomo otona to wa ittai zentai nan desu ka
+donata ni ukagaeba iin desu ka
+oi dou sunda yo mou dou datte ii ya`,
+        trans_source: `YouTube @Neru OFFICIAL`,
+        lyrics_zh: `刃长数厘的不可靠感
+竭尽全力向静脉刺下
+病弱的爱的涌动
+将Lespaul都变成了凶器
+
+NO FICTION
+
+虽然喜欢数学和理科
+但却因为不擅长而讨厌国语
+烦恼着究竟何为正确答案
+却全部落得没有一个正确的答案
+
+今天的 作业是 毫无个性的我
+适当地 自由地 在最近 生存下去
+但又是为何 我们 不是偶尔 而是每天
+都诉说着悲伤 咏叹着寂寞呢
+
+能读出黑板上的这汉字吗
+能读出那孩子的心声吗
+将那心灵染上漆黑的
+究竟是谁啊 究竟是谁啊
+
+能用算盘解开这式子吗
+也能松开那孩子的项圈吗
+我们就这样下去没问题吗
+呐，究竟怎样才好啊 已经怎样都无所谓了啊
+
+无论经过多久我们
+都沉醉于粗暴的催眠中
+一直藏匿着 无法抑制地膨胀的骄傲
+会一直
+隐藏着
+昨天的 作业也 依旧 解不出来啊
+适当地 自由地 在最近 生存着
+但又是为何 我们 胸中的 部分
+在诉说着想要消失 呼喊着想要死去呢
+
+能读出黑板上的这汉字吗
+能读出那孩子的心声吗
+将那心灵染上漆黑的
+究竟是谁啊 究竟是谁啊
+
+能用算盘解开这式子吗
+也能松开那孩子的项圈吗
+我们就这样下去没问题吗
+究竟怎样才好啊 要怎么做才好啊
+
+能答出面积比的公式吗
+能说出儿时的梦想吗
+连那梦想都丢到脏水沟中的
+呐，究竟是谁啊
+早就知道了吧
+
+我们究竟何时才能长大啊
+说到底大人究竟又是什么啊
+要向谁寻求答案才行啊
+究竟怎样才好啊
+已经都无所谓了
+`,
+        lyrics_en:`The few centimeters long edge made of distrust,
+has finally made its way to pierce through my vein.
+As a sentimental love just spurted out,
+even my Les Paul has turned into a weapon.
+
+Non-fiction.
+
+I like math and science,
+but I am terrible at Japanese because I hate it.
+It keeps me wondering which answer is right,
+yet it turns out to be wrong either way.
+
+Today my homework is about my quirkless self.
+Living these days, there isn't much inconvenience.
+Still, why do we sometimes - no, always
+Say that we're sad? Say that we're lonely?
+
+Can you read the Kanji on the blackboard?
+Can you read what's inside that kid's mind?
+And the one who dyed his heart to black,
+Hey, who was it? Just who was it?!
+
+Can you solve this equation on the abacus?
+Can you untie the rope around his neck?
+Is it really fine for us to stay like this?
+Hey, what should we do?
+Well, it doesn't matter.
+All this time we were,
+Drunk under this crude hypnotism.
+Holding an arrogance that we can't help but
+Keep hiding it.
+I still can't finish that homework as usual.
+Living these days, there isn't much inconvenience.
+Still, why do we feel a lump in our hearts
+That keeps telling us to disappear, telling us to die?
+
+Can you read the kanji on the blackboard?
+Can you read what's inside that kid's mind?
+And the one who dyed his heart to black,
+Hey, who was it? Just who was it?!
+
+Can you solve this equation on the abacus?
+Can you untie the rope around his neck?
+Is it really fine for us to stay like this ?
+Hey, what should we do? Just what should we do?!
+
+Can you recite the equation for the area ratio?
+Can you remember your dreams as a kid?
+Somebody dumped those dreams into a ditch,
+Hey, who was it?
+You already know who!
+
+When will you finally grow up?
+Just what is growing up, anyway?
+Who could I ask about it?
+Hey, what should I do?!
+Well, it doesn't matter anymore.
+`,
     },
     {
         chapter: 4,
@@ -5349,7 +5601,94 @@ By my hand`,
             [02:13.96]前を向いたら
             [02:16.35]奇跡を塗り替える
             [02:18.35]鮮やかなセカイを 描いていくんだ
-            [02:26.01]`
+            [02:26.01]`,
+        lyrics_rom:`mayoi machigai susumenai hibi
+wakatte ita tsumori datta
+mada tarinai taiji mata MISTAKE
+
+kanjita mama de ii arukidashite
+sukoshizutsu katachi ni shite
+saa iku yo choushi wa dou dai?
+
+CLAP! hankyou shite hibiku chou teion
+yuruganu omoi kasaneawasete
+osou puresshaa to kabe oshinoke
+hikari oikaketa
+
+todokanai you na mirai datte
+nando demo te wo nobasou
+akogare bakari ja owarenai kara
+
+kuyashii kimochi wasurenaide
+mae wo muitara
+kiseki wo nurikaeru
+azayaka na sekai wo egaite ikunda
+
+aa tsumikasane wa hontou no ishi
+kurikaeshita shikousakugo
+"mada ikeru" to ue wo mezashite
+
+atsui manazashi honki no michi
+shinkuro shita kankaku no isou
+saa ikou maku wa agatta
+
+FLASH! hansha shite hibiku chou kouon
+hajikeru kodou kasaneawasete
+yamanu kansei to suteeji ga terasu
+kitai oikaketa
+
+kurushii toki mo aru keredo
+kimi wo matsu hito ga iru
+dakara sou koe ga kareru toki made
+
+kuyashii kimochi wasurenaide
+mae wo muitara
+kiseki wo nurikaeru
+azayaka na sekai wo egaite ikunda`,
+        lyrics_en:`I waver and slip-up, in these days where I feel like I'm not making any progress,
+Even though I meant to learn my lesson
+I haven't had enough of these battlesーah, another mistake
+
+It's okay if you first set off by following your feelings,
+Little by little, things will start to take shape
+So come, let's go! How're you doing?
+
+Clap! Let these deep bass notes resound and reverberate
+Bringing together our unwavering feelings
+Fighting back against pressure, and pushing aside obstacles,
+We chased after the light
+
+ It seems like we'll never be able to reach the future,
+But even so, we'll stretch our hands out again and again
+We won't let this end as a mere ideal!
+
+Don't forget these feelings of frustration,
+If we look ahead
+We'll be able to repaint a miracle,
+Drawing out a vivid, bright world!
+
+Ah, these true, pure wills gather together;
+We tried and failed again and again,
+Saying, "I can still keep going!" while aiming higher.
+
+Passionate gazes, a path we're serious about;
+Our senses are perfectly in sync,
+So come, let's go, the curtain’s risen!
+
+Flash! Let these high notes resound and reverberate.
+Illuminating the unending cheers and the stage,
+Bringing together our bursting hearts,
+We chased after hopes and expectations.
+
+There's going to be times when it’s tough,
+But there are people out there, waiting for you,
+So that's why, until your voice withers awayー
+
+Don't forget these feelings of frustration,
+If we look ahead,
+We'll be able to repaint a miracle,
+Drawing out a vivid, bright world!`,
+        trans_source_en:`Project SEKAI Fandom Wiki | Translate by Shiru`
     },
     {
         chapter: 4,
