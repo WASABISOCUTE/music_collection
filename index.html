@@ -81,31 +81,7 @@
             <a href="wasabisocute.github.io"><i class="fa-solid fa-house"></i> Home</a>
         </div>
     </header>
-    <main>
-        <h2 class="chapter-title">Chapter -01</h2>
-        <div class="chapter-subtitle">&lt; 2020 • Demo</div>
-        <div class="track-grid" id="grid-ch-1">
-        </div>
-        <h2 class="chapter-title">Chapter 00</h2>
-        <div class="chapter-subtitle">&gt; 2020 • Tutorial</div>
-        <div class="track-grid" id="grid-ch0">
-        </div>
-        <h2 class="chapter-title">Chapter 01</h2>
-        <div class="chapter-subtitle">2023 • Getting Started</div>
-        <div class="track-grid" id="grid-ch1">
-        </div>
-        <h2 class="chapter-title">Chapter 02</h2>
-        <div class="chapter-subtitle">2024 • Deepening Dive</div>
-        <div class="track-grid" id="grid-ch2">
-        </div>
-        <h2 class="chapter-title">Chapter 03</h2>
-        <div class="chapter-subtitle">2025</div>
-        <div class="track-grid" id="grid-ch3">
-        </div>
-        <h2 class="chapter-title">Chapter 04</h2>
-        <div class="chapter-subtitle">2026 • In Progress</div>
-        <div class="track-grid" id="grid-ch4">
-        </div>
+    <main id="main-content">
     </main>
     <div class="np-toast" id="np-toast" onclick="openPlayer(currentTrackId)">
         <img src="" class="np-toast-cover" id="toast-cover" alt="Cover">
@@ -213,17 +189,116 @@
         <span id="aboutLink">Copyright © 2026 WASABISOCUTE | Assisted by <span class="footer-credits">Google
                 Antigravity</span></span>
     </footer>-->
+    <div class="secret-console-overlay" id="secret-console-overlay" onclick="handleConsoleOverlayClick(event)">
+        <div class="secret-console-window" onclick="event.stopPropagation()">
+            <div class="console-titlebar">
+                <div class="console-titlebar-left">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span id="console-titlebar-text">SYSTEM TERMINAL // SECURE_PORTAL_v2.6</span>
+                </div>
+                <button class="console-close-btn" onclick="closeConsole()" title="Close (ESC)">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="console-screen" id="console-screen" onclick="focusConsoleInput()">
+                <div class="console-log" id="console-log"></div>
+                <div class="console-input-row" id="console-input-row">
+                    <span class="console-prompt-label" id="console-prompt-label">Login PIN:</span>
+                    <div class="console-input-wrapper">
+                        <input type="password" id="console-input" class="console-input" autocomplete="off"
+                            spellcheck="false" onkeydown="handleConsoleInputKey(event)">
+                        <span class="console-cursor" id="console-cursor">█</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen-transition-overlay" id="screen-transition-overlay">
+        <div class="transition-shutter-blade blade-top"></div>
+        <div class="transition-shutter-blade blade-bottom"></div>
+
+        <div class="transition-grid-bg"></div>
+        <div class="transition-flash"></div>
+
+        <div class="transition-core-wrapper">
+            <div class="transition-shockwave"></div>
+            <div class="transition-hud-box">
+                <div class="transition-hud-header">
+                    <span class="hud-tag"><i class="fa-solid fa-microchip"></i> WASABI BIOS v10.0</span>
+                    <span class="hud-status" id="hud-status-badge">SECURE_LINK</span>
+                </div>
+                <div class="transition-glitch-text" id="transition-glitch-text" data-text="AUTHENTICATING...">
+                    AUTHENTICATING...</div>
+                <div class="transition-progress-bar">
+                    <div class="transition-progress-fill" id="transition-progress-fill"></div>
+                </div>
+                <div class="transition-hud-footer">
+                    <span id="transition-subtext">DECRYPTING ARCHIVES...</span>
+                    <span id="transition-percentage">00%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="transition-laser-beam"></div>
+    </div>
+
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="data.js"></script>
+    <script src="data2.js"></script>
     <script>
+        const defaultChapters = [
+            { id: -1, title: 'Chapter -01', subtitle: '< 2020 • Demo' },
+            { id: 0, title: 'Chapter 00', subtitle: '> 2020 • Tutorial' },
+            { id: 1, title: 'Chapter 01', subtitle: '2023 • Getting Started' },
+            { id: 2, title: 'Chapter 02', subtitle: '2024 • Deepening Dive' },
+            { id: 3, title: 'Chapter 03', subtitle: '2025' },
+            { id: 4, title: 'Chapter 04', subtitle: '2026 • In Progress' }
+        ];
+
+        let isSecretMode = false;
+        let activeTracks = tracks;
+        let activeConfig = (typeof config !== 'undefined') ? config : {};
+        let activeChapters = defaultChapters;
+        let isConsoleOpen = false;
+        let isTransitioning = false;
+        const SECRET_PINS = ['100601'];
+
         function renderGrid() {
-            tracks.forEach((track, index) => {
-                const targetGrid = document.getElementById(`grid-ch${track.chapter}`);
-                if (!targetGrid) return;
+            const mainContainer = document.getElementById('main-content') || document.querySelector('main');
+            if (!mainContainer) return;
+            mainContainer.innerHTML = '';
+
+            activeChapters.forEach(ch => {
+                const section = document.createElement('div');
+                section.className = 'chapter-section';
+                section.id = `section-ch${ch.id}`;
+                section.innerHTML = `
+                    <h2 class="chapter-title">${ch.title}</h2>
+                    <div class="chapter-subtitle">${ch.subtitle}</div>
+                    <div class="track-grid" id="grid-ch${ch.id}"></div>
+                `;
+                mainContainer.appendChild(section);
+            });
+
+            activeTracks.forEach((track, index) => {
+                let targetGrid = document.getElementById(`grid-ch${track.chapter}`);
+                if (!targetGrid) {
+                    const section = document.createElement('div');
+                    section.className = 'chapter-section';
+                    section.id = `section-ch${track.chapter}`;
+                    section.innerHTML = `
+                        <h2 class="chapter-title">Chapter ${track.chapter}</h2>
+                        <div class="chapter-subtitle">Collection</div>
+                        <div class="track-grid" id="grid-ch${track.chapter}"></div>
+                    `;
+                    mainContainer.appendChild(section);
+                    targetGrid = document.getElementById(`grid-ch${track.chapter}`);
+                }
 
                 const coverUrl = `https://img.youtube.com/vi/${track.ytId}/hqdefault.jpg`;
-                const badgeHTML = (config.showContext && track.context) ? `<span class="badge"><span class="badge-text marquee-target">${track.context}</span></span>` : '';
-                const dateHTML = (config.showDate && track.date) ? `<span>${track.date}</span>` : '';
+                const badgeHTML = (activeConfig.showContext && track.context) ? `<span class="badge"><span class="badge-text marquee-target">${track.context}</span></span>` : '';
+                const dateHTML = (activeConfig.showDate && track.date) ? `<span>${track.date}</span>` : '';
 
                 const cardHTML = `
                     <div class="track-card" onclick="openPlayer(${index})">
@@ -247,12 +322,12 @@
                 `;
                 targetGrid.innerHTML += cardHTML;
             });
+
+            if (activeConfig && !activeConfig.showChapterTitle) {
+                document.querySelectorAll('.chapter-title, .chapter-subtitle').forEach(el => el.style.display = 'none');
+            }
         }
         renderGrid();
-
-        if (typeof config !== 'undefined' && !config.showChapterTitle) {
-            document.querySelectorAll('.chapter-title, .chapter-subtitle').forEach(el => el.style.display = 'none');
-        }
 
         function updateAllGridMarquees() {
             document.querySelectorAll('.marquee-target').forEach(updateMarquee);
@@ -325,17 +400,17 @@
 
             if (event.data == YT.PlayerState.ENDED) {
                 if (loopMode === 2) {
-                    player.seekTo(tracks[currentTrackId].start || 0, true);
+                    player.seekTo(activeTracks[currentTrackId].start || 0, true);
                     player.playVideo();
                 } else if (loopMode === 3) {
-                    if (currentTrackId < tracks.length - 1) {
+                    if (currentTrackId < activeTracks.length - 1) {
                         playNext();
                     } else {
                         openPlayer(0);
                     }
                 } else if (loopMode === 1) {
                     // loopMode === 1 (Sequence)
-                    if (currentTrackId < tracks.length - 1) {
+                    if (currentTrackId < activeTracks.length - 1) {
                         playNext();
                     }
                 } else if (loopMode === 0) {
@@ -411,7 +486,7 @@
             const toastArtist = document.getElementById('toast-artist');
             const isReopening = (currentTrackId === trackId && isPlayerReady);
             currentTrackId = trackId;
-            const track = tracks[trackId];
+            const track = activeTracks[trackId];
 
             toastTitle.setAttribute('data-original-html', track.title);
             toastTitle.innerText = track.title;
@@ -442,8 +517,8 @@
             document.getElementById('menu-title').innerText = track.title;
             document.getElementById('menu-artist').innerText = track.artist;
             let infoParts = [];
-            if (config.showContext && track.context) infoParts.push(track.context);
-            if (config.showDesc && track.desc) infoParts.push(track.desc);
+            if (activeConfig.showContext && track.context) infoParts.push(track.context);
+            if (activeConfig.showDesc && track.desc) infoParts.push(track.desc);
             const infoText = infoParts.join(' • ');
             const menuInfoElem = document.getElementById('menu-info');
             if (infoParts.length > 0) {
@@ -454,7 +529,7 @@
             }
 
             const menuDateElem = document.getElementById('menu-date');
-            if (config.showDate) {
+            if (activeConfig.showDate) {
                 menuDateElem.style.display = 'block';
                 menuDateElem.innerText = track.date ? ("Memory Date: " + track.date) : "Memory Date: N/A";
             } else {
@@ -462,7 +537,7 @@
             }
 
             const igLinkElem = document.getElementById('menu-ig');
-            if (config.showIg && track.ig) {
+            if (activeConfig.showIg && track.ig) {
                 igLinkElem.href = track.ig;
                 igLinkElem.style.display = 'flex';
             } else {
@@ -497,7 +572,7 @@
             document.getElementById('np-trans-menu').classList.remove('active'); // ensure menu closes
 
             if (currentTrackId !== undefined && isPlayerReady) {
-                const track = tracks[currentTrackId];
+                const track = activeTracks[currentTrackId];
                 const toastTitle = document.getElementById('toast-title');
                 toastTitle.setAttribute('data-original-text', track.title);
                 toastTitle.innerText = track.title;
@@ -660,7 +735,7 @@
         });
 
         function renderLyrics(trackId) {
-            const track = tracks[trackId];
+            const track = activeTracks[trackId];
             const lyricsContainer = document.getElementById('lyrics-container');
             lyricsContainer.innerHTML = '';
 
@@ -919,7 +994,7 @@
         }
 
         function playNext(keepHidden = false) {
-            if (currentTrackId < tracks.length - 1) {
+            if (currentTrackId < activeTracks.length - 1) {
                 openPlayer(currentTrackId + 1, keepHidden);
             } else if (loopMode === 3) {
                 openPlayer(0, keepHidden);
@@ -994,7 +1069,7 @@
                 if (player && player.getCurrentTime) {
                     const current = player.getCurrentTime();
                     const total = player.getDuration();
-                    const track = tracks[currentTrackId];
+                    const track = activeTracks[currentTrackId];
                     const start = track.start || 0;
                     const effectiveEnd = track.end || total;
                     const duration = effectiveEnd - start;
@@ -1058,7 +1133,7 @@
             document.getElementById('progress-thumb').style.left = (pct * 100) + '%';
 
             if (isPlayerReady) {
-                const track = tracks[currentTrackId];
+                const track = activeTracks[currentTrackId];
                 const start = track.start || 0;
                 const total = player.getDuration();
                 const effectiveEnd = track.end || total;
@@ -1069,7 +1144,7 @@
             }
 
             if (commit && isPlayerReady) {
-                const track = tracks[currentTrackId];
+                const track = activeTracks[currentTrackId];
                 const start = track.start || 0;
                 const total = player.getDuration();
                 const effectiveEnd = track.end || total;
@@ -1136,8 +1211,231 @@
             }
         });
 
+        function focusConsoleInput() {
+            const input = document.getElementById('console-input');
+            if (input) input.focus();
+        }
+
+        function handleConsoleOverlayClick(e) {
+            if (e.target.id === 'secret-console-overlay') {
+                closeConsole();
+            }
+        }
+
+        function appendConsoleLog(text, className = '') {
+            const log = document.getElementById('console-log');
+            if (!log) return;
+            const line = document.createElement('div');
+            line.className = `console-line ${className}`;
+            line.innerText = text;
+            log.appendChild(line);
+            const screen = document.getElementById('console-screen');
+            if (screen) screen.scrollTop = screen.scrollHeight;
+        }
+
+        function openConsole() {
+            if (isTransitioning) return;
+            isConsoleOpen = true;
+            const overlay = document.getElementById('secret-console-overlay');
+            overlay.classList.add('active');
+
+            const log = document.getElementById('console-log');
+            log.innerHTML = '';
+
+            const input = document.getElementById('console-input');
+            input.value = '';
+            input.disabled = false;
+
+            if (!isSecretMode) {
+                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // SECURE_PORTAL_v2.6';
+                appendConsoleLog('[SYSTEM] RESTRICTED ACCESS PROTOCOL INITIALIZED.', 'cmd-system');
+                appendConsoleLog('[SYSTEM] PLEASE ENTER AUTHORIZATION TO PROCEED.', 'cmd-system');
+                document.getElementById('console-prompt-label').innerText = 'Login PIN:';
+                input.type = 'password';
+                input.maxLength = 32;
+            } else {
+                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // SESSION_ACTIVE_DATA2';
+                appendConsoleLog('[SYSTEM] CURRENT ACCESS LEVEL: CLASSIFIED_ARCHIVE.', 'cmd-system');
+                appendConsoleLog('[SYSTEM] DISCONNECT FROM SECRET REPOSITORY?', 'cmd-system');
+                document.getElementById('console-prompt-label').innerText = 'Logout? [Y/N]:';
+                input.type = 'text';
+                input.maxLength = 10;
+            }
+
+            setTimeout(() => input.focus(), 60);
+        }
+
+        function closeConsole() {
+            isConsoleOpen = false;
+            const overlay = document.getElementById('secret-console-overlay');
+            if (overlay) overlay.classList.remove('active');
+            const input = document.getElementById('console-input');
+            if (input) {
+                input.value = '';
+                input.blur();
+            }
+        }
+
+        function handleConsoleInputKey(e) {
+            if (e.key === 'Escape') {
+                e.preventDefault();
+                closeConsole();
+                return;
+            }
+
+            const input = document.getElementById('console-input');
+            if (!input) return;
+
+            if (!isSecretMode) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const enteredPin = input.value.trim().toLowerCase();
+                    if (SECRET_PINS.includes(enteredPin)) {
+                        appendConsoleLog(`> ${'•'.repeat(input.value.length || 6)}`, 'cmd-user');
+                        appendConsoleLog('[AUTH] Access Granted. Decrypting secret archives...', 'cmd-success');
+                        input.disabled = true;
+                        setTimeout(() => {
+                            closeConsole();
+                            executeGatewayTransition(true);
+                        }, 700);
+                    } else {
+                        appendConsoleLog(`> ${'•'.repeat(input.value.length || 4)}`, 'cmd-user');
+                        appendConsoleLog('[AUTH] Access Denied: Invalid PIN. Try again.', 'cmd-error');
+                        input.value = '';
+                    }
+                }
+            } else {
+                // Secret Mode Logout Handler
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const resp = input.value.trim().toUpperCase();
+                    if (resp === 'Y' || resp === 'YES') {
+                        appendConsoleLog(`> ${resp}`, 'cmd-user');
+                        appendConsoleLog('[SESSION] Logout confirmed. Reverting to public archives...', 'cmd-warn');
+                        input.disabled = true;
+                        setTimeout(() => {
+                            closeConsole();
+                            executeGatewayTransition(false);
+                        }, 600);
+                    } else if (resp === 'N' || resp === 'NO') {
+                        appendConsoleLog(`> ${resp}`, 'cmd-user');
+                        appendConsoleLog('[SESSION] Logout cancelled. Session preserved.', 'cmd-system');
+                        setTimeout(() => {
+                            closeConsole();
+                        }, 400);
+                    } else if (resp !== '') {
+                        appendConsoleLog('[ERROR] Invalid command. Please enter Y or N.', 'cmd-error');
+                        input.value = '';
+                    }
+                } else if (e.key === 'y' || e.key === 'Y') {
+                    e.preventDefault();
+                    input.value = 'Y';
+                    appendConsoleLog('> Y', 'cmd-user');
+                    appendConsoleLog('[SESSION] Logout confirmed. Reverting to public archives...', 'cmd-warn');
+                    input.disabled = true;
+                    setTimeout(() => {
+                        closeConsole();
+                        executeGatewayTransition(false);
+                    }, 600);
+                } else if (e.key === 'n' || e.key === 'N') {
+                    e.preventDefault();
+                    input.value = 'N';
+                    appendConsoleLog('> N', 'cmd-user');
+                    appendConsoleLog('[SESSION] Logout cancelled. Session preserved.', 'cmd-system');
+                    setTimeout(() => {
+                        closeConsole();
+                    }, 400);
+                }
+            }
+        }
+
+        function executeGatewayTransition(toSecret) {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            // Pause video and close overlay/toast
+            if (player && isPlayerReady) player.pauseVideo();
+            closeToast();
+            const npOverlay = document.getElementById('np-overlay');
+            if (npOverlay) npOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+
+            const glitchElem = document.getElementById('transition-glitch-text');
+            const statusBadge = document.getElementById('hud-status-badge');
+            const subtextElem = document.getElementById('transition-subtext');
+            const percentageElem = document.getElementById('transition-percentage');
+            const progressFill = document.getElementById('transition-progress-fill');
+
+            const mainText = toSecret ? "ACCESS GRANTED // SECRET VAULT" : "LOGGING OUT // PUBLIC ARCHIVES";
+            if (glitchElem) {
+                glitchElem.innerText = mainText;
+                glitchElem.setAttribute('data-text', mainText);
+            }
+
+            if (statusBadge) statusBadge.innerText = toSecret ? "CLASSIFIED" : "PUBLIC";
+            if (subtextElem) subtextElem.innerText = toSecret ? "DECRYPTING DATA2 ARCHIVES..." : "RESTORING DATA PUBLIC ARCHIVES...";
+
+            const transitionOverlay = document.getElementById('screen-transition-overlay');
+            if (transitionOverlay) transitionOverlay.classList.add('active');
+
+            let pct = 0;
+            if (progressFill) progressFill.style.width = '0%';
+            if (percentageElem) percentageElem.innerText = '00%';
+
+            const progressInterval = setInterval(() => {
+                pct += 4;
+                if (pct > 100) pct = 100;
+                if (progressFill) progressFill.style.width = pct + '%';
+                if (percentageElem) percentageElem.innerText = (pct < 10 ? '0' : '') + pct + '%';
+                if (pct >= 100) clearInterval(progressInterval);
+            }, 30);
+
+            setTimeout(() => {
+                // Midpoint transition: Switch dataset and re-render
+                isSecretMode = toSecret;
+                activeTracks = isSecretMode ? (window.tracks2 || tracks2) : tracks;
+                activeConfig = isSecretMode ? (window.config2 || config2 || config) : config;
+                activeChapters = isSecretMode ? (window.chapters2 || chapters2) : defaultChapters;
+
+                document.body.classList.toggle('secret-mode', isSecretMode);
+
+                const logoElem = document.querySelector('header .logo');
+                if (logoElem) {
+                    if (isSecretMode) {
+                        logoElem.innerHTML = '<i class="fa-solid fa-user-secret"></i> WASABISOCUTE Secret Collection <span class="secret-badge">CLASSIFIED</span>';
+                    } else {
+                        logoElem.innerHTML = '<i class="fa-solid fa-compact-disc"></i> WASABISOCUTE Music Collection';
+                    }
+                }
+
+                currentTrackId = 0;
+                renderGrid();
+                window.scrollTo({ top: 0, behavior: 'instant' });
+            }, 550);
+
+            setTimeout(() => {
+                if (transitionOverlay) transitionOverlay.classList.remove('active');
+                isTransitioning = false;
+                clearInterval(progressInterval);
+            }, 1200);
+        }
+
         document.addEventListener('keydown', (e) => {
+            if (isConsoleOpen) {
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    closeConsole();
+                }
+                return;
+            }
+
             if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+            if (e.key === '/') {
+                e.preventDefault();
+                openConsole();
+                return;
+            }
 
             switch (e.key) {
                 case ' ':

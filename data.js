@@ -1606,7 +1606,40 @@ I wish I had never been born at all`,
             [03:01.50]Na moto utakuwakia
             [03:42.14]
         `,
-        lyrics_zh: ``,
+        lyrics_zh: `让这炽火之诗
+响彻高天之上
+如同不息的野火，烧遍旷原
+勇敢者啊
+向前路而行吧
+纵是灰烬
+亦有重燃之时
+
+抉择吧，抉择属于你的道途吧
+炽火将会为你点燃
+炽火将会为你点燃
+而世界的面貌
+将在火中向你显现
+而火，火将为你而燃
+而火，火将为你而燃
+而火，火将为你而燃`,
+        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        lyrics_en: `Let the songs of fire
+        burn in the sky
+Like an unquenchable fire
+They are spreading in the country
+go ahead with force
+Even till
+they return to ashes
+
+Through yourself
+the fire will always burn
+The fire will always burn
+There, the face of the world
+You will appear there
+and the fire will roar
+And the fire will burn for you
+And the fire will burn for you`,
+        trans_source_en: `musixmatch | Translate by Diego Khalifa & Anthony Page`
     },
     {
         chapter: 2,
@@ -5235,7 +5268,7 @@ By my hand`,
 [04:36.83]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [04:43.61]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala
 [04:50.29]Lalalalalalalala Lalalalalalalalalala Lalalalalalalala Lalalalalalalalalala`,
-        lyrics_rom:`[00:01.30]
+        lyrics_rom: `[00:01.30]
 [00:07.84]
 [00:14.46]
 hikari kagayaite mieta sekai wa
@@ -5492,7 +5525,7 @@ NO FICTION
 究竟怎样才好啊
 已经都无所谓了
 `,
-        lyrics_en:`The few centimeters long edge made of distrust,
+        lyrics_en: `The few centimeters long edge made of distrust,
 has finally made its way to pierce through my vein.
 As a sentimental love just spurted out,
 even my Les Paul has turned into a weapon.
@@ -5602,7 +5635,7 @@ Well, it doesn't matter anymore.
             [02:16.35]奇跡を塗り替える
             [02:18.35]鮮やかなセカイを 描いていくんだ
             [02:26.01]`,
-        lyrics_rom:`mayoi machigai susumenai hibi
+        lyrics_rom: `mayoi machigai susumenai hibi
 wakatte ita tsumori datta
 mada tarinai taiji mata MISTAKE
 
@@ -5645,7 +5678,7 @@ kuyashii kimochi wasurenaide
 mae wo muitara
 kiseki wo nurikaeru
 azayaka na sekai wo egaite ikunda`,
-        lyrics_en:`I waver and slip-up, in these days where I feel like I'm not making any progress,
+        lyrics_en: `I waver and slip-up, in these days where I feel like I'm not making any progress,
 Even though I meant to learn my lesson
 I haven't had enough of these battlesーah, another mistake
 
@@ -5688,7 +5721,7 @@ Don't forget these feelings of frustration,
 If we look ahead,
 We'll be able to repaint a miracle,
 Drawing out a vivid, bright world!`,
-        trans_source_en:`Project SEKAI Fandom Wiki | Translate by Shiru`
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`
     },
     {
         chapter: 4,
