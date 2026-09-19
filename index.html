@@ -1247,19 +1247,19 @@
             input.disabled = false;
 
             if (!isSecretMode) {
-                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // SECURE_PORTAL_v2.6';
+                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // USER LOGIN';
                 appendConsoleLog('[SYSTEM] RESTRICTED ACCESS PROTOCOL INITIALIZED.', 'cmd-system');
                 appendConsoleLog('[SYSTEM] PLEASE ENTER AUTHORIZATION TO PROCEED.', 'cmd-system');
                 document.getElementById('console-prompt-label').innerText = 'Login PIN:';
                 input.type = 'password';
-                input.maxLength = 32;
+                input.maxLength = 16;
             } else {
-                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // SESSION_ACTIVE_DATA2';
+                document.getElementById('console-titlebar-text').innerText = 'SYSTEM TERMINAL // SESSION_ACTIVE_DATA';
                 appendConsoleLog('[SYSTEM] CURRENT ACCESS LEVEL: CLASSIFIED_ARCHIVE.', 'cmd-system');
                 appendConsoleLog('[SYSTEM] DISCONNECT FROM SECRET REPOSITORY?', 'cmd-system');
                 document.getElementById('console-prompt-label').innerText = 'Logout? [Y/N]:';
                 input.type = 'text';
-                input.maxLength = 10;
+                input.maxLength = 1;
             }
 
             setTimeout(() => input.focus(), 60);
@@ -1292,7 +1292,7 @@
                     const enteredPin = input.value.trim().toLowerCase();
                     if (SECRET_PINS.includes(enteredPin)) {
                         appendConsoleLog(`> ${'•'.repeat(input.value.length || 6)}`, 'cmd-user');
-                        appendConsoleLog('[AUTH] Access Granted. Decrypting secret archives...', 'cmd-success');
+                        appendConsoleLog('[AUTH] Access Granted. Decrypting secret data...', 'cmd-success');
                         input.disabled = true;
                         setTimeout(() => {
                             closeConsole();
@@ -1311,7 +1311,7 @@
                     const resp = input.value.trim().toUpperCase();
                     if (resp === 'Y' || resp === 'YES') {
                         appendConsoleLog(`> ${resp}`, 'cmd-user');
-                        appendConsoleLog('[SESSION] Logout confirmed. Reverting to public archives...', 'cmd-warn');
+                        appendConsoleLog('[SESSION] Logout confirmed. Reverting to public data...', 'cmd-warn');
                         input.disabled = true;
                         setTimeout(() => {
                             closeConsole();
@@ -1324,14 +1324,14 @@
                             closeConsole();
                         }, 400);
                     } else if (resp !== '') {
-                        appendConsoleLog('[ERROR] Invalid command. Please enter Y or N.', 'cmd-error');
+                        appendConsoleLog('[ERROR] Invalid command.', 'cmd-error');
                         input.value = '';
                     }
                 } else if (e.key === 'y' || e.key === 'Y') {
                     e.preventDefault();
                     input.value = 'Y';
                     appendConsoleLog('> Y', 'cmd-user');
-                    appendConsoleLog('[SESSION] Logout confirmed. Reverting to public archives...', 'cmd-warn');
+                    appendConsoleLog('[SESSION] Logout confirmed. Reverting to public data...', 'cmd-warn');
                     input.disabled = true;
                     setTimeout(() => {
                         closeConsole();
@@ -1353,7 +1353,6 @@
             if (isTransitioning) return;
             isTransitioning = true;
 
-            // Pause video and close overlay/toast
             if (player && isPlayerReady) player.pauseVideo();
             closeToast();
             const npOverlay = document.getElementById('np-overlay');
@@ -1366,14 +1365,14 @@
             const percentageElem = document.getElementById('transition-percentage');
             const progressFill = document.getElementById('transition-progress-fill');
 
-            const mainText = toSecret ? "ACCESS GRANTED // SECRET VAULT" : "LOGGING OUT // PUBLIC ARCHIVES";
+            const mainText = toSecret ? "ACCESS GRANTED // SECRET DATA" : "LOGGING OUT // PUBLIC DATA";
             if (glitchElem) {
                 glitchElem.innerText = mainText;
                 glitchElem.setAttribute('data-text', mainText);
             }
 
             if (statusBadge) statusBadge.innerText = toSecret ? "CLASSIFIED" : "PUBLIC";
-            if (subtextElem) subtextElem.innerText = toSecret ? "DECRYPTING DATA2 ARCHIVES..." : "RESTORING DATA PUBLIC ARCHIVES...";
+            if (subtextElem) subtextElem.innerText = toSecret ? "DECRYPTING CLASSIFIED DATA..." : "RESTORING PUBLIC DATA...";
 
             const transitionOverlay = document.getElementById('screen-transition-overlay');
             if (transitionOverlay) transitionOverlay.classList.add('active');
@@ -1402,7 +1401,7 @@
                 const logoElem = document.querySelector('header .logo');
                 if (logoElem) {
                     if (isSecretMode) {
-                        logoElem.innerHTML = '<i class="fa-solid fa-user-secret"></i> WASABISOCUTE Secret Collection <span class="secret-badge">CLASSIFIED</span>';
+                        logoElem.innerHTML = '<i class="fa-solid fa-user-secret"></i> WASABISOCUTE Music Collection <span class="secret-badge">CLASSIFIED</span>';
                     } else {
                         logoElem.innerHTML = '<i class="fa-solid fa-compact-disc"></i> WASABISOCUTE Music Collection';
                     }
