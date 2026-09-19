@@ -13,8 +13,8 @@ const config = {
         date: '', ytId: '', start: 0, end: 0,
         lyrics:``,
         lyrics_rom:``,
-        lyrics_zh:``,
-        trans_source_zh:``,
+        lyrics_cn:``,
+        trans_source_cn:``,
         lyrics_en:``,
         trans_source_en:``,
 }
@@ -1389,7 +1389,7 @@ const tracks = [
 [02:29.66]Estris vae falsatis quod ad propinquavit
 [02:43.53] 
 `,
-        lyrics_zh: `过去已然消失，并铭刻于明天
+        lyrics_cn: `过去已然消失，并铭刻于明天
 
 灵魂的正典不再倾向于天堂
 看啊，你被折磨，因为你是被遗弃的骨血
@@ -1399,7 +1399,7 @@ const tracks = [
 
 歌颂你的真实诗篇中尽是迷失与毁灭
 等着吧，你会后悔的`,
-        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        trans_source_cn: `网易云音乐 @HOYO-MiX`,
         lyrics_en: `The mistress of the past will perish, and the future will be written
 
 As it is imposed by the Gnosis' law, you must seek no longer what is heavenly
@@ -1439,7 +1439,7 @@ Woe to the false prophets who got near you`,
 [02:55.56] 
 [02:56.51] Nunquam genitus desiderem
 `,
-        lyrics_zh: `你已经被可怖的天国所禁止
+        lyrics_cn: `你已经被可怖的天国所禁止
 
         无底的深渊将压制你
 哀哉，那些已发现自己缺陷的贤者（哀哉，那些已发现他人缺陷的贤者）
@@ -1460,7 +1460,7 @@ Woe to the false prophets who got near you`,
 慢慢而来的死亡和无法逃避的命运将逼近（不可避免的命运将加快步伐）
 
 我多么希望我自己从未降临这世上`,
-        trans_source_zh: '网易云音乐 @HOYO-MiX',
+        trans_source_cn: '网易云音乐 @HOYO-MiX',
         lyrics_en: `May the celestial affairs be denied to you
 
 Now a disastrous ruin weighs upon you
@@ -1606,7 +1606,7 @@ I wish I had never been born at all`,
             [03:01.50]Na moto utakuwakia
             [03:42.14]
         `,
-        lyrics_zh: `让这炽火之诗
+        lyrics_cn: `让这炽火之诗
 响彻高天之上
 如同不息的野火，烧遍旷原
 勇敢者啊
@@ -1622,7 +1622,7 @@ I wish I had never been born at all`,
 而火，火将为你而燃
 而火，火将为你而燃
 而火，火将为你而燃`,
-        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        trans_source_cn: `网易云音乐 @HOYO-MiX`,
         lyrics_en: `Let the songs of fire
         burn in the sky
 Like an unquenchable fire
@@ -1703,7 +1703,7 @@ And the fire will burn for you`,
             [02:14.214] Burn it, Burnice, Burn it, Burnice, Burn it, Burnice
             [02:16.035] Gonna watch it burn!
 `,
-        lyrics_zh: `晚上好，欢迎来到我的吧台！
+        lyrics_cn: `晚上好，欢迎来到我的吧台！
         我是柏妮思，今天只为你服务。
         先来点什么？
         一杯喝的，一点零食？或许…再来一些更让人兴奋的？
@@ -1751,7 +1751,7 @@ And the fire will burn for you`,
 耶耶
 挥霍吧 柏妮思 晃动吧 柏妮思 点燃一切 柏妮思
 看它燃烧吧`,
-        trans_source_zh: `网易云音乐 @HOYO-MiX`
+        trans_source_cn: `网易云音乐 @HOYO-MiX`
     },
     {
         chapter: 2,
@@ -1824,7 +1824,7 @@ I have to go right now!
 Prizing out eyelids of the clown
 By my hand`,
         trans_source_en: `Official`,
-        lyrics_zh: `穿过傍晚的暮色
+        lyrics_cn: `穿过傍晚的暮色
 奔向女孩们的人群
 一、二、三个苹果滚落着
 在永恒寂静那可疑的启示之中
@@ -1856,7 +1856,7 @@ By my hand`,
 我现在必须离开！
 用我的双手
 掰开小丑的眼皮`,
-        trans_source_zh: `WASABISOCUTE`
+        trans_source_cn: `WASABISOCUTE`
     },
     {
         chapter: 2,
@@ -1894,7 +1894,7 @@ By my hand`,
             [01:17.24]Take it easy, having fun is just enough
             [01:20.56] 
 `,
-        lyrics_zh: `看哪 这闪亮的金色象征
+        lyrics_cn: `看哪 这闪亮的金色象征
 
 如火花般点燃你内心的激昂
 
@@ -1922,7 +1922,7 @@ By my hand`,
 
 虽然总有不如意的时候
 得失心别太重 能够享受便足矣`,
-        trans_source_zh: ` 巴哈姆特 @Karas`,
+        trans_source_cn: ` 巴哈姆特 @Karas`,
     },
     {
         chapter: 2,
@@ -5033,7 +5033,267 @@ By my hand`,
 [04:13.18]どうしようこのままじゃ私も
 [04:15.99]いつかは食べられちゃうわ
 
-[04:18.75]その前に助けに来てね`
+[04:18.75]その前に助けに来てね`,
+        lyrics_rom: `watashi no koi wo
+higeki no jurietto ni shinaide
+koko kara tsuredashite...
+sonna kibun yo
+
+papa to mama ni oyasuminasai
+seizei ii yume wo minasai
+otona wa mou neru jikan yo
+
+musekaeru miwaku no kyarameru
+hajirai no suashi wo karameru
+konya wa doko made ikeru no?
+
+kamitsukanaide yasashiku shite
+nigai mono wa mada kirai na no
+mama no tsukuru okashi bakari tabeta sei ne
+
+shiranai koto ga aru no naraba
+shiritai to omou futsuu deshou?
+zenbu misete yo anata ni naraba
+misete ageru watashi no...
+
+zutto koishikute shinderera
+seifuku dake de kakete iku wa
+mahou yo jikan wo tomete yo
+warui hito ni jamasarechau wa
+
+nigedashitai no jurietto
+demo sono namae de yobanaide
+sou yo ne musubarenakucha ne
+sou janai to tanoshiku nai wa
+
+nee watashi to ikite kureru?
+
+senobi wo shita nagai masukara
+iiko ni naru yo kitto asu kara
+ima dake watashi wo yurushite
+
+kuroi reesu no kyoukaisen
+mamoru hito wa kyou wa imasen
+koetara doko made ikeru no?
+
+kamitsuku hodo ni itai hodo ni
+suki ni natteta no wa watashi desho
+papa wa demo ne anata no koto kirai mitai
+
+watashi no tame to sashidasu te ni
+nigitteru sore wa kubiwa desho
+tsuredashite yo watashi no romio
+shikarareru hodo tooku e
+
+kane ga narihibiku shinderera
+garasu no kutsu wa oite iku wa
+dakara ne hayaku mitsukete ne
+warui yume ni jirasarechau wa
+
+kitto ano ko mo sou datta
+otoshita nante uso wo tsuita
+sou yo ne watashi mo onaji yo
+datte motto aisaretai wa
+
+hora watashi wa koko ni iru yo
+
+watashi no kokoro sotto nozoite mimasenka
+hoshii mono dake afurekaette imasenka
+mada betsubara yo motto motto gyuutto tsumekonde
+isso anata no ibasho made mo umete shimaouka
+
+demo sore ja imi nai no
+
+ookina hako yori chiisana
+hako ni shiawase wa aru rashii
+dou shiyo kono mama ja watashi wa
+anata ni kirawarechau wa
+
+demo watashi yori yokubari na
+papa to mama wa kyou mo kawarazu
+sou yo ne sunao de ii no ne
+otoshita no wa kin no ono deshita
+
+uso tsukisugita shinderera
+ookami ni taberareta rashii
+dou shiyou kono mama ja watashi mo
+itsuka wa taberarechau wa
+
+sono mae ni tasuke ni kite ne`,
+        lyrics_cn: `我的恋爱
+不要把它变成悲剧的朱丽叶
+把我从这里带走吧……
+我就是这种心情
+
+跟爸爸妈妈说晚安
+尽量做个好梦吧
+大人已经该睡觉了
+
+令人窒息的魅惑焦糖
+缠绕着羞怯的裸足
+今晚能走到哪里呢？
+
+别咬我，对我温柔点
+我还是讨厌苦的东西
+都是因为只吃妈妈做的点心
+
+如果有我不知道的事
+想知道不是很正常吗？
+如果是你，就全都让我看看
+我会给你看的，我的……
+
+一直渴望爱情的灰姑娘
+只穿着制服奔跑而去
+魔法啊，把时间停下吧
+会被坏人打扰的
+
+我想逃走，朱丽叶
+但不要用那个名字叫我
+是啊，必须要结合才行
+不然就不好玩了
+
+呐，你愿意和我一起活下去吗？
+
+踮起脚拉长的睫毛膏
+从明天开始我一定会当个乖孩子
+只求现在原谅我
+
+黑色蕾丝的界线
+今天没有人守护
+跨过去的话能走多远？
+
+越是撕咬，越是疼痛
+先爱上的人是我吧
+不过爸爸好像讨厌你
+
+为我伸出的那只手
+握着的却是项圈吧
+带我走吧，我的罗密欧
+去到会被责骂那么远的地方
+
+钟声回响的灰姑娘
+玻璃鞋我就留下了
+所以要快点找到我哦
+被噩梦逼得心急
+
+那孩子一定也是这样
+说了“我弄丢了”的谎
+是啊，我也是一样
+因为我想被更多地爱
+
+你看，我就在这里
+
+要不要悄悄看看我的内心？
+是不是只装满了想要的东西？
+还有另一份胃，再塞多一点吧
+干脆连你的容身之处也一起填满吧
+
+可是那样就没有意义了
+
+比起大箱子
+幸福好像存在于小盒子里
+怎么办，这样下去我会
+被你讨厌的
+
+可比我更贪心的
+爸爸妈妈今天也依旧如此
+是啊，坦率就好了吧
+掉下去的是金斧头呢
+
+说谎太多的灰姑娘
+好像被狼吃掉了
+怎么办，这样下去我也
+总有一天会被吃掉
+
+在那之前，来救我吧`,
+        trans_source_cn: `WASABISOCUTE`,
+        lyrics_en: `Don't turn my love
+Into your tragic Juliet
+Take me away...
+That's how I feel
+
+Tell Mom and Dad goodnight,
+Wish them sweet dreams, at least
+It's bedtime for grownups
+
+Choking on captivating caramel,
+Entwining my bare, bashful legs
+How far can we venture tonight?
+
+Don't bite, be gentle,
+I still dislike bitter tastes
+Having been spoiled on Mom's homemade sweets
+
+When there's something you don't know
+It's only natural to want to find out
+Show me everything - and just for you,
+I'll show you mine, too...
+
+I'm a Cinderella, yearning for you,
+I'll come running in my school uniform
+Oh magic, please stop the hands of time
+Before the villain interferes
+
+I'm a Juliet who wants to run away,
+But don't call me by that name
+We have to live happily ever after,
+Otherwise where's the fun?
+
+Tell me, will you choose life?
+
+I applied a little too much mascara,
+But I'll be a good girl when tomorrow comes
+So please let me off the hook for now
+
+The boundary line is just this black lace
+And there's no one to guard it today, so,
+If you cross it, how far are you going to go?
+
+Enough you bite me, enough to make me hurt,
+I'm the one you fell in love with, right?
+But Dad doesn't seem to like you that much
+
+You say you're holding out your hands for my sake
+But isn't that a collar you're holding?
+Just take me away, oh my Romeo,
+Far enough away that they scold us
+
+The bells are going to sound
+And Cinderella has to leave her glass shoe
+Obviously, you have to look for her quick,
+Or she'll be haunted with nightmares
+
+Definitely, even she did it like that,
+She lied when she said she "accidentally" dropped it
+That's right, same with me,
+Since I want to be loved by you more
+
+Look, I am right here
+
+Won't you peek into my heart?
+See how it brims with desires?
+I've got room for more, pack my heart until it's full
+Until it fills up the place where you are
+
+But what would be the point?
+
+They say that happiness
+Comes in small packages
+If something doesn't change,
+You're going to end up hating me
+
+But Mom and Dad are the same,
+They just want more, like always
+You're right, I should be honest,
+The axe I dropped was one of gold
+
+Cinderella told one too many lies
+And got herself swallowed by the wolf
+If something doesn't change,
+He's going to end up eating me too
+
+Come to my rescue, before it's too late!`,
+        trans_source_en: `Vocaloid Lyrics Wiki @Project DIVA F 2nd & marvelangga`,
     },
     {
         chapter: 4,
@@ -5082,6 +5342,134 @@ By my hand`,
 [03:22.49]意味も分からずに
 [03:26.18]タイムマシンにゆられて
 [03:30.81]また戻ってくるよ`,
+        lyrics_rom: `tokuige ni tsubuyaita
+shinpai nai kara to
+hito no sukunai hoomu de
+hetakuso ni tsuyogatta
+
+toutotsu ni narihibiku
+boku wo yobu wakare no oto
+minareta sono nakigao mo
+shibaraku wa mirenai ne
+
+Ah koe ga saegirarete yuku
+miburiteburi de tsutaeru
+"itterasshai" no sain
+
+sukoshizutsu chiisaku natteku
+zenbu oita mama
+kanashiku nanka nai sa to
+iyahon de tojikometa yo
+
+mietanda bonyari to
+atatakai kinou no bijon
+migi to hidari ni hirogatte
+boku wo tsurete yuku no sa
+
+Ah boku no yoko wo surinukete
+toozakatte yuku keshiki
+ano hi no boku wo oiteku
+
+koboreta namida hitoshizuku no
+imi mo wakarazu ni
+taimumashin ni yurarete
+ashita mo genki de iru yo
+
+koboreta namida hitoshizuku no
+imi mo wakarazu ni
+taimumashin ni yurarete
+ashita mo genki de
+
+afureru namida osaekirezu
+imi mo wakarazu ni
+taimumashin ni yurarete
+mata modotte kuru yo`,
+        lyrics_en: `You murmured proudlythat
+        you had no worries
+You pitifully bluffed in
+a place that people rarely pass
+
+The sudden sound of goodbye
+that calls me
+I guess I can't see the familiar
+crying face for some time
+
+Ah, a voice is blocked
+and communicating with gestures
+The "Come back safely" sign
+
+I threw away all the things
+that were getting smaller
+I murmured about how I wasn't sad
+and put on the earphones
+
+I could see it a little
+- the vision of the warm past days
+To the right, to the left, it spreads
+and takes me with it
+
+Ah, the scenery passes me
+and is getting further away
+It leaves that day's me behind
+
+Not knowing the meaning
+of the one teardrop
+I wish that you'll be healthy
+and be shaken by the time machine
+
+Not knowing the meaning
+of the one teardrop
+I wish that you'll be healthy
+and be shaken by the time machine
+
+Not able to hold back the overflowing tears
+not knowing the meaning
+I'll be shaken by the time machine
+and come back again`,
+        trans_source_en: `YouTube @40meterP | Translate by AnimeLyrics @t12111`,
+        trans_source_cn: `YouTube @40meterP`,
+        lyrics_cn: `得意扬扬轻声说道
+        不用担心我
+在旅客稀疏的月台上
+笨拙地如此逞强
+
+突然高声响起了
+呼唤我的离别声响
+连那张司空见惯的落泪表情
+也暂时要看不到了呢
+
+声音逐渐被盖去
+以手势与动作传达了
+「路上小心」这个讯息
+
+就这样抛下一点一滴
+逐渐缩小的种种
+说出「我才不会感到难过」
+而以耳机封闭自己
+
+我看见了那模糊
+而洋溢暖意的往日情景
+朝著左右扩展延伸
+引领著我向前迈进
+
+自我身旁飞逝而过
+逐渐远离的景色
+丢下那一天的我
+
+对于滑落脸颊的一滴泪珠
+也无法理解其箇中意义
+随著时光机摇晃而去
+明天也要打起精神呢
+
+对于滑落脸颊的一滴泪珠
+也无法理解其箇中意义
+随著时光机摇晃而去
+明天也请打起精神来
+
+止不住不停涌出的眼泪
+也无法理解这代表的意义
+随著时光机摇晃而去
+我还会再回来的`,
     },
     {
         chapter: 4,
@@ -5133,8 +5521,98 @@ By my hand`,
 [03:26.88]考えないと君が正しく在るために
 [03:34.16]これはこれは誰のため？
 [03:41.14]なにがなにが君のため？
-[03:46.45] 
-`
+[03:46.45] `,
+        lyrics_rom: ``,
+        lyrics_en: `I'm always fleeing inside of my dreams, running in a ridiculous way
+I sneakily escape from my pursuers through meta and cunning means, and release a relieved sigh
+My foothold has once again collapsed. I’ve gotta think of another way
+I reset the words that I left at the bedside
+While I'm trying to figure out which thread is tangled, the sun sets
+And in the darkness, I end up only cutting my own finger
+It's just so pitiful, so pitiful, I can't change at all!
+No way, no way, I'm carried off to my final stop
+Turn, turn, my sense of self-condemnation
+Even if I get lost, I'll reach towards the light
+The hypocrisy trails across your ears, your fingers,
+entrust it with me and peel it off, like an avalanche
+Look for it, search for it, before I’m deeply stained by a habit of simplifying things,
+Open up your eyes, okay?
+If everything goes extinct just like in a movie, what should I feel?
+What is love? Nobody even understands it, they just pray for it without knowing why
+As a result of this sense of belonging, we caress each others’ wounds
+I enriched myself with a makeshift feeling of satisfaction  
+No matter which thread is tangled, if I tear it off, I can feel better
+Where is the heart I offered up disappearing to...?
+It’s all scattered now, I can’t feel it at all.
+Well then, this is just too cruel
+I only see the form
+Although there are as many aesthetics as there are people
+
+I planted a seed of understanding here
+Nourished by the knowledge that I once withered away.
+If neither my heart nor my brain is my soul,
+Why am I in so much pain?
+
+Ah, stop it, stop it! I can't smile at all!
+Butterflies and flowers both die in an instant
+In this weighty and cold dead of night,
+I very gently thrust it at you
+This meaning has, these days have, developed a crack
+Coexistence- at best, tomorrow will be cloudy too
+Will our hands be separated before long?
+My prudence always stops there
+Ugh, look at this! Still now, nothing can change at all!
+My legs will always reach towards the ground.
+Even if I'm lost somewhere,
+I have to think, so that you will be right
+Whose, whose, sake is this for?
+What will be, what will be good for you?`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Roseofthewind1`,
+        lyrics_cn: `梦中的我总是不停奔逃 以这笨拙的姿态
+不惜借助盘外招狡猾脱身 才得以安心长舒口气
+立足之地又崩塌一处 不得不另寻出路
+把遗落在枕边的那些话语 拼凑重组
+究竟是哪根线 这般缠缠绕绕 在摸索之间日影逐渐西斜
+在昏暗中继续伸手 只会被手边之物伤到手指
+只是 真可怜 真可怜 我难以改变
+不知又 不觉间 被推向终点
+循环吧 循环吧 这自责之念
+即便陷入迷茫 也仍心向光芒
+向耳畔 向指间 渗入的伪善
+随它吧 剥落吧 如雪崩倾塌
+探寻吧 找寻吧 快从中苏醒吧
+趁简单看待一切的习惯还未深入骨髓
+若一切如电影般走向覆灭 我该心怀何念才好？
+无人知晓爱为何物 却又莫名为此祈愿
+在归属感尽头的两人 徒然轻抚彼此的伤痕
+靠着敷衍当下的片刻满足 填满这颗自私的心
+不论是哪根线 这般缠缠绕绕
+若能尽数狠心扯断便可得以解脱
+那颗曾付出的真心究竟消逝在何方
+终究破碎 相离 难以再触碰
+这一切 若如此 也太过残酷无情
+我始终 执念于 表面的模样
+
+可人类本就 千人千面 各有独属的美学
+我曾在此埋下理解的种子
+以那份曾亲手埋葬的认知当作养分
+若心中所念脑海所想皆非真意 为何我还会如此痛彻心扉？
+
+啊啊 停下吧 停下吧 我笑不出来
+蝶舞 花开 最终均是昙花一现
+在这沉重的 冰冷的 深夜里
+以过分的温柔 直逼至眼前
+终究 所有意义 与朝夕 都已裂痕遍体
+妄言共生 到头来 明日依旧阴云密布
+若终有一日 那相牵的手 不再牵系？
+这份思虑 每当想到此处 都戛然而止
+啊啊 你看啊 我终究 还是难以改变
+这双腿 也还是 如灌铅般沉重
+即便不知 在何处 深陷迷茫
+我也必须加以思索 为了让你活成真正的自己
+这一切 这一切 到底是为谁？
+该如何 才算是 真正为了你？`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：梦想工厂 校对：寝坊、珞羽子）翻译`
     },
     {
         chapter: 4,
@@ -5183,6 +5661,86 @@ By my hand`,
             [02:46.04]Ooh, woah-oh
             [02:49.63]Ooh, woah-oh
             [02:54.77]Look through the sky`,
+        lyrics_en: `[00:02.58]
+            [00:07.62]
+            [00:12.63]
+            [00:18.49]
+            [00:21.44]
+            [00:24.96]
+            [00:30.50]
+            [00:35.85]
+            [00:40.54]
+            [00:44.76]
+            [00:50.22]
+            [00:56.27]
+            [00:58.60]
+            [01:01.02]
+            [01:03.75]
+            [01:07.12]
+            [01:11.98]I hold my ground even amidst the waves of lies
+I start over from where everything crumbled
+I will hunt down the truth that fled until the very end
+            [01:28.01]
+            [01:30.28]
+            [01:34.68]
+            [01:40.43]
+            [01:45.33]
+            [01:50.21]
+            [01:55.63]
+            [02:00.57]
+            [02:03.19]
+            [02:05.68]
+            [02:08.55]
+            [02:11.64]
+            [02:16.64]I hold my ground even amidst the waves of lies
+I start over from where everything crumbled
+I will hunt down the truth that fled until the very end
+            [02:32.44]
+            [02:35.06]
+            [02:38.93]
+            [02:43.71]
+            [02:46.04]
+            [02:49.63]
+            [02:54.77]`,
+        trans_source_en: `lyricstranslate.com | Translate by Rahmatjjang`,
+        lyrics_cn: `[00:02.58]
+            [00:07.62]
+            [00:12.63]
+            [00:18.49]
+            [00:21.44]
+            在虚伪的暮色中 
+有颗破碎的心
+她正与火共舞
+从灰烬中升起
+回忆随著脚步消散
+我得停止对于复仇的同情
+受创的心难以前行
+无声的迴音中
+是场狂烈的风暴
+你是否记得
+所有秘密的沉默
+即使光芒无处可寻
+就算在谎言的浪涛中也继续坚持著
+要寻找崩塌的真相直到最后
+要将这片天看穿
+[01:30.28]
+[01:34.68]
+我在复仇的节奏中倾诉著
+就如我梦中迷失的人
+我身上布满伤疤
+已经走到这一步仍存活著
+就像未治癒的伤口
+成为被揭露的武器
+无声的迴音中
+是场狂烈的风暴
+你是否记得
+所有秘密的沉默
+即使光芒无处可寻
+就算在谎言的浪涛中也继续坚持著
+在崩塌之地重新开始
+要寻找逃脱的真相直到最后
+要将这片天看穿`,
+        trans_source_cn: `痞客邦 @老繭`
     },
     {
         chapter: 4,
@@ -5341,12 +5899,156 @@ sekai no mannaka de hoshi ni naritai
 daijoubu wasurenai yo isshou da saa, arukidasou ka
 korekara no oto wo, mata... kore made no oto mo, hora...
 
-subete ga kagayaku "kono hoshi no sutaa"
+subete ga kagayaku "kono hoshi no sutaa"`,
+        lyrics_cn: `[00:01.30]
+[00:07.84]
+[00:14.46]
+目之所及  闪耀着光辉的世界
+实则是何止百倍的光芒万丈
+“我也能、在此处绽放光芒吗”
+只是追寻  满溢着爱的回响
 
+对不知不觉间更迭的景色
+时而感到欢喜而雀跃 时而感到痛苦而烦恼
+万千思绪  集于一身 谱写出一首歌
+于是我得以变得如此坚强
 
+「I need you !」这份心情，还是初次品味
+将我眼前所见化作众人所识
+虽是独自一人  却从不孤独
+在碧波上漫步吧 满怀希望 去向任何地方
 
+在这个世界里  坚持着人与人的连系
+我得到救赎，未曾想成为了他人的救赎
+交织着 压抑着 纵使动摇 也会无数次在我眼前绽放
+“传达”这件事竟何等美妙
 
-`,
+如今呈现在眼前的只是些许光芒
+我还是会深呼吸，大步前行
+哭泣着 欢笑着 愤慨着 最终都将化为喜悦
+再继续编织今后的乐章吧
+
+目之所及  在这闪耀着光辉的世界
+多种色彩汇聚于此
+仍旧对此有些懵懵懂懂
+但到了最后发现  这正是乐趣所在
+
+「All you Need is Love」这份心情  无数次呐喊
+在能够对互不相容的情感道出爱意之前
+只身一人  独自前行
+不管是我 是你 是我 还是你 都是这样的啊 来吧，开始吧
+
+在这不断绽放的心愿中
+我得到塑造，未曾想成为了创作者
+不论何时 不论何地 无关身份 千万次相连。
+终于能够说出“请爱我”了啊
+
+我会领会此刻所有
+所以希望你今后也愿意接受我的心意
+尽情诉说 奋力抗争 纵使成熟 也会铭记初心
+我将与迄今积攒的音符一同走下去
+
+我明明是那般深爱着这个世界
+就算它逐渐扭曲 我也会拨正洪流 这并非容易之事 但即便如此
+我与你怀揣着同一份爱
+这类文化 这种变化 永不停息地 毫不羞怯地 化为言语吧
+
+独自一人走来的 那个世界
+我只是注视旁观 仅此而已
+一次次尝试 一次次挑战 仍然毫无头绪 最终还是放弃
+付诸行动的念头都因恐惧告终
+
+若是能将此般风景分享给他人
+真想让过去的我也亲眼看看啊
+哭泣吧 欢笑吧 愤慨吧 回过神后体会喜悦
+于是我又有了活下去的勇气！
+
+在这持续闪耀的世界中
+我被深深吸引  未曾想散发出了光芒
+“那首歌令我心潮澎湃，真开心啊” “我们，紧紧相连”
+拥有着散发同等光辉的STAR
+
+我不要在黑暗中引人注目
+我要在世界中央化为明星
+放心吧 我不会忘记 用一辈子约定 来吧，该启程了，
+将未来的旋律，再次… 连同曾经的乐章，看吧…
+
+一切都是那么耀眼 “在这星间的STAR”`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：啵露 校对：豆子）翻译`,
+        lyrics_en: `[00:01.30]
+[00:07.84]
+[00:14.46]
+This world that seemed to glittering brightly,
+It was shining dozens of times brighter.
+"I wonder if I can shine in this place?"
+I say while simply following the sound that ring out with so much love.
+
+Within this scenery that changes while everyone is unaware,
+I was elated and happy, then distressed and worried.
+Taking all of that in, I put it into a song,
+And I became so strong because of that.
+
+"I need you!" I taste such a feeling for the first time.
+The things I was seeing are the things I can see.
+We're on our own but we are not alone,
+Let's walk upon the waves while holding our hopes, and go, no matter where to!
+
+In this SEKAI that continues to be connected to me,
+I was saved, it was like it saved me.
+Though it is tangled up, blocked, and shaken up, it spreads again and again,
+"What we transmit" is so beautiful, don't you think?
+
+Though I still can only see a little ahead in this moment,
+I'll take in a breath and walk forward, and I'm sure that
+I'll cry, laugh, and get angry, but I'll be satisfied in the end.
+Let's continue to create the sound of the future.
+
+In this SEKAI that seems to shine so brightly,
+There is not just one color, but multiple gathered together.
+I didn't really understand what was going on,
+But I finally realized that I had fun.
+
+"All you Need is Love" I shout out such a feeling over and over
+Until I can love even the disharmonious things.
+From being alone to being on our own,
+Me and you and me and you, right, now, let's begin! (Rise up!)
+
+With this thought that continues to expand,
+I was made, it was like it created me.
+Anytime, anywhere, with anyone, I am connected to them again and again.
+I finally managed to voice that "I want you to love me."
+
+Because I take in everything in this moment,
+I'll accept my feelings too, all the way,
+Though I'll spit it out, go against it and grow up, I won't forget the beginning.
+The sound of the past and me will continue to live.
+
+I love this SEKAI so much, yet, the flow is getting distorted 
+And correcting it feels like such a difficult thing, but still,
+I love them in the same way as you, this culture, this transformation,
+So let's put them to words without stopping or any embarrassment.
+
+In this world where I was living alone,
+All I was doing was watching.
+No matter what I tried, I didn’t get it and ended up quitting,
+I felt afraid in everything that I do.
+
+If I can show someone the scenery in this moment,
+I wish that it will reach the me in the past;
+The joy I found when I try to cry, to laugh and to get angry,
+I want to continue living with such a feeling!
+
+In this SEKAI that continues to shine,
+I was drawn to that song, seems like it was shining,
+That heart-throbbing song makes me so happy; we are connected to each other,
+Each of us was holding an equally shining star.
+
+Rather than standing out in the darkness,
+I wanna be a star in the center of this world,
+So don't worry, I won't forget it in this lifetime, now, let's start walking forward.
+The sound of the future, once again... The sound of the past, look...
+
+Everything shines as "the stars of this planet".`,
     },
     {
         chapter: 4,
@@ -5466,7 +6168,7 @@ somosomo otona to wa ittai zentai nan desu ka
 donata ni ukagaeba iin desu ka
 oi dou sunda yo mou dou datte ii ya`,
         trans_source: `YouTube @Neru OFFICIAL`,
-        lyrics_zh: `刃长数厘的不可靠感
+        lyrics_cn: `刃长数厘的不可靠感
 竭尽全力向静脉刺下
 病弱的爱的涌动
 将Lespaul都变成了凶器
@@ -5721,7 +6423,52 @@ Don't forget these feelings of frustration,
 If we look ahead,
 We'll be able to repaint a miracle,
 Drawing out a vivid, bright world!`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`,
+        lyrics_cn: `迷惘错误　无法前进的日子
+我以为我已经了若指掌了呢
+我尚未得到满足　对峙　再次MISTAKE
+
+就这么随着感觉　迈开脚步
+并一点点地成形吧
+来吧　前进吧　你的状况怎么样呢？
+
+CLAP！反响吧　响彻四周的超低音
+将不可动摇的想法　交叠起来吧
+抵挡袭来的压力和障碍
+并前去追赶光芒吧
+
+即使是　像是无法触及的未来
+也让我们好几次地伸出手吧
+因为只靠憧憬的话可无法结束一切的啊
+
+请你别忘了　后悔的心情
+当你面朝前方时
+便前去描绘出
+涂改奇迹的　鲜艳世界吧
+
+啊啊　层层积累起的是真实的心意
+不断重复的反复试验
+说着「我还能行」并以上方为目标吧
+
+充满热情的眼神　真实之路
+同步的感觉拓扑
+来　让我们前进吧　布幕已经拉起
+
+FLASH！反射吧　响彻四周的超高音
+重叠起　彼此绷开的心跳吧
+照亮不会停止的欢声与舞台
+并前去追赶期待吧
+
+有时候或许会有困难
+但也有人在等待着你
+所以　在你的声音嘶哑之前
+
+请你别忘了　后悔的心情
+当你面朝前方时
+便前去描绘出
+涂改奇迹的　鲜艳世界吧`,
+        trans_source_cn: `巴哈姆特 @月勳`,
+
     },
     {
         chapter: 4,
@@ -5831,20 +6578,123 @@ Drawing out a vivid, bright world!`,
             [02:16.49]さいかい さいかい
             [02:17.43]あのかたのちへ！
             [02:18.54]`,
-        trans_source_zh: `YouTube @DIVELA / Official | Translate by 89`,
-        lyrics_zh: `
+        lyrics_rom: `saa saa yattemairimashita
+warui ko shukusei no ojikan
+daitai ate no nai kikai
+irodoremasen deshita
+
+kurakura kajitsu sandan juu
+horonibai nigai shuumatsu
+daitai sei no kanrensei
+tsugi no kata wa douzo
+
+sabita yaiba
+kasshoku no eeai
+tousou kanjou
+komentoauto
+
+zanzan gyarigyari
+baru baruuraru
+dandan bababa
+waiwaida paarii
+itai itai
+ahahaha
+atsui atsui daro
+kaitai kaitai
+yume no sekai e!
+zanzan gyarigyari
+baru baruuraru
+banban ga ga ga
+iei iei da paarii
+itai itai
+aware da
+nigai nigai kara
+gekitai gekitai
+akogare no chi e
+
+sanjou kanjou hiroudo touketsu
+dandan haba wa semarikunda
+genkai kokukoku dodai fuseimyaku
+dandan nigeru michi mo nain da
+sanbyou kantou shitou no koukaku
+dandan haba wa semari kunda
+gen'en mokumoku kodai no seiryoku
+dandan nigeru michi mo nain da
+
+saa saa yattemairimashita
+seizon shikou no saisen
+dengen nante arimasen
+tada utau nomi desu
+
+furafura kajitsu san renshou
+hono yon bai nigai shuumatsu
+geeji wa nokori wazuka desu
+tsugi no kata wa douzo
+
+kaibutsutachi wa inorimashita
+awarena sanjou no seihai
+makka ni natta kuro rekishi
+yaki tsuitaga saigo no saisou
+
+raishuu ai shuu mugen mukiryoku
+rakkan takkan gizen senshizumu
+angai kangaibukai
+sonna koroshiamu
+
+zanzan gyarigyari
+baru baruuraru
+dandan bababa
+waiwaida paarii
+itai itai
+ahahaha
+atsui atsui daro
+kaitai kaitai
+yume no sekai e
+zanzan gyarigyari
+baru baruuraru
+banban ga ga ga
+iei iei da paarii
+itai itai
+awareda
+nigai nigai kara
+saishuu heeki de
+akogare no chi e
+
+zanzan gyarigyari
+baru baruuraru
+dandan bababa
+waiwai da paarii
+itai itai
+ahahaha
+atsui atsui daro
+kaitai kaitai
+yume no sekai e
+sanzan gyaku san
+kotae sagase yo
+kantan boku ga
+winwinda paarii
+kitai kitai
+haruka na
+mirai mirai kara
+saikai saikai
+ano kata no chi e`,
+        trans_source_cn: `YouTube @DIVELA / Official | Translate by 89`,
+        lyrics_cn: `
 来来让我们热烈欢迎
 坏崽子 被肃清的时间
 替代 无处可寻的机器
 未能施以点缀
+
 晕晕沉沉果实 散弹枪
 微二倍 味苦的结局
 大体 为正的相关性
 有请下一位吧
+
 生锈的刀
 褐色的AI
 逃走  感情
 注释排除
+
 哗啦哗啦 嘎吱嘎吱
 叭噜叭噜-啦噜
 渐渐 叭叭叭
@@ -5863,6 +6713,7 @@ Drawing out a vivid, bright world!`,
 很苦 很苦所以
 击退 击退
 前往憧憬之地！
+
 三乘 结算 疲劳值 冻结
 渐渐 空隙逐步缩小
 极限 紧逼 根基 心律不齐
@@ -5871,22 +6722,27 @@ Drawing out a vivid, bright world!`,
 渐渐 空隙逐步缩小
 幻烟 默默 古代的势力
 渐渐 退路也终将消失
+
 来来让我们热烈欢迎
 生存思考的再战
 电源之类并不存在
 只知吟唱不断
+
 摇摇晃晃果实 三连胜
 微四倍 味苦的结局
 血条已所剩无几
 有请下一位吧
+
 怪物们献上了祈愿
 惨不忍睹的圣杯
 变得通红的黑历史
 如此烧刻便是最后的再葬
+
 来袭 爱终 无限 颓废无力
 乐观 达观 伪善 感觉论
 意外地 感慨万分
 这样的竞技场
+
 哗啦哗啦 嘎吱嘎吱
 叭噜叭噜-啦噜
 渐渐 叭叭叭
@@ -5896,6 +6752,7 @@ Drawing out a vivid, bright world!`,
 很热 很热对吧
 解体 解体
 前往梦之世界！
+
 哗啦哗啦 嘎吱嘎吱
 叭噜叭噜-啦噜
 砰砰 嘎嘎嘎
@@ -5904,6 +6761,7 @@ Drawing out a vivid, bright world!`,
 真是可怜很苦 很苦所以
 凭藉最终兵器
 前往憧憬之地！
+
 哗啦哗啦 嘎吱嘎吱
 叭噜叭噜-啦噜
 渐渐 叭叭叭
@@ -5917,10 +6775,112 @@ Drawing out a vivid, bright world!`,
 寻找 答案吧
 简单 这是我
 双赢的 派对
-期待 期待  从遥远的
+期待 期待
+从遥远的
 未来 未来去
 再会 再会
-前往那人所在之地！`
+前往那人所在之地！`,
+        trans_source_en: `Vocaloid Lyrics Wiki | Translate by Hiraethie`,
+        lyrics_en: `Now, now, here I come
+Time to purge every bad kid there is
+The alternative, aimless machine
+couldn’t be adorned
+
+A fruit that makes you giddy, a shotgun
+A just about twice as bitter end
+Most of it expresses a positive correlation
+Next person, if you please
+
+A rusted blade
+a dark brown A.I.
+Desert those emotions
+comment it out
+
+Drip, drop, crunch, krrunch
+Rip, bang, slash!
+Bam, bam! Swoosh, swish, fwoosh!
+How clamorous the party is
+It hurts, it hurts
+Ahahaha
+It’s hot, it’s hot, isn’t it?
+Demolish them, take them apart!
+To the world of dreams they go!
+Drip, drop, crunch, krrunch
+Rip, bang, slash!
+Bam, bam! Pow, wham, bang!
+Yay, yay! It’s a party!
+It hurts, it hurts
+How pitiful
+Since it’s bitter, so bitter
+Drive them, drive them all back
+To the place they yearned for they go!
+
+Calculating to the third power, my level of fatigue’s not going down
+Little by little, it’s closing in on me
+The base of my limit is getting irregular by the hour
+Little by little, even the way out disappears
+I complete the answer in 3 seconds, the quirk of a smile during a deathmatch
+Little by little, it’s closing in on me
+Smoke and mirrors as all is silent; the might of the ancient times
+Little by little, even the way out disappears
+
+Now, now, here I come
+A rematch full of survival instincts
+With nothing powering it,
+It does nothing but chant out loud
+
+A fruit that makes you waver, I’ve won three times in a row
+A just about quadruple as bitter end
+I’ve only got a little bit left according to my gauge
+Next person, if you please
+
+The monsters all prayed for
+the holy grail of a miserable catastrophe
+The dark past that’s now turned bright red
+Was scorched (possessed) by the heat, reburied in its final moments
+
+Invade, love no more, an eternal apathy
+Optimism, philosophic, hypocrisy, sensism
+Surprisingly, our emotions run deep
+Such is this colosseum
+
+Drip, drop, crunch, krrunch
+Rip, bang, slash!
+Bam, bam! Swoosh, swish, fwoosh!
+How clamorous the party is
+It hurts, it hurts
+Ahahaha
+It’s hot, it’s hot, isn’t it?
+Demolish them, take them apart!
+To the world of dreams they go!
+
+Drip, drop, crunch, krrunch
+Rip, bang, slash!
+Bam, bam! Pow, wham, bang!
+Yay, yay! It’s a party!
+It hurts, it hurts
+How pitiful Since it’s bitter, so bitter
+With my ultimate weapon,
+To the place they yearned for they go!
+
+Drip, drop, crunch, krrunch
+Rip, bang, slash!
+Bam, bam! Swoosh, swish, fwoosh!
+How clamorous the party is
+It hurts, it hurts
+Ahahaha
+It’s hot, it’s hot, isn’t it?
+Demolish them, take them apart!
+To the world of dreams they go!
+Completely reversing it all
+Seek the answer
+So simple, I’ve
+Won, won! Party time!
+My expectations and hopes
+Come from
+Far, far away in the future
+We meet, meet once again
+To that person’s place we go!`
     },
     {
         chapter: 4,
@@ -6003,7 +6963,7 @@ Cover up all the justice in this world with lies.
 La la la, I sing.
 attribute the painful life to some cause.
 This song of mine must also be the fault of spring, right?`,
-        lyrics_zh: `我正在写你的歌，而你一定不会注意到。
+        lyrics_cn: `我正在写你的歌，而你一定不会注意到。
 因为你是个“不听歌词”的人，不是吗？
 我决定无奈地放弃追逐你，然后看着天色渐渐昏暗
 不知不觉中，我染上了青春期的烦恼和痛苦
@@ -6213,7 +7173,7 @@ And so they slept, intending to smile,
 Because the two had been freed...
 In that dead world, two alone were happy...`,
         trans_source_en: `Project SEKAI Fandom Wiki | Translate by vgperson`,
-        lyrics_zh: `这是在很久很久以后
+        lyrics_cn: `这是在很久很久以后
         在时间的终点
 所有人都得到永生的
 世界发生的故事
@@ -6272,7 +7232,7 @@ La La La 这该是多美好的诅咒呀
 某日将带著笑容陷入沉眠
 要说为什么，那是因为两人被放逐了
 是在死去的世界唯二得到幸福的两人`,
-        trans_source_zh: `巴哈姆特 @星櫻`,
+        trans_source_cn: `巴哈姆特 @星櫻`,
     },
     {
         chapter: 4,
@@ -6477,7 +7437,7 @@ Let’s go back to the world “SEKAI” before us drifting apart
 Let’s go back to the world “SEKAI” before us drifting apart
 `,
         trans_source_en: ` YouTube @DECO*27`,
-        lyrics_zh: `我想如英雄般　恢复到从前
+        lyrics_cn: `我想如英雄般　恢复到从前
 不要再苦笑著说再见了
 要哭的时候一定要告诉我哦
 
@@ -6542,7 +7502,7 @@ Let’s go back to the world “SEKAI” before us drifting apart
 直至我们错过之前的那个世界
 
 直至我们错过之前的那个世界`,
-        trans_source_zh: `巴哈姆特 @弓野篤禎`
+        trans_source_cn: `巴哈姆特 @弓野篤禎`
     },
     {
         chapter: 4,
@@ -6717,7 +7677,7 @@ I hate it, I spit it out
 yet I stay the same
 
 It’s okay to stay this way`,
-        lyrics_zh: `啊 这社会满是随意丢弃的杂物
+        lyrics_cn: `啊 这社会满是随意丢弃的杂物
 我自觉不过是粒微尘
 竟想主动藏进纸篓中
 即便如此也无人伸手阻拦
@@ -6926,7 +7886,7 @@ Wherever you want, if that's what you wish
 If it's possible, I want to know about and walk into the world beyond this
 Ready Steady`,
         trans_source_en: `Project SEKAI Fandom Wiki | Translate by Azayaka`,
-        lyrics_zh: `光是只有低风险的话就变得不足够
+        lyrics_cn: `光是只有低风险的话就变得不足够
 像是过剩而使人发笑
 即使说出「什么都没有」这种话也让人感到了无奈
 将手举起Hi-Five
@@ -6974,7 +7934,7 @@ Ready Steady
 ＆ I Wanna　总是贪婪无厌已经足够　足够
 如果会实现的话我想了解这个前方的世界　我想就此前往
 Ready Steady`,
-        trans_source_zh: `巴哈姆特 @月勳`
+        trans_source_cn: `巴哈姆特 @月勳`
 
     },
     {
@@ -7135,7 +8095,7 @@ Just like that, what we yearned for is on the other side.
 (Uh...) Looks like it's about to burst, this ringing will never stop till my life ends.
 To the other side of our limits`,
         trans_source_en: "Project SEKAI Fandom Wiki | Translate by Thai1210",
-        lyrics_zh: `在总是让人窒息的　冷淡的无趣夜路上
+        lyrics_cn: `在总是让人窒息的　冷淡的无趣夜路上
         
 我真想忽略规则并就这么前进呢
 
@@ -7185,7 +8145,7 @@ uh 总觉得我快悲痛满怀 追逐并凑近的背影十分火烫
 uh 总觉得我快悲痛满怀 一辈子就这么前往
 不会停止响彻的极限的另一侧吧
 `,
-        trans_source_zh: `巴哈姆特 @月勳`
+        trans_source_cn: `巴哈姆特 @月勳`
     },
     {
         chapter: 4,
@@ -7294,7 +8254,7 @@ are kara mada owaranai yume no tochuu
 
 mirai no hi no kako o ima kaete misete`,
         trans_source: `YouTube @ユリイ・カノン / 月詠み Official`,
-        lyrics_zh: `从开始迈步，走到今天
+        lyrics_cn: `从开始迈步，走到今天
 追逐着看不见的东西
 要去到哪里，为了什么而活着
 说不出来，就这样停下了脚步
@@ -7439,7 +8399,7 @@ I’ll change the past of the future from right here, right now`
             [02:40.78]I turned around the truth was in the air
             [02:51.10]It's in the air
             [03:10.70]It's in the air`,
-        lyrics_zh: `
+        lyrics_cn: `
 正义也许会迟到，但绝不会缺席
 那些我未曾看见的证据
 或我未听见的线索
@@ -7470,7 +8430,7 @@ I’ll change the past of the future from right here, right now`
 心念转动 真相就在眼前
 就在空气中
 就在空气中`,
-        trans_source_zh: `Official`,
+        trans_source_cn: `Official`,
     },
     {
         chapter: 4,
@@ -7559,8 +8519,8 @@ mada matsu yo
 
 mou ii kai
 `,
-        trans_source_zh: `YouTube @164 | Translate by MIU`,
-        lyrics_zh: `说说我很久前就在想着的事吧
+        trans_source_cn: `YouTube @164 | Translate by MIU`,
+        lyrics_cn: `说说我很久前就在想着的事吧
 只要能回到朋友就别无所求了
 你认同的话我那样也没有关系
 说谎的我倾吐出的 相反话语的爱之歌
@@ -7755,7 +8715,7 @@ zutto kangaete shimau
 itsuka chikyuu ga owaru mirai
 sono hi no koto`,
         trans_source: `YouTube @ナナツカゼ`,
-        lyrics_zh: `如果地球爆炸了
+        lyrics_cn: `如果地球爆炸了
 我到底曾经想过多少次
 干脆连同所有人一起
 全部结束就好了
@@ -7982,7 +8942,7 @@ nakushite kizuite
 hajimete taisetsu ni sareru
 sore ja mou osoi noni`,
         trans_source: `YouTube @ナナツカゼ`,
-        lyrics_zh: `睡不着的夜晚
+        lyrics_cn: `睡不着的夜晚
 我感觉我们第一次互相取得了联系
 我们有点相似
 都有过这样无法自拔的日子
@@ -8279,7 +9239,7 @@ Hurry up and tell me your name
 The two of us can overcome this
 Let's go to where the light touches`,
         trans_source_en: `YouTube @Blue Archive`,
-        lyrics_zh: `传说中的勇者现在
+        lyrics_cn: `传说中的勇者现在
 出现了 击败魔王的冒险
 开始了 一点一滴累积的节拍是、啪邦啪邦
 朝着下个等级 RANK UP
@@ -8339,7 +9299,7 @@ HP MP 都很足够
 快告诉我 你的名字
 如果是我们一定能克服
 走吧 前往光芒所及之处`,
-        trans_source_zh: `YouTube @蔚蓝档案`,
+        trans_source_cn: `YouTube @蔚蓝档案`,
     },
     {
         chapter: 4,
@@ -8469,7 +9429,7 @@ so let's see it with our own eyes
 A world we've never seen
 `,
         trans_source_en: `YouTube @164`,
-        lyrics_zh: `
+        lyrics_cn: `
         只要我伸出双手彷彿能抓住
 那仅仅只是观望的飘渺幻想
 相异的颜色颠覆的两道碎片
@@ -8509,7 +9469,7 @@ A world we've never seen
 
 要用这双眼亲眼见证吗?
 朝向未曾看过的世界前行`,
-        trans_source_zh: `巴哈姆特 @TYPE`
+        trans_source_cn: `巴哈姆特 @TYPE`
     },
     {
         chapter: 4,
@@ -8774,7 +9734,7 @@ Can you hear us? This voice of ours.
 
 `,
         trans_source: `YouTube @*Luna`,
-        lyrics_zh: `我们将与那一天相同的星星
+        lyrics_cn: `我们将与那一天相同的星星
 做成记号 重叠声音
 
 浮出的憧憬
@@ -9074,7 +10034,7 @@ I'll live my life saying
 it's okay to be incomplete
 Until this song ends`,
         trans_source_en: `Lyrics Translations @Reletr`,
-        lyrics_zh: `早安
+        lyrics_cn: `早安
 早上了啊
 呼唤的声音来自理想乡
 明明谁也没叫
@@ -9137,7 +10097,7 @@ Until this song ends`,
 保持不完美的状态也没关系
 继续活下去
 直到这首歌结束为止`,
-        trans_source_zh: `巴哈姆特 @Fir`,
+        trans_source_cn: `巴哈姆特 @Fir`,
     },
     {
         chapter: 4,
@@ -9300,7 +10260,7 @@ From my bed, I rise​ ​​​​​holding on to my hurt alone
 (Ah-ah, ah, ah, ah) ​I can deal with a little hurt​
 Ah, so I'm in caramel pain again`,
         trans_source_en: 'YouTube @Suisei Channel',
-        lyrics_zh: `呐 我总是缺少了点勇气
+        lyrics_cn: `呐 我总是缺少了点勇气
 所以没办法好好爱惜自己
 不到遍体鳞伤的地步都清醒不过来
 啊啊今天也细味着如焦糖般的痛
@@ -9351,7 +10311,7 @@ From my bed 仅仅拥抱住这胸口的痛楚
 所以没办法好好爱惜自己
 如果只是疼痛的话就稍微忍一下吧
 啊啊今天也细味着如焦糖般的痛`,
-        trans_source_zh: '巴哈姆特 @Fir',
+        trans_source_cn: '巴哈姆特 @Fir',
     },
     {
         chapter: 4,
@@ -9433,7 +10393,7 @@ shinjicha nanka inain da
 jibun igai no koto
 shinjicha nanka inain da
 otona no iu koto`,
-        lyrics_zh: `我其实根本不相信
+        lyrics_cn: `我其实根本不相信
 除了自己以外的一切
 我其实根本不相信
 大人们口中的那些话
@@ -9525,7 +10485,7 @@ A word adults say`,
 [04:23.28]Ex ruinis ordo novus condemus
 [04:29.94]In fine ab Anastasia servati sumus, aurora orietur 
 [04:53.49] `,
-        lyrics_zh: `我们是曾为整个世界所背叛的带伤者
+        lyrics_cn: `我们是曾为整个世界所背叛的带伤者
 我们终将建立谁人都不背弃的新世界
 
 抬头仰望白磷色的苍星，那是我等的旗号
@@ -9582,7 +10542,7 @@ Only our Tsaritsa, Anastasya, shall usher in the perfect dawn`,
 [04:02.633] In atra tenebris perpetuo mergantur
 [04:16.00]
         `,
-        lyrics_zh: `
+        lyrics_cn: `
 月啊，我们的月亮，愿你向这世间映下柔和的辉芒
 可怖的灾殃，命定的沦亡
 (哀恸与心伤有何益处，若是惩罚无法将罪恶涤荡？)
@@ -9606,7 +10566,7 @@ Only our Tsaritsa, Anastasya, shall usher in the perfect dawn`,
 要让僭称神明之名的邪祟者无处容身
 要让恶徒在无明的长夜中被永世埋葬
 `,
-        trans_source_zh: `网易云音乐 @HOYO-MiX`,
+        trans_source_cn: `网易云音乐 @HOYO-MiX`,
         lyrics_en: `Oh mistress, oh moon of ours, cast your gentle radiance upon the world!
 Monstrous bloodsheds, ruins inevitable
 (Wherefore do we mourn and weep, if sins were not to fall upon their judgment?)
@@ -9734,7 +10694,7 @@ kiresou na kodou o
 tsunage bokura no
 sekai de futari dake no rizumu de
 futari dake no rizumu de`,
-        lyrics_zh: `
+        lyrics_cn: `
 不想说出那句「明天见」
 走在空无一人的归途
 穿行在沉闷无风的烈日之下
