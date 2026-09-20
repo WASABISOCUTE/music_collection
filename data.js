@@ -4601,7 +4601,7 @@ By my hand`,
     {
         chapter: 3,
         title: 'デビルじゃないもん', artist: 'DECO*27',
-        context: '2025', desc: 'Summary',
+        context: '2025 Summary', desc: '',
         date: 'DEC 2025', ytId: 'lMEt3RdqB9Y', start: 0,
         ig: 'https://www.instagram.com/reel/DSuHC_qEQOc/',
         lyrics: `
@@ -4686,6 +4686,97 @@ By my hand`,
             [02:39.18](MORE MORE MORE MORE JUMP) どこにいたってわかるように
             [02:44.30]Polar Star 私を見つけて 私を見ていて もう迷わないように
             [02:56.02]輝き続けて`,
+        lyrics_rom: `[00:01.19]
+itsu no mani ka nakushita konpasu nijinda yozora ni
+ate mo nai mama tsuzuita koukai nagasareru mama de
+itsudatte machigatte naitatte kienakute
+kuchizusan de ta kyunan shigou natsukashii uta
+Polar Star soredemo zutto zutto zutto kienai sutaa
+Polar Star miagereba itsumo itsumo itsumo soba de matataku
+fuan mo juso mo nomikonde tada massugu ni kirameita
+ano hoshi no you ni ima
+yoru wo saite kagayaite hibike hibike haruka kanata no kimi e
+(MORE MORE MORE MORE JUMP) kono koe ga todoku you ni
+sora wa ai niku ryuuseigun hikare hikare mabayui ame no naka de
+(MORE MORE MORE MORE JUMP) doko ni itatte wakaru you ni
+Polar Star watashi wo mitsukete watashi wo miteite mou mayowanaiyou ni
+
+naida minamo ni koboreochita namida no you ni
+sagashitatte mitsukari mo shinai omoi no kakera ga
+itsudatte taisetsu de sutetatte kienakute
+hoshi no umi wo mata susumunda kao wo agete
+Polar Star soudayo zutto zutto zutto kienai sutaa
+Polar Star miagereba itsumo itsumo itsumo soba de matataku
+negai wo mirai wo utau nda tada massugu ni kirameite
+kimi wo tsurete yuku yo itsuka yume mita suteeji e
+yoru wo saite kagayaite hibike hibike haruka kanata no kimi e
+(MORE MORE MORE MORE JUMP) kono koe ga todoku you ni
+sora wa ai niku ryuuseigun hikare hikare mabayui ame no naka de
+(MORE MORE MORE MORE JUMP) doko ni itatte wakaru you ni
+Polar Star watashi wo mitsukete watashi wo miteite mou mayowanaiyou ni
+kagayaki tsuzukete`,
+        lyrics_cn: `
+        [00:01.19]
+        漫漫旅途之中 不觉间已迷失方向，浸染于茫茫夜色之中，
+浑浑噩噩间 唯有后悔久久难平，于随波逐流中沉沦，
+这一路走来 一错再错，泪沾满衣襟 痛挥之不去
+口中时常哼唱的 求救信号，是那无比怀念的歌谣
+Polar Star，即便如此 也永远 永远 永远 不会消逝的那颗星
+Polar Star，若举目眺望 便永远 永远 永远 在身旁闪闪发光
+将不安与诅咒 尽皆埋葬心底，只须笔直前进 绽放出烂漫星光
+此刻便化作那颗星
+绽放出绚烂光芒撕裂这夜幕 唱响吧 唱响吧 致身处遥远彼岸的你
+（MORE MORE MORE MORE JUMP！）只为将这歌声传达于你
+纵使时运不济漫天流星横空出世，也闪耀吧 闪耀吧 冲破这璀璨夺目的繁星之雨
+（MORE MORE MORE MORE JUMP！）只愿无论身在何处都永不再迷失
+Polar Star，请找到我吧 请注目于我吧，为了得以永远摒弃迷惘
+
+如同那落在波平如镜的水面上 激起层层涟漪的泪滴
+即便努力探求 却依旧无迹可寻的 那心愿的碎片
+一路走来 无比珍重，即便被舍弃 也绝不消殒，
+我们将再度扬帆航向浩渺星海，高昂着面庞
+Polar Star，正是如此 这永远 永远 永远 不会消逝的一颗星
+Polar Star，若举目眺望 便永远 永远 永远 在身旁闪闪发光
+将心愿与未来 都化作歌声，只须笔直前进 绽放出烂漫星光
+就与我携手前往吧，那昔日梦想中的舞台
+绽放出绚烂光芒撕裂这夜幕，唱响吧 唱响吧 致身处遥远彼岸的你，
+（MORE MORE MORE MORE JUMP！）只为将这歌声传达于你
+纵使时运不济漫天流星横空出世，也闪耀吧 闪耀吧 冲破这璀璨夺目的繁星之雨
+（MORE MORE MORE MORE JUMP！）只愿无论身在何处都永不再迷失
+Polar Star，请找到我吧 请注目于我吧，为了得以永远摒弃迷惘
+愿这光芒永世长存
+`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：ijndjdjdj 校对：寝坊 时轴：爱死天流）翻译`,
+        lyrics_en: `[00:01.19]
+As I lost my compass before I realized it, in the blurring starry sky,
+I continue to sail aimlessly, being swept away.
+I'm always making mistakes; crying but they won't go away,
+So I sing to myself my SOS signal: A song nostalgic to me.
+Polar Star, but there is always, always, always a star that won't disappear,
+Polar Star, and if I look up, it always, always, always flickers besides me,
+Swallowing down both my curse and anxiety, at this moment,
+Like that star that was simply sparking right ahead-
+Resound, resound out, as we shine and rend the night sky asunder! Towards the faraway you-
+(MORE MORE MORE MORE JUMP) So that we'll deliver this voice to you!
+Shine, shine on, even as the sky's unfortunately showering meteors! Within that dazzling rain-
+(MORE MORE MORE MORE JUMP) Wherever you are, as if understanding me,
+Polar Star, you found me, you're watching me, so that I'm never lost again.
+
+Like a tear spilling and dropping onto the calm water surface,
+The pieces of my thoughts I'm looking for that I can't find,
+As always, they are important; I threw them away but they won't disappear,
+Once again, as I move forward in this sea of stars, I look up.
+Polar Star, right, there is always, always, always a star that won't disappear,
+Polar Star, and if I look up, it always, always, always flickers besides me,
+Singing out my wishes and future, towards that stage we dreamed of one day,
+I'll take you, simply sparking right ahead, along with me!
+Resound, resound out, as we shine and rend the night sky asunder! Towards the faraway you-
+(MORE MORE MORE MORE JUMP) So that we'll deliver this voice to you!
+Shine, shine on, even as the sky's unfortunately showering meteors! Within that dazzling rain-
+(MORE MORE MORE MORE JUMP) Wherever you are, as if understanding me,
+Polar Star, you found me, you're watching me, so that I'm never lost again.
+We continue to shine!`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Thai1210`,
     },
     {
         chapter: 3,
@@ -4734,7 +4825,49 @@ By my hand`,
             [03:28.69](The entire universe shines bright)
             [03:33.52]I want to be right where you are
             [03:40.74]I want to be right where you are
-            [03:47.58]`
+            [03:47.58]`,
+        lyrics_cn: `
+            我想待在你所在的地方
+            我想待在你所在的地方
+            没有终结，就不存在真正的美
+            没有修补，也就无法诞生创造
+            一个新的无声愿望，将把痛苦抛诸脑后
+            并肩疏离，却终究徒然
+            在你身旁，不再映照痛楚
+            这是值得承受的矛盾
+            我们的残影起伏消长
+            一瞥爱情，静静等待
+            噢，那无尽的希望，想修复一切
+            流动吧，让时间停留，等待虚无坠落
+            在起伏中不断上升
+            仿佛这一切会持续下去
+            直面我们的问题
+            以及被抛向过去的疑惑
+            伪装之中没有正确可言
+            却再次找到了慰藉
+            希望日子流逝，只为渴望命运的到来
+            然而在失落之中，仍能找到安慰
+            在浪潮中，否认悲伤的情绪
+            一段复杂的爱，我不敢再隐藏
+            动荡来来去去
+            却从未将我彻底否定
+            噢，那降临于我的苦甜幻象
+            请相信，哪怕满是空缺，我也会全部守住
+            当我沉入这片海洋
+            我仍会疑惑你为何询问
+            接纳我们的情感
+            我早已知道，它会持续
+            我想待在你所在的地方
+            我想待在你所在的地方
+            我想待在你所在的地方
+            我想待在你所在的地方
+            我想待在你所在的地方（触碰）
+            （苍穹与天空被点亮）
+            我想待在你所在的地方（呼吸）
+            （整个宇宙闪耀着光芒）
+            我想待在你所在的地方
+            我想待在你所在的地方`,
+        trans_source_cn: `WASABISOCUTE`,
     },
     // Chapter 4
     {
@@ -4746,6 +4879,7 @@ By my hand`,
         lyrics: `
             [00:00.63]ただ歌を歌う Loneliness
             [00:02.59]この電子音が繋いでく魔法
+            [00:08.50]
             [00:23.95]あのね、僕は地球の
             [00:27.74]反対側に居るから
             [00:31.80]君と
@@ -4761,6 +4895,7 @@ By my hand`,
             [00:58.55]ダンスミュージック
             [00:59.44]ヘッドホンの先には
             [01:01.01]いつもの様に君がいるから
+            [01:04.00]
             [01:18.65]あのね、キーボードに
             [01:22.40]打ち込んでいく文字は
             [01:26.48]思うように感情が乗ってくれなくて
@@ -4779,7 +4914,9 @@ By my hand`,
             [02:05.54]この瞬間同じ四季を
             [02:07.39]また感じられる気がしていたんだ
             [02:11.22]空の色も教えてくれた
+            [02:15.00]
             [02:18.94]二人の意識が繋がっていく
+            [02:22.00]
             [02:28.98]地球を鳴らすミュージック
             [02:30.85]君の脈がこの曲のスパイス
             [02:33.03]届いていてほしいな
@@ -4789,12 +4926,179 @@ By my hand`,
             [02:39.95]ダンスミュージック
             [02:40.87]ヘッドホンの先には
             [02:42.42]いつも通りの君がいるから
+            [02:45.30]
             [03:00.11]あのね、僕は地球の
             [03:03.81]反対側に居るけど
             [03:08.04]君と
             [03:09.46]同じものが感じられるように
             [03:13.52]この歌を歌うんだ
-            [03:16.22]`
+            [03:16.22]`,
+        lyrics_rom: `tada uta wo utau loneliness
+kono denshi on ga tsunaideku mahou
+
+ano ne boku wa chikyuu no
+hantai gawa ni iru kara
+kimi to
+onaji mono ga kanjirarenakute
+haru mo natsu mo aki mo fuyu mo
+sora no iro sae
+chikyuu wo narasu myuujikku
+kimi no koe ga kono kyoku no supaisu
+todoite ite hoshii na
+boku no rattatta mo kimi no moto ni
+dare mo hamidazu ni
+tsutsunde kureru sore wa
+dansumyuu jikku
+heddohon no saki ni wa
+itsumo no you ni kimi ga iru kara
+
+ano ne kiiboodo ni
+uchikonde iku moji wa
+omou you ni kanjou ga notte kurenakute
+nanimo tsutawaranakute
+me ni mieru mono dake ni
+attou sarete shimau
+kokoro mo nanimokamo nottorarete iku
+mienai denpa wo hirotte
+kono shinzou ga
+myaku wo utsu kagiri
+oto wo uchitsuzukeru kara
+kimi wa kimi no mama de ite
+kotoba ga tsujinaku temo
+kono oto ga kizamu messeeji to neiro de
+kimi to
+kono shunkan onaji shiki wo
+mata kanjirareru ki ga shite itan da
+sora no iro mo oshiete kureta
+
+futari no ishiki ga tsunagatte iku
+
+chikyuu wo narasu myuujikku
+kimi no myaku ga kono kyoku no supaisu
+todoite ite hoshii na
+kimi no chikuta ku chiku mo boku no moto ni
+dare mo hamidazu ni
+tsutsunde kureru sore wa
+dansumyuu jikku
+heddohon no saki ni wa
+itsumo doori no kimi ga iru kara
+
+ano ne boku wa chikyuu no
+hantai gawa ni iru kedo
+kimi to
+onaji mono ga kanjirareru you ni
+kono uta wo utau n da`,
+        lyrics_cn: `只是唱着歌的Loneliness
+是这电子音连结起的魔法
+
+我说啊，因为我
+在地球的另一端
+无法感受
+与你相同的一切
+就连春夏秋冬
+就连天空的颜色
+让地球鸣响的音乐
+你的声音是这首歌的调味料
+希望它能传达给你啊
+我的啦哒哒也能传到你那里
+不会遗漏任何人
+将一切温柔包容的那是
+dance music
+在耳机的另一端
+你一如既往地在那里
+
+我说啊
+敲击键盘输入的文字
+无法如我所愿地承载感情
+什么也传达不了
+只因眼前所见的一切
+就被彻底压倒
+心灵和一切都被占据
+拾起看不见的电波
+只要这颗心脏
+还在跳动
+我就会继续敲响音符
+你就做你自己
+即使言语不通
+也能凭这声音刻下的message和音色
+我曾感觉能与你在此刻
+再次感受相同的四季
+你还告诉了我
+天空的颜色
+
+你我的意识渐渐相连
+
+让地球鸣响的音乐
+你的脉搏是这首歌的调味料
+希望它能传达给你啊
+你的嘀嗒嘀也能传到我这里
+不会遗漏任何人
+将一切温柔包容的那是
+dance music
+在耳机的另一端
+你一如往常地在那里
+
+我说啊，我虽然
+在地球的另一端
+但为了
+能感受与你相同的一切
+我唱着这首歌`,
+        lyrics_en: `Just singing a song of loneliness
+This electronic sound connects us like magic
+
+Hey you know
+I'm on the other side of the earth
+So I can't feel
+the same things you do
+Spring summer autumn winter
+Even the color of the sky
+Music that makes the earth resonate
+Your voice is the spice of this song
+I hope it reaches you
+May my rat-tat-ta reach you too
+No one left out
+What wraps around us
+Is dance music
+At the end of my headphones
+You're there as always
+
+Hey you know
+The words I type on my keyboard
+Never carry the feelings I want
+Nothing gets across
+Overwhelmed by
+the visible things
+My heart and everything get taken away
+Catching invisible signals
+As long as
+this heart keeps beating
+I’ll keep the sound alive
+Stay just the way you are
+Even if our words don't connect
+With the message and tone carved by this sound
+I feel like in this moment
+We can share the same four seasons again
+You even told me
+the color of the sky
+
+Our minds are connecting
+
+Music that makes the earth resonate
+Your heartbeat is the spice of this song
+I hope it reaches you
+May your tick-tock-tick reach me too
+No one left out
+What wraps around us
+Is dance music
+At the end of my headphones
+You're there as always
+
+Hey you know
+Even though I'm on the other side of the earth
+To feel
+the same things as you
+I sing this song`,
+        trans_source: `YouTube @ナナツカゼ`
     },
     {
         chapter: 4,
@@ -4827,6 +5131,84 @@ By my hand`,
             [02:12.87]縛り 誰も触れないよう
             [02:16.65]これも運命じゃないか
             [02:19.36]消える消える とある愛世`,
+        lyrics_rom: `
+toaru kotoba ga kimi ni tsukisasari
+kizuguchi kara moredasu eki wo "ai" to keiyou shite mita
+
+omoiyari no ketsujo to katachi dake no koubi wa
+kusare en no kimi to atashi ni yoku nite iru
+soredemo "suki" toka
+aishita tte ii janai ka
+shibari dare mo furenai you
+kore mo unmei janai ka
+kieru kieru toaru aise
+
+owaru koro ni wa kimi ni aiteru yo
+ai ka yoku ka wakarazu hanatsu koto wa nan to shiyou ka
+kimi ga kureta namida wa atashi ga nomihosu kara
+"yowamushi demo ii" to amai uso wo kuretara
+nigedaseta no ka na
+
+"aishita" tte iu no desu ka?
+shigamitsuite mogaku koto wo
+koroshita tte ii janai ka
+kimi ga kirau atashi nante
+aishita tte ii janai ka
+shibari dare mo furenai you
+kore mo unmei janai ka
+kieru kieru toaru aise`,
+        lyrics_en: `A certain word pierces your heart
+I compared the fluid that leaked out of the wound to "love"
+
+Lack of compassion and mating without love is
+Similar to the entangled relationship between us
+Yet, "I love you"
+What's wrong with me loving you,
+Bound together, so nobody can touch you
+This is fate as well,
+It will disappear, disappear, our world of love
+
+I will be sick of you by the end of this
+What should I call shooting out my thirst while still not knowing if this is greed or love
+I will drink up all the tears that you gave me
+You gave me a sweet lie that “it’s ok to be a coward",
+Have I been able to escape?
+
+Is this called "I loved you"?
+Where I struggle to cling to you
+What's wrong with killing me,
+Me who you hate
+What's wrong with me loving you,
+Bound together, so nobody can touch you
+This is fate as well,
+It will disappear, disappear, our world of love`,
+        trans_source_en: `YouTube @DECO*27`,
+        lyrics_cn: `某句话语如利刃将你狠狠贯穿
+自伤口中渗出的那股液体 我将其比拟为“爱”
+
+彼此温存的缺位与徒留形式的交欢
+恰似孽缘难舍难分纠缠不清的你我
+可你依旧呢喃着“喜欢你......”
+曾经情深一场又有何妨
+相互掣肘着 决不让他人染指
+兴许这也是既定的宿命啊
+终会消失 终会散尽 这个暧昧不定的“爱世”
+
+当此情落幕我对你已彻底厌倦
+爱欲不分的肆意宣泄 那又算作什么呢
+你洒落我心的泪水 我会慨然一饮而尽
+你曾许我“学会软弱”的甜美谎言
+能否让我得以释怀
+
+如此种种就算是“情深一场”？
+这般藕断丝连苦苦纠缠
+那将我抹去不就好了
+这个对你如此厌恶的我
+曾经情深一场又有何妨
+相互掣肘着 决不让他人染指
+兴许这也是既定的宿命啊
+终会消失 终会散尽 这个暧昧不定的“爱世”`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：爱死天流 时轴：荷之歌）翻译`
     },
     {
         chapter: 4,
@@ -4892,6 +5274,186 @@ By my hand`,
             [03:47.24]いつかの約束
             [03:49.23]NeverEnd NeverEnd Wow Wow
             [03:51.40]叶えられるから`,
+        lyrics_rom: `
+        [00:04.26]
+itsuka no yakusoku
+
+kanaerareru kara
+
+taisetsuna mono ga arunda
+jibun no ibasho wa koko nandatte
+hitori ja mamorenakatta keshiki mo
+kasanaru kizuna kibou ni kaeta
+darenimo rikai sarenakatta
+sore demo ii to omotteita
+jounetsu ni furete tokete yuku kodoku
+dokomade mo tsuzuku kirameki wo mune ni
+nee omou hodo ni sekai wa iro wo tataete
+dareka wo egao ni dekirun datte koto wo
+kizukasete kuretanda
+hoshi ni negai wo kakete
+mahou no youna asu wo
+akogare mo namida ni mo
+hikari ga hora yadotteru
+hoshi wo mitsukeru hodo ni
+kurayami wo terashita
+hodokenai tsunagari wo merodii ni shite
+yume wo mitashite yukou
+
+taisetsu na mono ga aru nda
+konna ni mo kibou ni michiteru tte
+kagayaku you ni tsumuida kiseki wa
+itsushika yume ni kawatte yuku
+dare ni mo tsutaerarenakatta
+dekinakatta koto o kazoeta
+jounetsu ga terasu mirai no ashiato
+mou ichido utagoe o todoketai
+nee omou hodo ni sekai wa iro o tataete
+mune no oku akiramete shimatta mono ni
+mou ichido ibuki o ataete kureta nda
+hoshi ga matataku hodo ni
+te o nobashite shimau
+oikakete toonoite 
+soredemo mata miserareru
+hoshi ga mienai yoru wa
+kurayami ni yorisou
+mou hitori no sabishigariya na jibun mo
+dakishimete ageyou
+chiisana kagaribi demo
+mitsumeru hitomi ni utsuru mono wa…
+hoshi ni negai wo kakete
+mahou no youna asu wo
+akogare mo namida ni mo
+hikari ga hora yadotteru
+hoshi wo mitsukeru hodo ni
+kurayami wo terashita
+hodokenai tsunagari wo merodii ni shite
+yume wo mitashite yukou
+
+itsuka no yakusoku
+
+kanaerareru kara`,
+        lyrics_en: `
+        [00:04.26]
+That promise we once made 
+
+We can make it real 
+
+Things I just can't let go
+To know that I belong
+What I couldn't protect alone
+The bond between us turned it into hope
+No one understood me
+Thought it was okay
+Loneliness melts away with the touch of passion
+Embracing the never-ending sparkle in our hearts
+See how our wishes celebrate the colors of the world 
+And make people smile
+like we always wanted
+Wish upon a star
+For a magical tomorrow
+Catch the gleam
+in our dreams and tears
+The stars so bright
+lighting up the darkness
+A melody of the unbreakable bond
+Let us fulfill our dreams
+
+Things I just can't let go
+Filled with so much hope
+The dazzling path I 've come
+will one day turn into a dream
+I couldn't open up to anyon
+Counted all the things I couldn't do 
+Our passion lights up the footprints of tomorrow
+Let me sing to you one more time
+See how our wishes celebrate the colors of the world 
+And gave life back to what
+we once gave up in our hearts
+Stars twinkle so brightly
+As we reach out our hands
+Chasing them, losing them
+just to be enchanted again
+On a starless night
+Cuddling in the dark
+Embracing even
+the vulnerable side of us
+Even the small glow ahead 
+Shining in our eyes
+Wish upon a star
+For a magical tomorrow
+Catch the gleam
+in our dreams and tears
+The stars so bright
+lighting up the darkness
+A melody of the unbreakable bond
+Let us fulfill our dreams
+ 
+That promise we once made
+
+We can make it real`,
+        trans_source_en: `YouTube @ぽりふぉ / PolyphonicBranch`,
+        lyrics_cn: `
+[00:04.26]
+彼时的约定
+
+一定能够兑现
+
+心中有了珍视的事物
+告诉我这里就是自己的归宿
+单凭我一人无法守护的景色
+也随着相系的纽带化为希望
+曾经不被任何人理解
+觉得就这样也没关系
+触及灼灼热情而开始融化的孤独
+将这无尽的璀璨藏进心中
+哎 正如我所想 世界颂扬着斑斓色彩
+令我察觉到了
+「我也能够为谁带来笑容」
+向群星许下愿望
+祈愿魔法般的明天
+憧憬也好 眼泪也好
+看呀 都栖居着光芒
+仿佛是找到了辰星般
+点亮了墨色黑暗
+就将这无法解开的牢固联系谱作旋律
+一同前去实现梦想吧
+
+心中有了珍视的事物
+竟充满了如此多的希望
+织出的轨迹好似闪闪发光
+总有一天会幻化成梦想
+曾经无法向任何人传达
+细数着做不到的种种
+而热情照亮向未来的足迹
+便想要再一次将歌声传递
+哎 正如我所想 世界颂扬着斑斓色彩
+心中深处曾放弃掉的种种
+再一次赋予其一股生命之息
+星光眨眼般闪烁
+不禁伸长了手
+试着追逐 却渐行渐远
+即便如此还是吸引着我
+看不见星星的夜晚
+就同黑暗相依偎吧
+然后也紧紧抱住那个
+曾孤独寂寞的自己吧
+尽管篝火熹微
+自注视火光的眼里映出的……
+向群星许下愿望
+祈愿魔法般的明天
+憧憬也好 泪水也好
+看呀 都栖居着光芒
+仿佛是找到了辰星般
+点亮了墨色黑暗
+就将这无法解开的牢固联系谱作旋律
+一同前去实现梦想吧
+
+彼时的约定
+
+一定能够兑现
+`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：MOwlU 校对：una 时轴：荷之歌）翻译`
     },
     {
         chapter: 4,
@@ -4942,6 +5504,128 @@ By my hand`,
             [02:04.62]Hey！
             [02:08.37]Hey！
             [02:11.97]Hey！`,
+        lyrics_rom: `ousama ni natte mitai hikarikagayaku yubiwa wo tsuketai
+heitai ni natte mitai nani ka wo honki de mamotte mitai
+suupaahiiroo ni natte mitai inochi wo kakete mo aku ni idomitai
+sonna koto wo mousou shiteru boku dake ni wa danjite naritaku nai
+
+kamisama ni natte mitai subete no hito no shisen wo muketai
+tensai ni natte mitai minna no kioku ni nokotte mitai
+suupaahiiroo ni natte mitai inochi wo kakete mo aku ni idomitai
+sonna koto wo mousou shiteru kimi dake ni wa danjite naritaku nai
+
+kimi dake ni wa danjite naritaku nai no sa
+
+aa nante kimi ga yuun da
+watashi ga hontou ni aishite itai no wa kamisama nanka janai, kitto
+aa sotto kimi ga yuun da
+anata wa nani wo iwarete mo anata da
+dakara kono mama de ite sou waratte ita
+
+
+
+
+
+hourousha ni natte mitai ate mo nai michi wo aruite mitai
+ansatsusha ni natte mitai iya na yatsu minna keshite yaritai
+suupaa viran ni natte mitai inochi wo kakete mo sei ni idomitai
+sonna koto wo mousou shiteru boku dake ni wa danjite naritaku nai
+
+kamisama ni natte mitai subete no hito no shisen wo muketai
+tensai ni natte mitai minna no kioku ni nokotte mitai
+suupaahiiroo ni natte mitai inochi wo kakete mo aku ni idomitai
+sonna koto wo mousou shiteru kimi dake ni wa danjite naritaku nai
+
+kimi dake ni wa danjite naritaku nai no sa
+
+aa nante kimi ga yuun da
+watashi ga hontou ni aishite itai no wa kamisama nanka janai, kitto
+aa sotto kimi ga yuun da
+anata wa nani wo iwarete mo anata da
+dakara kono mama de ite sou waratte ita`,
+        lyrics_cn: `我想要成为国王 想要戴著光辉发亮的戒指
+我想要成为士兵 想要认真地保护某些事物
+我想要成为超级英雄 即使拼尽性命也要向恶挑战
+即使尽是妄想著这些事 也绝不想成为如此的我
+
+我想要成为神明 想要受到所有人的关注
+我想要成为天才 想要留在所有人的记忆中
+我想要成为超级英雄 即使拼尽性命也要向恶挑战
+即使尽是妄想著这些事 也绝不想成为如此的你
+
+也绝对不想成为如此的你啊
+
+你到底在说什么啊 我真正想要去爱的
+并不是神明、一定
+你轻轻地如此说道
+无论你怎么说你终究还是你
+所以只要保持著原样就好 如此地笑道
+
+
+
+
+
+我想要成为流浪者 想要漫无目的地走在街上
+我想要成为杀手 想要把讨厌的傢伙都抹消掉
+我想要成为超级反派 即使拼尽性命也要向正挑战
+即使尽是妄想著这些事 也绝不想成为如此的自己
+
+我想要成为神明 想要受到所有人的关注
+我想要成为天才 想要留在所有人的记忆中
+我想要成为超级英雄 即使拼尽性命也要向恶挑战
+即使尽是妄想著这些事 也绝不想成为如此的你
+
+也绝对不想成为如此的你啊
+
+你到底在说什么啊
+我真正想要去爱的并不是神明、一定
+你轻轻地如此说道
+无论你怎么说你终究还是你
+所以只要保持著原样就好 如此地笑道
+`,
+        trans_source_cn: `YouTube @ Guiano | 由Kei翻译`,
+        lyrics_en: `I'd like to be a king. I'd like to wear a glittering ring.
+I'd like to be a soldier. I'd like to protect something with all my might.
+I'd like to be a superhero. I'd like to challenge evil even if my life is at risk.
+I'd be anyone but me, someone who fantasises about things like these.
+
+I'd like to be a god. I'd like to turn the heads of every single person.
+I'd like to be a genius. I'd like to be remembered by everyone.
+I'd like to be a superhero. I'd like to challenge evil even if my life is at risk.
+I'd be anyone but you, someone who fantasises about things like these.
+
+Yes, I'd be anyone but you.
+
+Ah, this is how you said it:
+"The one whom I'd like to love isn't a god, that's for sure."
+Ah, softly, this is what you said:
+"It doesn't matter what you tell me, you are still you."
+"So, please remain as you are."
+And you were smiling.
+
+
+
+
+
+I'd like to be a wanderer. I'd like to walk a meandering road.
+I'd like to be assassin. I'd like to erase all the scum from this world.
+I'd like to be supervillain. I'd like to challenge good even if my life is at risk.
+I'd be anyone but me, someone who fantasises about things like these.
+
+I'd like to be a god. I'd like to turn the heads of every single person.
+I'd like to be a genius. I'd like to be remembered by everyone.
+I'd like to be a superhero. I'd like to challenge evil even if my life is at risk.
+I'd be anyone but you, someone who fantasises about things like these.
+
+Yes, I'd be anyone but you.
+
+Ah, this is how you said it:
+"The one whom I'd like to love isn't a god, that's for sure."
+Ah, softly, this is what you said:
+"It doesn't matter what you tell me, you are still you."
+"So, please remain as you are."
+And you were smiling.`,
+        trans_source_en: `YouTube @Guiano | Translate by anon`
     },
     {
         chapter: 4,
@@ -5142,14 +5826,14 @@ sono mae ni tasuke ni kite ne`,
 如果是你，就全都让我看看
 我会给你看的，我的……
 
-一直渴望爱情的灰姑娘
+一直渴望爱情的辛德瑞拉
 只穿着制服奔跑而去
 魔法啊，把时间停下吧
 会被坏人打扰的
 
-我想逃走，朱丽叶
+想要逃走的朱丽叶
 但不要用那个名字叫我
-是啊，必须要结合才行
+是啊，必须要结合才行呢
 不然就不好玩了
 
 呐，你愿意和我一起活下去吗？
@@ -5169,10 +5853,10 @@ sono mae ni tasuke ni kite ne`,
 为我伸出的那只手
 握着的却是项圈吧
 带我走吧，我的罗密欧
-去到会被责骂那么远的地方
+去到那么远会被责骂的地方
 
-钟声回响的灰姑娘
-玻璃鞋我就留下了
+钟声回响的辛德瑞拉
+水晶鞋我就留下了
 所以要快点找到我哦
 被噩梦逼得心急
 
@@ -5200,12 +5884,12 @@ sono mae ni tasuke ni kite ne`,
 是啊，坦率就好了吧
 掉下去的是金斧头呢
 
-说谎太多的灰姑娘
-好像被狼吃掉了
+说谎太多的辛德瑞拉
+好像被大灰狼吃掉了
 怎么办，这样下去我也
 总有一天会被吃掉
 
-在那之前，来救我吧`,
+在那之前，快来救我吧`,
         trans_source_cn: `WASABISOCUTE`,
         lyrics_en: `Don't turn my love
 Into your tragic Juliet
@@ -5522,7 +6206,50 @@ and come back again`,
 [03:34.16]これはこれは誰のため？
 [03:41.14]なにがなにが君のため？
 [03:46.45] `,
-        lyrics_rom: ``,
+        lyrics_rom: `yume no naka de itsumo nigeteru manuketa hashirikata
+meta de zurui shudan de maite ando no iki wo tsuku
+ashiba ga mata hitotsu kuzureta hoka wo kangaenakya
+makuramoto ni oite kita kotoba wo kuminaosu
+karamatta no ga dono ito na no ka sagashite itara hi ga kurete
+kuragari no temoto ga yubi wo kiru dake
+tada aware aware kawaremasen
+are yo are yo nagasare shuuten
+maware maware jiseki no nen
+tatoe mayoedo hikari no hou e
+mimi e yubi e tsutau gizen
+makase hagase nadare no you ni
+sagase sagase me wo samasou ne
+tanjunka suru kuse ga shimitsuku mae ni
+eiga mitaku zenbu horobu nara nani wo omoeba ii?
+ai ga nani ka dare mo wakarazu nan to naku inotteru
+kizoku ishiki no hate de futari munashiku nadeau kizu
+sono bashinogi no manzokukan de shifuku wo koyashita
+karamatta no ga dono ito de are chigitte shimaeba raku ni nareru
+sasageta kokoro wa doko e kieru ndarou
+mou hanarebanare sawaremasen
+sore wa, sore ja. anmari datte
+watashi, katachi bakari mite
+hito no kazu dake bigaku ga aru no ni
+
+rikai no tane wo koko ni maita no
+katsute mizukara karashita chi wo kate ni
+shinzou mo nou mo kokoro janai nara
+doushite konna ni itamu no?
+
+aa tomare tomare waraemasen
+chou mo hana mo saigo wa isshun
+omotai tsumetai mayonaka ni
+hidoku yasashiku tsukitsukeru
+mou igi wa, hibi wa, hibiwarete
+kyousei douse ashita mo donten
+yagate sono te hodoketara?
+itsumo shiryo wa soko de tomaru
+aa, hora ne imada kawaremasen
+ashi wa itsumo chi ni tsuku hou e
+tatoe doko de mayoedo mo
+kangaenai to kimi ga tadashiku aru tame ni
+kore wa kore wa dare no tame?
+nani ga nani ga kimi no tame?`,
         lyrics_en: `I'm always fleeing inside of my dreams, running in a ridiculous way
 I sneakily escape from my pursuers through meta and cunning means, and release a relieved sigh
 My foothold has once again collapsed. I’ve gotta think of another way
