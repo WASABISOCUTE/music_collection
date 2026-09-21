@@ -4596,7 +4596,52 @@ By my hand`,
             [03:22.44]どちらも嘘にはしなくていいから
             [03:27.85]心の臓を、歌え、歌え！
             [03:32.98]希望も希死も僕の鼓動
-            [03:38.30](ああ ああ ああ ああ...)`
+            [03:38.30](ああ ああ ああ ああ...)`,
+        lyrics_rom: `iki ga suitakute, ubugoe wo agete
+ikitsuraku natte mata naite wameite
+ikitakutte? ikitakutte? 
+wake wakannai naa, boku wa
+shinitakutte mo, shi ni takushite
+kashi ni natte utau kyou da
+(oh oh oh oh oh...)
+furuwaseta koe wo uta ni fukikonda toki
+boku no iki ga hajimete me ni utsutte
+kizuitanda yo
+ongaku no kachi nante shosen shukan dato
+nara, utaitai you ni
+tsutaetai kotoba wo tsutau
+
+machigai ni obiete
+fusagunja nakute
+tadashiku arou tte
+agaite itainda yo
+"boku no sei" mo, boku no sei da
+baka ni saretatte boku wa
+kizutsuite wa kizutsukete
+kashi wo tsukutte ikiru
+
+me ni mieta ima ga subete dakara
+kako ya mirai ni sugaritakunai kara
+shin no zou yo, ugoke, ugoke!
+futashika dato shite mo boku no kodou
+(oh oh oh oh oh...)
+
+itsuka nikunda, ano hikari mo
+boku no me wo tashika ni terashiteiru
+kajika shite ikunda, kono kokoro wo
+detaramena honne wo kakae nagara
+
+iki ga suitakute, ubugoe wo agete
+ikitsuraku natte mata naite wameite
+ikitakutte? ikitakutte? 
+wake wakannai naa, boku wa
+shinitakutte mo, shi ni takushite
+kashi ni natte utau
+kietakute ikita kyou ga aru nara
+dochira mo uso ni wa shinakute ii kara
+shin no zou wo, utae, utae!
+kibou mo kishi mo boku no kodou
+(oh oh oh oh oh...)`,
     },
     {
         chapter: 3,
@@ -4649,7 +4694,143 @@ By my hand`,
             [02:20.00]デビルじゃない デビルじゃないもん あー死んじゃった 死んじゃった
             [02:23.00]本当の悪魔になっても ブレス・ユー
             [02:26.18]あくまで天使じゃん？ 最強じゃん
-            [02:29.93]堕〜`
+            [02:29.93]堕〜`,
+        lyrics_rom: `da
+nagara no yuutousei koyoi mo jibun to mikkai desu
+shindoi wa shindoi wa aa tsuratsura gasshou
+honto wa rettousei atashi wa atashi ni sekkyou desu
+shindoi wa shindoi wa moo iyaiya zekkou
+shinpai muyou shinpai muyou kore wa waraeru jooku songu
+shinmai mo rougai mo minna utaeru poppu songu
+maa maa sore uwasassu yo tada no kamikiressu yo
+ii kara hayaku hanko ose ya
+debiru ja nai debiru ja nai mon akuma hodo sou iu mon
+aa shinjatta shinjatta aishite hoshii jan (demo…)
+soredemo hamacchau nara soredemo koishichau nara
+aa shinjatta shinjatta enjeru (HEY!!) enjeru (HEY!!)
+waa! hihou hihou hihou hihou (ussoo)
+waa! kitanai ne waa! tobenai ne
+debiru ja nai debiru ja nai mon aa shinjatta shinjatta
+hontou no tenshi suruu shite gorinjuu
+aku made tenshi jan? saikyou jan
+da
+"kimi no tame" tte meigen no akui
+"yume wa kanau" de ubatta sararii
+haa chuudokusei no takai mon nya wana ga aru nda na
+tamashii nukarechatte yaa nee yaa nee
+hikari kagayaku wakka de kono kubi ga shimatte iku
+uso o tsukeba yurunde iku ienai SOS
+shiroi penki kaburimasho narikitte shimaimasho
+uso o tsukeba raku ni naru hora yacchatte
+debiru ja nai debiru ja nai mon
+aa shinjatta shinjatta aaa
+soredemo ugacchau kedo soredemo kiracchau kedo
+narikitte egao de enjeru enjeru
+debiru ja nai debiru ja nai mon akuma hodo sou iu mon
+aa shinjatta shinjatta aishite hoshii jan (demo…)
+soredemo hamacchau nara soredemo koishichau nara
+aa shinjatta shinjatta enjeru (HEY!!) enjeru (HEY!!)
+waa! hihou hihou hihou hihou (ussoo)
+waa! kitanai ne waa! tobenai ne
+debiru ja nai debiru ja nai mon aa shinjatta shinjatta
+hontou no tenshi suruu shite gorinjuu
+waa! hihou hihou hihou hihou (assoo)
+waa! minikui ne waa! baenai ne
+debiru ja nai debiru ja nai mon aa shinjatta shinjatta
+hontou no akuma ni natte mo buresu yuu
+aku made tenshi jan? saikyou jan
+da~`,
+        lyrics_cn: `堕落⋯
+所谓的优等生 今晚也是和自我的密会
+噢！好难受 好难受啊！ 啊～痛苦的自我反省
+其实只是个劣等生 不断地对自己说教
+噢！好难受 好难受啊！ 我们还是绝交吧！
+别担心 别担心 这只是一首玩笑
+新知旧雨 都会唱的一首流行歌
+冷静冷静，那只是一个谣言 这不过是一个备忘录
+别想这么多了，快盖下你的印章吧
+我不是恶魔，我才不是恶魔 不足以被称为恶魔
+啊～我已经死去，消失在人间 谁不是只是想被爱呢？（但⋯）
+如果你还是沉迷其中 如果你还是爱上了
+啊～我已经死去，消失在人间 天使（嘿！！）天使（嘿！！）
+哇！【讣闻】【讣闻】【讣闻】【讣闻】（骗你的～）
+哇！真肮髒！哇！无法高飞！
+我不是恶魔，我才不是恶魔 啊～我已经死去，消失在人间
+错过了真正的天使，安息吧
+到底是天使还是恶魔？是最强的化身
+堕落⋯
+「为你好」只是充满恶意的名言
+「梦想成真」将剥夺你的报酬
+啊～容易上瘾的东西都充满陷阱
+灵魂被出卖 真肮髒 真肮髒
+闪闪发亮的光环正勒着我的脖子
+当我说谎时便会鬆开 使我无法求救
+漆上白色来遮掩吧 彻底地结束这一切吧
+谎言让一切变得更轻鬆 来！试试看吧！
+我不是恶魔，我才不是恶魔
+啊～我已经死去，消失在人间 啊啊啊⋯
+儘管会被质疑 儘管会被厌恶
+尽情地微笑着 天使天使
+我不是恶魔，我才不是恶魔 不足以被称为恶魔
+啊～我已经死去，消失在人间 谁不是只是想被爱呢？（但⋯）
+如果你还是沉迷其中 如果你还是爱上了
+啊～我已经死去，消失在人间 天使（嘿！！）天使（嘿！！）
+哇！【讣闻】【讣闻】【讣闻】【讣闻】（骗你的～）
+哇！真肮髒！哇！无法高飞！
+我不是恶魔，我才不是恶魔 啊～我已经死去，消失在人间
+错过了真正的天使，安息吧
+哇！【讣闻】【讣闻】【讣闻】【讣闻】（谁在乎～）
+哇！真丑陋！哇！看不下去！
+我不是恶魔，我才不是恶魔 啊～我已经死去，消失在人间
+就算我成为真正的恶魔 也会庇佑你
+到底是天使还是恶魔？是最强的化身
+堕落～`,
+        trans_source: `YouTube @DECO*27`,
+        lyrics_en: `D-D-Down
+Part-time patrician another clandestine rendezvous with myself
+Drained oh so drained, introspection and in prayer
+But really a plebeian, preach to me myself and I
+Drained, oh so drained, I guess we need to break up
+No worries everything’s fine this is just a silly joke song
+The newbies, the fogies, everyone can sing along to this pop song
+Calm down, that’s just a rumor, this contract is “just in case”
+Now shut up and give me your signature
+Not a Devil, I’m not a Devil, so sayeth the Devil
+Oh no I’m dead, I’m gone like don’t we all want to be loved? (but...)
+If you’re still gonna be hooked If you’re still gonna fall in love
+Oh no I’m dead, I’m gone Angel (HEY!!) Angel (HEY!!)
+Whaaat! [BAD NEWS] [BAD NEWS] [BAD NEWS] [BAD NEWS] (just kidding~)
+Whaaat! So grimy Whaaat! Not aerial
+Not a Devil, I’m not a Devil Oh no I’m dead, I’m gone
+You overlooked the true Angel, R.I.P.
+Both Devil & Angel? That’s Archangel level stuff
+D-D-Down
+The maliciousness of the quote, “It’s for your own good”
+Salaries exploited by the line, “Your dreams will come true”
+Ah, highly addictive things always hide a trap
+My soul’s been reaped how nasty nasty
+My radiant halo is closing in around my neck
+It loosens when I lie, the “Mayday” I can’t call out
+Let’s cover-up in white paint get lost in the part and play
+It gets easier when you lie go on, try it
+Not a Devil, I’m not a Devil
+Oh no I’m dead, I’m gone aaa
+Though you may doubt me, though you may hate me
+Smile and play the part Angel Angel
+Not a Devil, I’m not a Devil, so sayeth the Devil
+Oh no I’m dead, I’m gone like don’t we all want to be loved? (but...)
+If you’re still gonna be hooked If you’re still gonna fall in love
+Oh no I’m dead, I’m gone Angel (HEY!!) Angel (HEY!!)
+Whaaat! [BAD NEWS] [BAD NEWS] [BAD NEWS] [BAD NEWS] (just kidding~)
+Whaaat! So grimy Whaaat! Not aerial
+Not a Devil, I’m not a Devil Oh no I’m dead, I’m gone
+You overlooked the true Angel, R.I.P.
+Whaaat! [BAD NEWS] [BAD NEWS] [BAD NEWS] [BAD NEWS] (who cares~)
+Whaaat! Grotesque Whaaat! Not grammable
+Not a Devil, I’m not a Devil Oh no I’m dead, I’m gone
+Even if I turn into a true Devil “Bless you”
+Both Devil & Angel? That’s Archangel level stuff
+Down~`
     },
     {
         chapter: 3,
