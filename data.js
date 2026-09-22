@@ -4491,60 +4491,221 @@ By my hand`,
         chapter: 3,
         title: 'ラストラス', artist: '*Luna',
         context: 'The End of Foon Yew Archive', desc: 'Graduation',
-        date: 'DEC 2025', ytId: 'gdmLEu5fVz4', start: 0,
+        date: 'DEC 2025', ytId: '4tBywV2Ebjg', start: 0,
         lyrics: `
-            [00:14.56]ゆっくり落ちる砂時計
-            [00:17.88]揺らいだ夜の星たちも
-            [00:21.24]気付けなくなっていたのは
-            [00:25.82]
-            [00:27.07]きっと 涙が止まない夕暮れも
-            [00:30.87]動けそうにない朝明けも
-            [00:34.27]隣に誰もいないから
-            [00:38.38]
-            [00:38.78]負けたくない今日の日を 精一杯走った
-            [00:45.15]正しく生きることの 意味を知らないまま
-            [00:52.53]でも 確かにそこに光はあったんだ
-            [00:59.54]
-            [00:59.67]ねぇ空の色は何色だっただろう
-            [01:03.65]星はどんな音色だっただろう
-            [01:07.55]WOW
-            [01:10.38]君を知らない世界たちが
-            [01:13.37]この歌を笑っていたんだろう
-            [01:16.52]灰色の言葉もあっただろう
-            [01:20.41]そんな日々を僕は 強さと呼びたい
-            [01:29.31]君の星河よ
-            [01:31.70]輝いて
-            [01:45.71]
-            [01:45.94]踏み出す足がすくんでも
-            [01:49.44]未来の空が暗くても
-            [01:52.95]隣に「音」があったから
-            [01:57.05]
-            [01:57.98]見えるもの全てが 真実じゃなくて
-            [02:04.14]渦巻く人の声を 疑う僕でありたい
-            [02:11.57]まだ 映らない 星座を探して
-            [02:23.00]
-            [02:46.48]今まで数えた星だって
-            [02:49.55]きっと輝いていたのに
-            [02:52.78]いつから忘れていたの
-            [02:56.11]いつから消してしまったの
-            [02:58.99]
-            [02:59.14]この世界が美しく見えた
-            [03:02.56]最後の日はいつだっけ
-            [03:05.86]下を向いていた夜に
-            [03:09.03]見落としたんだ 今なら
-            [03:13.53]
-            [03:19.15]光るから
-            [03:20.23]僕の色は何色だっただろう
-            [03:23.43]君はどんな音色だっただろう
-            [03:27.46]WOW
-            [03:30.05]少しだけ顔を上げて
-            [03:32.92]広がる空が見えたなら
-            [03:36.09]あの日の答えもあったなら
-            [03:40.14]そんな明日を僕は 嫌わないでいたい
-            [03:48.70]君の星河よ
-            [03:51.67]輝いて
-            [04:06.04]
-            [04:19.13]あぁ空はこんな色だった`
+            [00:14.06]ゆっくり落ちる砂時計
+[00:17.38]揺らいだ夜の星たちも
+[00:20.74]気付けなくなっていたのは
+[00:25.32]
+[00:26.57]きっと 涙が止まない夕暮れも
+[00:30.37]動けそうにない朝明けも
+[00:33.77]隣に誰もいないから
+[00:37.88]
+[00:38.28]負けたくない今日の日を 精一杯走った
+[00:44.65]正しく生きることの 意味を知らないまま
+[00:52.03]でも 確かにそこに光はあったんだ
+[00:59.04]
+[00:59.17]ねぇ空の色は何色だっただろう
+[01:03.15]星はどんな音色だっただろう
+[01:07.05]WOW
+[01:09.88]君を知らない世界たちが
+[01:12.87]この歌を笑っていたんだろう
+[01:16.02]灰色の言葉もあっただろう
+[01:19.91]そんな日々を僕は 強さと呼びたい
+[01:28.81]君の星河よ
+[01:31.20]輝いて
+[01:45.21]
+[01:45.44]踏み出す足がすくんでも
+[01:48.94]未来の空が暗くても
+[01:52.45]隣に「音」があったから
+[01:56.55]
+[01:57.48]見えるもの全てが 真実じゃなくて
+[02:03.64]渦巻く人の声を 疑う僕でありたい
+[02:11.07]まだ 映らない 星座を探して
+[02:22.50]
+[02:45.98]今まで数えた星だって
+[02:49.05]きっと輝いていたのに
+[02:52.28]いつから忘れていたの
+[02:55.61]いつから消してしまったの
+[02:58.49]
+[02:58.64]この世界が美しく見えた
+[03:02.06]最後の日はいつだっけ
+[03:05.36]下を向いていた夜に
+[03:08.53]見落としたんだ 今なら
+[03:13.03]
+[03:18.65]光るから
+[03:19.73]僕の色は何色だっただろう
+[03:22.93]君はどんな音色だっただろう
+[03:26.96]WOW
+[03:29.55]少しだけ顔を上げて
+[03:32.42]広がる空が見えたなら
+[03:35.59]あの日の答えもあったなら
+[03:39.64]そんな明日を僕は 嫌わないでいたい
+[03:48.20]君の星河よ
+[03:51.17]輝いて
+[04:05.54]
+[04:17.63]あぁ空はこんな色だった`,
+        lyrics_rom: `yukkuri ochiru sunadokei
+yuraida yoru no hoshitachi mo
+kizukenaku natte ita no wa
+
+kitto namida ga yamanai yuugure mo
+ugokesou ni nai asaake mo
+tonari ni dare mo nai kara
+
+maketakunai kyou no hi o seiippai hashitta
+tadashiku ikiru koto no imi o shiranai mama
+demo tashika ni soko ni hikari wa atta nda
+
+nee sora no iro wa naniiro datta darou
+hoshi wa donna neiro datta darou
+WOW
+kimi o shiranai sekaitachi ga
+kono uta o waratte ita ndarou
+haiiro no kotoba mo atta darou
+sonna hibi o boku wa tsuyosa to yobitai
+kimi no seiga yo
+kagayaite
+
+fumidasu ashi ga sukunde mo
+mirai no sora ga kurakute mo
+tonari ni oto ga atta kara
+
+mieru mono subete ga shinjitsu ja nakute
+uzumaku hito no koe o utagau boku de aritai
+mada utsuranai seiza o sagashite
+
+ima made kazoeta hoshi datte
+kitto kagayaite ita no ni
+itsu kara wasurete ita no
+itsu kara keshite shimatta no
+
+kono sekai ga utsukushiku mieta
+saigo no hi wa itsu dakke
+shita o muite ita yoru ni
+miotoshita nda ima nara
+
+hikaru kara
+boku no iro wa naniiro datta darou
+kimi wa donna neiro datta darou
+WOW
+sukoshi dake atama o agete
+hirogaru sora ga mieta nara
+ano hi no kotae mo atta nara
+sonna asu o boku wa kirawanaide itai
+kimi no seiga yo
+kagayaite
+
+aa sora wa konna iro datta
+`,
+        lyrics_cn: `[00:14.50] 缓缓坠落的沙漏
+[00:18.041] 摇曳的夜空繁星
+[00:21.333] 我早已察觉不到那份感受
+
+[00:26.833] 一定是那止不住泪水的黄昏
+[00:30.875] 还有那无力前行的黎明
+[00:34.416] 因为身旁已无人相伴
+
+[00:39.458] 不想输掉的今天　我全力奔跑着
+[00:45.708] 仍未明白“正确活着”的意义
+[00:52.75] 但是　那里确实存在过光芒啊
+
+[00:59.541] 呐　天空的颜色曾是什么色彩呢
+[01:03.166] 群星又曾奏响怎样的音色呢
+[01:07.583] WOW
+[01:10.208] 那些不认识你的世界啊
+[01:12.875] 大概会嘲笑这首歌吧
+[01:16.041] 也一定存在过灰色的言语吧
+[01:20.041] 这样的日子我想称之为坚强
+[01:28.875] 属于你的星河啊
+[01:31.708] 请闪耀吧
+
+[01:45.416] 即使迈出的步伐颤抖
+[01:48.666] 即使未来的天空一片昏暗
+[01:52.375] 因为身旁有“音”在回响
+
+[01:57.333] 眼前所见的一切并非全是真实
+[02:03.583] 我想成为那个能质疑人声喧嚣的人
+[02:10.75] 尚未映出的未来 寻找星座的光迹
+[01:57.05]
+[02:45.875] 那些至今数过的星辰
+[02:48.875] 明明也曾闪耀着光辉
+[02:52.208] 从什么时候开始遗忘了呢
+[02:55.458] 又从何时开始抹去了它们
+
+[02:58.833] 这世界看起来曾那样美丽
+[03:02.25] 那是最后一次是什么时候呢
+[03:05.083] 在低头的夜晚里
+[03:08.625] 如今我才发现自己错过了什么
+
+[03:18.50] 因为光芒再度闪耀
+[03:19.583] 我的颜色曾是什么呢
+[03:22.708] 你的音色又曾是怎样的温柔呢
+[03:27.00] WOW
+[03:29.625] 稍微抬起头看看吧
+[03:32.375] 如果能看见那片延展的天空
+[03:35.708] 如果那天的答案仍在那里
+[03:39.708] 那样的明天　我想继续喜欢着
+属于你的星河啊
+请闪耀吧
+
+啊——天空原来是这样的颜色
+`,
+        trans_source_cn: `WASABISOCUTE`,
+        lyrics_en: `The reason why I stopped noticing
+the slowly falling hourglass
+and the stars on hazy nights
+
+Is surely because on those evenings where my tears were never-ending
+and those dawns when I couldn’t bring myself to move
+I had no one next to me
+
+I ran as hard as I could towards the present day I didn’t want to lose
+I still don’t know what it means to live the right way,
+but there was definitely a light there
+
+Hey! I wonder what colour the sky was?
+And what sort of timbre did the stars have?
+WOW
+There are many worlds that don’t know of you;
+did they laugh at this song, I wonder?
+Were there grey words too?
+I want to call days like those “strength”
+O River of stars,
+sparkle!
+
+Although I feared taking a step forward
+and the future sky was dark,
+I had a “sound” there beside me
+
+Not everything I see is the truth
+I want to be the me who distrusts the muddling voices of people
+I search for the constellations that still aren’t reflected
+
+The stars I’ve counted up to now
+were sparkling without a doubt,
+How long ago has it been since I forgot about them?
+How long has it been since I erased my memory of them?
+
+This world looked beautiful;
+when was its last day?
+The night when I looked down,
+I failed to see that, and now…
+
+It shines,
+what was my colour, I wonder?
+And what sort of timbre was yours?
+WOW
+If I could just lift my head up a little
+and see the expanding sky,
+if there was an answer from back then as well,
+then I don’t want to hate such a future
+O River of stars,
+sparkle!
+
+Ah, so this is the sort of colour the sky was…
+`,
+        trans_source_en: `Vocaloid Lyrics Wiki @Violet Lights`,
     },
     {
         chapter: 3,
@@ -4688,8 +4849,52 @@ Sing, sing, o heart of mine!
 Both hope and despair drive my pulse
 (oh oh oh oh oh...)`,
         trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`,
-        lyrics_cn: ``,
-        trans_source_cn: ``
+        lyrics_cn: `因渴望呼吸，而发出第一声啼哭
+又因生存艰辛而再度哭泣着叫喊着
+想要继续生存？想要就此离世？
+于我而言，简直无法理解啊
+渴求死亡，却仍寄希望于诗歌
+因而化为假死（歌词）今日也在歌唱
+(oh oh oh oh oh...)
+当将那颤抖的声音注入歌曲中时
+我的吐息才第一次映入眼帘
+终于意识到了啊
+所谓音乐价值终归只是主观臆断
+那么，便如渴望歌唱般
+传递想要传达的话语吧
+
+并非是畏惧过错
+才会变得如此苦闷
+是渴望正直地生存
+想要挣扎着继续前进啊
+“我的过错”也是我的人生
+就算被众人愚弄我也要
+在伤痕累累的路途之中
+创造瑕疵（恩惠）而持续生存
+
+因为眼中所见的现在才是一切
+因为不愿纠缠于那些过去与未来
+心脏啊，就跳动吧，跳动啊！
+即便不可靠也是独属于我的鼓动
+(oh oh oh oh oh...)
+
+曾经憎恶过的，那份光芒
+也确切地照耀着我的这双眼眸
+将这颗心脏，变得那样清晰可见
+怀抱着这些不着边际的真心话
+
+因渴望呼吸，而发出第一声啼哭
+又因生存艰辛而再度哭泣着叫喊着
+想要继续生存？想要就此离世？
+于我而言，简直无法理解啊
+渴求死亡，却仍寄希望于诗歌
+因而化为假死（歌词）歌唱着
+今天也在渴望消失的同时活了下来
+那将两者都看做是真实想法也无妨
+心脏啊，就歌唱吧，歌唱啊！
+无论祈愿还是求死都是我的鼓动
+(oh oh oh oh oh...)`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译：麻雀  校对：ijndjdjdj）翻译`
     },
     {
         chapter: 3,
