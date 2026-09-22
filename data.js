@@ -4642,6 +4642,54 @@ dochira mo uso ni wa shinakute ii kara
 shin no zou wo, utae, utae!
 kibou mo kishi mo boku no kodou
 (oh oh oh oh oh...)`,
+        lyrics_en: `I want to breathe, so I release my first cry unto this world,
+But it's hard to live, so again, I cry tears and scream
+Do I want to live? Do I want to die?
+I really don't get it, this contradiction
+Even if I want to die, I'll put that in these verses,
+These lyrics; today, I'll sing while appearing to be dead
+(oh oh oh oh oh...)
+When my quivering voice breathed life into a song,
+It was then I realized,
+That was the first time my breath could be seen
+They say that in the end, the value of music is subjective–
+Well then, I'll sing as I please,
+I'll show you the message I want to convey
+
+I won't despair over
+Or be afraid of my mistakes
+They say to "live the right way,"
+But I want to fight against that
+My whole life has consisted of "it's my fault"
+Even if I'm treated like a fool,
+I'll be hurt and I'll hurt others,
+I'll live, causing both kindness and injury
+
+The present I see is everything to me,
+So I don't want to cling onto ideals of the past or the future
+Beat, beat, o heart of mine!
+It might be unsteady, but even so, this is my pulse
+(oh oh oh oh oh...)
+
+Some time ago, I'd grown to hate even that light
+It's surely shining down on my eyes
+Holding onto some haphazard, nonsense feelings,
+This heart is coming into view
+
+I want to breathe, so I release my first cry unto this world,
+But it's hard to live, so again, I cry tears and scream
+Do I want to live? Do I want to die?
+I really don't get it, this contradiction
+Even if I want to die, I'll put that in these verses,
+These lyrics, I'll sing while appearing to be dead
+If there's a day where I lived, having wanted to disappear,
+Neither of those feelings have to be untrue
+Sing, sing, o heart of mine!
+Both hope and despair drive my pulse
+(oh oh oh oh oh...)`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`,
+        lyrics_cn: ``,
+        trans_source_cn: ``
     },
     {
         chapter: 3,
