@@ -52,11 +52,11 @@ const tracks2 = [
     {
         chapter: 0,
         title: 'Toxic',
-        artist: '',
+        artist: 'BoyWithUke',
         context: '',
         desc: '',
         date: '',
-        ytId: '',
+        ytId: 'v=Mvaosumc4hU',
         start: 0,
         lyrics: `
         `,
@@ -92,7 +92,7 @@ const tracks2 = [
         context: '',
         desc: '',
         date: '',
-        ytId: '',
+        ytId: 'y_lZimJsdjU',
         start: 0,
         lyrics: `現在時刻午前4時
 有象無象にもう飽き飽きだよ
