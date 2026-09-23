@@ -5,7 +5,20 @@ const config2 = {
         showIg: true,
         showChapterTitle: true
 };
-
+/*
+{
+        chapter: ,
+        title: '', artist: '',
+        context: '', desc: '',
+        date: '', ytId: '', start: 0, end: 0,
+        lyrics:``,
+        lyrics_rom:``,
+        lyrics_cn:``,
+        trans_source_cn:``,
+        lyrics_en:``,
+        trans_source_en:``,
+}
+*/
 const chapters2 = [
         {
                 id: 0,
