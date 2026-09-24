@@ -48,24 +48,70 @@ const chapters2 = [
 ];
 
 const tracks2 = [
-    //Chapter 00
-    {
-        chapter: 0,
-        title: 'Toxic',
-        artist: 'BoyWithUke',
-        context: '',
-        desc: '',
-        date: '',
-        ytId: 'v=Mvaosumc4hU',
-        start: 0,
-        lyrics: `
+        //Chapter 00
+        {
+                chapter: 0,
+                title: 'Toxic',
+                artist: 'BoyWithUke',
+                context: '',
+                desc: '',
+                date: '',
+                ytId: 'Mvaosumc4hU',
+                start: 0,
+                lyrics: `All my friends are toxic, all ambitionless
+So rude and always negative
+I need new friends, but it's not that quick and easy
+Oh, I'm drowning, let me breathe
+I'm better off all by myself
+Though I'm feeling kinda empty without somebody else
+Oh, I hear you crying out for help
+But you never showed for me when I was ringing your cellphone
+Oh, you don't know how it feels to be alone
+Baby, oh, I'll make you know, I'll make you know, oh
+I'm drowning, let me breathe
+I'm drowning, let me breathe
+I'm drowning, let me breathe
+I'm drowning, let me breathe
+But life is immaculate, backin' it up a bit
+Countin' my hours and knocking on wood
+Avoiding my opposites, chewin' on chocolate
+Had a bit limited time, but I should
+Be good for a minute, don't want to admit it
+I'm running on seconds, I'm rigid, I'm screwed
+Don't know what to do, I'm thinking of you
+I'm drinking up bottles and bottles of booze
+I'm better off all by myself
+Though I'm feeling kinda empty without somebody else
+Oh, I hear you crying out for help
+But you never showed for me when I was ringing your cellphone
+Oh, you don't know how it feels to be alone
+Baby, oh, I'll make you know, I'll make you know, oh
+I fell into your river
+That's where you told me lies
+You said that I'd feel better
+But this is where good guys die
+You took my pride away, but
+You cannot take my light
+I'll find another way out
+But now you're takin' my light
+Don't you see how I
+I'm better off all by myself
+Though I'm feeling kinda empty without somebody else
+Oh, I hear you crying out for help
+But you never showed for me when I was ringing your cellphone
+Oh, you don't know how it feels to be alone
+Baby, oh, I'll make you know, I'll make you know, oh
+I'm better off all by myself
+Though I'm feeling kinda empty without somebody else
+Oh, I hear you crying out for help
+But you never showed for me when I was ringin' your cellphone
+Oh, you don't know how it feels to be alone
+Baby, oh, I'll make you know, I'll make you know, oh
         `,
-        lyrics_rom: `
+                lyrics_zh: `
         `,
-        lyrics_zh: `
-        `,
-        trans_source_zh: ''
-    },
+                trans_source_zh: ''
+        },
         // Chapter 01
         {
                 chapter: 1,
@@ -83,18 +129,18 @@ const tracks2 = [
                 lyrics_zh: `
         `,
                 trans_source_zh: ''
-    },
+        },
         //Chapter 03
-    {
-        chapter: 3,
-        title: 'オルターエゴ',
-        artist: 'Vivid BAD SQUAD',
-        context: '',
-        desc: '',
-        date: '',
-        ytId: 'y_lZimJsdjU',
-        start: 0,
-        lyrics: `現在時刻午前4時
+        {
+                chapter: 3,
+                title: 'オルターエゴ',
+                artist: 'Vivid BAD SQUAD',
+                context: '',
+                desc: '',
+                date: '',
+                ytId: 'y_lZimJsdjU',
+                start: 0,
+                lyrics: `現在時刻午前4時
 有象無象にもう飽き飽きだよ
 存在 形なんて
 もはやミュータントさ
@@ -172,7 +218,7 @@ const tracks2 = [
 笑顔を浮かべてお辞儀をしましょう
 
 きみがすきなうた ながれはじけた`,
-        lyrics_rom: `genzai jikoku gozen yoji
+                lyrics_rom: `genzai jikoku gozen yoji
 uzoumuzou ni mou akiaki da yo
 sonzai katachi nante
 mohaya myuutanto sa
@@ -250,10 +296,10 @@ kuchihatete shimau mae ni
 egao wo ukabete ojigi wo shimashou
 
 kimi ga suki na uta nagare hajiketa`,
-        lyrics_zh: `
+                lyrics_zh: `
         `,
-        trans_source_zh: '',
-        lyrics_en: `The present time is 4 AM,
+                trans_source_zh: '',
+                lyrics_en: `The present time is 4 AM,
 I'm sick and tired of everyone.
 The shape of my existence
 Has already mutated.
@@ -331,8 +377,75 @@ Before everything crumbles away,
 Give me a smile and let's bow a greeting.
 
 That song you liked so much streamed out.`,
-        trans_source_en:`Project SEKAI Fandom Wiki | Translate by Anonymous and Migu39`,
-    },
+                trans_source_en: `Project SEKAI Fandom Wiki | Translate by Anonymous and Migu39`,
+        },
+        //Chapter 4
+        {
+                chapter: 4,
+                title: 'Realiti Insan',
+                artist: 'Santeekee',
+                context: '',
+                desc: '',
+                date: 'SEP 2026',
+                ytId: 'IooV6ilL6YA',
+                start: 0,
+                lyrics: `Ku layangkan segala anganku
+Ku lepaskan semua khayalan jiwaku
+Berpijak di bumi yang satu
+Memandang tinggi di langit biru
+Satu janji di dalam hati
+Satu mimpi yang akan ku raih
+Harapanku dalam hidup ini
+Ku ingin menggapai cita dan cinta
+Ini bukanlah satu mimpi
+Atau ilusi dalam jiwa yang sunyi
+Ini adalah realiti
+Keyakinan insan yang penuh visi
+Satu janji di dalam hati
+Satu mimpi yang akan ku raih
+Harapanku dalam hidup ini
+Ku ingin menggapai cita dan cinta
+
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+
+Ini bukanlah satu mimpi
+Atau ilusi dalam jiwa yang sunyi
+Ini adalah realiti
+Keyakinan insan yang penuh visi
+Satu janji di dalam hati
+Satu mimpi yang akan ku raih
+Harapanku dalam hidup ini
+Ku ingin menggapai cita dan cinta
+
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+
+Satu, satu mimpi
+Di dalam hidupku ini
+Satu, satu janji
+Yang ku gapai pasti
+        `,
+                lyrics_zh: `
+        `,
+                trans_source_zh: ''
+        },
 ];
 
 // Universal aliases for accessibility and namespace safety
