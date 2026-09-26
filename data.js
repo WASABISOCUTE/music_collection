@@ -764,6 +764,14 @@ const tracks = [
     },
     {
         chapter: 0,
+        title: 'Heaven and Hell',
+        artist: 'Jeremy Blake',
+        context: '', desc: '',
+        date: '2021', ytId: 'IL5AhzUSVR4', start: 0,
+        lyrics: `Instrumental - No Lyrics`,
+    },
+    {
+        chapter: 0,
         title: 'Alone', artist: 'Alan Walker',
         context: '', desc: '',
         date: '2022', ytId: '1-xGerv5FOk', start: 0,
@@ -2742,7 +2750,7 @@ By my hand`,
         chapter: 3,
         title: 'キャットラビング', artist: '25時、ナイトコードで。',
         context: '', desc: '',
-        date: 'APR 2025', ytId: 'tk-uP-Yfl5I', start: 0,
+        date: 'APR 2025', ytId: '8HW6tgNMGj8', start: 0,
     },
     {
         chapter: 3,
