@@ -778,14 +778,60 @@
             updateMarquee(document.getElementById('np-artist'));
         }
 
+        function getTrackIndexFromHash() {
+            const hash = window.location.hash.replace(/^#\/?/, '').trim();
+            if (!hash) return -1;
+
+            // 1. Search by track.id in activeTracks (string or number comparison)
+            const matchById = activeTracks.findIndex(t => t.id !== undefined && t.id !== null && String(t.id) === hash);
+            if (matchById !== -1) return matchById;
+
+            // 2. Fallback: Check if hash is a valid numeric array index within bounds
+            if (/^-?\d+$/.test(hash)) {
+                const idx = parseInt(hash, 10);
+                if (idx >= 0 && idx < activeTracks.length) {
+                    return idx;
+                }
+            }
+
+            return -1;
+        }
+
+        function handleHashChangeOnLoad() {
+            const trackIndex = getTrackIndexFromHash();
+            if (trackIndex !== -1) {
+                openPlayer(trackIndex);
+            }
+        }
+
+        window.addEventListener('hashchange', () => {
+            const trackIndex = getTrackIndexFromHash();
+            if (trackIndex !== -1 && trackIndex !== currentTrackId) {
+                openPlayer(trackIndex);
+            }
+        });
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', handleHashChangeOnLoad);
+        } else {
+            setTimeout(handleHashChangeOnLoad, 50);
+        }
+
         function openPlayer(trackId, keepHidden = false) {
             clearTimeout(playerTimeout);
+            const track = activeTracks[trackId];
+            if (!track) return;
+
+            const trackHash = (track.id !== undefined && track.id !== null) ? track.id : trackId;
+            if (window.location.hash !== '#' + trackHash) {
+                history.replaceState(null, '', '#' + trackHash);
+            }
+
             const toast = document.getElementById('np-toast');
             const toastTitle = document.getElementById('toast-title');
             const toastArtist = document.getElementById('toast-artist');
             const isReopening = (currentTrackId === trackId && isPlayerReady);
             currentTrackId = trackId;
-            const track = activeTracks[trackId];
 
             toastTitle.setAttribute('data-original-html', track.title);
             toastTitle.innerText = track.title;

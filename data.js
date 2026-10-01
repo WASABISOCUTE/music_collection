@@ -7,6 +7,7 @@ const config = {
 };
 /*
 {
+        id:,
         chapter: ,
         title: '', artist: '',
         context: '', desc: '',
@@ -11963,5 +11964,88 @@ Only the two of us can share
 Only the two of us can share
 `,
         trans_source: 'YouTube @ナナツカゼ'
+    },
+    {
+        chapter: 4,
+        title: 'I Loved You', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: 'SEP 2026', ytId: 'kKztTFwoi6U', start: 0,
+        lyrics: `[00:04.12]Я вас любила, любовь моя
+[00:08.14]В сердце моём до сих пор жива
+[00:12.37]Так безнадёжно и искренно
+[00:16.50]Нежно и так таинственно
+[00:20.35]Голос, что мне приходил во сне
+[00:24.61]Стал растворяться в бездонной тьме
+[00:28.70]Потоки будничной суеты
+[00:32.85]Унесли милые мне черты
+[00:36.83]Тянутся годы мои бесцельно
+[00:40.80]В них больше нет любви
+[00:45.00]`,
+        lyrics_rom: `Ya vas lyubila, lyubov' moya
+V serdtse moyom do sikh por zhiva
+Tak beznadyozhno i iskrenno
+Nezhno i tak tainstvenno
+Golos, chto mne prikhodil vo sne
+Stal rastvoryat'sya v bezdonnoy t'me
+Potoki budnichnoy suyety
+Unesli milyye mne cherty
+Tyanutsya gody moi bestsel'no
+V nikh bol'she net lyubvi`,
+        lyrics_cn: `我曾经爱过你
+也许爱在我心中还有没有完全消亡
+我曾经那样爱过你，真诚而无望
+我曾经那样爱过你，温柔而迷茫
+那个曾在梦中走向我的声音
+已渐渐消融在无尽的幽暗里
+平日琐碎喧嚣的洪流
+带走了我眷恋的容颜
+漫漫岁月拖延着消逝
+就这样，再也没有爱`,
+        lyrics_en: `I loved you, my love
+Still lives on in my heart
+So hopeless and sincere
+Tender and so mysterious
+The voice that came to me in a dream
+Began to fade into endless darkness
+The currents of everyday turmoil
+Have carried away the features dear to me
+My years stretch on without a purpose
+There is no more love in them`,
+        trans_source_cn: '网易云音乐 @HOYO-MiX',
+        trans_source_en: 'Genshin Impact Fandom Wiki'
+    },
+    {
+        chapter: 4,
+        title: 'Triumph on the Ice', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: 'SEP 2026', ytId: '_Uf8_TC_tow', start: 300,
+        lyrics: `[06:45.552] Мы Отчизну отстоим и восславим себя в веках
+        [06:52.000]
+[08:45.562] Ура, Анастасия!
+[08:48.000]
+`,
+        lyrics_cn: `保家卫国之人的荣光从来不是写在纸上
+
+荣耀啊，吾皇安娜丝塔夏`,
+        lyrics_en: `The glory of those who defend the homeland is not something written down
+
+Glory be unto you, Your Majesty Anastasya`,
+        trans_source: 'YouTube @Genshin Impact',
+        lyrics_rom: `My Otchiznu otstoim i vosslavim sebya v vekakh
+
+        Vivat Anastasiya`
+    },
+    {
+        chapter: 4,
+        title: '0_0 (Slowed + Reverb)', artist: 'ilyhiryu',
+        context: '', desc: '',
+        date: 'SEP 2026', ytId: 'W5_JxKjetVg', start: 0,
+        lyrics: `(Instrumental - No Lyrics)`
+    },
+    {
+        chapter: 4,
+        title: 'Pallida Mors', artist: 'HOYO-MiX',
+        context: 'Game - Genshin Impact', desc: '',
+        date: 'SEP 2026', ytId: 'BRp4lG4-tXk', start: 0, end: 209,
     }
 ];
