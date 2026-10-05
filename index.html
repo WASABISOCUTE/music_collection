@@ -56,7 +56,7 @@
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px;">
                         <span style="font-size: 14px;">歌词翻译 / Lyrics Translation</span>
                         <label class="switch">
-                            <input type="checkbox" id="setting-translation">
+                            <input type="checkbox" id="setting-translation" checked>
                             <span class="slider round"></span>
                         </label>
                     </div>
@@ -127,6 +127,9 @@
                         <div class="np-artist" id="np-artist">Artist Name</div>
                     </div>
                     <div style="display: flex; gap: 12px; align-items: center;">
+                        <button class="btn-options" id="btn-toggle-pron" onclick="togglePronunciationSetting(event)">
+                            <i class="fa-solid fa-closed-captioning"></i>
+                        </button>
                         <div class="np-options-wrapper">
                             <button class="btn-options" id="btn-trans" onclick="toggleTransMenu(event)">
                                 <i class="fa-solid fa-language"></i>
@@ -949,6 +952,18 @@
             document.getElementById('np-options-menu').classList.remove('active');
         }
 
+        function togglePronunciationSetting(event) {
+            if (event) event.stopPropagation();
+            const pronunciationInput = document.getElementById('setting-pronunciation');
+            if (pronunciationInput) {
+                pronunciationInput.checked = !pronunciationInput.checked;
+                localStorage.setItem('setting-pronunciation', pronunciationInput.checked);
+                if (document.getElementById('np-overlay').classList.contains('active')) {
+                    renderLyrics(currentTrackId);
+                }
+            }
+        }
+
         document.addEventListener('click', (event) => {
             const menu = document.getElementById('np-options-menu');
             const btn = document.getElementById('btn-options');
@@ -998,7 +1013,7 @@
         // Initialize Settings from localStorage
         const savedPronunciation = localStorage.getItem('setting-pronunciation') === 'true';
         const savedTranslation = localStorage.getItem('setting-translation') !== 'false';
-        let translationMode = localStorage.getItem('setting-trans-lang') || 'none';
+        let translationMode = localStorage.getItem('setting-trans-lang') || 'cn';
 
         const pronunciationInput = document.getElementById('setting-pronunciation');
         const translationInput = document.getElementById('setting-translation');
@@ -1180,15 +1195,50 @@
             const showPronunciation = document.getElementById('setting-pronunciation') ? document.getElementById('setting-pronunciation').checked : false;
             const isTranslationEnabled = document.getElementById('setting-translation') ? document.getElementById('setting-translation').checked : true;
 
-            // Hide/show translation button according to the setting
+            // Check if track has pronunciation lyrics
+            let hasPronunciation = !!track.lyrics_rom;
+            if (typeof track.lyrics_rom === 'string') {
+                hasPronunciation = track.lyrics_rom.trim().length > 0;
+            } else if (Array.isArray(track.lyrics_rom)) {
+                hasPronunciation = track.lyrics_rom.length > 0;
+            }
+            if (!hasPronunciation && typeof track.lyrics === 'string' && track.lyrics.includes('|')) {
+                hasPronunciation = true;
+            }
+
+            // Update toggle pronunciation button visual state
+            const togglePronBtn = document.getElementById('btn-toggle-pron');
+            if (togglePronBtn) {
+                if (!hasPronunciation) {
+                    togglePronBtn.style.opacity = '0.3';
+                    togglePronBtn.style.color = 'rgba(255,255,255,0.3)';
+                    togglePronBtn.title = '暂无歌词发音 / No Pronunciation Available';
+                } else if (showPronunciation) {
+                    togglePronBtn.style.opacity = '1';
+                    togglePronBtn.style.color = '#fff';
+                    togglePronBtn.title = '关闭歌词发音 / Turn Off Pronunciation';
+                } else {
+                    togglePronBtn.style.opacity = '0.4';
+                    togglePronBtn.style.color = 'rgba(255,255,255,0.5)';
+                    togglePronBtn.title = '开启歌词发音 / Turn On Pronunciation';
+                }
+            }
+
+            // Hide/show translation language dropdown button according to the setting
             const transBtn = document.getElementById('btn-trans');
             if (transBtn) {
-                transBtn.style.display = isTranslationEnabled ? 'inline-block' : 'none';
+                transBtn.style.display = isTranslationEnabled ? 'flex' : 'none';
             }
 
             let effectiveTransMode = translationMode;
-            if (effectiveTransMode === 'cn' && !hasCn) effectiveTransMode = 'none';
-            if (effectiveTransMode === 'en' && !hasEn) effectiveTransMode = 'none';
+            if (effectiveTransMode === 'cn' && !hasCn) {
+                if (hasEn) effectiveTransMode = 'en';
+                else effectiveTransMode = 'none';
+            }
+            if (effectiveTransMode === 'en' && !hasEn) {
+                if (hasCn) effectiveTransMode = 'cn';
+                else effectiveTransMode = 'none';
+            }
 
             const transByTime = {};
             const plainTransList = [];
