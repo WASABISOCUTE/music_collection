@@ -512,13 +512,29 @@ footer {
     overflow: hidden;
 }
 
+@property --marquee-fade-ratio {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
 .marquee-text {
     display: inline-block;
+    flex-shrink: 0;
+}
+
+.marquee-spacer {
+    display: inline-block;
+    width: 48px;
+    flex-shrink: 0;
 }
 
 .marquee-content {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     white-space: nowrap;
+    will-change: transform;
+    transform: translateZ(0);
 }
 
 .marquee .marquee-content {
@@ -526,15 +542,86 @@ footer {
 }
 
 .marquee {
-    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    --fade-width: 20px;
+    --marquee-fade-ratio: 0;
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0px,
+        rgba(0, 0, 0, 0.15) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.2),
+        rgba(0, 0, 0, 0.55) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.55),
+        rgba(0, 0, 0, 0.88) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.82),
+        black calc(var(--fade-width) * var(--marquee-fade-ratio)),
+        black calc(100% - var(--fade-width)),
+        rgba(0, 0, 0, 0.88) calc(100% - var(--fade-width) * 0.82),
+        rgba(0, 0, 0, 0.55) calc(100% - var(--fade-width) * 0.55),
+        rgba(0, 0, 0, 0.15) calc(100% - var(--fade-width) * 0.2),
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent 0px,
+        rgba(0, 0, 0, 0.15) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.2),
+        rgba(0, 0, 0, 0.55) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.55),
+        rgba(0, 0, 0, 0.88) calc(var(--fade-width) * var(--marquee-fade-ratio) * 0.82),
+        black calc(var(--fade-width) * var(--marquee-fade-ratio)),
+        black calc(100% - var(--fade-width)),
+        rgba(0, 0, 0, 0.88) calc(100% - var(--fade-width) * 0.82),
+        rgba(0, 0, 0, 0.55) calc(100% - var(--fade-width) * 0.55),
+        rgba(0, 0, 0, 0.15) calc(100% - var(--fade-width) * 0.2),
+        transparent 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
     text-overflow: clip !important;
+    animation: np-marquee-mask var(--marquee-duration, 8s) linear infinite;
+}
+
+.np-title.marquee {
+    --fade-width: 28px;
+}
+
+.np-artist.marquee {
+    --fade-width: 20px;
+}
+
+.np-toast-title.marquee {
+    --fade-width: 18px;
+}
+
+.np-toast-artist.marquee {
+    --fade-width: 14px;
+}
+
+.badge.marquee,
+.badge .marquee,
+.badge-text.marquee {
+    --fade-width: 10px;
+}
+
+@keyframes np-marquee-mask {
+    0%,
+    12% {
+        --marquee-fade-ratio: 0;
+    }
+
+    18% {
+        --marquee-fade-ratio: 1;
+    }
+
+    94% {
+        --marquee-fade-ratio: 1;
+    }
+
+    100% {
+        --marquee-fade-ratio: 0;
+    }
 }
 
 @keyframes np-marquee-left {
-
     0%,
-    15% {
+    12% {
         transform: translateX(0);
     }
 
