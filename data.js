@@ -4346,6 +4346,42 @@ By my hand`,
     },
     {
         chapter: 3,
+        title: '初嵐',
+        artist: 'DECO*27',
+        context: '',
+        desc: '',
+        date: 'NOV 2025',
+        ytId: 'L7BxD7HHWl4',
+        start: 0,
+        lyrics: `
+        `,
+    },
+    {
+        chapter: 3,
+        title: '夜もすがら君想ふ',
+        artist: 'Leo/need',
+        context: '',
+        desc: '',
+        date: 'NOV 2025',
+        ytId: 'M39eT_tbtjI',
+        start: 0,
+        lyrics: `
+        `,
+    },
+    {
+        chapter: 3,
+        title: '乙女解剖',
+        artist: '25時、ナイトコードで。',
+        context: '',
+        desc: '',
+        date: 'NOV 2025',
+        ytId: 'JluOv0KD9Wc',
+        start: 0,
+        lyrics: `
+        `,
+    },
+    {
+        chapter: 3,
         title: 'Flyer!', artist: 'Vivid BAD SQUAD',
         context: '', desc: '',
         date: 'NOV 2025', ytId: 'gr4FAlsibeg', start: 0,
@@ -7458,6 +7494,17 @@ Well, it doesn't matter anymore.
     },
     {
         chapter: 4,
+        title: 'ロキ',
+        artist: 'Leo/need',
+        context: '',
+        desc: '',
+        date: 'FEB 2026',
+        ytId: 'V-7cDTePL8E',
+        start: 0,
+        lyrics: ``
+    },
+    {
+        chapter: 4,
         title: 'リアライズ', artist: 'Vivid BAD SQUAD',
         context: '2026 Opening', desc: '',
         date: 'MAR 2026', ytId: 'uuFNVow4ciw', start: 0,
@@ -8051,6 +8098,76 @@ Come from
 Far, far away in the future
 We meet, meet once again
 To that person’s place we go!`
+    },
+    {
+        chapter: 4,
+        title: 'だれかの心臓になれたなら',
+        artist: 'ユリイ・カノン / 月詠み',
+        context: '',
+        desc: '',
+        date: 'MAR 2026',
+        ytId: 'hZFBTnzKa54',
+        start: 0,
+        lyrics: `[00:00.72]「こんな世界」と嘆くだれかの
+[00:04.28]生きる理由になれるでしょうか
+[00:07.66]これは僕が　いま君に贈る
+[00:10.85]最初で最期の愛の言葉だ
+[00:14.48]
+[00:28.70]街も人も歪み出した　化け物だと気付いたんだ
+[00:34.49]欲動に巣食った愚かさも　全てがこの目に映る
+[00:40.45]
+[00:41.34]シアトリカルに手の上で誰も彼も踊らされる
+[00:47.69]生まれた意味だって知らぬまま
+[00:51.11]形骸化した夢は錆びついてしまった
+[00:54.34]
+[00:54.62]「愛をください」
+[00:56.39]きっとだれもがそう願った
+[00:57.87]「愛をください」
+[00:58.78]そっと震えた手を取って
+[01:01.06]「愛をください」
+[01:02.27]心を抉る　醜いくらいに美しい愛を
+[01:07.40]
+[01:07.61]「こんな世界」と嘆くだれかの
+[01:10.67]生きる理由になれるでしょうか
+[01:14.10]いつか終わると気付いた日から
+[01:17.24]死へと秒を読む心臓だ
+[01:20.74]
+[01:21.09]ねえ　このまま雨に溺れて
+[01:23.94]藍に融けたって構わないから
+[01:27.19]どうか　どうか　またあの日のように
+[01:30.51]傘を差し出し笑ってみせてよ
+[01:33.92]
+[01:47.57]もしも夢が覚めなければ姿を変えずにいられた？
+[01:53.93]解けた指から消える温度
+[01:57.06]血を廻らせるのはだれの思い出？
+[02:00.26]
+[02:00.52]雨に濡れた廃線
+[02:01.22]煤けた病棟　並んだ送電塔
+[02:03.55]夕暮れのバス停　止まったままの観覧車
+[02:06.82]机に咲く花　君の声も
+[02:09.02]何もかも最初から無かったみたい
+[02:14.24]
+[02:15.13]死にたい僕は今日も息をして
+[02:18.64]生きたい君は明日を見失って
+[02:21.94]なのに　どうして悲しいのだろう
+[02:25.21]いずれ死するのが人間だ
+[02:28.71]
+[02:29.07]永遠なんてないけど
+[02:31.90]思い通りの日々じゃないけど
+[02:35.12]脆く弱い糸に繋がれた
+[02:38.51]次の夜明けがまた訪れる
+[02:41.72]
+[02:42.02]どんな世界も君がいるなら
+[02:45.16]生きていたいって思えたんだよ
+[02:48.35]僕の地獄で君はいつでも絶えず鼓動する心臓だ
+[02:55.10]
+[02:55.53]いつしか君がくれたように
+[03:01.87]僕も、
+[03:02.79]だれかの心臓になれたなら
+        `,
+        lyrics_zh: `
+        `,
+        trans_source_zh: ''
     },
     {
         chapter: 4,
@@ -12047,5 +12164,272 @@ Glory be unto you, Your Majesty Anastasya`,
         title: 'Pallida Mors', artist: 'HOYO-MiX',
         context: 'Game - Genshin Impact', desc: '',
         date: 'SEP 2026', ytId: 'BRp4lG4-tXk', start: 0, end: 209,
+    },
+    {
+        chapter: 4,
+        title: 'ハイドアンド・シーク', artist: 'Leo/need',
+        context: '', desc: '',
+        date: 'OCT 2026', ytId: '3oH34VkrIxg', start: 0,
+        lyrics: `[00:00.34]嫌われる事が怖くて
+[00:04.02]僕は僕は僕を隠した
+[00:07.73]誰かの陰口が痛くて
+[00:11.47]僕は耳を耳を塞いだ
+[00:14.82]
+[00:28.64]本当の僕は汚くって
+[00:32.00]きっとみんな僕を嫌うから
+[00:35.69]本当の僕は隠しちゃって
+[00:38.87]綺麗なとこだけ見せてたんだ
+
+[00:42.38]ある日誰の言葉も全部
+[00:45.87]嘘に聞こえて悲しくなった
+[00:49.23]そうだ僕の事を嫌うのは
+[00:52.75]誰かじゃなくて　見せたくない方の僕だ
+[00:57.98]
+[00:58.60]今君に　もういいかい　ねえまだだよ
+[01:02.96]本当の僕が恋しくなって
+[01:07.01]もう一回　呼びかけてみるけどまだ
+[01:11.20]見つからないよ
+[01:12.91]
+[01:13.33]ほら　もういいかい　ねえまだだよ
+[01:17.35]その内声も届かなくなって
+[01:21.52]もう一体　僕は僕が誰なのか
+[01:24.63]分からないんだ
+[01:26.30]
+[01:27.16]鬼さんこちら手の鳴る方へ
+[01:31.07]君は此処にいちゃいけないから
+[01:34.94]そんな事告げる僕の方が
+[01:38.27]よっぽど君より鬼みたいだ
+
+[01:41.56]遠く暗い世界に落ちた
+[01:44.89]君が最後に一言言った
+[01:48.18]君が僕を捨てて手に入れる
+[01:50.93]誰かの愛は　見せかけだけの愛だ
+[01:57.40]
+[01:58.20]今君に　もういいかい　ねえまだだよ
+[02:02.47]僕は誰かに愛されたくって
+[02:06.44]もう何回　嘘に嘘を重ねれば
+[02:10.08]救われるかな
+
+[02:12.85]ほら　もういいかい　ねえまだだよ
+[02:15.75]その内僕が僕じゃなくなって
+[02:20.06]もう一体　何がしたいのかさえも
+[02:23.96]分からないんだ
+[02:26.86]
+[02:54.09]明日君に打ち明けるんだ
+[02:57.98]僕は卑怯で臆病だって
+[03:01.91]誰かに嫌われる事よりも
+[03:04.70]何十倍も辛い事に気付いたよ
+[03:10.46]
+[03:11.15]今僕に　もういいかい　ねえまだだよ
+[03:15.99]本当の君はどこにいますか
+[03:20.01]もう何回　君の事を信じれば
+[03:23.93]断ち切れるかな
+
+[03:26.27]今君に　もういいかい　ねえもうちょっと
+[03:30.58]僕の世界が君に近付いて
+[03:34.24]もう一回　呼びかけてみたら
+[03:36.73]君の声が聞こえた
+
+[03:40.18]ほら　もういいかい　ねえもういいよ
+[03:43.89]その内空も少し色付いて
+[03:48.18]もう一歩　足を踏み出したら　ほらね
+[03:52.33]やっと君を見つけた
+[03:57.93]
+[04:08.74]愛される事を望んで
+[04:12.02]僕は僕は僕を隠した
+[04:15.90]痛んだ傷口を塞いで
+[04:18.98]僕は君を君を愛した`,
+        lyrics_cn: ``,
+        lyrics_en: `I was afraid of being hated
+So I, I hid myself
+Those words someone spoke behind my back hurt me
+So I just covered my ears, my ears
+
+The true me is a dirty person
+I know everyone hates me
+So I hide the true me
+And pretended to be a good person
+
+One day I felt all the words they spoke were a lie
+And became sad
+That's right, the one who hates me
+Is no one other than the version of myself I don't want people to see
+
+Now, ready or not here I come! Not yet!
+I yearn for the true me
+So I try calling out for it again
+But I can't still find the true me
+
+See, ready or not here I come! Not yet!
+But my voice soon grows faint
+Now I don't understand
+Who I am at all
+
+Catch me if you can
+This place is just not for you
+But in saying such a thing,
+I am way more of an "it" than you
+
+You fell down to a dark, distant world
+And said a few words to me at last
+"The love you get from someone by abandoning me
+Is nothing but a superficial love"
+
+Now, ready or not here I come! Not yet!
+I just want be loved by someone
+So how more times do I have to tell lies
+To be saved?
+
+See, ready or not here I come! Not yet!
+But I soon start to lose myself
+Now I don't understand
+What I want to do at all
+
+Tomorrow I'll confess to you
+that I'm a mean and cowardly person
+I've realized that hiding the true me
+Is much more painful than being hated by someone
+
+Now I tell myself, ready or not here I come! Not yet!
+Where can I find the true you?
+How more times do I have to believe you
+in order to give up the old me?
+
+Now, ready or not here I come! Just a little longer!
+The world that belongs to me comes closer to you
+So I try calling out for you again
+And I hear your voice
+
+See, ready or not here I come! I'm ready!
+The sky soon gains a bit of color
+I take another step forward to you,
+And, there you are, I finally find you
+
+I wanted to be loved
+So I, I made a mistake and hid myself
+I covered my painful wounds
+And I loved you, I loved you`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Damesukekun and Violet`,
+        lyrics_rom: `kirawareru koto ga kowakute
+boku wa boku wa boku wo kakushita
+dareka no kageguchi ga itakute
+boku wa mimi wo mimi wo fusaida
+
+hontou no boku wa kitanakutte
+kitto minna boku wo kirau kara
+hontou no boku wa kakushichatte
+kirei na toko dake misetetanda
+
+aru hi dare no kotoba mo zenbu
+uso ni kikoete kanashiku natta
+sou da boku no koto wo kirau no wa
+dareka ja nakute misetakunai hou no boku da
+
+ima kimi ni mou ii kai nee mada da yo
+hontou no boku ga koishiku natte
+mou ikkai yobikakete miru kedo mada
+mitsukaranai yo
+
+hora mou ii kai nee mada da yo
+sono uchi koe mo todokanaku natte
+mou ittai boku wa boku ga dare na no ka
+wakaranainda
+
+onisan kochira te no naru hou e
+kimi wa koko ni icha ikenai kara
+sonna koto tsugeru boku no hou ga
+yoppodo kimi yori oni mitai da
+
+tooku kurai sekai ni ochita
+kimi ga saigo ni hitokoto itta
+kimi ga boku wo sutete te ni ireru
+dareka no ai wa misekake dake no ai da
+
+ima kimi ni mou ii kai nee mada da yo
+boku wa dareka ni aisaretakutte
+mou nankai uso ni uso wo kasanereba
+sukuwareru kana
+
+hora mou ii kai nee mada da yo
+sono uchi boku ga boku ja nakunatte
+mou ittai nani ga shitai no ka sae mo
+wakaranainda
+
+ashita kimi ni uchiakerunda
+boku wa hikyou de okubyou datte
+dareka ni kirawareru koto yori mo
+nanjuubai mo tsurai koto ni kizuita yo
+
+ima boku ni mou ii kai nee mada da yo
+hontou no kimi wa doko ni imasu ka
+mou nankai kimi no koto wo shinjireba
+tachikireru kana
+
+ima kimi ni mou ii kai nee mou chotto
+boku no sekai ga kimi ni chikazuite
+mou ikkai yobikakete mitara
+kimi no koe ga kikoeta
+
+hora mou ii kai nee mou ii yo
+sono uchi sora mo sukoshi irozuite
+mou ippo ashi wo fumidashitara hora ne
+yatto kimi wo mitsuketa
+
+aisareru koto wo nozonde
+boku wa boku wa boku wo kakushita
+itanda kizuguchi wo fusaide
+boku wa kimi wo kimi wo aishita`
+    },
+    {
+        chapter: 4,
+        title: 'Still Blue feat.nakotanmaru', artist: `ナツノセ`,
+        context: '', desc: '',
+        date: 'OCT 2026', ytId: 'KIpFtuQLPGI', start: 0,
+        lyrics: `[00:00.65]A fleeting memory—‘I hate you.’
+[00:03.38]Wish someone ah would say, “I need you.”
+[00:06.01]Nothing good at this, but I hope you
+[00:08.99]Looking back—it’s always you
+[00:11.44]No one gon’ need you
+[00:12.97](Drowning ,misery)
+[00:14.15]I’m still feeling blue
+[00:15.64](Insecurity)
+[00:16.94]Until I met you
+[00:18.47]気づくには遅すぎたみたいなんだ
+[00:21.93]幽霊になってもこのメロディはどうか
+[00:25.24](穿っていけ 気にしないで)
+[00:27.40]君に伝えに行けたらと願った
+[00:30.62](雨よただ過ぎ去っておくれ)
+[00:33.09]人生だなんて適当がちょうどいいぜ
+[00:36.15](青色のギターも背負って)
+[00:38.42]綺麗な空を君と見ていたいな
+[00:43.72]君と綺麗なあの夏を思い出した
+[00:47.20]
+[00:57.27]無理して生きる 辞めたくなるよ
+[00:59.85]心のどこか 助けを待つの
+[01:02.72]どうにかならないかなと願うの
+[01:05.37]な訳ないよな
+[01:06.90]それでも生きる
+[01:08.13]それでも生きる
+[01:09.34]それでも生きる
+[01:10.76]それでも生きて
+[01:12.13]このままじゃいつまで経っても救われないままだね
+[01:17.68]幽霊になってもこのメロディはどうか
+[01:20.72](向かっていけ 気にしないで)
+[01:23.03]君に伝えに行けたらと願った
+[01:26.15](今だけは夢を見させて)
+[01:28.60]人生だなんて適当がちょうどいいぜ
+[01:31.65](少しの間だけこのまま)
+[01:33.96]綺麗な星を君と見ていたいな
+[01:39.45]君と綺麗なあの風を思い出した
+[01:42.93]
+[02:04.27]幽霊になってもこのメロディはどうか
+[02:07.20](穿っていけ 気にしないで)
+[02:09.55]君に伝えに行けたらと願った
+[02:12.65](雨よただ過ぎ去っておくれ)
+[02:15.10]人生だなんて適当がちょうどいいぜ
+[02:18.16](青色のギターも背負って)
+[02:20.52]綺麗な空を君と見ていたいな
+[02:26.06]君と綺麗な夏が終わった
+[03:11.90]`
     }
 ];

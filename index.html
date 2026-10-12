@@ -731,10 +731,11 @@
         function updateMarquee(element) {
             if (!element) return;
 
-            if (!element.hasAttribute('data-original-html')) {
+            const existingAttr = element.getAttribute('data-original-html') || element.getAttribute('data-original-text');
+            if (!existingAttr) {
                 element.setAttribute('data-original-html', element.innerHTML.trim());
             }
-            const contentHtml = element.getAttribute('data-original-html');
+            const contentHtml = element.getAttribute('data-original-html') || element.getAttribute('data-original-text') || element.innerHTML.trim();
 
             element.classList.remove('marquee');
             element.style.removeProperty('--marquee-distance');
@@ -756,7 +757,7 @@
                     const spacer = document.createElement('span');
                     spacer.className = 'marquee-spacer';
                     spacer.style.display = 'inline-block';
-                    spacer.style.width = '40px';
+                    spacer.style.width = '48px';
                     content.appendChild(spacer);
 
                     const textSpan2 = document.createElement('span');
@@ -764,10 +765,10 @@
                     textSpan2.innerHTML = contentHtml;
                     content.appendChild(textSpan2);
 
-                    const distance = textSpan.offsetWidth + spacer.offsetWidth;
+                    const distance = Math.ceil(textSpan.getBoundingClientRect().width) + 48;
 
-                    const speed = 40;
-                    const duration = distance / speed + 5;
+                    const speed = 36;
+                    const duration = (distance / speed) + 4;
 
                     element.style.setProperty('--marquee-distance', `-${distance}px`);
                     element.style.setProperty('--marquee-duration', `${duration}s`);
@@ -780,6 +781,19 @@
             updateMarquee(document.getElementById('np-title'));
             updateMarquee(document.getElementById('np-artist'));
         }
+
+        let marqueeResizeDebounceTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(marqueeResizeDebounceTimer);
+            marqueeResizeDebounceTimer = setTimeout(() => {
+                updateAllGridMarquees();
+                updateNowPlayingMarquees();
+                const toastTitle = document.getElementById('toast-title');
+                const toastArtist = document.getElementById('toast-artist');
+                if (toastTitle) updateMarquee(toastTitle);
+                if (toastArtist) updateMarquee(toastArtist);
+            }, 150);
+        });
 
         function getTrackIndexFromHash() {
             const hash = window.location.hash.replace(/^#\/?/, '').trim();
@@ -922,10 +936,12 @@
             if (currentTrackId !== undefined && isPlayerReady) {
                 const track = activeTracks[currentTrackId];
                 const toastTitle = document.getElementById('toast-title');
+                toastTitle.setAttribute('data-original-html', track.title);
                 toastTitle.setAttribute('data-original-text', track.title);
                 toastTitle.innerText = track.title;
 
                 const toastArtist = document.getElementById('toast-artist');
+                toastArtist.setAttribute('data-original-html', track.artist);
                 toastArtist.setAttribute('data-original-text', track.artist);
                 toastArtist.innerText = track.artist;
 
