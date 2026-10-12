@@ -1648,7 +1648,7 @@ You will appear there
 and the fire will roar
 And the fire will burn for you
 And the fire will burn for you`,
-        trans_source_en: `musixmatch | Translate by Diego Khalifa & Anthony Page`
+        trans_source_en: `musixmatch | Translated by Diego Khalifa & Anthony Page`
     },
     {
         chapter: 2,
@@ -4365,8 +4365,151 @@ By my hand`,
         date: 'NOV 2025',
         ytId: 'M39eT_tbtjI',
         start: 0,
-        lyrics: `
+        lyrics: `[00:15.08]僕が生まれる前よりも
+[00:18.11]ずっと昔から続くように
+[00:21.48]そういつも傷付け合ってまた
+[00:24.60]愛し合うのさ
+[00:26.55]
+[00:27.86]結婚や仕事のトークにまた
+[00:31.44]ちょっと疲れてたとしても
+[00:34.57]そう僕も他人事なんかじゃない、
+[00:37.84]わかってるのさ
+[00:39.44]
+[00:40.63]明けない夜は無いと
+[00:43.55]夜明け前がただ暗いと
+[00:46.73]この先に待つ明日が
+[00:49.02]そんなに輝くもんかなぁ？
+[00:51.57]
+[00:53.42]今 I Love Youで始まる僕らを
+[00:57.49]もっと照らしてくれよ
+[01:00.04]変わらない愛や希望の類いもまだ
+[01:03.90]信じてみたいのさ
+[01:05.97]
+[01:06.31]ほらI Miss Youって諦めムードでも
+[01:10.37]wow 蹴飛ばして行けよ
+[01:13.05]時代柄暗い話題が街行けど、
+[01:16.92]愛を謳う
+[01:18.75]
+[01:33.39]僕が取るに足らぬ事で
+[01:36.42]いつも悩んだりしてるのは
+[01:39.54]言っちゃえばアダムとイヴから
+[01:42.78]もう決まってたのさ
+[01:44.05]
+[01:45.74]なんとなく恋に落ちて
+[01:48.55]いつの間にか本気だって
+[01:51.58]張り裂けそうな胸の奥を
+[01:54.14]打ち明けなくっちゃな
+[01:56.43]
+[01:58.37]今 I Love Youで始まる僕らを
+[02:02.27]もっと満たしてくれよ
+[02:04.88]イメージ通りには運ばぬ物としても
+[02:08.60]信じてみたいのさ
+[02:11.06]
+[02:11.25]ほらI Miss Youって賞味期限がある
+[02:15.18]Oh Yes 急かしてくれよ
+[02:17.90]時代柄暗い未来が待ち受けど、
+[02:21.83]愛を謳う
+[02:23.21]
+[02:24.92]ああどうか夜明けまで
+[02:27.41]君の声が聞きたい
+[02:30.22]
+[02:34.90]いつの時代も代わり映えしなくてさ
+[02:40.88]僕ら同じ事で悩んだり、
+[02:45.17]悲しんだり、
+[02:47.05]笑ったりしてんのにな
+[02:49.67]
+[02:49.92]解り合うのはそう簡単じゃない
+[02:53.22]ただこんなにも君とリンクしてる、重なっていく
+[02:58.59]
+[02:59.22]今 I Love Youで始まる僕らを
+[03:03.17]もっと照らしてくれよ
+[03:05.80]変わらない愛や希望の類いもまだ
+[03:09.51]信じてみたいのさ
+[03:11.74]
+[03:12.11]ほらI Miss Youって諦めムードでも
+[03:16.11]wow 蹴飛ばして行けよ
+[03:18.63]時代柄暗い話題が街行けど、
+[03:22.59]愛を謳う
+[03:23.92]
+[03:25.83]僕が生まれる前よりも
+[03:29.18]ずっと昔から続くように
+[03:32.18]そういつも傷付け合ってまた
+[03:35.46]愛し合うのさ
         `,
+        lyrics_rom: `boku ga umareru mae yori mo
+zutto mukashi kara tsuzuku you ni
+sou itsumo kizutsukeatte mata
+aishiau no sa
+
+kekkon ya shigoto no tooku ni mata
+chotto tsukareteta to shite mo
+sou boku mo hitogoto nanka janai,
+wakatteru no sa
+
+akenai yoru wa nai to
+yoake mae ga tada kurai to
+kono saki ni matsu asu ga
+sonna ni kagayaku mon kanaa?
+
+ima I Love You de hajimaru bokura wo
+motto terashite kure yo
+kawaranai ai ya kibou no tagui mo mada
+shinjite mitai no sa
+
+hora I Miss You tte akirame muudo demo
+wow ketobashite ike yo
+jidaigara kurai wadai ga machi yukedo,
+ai wo utau
+
+boku ga toru ni taranu koto de
+iitsumo nayandari shiteru no wa
+icchaeba adamu to ivu kara
+mou kimatteta no sa
+
+nantonaku koi ni ochite
+itsunomanika honki datte
+harisakesou na mune no oku wo
+uchiakenakuccha na
+
+ima I Love You de hajimaru bokura wo
+motto mitashite kure yo
+imeejidoori ni wa hakobanu mono to shite mo
+shinjite mitai no sa
+
+hora I Miss You tte shoumi kigen ga aru
+Oh Yes sekashite kure yo
+jidaigara kurai mirai ga machi yukedo,
+ai wo utau
+
+aa douka yoake made
+kimi no koe ga kikitai
+
+itsu no jidai mo kawaribae shinakute sa
+bokura onaji koto de nayandari,
+kanashindari,
+warattari shiten nonina
+
+wakariau no wa sou kantan janai
+tada konna ni mo kimi to rinku shiteru, kasanatte iku
+
+ima I Love You de hajimaru bokura wo
+motto terashite kure yo
+kawaranai ai ya kibou no tagui mo mada
+shinjite mitai no sa
+
+hora I Miss You tte akirame muudo demo
+wow ketobashite ike yo
+jidaigara kurai wadai ga machi yukedo,
+ai wo utau
+
+boku ga umareru mae yori mo
+zutto mukashi kara tsuzuku you ni
+sou itsumo kizutsukeatte mata
+aishiau no sa`,
+        lyrics_en: ``,
+        lyrics_cn: ``,
+        trans_source_cn: ``,
+        trans_source_en: ``,
     },
     {
         chapter: 3,
@@ -4377,8 +4520,267 @@ By my hand`,
         date: 'NOV 2025',
         ytId: 'JluOv0KD9Wc',
         start: 0,
-        lyrics: `
+        lyrics: `[00:01.02]乙女解剖であそぼうよ
+[00:04.05]ドキドキしたいじゃんか誰だって
+[00:07.56]恥をしたい　痛いくらいが良いんだって知った
+[00:12.56]あの夜から
+[00:14.41]
+[00:28.70]こんばんは、今平気かな？
+[00:31.45]特に言いたいこともないんだけど
+[00:35.18]もうあれやこれや浮かぶ「いいな」
+[00:37.88]君が居なくちゃどれでもないや
+[00:39.63]仮面同士でイチャついてら
+
+[00:43.09]寸寸　恋と表記せず
+[00:46.23]気持ち　vs　退屈はPK戦
+[00:49.81]そうなにもかもに迷子がおり
+[00:52.15]泪流してSOSを
+[00:54.40]半目開きで娘娘する
+
+[00:57.68]病事も全部
+[00:59.62]君のもとへ添付
+[01:01.52]ツライことほど分け合いたいじゃない
+[01:04.45]この好きから逃げたいな
+
+[01:08.16]やっぱぱぱ
+[01:09.66]乙女解剖であそぼうよ
+[01:12.45]本当の名前でほら呼び合って
+[01:15.97]「いきたくない」　そう言えばいいんだった
+[01:20.35]楽になれるかな
+
+[01:23.57]乙女解剖であそぼうよ
+[01:26.79]ドキドキしたいじゃんか誰だって
+[01:30.38]恥をしたい　痛いくらいが良いんだって知った
+[01:35.30]あの夜から
+[01:37.00]
+[01:51.09]こんな早くにごめんね
+[01:53.90]起こしちゃったよね 今大丈夫？
+[01:57.79]君が別の人のことを
+[01:59.91]好きになるって夢を見たんだ
+[02:01.57]否定してほしい　ねえ愛して？
+
+[02:05.09]朝と夜2回分
+[02:07.29]君に撒くスパイス
+[02:09.03]思い込みの狂気　効果はない
+[02:12.05]ねえ最近冷たいね
+
+[02:15.83]やっぱぱぱ
+[02:17.57]乙女解剖であそぼうよ
+[02:19.94]身を焦がす感情をヌき合って
+[02:23.57]もうバカみたい　「嫌嫌」がたまんないの
+[02:27.65]誤解は解けるかな
+
+[02:30.96]乙女解剖であそぼうよ
+[02:34.18]涎をバケットの上に塗って
+[02:37.87]確かめよう　期待外れ最高潮だった
+[02:43.83]あの夜から
+[02:45.53]
+[03:01.12]乙女解剖であそぼうよ
+[03:03.27]本当の名前でほら呼び合って
+[03:06.61]「いきたくない」　そう言えばいいんだった
+[03:10.96]楽になれるかな
+
+[03:14.82]乙女解剖であそぼうよ
+[03:18.14]ドキドキしたいじゃんか誰だって
+[03:21.89]恥をしたい　痛いくらいが良いんだって知った
+[03:26.82]あの夜みたいに
         `,
+        lyrics_rom: `otome kaibou de asobou yo
+dokidoki shitai jan ka dare datte
+haji wo shitai itai kurai ga iin datte shitta
+ano yoru kara
+
+konbanwa, ima heiki kana?
+toku ni iitai koto mo nain dakedo
+mou are ya kore ya ukabu "ii na"
+kimi ga inakucha dore demo nai ya
+kamen doushi de icha tsuitera
+
+sunzun koi to hyouki sezu
+kimochi tai taikutsu wa PK sen
+sou nani mo kamo ni maigo ga ori
+namida nagashite SOS wo
+hanmebiraki de nyanyan suru
+
+yamaigoto mo zenbu
+kimi no moto e tenpu
+tsurai koto hodo wake aitai janai
+kono suki kara nigetai na
+
+yappapapa
+otome kaibou de asobou yo
+hontou no namae de hora yobiatte
+"ikitakunai" sou ieba iin datta
+raku ni nareru kana
+
+otome kaibou de asobou yo
+dokidoki shitai jan ka dare datte
+haji wo shitai itai kurai ga iin datte shitta
+ano yoru kara
+
+konna hayaku ni gomenne
+okoshichatta yo ne ima daijoubu?
+kimi ga betsu no hito no koto wo
+suki ni naru tte yume wo mitan da
+hitei shite hoshii nee aishite?
+
+asa to yoru nikaibun
+kimi ni maku supaisu
+omoikomi no kyouki kouka wa nai
+nee saikin tsumetai ne
+
+yappapapa
+otome kaibou de asobou yo
+mi wo kogasu kanjou wo nu kiatte
+mou baka mitai "iyaiya" ga tamannai no
+gokai wa tokeru kana
+
+otome kaibou de asobou yo
+yodare wo baketto no ue ni nutte
+tashikameyou kitai hazure saikouchou datta
+ano yoru kara
+
+otome kaibou de asobou yo
+hontou no namae de hora yobiatte
+"ikitakunai" sou ieba iin datta
+raku ni nareru kana
+
+otome kaibou de asobou yo
+dokidoki shitai jan ka dare datte
+haji wo shitai itai kurai ga iin datte shitta
+ano yoru mitai ni`,
+        lyrics_en: `Let's play Maiden Dissection!
+Don't we all want some excitement to get our hearts pumping?
+I've wanted to feel shame ever since that night when I realized
+It's good as long as it hurts
+
+Good evening, is now a good time?
+I didn't really have anything specific I wanted to say, but
+Now there's this and that, and an "it's alright" comes to mind
+Without you, none of that matters
+Both of us with our masks on, we flirted
+
+It's in pieces, without spelling out "love"
+It's a penalty shoot-out, Feelings vs. Boredom
+Yeah, there's a kid there, lost in anything and everything,
+Shedding tears, meowing "SOS"
+With their eyes only halfway open
+
+This disease, the whole package,
+I'll send it to you as an attachment
+I don't wanna go so far as to share all the things that cause me pain
+I just wanna run away from this love...
+
+Either way,
+Let's play Maiden Dissection!
+Calling each other by our real names
+"I don't wanna live" was what I should've said
+Will I ever find peace?
+
+Let's play Maiden Dissection!
+Don't we all want some excitement to get our hearts pumping?
+I've wanted to feel shame, ever since that night when I realized
+It's good as long as it hurts
+
+Sorry for calling you so early
+I must've woken you up, huh?
+Are you up to chat right now?
+I had a dream where you fell in love with somebody else
+Please tell me it's not true! C'mon, love me please?
+
+Two times a day, morning and night,
+I'll sprinkle spices on you
+The insanity of wrong assumptions has no effect
+Listen, you've been pretty cold lately
+
+Either way,
+Let's play Maiden Dissection!
+Pulling burning passion out of each other
+Feels stupid already, I can't stand you telling me "no!"
+Will we ever clear up this misunderstanding?
+
+Let's play Maiden Dissection!
+Smearing drool on top of the "baguette"
+Let's see if our climax had been a letdown
+Ever since that night
+
+Let's play Maiden Dissection!
+Calling each other by our real names
+"I don't wanna live" was what I should've said
+Will I ever find peace?
+
+Let's play Maiden Dissection!
+Don't we all want some excitement to get our hearts pumping?
+I wanna feel shame, just like I did on that night when I realized
+It's good as long as it hurts`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by MML!opinions!Fun!Chocolate!`,
+        lyrics_cn: `来玩名为少女解剖的游戏吧, 
+无论是谁都会想体验心跳不已的感觉的吧, 
+想要体会羞耻的感觉,知道了能感到疼痛的程度才更好, 
+自那个夜晚以来, 
+
+晚上好，你还好吗？
+虽然没什么 特别想说的事情, 
+感觉 浮现出的 这样的 那样的都“不错”, 
+如果不是你的话 就没有意义, 
+如果同样带着面具的 两人亲热了起来的话
+
+嗅 嗅 并未写作恋爱, 
+感觉 vs 无聊的PK战, 
+无论是什么事情 都会迷失方向, 
+流着眼泪发出SOS, 
+半睁着眼睛 喵喵叫着, 
+
+将生病的事情全部, 
+附加到你的身边, 
+虽然不如伤心事那般想要与你分享, 
+想从这份喜欢的感情那里逃走啊, 
+
+果然啊, 
+来玩名为少女解剖的游戏吧, 
+用真正的名字 互相呼唤, 
+“不想活下去”, 只要这样说出口就好, 
+能够得到解脱吗,
+
+来玩名为少女解剖的游戏吧, 
+无论是谁 都会想体验心跳不已的感觉的吧, 
+“想要体会羞耻的感觉”, 知道了能感到疼痛的程度才更好, 
+自那个夜晚以来,
+
+这么早真是不好意思啊, 
+被我吵醒了吧 现在不要紧吗？
+我做了个 你喜欢上了别人 的梦, 
+希望你能否定它, 
+希望你能否定它 呐 爱着我吧？
+
+早晨和夜晚 两次的分量, 
+向你撒下的 香料, 
+注入了思念的 狂气 没有效果, 
+呐 最近好冷淡啊, 
+
+果然啊, 
+来玩名为少女解剖的游戏吧 , 
+将那火热的感情,互相褪下, 
+像个笨蛋一样, “讨厌讨厌” 无法忍受, 
+能够将误会解开吗,
+
+来玩名为少女解剖的游戏吧, 
+将口水涂在法棍上 
+来确认看看吧, 是令人失望的最高潮啊, 
+自那夜晚以来, 
+
+来玩名为少女解剖的游戏吧, 
+用真正的名字互相呼唤, 
+“不想活下去”, 只要这样说出口就好, 
+能够得到解脱吗, 
+来玩名为少女解剖的游戏吧.
+
+无论是谁都会想体验心跳不已的感觉的吧, 
+想要体会羞耻的感觉, 
+知道了能感到疼痛的程度才更好, 
+像那个夜晚一般.
+`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由CreadStoner翻译`
     },
     {
         chapter: 3,
@@ -4451,6 +4853,205 @@ By my hand`,
 
 [03:12.59]Wow Wow 飛び立てば 正解!
 [03:22.56]Wow Wow 飛び立てば 正解!`,
+        lyrics_rom: `Wow Wow tobitateba seikai!
+Wow Wow tobitateba seikai!
+
+doko made mo mada mada takai kabe
+sorette dokomade mo tada tada kowagatte inai?
+ano sora wa konna ni mo konna ni mo aoku sunde iru noni
+mada konna ni mo konna ni mo mayou hitsuyou wa nai nai
+
+osanai kono ashi ga
+fumidasu ji to matteru
+
+bokura Flyer! Flyer!
+akogare dake ja nakute norikoete
+kimi mo Flyer! Flyer!
+egakidasunda sekai wo
+
+ano hi yumemita yume ga
+saikou no joushou kiryuu nando datte
+kono kokoro believe in it
+asu mo kitto kaisei!
+
+Wow Wow tobitateba seikai!
+
+kujikesou ni natteita
+ano hi no boku no hyoujou tabun sa boomy boomy
+hajikesou ni natte ii nda
+sunao na boku no omoi wa bloomy bloomy
+
+fuwari to fuwari to oikaze no naka de
+tada fuwari to fuwari to koe wo tobashite
+
+kono yo ni sei wo motta imi?
+sonna koto kangaete iru mae ni
+agaite misete
+ippo fumidashite
+
+bokura Flyer! Flyer!
+koukai wo kowagattecha hajimaranai
+kimi mo Flyer! Flyer!
+shinjiterunda sekai wo
+
+ano hi yumemita yume ga
+saikyou no joushou kiryuu itsudatte
+kono omoi believe in it
+asatte mo kaisei!
+
+umidashite ima
+koko ni bokutachi no suteeji
+
+asu wa kaisei!
+Flyer! Flyer!
+hibike kimi no kooru yo 3, 2, 1 Say!
+
+Flyer! Flyer!
+sarakedasunda sekai wo
+
+ano hi yumemita yume ga
+saikyou no joushou kiryuu itsudatte
+kono omoi believe in it
+asatte mo kaisei!
+
+kumo tsukinuke
+egakidasu sekai e
+
+Wow Wow tobitateba seikai!
+Wow Wow tobitateba seikai!`,
+        lyrics_en: `Wow Wow Taking flight is the right answer!
+Wow Wow Taking flight is the right answer!
+
+Everywhere you go, there's another, another tall wall blocking the way,
+but even so, are you just gonna be afraid, wherever wherever you go?
+That sky is so clear and blue,
+so there's no need to hesitate so much
+
+These feet, still immature,
+have been waiting for ground to step forward on
+
+We are Flyer! Flyer!
+We won't just stand here and admire, we'll surpass it
+You, too, are a Flyer! Flyer!
+We'll imagine our world
+
+The dream that we dreamed of that day
+has been our best updraft, time and time again
+Believe in this heart of mine
+Tomorrow, too, will surely be sunny!
+
+Wow Wow Taking flight is the right answer!
+
+That day, when we were about to lose heart,
+our expressions were probably all boomy boomy
+It's okay if you feel like they’re about to burst,
+our true feelings are bloomy bloomy
+
+Gently, in the midst of the tailwind
+We just lightly, softly, set our voices adrift
+
+In this world, what meaning does life hold?
+Before thinking about that,
+show me your struggles and efforts
+and take a step forward!
+
+We are Flyer! Flyer!
+We’ll never get anywhere by being scared of regrets
+You, too, are a Flyer! Flyer!
+I believe in this world!
+
+The dream that we dreamed of that day
+will always be the best updraft
+Believe in this heart and these feelings
+The day after tomorrow, too, will surely be sunny!
+
+Right here, our stage
+is being born right now!
+
+Tomorrow will be sunny!
+Flyer! Flyer!
+Let your shouts ring out 3,2,1, Say!
+
+Flyer! Flyer!
+We'll lay bare our world
+
+The dream that we dreamed of that day
+will always be the best updraft
+Believe in these feelings
+The day after tomorrow, too, will surely be sunny!
+
+Burst through the clouds,
+and head toward the world we imagine!
+
+Wow Wow Taking flight is the right answer!
+Wow Wow Taking flight is the right answer!`,
+        trans_source_en: `YouTube @Chinozo | Translated by Shiru (@kimiomatsuhibi)`,
+        lyrics_cn: `Wow Wow　奋力跃起就是　正确！
+Wow Wow　奋力跃起就是　正确！
+
+周遭仍是无止尽的高墙，
+所以直到最后都要这样害怕下去吗？
+明明那片蔚蓝天空是如此地　如此地澄澈，
+因此没有必要再继续像这样　像这样迷茫下去了，
+
+稚嫩的双脚，
+静候大步迈出的这一刻，
+
+我们是Flyer！Flyer！
+不要只是仰望　抬起头奋力去超越，
+你也是Flyer！Flyer！
+将这个世界奋力描绘，
+
+那一天的梦中景象
+就是最棒的上升气流，
+心中无数次　believe in it，
+明天也一定晴空万里！
+
+Wow Wow　奋力跃起就是　正确！
+那一天的我　颓丧着的脸　大概是boomy boomy。
+就算绽开也无妨
+我率真的念想是　bloomy bloomy，
+
+轻轻地　轻轻地　在顺风中，
+仅仅　轻轻跳起　然后大声呐喊，
+
+活在这世上的意义？
+在想破头皮之前
+何不挣扎一番
+迈出一小步
+
+我们是Flyer！Flyer！
+若是沉湎于后悔就将止步不前，
+你也是Flyer！Flyer！
+坚信着这个世界，
+
+那一天的梦中景象
+就是最棒的上升气流，
+无论何时这份念想都　believe in it，
+后天也是晴空万里！
+
+
+现在脚下创造出的，
+就是属于我们的舞台，
+
+明天一定晴空万里！
+Flyer！Flyer！
+喊出你的应援吧　3,2,1　Say！
+
+Flyer！Flyer！
+揭开世界的面纱，
+
+那一天的梦中景象
+就是最棒的上升气流，
+无论何时这份念想都　believe in it，
+后天也是晴空万里！
+
+冲破云霄
+向着描绘出的世界，
+
+Wow Wow 奋力跃起就是　正确！
+Wow Wow 奋力跃起就是　正确！`,
+        trans_source_cn: `哔哩哔哩 @Project_SEKAI资讯站 | 由PJS字幕组（翻译 : una）翻译`
     },
     {
         chapter: 3,
@@ -4464,10 +5065,10 @@ By my hand`,
 [00:13.70]まぶしいよ
 [00:15.15]きっとヒットだよ
 
-[00:17.93]예뻐예뻐 언니 (Hey) [ye-po-ye-po-on-ni]
-[00:19.99]진짜진짜 귀여워 [jin-cha-jin-cha-gi-yeo-wo]
-[00:21.68]뭐해뭐해 언니 (Hey) [mo-hae-mo-hae-on-ni]
-[00:23.26]めっちゃくっちゃ 배고파 [bae-go-pa]
+[00:17.93]예뻐예뻐 언니 (Hey)
+[00:19.99]진짜진짜 귀여워
+[00:21.68]뭐해뭐해 언니 (Hey)
+[00:23.26]めっちゃくっちゃ 배고파
 [00:24.86]ステージ果てまでなぜだコイツ信じらんねw
 [00:28.02]ヒメムーブ展開 (チュ)
 
@@ -4493,10 +5094,10 @@ By my hand`,
 [01:12.13]確かな慰めは
 [01:15.71]きっとヒットだよ
 
-[01:18.35]예뻐예뻐 언니 (Hey) [ye-po-ye-po-on-ni]
-[01:20.72]진짜진짜 귀여워 [jin-cha-jin-cha-gi-yeo-wo]
-[01:21.58]뭐해뭐해 언니 (Hey) [mo-hae-mo-hae-on-ni]
-[01:23.38]めっちゃくっちゃ 배고파 [bae-go-pa]
+[01:18.35]예뻐예뻐 언니 (Hey)
+[01:20.72]진짜진짜 귀여워
+[01:21.58]뭐해뭐해 언니 (Hey)
+[01:23.38]めっちゃくっちゃ 배고파
 [01:24.78]ステージ果てまでなぜだコイツ信じらんねw
 [01:28.02]トントントントントントントントン
 [01:31.10]サボる
@@ -4531,6 +5132,230 @@ By my hand`,
 
 [02:29.90]ラー
 [02:31.46]終わった`,
+        lyrics_rom: `hora
+        mite mite mite kono oora
+kitto hitto da yo
+miccha miccha dame miccha dame
+mabushii yo
+kitto hitto da yo
+
+yeppeoyeppeo eonni (Hey)
+jinjjajinjja gwiyeowo
+mwohaemwohae eonni (Hey)
+mecchakuccha baegopa
+suteeji hate made naze da koitsu shinjiranne
+hime muubu tenkai (chu)
+
+boku no boku no oora biimu
+(pyon pyon pyon pyon)
+yarareta?
+aitai aitai aishite
+gachi de
+raburii suupa kyuutii beibii
+egui yo
+
+uchi no uchi no oora biimu
+(pyon pyon pyon pyon)
+bibitta?
+genkai toppa rimittaa kaijo muteki no
+raburii suupa kyuutii beibii
+emoi yo
+raburii suupa kyuutii beibii
+da! yo! ne! chu!
+
+yokei na omajinai
+kitto hitto da yo
+tashika na nagusame wa
+kitto hitto da yo
+
+yeppeoyeppeo eonni (Hey)
+jinjjajinjja gwiyeowo
+mwohaemwohae eonni (Hey)
+mecchakuccha baegopa
+suteeji hate made naze da koitsu shinjiranne
+ton ton ton ton ton ton ton ton
+saboru
+
+nanana...
+(pyon pyon pyon pyon)
+nanana...
+hime muubu tenkai (chu)
+
+todoke todoke tobitai
+atashi atashi toketa
+gachi de
+raburii suupa kyuutii beibii
+egui yo
+
+(oora biimu)
+boku no boku no oora biimu
+(pyon pyon pyon pyon)
+saitei da
+genkai toppa rimittaa kaijo muteki no
+raburii suupa kyuutii beibii
+egui yo
+
+rarararara (pyon)
+rarararara (pyon)
+saitei nante iwanaide daisuki desu
+genkai toppa rimittaa kaijo muteki no
+raburii suupa kyuutii beibii
+emoi yo
+raburii suupa kyuutii beibii
+da! yo! ne! chu!
+
+rarara rarara
+owatta`,
+        lyrics_en: `Hey
+Look peep this aura
+It’s gonna be a hit, no cap
+Don’t stare too long, nope Too bright
+I know, sorry not sorry
+Yeah, it’s gonna hit, trust
+
+Pretty, pretty unnie (Hey)
+Really, really cute
+Whatchu doin’ unnie (Hey)
+I’m mega hungry low-key starving
+To the end of the stage hello?? can’t believe this lol
+HIME-move deploying
+
+My AURA BEAM
+(PPPP)
+got hit?
+Wanna see you love me
+for real
+Lovely, super cutie, baby
+that’s WILD
+
+Our AURA BEAM
+(PPPP)
+You got spooked, right?
+Limit break Limiter Off INVINCIBLE MODE
+Lovely, super cutie, baby
+I’m emotional, send help
+Lovely, super cutie, baby
+That! is! right!
+
+No extra charms no cheats needed
+This one’s a hit, easy
+Even “solid comfort”
+Still a hit. Watch me.
+
+Pretty, pretty unnie (Hey)
+Really, really cute
+whatchu doin' unnie (Hey)
+I'm super hungry, help
+To the edge of the stage what is she even lol
+Tun Tun Tun Tun Tun Tun Tun Tun Tun
+I’m slacking
+
+NA-
+PPPP
+NA-
+HIME-move deploying
+
+Reach me let me fly
+It’s me melting
+for real
+Lovely, super cutie, baby
+AWESOME
+
+(AURA BEAM)
+My AURA BEAM
+PPPP
+you’re the worst
+Limit break limiter off INVINCIBLE MODE
+Lovely, super cutie, baby
+that's WILD
+
+La la la la la (PYON)
+La la la la la (PYON)
+Don’t call me “the worst” I LOVE YOU
+Limit break limiter off INVINCIBLE MODE
+Lovely, super cutie, baby
+AWESOME
+Lovely, super cutie, baby
+That! is! right!
+
+La la la la la la
+It’s OVER`,
+        trans_source_en: `YouTube @TAK / DORIDORI`,
+        lyrics_cn: `来啦
+        快看快看快看这个气场
+肯定会hit啦
+不行不能盯太久不能盯太久
+太刺眼了啊
+肯定会hit啦
+
+你好漂亮好漂亮 大姊姊 (Hey)
+真的真的好可爱
+你在干嘛在干嘛 大姊姊 (Hey)
+超级无敌饥饿啦
+整个舞台从头到尾 都在搞甚么啦这傢伙简直不敢置信w
+公主模式展开 (啾)
+
+我的我的气场光线
+(Pyon Pyon Pyon Pyon)
+被击倒了？
+想见你想见你爱我吧
+认真的
+Lovely Super Cutie Baby
+太扯了啦
+
+我们的我们的气场光线
+(Pyon Pyon Pyon Pyon)
+被吓到了？
+突破极限 解除限制 无敌状态的
+Lovely Super Cutie Baby
+太感动啦
+Lovely Super Cutie Baby
+没！错！吧！啾！
+
+不需要多余的咒语
+肯定会hit啦
+即使是确实的安慰
+肯定会hit啦
+
+你好漂亮好漂亮 大姊姊 (Hey)
+真的真的好可爱
+你在干嘛在干嘛 大姊姊 (Hey)
+超级无敌饥饿啦
+整个舞台从头到尾 都在搞甚么啦这傢伙简直不敢置信w
+Tun Tun Tun Tun Tun Tun Tun Tun Tun
+偷懒一下
+
+Na
+(Pyon Pyon Pyon Pyon)
+Na
+公主模式展开 (啾)
+
+传到吧传到吧好想飞
+我啊我啊融化掉了
+认真的
+Lovely Super Cutie Baby
+太扯了啦
+
+（气场光线）
+我的我的气场光线
+(Pyon Pyon Pyon Pyon)
+你烂透了
+突破极限 解除限制 无敌状态的
+Lovely Super Cutie Baby
+太扯了啦
+
+La La La La La (Pyon)
+La La La La La (Pyon)
+别说甚么我烂透了最喜欢的就是你
+突破极限 解除限制 无敌状态的
+Lovely Super Cutie Baby
+太感动啦
+Lovely Super Cutie Baby
+没！错！吧！啾！
+
+La
+完了啦`,
+        trans_source_cn: `巴哈姆特 @Fir`
     },
     {
         chapter: 3,
@@ -4893,7 +5718,7 @@ Neither of those feelings have to be untrue
 Sing, sing, o heart of mine!
 Both hope and despair drive my pulse
 (oh oh oh oh oh...)`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Shiru`,
         lyrics_cn: `因渴望呼吸，而发出第一声啼哭
 又因生存艰辛而再度哭泣着叫喊着
 想要继续生存？想要就此离世？
@@ -5255,7 +6080,7 @@ Shine, shine on, even as the sky's unfortunately showering meteors! Within that 
 (MORE MORE MORE MORE JUMP) Wherever you are, as if understanding me,
 Polar Star, you found me, you're watching me, so that I'm never lost again.
 We continue to shine!`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Thai1210`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Thai1210`,
     },
     {
         chapter: 3,
@@ -6104,7 +6929,7 @@ Ah, softly, this is what you said:
 "It doesn't matter what you tell me, you are still you."
 "So, please remain as you are."
 And you were smiling.`,
-        trans_source_en: `YouTube @Guiano | Translate by anon`
+        trans_source_en: `YouTube @Guiano | Translated by anon`
     },
     {
         chapter: 4,
@@ -6589,7 +7414,7 @@ Not able to hold back the overflowing tears
 not knowing the meaning
 I'll be shaken by the time machine
 and come back again`,
-        trans_source_en: `YouTube @40meterP | Translate by AnimeLyrics @t12111`,
+        trans_source_en: `YouTube @40meterP | Translated by AnimeLyrics @t12111`,
         trans_source_cn: `YouTube @40meterP`,
         lyrics_cn: `得意扬扬轻声说道
         不用担心我
@@ -6773,7 +7598,7 @@ Even if I'm lost somewhere,
 I have to think, so that you will be right
 Whose, whose, sake is this for?
 What will be, what will be good for you?`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Roseofthewind1`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Roseofthewind1`,
         lyrics_cn: `梦中的我总是不停奔逃 以这笨拙的姿态
 不惜借助盘外招狡猾脱身 才得以安心长舒口气
 立足之地又崩塌一处 不得不另寻出路
@@ -6908,7 +7733,7 @@ I will hunt down the truth that fled until the very end
             [02:46.04]
             [02:49.63]
             [02:54.77]`,
-        trans_source_en: `lyricstranslate.com | Translate by Rahmatjjang`,
+        trans_source_en: `lyricstranslate.com | Translated by Rahmatjjang`,
         lyrics_cn: `[00:02.58]
             [00:07.62]
             [00:12.63]
@@ -7501,7 +8326,217 @@ Well, it doesn't matter anymore.
         date: 'FEB 2026',
         ytId: 'V-7cDTePL8E',
         start: 0,
-        lyrics: ``
+        lyrics: `[00:15.98]さあ 眠眠打破 昼夜逆転
+[00:17.89]VOX AC30w
+[00:19.86]テレキャスター背負ったサブカルボーイがバンド仲間にやっほー
+
+[00:22.63]アルバイトはネクラモード
+[00:24.28]対バンにはATフィールド
+[00:25.88]“人見知り”宣言で逃げる気か BOY
+[00:29.50]
+[00:31.29]ゆーて お坊ちゃん お嬢ちゃん お金も才能も
+[00:35.37]なまじっかあるだけ厄介でやんす
+[00:38.42]Boys be ambitious（はいはい）
+[00:40.04]Like this old man
+[00:41.55]長い前髪 君 誰の信者
+[00:45.40]
+[00:47.01]信者 信者
+[00:54.38]勘違いすんな 教祖はオマエだ
+
+[00:57.63]ロキロキのロックンロックンロール
+[01:00.03]かき鳴らすエレクトリックギターは
+[01:02.92]Don't Stop! Don't Stop!
+[01:04.51]さあ君の全てを
+[01:06.10]曝け出してみせろよ
+[01:07.82]ロキロキのロックンロックンロール
+[01:10.17]
+[01:11.10]さあ　日進月歩
+[01:12.18]いい曲書いてる？　動員ふえてる？
+[01:14.01]「知名度あるけど人気はそんなにないから色々大変ですね。」
+
+[01:17.21]はっきり言うなよ　匿名アイコン
+[01:19.03]はっきり見せない　実写のアイコン
+[01:20.59]いい歳こいて自意識まだ BOY
+[01:23.42]
+[01:25.90]ぶっちゃけどんだけ賢くあざとくやったって
+[01:29.80]10年後にメイクは落ちてんだよ
+[01:33.21]Boys be ambitious（はいはい）
+[01:34.54]Like this old man（え？）
+[01:36.20]生き抜くためだ　キメろ Take a "Selfy"
+[01:39.58]
+[01:41.85]"Selfy" "Selfy"
+[01:48.46]死ぬんじゃねぇぞ　お互いにな！
+
+[01:52.39]ロキロキのロックンロックンロール
+[01:54.74]薄っぺらいラブソングでもいい
+[01:57.01]Don't Stop! Don't Stop!
+[01:58.44]さあ目の前のあの子を
+[02:00.15]撃ち抜いてみせろよ
+[02:01.90]ロキロキのロックンロックンロール
+[02:04.88]
+[02:19.47]お茶を濁してちゃ満足できない
+[02:22.58]スタジオに運ばれたスロートコートは
+[02:26.08]安心　不安心　プレッシャーでいっぱい
+[02:28.86]「実は昨日から風邪で声が出ません」
+[02:32.87]は？　は？　は？　は？
+[02:38.60]
+[02:41.29]はぁ… 寝言は寝て言え
+[02:46.45]ベイビー ベイビー
+[02:53.32]
+[02:55.28]死ぬんじゃねぇぞ　お互いにな！
+
+[02:59.30]ロキロキのロックンロックンロール
+[03:01.98]かき鳴らすエレクトリックギターは
+[03:04.46]Don't Stop! Don't Stop!
+[03:05.97]さあ君の全てを
+[03:07.56]曝け出してみせろよ
+[03:09.25]ロキロキのロックンロックンロール
+[03:11.79]
+[03:12.45]ロキロキの ロックンロックンロール
+[03:17.64]
+[03:21.57]死ぬんじゃねぇぞ（死ぬんじゃねぇぞ）
+[03:24.75]死にたかねぇのは お互い様！`,
+        lyrics_rom: `saa minmin daha chuuya gyakuten
+VOX AC30W
+terekyasutaa seotta sabukarubooi ga bando nakama ni yahhoo
+
+arubaito wa nekuramoodo
+tai ban ni wa AT fiirudo
+"hitomishiri" sengen de nigeru ki ka BOY
+
+yuute obocchan ojouchan okane mo sainou mo
+namajikka aru dake yakkai de yansu
+Boys be ambitious (hai hai)
+Like this old man
+nagai maegami kimi dare no shinja
+
+shinja shinja
+kanchigai sunna kyouso wa omae da
+
+rokiroki no rokkunrokkunrooru
+kakinarasu erekutorikku gitaa wa
+Don't Stop! Don't Stop!
+saa kimi no subete wo
+sarake dashite misero yo
+rokiroki no rokkunrokkunrooru
+
+saa nisshingeppo
+ii kyoku kaiteru? douin fueteru?
+"chimeido aru kedo ninki wa sonna ni nai kara iroiro taihen desu ne."
+
+hakkiri iu na yo tokumei aikon
+hakkiri misenai jissha no aikon
+ii toshi koite jiishiki mada BOY
+
+bucchake dondake kashikoku azatoku yattatte
+juunengo ni meiku wa ochiten dayo
+Boys be ambitious (hai hai)
+Like this old man (e?)
+ikinuku tame da kimero Take a "Selfy"
+
+"Selfy" "Selfy"
+shinun janee zo otagai ni na!
+
+rokiroki no rokkunrokkunrooru
+usupperai rabusongu demo ii
+Don't Stop! Don't Stop!
+saa me no mae no ano ko wo
+uchinuite misero yo
+rokiroki no rokkunrokkunrooru
+
+ocha wo nigoshitecha manzoku dekinai
+sutajio ni hakobareta surootokooto wa
+anshin fuanshin puresshaa de ippai
+"jitsu wa kinou kara kaze de koe ga demasen"
+ha? ha? ha? ha?
+
+haa... negoto wa nete ie
+beibii beibii
+
+shinun janee zo otagai ni na!
+
+rokiroki no rokkunrokkunrooru
+kakinarasu erekutorikku gitaa wa
+Don't Stop! Don't Stop!
+saa kimi no subete wo
+sarake dashite misero yo
+rokiroki no rokkunrokkunrooru
+
+rokiroki no rokkunrokkunrooru
+
+shinun janee zo (shinun janee zo)
+shinita ka nee no wa otagaisama!`,
+        lyrics_en: `Come on! Slam an energy drink, you nocturnal boy,
+VOX AC30w.
+The alt boy lugging a telecaster shoots a "Yo!" to his bandmates.
+
+He's in gloomy mode at his part-time,
+And against other bands he's got an AT field.
+You gonna declare "I'm shy" and run away, boy?
+
+Listen up princesses, even with money, or talent,
+If you half-ass things, you're in for trouble.
+Boys be ambitious... (Yup, yup.)
+Like this old man.
+With those shaggy bangs, whose devotee are you?
+
+Devotee, devotee,
+Don't get it mixed up, you're the deity!
+
+Rockin' rockin' rock 'n rock 'n roll,
+That shredding of the electric guitar,
+Don't stop! Don't stop!
+Come on, take all you've got,
+Lay it out and show 'em,
+Rockin' rockin' rock 'n rock 'n roll!
+
+Alright! Rising up in the world,
+"You writin' good songs?" "Gettin' more fans?"
+"You've got some recognition, but not so much fame, so it's pretty rough right now, huh?"
+
+Don't say it so openly, an anonymous icon.
+Won't show himself so openly, this live action icon.
+Even with age, he's still an insecure BOY.
+
+In reality, no matter how clever, how cunning you are,
+In 10 years your face is gonna fall.
+Boys be ambitious, (Yup, yup.)
+Like this old man. (Wait, what?)
+It's to survive. Come on! Take a "selfy"!
+
+"Selfy", "Selfy",
+There's no way I'm dying, together now!
+
+Rockin' rockin' rock 'n rock 'n roll,
+A flimsy love song is fine, just,
+Don't stop! Don't stop!
+Come on, let me see you
+Pierce the heart of that girl right in front of you,
+Rockin' rockin' rock 'n rock 'n roll!
+
+These makeshift fixes won't satisfy me,
+The herbal tea remedy that was left for me at the studio,
+Gives me both relief and anxiety, I'm being crushed under pressure.
+Cuz "The truth is, since yesterday, due to a cold, I lost my voice."
+What?! What?! What?! What?!
+
+Hah... Stop messing around.
+Baby, baby...
+
+I'm not dying, together now!
+
+Rockin' rockin' rock 'n rock 'n roll,
+That shredding of the electric guitar,
+Don't stop! Don't stop!
+Come on, take all you've got,
+Lay it out and show 'em,
+Rockin' rockin' rock 'n rock 'n roll!
+
+Rockin' rockin' rock 'n rock 'n roll!
+
+I'm not gonna die, (There's no way I'm dying,)
+We're not gonna die, either of us!`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Crispin`
     },
     {
         chapter: 4,
@@ -7640,7 +8675,7 @@ Don't forget these feelings of frustration,
 If we look ahead,
 We'll be able to repaint a miracle,
 Drawing out a vivid, bright world!`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Shiru`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Shiru`,
         lyrics_cn: `迷惘错误　无法前进的日子
 我以为我已经了若指掌了呢
 我尚未得到满足　对峙　再次MISTAKE
@@ -7895,7 +8930,7 @@ haruka na
 mirai mirai kara
 saikai saikai
 ano kata no chi e`,
-        trans_source_cn: `YouTube @DIVELA / Official | Translate by 89`,
+        trans_source_cn: `YouTube @DIVELA / Official | Translated by 89`,
         lyrics_cn: `
 来来让我们热烈欢迎
 坏崽子 被肃清的时间
@@ -7997,7 +9032,7 @@ ano kata no chi e`,
 未来 未来去
 再会 再会
 前往那人所在之地！`,
-        trans_source_en: `Vocaloid Lyrics Wiki | Translate by Hiraethie`,
+        trans_source_en: `Vocaloid Lyrics Wiki | Translated by Hiraethie`,
         lyrics_en: `Now, now, here I come
 Time to purge every bad kid there is
 The alternative, aimless machine
@@ -8459,7 +9494,7 @@ It must have seemed they were the ones gone mad...
 And so they slept, intending to smile,
 Because the two had been freed...
 In that dead world, two alone were happy...`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by vgperson`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by vgperson`,
         lyrics_cn: `这是在很久很久以后
         在时间的终点
 所有人都得到永生的
@@ -9172,7 +10207,7 @@ Wherever you want, if that's what you wish
 & I Wanna—I've had enough with just wanting, I'm done, so done
 If it's possible, I want to know about and walk into the world beyond this
 Ready Steady`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Azayaka`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Azayaka`,
         lyrics_cn: `光是只有低风险的话就变得不足够
 像是过剩而使人发笑
 即使说出「什么都没有」这种话也让人感到了无奈
@@ -9381,7 +10416,7 @@ Just like that, what we yearned for is on the other side.
 (Uh...) Looks like it's about to burst, as we run, our backs together are growing hot,
 (Uh...) Looks like it's about to burst, this ringing will never stop till my life ends.
 To the other side of our limits`,
-        trans_source_en: "Project SEKAI Fandom Wiki | Translate by Thai1210",
+        trans_source_en: "Project SEKAI Fandom Wiki | Translated by Thai1210",
         lyrics_cn: `在总是让人窒息的　冷淡的无趣夜路上
         
 我真想忽略规则并就这么前进呢
@@ -9806,7 +10841,7 @@ mada matsu yo
 
 mou ii kai
 `,
-        trans_source_cn: `YouTube @164 | Translate by MIU`,
+        trans_source_cn: `YouTube @164 | Translated by MIU`,
         lyrics_cn: `说说我很久前就在想着的事吧
 只要能回到朋友就别无所求了
 你认同的话我那样也没有关系
@@ -9846,7 +10881,7 @@ mou ii kai
 我还会等待着
 
 这样可以了吗`,
-        trans_source_en: `YouTube @164 | Translate by Blacksaingrain`,
+        trans_source_en: `YouTube @164 | Translated by Blacksaingrain`,
         lyrics_en: `Shall I tell you what I've been thinking for a long time?
 If I can be your friend once again, I won't ask for more
 If you don't care, I won't care either
@@ -12309,7 +13344,7 @@ I wanted to be loved
 So I, I made a mistake and hid myself
 I covered my painful wounds
 And I loved you, I loved you`,
-        trans_source_en: `Project SEKAI Fandom Wiki | Translate by Damesukekun and Violet`,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Damesukekun and Violet`,
         lyrics_rom: `kirawareru koto ga kowakute
 boku wa boku wa boku wo kakushita
 dareka no kageguchi ga itakute
