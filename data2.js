@@ -125,9 +125,9 @@ They say, "Move for me, move for me, move for me, ay-ay
 And when you're done, I'll make you do it all again
 All again"
         `,
-                lyrics_zh: `
+                lyrics_cn: `
         `,
-                trans_source_zh: ''
+                trans_source_cn: ''
         },
         //Chapter 00
         {
@@ -200,9 +200,9 @@ But you never showed for me when I was ringin' your cellphone
 Oh, you don't know how it feels to be alone
 Baby, oh, I'll make you know, I'll make you know, oh
         `,
-                lyrics_zh: `
+                lyrics_cn: `
         `,
-                trans_source_zh: ''
+                trans_source_cn: ''
         },
         // Chapter 01
         {
@@ -218,9 +218,9 @@ Baby, oh, I'll make you know, I'll make you know, oh
         `,
                 lyrics_rom: `
         `,
-                lyrics_zh: `
+                lyrics_cn: `
         `,
-                trans_source_zh: ''
+                trans_source_cn: ''
         },
         //Chapter 02
         {
@@ -666,9 +666,9 @@ kuchihatete shimau mae ni
 egao wo ukabete ojigi wo shimashou
 
 kimi ga suki na uta nagare hajiketa`,
-                lyrics_zh: `
+                lyrics_cn: `
         `,
-                trans_source_zh: '',
+                trans_source_cn: '',
                 lyrics_en: `The present time is 4 AM,
 I'm sick and tired of everyone.
 The shape of my existence
@@ -883,62 +883,117 @@ That song you liked so much streamed out.`,
                 date: 'SEP 2026',
                 ytId: 'IooV6ilL6YA',
                 start: 0,
-                lyrics: `Ku layangkan segala anganku
-Ku lepaskan semua khayalan jiwaku
-Berpijak di bumi yang satu
-Memandang tinggi di langit biru
-Satu janji di dalam hati
-Satu mimpi yang akan ku raih
-Harapanku dalam hidup ini
-Ku ingin menggapai cita dan cinta
-Ini bukanlah satu mimpi
-Atau ilusi dalam jiwa yang sunyi
-Ini adalah realiti
-Keyakinan insan yang penuh visi
-Satu janji di dalam hati
-Satu mimpi yang akan ku raih
-Harapanku dalam hidup ini
-Ku ingin menggapai cita dan cinta
-
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
-
-Ini bukanlah satu mimpi
-Atau ilusi dalam jiwa yang sunyi
-Ini adalah realiti
-Keyakinan insan yang penuh visi
-Satu janji di dalam hati
-Satu mimpi yang akan ku raih
-Harapanku dalam hidup ini
-Ku ingin menggapai cita dan cinta
-
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
-
-Satu, satu mimpi
-Di dalam hidupku ini
-Satu, satu janji
-Yang ku gapai pasti
+                lyrics: `[00:18.40]Ku layangkan segala anganku
+[00:21.63]Ku lepaskan semua khayalan jiwaku
+[00:26.84]Berpijak di bumi yang satu
+[00:29.90]Memandang tinggi di langit biru
+[00:34.25]Satu janji di dalam hati
+[00:38.10]Satu mimpi yang akan ku raih
+[00:42.45]Harapanku dalam hidup ini
+[00:45.92]Ku ingin menggapai cita dan cinta
+[00:49.65]
+[00:53.36]Ini bukanlah satu mimpi
+[00:56.67]Atau ilusi dalam jiwa yang sunyi
+[01:01.34]Ini adalah realiti
+[01:04.14]Keyakinan insan yang penuh visi
+[01:08.82]Satu janji di dalam hati
+[01:12.77]Satu mimpi yang akan ku raih
+[01:16.97]Harapanku dalam hidup ini
+[01:20.32]Ku ingin menggapai cita dan cinta
+[01:24.90]
+[01:27.58]Satu, satu mimpi
+[01:31.39]Di dalam hidupku ini
+[01:35.72]Satu, satu janji
+[01:38.90]Yang ku gapai pasti
+[01:44.18]Satu, satu mimpi
+[01:47.69]Di dalam hidupku ini
+[01:51.79]Satu, satu janji
+[01:55.33]Yang ku gapai pasti
+[01:58.19]
+[02:29.48]Ini bukanlah satu mimpi
+[02:32.24]Atau ilusi dalam jiwa yang sunyi
+[02:37.61]Ini adalah realiti
+[02:40.16]Keyakinan insan yang penuh visi
+[02:45.07]Satu janji di dalam hati
+[02:49.13]Satu mimpi yang akan ku raih
+[02:53.51]Harapanku dalam hidup ini
+[02:56.66]Ku ingin menggapai cita dan cinta
+[03:00.86]
+[03:03.35]Satu, satu mimpi
+[03:07.28]Di dalam hidupku ini
+[03:11.14]Satu, satu janji
+[03:13.63]Yang ku gapai pasti
+[03:17.22]
+[03:18.86]Satu, satu mimpi
+[03:23.59]Di dalam hidupku ini
+[03:28.01]Satu, satu janji
+[03:30.80]Yang ku gapai pasti
+[03:36.30]Satu, satu mimpi
+[03:39.67]Di dalam hidupku ini
+[03:43.75]Satu, satu janji
+[03:47.54]Yang ku gapai pasti
+[03:50.18]
+[03:52.36]Satu, satu mimpi
+[03:56.34]Di dalam hidupku ini
+[03:59.97]Satu, satu janji
+[04:03.35]Yang ku gapai pasti
         `,
-                lyrics_zh: `
+                lyrics_cn: `我放飞心中所有的梦想
+我抛开灵魂中所有的幻想
+脚踏同一片大地
+仰望高远的蓝天
+心中怀着一个承诺
+一个我终将实现的梦想
+这是我此生的希望
+我渴望实现理想，拥抱爱情
+
+这并不是一场梦
+也不是孤寂灵魂中的幻象
+这就是现实
+是一个心怀远大愿景之人的坚定信念
+心中怀着一个承诺
+一个我终将实现的梦想
+这是我此生的希望
+我渴望实现理想，拥抱爱情
+
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
+
+这并不是一场梦
+也不是孤寂灵魂中的幻象
+这就是现实
+是一个心怀远大愿景之人的坚定信念
+心中怀着一个承诺
+一个我终将实现的梦想
+这是我此生的希望
+我渴望实现理想，拥抱爱情
+
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
+
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
+
+一个，一个梦想
+就在我的生命之中
+一个，一个承诺
+我一定会将它实现
         `,
-                trans_source_zh: ''
+                trans_source_cn: 'WASABISOCUTE'
         },
 ];
 

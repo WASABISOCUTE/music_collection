@@ -9200,9 +9200,9 @@ To that person’s place we go!`
 [03:01.87]僕も、
 [03:02.79]だれかの心臓になれたなら
         `,
-        lyrics_zh: `
+        lyrics_cn: `
         `,
-        trans_source_zh: ''
+        trans_source_cn: ''
     },
     {
         chapter: 4,
@@ -13274,7 +13274,76 @@ Glory be unto you, Your Majesty Anastasya`,
 [04:12.02]僕は僕は僕を隠した
 [04:15.90]痛んだ傷口を塞いで
 [04:18.98]僕は君を君を愛した`,
-        lyrics_cn: ``,
+        trans_source_cn: `vocaloid中文歌詞wiki @kyroslee`,
+        lyrics_cn: `很害怕被人讨厌
+所以我将我将自己藏起来了
+他人的造谣中伤令人痛苦
+所以我将耳朵将耳朵堵住了
+
+真正的我是如此的污俗
+大家都一定很讨厌我呢
+所以真正的我躲起来了
+只展露出美丽的一面给人看
+
+有一天某人的说话亦全部
+听起来感觉是谎言似的令人感到悲伤
+对啊讨厌着我的人
+并非他人　而是那个不愿展露人前的自己呢
+
+现在你　已经准备好了吗　还未啊
+真正的我堕入爱河了
+即使我再一次　试着呼唤了你
+亦仍然找不到你啊
+
+来吧　已经准备好了吗　还未啊
+这道心声亦无法传达给你
+到底究竟　我是我是谁呢
+已经搞不清楚了
+
+鬼啊往拍掌声响起的这边走吧
+你可不能待在这裹呢
+那样告诉你的我
+比你更像是鬼呢
+
+掉落到遥远昏暗的世界裹
+你对我说道了最后一言
+你将我舍弃了然后又得到手中
+某人的爱　亦不过只是虚有其表的爱而已
+
+现在你　已经准备好了吗　还未啊
+我想要被爱
+只要如此　无数次以谎言掩饰谎言
+我就能得到救赎了吗
+
+来吧　已经准备好了吗　还未啊
+如此一来我就不再是我了
+就连究竟　自己想要做些什么
+亦搞不清楚啊
+
+明天就要向你坦白
+告诉你知我是如此的卑怯懦弱
+因为我发现了
+那是比被人讨厌更要痛苦数十倍的事啊
+
+现在我　已经准备好了吗　还未啊
+真正的你身在何方呢
+只要再无数次　去相信你的话
+就能断绝这一切了吗
+
+现在我　已经准备好了吗　再等一等
+我的世界在靠近着你
+如此再一次　试着呼唤了你
+然后就能听到你的声音
+
+来吧　已经准备好了吗　呐已经准备好了啊
+如此一来天空亦稍微添上了色彩
+就这样　再踏出一步的话　看吧
+终于能找到你了
+
+渴望着得到某人的爱
+我将我将自己藏起来了
+堵起疼痛的伤口
+我爱上了爱上了你`,
         lyrics_en: `I was afraid of being hated
 So I, I hid myself
 Those words someone spoke behind my back hurt me
@@ -13465,6 +13534,143 @@ boku wa kimi wo kimi wo aishita`
 [02:18.16](青色のギターも背負って)
 [02:20.52]綺麗な空を君と見ていたいな
 [02:26.06]君と綺麗な夏が終わった
-[03:11.90]`
+[03:11.90]`,
+        lyrics_rom: `[00:00.65]
+[00:03.38]
+[00:06.01]
+[00:08.99]
+[00:11.44]
+[00:12.97]
+[00:14.15]
+[00:15.64]
+[00:16.94]
+kizuku ni wa ososugita mitai nanda
+yuurei ni natte mo kono merodi wa douka
+(ugatte ike ki ni shinaide)
+kimi ni tsutae ni iketara to negatta
+(ame yo tada sugisatte okure)
+jinsei da nante tekitou ga choudo ii ze
+(ao iro no gitaa mo seotte)
+kirei na sora o kimi to mite itai na
+kimi to kirei na ano natsu o omoidashita
+
+muri shite ikiru yametaku naru yo
+kokoro no dokoka tasuke o matsu no
+dou ni ka naranai ka na to negau no
+na wake nai yo na
+sore demo ikiru
+sore demo ikiru
+sore demo ikiru
+sore demo ikite
+kono mama ja itsu made tatte mo sukuwarenai mama da ne
+yuurei ni natte mo kono merodi wa douka
+(mukatte ike ki ni shinaide)
+kimi ni tsutae ni iketara to negatta
+(ima dake wa yume o misasete)
+jinsei da nante tekitou ga choudo ii ze
+(sukoshi no aida dake kono mama)
+kirei na hoshi o kimi to mite itai na
+kimi to kirei na ano kaze o omoidashita
+
+yuurei ni natte mo kono merodi wa douka
+(ugatte ike ki ni shinaide)
+kimi ni tsutae ni iketara to negatta
+(ame yo tada sugisatte okure)
+jinsei da nante tekitou ga choudo ii ze
+(ao iro no gitaa mo seotte)
+kirei na sora o kimi to mite itai na
+kimi to kirei na natsu ga owatta`,
+        lyrics_cn: `一段短暂的回忆——「我恨你。」
+希望有人能说一句：「我需要你。」
+我并不擅长这些，但我希望你……
+回首望去——始终都是你
+没有人会需要你
+（沉溺于痛苦之中）
+我依然郁郁寡欢
+（不安与自卑）
+直到我遇见了你
+似乎已经太迟，迟到无法察觉
+即使化作幽灵，也希望这段旋律能够……
+（尽管刺穿一切，不要在意）
+若能将心意传达给你就好了，我如此祈愿
+（雨啊，就这样悄然消逝吧）
+所谓人生，随意一点才恰到好处啊
+（也背上那把蓝色的吉他）
+好想与你一同仰望美丽的天空
+与你一起，想起了那个美丽的夏天
+
+勉强自己活下去，真的会让人想要放弃啊
+在内心的某个角落，仍在等待着救赎
+祈求着事情能不能有所转机
+怎么可能呢
+即便如此，还是要活下去
+即便如此，还是要活下去
+即便如此，还是要活下去
+即便如此，也要活下去
+若继续这样下去，无论时间过去多久，都依然无法得到救赎吧
+即使化作幽灵，也希望这段旋律能够……
+（勇敢地向前吧，不要在意）
+若能将心意传达给你就好了，我如此祈愿
+（至少现在，让我继续做一场梦吧）
+所谓人生，随意一点才恰到好处啊
+（就这样，再多停留片刻）
+好想与你一同仰望美丽的星辰
+与你一起，想起了那阵美丽的风
+
+即使化作幽灵，也希望这段旋律能够……
+（尽管刺穿一切，不要在意）
+若能将心意传达给你就好了，我如此祈愿
+（雨啊，就这样悄然消逝吧）
+所谓人生，随意一点才恰到好处啊
+（也背上那把蓝色的吉他）
+好想与你一同仰望美丽的天空
+与你一起度过的美丽夏日，已经结束了`,
+        trans_source: `WASABISOCUTE`,
+        lyrics_en: `[00:00.65]
+[00:03.38]
+[00:06.01]
+[00:08.99]
+[00:11.44]
+[00:12.97]
+[00:14.15]
+[00:15.64]
+[00:16.94]
+It seems I realized it far too late
+Even if I become a ghost, I hope this melody will somehow...
+(Pierce through it all, don't mind it)
+I wished I could go and tell you how I feel
+(Rain, please just pass on by)
+Life, after all, is better when you don't take it too seriously
+(With a blue guitar on my back, too)
+I want to gaze at the beautiful sky with you
+With you, I remembered that beautiful summer
+
+Living while forcing myself onward makes me want to give up
+Somewhere in my heart, I'm waiting for someone to save me
+I keep wishing things could somehow get better
+But that's never going to happen, is it?
+Even so, I'll keep living
+Even so, I'll keep living
+Even so, I'll keep living
+Even so, I'll keep on living
+
+If things stay this way, I'll never be saved, no matter how much time passes
+Even if I become a ghost, I hope this melody will somehow...
+(Keep moving forward, don't mind it)
+I wished I could go and tell you how I feel
+(Just for now, let me keep dreaming)
+Life, after all, is better when you don't take it too seriously
+(Just like this, for a little while longer)
+I want to gaze at the beautiful stars with you
+With you, I remembered that beautiful breeze
+
+Even if I become a ghost, I hope this melody will somehow...
+(Pierce through it all, don't mind it)
+I wished I could go and tell you how I feel
+(Rain, please just pass on by)
+Life, after all, is better when you don't take it too seriously
+(With a blue guitar on my back, too)
+I want to gaze at the beautiful sky with you
+The beautiful summer I shared with you has come to an end`
     }
 ];
