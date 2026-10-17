@@ -276,10 +276,11 @@
             { id: 4, title: 'Chapter 04', subtitle: '2026 • In Progress' }
         ];
 
-        let isSecretMode = false;
-        let activeTracks = tracks;
-        let activeConfig = (typeof config !== 'undefined') ? config : {};
-        let activeChapters = defaultChapters;
+        const savedSecretAuth = (sessionStorage.getItem('secret_auth') === 'true');
+        let isSecretMode = savedSecretAuth;
+        let activeTracks = isSecretMode ? (window.tracks2 || tracks2) : tracks;
+        let activeConfig = isSecretMode ? (window.config2 || config2 || config) : ((typeof config !== 'undefined') ? config : {});
+        let activeChapters = isSecretMode ? (window.chapters2 || chapters2) : defaultChapters;
         let isConsoleOpen = false;
         let isTransitioning = false;
         const SECRET_PINS = ['100601'];
@@ -348,6 +349,13 @@
             }
         }
         renderGrid();
+        if (isSecretMode) {
+            document.body.classList.add('secret-mode');
+            const logoElem = document.querySelector('header .logo');
+            if (logoElem) {
+                logoElem.innerHTML = '<i class="fa-solid fa-user-secret"></i> WASABISOCUTE Music Collection <span class="secret-badge">CLASSIFIED</span>';
+            }
+        }
 
         function scrollToChapter01(behavior = 'instant') {
             const ch1 = document.getElementById('section-ch1');
@@ -848,18 +856,33 @@
             }, 150);
         });
 
-        function getTrackIndexFromHash() {
-            const hash = window.location.hash.replace(/^#\/?/, '').trim();
-            if (!hash) return -1;
+        function parseTrackHash(hashString = window.location.hash) {
+            const cleanHash = (hashString || '').replace(/^#\/?/, '').trim();
+            if (!cleanHash) return null;
 
-            // 1. Search by track.id in activeTracks (string or number comparison)
-            const matchById = activeTracks.findIndex(t => t.id !== undefined && t.id !== null && String(t.id) === hash);
+            const isSecret = /^(?:secret[-_/]|s[-_/])/i.test(cleanHash);
+            const targetId = isSecret ? cleanHash.replace(/^(?:secret[-_/]|s[-_/])/i, '') : cleanHash;
+
+            return {
+                isSecret,
+                targetId,
+                originalHash: cleanHash
+            };
+        }
+
+        function findTrackIndex(trackList, targetId) {
+            if (!trackList || targetId === undefined || targetId === null) return -1;
+            const strTarget = String(targetId).trim();
+            if (!strTarget) return -1;
+
+            // 1. Search by track.id in trackList (string or number comparison)
+            const matchById = trackList.findIndex(t => t.id !== undefined && t.id !== null && String(t.id) === strTarget);
             if (matchById !== -1) return matchById;
 
-            // 2. Fallback: Check if hash is a valid numeric array index within bounds
-            if (/^-?\d+$/.test(hash)) {
-                const idx = parseInt(hash, 10);
-                if (idx >= 0 && idx < activeTracks.length) {
+            // 2. Fallback: Search by numeric array index
+            if (/^-?\d+$/.test(strTarget)) {
+                const idx = parseInt(strTarget, 10);
+                if (idx >= 0 && idx < trackList.length) {
                     return idx;
                 }
             }
@@ -867,24 +890,56 @@
             return -1;
         }
 
-        function handleHashChangeOnLoad() {
-            const trackIndex = getTrackIndexFromHash();
-            if (trackIndex !== -1) {
-                openPlayer(trackIndex);
+        let pendingSecretTarget = null;
+
+        function openConsoleForSecretTrack(targetId) {
+            if (isTransitioning) return;
+            openConsole();
+            const log = document.getElementById('console-log');
+            if (log) {
+                log.innerHTML = '';
+                appendConsoleLog('[SYSTEM] RESTRICTED ACCESS PROTOCOL INITIALIZED.', 'cmd-system');
+                appendConsoleLog('[SECURITY] CLASSIFIED ARCHIVE LINK DETECTED.', 'cmd-warn');
+                appendConsoleLog('[SECURITY] AUTHORIZATION REQUIRED TO ACCESS THIS RECORD.', 'cmd-system');
+                appendConsoleLog('[SECURITY] PLEASE ENTER AUTHORIZATION PIN:', 'cmd-system');
+            }
+        }
+
+        function handleHashRoute(isInitial = false) {
+            const parsed = parseTrackHash();
+            if (!parsed) return;
+
+            if (parsed.isSecret) {
+                if (isSecretMode) {
+                    // Already in secret mode: directly play
+                    const trackIdx = findTrackIndex(activeTracks, parsed.targetId);
+                    if (trackIdx !== -1 && (isInitial || trackIdx !== currentTrackId)) {
+                        openPlayer(trackIdx);
+                    }
+                } else {
+                    // User is in public mode, directly accessed secret link
+                    pendingSecretTarget = parsed.targetId;
+                    setTimeout(() => {
+                        openConsoleForSecretTrack(parsed.targetId);
+                    }, isInitial ? 100 : 0);
+                }
+            } else {
+                // Public song URL
+                const trackIdx = findTrackIndex(activeTracks, parsed.targetId);
+                if (trackIdx !== -1 && (isInitial || trackIdx !== currentTrackId)) {
+                    openPlayer(trackIdx);
+                }
             }
         }
 
         window.addEventListener('hashchange', () => {
-            const trackIndex = getTrackIndexFromHash();
-            if (trackIndex !== -1 && trackIndex !== currentTrackId) {
-                openPlayer(trackIndex);
-            }
+            handleHashRoute(false);
         });
 
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', handleHashChangeOnLoad);
+            document.addEventListener('DOMContentLoaded', () => handleHashRoute(true));
         } else {
-            setTimeout(handleHashChangeOnLoad, 50);
+            setTimeout(() => handleHashRoute(true), 50);
         }
 
         function removeTrackHash() {
@@ -900,8 +955,9 @@
 
             if (!keepHidden) {
                 const trackHash = (track.id !== undefined && track.id !== null) ? track.id : trackId;
-                if (window.location.hash !== '#' + trackHash) {
-                    history.replaceState(null, '', '#' + trackHash);
+                const fullHash = isSecretMode ? `secret-${trackHash}` : `${trackHash}`;
+                if (window.location.hash !== '#' + fullHash) {
+                    history.replaceState(null, '', '#' + fullHash);
                 }
             }
 
@@ -1778,6 +1834,11 @@
                 input.value = '';
                 input.blur();
             }
+            if (!isSecretMode && pendingSecretTarget !== null) {
+                pendingSecretTarget = null;
+                removeTrackHash();
+                scrollToChapter01('instant');
+            }
         }
 
         function handleConsoleInputKey(e) {
@@ -1798,9 +1859,12 @@
                         appendConsoleLog(`> ${'•'.repeat(input.value.length || 6)}`, 'cmd-user');
                         appendConsoleLog('[AUTH] Access Granted. Decrypting secret data...', 'cmd-success');
                         input.disabled = true;
+                        sessionStorage.setItem('secret_auth', 'true');
+                        const targetTrack = pendingSecretTarget;
+                        pendingSecretTarget = null;
                         setTimeout(() => {
                             closeConsole();
-                            executeGatewayTransition(true);
+                            executeGatewayTransition(true, targetTrack);
                         }, 700);
                     } else {
                         appendConsoleLog(`> ${'•'.repeat(input.value.length || 4)}`, 'cmd-user');
@@ -1817,6 +1881,7 @@
                         appendConsoleLog(`> ${resp}`, 'cmd-user');
                         appendConsoleLog('[SESSION] Logout confirmed. Reverting to public data...', 'cmd-warn');
                         input.disabled = true;
+                        sessionStorage.removeItem('secret_auth');
                         setTimeout(() => {
                             closeConsole();
                             executeGatewayTransition(false);
@@ -1837,6 +1902,7 @@
                     appendConsoleLog('> Y', 'cmd-user');
                     appendConsoleLog('[SESSION] Logout confirmed. Reverting to public data...', 'cmd-warn');
                     input.disabled = true;
+                    sessionStorage.removeItem('secret_auth');
                     setTimeout(() => {
                         closeConsole();
                         executeGatewayTransition(false);
@@ -1853,7 +1919,7 @@
             }
         }
 
-        function executeGatewayTransition(toSecret) {
+        function executeGatewayTransition(toSecret, targetTrackId = null) {
             if (isTransitioning) return;
             isTransitioning = true;
 
@@ -1896,6 +1962,11 @@
             setTimeout(() => {
                 // Midpoint transition: Switch dataset and re-render
                 isSecretMode = toSecret;
+                if (toSecret) {
+                    sessionStorage.setItem('secret_auth', 'true');
+                } else {
+                    sessionStorage.removeItem('secret_auth');
+                }
                 activeTracks = isSecretMode ? (window.tracks2 || tracks2) : tracks;
                 activeConfig = isSecretMode ? (window.config2 || config2 || config) : config;
                 activeChapters = isSecretMode ? (window.chapters2 || chapters2) : defaultChapters;
@@ -1913,7 +1984,17 @@
 
                 currentTrackId = 0;
                 renderGrid();
-                scrollToChapter01('instant');
+
+                if (targetTrackId !== null && targetTrackId !== undefined) {
+                    const targetIdx = findTrackIndex(activeTracks, targetTrackId);
+                    if (targetIdx !== -1) {
+                        openPlayer(targetIdx);
+                    } else {
+                        scrollToChapter01('instant');
+                    }
+                } else {
+                    scrollToChapter01('instant');
+                }
             }, 550);
 
             setTimeout(() => {
