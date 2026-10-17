@@ -221,6 +221,10 @@ footer {
         0 0 30px red;
 }
 
+.chapter-section {
+    scroll-margin-top: 85px;
+}
+
 .chapter-title {
     font-family: 'HYQiHei', sans-serif;
     font-size: 48px;

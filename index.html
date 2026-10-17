@@ -14,11 +14,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
 </head>
 
 <body>
     <header>
-        <a href="index.html" class="logo">
+        <a href="index.html" class="logo" onclick="if (location.pathname.endsWith('index.html') || location.pathname.endsWith('/')) { event.preventDefault(); scrollToChapter01('smooth'); }">
             <i class="fa-solid fa-compact-disc"></i> WASABISOCUTE Music Collection
         </a>
         <div class="header-actions">
@@ -344,6 +349,38 @@
         }
         renderGrid();
 
+        function scrollToChapter01(behavior = 'instant') {
+            const ch1 = document.getElementById('section-ch1');
+            if (!ch1) return;
+            const headerOffset = 85;
+            const targetPos = ch1.getBoundingClientRect().top + window.scrollY - headerOffset;
+            window.scrollTo({
+                top: Math.max(0, targetPos),
+                behavior: behavior
+            });
+        }
+
+        let hasUserScrolled = false;
+        const markUserScrolled = () => { hasUserScrolled = true; };
+        window.addEventListener('wheel', markUserScrolled, { passive: true, once: true });
+        window.addEventListener('touchmove', markUserScrolled, { passive: true, once: true });
+        window.addEventListener('keydown', (e) => {
+            if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Space', 'Home', 'End'].includes(e.key)) {
+                hasUserScrolled = true;
+            }
+        }, { passive: true });
+
+        if (!window.location.hash || window.location.hash === '#section-ch1') {
+            scrollToChapter01('instant');
+            requestAnimationFrame(() => scrollToChapter01('instant'));
+            setTimeout(() => {
+                if (!hasUserScrolled) scrollToChapter01('instant');
+            }, 60);
+            window.addEventListener('load', () => {
+                if (!hasUserScrolled) scrollToChapter01('instant');
+            });
+        }
+
         function updateAllGridMarquees() {
             document.querySelectorAll('.marquee-target').forEach(updateMarquee);
         }
@@ -354,6 +391,18 @@
         let currentTrackId = 0;
         let playerTimeout;
         let loopMode = 0; // 0: Stop After Current, 1: Sequence, 2: Loop One, 3: Loop All
+
+        const savedVolumeSetting = localStorage.getItem('setting-volume');
+        const initialVolume = savedVolumeSetting !== null ? Math.max(0, Math.min(100, parseInt(savedVolumeSetting, 10))) : 100;
+        const savedPrevVolume = localStorage.getItem('setting-previous-volume');
+        let previousVolume = savedPrevVolume !== null ? Math.max(1, Math.min(100, parseInt(savedPrevVolume, 10))) : (initialVolume > 0 ? initialVolume : 100);
+        let isMuted = (initialVolume === 0);
+
+        const initialVolumeSlider = document.getElementById('volume-slider');
+        if (initialVolumeSlider) {
+            initialVolumeSlider.value = initialVolume;
+        }
+        updateVolumeIcon(initialVolume);
 
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('youtube-player', {
@@ -666,6 +715,10 @@
 
         function onPlayerReady(event) {
             isPlayerReady = true;
+            if (player && typeof player.setVolume === 'function') {
+                const vol = parseInt(document.getElementById('volume-slider')?.value || initialVolume, 10);
+                player.setVolume(vol);
+            }
         }
 
         function onPlayerStateChange(event) {
@@ -834,14 +887,22 @@
             setTimeout(handleHashChangeOnLoad, 50);
         }
 
+        function removeTrackHash() {
+            if (window.location.hash) {
+                history.replaceState(null, '', window.location.href.split('#')[0]);
+            }
+        }
+
         function openPlayer(trackId, keepHidden = false) {
             clearTimeout(playerTimeout);
             const track = activeTracks[trackId];
             if (!track) return;
 
-            const trackHash = (track.id !== undefined && track.id !== null) ? track.id : trackId;
-            if (window.location.hash !== '#' + trackHash) {
-                history.replaceState(null, '', '#' + trackHash);
+            if (!keepHidden) {
+                const trackHash = (track.id !== undefined && track.id !== null) ? track.id : trackId;
+                if (window.location.hash !== '#' + trackHash) {
+                    history.replaceState(null, '', '#' + trackHash);
+                }
             }
 
             const toast = document.getElementById('np-toast');
@@ -912,6 +973,10 @@
             //Video Load
             if (isPlayerReady) {
                 if (!isReopening) {
+                    const currentVol = parseInt(document.getElementById('volume-slider')?.value || initialVolume, 10);
+                    if (player && typeof player.setVolume === 'function') {
+                        player.setVolume(currentVol);
+                    }
                     const loadOptions = {
                         videoId: track.ytId,
                         startSeconds: track.start || 0
@@ -932,6 +997,7 @@
             document.body.style.overflow = 'auto';
             document.getElementById('np-options-menu').classList.remove('active'); // ensure menu closes
             document.getElementById('np-trans-menu').classList.remove('active'); // ensure menu closes
+            removeTrackHash();
 
             if (currentTrackId !== undefined && isPlayerReady) {
                 const track = activeTracks[currentTrackId];
@@ -1445,42 +1511,54 @@
             }
         }
 
-        let previousVolume = 100;
-        let isMuted = false;
-
-        function changeVolume(value) {
-            if (player && isPlayerReady) {
-                player.setVolume(value);
-            }
+        function updateVolumeIcon(value) {
             const volumeBtnIcon = document.querySelector('#volume-btn i');
+            if (!volumeBtnIcon) return;
             if (value == 0) {
                 volumeBtnIcon.className = 'fa-solid fa-volume-xmark';
-                isMuted = true;
             } else if (value < 50) {
                 volumeBtnIcon.className = 'fa-solid fa-volume-low';
-                isMuted = false;
-                previousVolume = value;
             } else {
                 volumeBtnIcon.className = 'fa-solid fa-volume-high';
+            }
+        }
+
+        function changeVolume(value) {
+            const numericValue = Math.max(0, Math.min(100, parseInt(value, 10) || 0));
+            if (player && isPlayerReady && typeof player.setVolume === 'function') {
+                player.setVolume(numericValue);
+            }
+            updateVolumeIcon(numericValue);
+            if (numericValue === 0) {
+                isMuted = true;
+            } else {
                 isMuted = false;
-                previousVolume = value;
+                previousVolume = numericValue;
+                localStorage.setItem('setting-previous-volume', numericValue);
+            }
+            localStorage.setItem('setting-volume', numericValue);
+            const slider = document.getElementById('volume-slider');
+            if (slider && parseInt(slider.value, 10) !== numericValue) {
+                slider.value = numericValue;
             }
         }
 
         function toggleMute() {
             const slider = document.getElementById('volume-slider');
             if (isMuted) {
-                changeVolume(previousVolume);
-                slider.value = previousVolume;
+                const restoreVol = previousVolume || 100;
+                changeVolume(restoreVol);
+                if (slider) slider.value = restoreVol;
             } else {
                 changeVolume(0);
-                slider.value = 0;
+                if (slider) slider.value = 0;
             }
         }
 
         function closeToast() {
             document.getElementById('np-toast').classList.remove('active');
             if (isPlayerReady) player.pauseVideo();
+            removeTrackHash();
         }
 
         function formatTime(seconds) {
@@ -1835,7 +1913,7 @@
 
                 currentTrackId = 0;
                 renderGrid();
-                window.scrollTo({ top: 0, behavior: 'instant' });
+                scrollToChapter01('instant');
             }, 550);
 
             setTimeout(() => {
