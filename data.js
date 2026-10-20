@@ -7,7 +7,6 @@ const config = {
 };
 /*
 {
-        id:,
         chapter: ,
         title: '', artist: '',
         context: '', desc: '',
@@ -13581,5 +13580,153 @@ Life, after all, is better when you don't take it too seriously
 (With a blue guitar on my back, too)
 I want to gaze at the beautiful sky with you
 The beautiful summer I shared with you has come to an end`
+    },
+    {
+        chapter: 4,
+        title: 'O Strings, My Strings', artist: 'HOYO-MiX',
+        context: '', desc: '',
+        date: 'OCT 2026', ytId: '2WPIr3tR4eg', start: 0, end: 0,
+        lyrics: `[00:14.62]Струны,
+[00:16.89]Пойте мне ночью ‍зимнюю‍,
+[00:20.58]Пойте мне ночью ‍вьюжную‍,
+[00:23.70]Скажите не тая:
+[00:28.36]У кого же в пустых полях,
+[00:31.63]У кого же в моих краях,
+[00:35.33]У кого доля вольная
+[00:38.43]И жизнь хорошая?
+[00:44.09]Струны,
+[00:46.39]Пойте мне ночью ‍зимнюю‍,
+[00:50.12]Пойте мне ночью ‍вьюжную‍,
+[00:53.04]Скажите не тая:
+[00:57.45]У кого же в пустых полях,
+[01:01.08]У кого же в моих краях,
+[01:04.52]У кого доля вольная
+[01:07.83]И жизнь хорошая?
+[01:12.05]И жизнь хорошая?
+[01:16.54]
+[01:43.31]Не плачь обо мне, любовь:
+[01:45.90]Пусть между нами ночь, тьма и стена,
+[01:49.54]Твой образ как струна во мне звенит,
+[01:53.03]Зарницей он горит и гонит боль с души.
+[01:58.32]Ты пой до конца, любовь:
+[02:01.24]Пой до конца, забудь, что жить невмочь.
+[02:04.69]Пусть между нами ночь, тьма и стена,
+[02:08.46]Но наша песня эту стену сокрушит.
+[02:13.19]Не плачь обо мне, любовь:
+[02:15.91]Пусть между нами ночь, тьма и стена,
+[02:19.55]Твой образ как струна во мне звенит,
+[02:23.35]Зарницей он горит и гонит боль с души.
+[02:27.54]Ты пой до конца, любовь:
+[02:30.23]Пой до конца, забудь, что жить невмочь.
+[02:33.83]Пусть между нами ночь, тьма и стена,
+[02:37.48]Жива та песня, что все стены тьмы крушит.
+[02:39.80]Пусть громом песня прогремит!`,
+        lyrics_rom: `[00:14.62]Struny,
+[00:16.89]Poyte mne noch'yu zimnyuyu
+[00:20.58]Poyte mne noch'yu v'yuzhnuyu
+[00:23.70]Skazhite ne taya:
+[00:28.36]U kogo zhe v pustykh polyakh,
+[00:31.63]U kogo zhe v moikh krayakh,
+[00:35.33]U kogo dolya vol'naya
+[00:38.43]I zhizn' khoroshaya?
+[00:44.09]Struny,
+[00:46.39]Poyte mne noch'yu zimnyuyu,
+[00:50.12]Poyte mne noch'yu v'yuzhnuyu,
+[00:53.04]Skazhite ne taya:
+[00:57.45]U kogo zhe v pustykh polyakh,
+[01:01.08]U kogo zhe v moikh krayakh,
+[01:04.52]U kogo dolya vol'naya
+[01:07.83]I zhizn' khoroshaya?
+[01:12.05]I zhizn' khoroshaya?
+[01:16.54]
+[01:43.31]Ne plach' obo mne, lyubov':
+[01:45.90]Pust' mezhdu nami noch', t'ma i stena,
+[01:49.54]Tvoy obraz kak struna vo mne zvenit,
+[01:53.03]Zarnitsey on gorit i gonit bol' s dushi.
+[01:58.32]Ty poy do kontsa, lyubov':
+[02:01.24]Poy do kontsa, zabud', chto zhit' nevmoch'.
+[02:04.69]Pust' mezhdu nami noch', t'ma i stena,
+[02:08.46]No nasha pesnya etu stenu sokrushit.
+[02:13.19]Ne plach' obo mne, lyubov':
+[02:15.91]Pust' mezhdu nami noch', t'ma i stena,
+[02:19.55]Tvoy obraz kak struna vo mne zvenit,
+[02:23.35]Zarnitsey on gorit i gonit bol' s dushi.
+[02:27.54]Ty poy do kontsa, lyubov':
+[02:30.23]Poy do kontsa, zabud', chto zhit' nevmoch'.
+[02:33.83]Pust' mezhdu nami noch', t'ma i stena,
+[02:37.48]Zhiva ta pesnya, chto vse steny t'my krushit.
+[02:39.80]Pust' gromom pesnya progremit!`,
+        lyrics_cn: `
+琴弦呀琴弦
+请在冬夜为我歌唱
+请在雪夜为我鸣响
+请你用真话告诉我
+在这渺渺雪原之上
+在这属于我的故乡
+谁才能得享自由
+谁才能不必悲伤
+琴弦呀琴弦
+请在冬夜为我歌唱
+请在雪夜为我鸣响
+请你用真话告诉我
+在这渺渺雪原之上
+在这属于我的故乡
+谁才能得享自由
+谁才能不必悲伤
+谁才能不必悲伤
+
+别发愁呀，我心爱的人儿
+分开我们的是长夜与高墙
+你的姿容却如琴在我心间
+灼如破夜雷鸣，驱散伤痛
+唱吧，唱得心儿无比惬意
+把那难忍的苦痛忘个干净
+分开我们的是长夜与高墙
+但我们还有挣破高墙的歌
+别发愁呀，我心爱的人儿
+分开我们的是长夜与高墙
+你的姿容却如琴在我心间
+灼如破夜雷鸣，驱散伤痛
+唱吧，唱得心儿无比惬意
+把那难忍的苦痛忘个干净
+分开我们的是长夜与高墙
+但我们的歌——依然活着——让它唱响
+让它冲破黑夜的镣铐！`,
+        trans_source_cn: ``,
+        lyrics_en: `O Strings,
+        Sing for me in this winter night,
+        Sing for me in this blizzard night,
+        Tell me, do not conceal:
+        Who is it in these empty lands
+        Who is it in my native lands
+        Who has a fate that is free
+        and a life that is happy?
+        O Strings,
+        Sing for me in this winter night,
+        Sing for me in this blizzard night,
+        Tell me, do not conceal:
+        Who is it in these empty lands
+        Who is it in my native lands
+        Who has a fate that is free
+        and a life that is happy?
+        
+        My beloved, cry not for me:
+        Though night, darkness, and a wall part me from thee,
+        Thy image echoes within my heart, ringing like a string;
+        It drives all pain from my soul, burning like distant lightning.
+        Sing till the end, my dear:
+        Sing till the end, and forget that life is far too heavy to bear.
+        Though between us night, darkness, and a wall stand tall,
+        Yet for sure our song shall shatter this wall.
+        My beloved, cry not for me:
+        Though night, darkness, and a wall part me from thee,
+        Thy image echoes within my heart, ringing like a string;
+        It drives all pain from my soul, burning like distant lightning.
+        Sing till the end, my dear:
+        Sing till the end, and forget that life is far too heavy to bear.
+        Though night, darkness, and a wall stand between us,
+        Yet our song still lives; it shall wreck all walls of darkness.
+        Let our song peal like thunder!`,
+        trans_source_en: ``,
     }
 ];
