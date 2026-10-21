@@ -3616,6 +3616,152 @@ By my hand`,
     },
     {
         chapter: 3,
+        title: '光線歌',
+        artist: 'Vivid BAD SQUAD',
+        context: '',
+        desc: '',
+        date: 'SEP 2025',
+        ytId: 'OLOcR2spm58',
+        start: 0,
+        end: 0,
+        lyrics: `[00:00.90]歌え踊れ祈れ届け
+[00:04.50]この街の光線歌
+[00:07.97]夜を人を照らせ星より
+[00:11.50]輝け光線歌
+[00:14.86]
+[00:15.01]世界をぶち抜いて
+[00:17.67]
+[00:31.02]諦めちゃうような日は
+[00:32.61]もうこないね
+[00:37.45]俯いて歌うような
+[00:39.46]ステージはもうないね
+[00:44.02]
+[00:44.55]孤独とばっか歌えば
+[00:47.99]浮かぶBAD in the sky
+[00:51.45]この夜の向こう側の
+[00:54.79]星空見るため
+[00:59.57]
+[01:02.02]歌え踊れ祈れ届け
+[01:05.35]この街の光線歌
+[01:08.81]夜を人を照らせ星より
+[01:12.44]輝け光線歌
+[01:14.94]
+[01:16.07]世界をぶち抜いて
+[01:18.55]
+[02:01.43]孤独とばっか歌えば
+[02:04.56]浮かぶBAD in the sky
+[02:07.99]私たちはあなたに
+[02:11.24]涙は見せない
+[02:16.20]
+[02:18.59]上がれ恐れることはもうない
+[02:21.64]さぁ始めよう新伝説
+[02:25.45]今だあの星より
+[02:27.95]高く高く輝くんだ
+[02:31.58]
+[02:34.23]歌え踊れ祈れ届け
+[02:37.54]この街の光線歌
+[02:41.01]夜を人を照らせ星より
+[02:44.33]輝け光線歌
+[02:47.25]
+[02:47.98]歌えこの声とこの色で
+[02:51.37]この日々は私が磨いたものだ全て
+[02:56.75]響け星より輝け光線歌
+[03:01.34]
+[03:01.73]世界をぶち抜いて
+[03:05.00]`,
+        lyrics_cn: ``,
+        trans_source_en: `Project SEKAI Fandom Wiki | Translated by Thai1210`,
+        lyrics_en: `Sing! Dance! Pray! And may
+The voice of the beam of this city reach them!
+Illuminate humans and the night, brighter than the stars,
+The voice of the beam that shines,
+
+Now, pierce through the world!
+
+There are no more days
+Where I completely give up,
+And no other stage
+Where I sing with my head hung low.
+
+If we only sing about loneliness,
+The BAD thoughts will come to mind as we float in the sky.[1]
+So that we'll see the starry sky
+On the other side of this night...
+
+Sing! Dance! Pray! And may
+The voice of the beam of this city reach them!
+Illuminate humans and the night, brighter than the stars,
+The voice of the beam that shines,
+ 
+Now, pierce through the world!
+
+If we only sing about loneliness,
+The BAD thoughts will come to mind as we float in the sky.
+The tears we shed,
+We won't show them to you.
+
+Rise higher! There's no longer anything to be afraid of,
+So let us kickstart this new legend.
+Now, we'll shine higher
+And higher than that star!
+
+Sing! Dance! Pray! And may
+The voice of the beam of this city reach them!
+Illuminate humans and the night, brighter than the stars,
+The voice of the beam that shines.
+
+Sing! That voice, that color,
+And these days are all that I've polished.
+The voice of the beam from the star that resounds,
+
+Now, pierce through the world!`,
+        lyrics_rom: `utae odore inore todoke
+kono machi no kousenka
+yoru wo hito wo terase hoshi yori
+kagayake kousenka
+
+sekai wo buchinuite
+
+akiramechau youna hi wa
+mou konai ne
+utsumuite utau youna
+suteeji wa mou nai ne
+
+kodoku to bakka utaeba
+ukabu BAD in the sky
+kono yoru no mukougawa no
+hoshizora miru tame
+ 
+utae odore inore todoke
+kono machi no kousenka
+yoru wo hito wo terase hoshi yori
+kagayake kousenka
+ 
+sekai wo buchinuite
+
+kodoku to bakka utaeba
+ukabu BAD in the sky
+watashitachi wa anata ni
+namida wa misenai
+
+agare osoreru koto wa mounai
+saa hajimeyou shindensetsu
+ima da ano hoshi yori
+takaku takaku kagayakun da
+
+utae odore inore todoke
+kono machi no kousenka
+yoru wo hito wo terase hoshi yori
+kagayake kousenka
+
+utae kono koe to kono iro de
+kono hibi wa watashi ga migaita mono da subete
+hibike hoshi yori kagayake kousenka
+
+sekai wo buchinuite`,
+    },
+    {
+        chapter: 3,
         title: 'アクセラレイト', artist: 'Vivid BAD SQUAD',
         context: '', desc: '',
         date: 'SEP 2025', ytId: 'dWiv1l-0eIU', start: 0,
@@ -13692,7 +13838,7 @@ The beautiful summer I shared with you has come to an end`
 分开我们的是长夜与高墙
 但我们的歌——依然活着——让它唱响
 让它冲破黑夜的镣铐！`,
-        trans_source_cn: ``,
+        trans_source_cn: `网易云音乐 @HOYO-MiX`,
         lyrics_en: `O Strings,
         Sing for me in this winter night,
         Sing for me in this blizzard night,
@@ -13708,6 +13854,7 @@ The beautiful summer I shared with you has come to an end`
         Who is it in these empty lands
         Who is it in my native lands
         Who has a fate that is free
+        and a life that is happy?
         and a life that is happy?
         
         My beloved, cry not for me:
@@ -13727,6 +13874,109 @@ The beautiful summer I shared with you has come to an end`
         Though night, darkness, and a wall stand between us,
         Yet our song still lives; it shall wreck all walls of darkness.
         Let our song peal like thunder!`,
-        trans_source_en: ``,
+        trans_source_en: `Genshin Impact Fandom Wiki`,
+    },
+    {
+        chapter: 4,
+        title: 'Fractured Skies (ft. xia & Yoominel)', artist: 'Flay!',
+        context: 'Game - Roateno', desc: '',
+        date: 'OCT 2026', ytId: 'ppgP1o4bVrw', start: 0, end: 0,
+        lyrics: `There, you stand
+Gazing beyond the moon
+Silence lingering near
+
+Letting go
+Breaks my soul
+I'm drowning in endless greed
+
+Praying for skies to clear
+Why do I stay?
+What do I fear?
+In this still darkness, Feel
+Black and white
+Hypnotized
+By your Light
+
+Here, I fall
+Further into my doom
+Silence lingering near (make it all disappear)
+
+Oh letting go feels so familiar
+Awaiting your final messenger
+Cross my heart and hope to die,
+set me free
+Can't bear this pain any longer
+Shoulder the weight, crash and falter
+Traces of your warmth, let it fade-
+
+Swallowed by monochrome moonlight
+Why? Am I meant to break by design?
+Soulscape is shattered,
+cuts from the glass
+Fractured mind,
+free falling down from the
+Light
+
+I'm hypnotized
+Fall down from the light
+
+Praying for skies to clear
+Why do I stay?
+What do I fear?
+In this still darkness, See
+All of your lies
+Ruin my life (Breath In)
+(Scream Out)
+Trapped in Depths Eternal (Where Are)
+(You Now)`,
+        lyrics_cn: `你伫立在那里
+凝望着月亮之外的远方
+寂静仍在周围徘徊
+
+放手离去
+令我的灵魂支离破碎
+我正沉溺于无尽的贪欲之中
+
+祈求天空终能放晴
+我为何仍停留于此？
+我究竟在恐惧什么？
+在这片死寂的黑暗中，感受吧
+黑与白
+深深着迷
+被你的光芒所迷惑
+
+我在这里坠落
+一步步坠入更深的厄运
+寂静仍在周围徘徊（让这一切彻底消失）
+
+噢，放手的感觉竟如此熟悉
+等待着你最后的使者
+我以真心起誓，甚至不惜付出生命，
+请让我获得自由
+我再也无法忍受这份痛苦
+背负沉重的负担，最终崩溃、踉跄
+你留下的温暖痕迹，就让它渐渐消散——
+
+被黑白单色的月光吞噬
+为什么？难道我的命运注定就是崩溃吗？
+灵魂的景象已然粉碎，
+被玻璃碎片划得遍体鳞伤
+破碎的心智，
+从那道光芒之中
+自由坠落
+
+我已深深着迷
+从光芒之中坠落
+
+祈求天空终能放晴
+我为何仍停留于此？
+我究竟在恐惧什么？
+在这片死寂的黑暗中，看清吧
+看清你所有的谎言
+将我的人生彻底摧毁（吸气）
+（放声尖叫）
+永远被困在无尽深渊之中（如今的你）
+（究竟身在何处）`,
+        trans_source_cn: `WASABISOCUTE`,
     }
 ];
