@@ -322,7 +322,7 @@
                 const dateHTML = (activeConfig.showDate && track.date) ? `<span>${track.date}</span>` : '';
 
                 const cardHTML = `
-                    <div class="track-card" onclick="openPlayer(${index})">
+                    <div class="track-card" data-track-index="${index}" onclick="openPlayer(${index})">
                         <div class="track-cover-wrapper">
                             <img src="${coverUrl}" class="track-cover">
                             <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
@@ -354,6 +354,13 @@
             const logoElem = document.querySelector('header .logo');
             if (logoElem) {
                 logoElem.innerHTML = '<i class="fa-solid fa-user-secret"></i> WASABISOCUTE Music Collection <span class="secret-badge">CLASSIFIED</span>';
+            }
+        }
+
+        function scrollToCurrentTrack() {
+            const card = document.querySelector(`.track-card[data-track-index="${currentTrackId}"]`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'instant', block: 'center' });
             }
         }
 
@@ -1054,6 +1061,7 @@
             document.getElementById('np-options-menu').classList.remove('active'); // ensure menu closes
             document.getElementById('np-trans-menu').classList.remove('active'); // ensure menu closes
             removeTrackHash();
+            scrollToCurrentTrack();
 
             if (currentTrackId !== undefined && isPlayerReady) {
                 const track = activeTracks[currentTrackId];
@@ -1615,6 +1623,7 @@
             document.getElementById('np-toast').classList.remove('active');
             if (isPlayerReady) player.pauseVideo();
             removeTrackHash();
+            scrollToCurrentTrack();
         }
 
         function formatTime(seconds) {

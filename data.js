@@ -13881,54 +13881,54 @@ The beautiful summer I shared with you has come to an end`
         title: 'Fractured Skies (ft. xia & Yoominel)', artist: 'Flay!',
         context: 'Game - Roateno', desc: '',
         date: 'OCT 2026', ytId: 'ppgP1o4bVrw', start: 0, end: 0,
-        lyrics: `There, you stand
-Gazing beyond the moon
-Silence lingering near
+        lyrics: `[00:16.75]There, you stand
+[00:19.22]Gazing beyond the moon
+[00:23.48]Silence lingering near
+[00:28.94]
+[00:30.69]Letting go
+[00:32.21]Breaks my soul
+[00:33.86]I'm drowning in endless greed
+[00:37.49]
+[00:38.40]Praying for skies to clear
+[00:43.52]Why do I stay?
+[00:46.71]What do I fear?
+[00:51.90]In this still darkness, Feel
+[00:57.06]Black and white
+[01:00.56]Hypnotized
+[01:02.48]By your Light
+[01:04.73]
+[01:08.24]Here, I fall
+[01:10.93]Further into my doom
+[01:15.23]Silence lingering near (make it all disappear)
 
-Letting go
-Breaks my soul
-I'm drowning in endless greed
-
-Praying for skies to clear
-Why do I stay?
-What do I fear?
-In this still darkness, Feel
-Black and white
-Hypnotized
-By your Light
-
-Here, I fall
-Further into my doom
-Silence lingering near (make it all disappear)
-
-Oh letting go feels so familiar
-Awaiting your final messenger
-Cross my heart and hope to die,
-set me free
-Can't bear this pain any longer
-Shoulder the weight, crash and falter
-Traces of your warmth, let it fade-
-
-Swallowed by monochrome moonlight
-Why? Am I meant to break by design?
-Soulscape is shattered,
-cuts from the glass
-Fractured mind,
-free falling down from the
-Light
-
-I'm hypnotized
-Fall down from the light
-
-Praying for skies to clear
-Why do I stay?
-What do I fear?
-In this still darkness, See
-All of your lies
-Ruin my life (Breath In)
-(Scream Out)
-Trapped in Depths Eternal (Where Are)
-(You Now)`,
+[01:21.22]Oh letting go feels unfamiliar
+[01:23.69]Awaiting your final messenger
+[01:25.33]Cross my heart and hope to die,
+[01:27.03]set me free
+[01:29.19]Can't bear this pain any longer
+[01:30.80]Shoulder the weight, crash and falter
+[01:32.54]Traces of your warmth, let it fade-
+[01:35.65]
+[01:36.42]Swallowed by monochrome moonlight
+[01:39.46]Why? Am I meant to break by design?
+[01:43.02]Soulscape is shattered,
+[01:44.37]cuts from the glass
+[01:45.92]Fractured mind,
+[01:47.42]free falling down from the
+[01:49.57]Light
+[01:55.00]
+[01:59.99]I'm hypnotized
+[02:01.00]Fall down from the light
+[02:03.72]
+[02:04.13]Praying for skies to clear
+[02:09.37]Why do I stay?
+[02:12.64]What do I fear?
+[02:17.72]In this still darkness, See
+[02:22.82]All of your lies
+[02:26.26]Ruin my life (Breath In)
+[02:27.75](Scream Out)
+[02:28.88]Trapped in Depths Eternal (Where Are)
+[02:29.79](You Now)`,
         lyrics_cn: `你伫立在那里
 凝望着月亮之外的远方
 寂静仍在周围徘徊
@@ -13949,7 +13949,7 @@ Trapped in Depths Eternal (Where Are)
 一步步坠入更深的厄运
 寂静仍在周围徘徊（让这一切彻底消失）
 
-噢，放手的感觉竟如此熟悉
+噢，放手的感觉竟如此陌生
 等待着你最后的使者
 我以真心起誓，甚至不惜付出生命，
 请让我获得自由
