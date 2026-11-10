@@ -180,6 +180,287 @@ const tracks = [
             [03:31.95]And chase them all away
             [03:35.07]`
     },
+    {
+        chapter: -1,
+        title: "烟火里的尘埃", artist: "华晨宇",
+        context: "", desc: "",
+        date: "", ytId: "yJfRHVmTiLs", start: 0,
+        lyrics: `[00:05.343]看着飞舞的尘埃掉下来
+[00:15.610]没人发现它存在
+[00:18.861]多自由自在
+[00:24.045]可世界都爱热热闹闹
+[00:27.847]
+[00:27.857]容不下我百无聊赖
+[00:32.361]
+[00:34.931]不应该一个人发呆
+[00:45.428]只有我守着安静的沙漠
+[00:50.086]等待着花开
+[00:55.846]只有我看着别人的快乐
+[01:00.674]竟然会感慨
+[01:06.249]就让我听着天大的道理
+[01:10.820]不愿意明白
+[01:16.226]有什么是应该不应该
+[01:48.010]我的心里住着一个
+[01:50.868]苍老的小孩
+[01:57.678]如果世界听不明白
+[02:01.324]对影子表白
+[02:06.105]是不是只有我还在问
+[02:09.657]为什么明天更精彩
+[02:17.051]烟火里找不到童真的残骸
+[02:27.211]只有我守着安静的沙漠
+[02:31.671]等待着花开
+[02:37.030]只有我看着别人的快乐
+[02:41.653]竟然会感慨
+[02:47.188]就让我听着天大的道理
+[02:51.751]不愿意明白
+[02:57.429]只有我就是我
+[03:02.208]好奇怪还在感慨
+[03:13.962]风阵阵吹过来为何不回来
+[03:23.955]风一去不回来悲不悲哀
+[03:34.138]麻木得那么快应不应该
+[03:44.230]能不能慢下来
+[03:49.590]笑得开怀哭得坦率
+[03:54.738]为何表情要让这世界安排
+[03:59.880]我就是我我只是我
+[04:04.329]只是一场烟火散落的尘埃
+[04:21.973]风阵阵吹过来
+[04:32.303]风一去不回来
+[04:52.353]能不能慢下来
+[04:57.455]`
+    },
+    {
+        chapter: -1,
+        title: '我管你', artist: '华晨宇',
+        context: '', desc: '',
+        date: '', ytId: 'HhBKaTSpp5A', start: 0,
+        lyrics: `[00:17.92]我不大接受
+[00:20.50]什么被委屈别还手
+[00:23.04]我不太能够
+[00:25.68]顺应所谓的大潮流
+[00:28.12]噢噢噢噢噢噢噢噢噢
+[00:33.29]噢噢噢噢噢噢噢噢噢
+[00:38.47]花臂或刺头
+[00:41.31]应该没说明我所有
+[00:44.12]我不找借口
+[00:46.61]懂的人自然能看透
+[00:48.99]噢噢噢噢噢噢噢噢噢
+[00:54.06]噢噢噢噢噢噢噢噢噢
+[00:59.84]没想辩解太多
+[01:02.93]别用外表解说我
+[01:10.49]误解不愿反驳
+[01:13.13]我拒绝只谈如果
+[01:21.51]我管你的感受
+[01:23.03]噢噢噢噢噢噢噢噢噢
+[01:26.38]我管你的感受
+[01:28.00]噢噢噢噢噢噢噢噢噢
+[01:31.76]我管你的感受
+[01:33.28]噢噢噢噢噢噢噢噢噢
+[01:36.94]我管你的感受
+[01:38.56]噢噢噢噢噢噢噢噢噢
+[01:43.74]管你什么想法
+[01:46.48]我是我自己的表达
+[01:49.12]管你什么看法
+[01:51.81]我的世界我来浮夸
+[01:54.26]噢噢噢噢
+[01:57.11]我管你说得多复杂
+[01:59.39]噢噢噢噢
+[02:02.24]我不要被谁给教化
+[02:04.62]管你什么说法
+[02:07.32]当我是傻或是笑话
+[02:09.96]管你什么办法
+[02:12.49]别幻想我沦落倒下
+[02:15.13]噢噢噢噢噢噢噢噢噢
+[02:20.20]噢噢噢噢噢噢噢噢噢
+[02:26.11]太多选择背后
+[02:28.70]绝望像没有出口
+[02:36.59]不如握紧拳头
+[02:39.23]这就是我的所有
+[02:47.48]我管你的感受
+[02:49.05]噢噢噢噢噢噢噢
+[02:52.76]我管你的感受
+[02:54.28]噢噢噢噢噢噢噢
+[02:57.78]我管你的感受
+[02:59.40]噢噢噢噢噢噢噢
+[03:03.06]我管你的感受
+[03:04.63]噢噢噢噢噢噢噢
+[03:09.81]管你多怪罪
+[03:12.60]你没资格评头论足
+[03:15.14]管你自以为
+[03:18.08]你的意见我真不在乎
+[03:21.34]噢噢噢噢噢噢噢噢噢
+[03:25.54]噢噢噢噢噢噢噢噢噢
+[03:41.08]管你什么想法
+[03:43.92]我是我自己的表达
+[03:46.56]管你什么看法
+[03:49.14]我的世界我来浮夸
+[03:51.84]噢噢噢噢
+[03:54.48]我管你说得多复杂
+[03:56.96]噢噢噢噢
+[03:59.70]我不要被谁给教化
+[04:02.13]管你什么说法
+[04:04.72]当我是傻或是笑话
+[04:07.35]管你什么办法
+[04:09.99]别幻想我沦落倒下
+[04:12.58]噢噢噢噢噢噢噢噢噢
+[04:17.55]噢噢噢噢噢噢噢噢噢`
+    },
+    {
+        chapter: -1,
+        title: '国王与乞丐', artist: '华晨宇/杨宗纬',
+        context: '', desc: '',
+        date: '', ytId: 'XiyEwRlyKl4', start: 0,
+        lyrics: `[00:24.10] 怎么了 怎么了
+[00:28.25] 一份爱失去了光泽
+[00:31.38] 面对面 背对背
+[00:34.60] 反复挣扎怎么都痛
+[00:38.01] 以为爱坚固像石头
+[00:41.32] 谁知一秒钟就碎落
+[00:44.69] 难道心痛都要不断打磨
+[00:49.14] 抱紧你的我比国王富有
+
+[00:57.43] 曾多么快乐
+[01:01.48] 失去你的我比乞丐落魄
+[01:10.64] 痛多么深刻
+
+[01:16.98] 噢 喔 噢 喔
+[01:22.13] 噢 喔 噢 喔
+[01:27.16] 谁哭着谁笑着
+[01:33.05] 一人分饰两个角色
+[01:36.30] 越执迷越折磨
+[01:39.60] 回忆还在煽风点火
+[01:43.10] 明知往前就会坠落
+[01:46.17] 抱着遗憾重返寂寞
+[01:49.43] 爱到最后究竟还剩什么
+
+[01:54.88] 抱紧你的我比国王富有
+[02:02.66] 曾多么快乐
+[02:07.41] 失去你的我比乞丐落魄
+[02:15.43] 痛多么深刻
+
+[02:23.30] 当一切 结束了 安静了 过去了
+[02:28.77] 为什么 还拥有 一万个 舍不得
+[02:35.34] 喔 喔
+
+[02:48.07] 谁又能感受
+[02:53.73] 回忆里的我比国王富有
+[03:01.04] 奢侈的快乐
+[03:06.76] 失去你以后比乞丐落魄
+[03:17.05] 心痛如刀割
+
+[03:24.23] 怀念那时你安静陪着我
+[03:28.48] 噢 噢
+[03:30.77] 柔软时光里最美的挥霍
+[03:36.87] 喔 喔
+[03:40.54] 爱有多快乐
+[03:44.89] 痛有多深刻
+[03:51.51] 痛有多深刻
+`
+    },
+    {
+        chapter: -1,
+        title: '拆弹专家', artist: '华晨宇',
+        context: '', desc: '',
+        date: '', ytId: 'RSrcXNK2SYc', start: 0,
+        lyrics: `[00:08.742]Hell No
+[00:10.848]空气就快要爆炸
+[00:13.493]Hell No
+[00:15.690]时间就快要爆炸
+[00:17.990]Hell No
+[00:19.840]身体就快要爆炸
+[00:22.640]Hell No
+[00:24.821]快给我拆弹专家
+[00:28.000]
+[00:31.817]生活是一颗炸弹
+[00:34.317]装在我脑袋
+[00:36.677]我还没想明白
+[00:39.076]该怎么拆开
+[00:40.976]每一天心里七上八下
+[00:45.493]不如让它赶快爆炸WOW~WOW~
+[00:58.492]拜托来一束火花
+[01:03.841]Hell No
+[01:05.641]空气就快要爆炸
+[01:08.441]Hell No
+[01:10.292]时间就快要爆炸
+[01:12.943]Hell No
+[01:14.793]身体就快要爆炸
+[01:17.493]Hell No
+[01:19.824]快给我拆弹专家
+[02:21.820]
+[01:31.520]GUCCI PRADA
+[01:33.329]穿着要足够浮夸
+[01:35.580]才能够表现自己的身价
+[01:38.059]算了吧
+[01:39.359]看着你声音沙哑的
+[01:42.560]娱乐大家但
+[01:44.660]心中的炸弹快要爆炸
+[01:49.578]Hell No
+[01:51.429]空气就快要爆炸
+[01:54.079]Hell No
+[01:55.980]时间就快要爆炸
+[01:58.632]Hell No
+[02:00.532]身体就快要爆炸
+[02:03.910]Hell No
+[02:05.410]快给我拆弹专家WOW~~~
+[02:08.000]
+[02:26.210]Hell No
+[02:28.060]空气就快要爆炸
+[02:30.710]Hell No
+[02:32.560]时间就快要爆炸
+[02:35.261]Hell No
+[02:37.220]身体就快要爆炸
+[02:39.826]Hell No
+[02:42.610]快给我拆弹专家`
+    },
+    {
+        chapter: -1,
+        title: '与火星的孩子对话', artist: '华晨宇',
+        context: '', desc: '',
+        date: '', ytId: 'FK1C78KnQwU', start: 0,
+        lyrics: `[00:33.539]我 看着爱笑
+[00:36.739]却还有些失落和悲伤
+[00:41.406]那些失落 那些悲伤 也在我心里
+[00:49.440]我 看着自信
+[00:52.691]却还有些退缩和逃避
+[00:57.317]那些退缩 那些逃避 请你别在意
+[01:05.457]我 看着努力
+[01:09.250]却还有些拒绝和懒惰
+[01:13.134]那些拒绝 那些懒惰 其实没关系
+[01:21.264]我 看着坚强
+[01:24.982]却还有些脆弱和疑惑
+[01:29.232]那些脆弱 那些疑惑 有它的意义
+[01:37.080]那些感受慢慢被阻碍
+[01:45.147]我摸不到那痛苦
+[01:53.331]我 看着坚持
+[01:56.913]却还有些放弃和冷漠
+[02:01.229]那些放弃 那些冷漠 要做你自己
+[02:09.246]我 看着勇敢
+[02:12.897]却还有些害怕和怯懦
+[02:17.195]那些害怕 那些怯懦 我们在这里
+[02:24.977]那些光芒渐渐被掩盖
+[02:32.911]我猜不透下一幕
+[02:42.101]每当我还相信 好的结局
+[02:49.905]有个声音在说 可笑的是我
+[02:57.691]每当我还愿意 伸手靠近
+[03:05.708]有块阴影拽着我
+[03:14.705]别再拽着我
+[03:23.394]我想再次用力解脱
+[03:34.298]我 虽然不说
+[03:37.944]至少有你在这陪着我
+[03:42.166]你就是你 最好的你 是我的唯一
+[03:49.896]我 不再沉默
+[03:53.712]因为有你选择理解我
+[03:58.482]你就是你 最好的你 没人能代替
+[04:05.970]那些美好终于被青睐
+[04:13.871]我等到了这礼物
+[04:22.826]我 有时难过
+[04:27.149]却还有些快乐和骄傲
+[04:32.783]那些快乐 那些骄傲 全都属于你
+[04:40.875]我 有时孤独
+[04:46.187]却还有些抚慰和感动
+[04:50.470]那些抚慰 那些感动 因为我爱你
+[04:58.653]这个结局是我的期待
+[05:07.919]我会一直为你祝福`
+    },
     //Chapter 0
     {
         chapter: 0,
@@ -284,287 +565,6 @@ const tracks = [
             [04:11.16]Sink in the river
             [04:12.10]The lessons I've learned
 `
-    },
-    {
-        chapter: 0,
-        title: "烟火里的尘埃", artist: "华晨宇",
-        context: "", desc: "",
-        date: "", ytId: "yJfRHVmTiLs", start: 0,
-        lyrics: `[00:05.343]看着飞舞的尘埃掉下来
-[00:15.610]没人发现它存在
-[00:18.861]多自由自在
-[00:24.045]可世界都爱热热闹闹
-[00:27.847]
-[00:27.857]容不下我百无聊赖
-[00:32.361]
-[00:34.931]不应该一个人发呆
-[00:45.428]只有我守着安静的沙漠
-[00:50.086]等待着花开
-[00:55.846]只有我看着别人的快乐
-[01:00.674]竟然会感慨
-[01:06.249]就让我听着天大的道理
-[01:10.820]不愿意明白
-[01:16.226]有什么是应该不应该
-[01:48.010]我的心里住着一个
-[01:50.868]苍老的小孩
-[01:57.678]如果世界听不明白
-[02:01.324]对影子表白
-[02:06.105]是不是只有我还在问
-[02:09.657]为什么明天更精彩
-[02:17.051]烟火里找不到童真的残骸
-[02:27.211]只有我守着安静的沙漠
-[02:31.671]等待着花开
-[02:37.030]只有我看着别人的快乐
-[02:41.653]竟然会感慨
-[02:47.188]就让我听着天大的道理
-[02:51.751]不愿意明白
-[02:57.429]只有我就是我
-[03:02.208]好奇怪还在感慨
-[03:13.962]风阵阵吹过来为何不回来
-[03:23.955]风一去不回来悲不悲哀
-[03:34.138]麻木得那么快应不应该
-[03:44.230]能不能慢下来
-[03:49.590]笑得开怀哭得坦率
-[03:54.738]为何表情要让这世界安排
-[03:59.880]我就是我我只是我
-[04:04.329]只是一场烟火散落的尘埃
-[04:21.973]风阵阵吹过来
-[04:32.303]风一去不回来
-[04:52.353]能不能慢下来
-[04:57.455]`
-    },
-    {
-        chapter: 0,
-        title: '我管你', artist: '华晨宇',
-        context: '', desc: '',
-        date: '', ytId: 'HhBKaTSpp5A', start: 0,
-        lyrics: `[00:17.92]我不大接受
-[00:20.50]什么被委屈别还手
-[00:23.04]我不太能够
-[00:25.68]顺应所谓的大潮流
-[00:28.12]噢噢噢噢噢噢噢噢噢
-[00:33.29]噢噢噢噢噢噢噢噢噢
-[00:38.47]花臂或刺头
-[00:41.31]应该没说明我所有
-[00:44.12]我不找借口
-[00:46.61]懂的人自然能看透
-[00:48.99]噢噢噢噢噢噢噢噢噢
-[00:54.06]噢噢噢噢噢噢噢噢噢
-[00:59.84]没想辩解太多
-[01:02.93]别用外表解说我
-[01:10.49]误解不愿反驳
-[01:13.13]我拒绝只谈如果
-[01:21.51]我管你的感受
-[01:23.03]噢噢噢噢噢噢噢噢噢
-[01:26.38]我管你的感受
-[01:28.00]噢噢噢噢噢噢噢噢噢
-[01:31.76]我管你的感受
-[01:33.28]噢噢噢噢噢噢噢噢噢
-[01:36.94]我管你的感受
-[01:38.56]噢噢噢噢噢噢噢噢噢
-[01:43.74]管你什么想法
-[01:46.48]我是我自己的表达
-[01:49.12]管你什么看法
-[01:51.81]我的世界我来浮夸
-[01:54.26]噢噢噢噢
-[01:57.11]我管你说得多复杂
-[01:59.39]噢噢噢噢
-[02:02.24]我不要被谁给教化
-[02:04.62]管你什么说法
-[02:07.32]当我是傻或是笑话
-[02:09.96]管你什么办法
-[02:12.49]别幻想我沦落倒下
-[02:15.13]噢噢噢噢噢噢噢噢噢
-[02:20.20]噢噢噢噢噢噢噢噢噢
-[02:26.11]太多选择背后
-[02:28.70]绝望像没有出口
-[02:36.59]不如握紧拳头
-[02:39.23]这就是我的所有
-[02:47.48]我管你的感受
-[02:49.05]噢噢噢噢噢噢噢
-[02:52.76]我管你的感受
-[02:54.28]噢噢噢噢噢噢噢
-[02:57.78]我管你的感受
-[02:59.40]噢噢噢噢噢噢噢
-[03:03.06]我管你的感受
-[03:04.63]噢噢噢噢噢噢噢
-[03:09.81]管你多怪罪
-[03:12.60]你没资格评头论足
-[03:15.14]管你自以为
-[03:18.08]你的意见我真不在乎
-[03:21.34]噢噢噢噢噢噢噢噢噢
-[03:25.54]噢噢噢噢噢噢噢噢噢
-[03:41.08]管你什么想法
-[03:43.92]我是我自己的表达
-[03:46.56]管你什么看法
-[03:49.14]我的世界我来浮夸
-[03:51.84]噢噢噢噢
-[03:54.48]我管你说得多复杂
-[03:56.96]噢噢噢噢
-[03:59.70]我不要被谁给教化
-[04:02.13]管你什么说法
-[04:04.72]当我是傻或是笑话
-[04:07.35]管你什么办法
-[04:09.99]别幻想我沦落倒下
-[04:12.58]噢噢噢噢噢噢噢噢噢
-[04:17.55]噢噢噢噢噢噢噢噢噢`
-    },
-    {
-        chapter: 0,
-        title: '国王与乞丐', artist: '华晨宇/杨宗纬',
-        context: '', desc: '',
-        date: '', ytId: 'XiyEwRlyKl4', start: 0,
-        lyrics: `[00:24.10] 怎么了 怎么了
-[00:28.25] 一份爱失去了光泽
-[00:31.38] 面对面 背对背
-[00:34.60] 反复挣扎怎么都痛
-[00:38.01] 以为爱坚固像石头
-[00:41.32] 谁知一秒钟就碎落
-[00:44.69] 难道心痛都要不断打磨
-[00:49.14] 抱紧你的我比国王富有
-
-[00:57.43] 曾多么快乐
-[01:01.48] 失去你的我比乞丐落魄
-[01:10.64] 痛多么深刻
-
-[01:16.98] 噢 喔 噢 喔
-[01:22.13] 噢 喔 噢 喔
-[01:27.16] 谁哭着谁笑着
-[01:33.05] 一人分饰两个角色
-[01:36.30] 越执迷越折磨
-[01:39.60] 回忆还在煽风点火
-[01:43.10] 明知往前就会坠落
-[01:46.17] 抱着遗憾重返寂寞
-[01:49.43] 爱到最后究竟还剩什么
-
-[01:54.88] 抱紧你的我比国王富有
-[02:02.66] 曾多么快乐
-[02:07.41] 失去你的我比乞丐落魄
-[02:15.43] 痛多么深刻
-
-[02:23.30] 当一切 结束了 安静了 过去了
-[02:28.77] 为什么 还拥有 一万个 舍不得
-[02:35.34] 喔 喔
-
-[02:48.07] 谁又能感受
-[02:53.73] 回忆里的我比国王富有
-[03:01.04] 奢侈的快乐
-[03:06.76] 失去你以后比乞丐落魄
-[03:17.05] 心痛如刀割
-
-[03:24.23] 怀念那时你安静陪着我
-[03:28.48] 噢 噢
-[03:30.77] 柔软时光里最美的挥霍
-[03:36.87] 喔 喔
-[03:40.54] 爱有多快乐
-[03:44.89] 痛有多深刻
-[03:51.51] 痛有多深刻
-`
-    },
-    {
-        chapter: 0,
-        title: '拆弹专家', artist: '华晨宇',
-        context: '', desc: '',
-        date: '', ytId: 'RSrcXNK2SYc', start: 0,
-        lyrics: `[00:08.742]Hell No
-[00:10.848]空气就快要爆炸
-[00:13.493]Hell No
-[00:15.690]时间就快要爆炸
-[00:17.990]Hell No
-[00:19.840]身体就快要爆炸
-[00:22.640]Hell No
-[00:24.821]快给我拆弹专家
-[00:28.000]
-[00:31.817]生活是一颗炸弹
-[00:34.317]装在我脑袋
-[00:36.677]我还没想明白
-[00:39.076]该怎么拆开
-[00:40.976]每一天心里七上八下
-[00:45.493]不如让它赶快爆炸WOW~WOW~
-[00:58.492]拜托来一束火花
-[01:03.841]Hell No
-[01:05.641]空气就快要爆炸
-[01:08.441]Hell No
-[01:10.292]时间就快要爆炸
-[01:12.943]Hell No
-[01:14.793]身体就快要爆炸
-[01:17.493]Hell No
-[01:19.824]快给我拆弹专家
-[02:21.820]
-[01:31.520]GUCCI PRADA
-[01:33.329]穿着要足够浮夸
-[01:35.580]才能够表现自己的身价
-[01:38.059]算了吧
-[01:39.359]看着你声音沙哑的
-[01:42.560]娱乐大家但
-[01:44.660]心中的炸弹快要爆炸
-[01:49.578]Hell No
-[01:51.429]空气就快要爆炸
-[01:54.079]Hell No
-[01:55.980]时间就快要爆炸
-[01:58.632]Hell No
-[02:00.532]身体就快要爆炸
-[02:03.910]Hell No
-[02:05.410]快给我拆弹专家WOW~~~
-[02:08.000]
-[02:26.210]Hell No
-[02:28.060]空气就快要爆炸
-[02:30.710]Hell No
-[02:32.560]时间就快要爆炸
-[02:35.261]Hell No
-[02:37.220]身体就快要爆炸
-[02:39.826]Hell No
-[02:42.610]快给我拆弹专家`
-    },
-    {
-        chapter: 0,
-        title: '与火星的孩子对话', artist: '华晨宇',
-        context: '', desc: '',
-        date: '', ytId: 'FK1C78KnQwU', start: 0,
-        lyrics: `[00:33.539]我 看着爱笑
-[00:36.739]却还有些失落和悲伤
-[00:41.406]那些失落 那些悲伤 也在我心里
-[00:49.440]我 看着自信
-[00:52.691]却还有些退缩和逃避
-[00:57.317]那些退缩 那些逃避 请你别在意
-[01:05.457]我 看着努力
-[01:09.250]却还有些拒绝和懒惰
-[01:13.134]那些拒绝 那些懒惰 其实没关系
-[01:21.264]我 看着坚强
-[01:24.982]却还有些脆弱和疑惑
-[01:29.232]那些脆弱 那些疑惑 有它的意义
-[01:37.080]那些感受慢慢被阻碍
-[01:45.147]我摸不到那痛苦
-[01:53.331]我 看着坚持
-[01:56.913]却还有些放弃和冷漠
-[02:01.229]那些放弃 那些冷漠 要做你自己
-[02:09.246]我 看着勇敢
-[02:12.897]却还有些害怕和怯懦
-[02:17.195]那些害怕 那些怯懦 我们在这里
-[02:24.977]那些光芒渐渐被掩盖
-[02:32.911]我猜不透下一幕
-[02:42.101]每当我还相信 好的结局
-[02:49.905]有个声音在说 可笑的是我
-[02:57.691]每当我还愿意 伸手靠近
-[03:05.708]有块阴影拽着我
-[03:14.705]别再拽着我
-[03:23.394]我想再次用力解脱
-[03:34.298]我 虽然不说
-[03:37.944]至少有你在这陪着我
-[03:42.166]你就是你 最好的你 是我的唯一
-[03:49.896]我 不再沉默
-[03:53.712]因为有你选择理解我
-[03:58.482]你就是你 最好的你 没人能代替
-[04:05.970]那些美好终于被青睐
-[04:13.871]我等到了这礼物
-[04:22.826]我 有时难过
-[04:27.149]却还有些快乐和骄傲
-[04:32.783]那些快乐 那些骄傲 全都属于你
-[04:40.875]我 有时孤独
-[04:46.187]却还有些抚慰和感动
-[04:50.470]那些抚慰 那些感动 因为我爱你
-[04:58.653]这个结局是我的期待
-[05:07.919]我会一直为你祝福`
     },
     {
         chapter: 0,
@@ -13978,5 +13978,517 @@ The beautiful summer I shared with you has come to an end`
 永远被困在无尽深渊之中（如今的你）
 （究竟身在何处）`,
         trans_source_cn: `WASABISOCUTE`,
+    },
+    {
+        chapter: 4,
+        title: 'ころしちゃった!', artist: '夏山よつぎ',
+        context: '', desc: '',
+        date: 'OCT 2026', ytId: 'rVdNlP2tWhU', start: 0,
+        lyrics: `ころしちゃった!?
+すったもんだしちゃって昼下がり
+ルージュに映った水溜り
+あ、しんじゃった!!
+なんだかんだしちゃって胸騒ぎ
+汗を拭ってひぐらしが鳴くばかり
+
+Crisis! Crisis! 思考ぐるぐる回って
+大抵は暗い方に暗い方に向かう話 Oh…
+Crisis! Crisis! もう盲目になって
+喚声は「可哀想に」「可哀想に」だけの案山子
+
+アタマ: パッパッパラッパッパラッパラリラ
+感情も無いようで
+モンタージュ　フラッシュバック　曰く悪魔の子
+アタマ: パッパッパラッパッパラッパラリラ
+どうしようもないもんで
+エスケープ　トロイメライ　早く瞼を下ろしてくれ
+
+ころしちゃった!!
+嫌ァァァァ…
+ころしちゃった!!
+嫌ァァァァ…
+ころしちゃった!!
+
+「はーい。どなたです？アンタは」
+ドアを開けりゃ無数の正義が
+「あの事件について真実を」
+「いえ、まずは謝罪の言の葉を」
+
+ああ、ごめんなさい、ご、ご、ごめんなさい
+僕が悪い子でした
+だから、もう、どうか、どうか、どうか、どうか、どうか、どうか、
+
+パッパッパラッパッパラッパラリラ
+当然の報いなんで
+インサイト　ルサンチマン　曰く悪魔の子
+アタマ: パッパッパラッパッパラッパラリラ
+罪状は以上として
+裁判長　絞首台　早く罰を下してくれ
+
+殺しちゃった!!
+Yeah…
+殺しちゃった!!
+Yeah…
+殺しちゃった!!
+
+殺しちゃった!?
+なんてこったいそいつぁ空騒ぎ
+メルヒェンと化した物語
+あ、死んじゃった!!
+なんだかんだしちゃって幕は降り
+やれ烏合の衆はヘラヘラ笑うばかり`,
+        lyrics_rom: `koroshichatta!?
+suttamonda shichatte hirusagari
+ruuju ni utsutta mizutamari
+a, shinjatta!!
+nandakanda shichatte munasawagi
+ase o nugutte higurashi ga naku bakari
+
+Crisis! Crisis! shikou guruguru mawatte
+taitei wa kurai hou ni kurai hou ni mukau hanashi Oh…
+Crisis! Crisis! mou moumoku ni natte
+kansei wa "kawaisou ni" "kawaisou ni" dake no kakashi
+
+atama: pappapparappappara pararira
+kanjou mo nai you de
+montaaju furasshubakku iwaku akuma no ko
+atama: pappapparappappara pararira
+doushiyou mo nai mon de
+esukeepu toroimerai hayaku mabuta o oroshite kure
+
+koroshichatta!!
+iyaaaaa…
+koroshichatta!!
+iyaaaaa…
+koroshichatta!!
+
+"haai. donata desu? anta wa"
+doa o akerya musuu no seigi ga
+"ano jiken ni tsuite shinjitsu o"
+"ie, mazu wa shazai no kotonoha o"
+
+aa, gomennasai, go, go, gomennasai
+boku ga warui ko deshita
+dakara, mou, douka, douka, douka, douka, douka, douka,
+
+pappapparappappara pararira
+touzen no mukui nande
+insaito rusanchiman iwaku akuma no ko
+atama: pappapparappappara pararira
+zaijou wa ijou to shite
+saibanchou koushudai hayaku batsu o kudashite kure
+
+koroshichatta!!
+Yeah…
+koroshichatta!!
+Yeah…
+koroshichatta!!
+
+koroshichatta!?
+nante kottai soitsua karasawagi
+meruhyen to kashita monogatari
+a, shinjatta!!
+nandakanda shichatte maku wa ori
+yare ugou no shuu wa herahera warau bakari`,
+    },
+    {
+        chapter: 4,
+        title: 'LaVI-Bavellabion', artist: '三木谷奈々',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: '88kosMxgsZw', start: 0,
+        lyrics: `[00:07.31]shi-des
+[00:09.43]haug gement
+[00:11.02]prIz'u' jeen
+[00:13.09]ievil JIO
+[00:14.21]WAirTell Iz'u i・zana-vited
+[00:17.40]DaRk rai LowhEll oF sent-ky
+[00:21.12]mayCtION N'o horMELT S~ond' MEif oF blasTOac
+[00:25.90]Coa Tain Sar-gedy
+[00:29.02]
+[00:41.04]pray・lee pray・lee
+[00:42.73]litt JIO N'o Guil-me
+[00:45.38]
+[00:47.95]pray・lee pray・lee
+[00:49.66]zanCrue N'o sinRuit
+[00:51.61]
+[00:56.18]GE-mon Iz'u Oqun
+[00:57.66]
+[00:59.63]Ada mu・Yon Jiell
+[01:01.49]kee’on kee’on
+[01:03.20]
+[01:03.88]ieyWOO
+[01:04.78]LaVI LaVI
+[01:06.46]To-ya-ya
+[01:07.97]MEif N'o showroof
+[01:09.68]CraeyTA’ Vani・tA
+[01:11.26]LEA
+[01:11.69]DArime DArime
+[01:13.67]To-ya-ya
+[01:14.51]zanfession N'o Toim
+[01:16.37]itsWA FineNd
+[01:18.35]LaVI LaVI
+[01:19.94]To-ya-ya
+[01:21.27]shi-des N'o Jus-tom
+[01:23.13]CraeyTA’ Vani・tA
+[01:24.72]LEA
+[01:25.09]DArime DArime
+[01:26.68]To-ya-ya
+[01:28.37]PyusenS'e N'o yu-Range Iz'u RacDA-m
+[01:31.78]rAwTell Iz'u to-Bi LaVI
+[01:33.81]Syu Tain!
+[01:35.88]
+[01:48.51]prIz' jeen Iz'u KeI・tion KeI・tion
+[01:52.49]litt JIO Iz'u SaiＶＩ SaiＶＩ
+[01:56.04]merc・lee Iz'u Vani・tA Vani・tA
+[01:59.22]sent-ky Iz'u dEs・lee dEs・lee
+[02:02.79]
+[02:15.96]madRazy senty-hungment
+[02:23.03]
+[02:36.15]kee’on
+[02:37.21]shi-des Toim
+[02:40.13]ieyWOO
+[02:41.19]LaVI LaVI
+[02:42.79]To-ya-ya
+[02:44.11]MEif N'o showroof
+[02:45.71]CraeyTA’ Vani・tA
+[02:47.50]LEA
+[02:48.16]DArime DArime
+[02:49.73]To-ya-ya
+[02:51.25]zanfession N'o Toim
+[02:52.57]itsWA FineNd
+[02:54.55]LaVI LaVI
+[02:56.41]To-ya-ya
+[02:57.74]shi-des N'o Jus-tom
+[02:59.33]CraeyTA’ Vani・tA
+[03:00.93]LEA
+[03:01.46]DArime DArime
+[03:03.05]To-ya-ya
+[03:04.38]PyusenS'e N'o yu-Range Iz'u RacDA-m
+[03:08.19]Za-**rk
+[03:09.90](Ha　lalala…)
+[03:14.41]LEA
+[03:15.03]DArime DArime
+[03:16.54]To-ya-ya
+[03:18.06]PyusenS'e N'o yu-Range Iz'u RacDA-m
+[03:20.45]rAwTell Iz'u to-Bi LaVI
+[03:23.64]Syu Tain!
+[03:25.09]LaVI Iz'u to-Bi Za-**rk
+[03:27.22]FineNd
+[03:30.78]
+[03:50.68]shi-des
+[03:52.54]haug gement
+[03:54.13]prIz'u' jeen
+[03:55.73]ievil JIO`,
+        lyrics_rom: `シ デス
+ハン ジメント
+プリズジーン
+イビル ジヨ
+ウェアテル アイズ イ ザナ ヴェイテッド
+ダーク ライ ロウへル オーエフ セントキー
+メイクション エノ ホウメルト ソンド メイフ オーエフ ブラストーク
+コー テイン サージェディ
+
+プレイリー プレイリー
+リト ジヨ エノ ギルミ
+
+プレイリー プレイリー
+ザンクル　　 エノ シンルーツ
+
+ゲモン アイズ オークン
+
+アン ム ヨン ジイール
+キーオン キーオン
+
+イーウー
+ラヴィ ラヴィ
+トゥーヤーヤ
+メイフ エノ ショウルーフ
+クレイタ ヴァニタ
+レア
+ダライム ダライム
+トゥーヤーヤ
+ザンフュージョン エノ トイム
+イツワ フィーネンド
+ラヴィ ラヴィ
+トゥーヤーヤ
+シデス エノ ジャスタム
+クレイタ ヴァニタ
+レア
+ダライム ダライム
+トゥーヤーヤ
+ピュセンス エノ ユーレンジ アイズ ラックダーン
+ラウテル アイズ トゥービ ラヴィ
+シューテイン
+
+プリズジーン アイズ ケイション ケイション
+リット ジヨ アイズ サイヴィ サイヴィ
+マークリー アイズ　 ヴァニタ ヴァニタ
+セントキー アイズ デスリー デスリー
+
+マッドレイジー センテイハングメント
+
+キーオン
+シデス トイム
+イーウー
+ラヴィ ラヴィ
+トゥーヤーヤ
+メイフ エノ ショウルーフ
+クレイタ ヴァニタ
+レア
+ダライム ダライム
+トゥーヤーヤ
+ザンフュージョン エノ トイム
+イツワ フィーネンド
+ラヴィ ラヴィ
+トゥーヤーヤ
+シデス エノ ジャスタム
+クレイタ ヴァニタ
+レア
+ダライム ダライム
+トゥーヤーヤ
+ピュセンス エノ ユーレンジ アイズ ラックダーン
+ザァーク
+
+レア
+ダライム ダライム
+トゥーヤーヤ
+ピュセンス エノ ユーレンジ アイズ ラックダーン
+ラウテル アイズ トゥービ ラヴィ
+シューテイン
+ラヴィ アイズ トゥービ ザァーク
+フィーネンド
+
+シデス
+ハン ジメント
+プリズジーン
+イビル ジヨ`,
+    },
+    {
+        chapter: 4,
+        title: 'eXi\' N\'o FooKah', artist: '日彩',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: 'AIeAZ_qtdJ4', start: 0,
+        lyrics: `Ada litt JIO kee'on
+itsWA GE·mon N'o sinruits
+Was•Da Toim pray•lee
+S-ond' FineNd S-ond' FineNd
+Vani•tA zanfession Iz'u
+MEif blasTOac
+S-ond' merc•lee Iz'u CraeyTA' Vani•tA
+Jus-tom Sar-gedy Iz'u namuNa
+kee'on i•zana•vited shi-des Ow
+LEA LEA LEA LEA
+WAirTell rAwTell Toim N'o DArime
+Ada litt JIO kee'on
+itsWA GE·mon N'o sinruits
+Was•Da Toim pray•lee
+S-ond' FineNd S-ond' FineNd
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Toim N'o DArime
+Ada madRazy litt JIO Iz'u Nii
+merc•lee S-ond'ievil JIO
+Ada madRazy litt JIO Iz'u Nii
+merc•lee S-ond'ievil JIO
+Ada madRazy litt JIO Iz'u Nii
+merc•lee S-ond'ievil JIO
+To-ya-ya showroof
+Ada litt JIO Oqun GE•mon N'o Jiell FineNd Vani•tA
+Ada litt JIO kee'on
+itsWA GE·mon N'o sinruits
+Was•Da Toim pray•lee
+S-ond' FineNd
+LEA LEA shi-des Toim
+RacDA-m Hir Ow
+LEA LEA shi-des Toim
+Was•Da Tei-Tance
+DaRk rai ieyWOO
+Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
+DaRk rai ieyWOO
+Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
+mu•Yon N'o WiD Sha-Rui BuggAh'
+Nii GoKuu
+Su•ReaDy rAwTell Lai Nei shi-des
+Hir Know-Truw to-Bi eXi' ShouBek
+MEif Vani•tA`
+    },
+    {
+        chapter: 4,
+        title: 'bloom', artist: '三木谷奈々',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: 'mH5cYQ0Vlqc', start: 0,
+        lyrics: `I thought a new day would come,
+believed hope would save me.
+Wanted to live in peace and not question anyone's mind.
+That hope crumbled with a thud.
+In the face of death, changed way of life.
+So don't need to be afraid.
+Think only of finding a way.
+No crying.
+Tell me how the fact.
+Blind to heart's shadows?
+I can only turn away by laughing and fooling around.
+Will that urging within me grow bigger someday?
+This wasn't magic as I knew it.
+I check my scars every time, I wake up from sleep.
+That morning was a world I didn't know, yet I knew what to do.
+It took me a while to realize.
+That the choice made was a foolish right one.
+So I lost sense of right.
+It wasn't supposed to be like this.
+Tell me how the truth.
+I just can't lose hope.
+I don't want your kindness to end up meaningless.
+Will this urging within me grow bigger someday?
+This wasn't magic as I knew it.
+I hear the clock tick tock.
+Where is the ending you desired?
+I'll look for it.
+By whatever means necessary.
+Tell me how the fact.
+Blind to heart's shadows?
+I don't want your kindness to end up meaningless.
+I'll tell as many lies as need to.
+I'm not afraid.
+Is this the magic?
+I've just found hope.
+I'm trying to save you.
+Forgive me even if it's in a way that's cruel to you.
+Now I'll let your heart bloom.
+Don't be afraid. Try closing your eyes.
+I'll always be with you.`
+    },
+    {
+        chapter: 4,
+        title: 'MAdEaR MAdEaR', artist: '東雲はる',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: 'u7YnipBM9xQ', start: 0,
+        lyrics: `itsWA Taletar-rii Iz'u
+sinruits KeyGa Oqun
+So-meRRy rAwTell Iz'u Sikes-more
+MEif oF mayCtION Iz'u May-Ring
+Eleden Lai Nei youLugiVe
+dEstiMay YouBIMEif WAirTell
+KetZen show-bol aSte
+anXan Iz'u deMail HiLible N'o showence
+Ado dEs ・ lee KaRause RuGle
+namuNa Was ・ De MEif Iz'u Nii!
+namuNa Was ・ De MEif Iz'u Nii!
+merc ・ lee Evera Firellu
+CraeyTA' Vani ・ tA
+LiE pray ・ lee pray ・ lee
+S～ond' yOull seE tAma-E
+Guil-me Taven CRUzehary aSte
+Aw rAwTell Iz'u shid aSte
+Sar-gedy N'o FineNd atto
+iN mY Luv
+MEif oF beeCtION Iz'u May-Ring
+So-T'sa sent-ky oF fOrneE
+inves-MEY N'o Zen ・ ward oF
+Do-se N'o Fir oRei Vani ・ su
+AyAmis Iz'u Clearail
+Har-ts ・ sin-Craey N'o showence
+Ado LowhEll KaRause RuGle
+namuNa Was ・ De MEif Iz'u Nii!
+namuNa Was ・ De MEif Iz'u Nii!
+showroof Evera Firellu
+CraeyTA' Vani ・ tA
+LiE Gii-fice Gii-fice
+BuggAh' yOull seE tAma-E
+Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
+rAwTell Iz'u shid aSte
+rAwTell Iz'u Sikes～more
+FinecloWt sinruits
+LaVI LaVI To-ya-ya
+LEA LEA LEA Syu Tain
+namuNa Was ・ De MEif Iz'u Nii!
+namuNa Was ・ De MEif Iz'u Nii!
+merc ・ lee Evera Firellu
+CraeyTA' Vani ・ tA
+LiE pray ・ lee pray ・ lee
+S～ond' yOull seE tAma-E
+Guil-me Taven CRUzehary aSte
+Aw rAwTell Iz'u shid aSte
+CraeyTA' Vani ・ tA
+LiE Gii-fice Gii-fice
+BuggAh' yOull seE tAma-E
+Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
+rAwTell Iz'u shid aSte
+Sar-gedy N'o FineNd atto
+iN mY Luv`,
+    },
+    {
+        chapter: 4,
+        title: 'AccUhEarts (-発-)', artist: '天音',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: 'wI8ppi0-fFU', start: 0,
+        lyrics: `nAng sAiMoku a-Wet anxAn
+ULieSo Ca-nay Seel
+Baru N'o E-gOtable
+
+hison' aSte AyAmis Iz'u
+sent-ky ShouBeK
+SiVa litt JIO Iz'u RE-tal
+En-NOte
+NAi muRm oCcurreLe rAwTell
+
+So-meRRy
+itsWA N'o cOnzAi
+SiVa Ja・
+Da FinecloWt Co-Jundic oNkhe
+
+yu-Range mitAfiL Doubg inKel
+aSte
+shi-des N'o KeyGa Seel Ca-nan
+SiVa ReDogh' Nii Hir Ado hAte
+Iz'u
+nAddY UshiLse DiGhT
+Edo Iz'u Jiell Bah
+
+hison' aSte AyAmis Iz'u
+sent-ky ShouBeK
+SiVa litt JIO Iz'u RE-tal
+En-NOte
+NAi muRm oCcurreLe rAwTell
+
+So-meRRy
+itsWA N'o cOnzAi
+SiVa Ja・
+Da FinecloWt Co-Jundic oNkhe
+
+Imne-Nai
+Lai Nei HiLible muR We-Ho
+Nii
+hison' ievil JIO meKaMo ieyWOO
+Ado showence Iz'u KeyGa Bah
+hArLie FayO dEs・lee Iz'u
+ComChiYoi Acomell fAnoSy
+
+Nii Bah
+WAirTell Iz'u Say mAl
+CalmSey
+ShiFey Mof itsWA Zelln shid
+deFuTai
+deFuTai SurColl
+fOre AccUhEarts
+wE-MitTa N'o KoISu Sonikah Iz'u
+kee’on Jus-tom
+zanCrue Coword Kuth Dasou
+LaVI NahBeRuｍ Lai Nei
+LAikIll Bah
+LAikIll oNkhe
+Ah`,
+    },
+    {
+        chapter: 4,
+        title: 'AccUhEarts (-発-)', artist: '天音',
+        context: '魔法少女ノ魔女裁判', decs: '',
+        date: 'NOV 2026', ytId: 'iXjR91FkiI4', start: 0,
+        lyrics: `(Instrumental - No Lyrics)`,
     }
 ];
