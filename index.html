@@ -8,6 +8,8 @@
     <link rel="icon" type="image/x-icon" href="/picture/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://img.youtube.com">
+    <link rel="preconnect" href="https://www.youtube.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
         rel="stylesheet">
@@ -263,7 +265,7 @@
         <div class="transition-laser-beam"></div>
     </div>
 
-    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- 优先加载数据文件与页面渲染逻辑 -->
     <script src="data.js"></script>
     <script src="data2.js"></script>
     <script>
@@ -324,7 +326,7 @@
                 const cardHTML = `
                     <div class="track-card" data-track-index="${index}" onclick="openPlayer(${index})">
                         <div class="track-cover-wrapper">
-                            <img src="${coverUrl}" class="track-cover">
+                            <img src="${coverUrl}" class="track-cover" loading="lazy" decoding="async">
                             <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
                         </div>
                         <div class="track-info">
@@ -402,8 +404,10 @@
         setTimeout(updateAllGridMarquees, 100);
         let player;
         let isPlayerReady = false;
+        let isYTAPILoading = false;
+        let currentLoadedYtId = null;
         let progressInterval;
-        let currentTrackId = 0;
+        let currentTrackId = -1;
         let playerTimeout;
         let loopMode = 0; // 0: Stop After Current, 1: Sequence, 2: Loop One, 3: Loop All
 
@@ -419,7 +423,25 @@
         }
         updateVolumeIcon(initialVolume);
 
-        function onYouTubeIframeAPIReady() {
+        // 延迟/按需加载 YouTube IFrame API 与播放器，确保页面首屏与歌曲列表最优先渲染
+        function loadYouTubeAPI() {
+            if (window.YT && window.YT.Player) {
+                if (!player) {
+                    initYouTubePlayer();
+                }
+                return;
+            }
+            if (isYTAPILoading || document.getElementById('yt-iframe-api')) return;
+            isYTAPILoading = true;
+            const tag = document.createElement('script');
+            tag.id = 'yt-iframe-api';
+            tag.src = 'https://www.youtube.com/iframe_api';
+            tag.async = true;
+            document.body.appendChild(tag);
+        }
+
+        function initYouTubePlayer() {
+            if (player || !(window.YT && window.YT.Player)) return;
             player = new YT.Player('youtube-player', {
                 height: '100%',
                 width: '100%',
@@ -437,6 +459,23 @@
                 }
             });
         }
+
+        window.onYouTubeIframeAPIReady = function() {
+            initYouTubePlayer();
+        };
+
+        function scheduleYouTubeAPILoad() {
+            if (document.readyState === 'complete') {
+                setTimeout(loadYouTubeAPI, 100);
+            } else {
+                window.addEventListener('load', () => {
+                    setTimeout(loadYouTubeAPI, 100);
+                }, { once: true });
+                // 兜底：若有外部资源耗时较长，最多等待 3 秒后仍然在后台初始化播放器
+                setTimeout(loadYouTubeAPI, 3000);
+            }
+        }
+        scheduleYouTubeAPILoad();
         const visualizer = document.getElementById("visualizer");
 
         for (let i = 0; i < 10; i++) {
@@ -734,6 +773,17 @@
                 const vol = parseInt(document.getElementById('volume-slider')?.value || initialVolume, 10);
                 player.setVolume(vol);
             }
+            if (playerTimeout) {
+                clearTimeout(playerTimeout);
+                playerTimeout = null;
+                const overlay = document.getElementById('np-overlay');
+                const isOverlayActive = overlay && overlay.classList.contains('active');
+                const toast = document.getElementById('np-toast');
+                const isToastActive = toast && toast.classList.contains('active');
+                if ((isOverlayActive || isToastActive) && currentTrackId >= 0) {
+                    openPlayer(currentTrackId, !isOverlayActive);
+                }
+            }
         }
 
         function onPlayerStateChange(event) {
@@ -956,6 +1006,7 @@
         }
 
         function openPlayer(trackId, keepHidden = false) {
+            loadYouTubeAPI();
             clearTimeout(playerTimeout);
             const track = activeTracks[trackId];
             if (!track) return;
@@ -971,7 +1022,7 @@
             const toast = document.getElementById('np-toast');
             const toastTitle = document.getElementById('toast-title');
             const toastArtist = document.getElementById('toast-artist');
-            const isReopening = (currentTrackId === trackId && isPlayerReady);
+            const isReopening = (currentTrackId === trackId && isPlayerReady && currentLoadedYtId === track.ytId);
             currentTrackId = trackId;
 
             toastTitle.setAttribute('data-original-html', track.title);
@@ -1048,9 +1099,10 @@
                         loadOptions.endSeconds = track.end;
                     }
                     player.loadVideoById(loadOptions);
+                    currentLoadedYtId = track.ytId;
                 }
             } else {
-                playerTimeout = setTimeout(() => openPlayer(trackId, keepHidden), 500);
+                playerTimeout = setTimeout(() => openPlayer(trackId, keepHidden), 250);
             }
         }
 
@@ -1140,6 +1192,9 @@
             if (settingsPopup && settingsPopup.classList.contains('active')) {
                 if (!settingsPopup.contains(event.target) && !settingsBtn.contains(event.target)) {
                     settingsPopup.classList.remove('active');
+                    // Restore mini-player toast if it was hidden while settings was open
+                    const toast = document.getElementById('np-toast');
+                    if (toast) { toast.style.visibility = ''; toast.style.pointerEvents = ''; }
                 }
             }
         });
@@ -1153,7 +1208,19 @@
         function toggleSettings(event) {
             event.stopPropagation();
             document.getElementById('help-popup').classList.remove('active');
-            document.getElementById('settings-popup').classList.toggle('active');
+            const settingsPopup = document.getElementById('settings-popup');
+            settingsPopup.classList.toggle('active');
+            // Hide mini-player on mobile while settings panel is open so it doesn't obstruct
+            const toast = document.getElementById('np-toast');
+            if (toast) {
+                if (settingsPopup.classList.contains('active')) {
+                    toast.style.visibility = 'hidden';
+                    toast.style.pointerEvents = 'none';
+                } else {
+                    toast.style.visibility = '';
+                    toast.style.pointerEvents = '';
+                }
+            }
         }
 
         // Initialize Settings from localStorage
@@ -1992,6 +2059,7 @@
                 }
 
                 currentTrackId = 0;
+                currentLoadedYtId = null;
                 renderGrid();
 
                 if (targetTrackId !== null && targetTrackId !== undefined) {
