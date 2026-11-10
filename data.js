@@ -14094,7 +14094,7 @@ yare ugou no shuu wa herahera warau bakari`,
     {
         chapter: 4,
         title: 'LaVI-Bavellabion', artist: '三木谷奈々',
-        context: '魔法少女ノ魔女裁判', decs: '',
+        context: '魔法少女ノ魔女裁判', desc: 'Act 1 OP',
         date: 'NOV 2026', ytId: '88kosMxgsZw', start: 0,
         lyrics: `[00:07.31]shi-des
 [00:09.43]haug gement
@@ -14265,229 +14265,272 @@ yare ugou no shuu wa herahera warau bakari`,
     },
     {
         chapter: 4,
+        title: 'gDie Divil JIO', artist: '根本真澄',
+        context: '魔法少女ノ魔女裁判', desc: 'Title Screen',
+        date: 'NOV 2026', ytId: 'Y7HpsqQ_M24', start: 0,
+        lyrics: `yO-pare oRe cUrOi
+yO-pare oRe cUrOi
+yO-pare oRe cUrOi
+yO-pare oRe
+hAte N'o tone san
+pary·lee aZaGara ieyWOO SavOte oRe
+yO-pare oRe cUrOi
+yO-pare oRe cUrOi
+yO-pare oRe cUrOi
+yO-pare oRe
+hAte N'o tone san
+pary·lee aZaGara linAg
+S-ond' gDie GoMi Iz'u weRel Ca-nan
+Lai Nei Hir LiGh rai Iz'u Seel Ca-nan
+Owk Jiell N'o dEs·lee meKaMo
+itsWA WiD Iz'u Sen-Choose gE-ddoS
+KaRause muRm Iz'u kiNbOO
+So-meRRy San-kAtoH
+Ada Memoid
+Ah...
+
+nAng hArLie son' nEYar`,
+
+    },
+    {
+        chapter: 4,
         title: 'eXi\' N\'o FooKah', artist: '日彩',
-        context: '魔法少女ノ魔女裁判', decs: '',
+        context: '魔法少女ノ魔女裁判', desc: '開廷',
         date: 'NOV 2026', ytId: 'AIeAZ_qtdJ4', start: 0,
-        lyrics: `Ada litt JIO kee'on
-itsWA GE·mon N'o sinruits
-Was•Da Toim pray•lee
-S-ond' FineNd S-ond' FineNd
-Vani•tA zanfession Iz'u
-MEif blasTOac
-S-ond' merc•lee Iz'u CraeyTA' Vani•tA
-Jus-tom Sar-gedy Iz'u namuNa
-kee'on i•zana•vited shi-des Ow
-LEA LEA LEA LEA
-WAirTell rAwTell Toim N'o DArime
-Ada litt JIO kee'on
-itsWA GE·mon N'o sinruits
-Was•Da Toim pray•lee
-S-ond' FineNd S-ond' FineNd
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Toim N'o DArime
-Ada madRazy litt JIO Iz'u Nii
-merc•lee S-ond'ievil JIO
-Ada madRazy litt JIO Iz'u Nii
-merc•lee S-ond'ievil JIO
-Ada madRazy litt JIO Iz'u Nii
-merc•lee S-ond'ievil JIO
-To-ya-ya showroof
-Ada litt JIO Oqun GE•mon N'o Jiell FineNd Vani•tA
-Ada litt JIO kee'on
-itsWA GE·mon N'o sinruits
-Was•Da Toim pray•lee
-S-ond' FineNd
-LEA LEA shi-des Toim
-RacDA-m Hir Ow
-LEA LEA shi-des Toim
-Was•Da Tei-Tance
-DaRk rai ieyWOO
-Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
-DaRk rai ieyWOO
-Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
-mu•Yon N'o WiD Sha-Rui BuggAh'
-Nii GoKuu
-Su•ReaDy rAwTell Lai Nei shi-des
-Hir Know-Truw to-Bi eXi' ShouBek
-MEif Vani•tA`
+        lyrics: `[00:12.83]Ada litt JIO kee'on
+[00:17.61]itsWA GE·mon N'o sinruits
+[00:22.82]Was•Da Toim pray•lee
+[00:25.65]S-ond' FineNd S-ond' FineNd
+[00:30.77]Vani•tA zanfession Iz'u
+[00:33.81]MEif blasTOac
+[00:35.11]S-ond' merc•lee Iz'u CraeyTA' Vani•tA
+[00:39.63]Jus-tom Sar-gedy Iz'u namuNa
+[00:43.29]kee'on i•zana•vited shi-des Ow
+[00:48.38]LEA LEA LEA LEA
+[00:50.57]WAirTell rAwTell Toim N'o DArime
+[00:59.15]
+[01:07.28]Ada litt JIO kee'on
+[01:12.09]itsWA GE·mon N'o sinruits
+[01:17.28]Was•Da Toim pray•lee
+[01:20.35]S-ond' FineNd S-ond' FineNd
+[01:25.50]Toim N'o DArime
+[01:29.59]Toim N'o DArime
+[01:34.16]Toim N'o DArime
+[01:38.69]Toim N'o DArime
+[01:45.48]Toim N'o DArime
+[01:50.17]Toim N'o DArime
+[01:54.46]Toim N'o DArime
+[01:58.80]Toim N'o DArime
+[02:01.22]Ada madRazy litt JIO Iz'u Nii
+[02:05.71]merc•lee S-ond'ievil JIO
+[02:09.88]Ada madRazy litt JIO Iz'u Nii
+[02:15.20]merc•lee S-ond'ievil JIO
+[02:18.07]Ada madRazy litt JIO Iz'u Nii
+[02:23.78]merc•lee S-ond'ievil JIO
+[02:26.82]To-ya-ya showroof
+[02:29.25]Ada litt JIO Oqun GE•mon N'o Jiell FineNd Vani•tA
+[02:37.76]Ada litt JIO kee'on
+[02:42.45]itsWA GE·mon N'o sinruits
+[02:47.25]Was•Da Toim pray•lee
+[02:50.34]S-ond' FineNd
+[02:55.72]LEA LEA shi-des Toim
+[02:59.70]RacDA-m Hir Ow
+[03:04.25]LEA LEA shi-des Toim
+[03:08.30]Was•Da Tei-Tance
+[03:12.92]DaRk rai ieyWOO
+[03:15.04]Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
+[03:22.35]DaRk rai ieyWOO
+[03:24.41]Ada MEif Iz'u yu-Range PyusenS'e FooKah Bah
+[03:29.54]mu•Yon N'o WiD Sha-Rui BuggAh'
+[03:33.94]Nii GoKuu
+[03:35.61]Su•ReaDy rAwTell Lai Nei shi-des
+[03:39.37]Hir Know-Truw to-Bi eXi' ShouBek
+[03:44.73]MEif Vani•tA`
     },
     {
         chapter: 4,
         title: 'bloom', artist: '三木谷奈々',
-        context: '魔法少女ノ魔女裁判', decs: '',
+        context: '魔法少女ノ魔女裁判', desc: 'Ending',
         date: 'NOV 2026', ytId: 'mH5cYQ0Vlqc', start: 0,
-        lyrics: `I thought a new day would come,
-believed hope would save me.
-Wanted to live in peace and not question anyone's mind.
-That hope crumbled with a thud.
-In the face of death, changed way of life.
-So don't need to be afraid.
-Think only of finding a way.
-No crying.
-Tell me how the fact.
-Blind to heart's shadows?
-I can only turn away by laughing and fooling around.
-Will that urging within me grow bigger someday?
-This wasn't magic as I knew it.
-I check my scars every time, I wake up from sleep.
-That morning was a world I didn't know, yet I knew what to do.
-It took me a while to realize.
-That the choice made was a foolish right one.
-So I lost sense of right.
-It wasn't supposed to be like this.
-Tell me how the truth.
-I just can't lose hope.
-I don't want your kindness to end up meaningless.
-Will this urging within me grow bigger someday?
-This wasn't magic as I knew it.
-I hear the clock tick tock.
-Where is the ending you desired?
-I'll look for it.
-By whatever means necessary.
-Tell me how the fact.
-Blind to heart's shadows?
-I don't want your kindness to end up meaningless.
-I'll tell as many lies as need to.
-I'm not afraid.
-Is this the magic?
-I've just found hope.
-I'm trying to save you.
-Forgive me even if it's in a way that's cruel to you.
-Now I'll let your heart bloom.
-Don't be afraid. Try closing your eyes.
-I'll always be with you.`
+        lyrics: `[00:36.01]I thought a new day would come,
+[00:39.96]believed hope would save me.
+[00:46.41]Wanted to live in peace and not question anyone's mind.
+[00:54.28]
+[00:57.85]That hope crumbled with a thud.
+[01:02.70]In the face of death, changed way of life.
+[01:08.08]So don't need to be afraid.
+[01:10.74]Think only of finding a way.
+[01:15.76]No crying.
+[01:16.94]
+[01:18.12]Tell me how the fact.
+[01:21.09]Blind to heart's shadows?
+[01:23.60]I can only turn away by laughing and fooling around.
+[01:30.20]Will that urging within me grow bigger someday?
+[01:37.61]This wasn't magic as I knew it.
+[01:42.16]
+[01:52.83]I check my scars every time, I wake up from sleep.
+[02:03.51]That morning was a world I didn't know, yet I knew what to do.
+[02:14.06]It took me a while to realize.
+[02:19.44]That the choice made was a foolish right one.
+[02:23.63]So I lost sense of right.
+[02:26.86]It wasn't supposed to be like this.
+[02:33.90]
+[02:35.21]Tell me how the truth.
+[02:38.19]I just can't lose hope.
+[02:41.15]I don't want your kindness to end up meaningless.
+[02:46.64]Will this urging within me grow bigger someday?
+[02:54.43]This wasn't magic as I knew it.
+[03:00.10]
+[03:22.39]I hear the clock tick tock.
+[03:28.41]Where is the ending you desired?
+[03:34.74]I'll look for it.
+[03:38.01]By whatever means necessary.
+[03:43.54]Tell me how the fact.
+[03:46.59]Blind to heart's shadows?
+[03:49.05]I don't want your kindness to end up meaningless.
+[03:55.13]I'll tell as many lies as need to.
+[03:58.77]I'm not afraid.
+[04:02.33]Is this the magic?
+[04:04.47]I've just found hope.
+[04:07.80]I'm trying to save you.
+[04:10.41]Forgive me even if it's in a way that's cruel to you.
+[04:16.62]Now I'll let your heart bloom.
+[04:19.77]Don't be afraid. Try closing your eyes.
+[04:24.63]I'll always be with you.`
     },
     {
         chapter: 4,
         title: 'MAdEaR MAdEaR', artist: '東雲はる',
-        context: '魔法少女ノ魔女裁判', decs: '',
+        context: '魔法少女ノ魔女裁判', desc: 'Act 2 OP',
         date: 'NOV 2026', ytId: 'u7YnipBM9xQ', start: 0,
-        lyrics: `itsWA Taletar-rii Iz'u
-sinruits KeyGa Oqun
-So-meRRy rAwTell Iz'u Sikes-more
-MEif oF mayCtION Iz'u May-Ring
-Eleden Lai Nei youLugiVe
-dEstiMay YouBIMEif WAirTell
-KetZen show-bol aSte
-anXan Iz'u deMail HiLible N'o showence
-Ado dEs ・ lee KaRause RuGle
-namuNa Was ・ De MEif Iz'u Nii!
-namuNa Was ・ De MEif Iz'u Nii!
-merc ・ lee Evera Firellu
-CraeyTA' Vani ・ tA
-LiE pray ・ lee pray ・ lee
-S～ond' yOull seE tAma-E
-Guil-me Taven CRUzehary aSte
-Aw rAwTell Iz'u shid aSte
-Sar-gedy N'o FineNd atto
-iN mY Luv
-MEif oF beeCtION Iz'u May-Ring
-So-T'sa sent-ky oF fOrneE
-inves-MEY N'o Zen ・ ward oF
-Do-se N'o Fir oRei Vani ・ su
-AyAmis Iz'u Clearail
-Har-ts ・ sin-Craey N'o showence
-Ado LowhEll KaRause RuGle
-namuNa Was ・ De MEif Iz'u Nii!
-namuNa Was ・ De MEif Iz'u Nii!
-showroof Evera Firellu
-CraeyTA' Vani ・ tA
-LiE Gii-fice Gii-fice
-BuggAh' yOull seE tAma-E
-Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
-rAwTell Iz'u shid aSte
-rAwTell Iz'u Sikes～more
-FinecloWt sinruits
-LaVI LaVI To-ya-ya
-LEA LEA LEA Syu Tain
-namuNa Was ・ De MEif Iz'u Nii!
-namuNa Was ・ De MEif Iz'u Nii!
-merc ・ lee Evera Firellu
-CraeyTA' Vani ・ tA
-LiE pray ・ lee pray ・ lee
-S～ond' yOull seE tAma-E
-Guil-me Taven CRUzehary aSte
-Aw rAwTell Iz'u shid aSte
-CraeyTA' Vani ・ tA
-LiE Gii-fice Gii-fice
-BuggAh' yOull seE tAma-E
-Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
-rAwTell Iz'u shid aSte
-Sar-gedy N'o FineNd atto
-iN mY Luv`,
+        lyrics: `[00:02.46]itsWA Taletar-rii Iz'u
+[00:05.09]sinruits KeyGa Oqun
+[00:07.35]So-meRRy rAwTell Iz'u Sikes-more
+[00:11.40]
+[00:23.05]MEif oF mayCtION Iz'u May-Ring
+[00:25.42]Eleden Lai Nei youLugiVe
+[00:28.38]dEstiMay YouBIMEif WAirTell
+[00:31.38]KetZen show-bol aSte
+[00:33.77]anXan Iz'u deMail HiLible N'o showence
+[00:38.76]Ado dEs ・ lee KaRause RuGle
+[00:41.12]namuNa Was ・ De MEif Iz'u Nii!
+[00:43.31]namuNa Was ・ De MEif Iz'u Nii!
+[00:45.83]merc ・ lee Evera Firellu
+[00:50.34]CraeyTA' Vani ・ tA
+[00:52.92]LiE pray ・ lee pray ・ lee
+[00:55.48]S～ond' yOull seE tAma-E
+[00:58.26]
+[01:00.24]Guil-me Taven CRUzehary aSte
+[01:05.59]Aw rAwTell Iz'u shid aSte
+[01:10.13]Sar-gedy N'o FineNd atto
+[01:13.54]iN mY Luv
+[01:14.98]
+[01:25.49]MEif oF beeCtION Iz'u May-Ring
+[01:28.54]So-T'sa sent-ky oF fOrneE
+[01:31.71]inves-MEY N'o Zen ・ ward oF
+[01:34.26]Do-se N'o Fir oRei Vani ・ su
+[01:36.46]AyAmis Iz'u Clearail
+[01:38.72]Har-ts ・ sin-Craey N'o showence
+[01:41.22]Ado LowhEll KaRause RuGle
+[01:43.64]namuNa Was ・ De MEif Iz'u Nii!
+[01:45.86]namuNa Was ・ De MEif Iz'u Nii!
+[01:48.35]showroof Evera Firellu
+[01:52.35]CraeyTA' Vani ・ tA
+[01:55.02]LiE Gii-fice Gii-fice
+[01:57.52]BuggAh' yOull seE tAma-E
+[02:00.73]
+[02:02.74]Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
+[02:08.02]rAwTell Iz'u shid aSte
+[02:10.14]
+[02:12.71]rAwTell Iz'u Sikes～more
+[02:15.30]
+[02:17.66]FinecloWt sinruits
+[02:20.04]LaVI LaVI To-ya-ya
+[02:22.34]LEA LEA LEA Syu Tain
+[02:24.69]namuNa Was ・ De MEif Iz'u Nii!
+[02:27.03]namuNa Was ・ De MEif Iz'u Nii!
+[02:29.46]merc ・ lee Evera Firellu
+[02:33.57]
+[02:35.11]CraeyTA' Vani ・ tA
+[02:37.91]LiE pray ・ lee pray ・ lee
+[02:40.44]S～ond' yOull seE tAma-E
+[02:42.80]
+[02:45.14]Guil-me Taven CRUzehary aSte
+[02:49.26]Aw rAwTell Iz'u shid aSte
+[02:55.07]CraeyTA' Vani ・ tA
+[02:57.34]LiE Gii-fice Gii-fice
+[02:59.81]BuggAh' yOull seE tAma-E
+[03:04.91]Guil-me Taven Cro ・ JI atto Dei-ma ・ cate
+[03:09.19]rAwTell Iz'u shid aSte
+[03:11.95]
+[03:13.39]Sar-gedy N'o FineNd atto
+[03:19.68]iN mY Luv`,
     },
     {
         chapter: 4,
         title: 'AccUhEarts (-発-)', artist: '天音',
-        context: '魔法少女ノ魔女裁判', decs: '',
-        date: 'NOV 2026', ytId: 'wI8ppi0-fFU', start: 0,
-        lyrics: `nAng sAiMoku a-Wet anxAn
-ULieSo Ca-nay Seel
-Baru N'o E-gOtable
-
-hison' aSte AyAmis Iz'u
-sent-ky ShouBeK
-SiVa litt JIO Iz'u RE-tal
-En-NOte
-NAi muRm oCcurreLe rAwTell
-
-So-meRRy
-itsWA N'o cOnzAi
-SiVa Ja・
-Da FinecloWt Co-Jundic oNkhe
-
-yu-Range mitAfiL Doubg inKel
-aSte
-shi-des N'o KeyGa Seel Ca-nan
-SiVa ReDogh' Nii Hir Ado hAte
-Iz'u
-nAddY UshiLse DiGhT
-Edo Iz'u Jiell Bah
-
-hison' aSte AyAmis Iz'u
-sent-ky ShouBeK
-SiVa litt JIO Iz'u RE-tal
-En-NOte
-NAi muRm oCcurreLe rAwTell
-
-So-meRRy
-itsWA N'o cOnzAi
-SiVa Ja・
-Da FinecloWt Co-Jundic oNkhe
-
-Imne-Nai
-Lai Nei HiLible muR We-Ho
-Nii
-hison' ievil JIO meKaMo ieyWOO
-Ado showence Iz'u KeyGa Bah
-hArLie FayO dEs・lee Iz'u
-ComChiYoi Acomell fAnoSy
-
-Nii Bah
-WAirTell Iz'u Say mAl
-CalmSey
-ShiFey Mof itsWA Zelln shid
-deFuTai
-deFuTai SurColl
-fOre AccUhEarts
-wE-MitTa N'o KoISu Sonikah Iz'u
-kee’on Jus-tom
-zanCrue Coword Kuth Dasou
-LaVI NahBeRuｍ Lai Nei
-LAikIll Bah
-LAikIll oNkhe
-Ah`,
+        context: '魔法少女ノ魔女裁判', desc: '議論',
+        date: 'NOV 2026', ytId: 'AS_GxKkLAk0', start: 0,
+        lyrics: `[00:14.83]nAng sAiMoku a-Wet anxAn
+[00:21.44]ULieSo Ca-nay Seel
+[00:26.80]Baru N'o E-gOtable
+[00:29.43]
+[00:41.17]hison' aSte AyAmis Iz'u
+[00:47.48]sent-ky ShouBeK
+[00:48.44]SiVa litt JIO Iz'u RE-tal
+[00:50.19]En-NOte
+[00:50.66]NAi muRm oCcurreLe rAwTell
+[00:53.09]
+[00:54.69]So-meRRy
+[00:57.53]itsWA N'o cOnzAi
+[01:01.58]SiVa Ja・
+[01:03.76]Da FinecloWt Co-Jundic oNkhe
+[01:08.37]
+[01:55.06]yu-Range mitAfiL Doubg inKel
+[02:00.95]aSte
+[02:02.74]shi-des N'o KeyGa Seel Ca-nan
+[02:05.48]SiVa ReDogh' Nii Hir Ado hAte
+[02:07.74]Iz'u
+[02:08.21]nAddY UshiLse DiGhT
+[02:11.51]Edo Iz'u Jiell Bah
+[02:14.91]
+[02:35.07]hison' aSte AyAmis Iz'u
+[02:41.08]sent-ky ShouBeK
+[02:41.85]SiVa litt JIO Iz'u RE-tal
+[02:43.26]En-NOte
+[02:44.27]NAi muRm oCcurreLe rAwTell
+[02:46.78]
+[02:48.35]So-meRRy
+[02:51.16]itsWA N'o cOnzAi
+[02:54.97]SiVa Ja・
+[02:57.40]Da FinecloWt Co-Jundic oNkhe
+[03:01.63]Imne-Nai
+[03:04.32]Lai Nei HiLible muR We-Ho
+[03:06.41]Nii
+[03:06.93]hison' ievil JIO meKaMo ieyWOO
+[03:08.41]Ado showence Iz'u KeyGa Bah
+[03:12.27]hArLie FayO dEs・lee Iz'u
+[03:13.42]ComChiYoi Acomell fAnoSy
+[03:17.42]
+[03:40.32]Nii Bah
+[03:41.18]WAirTell Iz'u Say mAl
+[03:43.65]CalmSey
+[03:46.86]ShiFey Mof itsWA Zelln shid
+[03:50.09]deFuTai
+[03:50.96]deFuTai SurColl
+[03:53.14]fOre AccUhEarts
+[03:54.68]wE-MitTa N'o KoISu Sonikah Iz'u
+[03:58.20]kee’on Jus-tom
+[04:00.82]zanCrue Coword Kuth Dasou
+[04:03.91]LaVI NahBeRuｍ Lai Nei
+[04:07.40]LAikIll Bah
+[04:10.67]LAikIll oNkhe
+[04:14.64]Ah`,
     },
     {
         chapter: 4,
         title: 'rAwTell Owk...', artist: '近藤佑輔',
-        context: '魔法少女ノ魔女裁判', decs: '',
+        context: '魔法少女ノ魔女裁判', desc: '⚖審問開始⚖',
         date: 'NOV 2026', ytId: 'iXjR91FkiI4', start: 0,
         lyrics: `(Instrumental - No Lyrics)`,
     }
