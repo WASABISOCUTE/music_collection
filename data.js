@@ -14486,7 +14486,7 @@ Ah`,
     },
     {
         chapter: 4,
-        title: 'AccUhEarts (-発-)', artist: '天音',
+        title: 'rAwTell Owk...', artist: '近藤佑輔',
         context: '魔法少女ノ魔女裁判', decs: '',
         date: 'NOV 2026', ytId: 'iXjR91FkiI4', start: 0,
         lyrics: `(Instrumental - No Lyrics)`,
