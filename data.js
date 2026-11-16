@@ -2022,6 +2022,149 @@ By my hand`,
         title: '限りなく灰色へ', artist: '25時、ナイトコードで。',
         context: 'Game - Hatsune Miku: Colourful Stage!', desc: '',
         date: 'DEC 2024', ytId: 'tsjQM-oZon4', start: 0,
+        lyrics: `
+才能なんてないからここで一生泣いているんだろ
+目に映った景色の青さが羨ましく思っていた
+路肩に転がる人生アスファルトの温度下がってる
+真夜中を照らす灯りを求めつなぐ電波セカイへと
+
+Rainy Rainy 求めるものだけ描いた
+心閉まって待って！本当は叫びたいのよ
+Rainy Rainy 強くありたいと願った
+声は無情に散って孤独を奏る
+
+指先から伝わっていく虚しさの色
+『認めてはくれないの？』
+
+燻んでしまったの灰色に
+こんな才能なんて借り物
+まだ人生終わっていないから
+諦めんなって誰かの声
+
+見失ってしまったのアイロニー
+気付けなくて今も抗ってる
+この感情奪って去ってよ
+ドロドロになってしまう前に
+
+wow...私だけみて愛を伝えて
+wow...こんなセカイとバイバイバイバイ
+wow...滲む想いなぞって描いた
+wow...夢の形に泣いちゃった
+
+いつかはできると思ってただけど現実は残酷だろ
+焦りと不安の渦の間に黒くなって浮かんでいる
+退廃的なセンスと曖昧な表現なんかじゃ
+奇を衒った奴らの芸術(アルス)に　飲み込まれて消えていく
+
+Rainy Rainy 雨と流れていく徒労感
+肩を濡らして残った冷たい記憶の体温
+Rainy Rainy 雲の隙間から覗いた
+光当たって届いて身体を軽くしたんだ
+
+美学とかプライドとか語る前に
+『やれることやっていけ』
+
+閉ざしてしまったの退路に
+焼けた才能を一つ置いてけ
+ただやったもん勝ちなんでしょ？
+固唾飲んでる場合じゃないでしょ！
+
+目を開いても変わらぬアイロニー
+気付いたってどーしようもないから
+それを虎視眈々と狙ってる
+ペルソナになんて越されんなよ
+
+wow...私だけみて愛を伝えて
+wow...こんなセカイとバイバイバイバイ
+wow...滲む想いなぞって描いた
+wow...言の葉の意味飲み込んで
+
+燻んでしまったの灰色に
+こんな才能なんて借り物
+まだ人生終わっていないから
+諦めんなって誰かの声
+
+見失ってしまったのアイロニー
+気付けなくて今も抗ってる
+この感情奪って去ってよ
+ドロドロになってしまう前に
+
+wow...私だけみて愛を伝えて
+wow...こんなセカイとバイバイバイバイ
+wow...滲む想いなぞって描いた
+wow...夢の形笑っていた
+`,
+        lyrics_rom:`
+sainou nante nai kara koko de isshou naite iru ndaro
+me ni utsutta keshiki no aosa ga urayamashiku omotte ita
+rokata ni korogaru jinsei asufaruto no ondo sagatteru
+mayonaka wo terasu akari wo motome tsunagu denpa sekai e to
+
+Rainy Rainy motomeru mono dake egaita
+kokoro shimatte matte! hontou wa sakebitai no yo
+Rainy Rainy tsuyoku aritai to negatta
+koe wa mujou ni chitte kodoku wo kanaderu
+
+yubisaki kara tsutawatte iku munashisa no iro
+"mitomete wa kurenai no?"
+
+kusunde shimatta no haiiro ni
+konna sainou nante karimono
+mada jinsei owatte inai kara
+akiramennatte dareka no koe
+
+miushinatte shimatta no aironii
+kizukenakute ima mo aragatteru
+kono kanjou ubatte satte yo
+dorodoro ni natte shimau mae ni
+
+wow... watashi dake mite ai wo tsutaete
+wow... konna sekai to baibai baibai
+wow... nijimu omoi nazotte egaita
+wow... yume no katachi ni naichatta
+
+itsuka wa dekiru to omotteta dakedo genjitsu wa zankoku daro
+aseri to fuan no uzu no aida ni kuroku natte ukande iru
+taihaiteki na sensu to aimai na hyougen nanka ja
+ki wo teratta yatsura no arusu ni nomikomarete kiete iku
+
+Rainy Rainy ame to nagarete iku toroukan
+kata wo nurashite nokotta tsumetai kioku no taion
+Rainy Rainy kumo no sukima kara nozoita
+hikari atatte todoite karada wo karuku shita nda
+
+bigaku toka puraido toka kataru mae ni
+"yareru koto yatte ike"
+
+tozashite shimatta no tairo ni
+yaketa sainou wo hitotsu oiteke
+tada yatta mon kachi nan desho?
+katazu nonderu baai janai desho!
+
+me wo hiraite mo kawaranu aironii
+kizuitatte dooshiyou mo nai kara
+sore wo koshitantan to neratteru
+perusona ni nante kosarenna yo
+
+wow... watashi dake mite ai wo tsutaete
+wow... konna sekai to baibai baibai
+wow... nijimu omoi nazotte egaita
+wow... kotonoha no imi nomikonde
+
+kusunde shimatta no haiiro ni
+konna sainou nante karimono
+mada jinsei owatte inai kara
+akiramennatte dareka no koe
+
+miushinatte shimatta no aironii
+kizukenakute ima mo aragatteru
+kono kanjou ubatte satte yo
+dorodoro ni natte shimau mae ni
+
+wow... watashi dake mite ai wo tsutaete
+wow... konna sekai to baibai baibai
+wow... nijimu omoi nazotte egaita
+wow... yume no katachi waratte ita`
     },
     {
         chapter: 2,
@@ -2660,6 +2803,122 @@ By my hand`,
         title: 'キャットラビング', artist: '25時、ナイトコードで。',
         context: '', desc: '',
         date: 'APR 2025', ytId: '8HW6tgNMGj8', start: 0,
+        lyrics:`痛いことは嫌いですが
+君の手の平は嫌いじゃない
+言葉は飴玉みたいに
+甘く広がってココロ満たす
+
+嗚呼全然分かってない 永遠に言う通り
+完全にフェアじゃない
+(どこにいても)
+嗚呼「何で？」は効いてない もっともっとあの子
+みたいに 可愛くならなくちゃ
+
+愛情は聡明に 
+傷痕はHow many?
+もう体　堕　痛いのだって
+分かんなくなる
+
+延命マタタビ
+週二ご褒美
+「もう嫌んなった」って
+離されないように
+
+今日だってちゃんと
+内緒の毛づくろい
+にゃんって良い子にするから
+愛して
+
+Everybody Today is rubbing day
+Get it Get it This is my courtship
+Any Any Any time is fine with me
+Gimme Gimme Love me, my darling
+
+会いたいを間違いなんて皆は言う
+取り憑かれているって
+ならこの胸で疼く
+締め付けるような切なさは何なの？
+
+選ぶ言葉 戸惑う指先
+端正な横顔
+（私しか知らない）
+嗚呼ランダムご機嫌 もしかして今日は
+優しく撫でてくれるのかな？
+
+君のソレが 耐えられるの
+生涯で私だけなんだよね
+あからさまに カラダまさに
+「もう嫌だ」って離れられないよね
+
+そうだよね？
+
+感情は上々に 訴えは少々に
+もうLieも賽のように
+転がせば良い
+柑橘の匂い だって凌ぐのだ
+もう噛んだって叱られるだけだし
+
+今日だってちゃんとお膝で 大人しく
+にゃんってお好きなように
+完全淘汰して`,
+        lyrics_rom:`itai koto wa kirai desu ga
+kimi no tenohira wa kirai janai
+kotoba wa amedama mitai ni
+amaku hirogatte kokoro mitasu
+
+aa zenzen wakattenai eien ni iudoori
+kanzen ni fea janai
+(doko ni ite mo)
+aa "nande?" wa kiitenai motto motto ano ko 
+mitai ni kawaiku nara nakucha
+
+aijou wa soumei ni
+shoukon wa How many?
+mou tai da itai no datte
+wakannaku naru
+
+enmei matatabi
+shuuni gohoubi
+"mou iyan natta" tte  
+hanasarenai you ni
+
+kyou datte chanto
+naisho no kedzukuroi
+nyan tte ii ko ni suru kara
+aishite
+
+Everybody Today is rubbing day
+Get it Get it This is my courtship
+Any Any Any time is fine with me
+Gimme Gimme Love me, my darling
+
+aitai wo machigai nante minna wa iu
+tori tsukarete iru tte
+nara kono mune de uzuku
+shime tsukeru you na setsuna sa wa nan nano?
+
+erabu kotoba tomadou yubisaki
+tansei na yokogao
+(watashi shika shiranai)
+aa randamu gokigen moshikashite kyou wa
+yasashiku nadete kureru no kana?
+
+kimi no sore ga taerareru no
+shuugai de watashi dake nanda yo ne
+akarasama ni karada masa ni
+"mou iya da" tte hanarerarenai yo ne
+
+sou da yo ne?
+
+kanjou wa joujou ni uttae wa shoushou ni
+mou Lie mo sai no you ni
+korogaseba ii
+kankitsu no nioi datte shinogu no da
+mou kandatte shikarareru dake dashi
+
+kyou datte chanto ohiza de otonashiku
+nyan tte osuki na you ni
+kanzen touta shite`
     },
     {
         chapter: 3,
@@ -2771,7 +3030,43 @@ By my hand`,
             [03:04.266] 答えのない問いに背いて 季節はまた巡るようで
             [03:09.316] 天地自然の理すら覆す絆だと
             [03:14.383] きっと 結末は 幸せだ
-`
+`,
+        lyrics_rom:`natsu no atsusa mo minna no omoi mo
+itsuka wa yokaze ni fukarete mou
+mae ni shika susumenai to shitta kara
+(kirei na) karenaide otosanaide
+mune ni daita hanataba wo
+moshimo omoide no kage ni te wo nobashitara
+mada minu keshiki wa toozakaru bakaride
+mayoi mo tomadoi mo shoumei datte
+ima made no yume ga atte
+furikaereba takusan no egao misete
+te to te wo tsunagi atte
+hagukunda kizuna dake wa tatta hitotsu
+kanaetai yume ni nante namae wo tsukeyou ka
+itami wo tomonau kore wa yume to yoberu no kai?
+kotae no nai toi ni sugatte
+kisetsu ga utsuri yuku you de
+tenchi shizen no kotowari da to kokoro ni ii kikase
+"donna ketsumatsu ga onozomi dai?"
+kono futatsu no omoi wa kyouzon dekinai mono ka?
+moshimo hanataba ni hi wo tsukete shimattara
+kore made tsumiageta mono wa garakuta de
+negai mo aijou mo hontou datte
+ima made no yume wo daite
+furikaereba takusan no kansha ni michite
+me to me de mukaiatte
+hagukunda kizuna dake wa tatta hitotsu
+kanaetai yume ni nante namae wo tsukeyou ka
+wakare ga tomonau kore wa yume to yoberu no kai?
+sousou ni ikizumatte kiseki tayori yowane haite
+tenchi shizen no kotowari ni wa kokoro mo aragaezu
+"donna ketsumatsu ga onozomi dai?"
+kanaetai yume ni nante namae wo tsukeyou ka
+itami wo norikoeta saki de nara waraeru kai?
+kotae no nai toi ni somuite kisetsu wa mata meguru you de
+tenchi shizen no kotowari sura kutsugaesu kizuna da to
+kitto ketsumatsu wa shiawase da`
     },
     {
         chapter: 3,
@@ -2911,7 +3206,62 @@ By my hand`,
 [03:28.733] 凪の海で向かい合わせ
 [03:31.805] 違う景色 同じ模様の
 [03:35.466] 答え合わせ
-        `
+        `,
+        lyrics_rom:`watashi wa dare
+anata no aware
+yozora no naka de namae wo nakushite
+uneri no nai
+minamo ni hisomu keshiki wo
+shiranai mama (kiri ni natte shimatte mo)
+tadayou kumo (betsuni ii no ni)
+kinou made wa (kamawanai no ni)
+tadayou kumo
+watashi wa naze massugu ni ochiru
+dareka no tenohira wo sagasu tame
+sora wo dekiru kagiri me ni osamenagara
+watashi wa ame (ame ame ame)
+hajikarete wakaru
+dareka (dare dare) no you ni wa
+narenai ame (ame ame ame)
+chikyuu wo komaraseru
+hodo no itami wo shiranai kara
+watashi wa ame
+sekai wo bokasu yoake (yoa yoa)
+ni michibikarete iru ame (ame ame ame)
+nagaretsuita umi no
+kakushiaji wo shiru made
+hoshi wo kakushita raimei to
+shikai kara hamidashita sekiran'un
+dekiru dake dekiru dake
+dekiru dake hanarete itakatta
+kasa wo sasu yoyuu wa nai shi
+kono mama demo ii to omoeru yo
+wakaranai kara shimikonderu no
+yoru no tsuyoi ame de me wo samasu
+watashi wa ame chikyuu no nazoru
+hitotsubude wa kizuku koto no nai ame
+yozora ni kazaritsukeru hoshi wo mitsukete
+sora ni ukandari ji ni ashi wo tsuketari
+kiekakattari afurekaettari suru
+egakete itara nani mo okinakatta
+sekaiteki kikou hendou
+watashi wa ame (ame ame ame)
+shitata tte wakaru
+dareka (dare dare) no you ni wa
+narenai ame (ame ame ame)
+chikyuu wo komaraseru
+hodo no omoi wo shiritai kara
+watashi wa ame
+sekai wo bokasu yoake (yoa yoa)
+ni michibikarete iru ame (ame ame ame)
+nagaretsuita umi no
+kakushiaji ni naru made
+watashi wa ame
+tadoritsuku made ni
+osarai wo wasurenaide
+nagi no umi de mukaiawase
+chigau keshiki onaji moyou no
+kotaeawase`
     },
     {
         chapter: 3,
@@ -2990,7 +3340,40 @@ By my hand`,
             [01:55.069] 逆さまな D/N/A
             [01:58.29] 私の 証と
             [02:01.53] 暖かな D/N/A
-`
+`,
+        lyrics_rom:`
+koishi wo takaku takaku tsumiagete wa
+fukisarasu kokoro wa yuugure
+itsuka mitsukaru to mada mitsukaru to
+shiroku amaku awaku
+kagefumi asobi bakari shitekimashita
+aganai ashigakari sagashite
+itsuka mitsukeru to mada mitsukeru to
+nagaku moroku tooku
+kagamigoshi anata to
+hitomi no oku no watashi to
+dareka no naka no anata wa
+kakera no mama ni yume wo miru
+datte D/N/A ja katarenai
+kono kokoro wa watashi no naka akaku
+akaku
+nemurenai maigo no naimononedari janai
+kono saibou wa aizou kizamareteru
+mada mitsukeru no mada mitsukeru no
+ienakatta oto wa?
+dareka no naka no anata wa
+tsunagareta mama yume wo miru
+datte D/N/A ja katarenai
+kono itami mo watashi no naka akaku
+akaku
+kagami no katachi to
+sakasamana D/N/A
+watashi no akashi to
+atatakana D/N/A
+kagami no katachi to
+sakasamana D/N/A
+watashi no akashi to
+atatakana D/N/A`
     },
     {
         chapter: 3,
@@ -3365,8 +3748,63 @@ By my hand`,
 [03:47.64] 想いは全部零さぬように抱き締めながら
 [03:51.20] キミと見たいセカイへ
 [03:58.44] キミと見たいセカイへ
-
-        `
+        `,
+        lyrics_rom:`
+zutto sagashitetan da yo
+tokubetsu datte ieru basho
+nande boku wo eranda no
+warau kimi ga te wo hiitan da
+datte kimi wa sugoi kara
+makerannai natte omoun da yo
+donna toki mo boku no naka ni
+kimi no koe ga narihibiite ita
+kowain da nani mo nai boku dakedo dekiru kana
+jishin nona sa to shou mo nasa de ii shoubu sa
+kedo kimi wa "sore ga dou shita no?" tte kao wo shite
+uta wo utau janai sore wa zurui janai
+tobikonde ikou bokura no sekai e
+seikai no omoi ni deaeru kana
+utatte itai odotte itai
+itai kurai waraeru you ni
+namae mo nai bokura no sekai wo
+mayotte ikeru yo kimi to dakara
+kawatte ikou negau you ni
+ima bokura kitai no mitaiken wo
+kimi no mirai wo boku ga utau yo egaite motto Yeah
+naite mo ii jan sore mo kotae da dou shitatte ii yo
+omoi wa zenbu kobosanu you ni dakishimenagara
+kimi to mitai sekai e
+zutto sagashiteta nda yo
+tokubetsu datte ieru basho
+donna boku ni naru ndarou
+odoru kokoro kaenai you ni
+chotto dake no sono saki de mata waraeru yo
+moratta baton wa yuuki ni arigatou wa utagoe ni
+kizuitanda boku ni shika dekinai koto mo aru koto
+dareka no toko e chanto uta wo todoketai no sa
+hora kowakute furueru te de biito kizameba
+yume mo chikai janai? bokura hitori janai
+tobikonde ikou bokura no sekai e
+seikai no omoi ni deaeru kana
+utatte itai odotte itai
+itai kurai waraeru you ni
+namae mo nai bokura no sekai wo
+mayotte ikeru yo kimi to dakara
+kawatte ikou negau you ni
+ima bokura kitai no mitaiken wo
+tobikonde ikou bokura no sekai e
+seikai no omoi ni deaeru kana
+utatte itai odotte itai
+itai kurai waraeru you ni
+namae mo nai bokura no sekai wo
+mayotte ikeru yo kimi to dakara
+kawatte ikou negau you ni
+ima bokura kitai no mitaiken wo
+kimi no mirai wo boku ga utau yo egaite motto Yeah
+naite mo ii jan sore mo kotae da dou shitatte ii yo
+omoi wa zenbu kobosanu you ni dakishimenagara
+kimi to mitai sekai e
+kimi to mitai sekai e`
     },
     {
         chapter: 3,
@@ -3492,6 +3930,37 @@ By my hand`,
 [02:08.129] Lux ta nos dirigat
 [02:10.881] I'll journey with you till the end (Ibi erit spes)
 `,
+        lyrics_en: `We pray for a journey through the stars
+Let your light guide us
+Where the Promised Land is...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We pray for a journey through the stars
+Let your light guide us
+Where the Promised Land is,
+There will be hope
+
+We pray for a journey through the stars
+Let your light guide us
+Where the Promised Land is,
+There will be hope
+
+We pray for a journey through the stars
+Let your light guide us
+I'll journey with you to the end (There will be hope)`,
+        trans_source_en:`Official`
     },
     {
         chapter: 3,
