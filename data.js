@@ -1958,13 +1958,127 @@ By my hand`,
             [01:42.322] 君が届けたい音は
             [01:45.586] いくつもの線は円になって
             [01:48.791] 全て繋げてく どこにだって (ah…)
-`
+`,
+        lyrics_rom:`katachi no nai kimochi wasurenai you ni
+kimari kitta reiauto wo keshita
+futo kuchi zusanda fureezu wo tsukamaete
+mune ni himeta kotoba nose sora ni toki hanatsu no
+kimi ni tsutaetai koto ga
+kimi ni todoketai koto ga
+takusan no ten wa sen ni natte
+tooku kanata e to hibiku
+kimi ni tsutaetai kotoba
+kimi ni todoketai oto ga
+ikutsumo no sen wa en ni natte
+subete tsunageteku doko ni datte (ah)
+kimi ga tsutaetai koto wa
+kimi ga todoketai koto wa
+takusan no ten wa sen ni natte
+tooku kanata e to hibiku
+kimi ga tsutaetai kotoba
+kimi ga todoketai oto wa
+ikutsumono sen wa en ni natte
+subete tsunageteku doko ni datte (ah...)`
     },
     {
         chapter: 2,
         title: 'アイディスマイル', artist: '25時、ナイトコードで。',
         context: 'Game - Hatsune Miku: Colourful Stage!', desc: '',
         date: 'DEC 2024', ytId: 'JTOM6fuXptg', start: 0,
+        lyrics:`交わる　線と線
+着飾る　大好きな　アレコレソレ
+そう　いつだって
+譲れないアイデンティティ
+
+重なる　円と円
+深まる　たぶんもっと Face to Face
+ねえ　いつだっけ
+飛び越えられない　マイノリティ
+
+進めない　行き止まりでも
+繋いでたいなら 外せない　秘め事
+
+惹かれ　逢って　存在 綴る　セカイ　共鳴らせたなら
+ねぇこのままで　ままで　いられるかな
+淡い期待に通せんぼ 塞いで曖昧　知らん顔
+こうやって繋いでいられたなら
+
+いたい　いたいの　どっちだ
+
+手探り　手繰り寄せても
+繰り返し　絡まるの　気持ちの糸
+ねえ　いつだって
+諦めたままのディスタンス
+
+キリのない　振り出しでも
+繋いでたいから　 外さない　秘め事
+
+巡り　逢って　存在 描く　セカイ　共鳴らせたなら
+ねぇこのままで　ままで　いられるかな
+思い余って隠れんぼ 迷って混在　メランコリー
+こうやって繋いでいられたなら
+
+縫い合わせて　編み合わせて
+繕ってさ　何が出来るだろう
+切り取って　笑って　距離とって
+笑えるけど　笑えてるけど
+
+滲みだした境界　揺らぐ未来
+伝えたなら　もうこのままじゃ　ままじゃ
+
+想い　逢って　存在 映す　セカイ　共鳴らせたなら
+ねぇこのままで　ままで　いられるかな
+淡い期待に通せんぼ 塞いで曖昧　知らん顔
+こうやって繋いでいられるなら
+
+いたい　いたいの　どっちだ`,
+        lyrics_rom:`majiwaru sen to sen
+kikazaru daisukina are kore sore
+sou itsudatte
+yuzurenai aidentiti
+
+kasanaru en to en
+fukamaru tabun motto Face to Face
+nee itsu dakke
+tobikoerarenai mainoriti
+
+susumenai ikidomari demo
+tsunaidetai nara hazusenai himegoto
+
+hikareatte sonzai tsuzuru sekai naraseta nara
+nee kono mama de mama de irareru kana
+awai kitai ni toosenbo fusaide aimai shirankao
+kouyatte tsunaide irareta nara
+
+itai itai no docchi da
+
+tesaguri taguriyosete mo
+kurikaeshi karamaru no kimochi no ito
+nee itsudatte
+akirameta mama no disutansu
+
+kiri no nai furidashi demo
+tsunaidetai kara hazusanai himegoto
+
+meguriatte sonzai egaku sekai naraseta nara
+nee kono mama de mama de irareru kana
+omoiamatte kakurenbo mayotte konzai merankorii
+kouyatte tsunaide irareta nara
+
+nuiawasete amiawasete
+tsukurotte sa nani ga dekiru darou
+kiritotte waratte kyoritotte
+waraeru kedo waraeteru kedo
+
+nijimidashita kyoukai yuragu mirai
+tsutaeta nara mou kono mama ja mama ja
+
+omoiatte sonzai utsusu sekai naraseta nara
+nee kono mama de mama de irareru kana
+awai kitai ni toosenbo fusaide aimai shirankao
+kouyatte tsunaide irareru nara
+
+itai itai no docchi da`
     },
     {
         chapter: 2,
@@ -2015,7 +2129,63 @@ By my hand`,
             [02:33.931] 誰にも言えないまんま 自分のまんまで勝ち上がるんだ
             [02:39.063] 探していた答えだって 未来みたいに手の中に
             [02:43.574] あった
-                `
+                `,
+        lyrics_rom:`hyoujun hensa inai no jinsei
+hyoujou koroshite kusatta hinsei
+hora hora kizukeba mata
+tada tada sugiyuku hibi
+
+hyougen yoku mo hibon na sai mo
+manzen to ikitecha nan mo nan nai no
+yada yada atashi wa yada
+nagekedo kawaranu mama
+
+ukeiregatai shinjou wo nejikomu no ga ai nanda
+
+atashi wa jakkupotto saddo gaaru wakariaenu mama
+ten to sen de endorooru egaku hibi no naka
+dare ni mo ienai manma kakaeta omoi koso kachi ga aru nda
+sagashite ita kotae datte mirai mitai ni te no naka ni
+
+seiron bakka ja choo tsumannai
+jinsei wa isshu no jooku nanda
+haroo haroo ki no muku mama
+sono oto naraseba hora
+
+seishin souba wa choo fuantei
+antei na saku toka honto taikutsu sa
+mite mite atashi no naka
+kokoro no okusoko ni aru
+
+kuroku yodonda suisou ni utsuru no wa bishou datta
+
+jakkupotto saddo gaaru wakariaezu to mo
+shinnozou no biito wo tsuyoku hibikasete
+munehari seisei doudou shoumen toppa de machigaeru nda
+kakushimotta niawanai naifu itan'yue no saisentan
+
+hii fuu mii yoo
+ii muu naa yaa
+hii fuu mii yoo
+ii muu naa yaa
+
+(hii fuu mii yoo) nee sensei koko muhou chitai
+(ii muu naa yaa) anata iwaku sude ni sutare kareta anekumeene
+(hii fuu mii yoo) kusaki haezu jinrui no sumenaku natta
+(ii muu naa yaa) chiipu de kicchu na shouwakusei
+
+nee sensei anata baka janai no
+imada tagiru kanjou wo shiranai no
+korikatamatten nara obenkyou
+koko de muku de muchide mui na sanbi wo misetsukeru wa
+
+soredemo
+
+jakkupotto saddo gaaru wakariaeru ka na
+donna fuan mo taida mo mina kakaeta mama
+dare ni mo ienai manma jibun no manma de  kachi agaru nda
+sagashite ita kotae datte mirai mitai ni te no naka ni
+atta`
     },
     {
         chapter: 2,
@@ -2365,7 +2535,55 @@ wow... yume no katachi waratte ita`
             [02:30.86]
             [02:38.31]不安ばっか知っていた あの日のボクらが
             [02:41.88]この街で僕らになれますように
-`
+`,
+        lyrics_rom:`fuan bakka shittenda ame ga furisou na hi
+kaze no nioi de wakaru kara
+dare datte kizuitenda boku ni wa muri dato
+soredemo agaite wa koronda
+
+yuujou to doryoku to shouri no houteishiki
+tokenai mama sugoshita bokura ni mo
+itsuka wakaru hi ga kuru yo tte
+kakushou naku waraeru jibun ga kirai da
+
+hoshi ga furu ano machi ni
+okizari ni shita omoide ga
+mune no oku de yurameite iru
+itsu made mo kogarete ita
+
+sore wa zattou no umi no naka de
+odoru you ni moete iru dareka no koe
+zutto sagashitsuzuketeru
+tatoe sore ga bokura no wagamama demo ii sa
+
+suki na koto eranda nda
+mune wo hareba ii tte
+wakatteru wakatteru kurikaeshita
+
+musunda yubi to kasaneta kokyuu
+narihibiku kodou ni mimi wo sumashita
+
+honto wa iitaku nakatta
+uzattainda yo gaiya bakka
+koko de ikiru tte koto kimetanda kara!
+
+kitto bokura no deai datte
+kono sora no shita ni aru chiisana sekai
+zutto motometsuzuketeru
+tatoe sore ga dareka no kimagure demo ii sa
+
+sore wa zattou no umi no naka de
+odoru you ni moete iru ano hi no koe
+zutto sagashitsuzuketeru
+tatoe sore ga bokura no wagamama demo
+
+kitto bokura no deai datte
+kono sora no shita ni aru chiisana sekai
+zutto motometsuzuketeru
+tatoe sore ga dareka no kimagure demo ii sa
+
+fuan bakka shitte ita ano hi no bokura ga
+kono machi de bokura ni naremasu you ni`
     },
     {
         chapter: 3,
@@ -2492,7 +2710,92 @@ wow... yume no katachi waratte ita`
             [03:44.843] サヨナラのあと 手を繋ごう
             [03:47.974] はじまる未知と―
             [04:03.726] 終わらない未知で―
-`
+`,
+        lyrics_rom:`hikari, mirai ai no uta ou
+ukai, deai hajimemashite
+tou kara mata ne butai no ura
+sou tsuzuite yuku michi no
+
+kimi ga warau keshiki no suna ga
+suki, de irozuku you ni ne
+ureshii hi mo kanashii hi mo
+uta to tomo ni iru yo
+
+ano sakamichi mo mawarimichi mo
+kimi to ireba hora ne, myuujikku
+e sonna nichijou? donna nichijou?
+touan ni, osamaranai ne fushigi
+
+kaze ni toketa onpu no mure ga
+kawaita kokoro no koe to hamotte
+kakushite kita hontou no uso ga
+heddofon ni hibiita
+
+naishobanashi mo hitorigoto mo
+kimi no te ni kakareba, myuujikku
+ikitsugi shitara umaretate no
+kisetsu wo suikonda
+
+kawari yuku keshiki no kuuhaku wo
+kawaranai utagoe ga irodoru yo
+wasuremono ni kizuita tsuugakuro
+tsumazuita toi wo karamatta kako wo
+hodoitara, ippo saki
+
+hashiridasu mirai no sugu soba de
+yume ni mamireta ima wo daku
+shingou fumikiri itsudemo
+ongaku wa mou, tomaranai
+
+ano egao mo namida mo kimi no uta
+mada, utaeru yo
+
+aozora no shita de kono natsu wo saisei
+kiite yo konna uta dou?
+mudai demo wanfureezu no shoudou
+jaa, mata ne ichibyou go ni aou
+owaranai michi de
+
+oto de nazoru hoshizora no kiseki
+shiawase sagasu kirei wo matou me
+kimi ga "kimi" de ite kureta kara
+koko ni iru, kyou datta
+
+1.2.3 de kirameku fantajii wo
+yoru ni kazasu intaaryuudo wo
+machi wo somete yuku ririkku wo
+tsunaide yuku, sekai
+
+hajimari no keshiki no kuuhaku wo
+tonariawase no kimi ga irodoru yo
+tagaichigai, machigai, surechigai...?
+
+tarinai kurai no
+kienai kurai no
+nijinda iro wo hamidashita iro wo
+aishitara ippo saki
+
+kirei na mirai ni nare nakute mo
+yume ga koborete shimatte mo
+dareka no omoi ga todoku made
+ongaku wa sou, tomedo naku afureteku
+
+hashiridasu mirai no sugu soba de
+yume ni mamireta ima wo daku
+mizu tamari kurasshu hajikete
+ongaku wa mou, tomaranai
+
+koukai mo negai mo kimi no uta
+hora, kikoeru yo
+aozora ni utsuru
+ano hibi no zanzou
+
+"oboeteru? boku no uta wo"
+kasaneau ookesutora moyou
+sayonara no ato te wo tsunagou
+hajimaru michi to―
+
+owaranai michi de―`
     },
     {
         chapter: 3,
@@ -2527,7 +2830,7 @@ wow... yume no katachi waratte ita`
             [03:14.20] 此処は宴 鋼の檻 その断頭台を飛び降りて
             [03:20.633] 千本桜 夜ニ紛レ 君が歌い僕は踊る
             [03:26.866] 此処は宴 鋼の檻 さあ光線銃を撃ちまくれ
-`
+`,
     },
     {
         chapter: 3,
@@ -2615,6 +2918,70 @@ wow... yume no katachi waratte ita`
 [03:59.42]Push 'em way back, take that
 [04:00.86]They don't even really let ya take a gallon to the neck
 [04:02.22]Got me feeling like a boss 'cuz I'm laid back`,
+        lyrics_rom:`
+
+naa genki? choushi wa dou dai?
+aa mou ne sou iu no yametan da
+un nanka mou kaifuku no mikomi wa nai sou nanda
+nani mo kikanaide kure
+
+koukai nebumi danshoukai
+kaigo etsu kyouyuu mo sarendaa da
+hai sou desu shoushinshoumei boku no sei datta
+yoku aru hanashi
+
+tanjunmeikai wo mono ni shitakute
+kaku arubeki to iu risou wo koroshite
+mou sanzan datte nigeru yuuki mo nai
+hayaku motto ochite
+
+"ikite itai yo"
+maiyo nodo wo fusagu toumei no gaiyou hai wo mushibamu jitsuzai mo
+rifujin mo kodoku mo uramanakute ii sorera subete imi wa nain da
+bokura wa ikiru shikanain da
+
+oi omae socchi wa dou dai
+aa mada sonna koto yatten da
+sou iya tsukiatteta ko to wa dou nattan da
+nani mo iwanaide kure
+
+shourai netami haibokukan
+waiyaresu kubi mo tsurenai na
+hai kyouetsu taihen mi ni shimiru ohanashi deshita
+mitasareta kai
+
+makkuroku nigotte wareta kokoro wo
+arukooru de shoudoku shite nemuru
+mou antan taru taiga no mizu ni natte
+motto motto motto motto ochite
+
+"ikite itai yo"
+maiyo nodo wo tsukamu kuuki mo mirai mo naizou wo kataru nikukai mo
+shiawase mo uchuu mo utagawanakute ii sorera subete kawaranain da
+bokura wa shiranakute iin da
+
+"ikite itai yo" nande ka wakaranai kedo
+"ikite itai yo" DNA to iu seisho
+honnou mo kyoufu mo uramanakute ii douse nani mo kawaranain da
+
+(Forty-five here to waste time Hit 'em with the rhythm in the face)
+
+"ikite itai yo" nan no kibou mo nai kedo
+"ikite itai yo" honnou wa akaku myakuutsu no
+"ikite itai yo" "ikitetakunai yo"
+hontou ni zannen dakedo
+bokura wa ikiru shikanain da
+
+damashite gomen yo (damashite gomen yo)
+ienakute gomen yo (ienakute gomen yo)
+soshite hontou ni kanashii keredo
+kurushimi dake ga kizuna nanda
+
+Forty-five here to waste time
+Hit 'em with the rhythm in the face
+Push 'em way back, take that
+They don't even really let ya take a gallon to the neck
+Got me feeling like a boss 'cuz I'm laid back`,
     },
     {
         chapter: 3,
@@ -2714,7 +3081,86 @@ wow... yume no katachi waratte ita`
 [03:16.069] すべて理解して患った
 [03:19.31] 無邪気に 踊っていたかった
 [03:22.27] 人生
-`
+`,
+        lyrics_rom:`"Oh my God"
+ai no netabare "wakare"ppoi na
+jinsei no netabare "shinu"ppoi na
+nani sore imi shinde kakkoii jan...
+soreppoi tangoshuu de odottenda shikkei
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+poi jan poi jan
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu
+kamippoi na
+mou ii ze mou ii ze sore mou ii ze mou ii ze
+gyaku ni koufun shite kita naa
+okkii ne okkii ne yume okkii ne okkii ne
+keiki ii kedo hinsei wa THE END
+ueei ueei
+"Gott ist tot"
+kamippoi na sore hikyou kamippoi na sore "My God"
+aiuonchuu uonchuu IQ ga sagatte iku kanji
+jashin poi na sore hikkyou jashin poi na sore "My God"
+aiheichuu heichuu gaichuu wa docchi
+sono kamigata sono me sono kuchimoto
+sono kousui sono fuku sono meiku
+areppoi na sore hikyou areppoi na sore
+sono meigen sono iken sono hihyou
+sono karisuma sono gyagu sono sensu
+kamippoi na sore hikyou
+poi na poi na poi akogarechau!
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+poi jan poi jan
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu
+kamippoi na
+meta shikou suru honshitsu wa akui?
+hito wo kobaka ni shita you na sakui
+mui ni ikinobiru no wa muzukashii
+kenryoku ni nomarete yuragu akari
+kami wo hitei shi kami ni narikawari
+gyokuza de hyouhen suru komonotachi
+hihan ni misekake jikai no inori
+Do you know?
+nani itten no? sore uzai nani itten no? sore
+imi ga yoku wakannai shi nemucchau yo maji
+akippoi nda ookee minna akippoi nda ookee
+odoreru yatsu choudai choudai biimu
+kisshoi ne kisshoi ne sore kisshoi ne kisshoi ne
+gyaku ni fan ni natte kita jan
+chicchai ne chicchai ne utsuwa chicchai ne chicchai ne
+tensaiyue kodoku desu ne
+kakkee… kakkee…
+“Gott ist tot"
+kamippoi na sore hikyou kamippoi na sore "My God"
+chou kenkou kenkou iihatte kutabatte iku kanji
+yakeppoi na sore hikkyou yakeppoi na sore "My God"
+mou aishuu aishuu epigoonen no hiiru
+sono taitoru sono e sono sutoorii
+sono ongaku sono uta sono merodi
+areppoi na sore hikyou areppoi na sore
+sono meigen sono iken sono hihyou
+sono karisuma sono gyagu sono sensu
+kamippoi na sore hikyou
+poi na poi na poi akogarechau wa!
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+poi jan poi jan
+tu turu tu tu turu "fuu"
+tu turu tu tu turu "fuu"
+tu turu tu tu turu
+kamippoi na
+ai no netabare "wakare"ppoi na
+jinsei no netabare "shinu"ppoi na
+subete rikai shite wazuratta
+mujaki ni odotte itakatta jinsei`
     },
     {
         chapter: 3,
@@ -2796,7 +3242,82 @@ wow... yume no katachi waratte ita`
 [03:28.619] ザザザザザムザ
 [03:30.675] 『ズキズキ…』
 [03:33.831] 『ズキ』
-`
+`,
+        lyrics_rom:`tsukaifurushita jibun no namae ni
+aete kicchu na rubi wo futte
+kouketsu wo uchi makaseru kurai ni
+osoroshiku naru hone no zui made
+ima wa donna fuu ni mietemasu ka?
+minikui desu ka? sore wa sokka
+douka ringo wo nagetsukenaide
+mune ni Lock up Lock up
+zamuza
+"kagami wo goran" dareka ga sasayaku
+umaku ittara moukemono sa
+amai kotoba mo egao mo tsuujinai
+hashiridashitara mou kemono da
+tsuki no mashita wo urotsuki nagara
+kangaeteta yosugara
+akumu ni dono yubi tatete
+yarubeki ka tte ne
+zukizukizuki "zukizukizuki"
+zukin zukin zukin "zukin zukin"
+zukizukizuki "zukizukizuki"
+zuki zuki zukin
+kaware...
+zukizukizukizukizuki
+dare datte tamashii karagara
+zukizukizuki...
+itami to ranguraa wo kurattattaratta
+da no ni naze darou ima mo
+zukizukizuki tte
+hade na shippo wo hikizuriyuku zazazaza zamuza
+"genjitsu wa mou ii" nante iu na yo zamuza
+oo iee
+"zukizukizuki..."
+zazazaza zamuza
+"zukizukizuki..."
+"gomenne. chittomo jouzu ni 
+ikite agerarenakute" to tsutaete
+hiteikei no egao demo hoshikute 
+ningensama narikitteru bourei
+jibun no yowane ni aizuchi bakari datta
+touzen anata to matomo ni kenka mo dekinakatta
+zukizukizuki "zukizukizuki"
+zukin zukin zukin "zukin zukin"
+zukizukizuki "zukizukizuki"
+zuki zuki zukin
+kawaresou ni naiyaiya
+joudan janai yume wo tabenaide
+zukizukizuki...
+kojareta zetsubou wo utattattaratta
+doushiyou mo nai nare no hate demo
+zukizukizuki tte
+itsuka itoshii uta ni naru sa zazazaza zamuza
+nee ichi ni san de tonde zazazaza zamuza
+issaigassai kettobashite zazazaza zamuza
+atogaki de furerare mo shinai hibi
+koko de nigedashitara hontou ni sou narisou da
+dare datte tamashii karagara
+zukizukizuki...
+itami to ranguraa wo kurattattaratta
+da no ni naze darou ima mo
+zukizukizuki tte (zukizuki)
+ringo wo kajiru you ni zaza zamuza
+doushiyou mo nai nare no hate demo koko ni iru
+shaga no hana ni doku sarete mo
+hikari wa ichiji no hougaku ni aru
+ima wa shippo wo hikizuri yuke
+zazazaza zamuza
+dakara "genjitsu wa mou ii" nante iu na yo zamuza
+ookee?
+"zukizukizuki..."
+zazazazamuza
+"zukizukizuki..."
+"zukizukizuki..."
+zazazazamuza
+"zukizuki..."
+zuki`
     },
     {
         chapter: 3,
@@ -2986,6 +3507,67 @@ kanzen touta shite`
 [03:08.34]答えは音の中。
 
 [03:11.93]そして、あたしの中。`,
+        lyrics_rom:`ajike no nai yoru ni toketa yuki ga,
+kotoba wo karasu no wa naze?
+tsutawaranai omoi dake ga kokoro somete,
+kanashimi ni oboreta you na,
+utakata no hazu baraddo.
+
+jitsugetsu sae mo kodoku na tenge de,
+karamatte hodoite wo rinne suru gusha no mure.
+marude, ichiyou ni hitori to shitta hansha de
+chouwa wo hakaru, honnou no mama no kiti.
+
+aa, doko ni mo shinsekai nante nai.
+hitori de aishi, aisarete itai.
+hatashite kyou wa kyou nara kinou wa dou?
+tsumari towa ni fukou tte koto?
+
+sore nara, dou ni kashitai shidai.
+soredemo chokushi nante dekinai.
+mata, rettou to shousou ga niramiatte iru.
+
+nogareru koto to, me wo sorasu koto,
+dochira ni kachi ga aru darou?
+tada koko de, mondou meisou
+jaa, tsuttatte mo meisou.
+saa ten to ten wo musubu you ni,
+
+tashika na ai ga mitai nara, oto ni natte ima nigedashite!
+itsuwaranakuta tte sakenda senritsu ga hikari to kashite tsutau no sa.
+kono uta ga machigai demo kamawanai wa. koe wo karashite!
+kakinarase, buruusu doraiba ando terekyasuta.
+kotae wa oto no naka.
+
+eeemu wan okurokku, keishou randa ni okosu mabuta.
+atashi wa "nani ga shitai" "nani ga shitai"
+"nani ga shitai" to shunjun no aida,
+yokei na koto bakari ga atama no naka karamatte ita.
+tansei korashita peipaakurafuto wa chakkazai to kashita.
+
+rettoukan, jikkan, hikan de,
+katte ni kuratte passhiviti.
+ensouka minamina de
+kappa suru seitaikei?
+
+sore de wa, henkousei kara botsukosei de
+rekka suru sai ga oshiku natte shimau.
+futsugou nado ketobashite
+meimei ni odore ya. wan, tuu, surii, foo.
+
+nogareru koto to, me wo sorasu koto,
+dochira ni kachi ga aru darou?
+tada koko de, mondou meisou
+jaa, tsuttatte mo meisou.
+saa ten to ten wo musubu you ni,
+
+tashika na ai ga mitai nara, oto ni natte ima nigedashite!
+itsuwaranakutatte sakenda senritsu ga hikari to kashite tsutau no sa.
+kono uta ga machigai demo kamawanai wa. koe wo karashite!
+kakinarase, buruusu doraiba ando terekyasuta.
+kotae wa oto no naka.
+
+soshite, atashi no naka.`
     },
     {
         chapter: 3,
@@ -3432,8 +4014,58 @@ atatakana D/N/A`
 [02:25.46] さあ バ バ バグさ バグバグ
 [02:28.259] 暗闇(クロ)マミレ理性 嫌 嫌 嫌
 [02:30.80] 今 今 今 嫌 嫌 嫌 嫌 嫌 嫌 嫌 嫌 嫌
-
-`
+`,
+        lyrics_rom:`maigo maigo mattadanaka saa
+papapara paranooi"a"
+giko giko mai kokoro sen tei
+papapara paranooi"a"
+tairo tairo tatta karamat ta
+papapara paranooi"a"
+SAD SAD tsuppushite ka ra
+papapala paranooi"do"
+saa bababagu sa bagubagu
+tatatagu sainou no tagu
+mou haha hagu kanjou wa hagu
+hasshou "kurushii" wa iyaiyaiya iyaiyaiya
+maa! zekkyouna kanjou rakka papparanooia"a"
+oboregoe agete wa guruguru
+maa! zettai zetsumei rakka yattara mettara
+shizume yumeyume iyaiyaiya
+saa bababagu sa bagubagu
+matohazure zure jiai iyaiya
+saa bababagu sa bagubagu
+kotae taedae iyaiyaiya iyaiyaiya
+kurukuru pakkaan keihou matte muri
+guruguru seenode maware
+(kurukuru kurukuru)
+aaaaa pakkaan keihou yappa muri
+guruguru anyo ni kusari
+(kurukuru kurukuru)
+endoresu yami...? aha
+dakko dakko iranai ko da
+papapara paranooi"a"
+ii ko ii ko "ganbare" no hanran
+adominisutoreitaa aa
+bababagu sa bagubagu
+rararagu rantaimuragu
+rororogu hankou no rogu
+bababagu pappala papa
+paaranooi"a" pa paaranooi"a"
+pa paaranooi"a" iyaiyaiya
+saa zenkkyou na kanjou rakka papparanooi"a"
+hidari migi yukue mo guruguru hisan
+genkainou kurucchatte yattara mettara
+yami mayoe yoe inai inai baa
+inai inai batten
+zekkyou na kanjou rakka papparanooi"a"
+oboregoe agete wa guruguru
+maa! zettai zetsumei rakka yattara mettara
+kogoe kare hate iyaiyaiya
+saa bababagu sa bagubagu
+tadare are are hiai iyaiya
+saa bababagu sa bagubagu
+kuro mamire risei iyaiyaiya ima ima ima
+iyaiyaiyaiyaiyaiyaiyaiyaiya`
     },
     {
         chapter: 3,
@@ -3853,7 +4485,47 @@ kimi to mitai sekai e`
 [02:10.979] あーネガっては願ってるから
 [02:13.259] それぞれの愛が暖かな場所がある
 [02:19.189] 痛い
-        `
+        `,
+        lyrics_rom:`kyomuppoi nanka mou dame mitai
+mou barabara desu  karakara desu
+kudannai hontou mou baka mitai
+mou torikomitai shizukana sekai
+kimi no kitai kotaetai shi
+kokoro shidaini karechau shi
+kirinai shousou to kitai de 
+itaku naru mirai
+kodoku ni torawarechau shi
+torauma ga nou shihai shichau shi
+saiteina hibi da 
+itai
+baiorensu baiorensu
+nanmo wakannai wakannai yo
+nankai ai wo rosuto ai wo rosuto
+aishite aishite
+aironii aironii
+kurakura suru mainichi da
+nounai endoresu endoresu touron
+yamete kure yo mou
+nanimo kitai shinaide itai shi
+mitsukaranaitte naita mainichi
+kurushikute attakai ano hi ga yume no youde
+suponji mitaina shootokeeki
+waruginai ai wa itai ga heikina furi
+mou tsukareta
+tada tada tada aishite hoshii aishite hoshii
+karakara kawaita
+kokoro mitashite
+kietakunai kara
+kudaranaina
+baiorensu baiorensu
+nanmo wakannai wakannai yo
+nankai ai wo rosuto ai wo rosuto
+aishite aishite
+aironii aironii
+kurakura suru mainichi da
+aa negatte wa negatteru kara
+sorezore no ai ga atatakana basho ga aru
+itai`
     },
     {
         chapter: 3,
@@ -4287,6 +4959,54 @@ sekai wo buchinuite`,
 [02:51.21] 歌声響かせれば No doubt
 [02:54.729] 扉は放たれた
 `,
+        lyrics_rom:`eikan no saki made zenkai de habatake
+iza yukou! utagoe hibikasereba No doubt
+tobira wa hanatareta
+shousoukan datte toki ni norikonashite
+tanoshimu no mo waruku wa nai you da
+sakarawanaide ashi wo tomenaide
+wazuka na chansu wo nerae!
+narihibiku sairen
+kakikeseru raimei wo
+kono te de yobiokoseru made wa
+akirameru koto wa shinai sa
+mezashita mirai e no michi shirube wa mou
+tsukandeiru ndayo
+minogasanaide!
+seiten dake egaita inotteita nda
+kasoku wo tsuzuke subete norikoetekita
+me no sameru you na kono sekai wo
+saa motto, motto, motto, motto hirake!
+kagen nante hitsuyou nai sa
+yume mo riaru mo tsumaranaku nacchau kara!
+utagoe hibikasereba No doubt
+tobira wa hanatareta
+kakinarashite Ensemble wan pan de
+madataki to tomo ni sugita Days
+koko wa nemuranu Maze saa chuushin e
+hikari to yami no ma Survival
+kono mama de owaru wake mo nai ne
+sawagashii hodo hayaku ugokeru nda
+ima shika nai to kakugo kimeta nara
+tamerau riyuu nado nai sa
+todoketai omoi ni wa yume wo takusu yo
+afuredasu hodo sosoide mo
+sosogi tarinai
+seiten dake egaita bokura ga mada
+mita koto no nai aozora ga
+kono saki no haruka tooku ni
+aru to shinjiteru kara
+haran datte souteinai da
+hora madamada ibasho wa aru darou
+utagoe hibikasete tsunaida ibasho ga!
+seiten dake egaita inotteita nda
+kasoku wo tsuzuke subete norikoetekita
+me no sameru you na kono sekai wo
+saa motto, motto, motto, motto hirake!
+kagen nante hitsuyou nai sa
+yume mo riaru mo tsumaranaku nacchau kara!
+utagoe hibikasereba No doubt
+tobira wa hanatareta`
     },
     {
         chapter: 3,
@@ -4419,6 +5139,68 @@ sekai wo buchinuite`,
 [03:31.93]その手で深くへ
 [03:34.53]余す事も無く
         `,
+        lyrics_rom:`sabishikute nemurenu hibi mo
+konya atari, sayonara dekiru ki ga suru
+mune no takanari
+
+misukasareta yukue shirezu no
+kimochi kakushite mo sude ni osoi wa
+yo no tsune
+
+ima kara subete de tobashite ageru
+
+senseeshon aiso burazu ni
+senseeshon makiokosu no yo
+senseeshon doko fuku kaze mo
+rikai wo toorikoshite
+
+senseeshon nante suteki na
+zecchoukan michi afureteku
+watashi ga nanimono kamo
+dou demo ii kara hora
+sono te de fukaku e
+
+horonigai no ni nareta sei
+dakedo nuri katameta uwabe wa sorosoro
+hagare sou nano
+
+chuutohanpa wa kirai dakara
+majirike no nai taido de hairikomi mashou
+
+senseeshon hajiru ki wa zero
+senseeshon anadoranai de
+senseeshon shinan no waza wa
+jijitsu koko ni aru kara
+
+senseeshon aete kuridasu
+shinkocchou zokuzoku suru wa
+anata no yosou ni nai
+gendo ga kuruu saki no
+chuudoku shoujou
+
+gomakasanakute mo aishite iru wa
+
+senseeshon jiku wa burasazu
+senseeshon bibitaru mono mo
+senseeshon sarake dashitai
+risuku mo shouchi no ue
+
+senseeshon koko wa rekishi no
+saizensen tomete minasai
+kiseki wo misete ageru
+shinjidai no makuake
+
+senseeshon aiso burazu ni
+senseeshon makiokosu no yo
+senseeshon doko fuku kaze mo
+rikai wo toorikoshite
+
+senseeshon nante suteki na
+zecchoukan michi afureteku
+watashi ga nanimono kamo
+dou demo ii kara hora
+sono te de fukaku e
+amasu koto mo naku`
     },
     {
         chapter: 3,
