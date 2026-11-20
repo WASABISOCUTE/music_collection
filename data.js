@@ -568,6 +568,42 @@ const tracks = [
     },
     {
         chapter: 0,
+        title: 'No Roots', artist: 'Alice Merton',
+        context: '', desc: '',
+        date: '', ytId: 'PUdyuKaGQd4', start: 0, end: 0,
+        lyrics: `I like diggin' holes and hidin' things inside them
+When I grow old, I hope I won't forget to find them
+'Cause I've got memories and travel like gypsies in the night
+I build a home and wait for someone to tear it down
+Then pack it up in boxes, head for the next town, runnin'
+'Cause I've got memories and travel like gypsies in the night
+And a thousand times I've seen this road
+A thousand times
+I've got no roots, but my home was never on the ground
+I've got no roots, but my home was never on the ground
+I've got no roots, I've got no roots
+I've got no roots, but my home was never on the ground
+I've got no roots, but my home was never on the ground
+I've got no roots, I've got no roots
+I like standin' still, but that's just a wishful plan
+Ask me where I come from, I say, "A different land"
+But I've got memories and travel like gypsies in the night
+I count gates and numbers, then play the guessing game
+It's just the place that changes, the rest is still the same
+But I've got memories and travel like gypsies in the night
+And a thousand times I've seen this road
+A thousand times
+I've got no roots, but my home was never on the ground
+I've got no roots, but my home was never on the ground
+I've got no roots, I've got no roots
+I've got no roots, but my home was never on the ground
+I've got no roots, but my home was never on the ground
+I've got no roots (roots), I've got no roots (roots, ah)`,
+        lyrics_cn: ``,
+        trans_source_cn: ``,
+    },
+    {
+        chapter: 0,
         title: '沙漠骆驼', artist: '展展与罗罗',
         context: '', desc: '',
         date: '', ytId: 'BYgh1-JgTnY', start: 0,
